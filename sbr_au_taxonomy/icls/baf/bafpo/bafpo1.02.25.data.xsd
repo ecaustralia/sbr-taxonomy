@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bafpo1.02.25="http://sbr.gov.au/icls/baf/bafpo/bafpo1.02.25.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtyp.02.32="http://sbr.gov.au/fdtn/sbr.02.32.dtyp" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/baf/bafpo/bafpo1.02.25.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.32.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.32.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="bafpo1Abstract" id="bafpo1.02.25_bafpo1Abstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="Assets.DemandDeposits.Amount" id="DE14092" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+    <xsd:element name="Assets.Equities.Amount" id="DE14094" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+    <xsd:element name="Assets.FinancialInstrumentsOther.Amount" id="DE14096" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+    <xsd:element name="Assets.InterestBearingNonDerivative.Amount" id="DE14095" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+    <xsd:element name="Assets.PlantAndEquipment.Amount" id="DE14144" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+    <xsd:element name="Liabilities.OtherCollective.Amount" id="DE14111" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+    <xsd:element name="Liabilities.OtherCollective98thPercentile.Amount" id="DE14118" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+    <xsd:element name="Liabilities.OtherCreditorsAndBorrowings.Amount" id="DE14102" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+    <xsd:element name="Liabilities.OtherIndividual.Amount" id="DE14110" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+    <xsd:element name="Liabilities.OtherIndividual98thPercentile.Amount" id="DE14117" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+    <xsd:element name="Liabilities.ProvisionTax.Amount" id="DE14103" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+</xsd:schema>

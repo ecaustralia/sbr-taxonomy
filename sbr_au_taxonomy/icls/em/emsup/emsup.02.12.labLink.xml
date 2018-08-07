@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="emsup.02.12.data.xsd#emsup.02.12_emsupAbstract" xlink:label="loc_emsup.02.12_emsupAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_emsupAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_emsup.02.12_emsupAbstract" xlink:to="lbl_emsupAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.12.data.xsd#DE13260" xlink:label="loc_DE13260"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13260" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Rollover KiwiSaver Preserved Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13260" xlink:to="lbl_DE13260"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13260" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, of the KiwiSaver Preserved amount of the total amount being transferred.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13260" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A New Zealand-sourced amount in a complying superannuation fund is treated as preserved benefits in the same way as other amounts in the fund would be treated as preserved benefits.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.12.data.xsd#DE13259" xlink:label="loc_DE13259"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13259" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Rollover KiwiSaver Tax Free Component Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13259" xlink:to="lbl_DE13259"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13259" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, of the KiwiSaver tax free component.  This amount is non-assessable and non-exempt income, that is tax free income.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13259" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">The KiwiSaver tax-free amount is the entire KiwiSaver amount made by a KiwiSaver scheme provider, but excludes any part of the contribution the KiwiSaver scheme or the member has previously shown to be:
+- an Australian-sourced amount, which is generally an amount that was previously received by a KiwiSaver scheme from an Australian super provider and was originally accrued in an Australian complying super fund, or
+- a returning New Zealand sourced amount - which is generally a New Zealand amount that has been previously treated as a non-assessable foreign fund amount in Australia.</link:label>
+    </link:labelLink>
+</link:linkbase>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.29.data.xsd#rvctc1.02.29_rvctc1Abstract" xlink:label="loc_rvctc1.02.29_rvctc1Abstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_rvctc1Abstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Collection 1</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_rvctc1.02.29_rvctc1Abstract" xlink:to="lbl_rvctc1Abstract"/>
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.29.data.xsd#DE14681" xlink:label="loc_DE14681"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14681" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Foreign Withholding Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14681" xlink:to="lbl_DE14681"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14681" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount of foreign tax withheld during the relevant period.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.29.data.xsd#DE14699" xlink:label="loc_DE14699"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14699" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Instalment Annual Eligibility Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14699" xlink:to="lbl_DE14699"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14699" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether an entity is eligible to elect to Pay As You Go (PAYG) income tax instalments on an annual basis.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14699" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = the entity is eligible to elect  annual PAYG income tax instalments.
+false = the entity is not eligible to elect annual PAYG income tax instalments.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.29.data.xsd#DE14703" xlink:label="loc_DE14703"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14703" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Instalment Base Income Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14703" xlink:to="lbl_DE14703"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14703" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount of ordinary income earned from business or investment activities that has been declared on the latest income tax return in the most recent financial year.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.29.data.xsd#DE14705" xlink:label="loc_DE14705"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14705" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Instalment Reporting Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14705" xlink:to="lbl_DE14705"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14705" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A code which identifies the frequency and reporting option used to calculate and pay Pay As You Go (PAYG) income tax instalments.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14705" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Annual = Annual Amount or Rate.
+QuarterlyAmount = Quarterly Amount.
+QuarterlyRate = Quarterly Rate.
+MonthlyRate = Monthly Rate.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.29.data.xsd#DE14702" xlink:label="loc_DE14702"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14702" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Instalment Voluntary Election Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14702" xlink:to="lbl_DE14702"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14702" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the entity has voluntarily elected to enter into the Pay As You Go (PAYG) income tax instalment system.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14702" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = the entity has voluntarily elected to enter into PAYG income tax instalment system.
+false = the entity has not voluntarily elected to enter into PAYG income tax instalment system.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.29.data.xsd#DE14649" xlink:label="loc_DE14649"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14649" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Non Resident Assessment Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14649" xlink:to="lbl_DE14649"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14649" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The code that represents the method used to assess income and deductions related to non-resident foreign income.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14649" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Simple = Simple self-assessment.
+Overseas = Overseas assessed.
+Comprehensive = Comprehensive assessment.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.29.data.xsd#DE14700" xlink:label="loc_DE14700"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14700" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Taxable Net Gross Domestic Product Adjusted Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14700" xlink:to="lbl_DE14700"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14700" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount of tax payable on taxable income after offsets have been applied, adjusted by the gross domestic product factor for the income year.</link:label>
+    </link:labelLink>
+</link:linkbase>

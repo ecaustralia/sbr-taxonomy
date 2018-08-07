@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:pyde.02.34="http://sbr.gov.au/icls/py/pyde/pyde.02.34.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtyp.02.46="http://sbr.gov.au/fdtn/sbr.02.46.dtyp" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/py/pyde/pyde.02.34.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.46.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.46.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="pydeAbstract" id="pyde.02.34_pydeAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="OrganisationDetails.ATMServicePoints.Count" id="DE14695" type="xbrli:nonNegativeIntegerItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="OrganisationDetails.EFTPOSServicePoints.Count" id="DE14696" type="xbrli:nonNegativeIntegerItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="OrganisationDetails.MinimumBranchRequirement.Indicator" id="DE8254" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="Party.EntityRelationshipGroup.Code" id="DE14686" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Party.EntityRelationshipType.Code" id="DE14672" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+</xsd:schema>

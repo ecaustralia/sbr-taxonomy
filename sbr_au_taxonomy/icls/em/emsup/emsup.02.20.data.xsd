@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:emsup.02.20="http://sbr.gov.au/icls/em/emsup/emsup.02.20.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:dtyp.02.29="http://sbr.gov.au/fdtn/sbr.02.29.dtyp" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/em/emsup/emsup.02.20.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.29.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.29.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="emsupAbstract" id="emsup.02.20_emsupAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="SuperannuationAccountDetails.AccountActivityStatus.Code" id="DE13960" type="dtyp.02.29:sbrAccountActivityStatusCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationAccountDetails.DefinedBenefit.Indicator" id="DE13958" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationAccountDetails.Insurance.Indicator" id="DE13957" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationAccountDetails.InwardRollover.Indicator" id="DE13959" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationContribution.CoContributions.Amount" id="DE13946" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationContribution.LowIncome.Amount" id="DE13954" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationContribution.NonEmployerMultipleAccountPreviousYear.Indicator" id="DE13867" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationPayment.Consolidation.Indicator" id="DE13953" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationPayment.HoldingsAccountActive.Amount" id="DE13948" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationPayment.HoldingsAccountInactive.Amount" id="DE13949" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationPayment.UnclaimedResident.Amount" id="DE13950" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationPayment.UnclaimedTemporaryResident.Amount" id="DE13951" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationRegulatoryInformation.WorkerCategory.Description" id="DE13982" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+</xsd:schema>

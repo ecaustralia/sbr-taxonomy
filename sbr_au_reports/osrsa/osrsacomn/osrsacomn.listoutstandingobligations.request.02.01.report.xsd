@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:osrsacomn.listoutstandingobligations.req.02.01="http://sbr.gov.au/rprt/osrsa/osrsacomn/osrsacomn.listoutstandingobligations.request.02.01.report" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:pyin.02.02="http://sbr.gov.au/icls/py/pyin/pyin.02.02.data" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:osrsacomn.prv.02.01="http://sbr.gov.au/rprt/osrsa/osrsacomn/osrsacomn.private.02.01.module" targetNamespace="http://sbr.gov.au/rprt/osrsa/osrsacomn/osrsacomn.listoutstandingobligations.request.02.01.report" elementFormDefault="qualified">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:href="osrsacomn.listoutstandingobligations.request.02.01.presLink.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="osrsacomn.listoutstandingobligations.request.02.01.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="osrsacomn.listoutstandingobligations.request.02.01.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.02.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="osrsacomn.listoutstandingobligations.request.02.01.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/osrsacomn/osrsacomn.listoutstandingobligations.request.02.01/presRole" id="osrsacomn.listoutstandingobligations.request.02.01.presLink">
+				<link:definition>osrsacomn_listoutstandingobligations_request</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/osrsacomn/osrsacomn.listoutstandingobligations.request.02.01/labRole" id="osrsacomn.listoutstandingobligations.request.02.01.labLinkInfoCls">
+				<link:definition>osrsacomn_listoutstandingobligations_request</link:definition>
+				<link:usedOn>link:labelLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/osrsacomn/osrsacomn.listoutstandingobligations.request.02.01/refRole" id="osrsacomn.listoutstandingobligations.request.02.01.refLink">
+				<link:definition>osrsacomn_listoutstandingobligations_request</link:definition>
+				<link:usedOn>link:referenceLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/osrsacomn/osrsacomn.listoutstandingobligations.request.02.01/defRole" id="osrsacomn.listoutstandingobligations.request.02.01.defLink">
+				<link:definition>osrsacomn_listoutstandingobligations_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/rprt/osrsa/osrsacomn/osrsacomn.private.02.01.module" schemaLocation="osrsacomn.private.02.01.module.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/py/pyin/pyin.02.02.data" schemaLocation="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.02.data.xsd"/>
+	<xsd:element name="OSRSACOMNListOutstandingObligationsRequestAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA841" xbrli:periodType="instant"/>
+</xsd:schema>

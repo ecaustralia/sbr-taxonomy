@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dtyp.02.00="http://sbr.gov.au/fdtn/sbr.02.00.dtyp" xmlns:gfagg.02.00="http://sbr.gov.au/icls/gfa/gfagg/gfagg.02.00.data" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/gfa/gfagg/gfagg.02.00.data" elementFormDefault="qualified">
+	<xsd:annotation>
+		<xsd:appinfo>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd" />
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.00.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.00.xsd" />
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:element name="gfaggAbstract" id="gfagg.02.00_gfaggAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+	<xsd:element name="GovernmentFunding.AdjustmentForGovernmentGrants.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE483" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="GovernmentFunding.GovernmentIndustryPaymentsAssessable.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1666" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="GovernmentFunding.GovernmentIndustryPaymentsIncludesFuel.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE1882" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="GovernmentFunding.OperationalCosts.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE324" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="GovernmentFunding.ReceiptsFromGovernmentGrantsClassifiedasFinancingActivities.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2965" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="GovernmentFunding.ReceiptsFromGovernmentGrantsClassifiedasInvestingActivities.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2947" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="GovernmentFunding.ReceiptsFromGovernmentGrantsClassifiedAsOperatingActivities.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE481" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="GovernmentFunding.SpecificCapitalItems.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE325" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+</xsd:schema>

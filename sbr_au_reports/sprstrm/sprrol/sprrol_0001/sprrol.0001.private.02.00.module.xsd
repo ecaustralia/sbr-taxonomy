@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:sprrol.0001.prv.02.00="http://sbr.gov.au/rprt/sprstrm/sprrol/sprrol.0001.private.02.00.module" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:RcvSprFndUSI.02.00="http://sbr.gov.au/dims/RcvSprFndUSI.02.00.dims" xmlns:RcvSprFndAbn.02.00="http://sbr.gov.au/dims/RcvSprFndAbn.02.00.dims" xmlns:TsfrSprFndUSI.02.00="http://sbr.gov.au/dims/TsfrSprFndUSI.02.00.dims" xmlns:TsfrSprFndAbn.02.00="http://sbr.gov.au/dims/TsfrSprFndAbn.02.00.dims" xmlns:RprtPyType.02.06="http://sbr.gov.au/dims/RprtPyType.02.06.dims" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:TsfrSprFndAllMemId.02.00="http://sbr.gov.au/dims/TsfrSprFndAllMemId.02.00.dims" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/rprt/sprstrm/sprrol/sprrol.0001.private.02.00.module" elementFormDefault="qualified">
+    <xsd:annotation>
+        <xsd:appinfo>
+            <link:linkbaseRef xlink:type="simple" xlink:href="sprrol.0001.private.02.00.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="sprrol.0001.private.02.00.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/sprstrm/sprrol/sprrol.0001.private.02.00/defRole" id="sprrol.0001.02.00.privatedefLink">
+                <link:definition>sprrol.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/sprstrm/sprrol/sprrol.0001.private.02.00/labRole" id="sprrol.0001.02.00.privatelabLinkInfoCls">
+                <link:definition>sprrol.0001_private</link:definition>
+                <link:usedOn>link:labelLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/sprstrm/sprrol/sprrol.0001.private.02.00/refRole" id="sprrol.0001.02.00.privaterefLink">
+                <link:definition>sprrol.0001_private</link:definition>
+                <link:usedOn>link:referenceLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/sprstrm/sprrol/sprrol.0001.private.02.00/hypercubes/MessageSender" id="sprrol.0001.02.00.privatedefLinkMessageSender">
+                <link:definition>sprrol.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/sprstrm/sprrol/sprrol.0001.private.02.00/hypercubes/MessageSenderMessageReceiver" id="sprrol.0001.02.00.privatedefLinkMessageSenderMessageReceiver">
+                <link:definition>sprrol.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/sprstrm/sprrol/sprrol.0001.private.02.00/hypercubes/RcvSprFndAbnTransferringFund" id="sprrol.0001.02.00.privatedefLinkRcvSprFndAbnTransferringFund">
+                <link:definition>sprrol.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/sprstrm/sprrol/sprrol.0001.private.02.00/hypercubes/RcvSprFndAbnTsfrSprFndAbnTsfrSprFndAllMemIdSuperFundMember" id="sprrol.0001.02.00.privatedefLinkRcvSprFndAbnTsfrSprFndAbnTsfrSprFndAllMemIdSuperFundMember">
+                <link:definition>sprrol.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/sprstrm/sprrol/sprrol.0001.private.02.00/hypercubes/RcvSprFndUSIRcvSprFndAbnTransferringFund" id="sprrol.0001.02.00.privatedefLinkRcvSprFndUSIRcvSprFndAbnTransferringFund">
+                <link:definition>sprrol.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/sprstrm/sprrol/sprrol.0001.private.02.00/hypercubes/RcvSprFndUSIRcvSprFndAbnTsfrSprFndAbnTsfrSprFndAllMemIdSuperFundMember" id="sprrol.0001.02.00.privatedefLinkRcvSprFndUSIRcvSprFndAbnTsfrSprFndAbnTsfrSprFndAllMemIdSuperFundMember">
+                <link:definition>sprrol.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/sprstrm/sprrol/sprrol.0001.private.02.00/hypercubes/RcvSprFndUSITsfrSprFndUSIRcvSprFndAbnTsfrSprFndAbnTsfrSprFndAllMemIdSuperFundMember" id="sprrol.0001.02.00.privatedefLinkRcvSprFndUSITsfrSprFndUSIRcvSprFndAbnTsfrSprFndAbnTsfrSprFndAllMemIdSuperFundMember">
+                <link:definition>sprrol.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/sprstrm/sprrol/sprrol.0001.private.02.00/hypercubes/TsfrSprFndUSIRcvSprFndAbnTsfrSprFndAbnTsfrSprFndAllMemIdSuperFundMember" id="sprrol.0001.02.00.privatedefLinkTsfrSprFndUSIRcvSprFndAbnTsfrSprFndAbnTsfrSprFndAllMemIdSuperFundMember">
+                <link:definition>sprrol.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+        </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.06.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.06.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/RcvSprFndAbn.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RcvSprFndAbn.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/TsfrSprFndAbn.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/TsfrSprFndAbn.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/TsfrSprFndAllMemId.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/TsfrSprFndAllMemId.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/TsfrSprFndUSI.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/TsfrSprFndUSI.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/RcvSprFndUSI.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RcvSprFndUSI.02.00.data.xsd"/>
+    <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="MessageSenderPrimaryItemsAbstract" id="RA100247" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="MessageSenderMessageReceiverPrimaryItemsAbstract" id="RA100248" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="RcvSprFndAbnTransferringFundPrimaryItemsAbstract" id="RA100249" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="RcvSprFndAbnTsfrSprFndAbnTsfrSprFndAllMemIdSuperFundMemberPrimaryItemsAbstract" id="RA100250" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="RcvSprFndUSIRcvSprFndAbnTransferringFundPrimaryItemsAbstract" id="RA100251" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="RcvSprFndUSIRcvSprFndAbnTsfrSprFndAbnTsfrSprFndAllMemIdSuperFundMemberPrimaryItemsAbstract" id="RA100252" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="RcvSprFndUSITsfrSprFndUSIRcvSprFndAbnTsfrSprFndAbnTsfrSprFndAllMemIdSuperFundMemberPrimaryItemsAbstract" id="RA100253" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="TsfrSprFndUSIRcvSprFndAbnTsfrSprFndAbnTsfrSprFndAllMemIdSuperFundMemberPrimaryItemsAbstract" id="RA100254" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="MessageSender" id="HC100247" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="MessageSenderMessageReceiver" id="HC100248" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="RcvSprFndAbnTransferringFund" id="HC100249" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="RcvSprFndAbnTsfrSprFndAbnTsfrSprFndAllMemIdSuperFundMember" id="HC100250" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="RcvSprFndUSIRcvSprFndAbnTransferringFund" id="HC100251" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="RcvSprFndUSIRcvSprFndAbnTsfrSprFndAbnTsfrSprFndAllMemIdSuperFundMember" id="HC100252" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="RcvSprFndUSITsfrSprFndUSIRcvSprFndAbnTsfrSprFndAbnTsfrSprFndAllMemIdSuperFundMember" id="HC100253" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="TsfrSprFndUSIRcvSprFndAbnTsfrSprFndAbnTsfrSprFndAllMemIdSuperFundMember" id="HC100254" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+</xsd:schema>

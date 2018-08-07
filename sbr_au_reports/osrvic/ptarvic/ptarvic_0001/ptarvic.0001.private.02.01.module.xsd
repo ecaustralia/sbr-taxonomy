@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ptarvic.0001.prv.02.01="http://sbr.gov.au/rprt/osrvic/ptarvic/ptarvic.0001.private.02.01.module" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:EmpGrpSts.02.04="http://sbr.gov.au/dims/EmpGrpSts.02.04.dims" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:RprtPyType.02.03="http://sbr.gov.au/dims/RprtPyType.02.03.dims" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:AuStsTerrOS.02.03="http://sbr.gov.au/dims/AuStsTerrOS.02.03.dims" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/rprt/osrvic/ptarvic/ptarvic.0001.private.02.01.module" elementFormDefault="qualified">
+    <xsd:annotation>
+        <xsd:appinfo>
+            <link:linkbaseRef xlink:type="simple" xlink:href="ptarvic.0001.private.02.01.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="ptarvic.0001.private.02.01.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/osrvic/ptarvic/ptarvic.0001.private.02.01/defRole" id="ptarvic.0001.02.01.privatedefLink">
+                <link:definition>ptarvic.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/osrvic/ptarvic/ptarvic.0001.private.02.01/labRole" id="ptarvic.0001.02.01.privatelabLinkInfoCls">
+                <link:definition>ptarvic.0001_private</link:definition>
+                <link:usedOn>link:labelLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/osrvic/ptarvic/ptarvic.0001.private.02.01/refRole" id="ptarvic.0001.02.01.privaterefLink">
+                <link:definition>ptarvic.0001_private</link:definition>
+                <link:usedOn>link:referenceLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/osrvic/ptarvic/ptarvic.0001.private.02.01/hypercubes/DGESGDGENSGVICReportingParty" id="ptarvic.0001.02.01.privatedefLinkDGESGDGENSGVICReportingParty">
+                <link:definition>ptarvic.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/osrvic/ptarvic/ptarvic.0001.private.02.01/hypercubes/DGESGVICReportingParty" id="ptarvic.0001.02.01.privatedefLinkDGESGVICReportingParty">
+                <link:definition>ptarvic.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/osrvic/ptarvic/ptarvic.0001.private.02.01/hypercubes/EmpGrpStsVICReportingParty1" id="ptarvic.0001.02.01.privatedefLinkEmpGrpStsVICReportingParty1">
+                <link:definition>ptarvic.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/osrvic/ptarvic/ptarvic.0001.private.02.01/hypercubes/EmpGrpStsVICReportingParty2" id="ptarvic.0001.02.01.privatedefLinkEmpGrpStsVICReportingParty2">
+                <link:definition>ptarvic.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/osrvic/ptarvic/ptarvic.0001.private.02.01/hypercubes/EmpGrpStsVICReportingParty3" id="ptarvic.0001.02.01.privatedefLinkEmpGrpStsVICReportingParty3">
+                <link:definition>ptarvic.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/osrvic/ptarvic/ptarvic.0001.private.02.01/hypercubes/EmpGrpStsVICReportingParty4" id="ptarvic.0001.02.01.privatedefLinkEmpGrpStsVICReportingParty4">
+                <link:definition>ptarvic.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/osrvic/ptarvic/ptarvic.0001.private.02.01/hypercubes/GovernmentAgency" id="ptarvic.0001.02.01.privatedefLinkGovernmentAgency">
+                <link:definition>ptarvic.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/osrvic/ptarvic/ptarvic.0001.private.02.01/hypercubes/OMGVICReportingParty" id="ptarvic.0001.02.01.privatedefLinkOMGVICReportingParty">
+                <link:definition>ptarvic.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/osrvic/ptarvic/ptarvic.0001.private.02.01/hypercubes/OMVICReportingParty" id="ptarvic.0001.02.01.privatedefLinkOMVICReportingParty">
+                <link:definition>ptarvic.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/osrvic/ptarvic/ptarvic.0001.private.02.01/hypercubes/OSMOMGVICReportingParty" id="ptarvic.0001.02.01.privatedefLinkOSMOMGVICReportingParty">
+                <link:definition>ptarvic.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/osrvic/ptarvic/ptarvic.0001.private.02.01/hypercubes/VICReportingParty" id="ptarvic.0001.02.01.privatedefLinkVICReportingParty">
+                <link:definition>ptarvic.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+        </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/AuStsTerrOS.02.03.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/AuStsTerrOS.02.03.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.03.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.03.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/EmpGrpSts.02.04.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/EmpGrpSts.02.04.data.xsd"/>
+    <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="DGESGDGENSGVICReportingPartyPrimaryItemsAbstract" id="RA100231" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="DGESGVICReportingPartyPrimaryItemsAbstract" id="RA100232" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EmpGrpStsVICReportingParty1PrimaryItemsAbstract" id="RA100233" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EmpGrpStsVICReportingParty2PrimaryItemsAbstract" id="RA100234" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EmpGrpStsVICReportingParty3PrimaryItemsAbstract" id="RA100235" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EmpGrpStsVICReportingParty4PrimaryItemsAbstract" id="RA100236" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="GovernmentAgencyPrimaryItemsAbstract" id="RA100237" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="OMGVICReportingPartyPrimaryItemsAbstract" id="RA100238" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="OMVICReportingPartyPrimaryItemsAbstract" id="RA100239" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="OSMOMGVICReportingPartyPrimaryItemsAbstract" id="RA100240" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="VICReportingPartyPrimaryItemsAbstract" id="RA100241" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="DGESGDGENSGVICReportingParty" id="HC100231" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="DGESGVICReportingParty" id="HC100232" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EmpGrpStsVICReportingParty1" id="HC100233" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EmpGrpStsVICReportingParty2" id="HC100234" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EmpGrpStsVICReportingParty3" id="HC100235" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EmpGrpStsVICReportingParty4" id="HC100236" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="GovernmentAgency" id="HC100237" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="OMGVICReportingParty" id="HC100238" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="OMVICReportingParty" id="HC100239" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="OSMOMGVICReportingParty" id="HC100240" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="VICReportingParty" id="HC100241" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+</xsd:schema>

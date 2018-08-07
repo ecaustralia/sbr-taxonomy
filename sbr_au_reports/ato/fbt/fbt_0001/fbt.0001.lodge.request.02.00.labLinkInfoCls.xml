@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt" xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#sbrReportLabel"/>
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#Label"/>
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#reportGuidance"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/fbt/fbt.0001.lodge.request.02.00/labRole" xlink:type="simple" xlink:href="fbt.0001.lodge.request.02.00.report.xsd#fbt.0001.02.00.lodge.requestlabLinkInfoCls"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/fbt/fbt.0001.lodge.request.02.00/labRole">
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE528" xlink:label="loc_DE528"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE528" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Current postal address - Country</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE528" xlink:to="lbl_DE528" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE528" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Postal address on previous return - Country</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE528" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Business address of main business - Country</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE528" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Current postal address - Country - Inform the relevant field with the country of the current postal address. For overseas addresses the name of the country is to be provided in the Country field. This field may be left blank if the country is Australia.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE528" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Postal address on previous return - Country - Inform the relevant field with the country of the postal address on the previous return.
+For overseas addresses the name of the country is to be provided in the Country field. This field may be left blank if the country is Australia.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE528" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Business address of main business - Country - Inform the relevant field with the country for the business addr4es of the main business.
+For overseas addresses the name of the country is to be provided in the Country field. This field may be left blank if the country is Australia.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE15" xlink:label="loc_DE15"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE15" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Current postal address - Country Code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE15" xlink:to="lbl_DE15" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE15" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Postal address on previous return - Country Code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE15" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Business address of main business - Country Code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE15" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employer Current Postal Address Country Code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE15" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Previous Postal Address Country code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE15" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Organisation Business Address country code</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE75" xlink:label="loc_DE75"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE75" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employer Current Postal Address Currency code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE75" xlink:to="lbl_DE75" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE75" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Previous Postal Address Currency code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE75" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Organisation Business Address Currency code</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE17" xlink:label="loc_DE17"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE17" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Current postal address - Line 1</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE17" xlink:to="lbl_DE17" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE17" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Postal address on previous return - Line 1</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE17" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Business address of main business - Line 1</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE17" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Current postal address - Line 1 - Inform the relevant field with the current postal address.
+The suburb/town/city, state/territory and postcode must be supplied in the separate fields as specified and MUST NOT be included in the first or second address line fields. The postal address must be provided in the 1st and 2nd address lines. It may not be necessary to use both lines. If the second line is not used then the field must be blank filled.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE17" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Postal address on previous return - Line 1 - Inform the relevant field with the postal address on the previous return.
+The suburb/town/city, state/territory and postcode must be supplied in the separate fields as specified and MUST NOT be included in the first or second address line fields. The current business address must be provided in the 1st and 2nd address lines. It may not be necessary to use both lines.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE17" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Business address of main business - Line 1 - Inform the relevant field with the business address of the main business.
+The suburb/town/city, state/territory and postcode must be supplied in the separate fields as specified and MUST NOT be included in the first or second address line fields. The current business address must be provided in the 1st and 2nd address lines. It may not be necessary to use both lines.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE18" xlink:label="loc_DE18"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE18" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Current postal address - Line 2</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE18" xlink:to="lbl_DE18" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE18" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Postal address on previous return - Line 2</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE18" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Business address of main business - Line 2</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE18" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Current postal address - Line 2 - Inform the relevant field with the current postal address.
+The suburb/town/city, state/territory and postcode must be supplied in the separate fields as specified and MUST NOT be included in the first or second address line fields. The postal address must be provided in the 1st and 2nd address lines. It may not be necessary to use both lines. If the second line is not used then the field must be blank filled.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE18" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Postal address on previous return - Line 2 - Inform the relevant field with the postal address on the previous return.
+The suburb/town/city, state/territory and postcode must be supplied in the separate fields as specified and MUST NOT be included in the first or second address line fields. The current business address must be provided in the 1st and 2nd address lines. It may not be necessary to use both lines. If the second line is not used then the field must be blank filled.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE18" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Business address of main business - Line 2 - Inform the relevant field with the business address of the main business.
+The suburb/town/city, state/territory and postcode must be supplied in the separate fields as specified and MUST NOT be included in the first or second address line fields. The current business address must be provided in the 1st and 2nd address lines. It may not be necessary to use both lines. If the second line is not used then the field must be blank filled.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE167" xlink:label="loc_DE167"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE167" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Current postal address - Line 3</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE167" xlink:to="lbl_DE167" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE167" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Postal address on previous return - Line 3</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE167" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Business address of main business - Line 3</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE167" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Current postal address - Line 3 - Inform the relevant field with the current postal address.
+Address line 3 and 4 can also be utilised for providing details about the location of an overseas addresses.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE167" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Postal address on previous return - Line 3 - Inform the relevant field with the postal address on the previous return.
+Address line 3 and 4 can also be utilised for providing details about the location of a previous overseas addresses.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE167" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Business address of main business - Line 3 - Inform the relevant field with the business address of the main business.
+Address line 3 and 4 can also be utilised for providing details about the location of an overseas addresses.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE80" xlink:label="loc_DE80"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE80" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Current postal address - Line 4</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE80" xlink:to="lbl_DE80" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE80" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Postal address on previous return - Line 4</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE80" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Business address of main business - Line 4</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE80" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Current postal address - Line 4 - Inform the relevant field with the current postal address.
+Address line 3 and 4 can also be utilised for providing details about the location of an overseas addresses.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE80" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Postal address on previous return - Line 4 - Inform the relevant field with the postal address on previous return.
+Address line 3 and 4 can also be utilised for providing details about the location of a previous overseas addresses.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE80" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Business address of main business - Line 4 - Inform the relevant field with the business address of the main business.
+Address line 3 and 4 can also be utilised for providing details about the location of an overseas addresses.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE19" xlink:label="loc_DE19"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE19" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Current postal address - Suburb/Town/City</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE19" xlink:to="lbl_DE19" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE19" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Postal address on previous return - Suburb/Town/City</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE19" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Business address of main business - Suburb/Town/City</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE19" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Current postal address - Suburb/Town/City - Inform the relevant field with the suburb, town or city for the current postal address.
+For overseas addresses the town, state or region and area code must be reported in the suburb/town/city field.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE19" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Postal address on previous return - Suburb/Town/City - Inform the relevant field of the suburb, town or city of the postal address on the previous return. 
+For overseas addresses the town, state or region and area code must be reported in the suburb/town/city field.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE19" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Business address of main business - Suburb/Town/City - Inform the relevant field with the suburb, town or city of the business address of the main business.
+For overseas addresses the town, state or region and area code must be reported in the suburb/town/city field.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE529" xlink:label="loc_DE529"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE529" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Current Postal Address - Overseas Address Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE529" xlink:to="lbl_DE529" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE529" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Previous Postal Address Overseas indicator</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE529" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Organisation Business Address Overseas indicator</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE529" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Current Postal Address - Overseas Address Indicator - Inform the relevant field with the overseas address indicator of the current postal address.
+If the address is located overseas must be set to True. If the address is located in Australia, this field must be set to False.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE21" xlink:label="loc_DE21"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE21" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Current postal address - Postcode</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE21" xlink:to="lbl_DE21" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE21" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Postal address on previous return - Postcode</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE21" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Business address of main business - Postcode</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE21" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Current postal address - Postcode - Inform the relevant field with the postcode for the current postal address.
+For overseas addresses the postcode field must always be blank.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE21" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Postal address on previous return - Postcode - Inform the relevant field of the postcode for the postal address on the previous return.
+For overseas addresses the postcode field must always be blank.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE21" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Business address of main business - Postcode - Inform the relevant field with the postcode for the business address of the main business.
+For overseas addresses the postcode field must always be blank.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE22" xlink:label="loc_DE22"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE22" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Current postal address - State or Territory</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE22" xlink:to="lbl_DE22" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE22" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Postal address on previous return - State/Territory</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE22" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Business address of main business - State or Territory</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE22" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Current postal address - State or Territory - Inform the relevant field with the state or territory of the current postal address.
+The field must be set to one of the following codes described in the enumeration values.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE22" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Postal address on previous return - State/Territory - Inform the relevant field with the state or territory of the postal address on the previous return.
+The field must be set to one of the following codes described in the enumeration values.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE22" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Business address of main business - State or Territory - Inform the relevant field with the state or territory for the business address of the main business.
+The field must be set to one of the following codes described in the enumeration values.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE23" xlink:label="loc_DE23"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE23" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employer Current Postal Address Usage Code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE23" xlink:to="lbl_DE23" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE23" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Previous Postal Address Usage code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE23" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Organisation Business Address Usage code</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE6" xlink:label="loc_DE6"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE6" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Contact person's email address</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE6" xlink:to="lbl_DE6" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE6" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Contact person's email address - Inform the relevant field with the contact person's email address.
+A contact person may choose to provide an email address.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE93" xlink:label="loc_DE93"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE93" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Contact Person's email usage code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE93" xlink:to="lbl_DE93" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE93" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Contact Person's email usage code - Inform the relevant field with the contact person's email usage code.
+Field must be set to "02" for business email address</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE48" xlink:label="loc_DE48"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE48" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Contact person's phone area code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE48" xlink:to="lbl_DE48" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE48" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Agent's telephone area code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE48" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Contact person's phone area code - Inform the relevant field with the area code of the contact person's phone number. 
+This field must be in the format: STD Code.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE48" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Agent's telephone area code - Inform the relevant field with the area code of the telephone number for the nominated tax agent.
+This field must be in the format: STD Code.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE52" xlink:label="loc_DE52"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE52" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Contact person's phone number</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE52" xlink:to="lbl_DE52" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE52" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Agent's telephone number</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE52" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Contact person's phone number - Inform  the relevant field with the contact person's phone number.
+Enter  the telephone number without the service line code, area code or the country code.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE52" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Agent's telephone number - Inform the relevant field with the telephone number for the nominated tax agent without the area code or the country code.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE51" xlink:label="loc_DE51"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE51" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Tax Agent's service line code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE51" xlink:to="lbl_DE51" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE51" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Contact Person's phone service line code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE51" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Tax Agent's service line code - Inform the relevant field with the Tax Agent's service line code.
+Allowable codes:
+ 01 = Mobile, 
+02 = Landline, 
+03 = Pager, 
+09 = Unknown</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE51" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Contact Person's phone service line code - Inform the relevant field with the contact person's phone service line code.
+Allowable codes:
+ 01 = Mobile, 
+02 = Landline, 
+03 = Pager, 
+09 = Unknown</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE53" xlink:label="loc_DE53"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE53" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Tax Agent's Phone usage code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE53" xlink:to="lbl_DE53" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE53" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Contact Person's phone usage code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE53" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Tax Agent's Phone usage code - Inform the relevant field with the tax Agent's phone usage code.
+Field must be set to '02' for business</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE53" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Contact Person's phone usage code - Inform the relevant field with the contact person's phone usage code.
+Field must be set to '03' for contact</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE1893" xlink:label="loc_DE1893"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1893" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Trustee or Senior Partner - Current Organisation Name Currency code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1893" xlink:to="lbl_DE1893" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1893" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employer - Current Organisation Name Currency Code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1893" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employer - Previous Organisation Name currency code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1893" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Trustee or Senior Partner - Previous Organisation Name currency code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1893" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Business Name - Current Organisation Name currency code</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE64" xlink:label="loc_DE64"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE64" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employer - current organisation name type code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE64" xlink:to="lbl_DE64" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE64" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Trustee or Senior Partner - Previous organisation Name Type code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE64" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Trustee or Senior Partner Organisation Name Type Code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE64" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employer Previous organisation name type code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE64" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Organisation Business Name Type code</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE55" xlink:label="loc_DE55"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE55" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Non-individual name </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE55" xlink:to="lbl_DE55" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE55" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Non Individual Name</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE55" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employers previous name</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE55" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Business name of main business</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE55" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Previous trustee or senior partner - Non-individual name</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE55" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Non-individual name  - If the trustee is a company, inform the relevant field with the name of the company. If the  trustee is a trust, inform the relevant field with the name of the trust. If the trustee is a partnership inform the relevant field with the name of the partnership.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE55" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Name - Inform the relevant field with the full name of the organisation.
+Naming standards for incorporated companies are defined in the Australian Securities and Investment Commission (ASIC).</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE55" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Employers previous name - Inform the relevant field with the employers previous name where the employer is a non individual.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE55" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Business name of main business - Inform the relevant filed with the business/trading name where it has changed since last year, or if this is the  first FBT return lodgment for the employer.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE55" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Previous trustee or senior partner - Non-individual name - Inform the relevant field with the non-individual name of the previous corporate trustee or senior partner.
+Previous Non-individual company, partnership, trust etc</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE43" xlink:label="loc_DE43"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE43" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Trustee or Senior Partner Previous person Name Currency code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE43" xlink:to="lbl_DE43" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE43" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employer - current person name currency code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE43" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Contact Person - Currency code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE43" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Trustee or Senior Partner Person Name Currency Code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE43" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employer Previous Person Name Currency Code</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE40" xlink:label="loc_DE40"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE40" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Family name</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE40" xlink:to="lbl_DE40" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE40" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employers family name</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE40" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employers previous family name</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE40" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Previous trustee or senior partner - Family name</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE40" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Contact person - family name</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE40" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Current trustee or senior partner Family name - Inform the relevant field with the surname or family name of the partner to whom notices should be sent. 
+If the partner is a company, inform the relevant field with the name and the ABN of the company. 
+If the partner is a trustee of a trust, inform the relevant field with the name of the trust and the trustee. 
+If the trustee is a company, inform the relevant field with the name and ABN of the company.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE40" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Employers family name - Inform the relevant field with the surname or family name of the employer.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE40" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Employers previous family name - Inform the relevant field with the employers previous name if applicable.
+If the employer name has changed, print it exactly as shown on the last FBT return lodged. A change of name must be supported by a certified copy of the documentary evidence.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE40" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Previous trustee or senior partner - Family name - Inform the relevant field with the family name of the previous trustee or senior partner.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE40" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Name of contact person - family name - Inform the relevant field with the family name of the contact person.
+The contact family name is to be reported in full. The field cannot begin with a blank.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE41" xlink:label="loc_DE41"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE41" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">First name</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE41" xlink:to="lbl_DE41" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE41" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employers first name</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE41" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employers previous first name</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE41" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Previous trustee or senior partner - First name</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE41" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Contact person - first name</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE41" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Current trustee or senior partner First name - Inform the relevant field with the first given name of the person to whom notices should be sent.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE41" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Employers first name - Inform the relevant field with the first name of the employer.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE41" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Employers previous first name - Inform the relevant field with the employers previous name if applicable.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE41" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Previous trustee or senior partner - First name - Inform the relevant field with the first name of the previous trustee or senior partner.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE41" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Name of contact person - first name - Inform the relvenat field with the first name of the contact person.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE104" xlink:label="loc_DE104"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE104" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Suffix</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE104" xlink:to="lbl_DE104" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE104" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employers suffix </link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE104" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employers previous suffix</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE104" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Previous trustee or senior partner - Suffix</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE104" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Contact person - suffix</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE104" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Current trustee or senior partner Suffix - Inform the relevant field with the relevant suffix if applicable.
+Allowed suffixes are any of the abbreviations listed in the AS4590.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE104" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Employers suffix  - Inform the relevant field with the relevant suffix of the employer if applicable.
+Allowed suffixes are any of the abbreviations listed in the AS4590.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE104" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Employers previous suffix - Inform the relevant field with the employers previous suffix if applicable.
+Use any of the abbreviations listed in the current published AS 4590.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE104" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Previous trustee or senior partner - Suffix - Inform the relevant field with the Suffix of the previous trustee or senior partner.
+Any abbreviation listed in the current published AS 4590.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE104" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Name of contact person - suffix - Inform the relevant field with the suffix of the name of the contact person.
+Any abbreviation listed in the current published AS 4590.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE42" xlink:label="loc_DE42"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE42" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Other given names </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE42" xlink:to="lbl_DE42" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE42" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employers other given names</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE42" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employers previous other given names</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE42" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Previous trustee or senior partner - Other given names</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE42" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Contact person - other given names </link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE42" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Current trustee or senior partner Other given names - Inform the relevant field with the second or subsequent given name.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE42" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Employers other given names - Inform the relevant field with the other given names of the employer.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE42" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Employers previous other given names - Inform the relevant field with the employers previous other given names.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE42" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Previous trustee or senior partner - Other given names - Inform the relevant field with the other given names of the previous trustee or senior partner.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE42" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Name of contact person - other given names  - Inform the relevant field with the other given names of the contact person.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE44" xlink:label="loc_DE44"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE44" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Contact Person Name Type Code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE44" xlink:to="lbl_DE44" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE44" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employer - current person name type code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE44" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Trustee or Senior Partner Person Name Type Code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE44" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employer Previous Person Name Type Code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE44" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Trustee or Senior Partner Previous person Name Type Code</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE60" xlink:label="loc_DE60"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE60" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Title</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE60" xlink:to="lbl_DE60" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE60" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employers title</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE60" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employers previous title</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE60" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Previous trustee or senior partner - Title</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE60" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Contact person - title</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE60" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Current trustee or senior partner Title - Inform the relevant field with the current title of the client.
+Allowable titles are:
+Mr, Mrs, Miss, Ms, Other</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE60" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Employers title - Inform the relevant field with the current title of the employer..
+Allowable titles are:
+Mr, Mrs, Miss, Ms, Other</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE60" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Employers previous title - Inform the relevant field with the employers previous title.
+Use any of the abbreviations listed in the current published AS 4590.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE60" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Previous trustee or senior partner - Title - Inform the relevant field with the Title of the previous trustee or senior partner.
+The field must be set to one of the following codes described in the enumeration values.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE60" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Name of contact person - title - Inform the relevant field with the Title for the name of the contact person.
+The field must be set to one of the following codes described in the enumeration values.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE870" xlink:label="loc_DE870"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE870" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employer Current Contact Person Name Usage code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE870" xlink:to="lbl_DE870" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE870" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employer Previous Person Name Usage Code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE870" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employer Current Person Name Usage Code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE870" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Controlling Party Current Person Name Usage Code</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE870" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Controlling Party Previous Person Name Usage Code</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE106" xlink:label="loc_DE106"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE106" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Agent contact name</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE106" xlink:to="lbl_DE106" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE106" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Agent contact name - Inform the relevant field with the contact name for the nominated tax agent.
+The tax agent contact name is to be reported in full with one space in between words and also any initials that occur in the name.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE503" xlink:label="loc_DE503"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE503" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Agent Contact Person Unstructured Name usage code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE503" xlink:to="lbl_DE503" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE3147" xlink:label="loc_DE3147"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3147" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employer Signatory Identifier Text</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3147" xlink:to="lbl_DE3147" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3147" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Tax Agent Signatory Identifier Text</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE4" xlink:label="loc_DE4"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employers Declaration Date</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE4" xlink:to="lbl_DE4" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Tax Agent Declaration Date</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE229" xlink:label="loc_DE229"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE229" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employers Signature statement acceptance indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE229" xlink:to="lbl_DE229" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE229" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Tax Agent Signature statement acceptance indicator</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE3132" xlink:label="loc_DE3132"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3132" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employer declaration statement type code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3132" xlink:to="lbl_DE3132" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3132" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Tax Agent declaration statement type code</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE1624" xlink:label="loc_DE1624"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1624" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Do you expect to lodge an FBT return for  future years?</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1624" xlink:to="lbl_DE1624" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1624" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Do you expect to lodge an FBT return for  future years? - Inform the relevant field with the answer to the question.
+The employer does not need to lodge an FBT return if the fringe benefits taxable amount for the FBT year is nil.
+Answering False to this question will result in your FBT registration and any instalments being cancelled from this year onwards.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE319" xlink:label="loc_DE319"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE319" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Hours taken to prepare and complete this form</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE319" xlink:to="lbl_DE319" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE319" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Hours taken to prepare and complete this form - Inform the relevant field with the hours taken to prepare and complete this form.
+The ATO is committed to reducing the costs involved in complying with tax obligations. While the response to this question is voluntary, it will help the agency to monitor these costs as closely as possible. When completing this question, consider the time (rounded up to the nearest hour) spent: - reading the instructions; - collecting the necessary information to complete this return; - making any necessary calculations, and; - actually completing this return and/or putting the  business tax affairs in order to give the information to the tax agent. Do not include the time the tax agent took to prepare and complete this return.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.data.xsd#DE27" xlink:label="loc_DE27"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE27" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Tax file number </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE27" xlink:to="lbl_DE27" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE27" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Tax file number  - Inform the relevant field with the current Tax File Number.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.data.xsd#DE217" xlink:label="loc_DE217"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE217" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Tax Agent number (TAN)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE217" xlink:to="lbl_DE217" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE217" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Tax Agent number (TAN) - Inform the relevant field with the Tax Agent Number</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd#DE1578" xlink:label="loc_DE1578"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Fringe Benefits Type Code - Car statutory formula</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1578" xlink:to="lbl_DE1578" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Fringe Benefits Type Code - Car operating cost method</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Fringe Benefits Type Code - Loans Granted</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Fringe Benefits Type Code - Debt waiver</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Fringe Benefits Type Code - Expense payment</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Fringe Benefits Type Code - Housing</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Fringe Benefits Type Code - LAFHA</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Fringe Benefits Type Code - Airline transport</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Fringe Benefits Type Code - Board</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Fringe Benefits Type Code - Property</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Fringe Benefits Type Code - entertainment</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Fringe Benefits Type Code - Other benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Fringe Benefits Type Code - Car Parking</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Fringe Benefits Type Code - Meal entertainment</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Fringe Benefits Type Code - Car statutory formula - Inform the relevant field with the fringe benefits type code for car statutory formula.
+Allowable codes are:
+A = Cars using the statutory formula
+B = Cars using the operating cost method
+C = Loans granted
+D = Debt waiver
+E = Expense payments
+F = Housing - units of accommodation provided
+G = Employees receiving living-away-from-home allowance (show total paid including exempt components)
+H = Airline transport (airlines and travel agents only)
+J = Board
+K = Property
+L = Income tax exempt body - entertainment
+M = Other benefits (residual)
+N = Car parking
+P = Meal entertainment</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Fringe Benefits Type Code - Car operating cost method - Inform the relevant field with the fringe benefits type code for car operating cost method.
+Allowable codes are:
+A = Cars using the statutory formula
+B = Cars using the operating cost method
+C = Loans granted
+D = Debt waiver
+E = Expense payments
+F = Housing - units of accommodation provided
+G = Employees receiving living-away-from-home allowance (show total paid including exempt components)
+H = Airline transport (airlines and travel agents only)
+J = Board
+K = Property
+L = Income tax exempt body - entertainment
+M = Other benefits (residual)
+N = Car parking
+P = Meal entertainment</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Fringe Benefits Type Code - Loans Granted - Inform the relevant field with the fringe benefits type code for loans granted.
+Allowable codes are:
+A = Cars using the statutory formula
+B = Cars using the operating cost method
+C = Loans granted
+D = Debt waiver
+E = Expense payments
+F = Housing - units of accommodation provided
+G = Employees receiving living-away-from-home allowance (show total paid including exempt components)
+H = Airline transport (airlines and travel agents only)
+J = Board
+K = Property
+L = Income tax exempt body - entertainment
+M = Other benefits (residual)
+N = Car parking
+P = Meal entertainment</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Fringe Benefits Type Code - Debt waiver - Inform the relevant field with the fringe benefits type code for debt waiver.
+Allowable codes are:
+A = Cars using the statutory formula
+B = Cars using the operating cost method
+C = Loans granted
+D = Debt waiver
+E = Expense payments
+F = Housing - units of accommodation provided
+G = Employees receiving living-away-from-home allowance (show total paid including exempt components)
+H = Airline transport (airlines and travel agents only)
+J = Board
+K = Property
+L = Income tax exempt body - entertainment
+M = Other benefits (residual)
+N = Car parking
+P = Meal entertainment</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Fringe Benefits Type Code - Expense payment - Inform the relevant field with the fringe benefits type code for expense payment.
+Allowable codes are:
+A = Cars using the statutory formula
+B = Cars using the operating cost method
+C = Loans granted
+D = Debt waiver
+E = Expense payments
+F = Housing - units of accommodation provided
+G = Employees receiving living-away-from-home allowance (show total paid including exempt components)
+H = Airline transport (airlines and travel agents only)
+J = Board
+K = Property
+L = Income tax exempt body - entertainment
+M = Other benefits (residual)
+N = Car parking
+P = Meal entertainment</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Fringe Benefits Type Code - Housing - Inform the relevant field with the fringe benefits type code for housing.
+Allowable codes are:
+A = Cars using the statutory formula
+B = Cars using the operating cost method
+C = Loans granted
+D = Debt waiver
+E = Expense payments
+F = Housing - units of accommodation provided
+G = Employees receiving living-away-from-home allowance (show total paid including exempt components)
+H = Airline transport (airlines and travel agents only)
+J = Board
+K = Property
+L = Income tax exempt body - entertainment
+M = Other benefits (residual)
+N = Car parking
+P = Meal entertainment</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Fringe Benefits Type Code - LAFHA - Inform the relevant field with the fringe benefits type code for LAFHA (Living-away-from-home allowance).
+Allowable codes are:
+A = Cars using the statutory formula
+B = Cars using the operating cost method
+C = Loans granted
+D = Debt waiver
+E = Expense payments
+F = Housing - units of accommodation provided
+G = Employees receiving living-away-from-home allowance (show total paid including exempt components)
+H = Airline transport (airlines and travel agents only)
+J = Board
+K = Property
+L = Income tax exempt body - entertainment
+M = Other benefits (residual)
+N = Car parking
+P = Meal entertainment</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Fringe Benefits Type Code - Airline transport - Inform the relevant field with the fringe benefits type code for airline transport.
+Allowable codes are:
+A = Cars using the statutory formula
+B = Cars using the operating cost method
+C = Loans granted
+D = Debt waiver
+E = Expense payments
+F = Housing - units of accommodation provided
+G = Employees receiving living-away-from-home allowance (show total paid including exempt components)
+H = Airline transport (airlines and travel agents only)
+J = Board
+K = Property
+L = Income tax exempt body - entertainment
+M = Other benefits (residual)
+N = Car parking
+P = Meal entertainment</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Fringe Benefits Type Code - Board - Inform the relevant field with the fringe benefits type code for board.
+Allowable codes are:
+A = Cars using the statutory formula
+B = Cars using the operating cost method
+C = Loans granted
+D = Debt waiver
+E = Expense payments
+F = Housing - units of accommodation provided
+G = Employees receiving living-away-from-home allowance (show total paid including exempt components)
+H = Airline transport (airlines and travel agents only)
+J = Board
+K = Property
+L = Income tax exempt body - entertainment
+M = Other benefits (residual)
+N = Car parking
+P = Meal entertainment</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Fringe Benefits Type Code - Property - Inform the relevant field with the fringe benefits type code for property.
+Allowable codes are:
+A = Cars using the statutory formula
+B = Cars using the operating cost method
+C = Loans granted
+D = Debt waiver
+E = Expense payments
+F = Housing - units of accommodation provided
+G = Employees receiving living-away-from-home allowance (show total paid including exempt components)
+H = Airline transport (airlines and travel agents only)
+J = Board
+K = Property
+L = Income tax exempt body - entertainment
+M = Other benefits (residual)
+N = Car parking
+P = Meal entertainment</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Fringe Benefits Type Code - entertainment - Inform the relevant field with the fringe benefits type code for entertainment.
+Allowable codes are:
+A = Cars using the statutory formula
+B = Cars using the operating cost method
+C = Loans granted
+D = Debt waiver
+E = Expense payments
+F = Housing - units of accommodation provided
+G = Employees receiving living-away-from-home allowance (show total paid including exempt components)
+H = Airline transport (airlines and travel agents only)
+J = Board
+K = Property
+L = Income tax exempt body - entertainment
+M = Other benefits (residual)
+N = Car parking
+P = Meal entertainment</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Fringe Benefits Type Code - Other benefits - Inform the relevant field with the fringe benefits type code for other benefits.
+Allowable codes are:
+A = Cars using the statutory formula
+B = Cars using the operating cost method
+C = Loans granted
+D = Debt waiver
+E = Expense payments
+F = Housing - units of accommodation provided
+G = Employees receiving living-away-from-home allowance (show total paid including exempt components)
+H = Airline transport (airlines and travel agents only)
+J = Board
+K = Property
+L = Income tax exempt body - entertainment
+M = Other benefits (residual)
+N = Car parking
+P = Meal entertainment</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Fringe Benefits Type Code - Car Parking - Inform the relevant field with the fringe benefits type code for car parking.
+Allowable codes are:
+A = Cars using the statutory formula
+B = Cars using the operating cost method
+C = Loans granted
+D = Debt waiver
+E = Expense payments
+F = Housing - units of accommodation provided
+G = Employees receiving living-away-from-home allowance (show total paid including exempt components)
+H = Airline transport (airlines and travel agents only)
+J = Board
+K = Property
+L = Income tax exempt body - entertainment
+M = Other benefits (residual)
+N = Car parking
+P = Meal entertainment</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Fringe Benefits Type Code - Meal entertainment - Inform the relevant field with the fringe benefits type code for meal entertainment.
+Allowable codes are:
+A = Cars using the statutory formula
+B = Cars using the operating cost method
+C = Loans granted
+D = Debt waiver
+E = Expense payments
+F = Housing - units of accommodation provided
+G = Employees receiving living-away-from-home allowance (show total paid including exempt components)
+H = Airline transport (airlines and travel agents only)
+J = Board
+K = Property
+L = Income tax exempt body - entertainment
+M = Other benefits (residual)
+N = Car parking
+P = Meal entertainment</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd#DE1593" xlink:label="loc_DE1593"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Cars - statutory formula - Taxable value of benefits</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1593" xlink:to="lbl_DE1593" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Cars - operating cost method  - Taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Loans granted - Taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Debt waiver - Taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Expense payments - Taxable value of benefits </link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Housing - units of accommodation provided - Taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employees receiving living-away-from-home allowance - Taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Airline transport - Taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Board - Taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Property - Taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Income tax exempt body-entertainment - Taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Other benefits (residual) - Taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Car parking - Taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Meal entertainment - Taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Cars - statutory formula - Taxable value of benefits - Inform the relevant field with the sum of the taxable values of fringe benefits of that particular benefit type, after taking into account any employee contributions and/or other reductions for each fringe benefit.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Cars - operating cost method  - Taxable value of benefits - This is the sum of the taxable values of fringe benefits of that particular benefit type, after taking into account any employee contributions and/or other reductions for each fringe benefit.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Loans granted - Taxable value of benefits - Inform the relevant field with the taxable values of fringe benefits of that particular benefit type, after taking into account any employee contributions and/or other reductions for each fringe benefit.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Debt waiver - Taxable value of benefits - Inform the relevant field with the sum of the taxable values of fringe benefits of that particular benefit type, after taking into account any employee contributions and/or other reductions for each fringe benefit.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Expense payments - Taxable value of benefits  - Inform the relevant field with the sum of the taxable values of fringe benefits of that particular benefit type, after taking into account any employee contributions and/or other reductions for each fringe benefit.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Housing - units of accommodation provided - Taxable value of benefits - Inform the relevant field with the sum of the taxable values of fringe benefits of that particular benefit type, after taking into account any employee contributions and/or other reductions for each fringe benefit.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Employees receiving living-away-from-home allowance - Taxable value of benefits - Inform the relevant field with the sum of the taxable values of fringe benefits of that particular benefit type, after taking into account any employee contributions and/or other reductions for each fringe benefit.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Airline transport - Taxable value of benefits - Inform the relevant field with the sum of the taxable values of fringe benefits of that particular benefit type, after taking into account any employee contributions and/or other reductions for each fringe benefit.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Board - Taxable value of benefits - Inform the relevant field with the sum of the taxable values of fringe benefits of that particular benefit type, after taking into account any employee contributions and/or other reductions for each fringe benefit.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Property - Taxable value of benefits - Inform the relevant field with the sum of the taxable values of fringe benefits of that particular benefit type, after taking into account any employee contributions and/or other reductions for each fringe benefit.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Income tax exempt body-entertainment - Taxable value of benefits - Inform the relevant field with the sum of the taxable values of fringe benefits of that particular benefit type, after taking into account any employee contributions and/or other reductions for each fringe benefit.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Other benefits (residual) - Taxable value of benefits - Inform the relevant field with the sum of the taxable values of fringe benefits of that particular benefit type, after taking into account any employee contributions and/or other reductions for each fringe benefit.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Car parking - Taxable value of benefits - Inform the relevant field with the sum of the taxable values of fringe benefits of that particular benefit type, after taking into account any employee contributions and/or other reductions for each fringe benefit.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Meal entertainment - Taxable value of benefits - Inform the relevant field with the sum of the taxable values of fringe benefits of that particular benefit type, after taking into account any employee contributions and/or other reductions for each fringe benefit.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd#DE1623" xlink:label="loc_DE1623"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1623" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Number of employees receiving fringe benefits during the period 1 April 2007 to 31 March 2008</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1623" xlink:to="lbl_DE1623" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1623" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Number of employees receiving fringe benefits during the period 1 April 2007 to 31 March 2008 - Inform the relevant field with the total number of employees, and their associates, who received fringe benefits during the FBT year. This total should include any former or future employees, or their associates, who received fringe benefits during the FBT year.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd#DE1625" xlink:label="loc_DE1625"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1625" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Type 1 aggregate amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1625" xlink:to="lbl_DE1625" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1625" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Type 1 aggregate amount - Inform the relevant field with the Type 1 aggregate amount.
+A type 1 aggregate applies if the employer  (or a member of the same
+GST group) are entitled to a GST credit for goods or services
+acquired in providing fringe benefits. GST affects the calculation of an employer's FBT liability. Where the benefit provider is entitled to a GST credit for goods or services acquired to provide fringe benefits, a higher gross-up rate (type 1) applies when calculating the FBT liability. The higher gross-up rate recovers the GST credit the benefit provider is entitled to.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc3.02.00.data.xsd#DE1626" xlink:label="loc_DE1626"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1626" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Type 1 aggregate factored amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1626" xlink:to="lbl_DE1626" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1626" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Type 1 aggregate factored amount - Inform the relevant field with the Type 1 aggregate factored amount.
+Add together each employee's individual fringe benefits amount calculated in respect of those fringe benefits that are GST-creditable benefits (that is where the provider was entitled to a GST credit). Add any excluded fringe benefits that are GST-creditable benefits to this total amount. 
+ calculate the FBT liability using the formula:
+ Type 1 aggregate fringe benefits amount
+*
+(FBT rate + GST rate ) / ((1 - FBT rate) * (1 + GST rate) * FBT rate)</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd#DE1627" xlink:label="loc_DE1627"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1627" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Type 2 aggregate amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1627" xlink:to="lbl_DE1627" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1627" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Type 2 aggregate amount - Inform the relevant field with the Type 2 aggregate amount.
+Where there is no entitlement to a GST credit, the lower gross-up rate (type 2) applies. Type 2 fringe benefits are those for which the employer can't claim a GST credit because: - it is not entitled to (for example, you're not registered for GST), or -  there are no GST credits available (that is the benefit is GST-free such as school fees, or input taxed, such as housing other than commercial accommodation).</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc3.02.00.data.xsd#DE1628" xlink:label="loc_DE1628"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1628" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Type 2 aggregate factored amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1628" xlink:to="lbl_DE1628" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1628" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Type 2 aggregate factored amount - Inform the relevant field with the Type 2 aggregate factored amount.
+Add together each employee's individual fringe benefits amount for those benefits that are not GST-creditable benefits (that is, where the provider did not pay GST, or a GST credit was not allowed when the benefits were acquired). Add any excluded fringe benefits that are not GST-creditable benefits to this total amount. Calculate the FBT liability using the formula: (Type 2 aggregate fringe benefits amount) * 1 / (1 - FBT rate)</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd#DE1629" xlink:label="loc_DE1629"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1629" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Aggregate Non-exempt amount (hospitals, ambulances, public benevolent institutions and health promotion charities only)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1629" xlink:to="lbl_DE1629" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1629" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Aggregate Non-exempt amount (hospitals, ambulances, public benevolent institutions and health promotion charities only) - Inform the relevant field with the aggregate non-exempt amount.
+Employers that are public benevolent institutions (PBIs), health promotion charities, public hospitals, non-profit hospitals or public ambulance services need to complete only the Aggregate non-exempt amount and not type 1 aggregate amount and type 2 aggregate amounts. Other employers including rebatable employers should leave this field blank.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd#DE1630" xlink:label="loc_DE1630"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1630" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Fringe benefits taxable amount (A + B) or C</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1630" xlink:to="lbl_DE1630" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1630" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Fringe benefits taxable amount (A + B) or C - Inform the relevant field with the Fringe benefits taxable amount using type 1 aggregate amount and item type 2 aggregate amount or aggregate non-exempt amount.
+This item must be completed even if the amount is nil.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc3.02.00.data.xsd#DE1631" xlink:label="loc_DE1631"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1631" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Amount of tax payable</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1631" xlink:to="lbl_DE1631" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1631" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Amount of tax payable - Inform the relevant field with the amount of tax payable.
+This is the fringe benefits taxable amount multiplied by the current FBT rate.
+This item must be completed even if the amount is nil.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc3.02.00.data.xsd#DE1632" xlink:label="loc_DE1632"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1632" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Aggregate non rebatable amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1632" xlink:to="lbl_DE1632" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1632" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Aggregate non rebatable amount - Inform the relevant field with the aggregate non rebatable amount.
+This item applies only to rebatable employers. Rebatable employers are Certain non-government, non-profit organisations are eligible for a rebate  for  the amount of FBT that would otherwise be payable.
+If you are not a rebatable employer, leave this item blank.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc3.02.00.data.xsd#DE1633" xlink:label="loc_DE1633"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1633" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Amount of rebate</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1633" xlink:to="lbl_DE1633" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1633" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Amount of rebate - Inform the relevant filed with the amount of rebate.
+Rebatable employers are certain non-government, non-profit organisations that are eligible for a rebate on the amount of FBT that would otherwise be payable 
+If you are not a rebatable employer  leave this item blank
+Formula 
+48% * (gross tax - aggregate non-rebatable amount) * rebatable days in year / total days in year</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc3.02.00.data.xsd#DE1636" xlink:label="loc_DE1636"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1636" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Payment due or credit due to you</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1636" xlink:to="lbl_DE1636" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1636" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Payment or credit due - Inform the relevant field with the payment or credit due.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd#DE1637" xlink:label="loc_DE1637"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1637" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Cars - statutory formula - Number</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1637" xlink:to="lbl_DE1637" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1637" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Cars - operating cost method - Number</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1637" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Loans granted - Number</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1637" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Housing - units of accommodation provided - Number</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1637" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Debt Waiver - Number - Not required</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1637" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Expense Payments - Number - Not required</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1637" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Airline Transport - Number - Not required</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1637" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Board - Number - Not required</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1637" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Property - Number - Not required</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1637" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Income tax exempt body - Entertainment - Number - Not required</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1637" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Other Benefits (residual) - Number - Not required</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1637" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Car Parking - Number - Not required</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1637" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Meal Entertainment - Number - Not required</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1637" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employees receiving living-away-from-home allowance - Number</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1637" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Cars - statutory formula - Number - Inform the relevant field with the number of cars used to provide car fringe benefits.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1637" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Cars - operating cost method - Number - Inform the relevant field with the number of cars used to provide car fringe benefits utilising the operating cost method.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1637" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Loans granted - Number - Inform the relevant field with the number of loans  used to provide loan fringe benefits.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1637" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Housing - units of accommodation provided - Number - Inform the relvant field with the number of housing fringe benfits provided.
+Housing benefits relate only to the provision of accommodation that is the employee's usual place of residence.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1637" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Employees receiving living-away-from-home allowance - Number - Inform the relevant field with the number of employees who received a living-away-from-home allowance, inform total paid including exempt components.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd#DE1638" xlink:label="loc_DE1638"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Cars - statutory formula - gross taxable value of benefits</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1638" xlink:to="lbl_DE1638" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Cars - operating cost method- gross taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Loans granted - Gross taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Debt waiver - Gross taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Expense payments - Gross taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Housing - units of accommodation provided- Gross taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employees receiving living-away-from-home allowance - Gross taxable value</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Airline transport - Gross taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Board - Gross taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Property - Gross taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Income tax exempt body-entertainment- Gross taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Other benefits (residual) - Gross taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Car parking - Gross taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Meal entertainment - Gross taxable value of benefits</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Cars - statutory formula - gross taxable value of benefits - Inform the relevant field with the sum of the taxable values of fringe benefits of that particular benefit type, before any reduction for employee contributions or other reductions.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Cars - operating cost method- gross taxable value of benefits - Inform the relevant field with the sum of the taxable values of fringe benefits of that particular benefit type, before any reduction for employee contributions or other reductions.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Loans granted - Gross taxable value of benefits - Inform the relevant field with the sum of the taxable values of fringe benefits of that particular benefit type, before any reduction for employee contributions or other reductions.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Debt waiver - Gross taxable value of benefits - Inform the relevant field with the taxable value before any reduction is taken into account of a type of fringe benefit that arises if an employee owes a debt to an employer and the employer releases the employee from the obligation to repay the debt - the unpaid amount may be a debt waiver fringe benefit.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Expense payments - Gross taxable value of benefits - Inform the relevant field with taxable value before taking any reduction into account of the type of fringe benefit that arises if an employer pays for or reimburses an expense incurred by an employee. The expense can be a business or private expense, or a combination of both, but it must be incurred by the employee.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Housing - units of accommodation provided- Gross taxable value of benefits - Inform the relevant field with the sum of the taxable values of fringe benefits of that particular benefit type, before any reduction for employee contributions or other reductions.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Employees receiving living-away-from-home allowance - Gross taxable value - Inform the relevant field with the amount to be included in 'Gross taxable value (a)' includes the exempt accommodation and increased food components as well as the statutory food amount.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Airline transport - Gross taxable value of benefits - Inform the relevant field with the sum of the taxable values of fringe benefits of that particular benefit type, before any reduction for employee contributions or other reductions.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Board - Gross taxable value of benefits - Inform the relevant field with the taxable value  before taking any reduction into account for the type of fringe benefit.
+When an employer provides an employee with accommodation and the employee has an entitlement to at least two meals a day, the meals provided to that employee and to the family members of that employee living with the employee may be a board fringe benefit.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Property - Gross taxable value of benefits - Inform the relevant field with the sum of the taxable values of fringe benefits of that particular benefit type, before any reduction for employee contributions or other reductions.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Income tax exempt body-entertainment- Gross taxable value of benefits - Inform the relevant field with the sum of the taxable values of fringe benefits of that particular benefit type, before any reduction for employee contributions or other reductions.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Other benefits (residual) - Gross taxable value of benefits - Inform the relevant field with the sum of the taxable values of fringe benefits of that particular benefit type, before any reduction for employee contributions or other reductions.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Car parking - Gross taxable value of benefits - Inform the relevant field with the total of employee contributions made in respect of that benefit type.
+ If the taxable value of a benefit is reduced by the amount of an employee contribution, the contribution must be made before the employer lodges the FBT return. Special arrangements apply where the contribution is made by a journal entry in the employer's accounts - see Miscellaneous Tax Ruling MT2050.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Meal entertainment - Gross taxable value of benefits - Inform the relevant field with the sum of the taxable values of fringe benefits of that particular benefit type, before any reduction for employee contributions or other reductions.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd#DE1639" xlink:label="loc_DE1639"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Cars - statutory formula - Employee contribution</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1639" xlink:to="lbl_DE1639" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Cars - operating cost method - Employee contribution</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Expense payments - Employee contribution</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Loans Granted - Employee Contribution - Not required</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Debt Waiver - Employee Contribution - Not required</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employees receiving living away from home allowance - Employee Contribution - Not required</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Income tax exempt body - Entertainment - Employee Contirbution - Not required</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Meal Entertainment - Employee Contribution - Not required</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Housing - units of accommodation provided- Employee contribution</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Airline transport - Employee contribution</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Board - Employee contribution</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Property - Employee contribution</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Other benefits (residual) - Employee contribution</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Car parking - Employee contribution</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Cars - statutory formula - Employee contribution - Inform the relevant field with the total of employee contributions made in respect of that benefit type. If the taxable value of a benefit is reduced by the amount of an employee contribution, the contribution must be made before the employer lodges the return. Special arrangements apply where the contribution is made by a journal entry in the employer's accounts - see Miscellaneous Tax Ruling MT2050.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Cars - operating cost method - Employee contribution - Inform the relevant field with the total of employee contributions made in respect of that benefit type. 
+If the taxable value of a benefit is reduced by the amount of an employee contribution, the contribution must be made before the employer lodges the return. Special arrangements apply where the contribution is made by a journal entry in the employer's accounts - see Miscellaneous Tax Ruling MT2050.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Expense payments - Employee contribution - Inform the relevant field with the total of employee contributions made in respect of that benefit type. If the taxable value of a benefit is reduced by the amount of an employee contribution, the contribution must be made before the employer lodges the return. Special arrangements apply where the contribution is made by a journal entry in the employer's accounts - see Miscellaneous Tax Ruling MT2050.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Housing - units of accommodation provided- Employee contribution - Inform the relevant field with the total of employee contributions made in respect of that benefit type. If the taxable value of a benefit is reduced by the amount of an employee contribution, the contribution must be made before the employer lodges the FBT return. Special arrangements apply where the contribution is made by a journal entry in the employer's accounts - see Miscellaneous Tax Ruling MT2050.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Airline transport - Employee contribution - Inform the relevant field with the total of employee contributions made in respect of that benefit type. 
+If the taxable value of a benefit is reduced by the amount of an employee contribution, the contribution must be made before the employer lodges the FBT return. Special arrangements apply where the contribution is made by a journal entry in the employer's accounts - see Miscellaneous Tax Ruling MT2050.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Board - Employee contribution - Inform the relevant field with the total of employee contributions made in respect of that benefit type.
+ If the taxable value of a benefit is reduced by the amount of an employee contribution, the contribution must be made before the employer lodges the FBT return. Special arrangements apply where the contribution is made by a journal entry in the employer's accounts - see Miscellaneous Tax Ruling MT2050.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Property - Employee contribution - Inform the relevant field with the total of employee contributions made in respect of that benefit type
+ If the taxable value of a benefit is reduced by the amount of an employee contribution, the contribution must be made before the employer lodges the FBT return. Special arrangements apply where the contribution is made by a journal entry in the employer's accounts - see Miscellaneous Tax Ruling MT2050.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Other benefits (residual) - Employee contribution - Inform the relevant field with the total of employee contributions made in respect of that benefit type. 
+If the taxable value of a benefit is reduced by the amount of an employee contribution, the contribution must be made before the employer lodges the FBT return. Special arrangements apply where the contribution is made by a journal entry in the employer's accounts - see Miscellaneous Tax Ruling MT2050.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Car parking - Employee contribution - Inform the relevant field with the sum of the taxable values of fringe benefits of that particular benefit type, before any reduction for employee contributions or other reductions.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd#DE1640" xlink:label="loc_DE1640"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Loans granted - Value of reductions</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1640" xlink:to="lbl_DE1640" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Expense payments - Value of reductions</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Cars - Statutory Formula - Value of Reduction - Not required</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Cars - Operating Cost method - Value of Reduction - Not required</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Debt Waiver - Value of Reduction - Not required</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Housing - Units of accomadation provided - Value of Reduction - Not required</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Income tax exempt body - Entertainment - Value or Reduction - Not required</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Car Parking - Value of Reductions - Not required</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Meal Entertainment - Value of Reduction - Not required</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Employees receiving living-away-from-home allowance - Value of reductions</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Airline transport - Value of reductions</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Board - Value of reductions</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Property - Value of reductions</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Other benefits (residual) - Value of reductions</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Loans granted - Value of reductions - Inform the relevant field with the total amount by which benefits of that type have been reduced under the 'otherwise deductible' rule or other reductions.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Expense payments - Value of reductions - Inform the relevant field with the total amount by which benefits of that type have been reduced under the 'otherwise deductible' rule or other reductions, for example, in relation to in-house fringe benefits. The 'otherwise deductible' rule applies only if the recipients of the benefits are current employees and the employer obtains from them any necessary supporting documents such as declarations, receipts or invoices. 
+The employer should obtain these before lodging the FBT return.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Employees receiving living-away-from-home allowance - Value of reductions - Inform the relevant field with the amount of reduction of taxable value of that particular benefit type.
+The exempt accommodation and increased food component amount are shown as reductions at 'Value of reductions'. The employer will need to obtain the necessary employee declarations to take advantage of any exempt accommodation and increased food components.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Airline transport - Value of reductions - Inform the relevant field with the total amount by which benefits of that type have been reduced under the 'otherwise deductible' rule or other reductions.
+ The 'otherwise deductible' rule applies only if the recipients of the benefits are current employees and the employer obtain from them any necessary supporting documents such as declarations, receipts or invoices. The employer should obtain these before lodging the FBT return.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Board - Value of reductions - Inform the relevant field with the total amount by which benefits of that type have been reduced under the 'otherwise deductible' rule or other reductions.
+ The 'otherwise deductible' rule applies only if the recipients of the benefits are current employees and the employer obtains from them any necessary supporting documents such as declarations, receipts or invoices. The employer should obtain these before lodging the FBT return.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Property - Value of reductions - Inform the relevant field with the total amount by which benefits of that type have been reduced under the 'otherwise deductible' rule or other reductions.
+ The 'otherwise deductible' rule applies only if the recipients of the benefits are current employees and the employer obtains from them any necessary supporting documents such as declarations, receipts or invoices. The employer should obtain these before lodging the FBT return.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Other benefits (residual) - Value of reductions - Inform the relevant field with the total amount by which benefits of that type have been reduced under the 'otherwise deductible' rule or other reductions.
+ The 'otherwise deductible' rule applies only if the recipients of the benefits are current employees and the employer obtains from them any necessary supporting documents such as declarations, receipts or invoices. The employer should obtain these before lodging the FBT return.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.data.xsd#DE1641" xlink:label="loc_DE1641"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1641" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Client's reference</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1641" xlink:to="lbl_DE1641" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1641" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Client's reference - Inform the relevant field with the reference that the nominated tax agent can use to identify its clients.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc3.02.00.data.xsd#DE1889" xlink:label="loc_DE1889"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1889" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Sub - total (Amount of tax payable less Amount of rebate)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1889" xlink:to="lbl_DE1889" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1889" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Sub - total - Inform the relevant field with the amount of tax payable less the amount of amount of rebate. If you are not a rebatable employer, this amount will be the same as the amount of tax payable.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc3.02.00.data.xsd#DE1892" xlink:label="loc_DE1892"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1892" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Less instalment amounts reported on activity statements</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1892" xlink:to="lbl_DE1892" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1892" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Less instalment amounts reported on activity statements - Inform the relevant field with the Total the FBT instalment amounts reported on the employer's activity statement for the current FBT year and inform  the total amount of less instalment amounts reported on activity statements. This amount will be credited against the employer's total current FBT liability. 
+Don't include any amount paid in respect of penalties or another year's liability. 
+If the employer has made a payment towards its current FBT liability as part of a tax agent lodgment agreement this amount can be included at this item. 
+If the employer pays FBT by instalments the employer should lodge all of its activity statements for the FBT year ending 31 March of the current FBT year, including the March  quarter prior to lodging the FBT return. This will enable the ATO to update the employer's FBT account. 
+If the employer do not pay FBT by instalments then this field must be left blank.</link:label>
+    <link:loc xlink:type="locator" xlink:href="fbt.0001.lodge.request.02.00.report.xsd#RA58" xlink:label="loc_RA58"/>
+    <link:label xlink:type="resource" xlink:label="lbl_RA58" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">FBTLodgeRequest [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA58" xlink:to="lbl_RA58" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="fbt.0001.lodge.request.02.00.report.xsd#RA640" xlink:label="loc_RA640"/>
+    <link:label xlink:type="resource" xlink:label="lbl_RA640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Intermediary [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA640" xlink:to="lbl_RA640" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="fbt.0001.lodge.request.02.00.report.xsd#RA656" xlink:label="loc_RA656"/>
+    <link:label xlink:type="resource" xlink:label="lbl_RA656" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Report [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA656" xlink:to="lbl_RA656" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="fbt.0001.lodge.request.02.00.report.xsd#RA625" xlink:label="loc_RA625"/>
+    <link:label xlink:type="resource" xlink:label="lbl_RA625" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">ReportingParty [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA625" xlink:to="lbl_RA625" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="fbt.0001.lodge.request.02.00.report.xsd#RT641" xlink:label="loc_RT641"/>
+    <link:label xlink:type="resource" xlink:label="lbl_RT641" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">ControllingParty</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RT641" xlink:to="lbl_RT641" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="fbt.0001.lodge.request.02.00.report.xsd#RT658" xlink:label="loc_RT658"/>
+    <link:label xlink:type="resource" xlink:label="lbl_RT658" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">ProvidedFringeBenefitsDetails</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RT658" xlink:to="lbl_RT658" order="1.0"/>
+  </link:labelLink>
+</link:linkbase>

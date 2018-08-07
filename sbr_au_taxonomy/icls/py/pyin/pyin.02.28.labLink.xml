@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="pyin.02.28.data.xsd#pyin.02.28_pyinAbstract" xlink:label="loc_pyin.02.28_pyinAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_pyinAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Party Interaction</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_pyin.02.28_pyinAbstract" xlink:to="lbl_pyinAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.28.data.xsd#DE229" xlink:label="loc_DE229"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE229" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Declaration Statement Accepted Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE229" xlink:to="lbl_DE229"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE229" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicates that the terms stated in the Declaration Text have been accepted or declined.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE229" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = Indicates that the terms stated in the Declaration Text have been accepted.
+false = Indicates that the terms stated in the Declaration Text have been declined.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.28.data.xsd#DE1624" xlink:label="loc_DE1624"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE1624" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Lodgment Final Return Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1624" xlink:to="lbl_DE1624"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE1624" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This field indicates whether this is the last return the entity is required to lodge.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE1624" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = This lodgment is the final return for the entity.
+false = This lodgment is not the final return for the entity.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.28.data.xsd#DE824" xlink:label="loc_DE824"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE824" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payment Mechanism Payment Method Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE824" xlink:to="lbl_DE824"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE824" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the method used for the payment.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.28.data.xsd#DE706" xlink:label="loc_DE706"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE706" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Report Amendment Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE706" xlink:to="lbl_DE706"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE706" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicator to identify whether the report contains original or amended data.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE706" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = The report contains amended data
+false = The report does not contain amended data</link:label>
+    </link:labelLink>
+</link:linkbase>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:pyde.02.26="http://sbr.gov.au/icls/py/pyde/pyde.02.26.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dtyp.02.37="http://sbr.gov.au/fdtn/sbr.02.37.dtyp" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/py/pyde/pyde.02.26.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.37.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.37.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="pydeAbstract" id="pyde.02.26_pydeAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AddressDetails.Validation.Indicator" id="DE14281" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="ElectronicContact.DeviceType.Text" id="DE14303" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationControl.CompanyOfficialManagement.Indicator" id="DE14295" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationDetails.AgricultureActivity.Indicator" id="DE14278" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationDetails.AustralianBusinessRegisterEntityType.Code" id="DE14270" type="dtyp.02.37:sbrABREntityTypeCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationDetails.CivilPenaltyOrder.Indicator" id="DE14293" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationDetails.Conviction.Indicator" id="DE14294" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationDetails.DisqualifiedOfficer.Indicator" id="DE14291" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationDetails.GovernmentControlledOwned.Indicator" id="DE14279" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationDetails.LiquidatorAppointed.Indicator" id="DE14290" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationDetails.MainIncomeActivity.Code" id="DE14312" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationDetails.MultipleBusinessLocation.Indicator" id="DE14280" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationDetails.OrganisationType.Code" id="DE68" type="dtyp.02.37:sbrOrganisationTypeCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationDetails.ReceiverAppointed.Indicator" id="DE14292" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Party.GovernmentTier.Code" id="DE14275" type="dtyp.02.37:sbrGovernmentTierCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="PersonDemographicDetails.FirstTimeContractor.Indicator" id="DE14286" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="PersonDemographicDetails.FirstTimeDirector.Indicator" id="DE14285" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="PersonDemographicDetails.FirstTimeSelfEmployed.Indicator" id="DE14287" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="PersonDemographicDetails.GoverningRules.Indicator" id="DE14288" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="PersonDemographicDetails.LanguagePreferred.Code" id="DE14282" type="dtyp.02.37:sbrLanguageTypeCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="PersonDemographicDetails.LanguagePreferredOther.Description" id="DE14307" type="dtyp.02.37:sbrLanguageTypeCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+</xsd:schema>

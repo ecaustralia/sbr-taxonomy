@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:pyde.02.04="http://sbr.gov.au/icls/py/pyde/pyde.02.04.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtyp.02.05="http://sbr.gov.au/fdtn/sbr.02.05.dtyp" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:pyde.02.00="http://sbr.gov.au/icls/py/pyde/pyde.02.00.data" targetNamespace="http://sbr.gov.au/icls/py/pyde/pyde.02.04.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.05.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.05.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/py/pyde/pyde.02.00.data" schemaLocation="pyde.02.00.data.xsd"/>
+    <xsd:element name="pydeAbstract" id="pyde.02.04_pydeAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="OrganisationDetails.PlaceOfIncorporation.Text" id="DE2509" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationNameDetails.NameChangeReason.Description" id="DE2803" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationNameDetails" id="DT172" substitutionGroup="xbrli:tuple" nillable="false">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element minOccurs="0" ref="pyde.02.00:OrganisationNameDetails.OrganisationalName.Text"/>
+                <xsd:element minOccurs="0" ref="pyde.02.04:OrganisationNameDetails.NameChangeReason.Description"/>
+                <xsd:element minOccurs="0" ref="pyde.02.00:OrganisationNameDetails.OrganisationalNameType.Code"/>
+                <xsd:element minOccurs="0" ref="pyde.02.00:OrganisationNameDetails.OrganisationalNameStart.Date"/>
+                <xsd:element minOccurs="0" ref="pyde.02.00:OrganisationNameDetails.OrganisationalNameEnd.Date"/>
+                <xsd:element minOccurs="0" ref="pyde.02.00:OrganisationNameDetails.Usage.Code"/>
+                <xsd:element minOccurs="0" ref="pyde.02.00:OrganisationNameDetails.Currency.Code"/>
+            </xsd:sequence>
+            <xsd:attribute name="id" use="optional" type="xsd:ID"/>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

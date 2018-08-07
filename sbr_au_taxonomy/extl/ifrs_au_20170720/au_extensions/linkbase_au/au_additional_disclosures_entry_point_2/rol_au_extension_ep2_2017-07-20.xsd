@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:rol_au_extension_ep2_2017-07-20="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20" xmlns:link="http://www.xbrl.org/2003/linkbase" targetNamespace="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-210000-EP2" id="au_extension_ep2_2017-07-20_role-210000-EP2">
+				<link:definition>[210000-EP2] Statement of financial position, current/non-current</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-220000-EP2" id="au_extension_ep2_2017-07-20_role-220000-EP2">
+				<link:definition>[220000-EP2] Statement of financial position, order of liquidity</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-310000-EP2" id="au_extension_ep2_2017-07-20_role-310000-EP2">
+				<link:definition>[310000-EP2] Statement of comprehensive income, profit or loss, by function of expense</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-320000-EP2" id="au_extension_ep2_2017-07-20_role-320000-EP2">
+				<link:definition>[320000-EP2] Statement of comprehensive income, profit or loss, by nature of expense</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-410000-EP2" id="au_extension_ep2_2017-07-20_role-410000-EP2">
+				<link:definition>[410000-EP2] Statement of comprehensive income, OCI components presented net of tax</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-420000-EP2" id="au_extension_ep2_2017-07-20_role-420000-EP2">
+				<link:definition>[420000-EP2] Statement of comprehensive income, OCI components presented before tax</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-510000-EP2" id="au_extension_ep2_2017-07-20_role-510000-EP2">
+				<link:definition>[510000-EP2] Statement of cash flows, direct method</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-520000-EP2" id="au_extension_ep2_2017-07-20_role-520000-EP2">
+				<link:definition>[520000-EP2] Statement of cash flows, indirect method</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-800100-EP2" id="au_extension_ep2_2017-07-20_role-800100-EP2">
+				<link:definition>[800100-EP2] Notes - Subclassifications of assets, liabilities and equities</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-800200-EP2" id="au_extension_ep2_2017-07-20_role-800200-EP2">
+				<link:definition>[800200-EP2] Notes - Analysis of income and expense</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-800300-EP2" id="au_extension_ep2_2017-07-20_role-800300-EP2">
+				<link:definition>[800300-EP2] Notes - Statement of cash flows, additional disclosures</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-810000-EP2" id="au_extension_ep2_2017-07-20_role-810000-EP2">
+				<link:definition>[810000-EP2] Notes - Corporate information and statement of IFRS compliance</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-811000-EP2" id="au_extension_ep2_2017-07-20_role-811000-EP2">
+				<link:definition>[811000-EP2] Notes -  Accounting policies, changes in accounting estimates and errors</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-813000-EP2" id="au_extension_ep2_2017-07-20_role-813000-EP2">
+				<link:definition>[813000-EP2] Notes - Interim financial reporting</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-815000-EP2" id="au_extension_ep2_2017-07-20_role-815000-EP2">
+				<link:definition>[815000-EP2] Notes - Events after reporting period</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-816000-EP2" id="au_extension_ep2_2017-07-20_role-816000-EP2">
+				<link:definition>[816000-EP2] Notes - Hyperinflationary reporting</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-817000-EP2" id="au_extension_ep2_2017-07-20_role-817000-EP2">
+				<link:definition>[817000-EP2] Notes - Business combinations</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-818000-EP2" id="au_extension_ep2_2017-07-20_role-818000-EP2">
+				<link:definition>[818000-EP2] Notes - Related party</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-819100-EP2" id="au_extension_ep2_2017-07-20_role-819100-EP2">
+				<link:definition>[819100-EP2] Notes - First time adoption</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-822100-EP2" id="au_extension_ep2_2017-07-20_role-822100-EP2">
+				<link:definition>[822100-EP2] Notes - Property, plant and equipment</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-822200-EP2" id="au_extension_ep2_2017-07-20_role-822200-EP2">
+				<link:definition>[822200-EP2] Notes - Exploration for and evaluation of mineral resources</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-822390-EP2" id="au_extension_ep2_2017-07-20_role-822390-EP2">
+				<link:definition>[822390-EP2] Notes - Financial instruments</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-823000-EP2" id="au_extension_ep2_2017-07-20_role-823000-EP2">
+				<link:definition>[823000-EP2] Notes - Fair value measurement</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-823180-EP2" id="au_extension_ep2_2017-07-20_role-823180-EP2">
+				<link:definition>[823180-EP2] Notes - Intangible assets</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-824180-EP2" id="au_extension_ep2_2017-07-20_role-824180-EP2">
+				<link:definition>[824180-EP2] Notes - Agriculture</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-824500-EP2" id="au_extension_ep2_2017-07-20_role-824500-EP2">
+				<link:definition>[824500-EP2] Regulatory deferral accounts</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-825100-EP2" id="au_extension_ep2_2017-07-20_role-825100-EP2">
+				<link:definition>[825100-EP2] Notes - Investment property</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-825700-EP2" id="au_extension_ep2_2017-07-20_role-825700-EP2">
+				<link:definition>[825700-EP2] Notes - Interests in other entities</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-825900-EP2" id="au_extension_ep2_2017-07-20_role-825900-EP2">
+				<link:definition>[825900-EP2] Notes - Non-current asset held for sale and discontinued operations</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-826380-EP2" id="au_extension_ep2_2017-07-20_role-826380-EP2">
+				<link:definition>[826380-EP2] Notes - Inventories</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-827570-EP2" id="au_extension_ep2_2017-07-20_role-827570-EP2">
+				<link:definition>[827570-EP2] Notes - Other provisions, contingent liabilities and contingent assets</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-831110-EP2" id="au_extension_ep2_2017-07-20_role-831110-EP2">
+				<link:definition>[831110-EP2] Notes - Revenue</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-831150-EP2" id="au_extension_ep2_2017-07-20_role-831150-EP2">
+				<link:definition>[831150-EP2] Notes - Revenue from contracts with customers</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-831400-EP2" id="au_extension_ep2_2017-07-20_role-831400-EP2">
+				<link:definition>[831400-EP2] Notes - Government grants</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-831710-EP2" id="au_extension_ep2_2017-07-20_role-831710-EP2">
+				<link:definition>[831710-EP2] Notes - Construction contracts</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-831800-EP2" id="au_extension_ep2_2017-07-20_role-831800-EP2">
+				<link:definition>[831800-EP2] Notes - Income of not for profit entities</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-832410-EP2" id="au_extension_ep2_2017-07-20_role-832410-EP2">
+				<link:definition>[832410-EP2] Notes - Impairment of assets</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-832600-EP2" id="au_extension_ep2_2017-07-20_role-832600-EP2">
+				<link:definition>[832600-EP2] Notes - Leases</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-832610-EP2" id="au_extension_ep2_2017-07-20_role-832610-EP2">
+				<link:definition>[832610-EP2] Notes - Leases (IFRS 16)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-832800-EP2" id="au_extension_ep2_2017-07-20_role-832800-EP2">
+				<link:definition>[832800-EP2] Notes - Transactions involving legal form of lease</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-832900-EP2" id="au_extension_ep2_2017-07-20_role-832900-EP2">
+				<link:definition>[832900-EP2] Notes - Service concession arrangements</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-834120-EP2" id="au_extension_ep2_2017-07-20_role-834120-EP2">
+				<link:definition>[834120-EP2] Notes - Share-based payment arrangements</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-834480-EP2" id="au_extension_ep2_2017-07-20_role-834480-EP2">
+				<link:definition>[834480-EP2] Notes - Employee benefits</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-835110-EP2" id="au_extension_ep2_2017-07-20_role-835110-EP2">
+				<link:definition>[835110-EP2] Notes - Income taxes</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-836200-EP2" id="au_extension_ep2_2017-07-20_role-836200-EP2">
+				<link:definition>[836200-EP2] Notes - Borrowing costs</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-836500-EP2" id="au_extension_ep2_2017-07-20_role-836500-EP2">
+				<link:definition>[836500-EP2] Notes - Insurance contracts</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-836501-EP2" id="au_extension_ep2_2017-07-20_role-836501-EP2">
+				<link:definition>[836501-EP2] Notes - Life insurance contracts</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-836505-EP2" id="au_extension_ep2_2017-07-20_role-836505-EP2">
+				<link:definition>[836505-EP2] Notes - General insurance contracts</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-838000-EP2" id="au_extension_ep2_2017-07-20_role-838000-EP2">
+				<link:definition>[838000-EP2] Notes - Earnings per share</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-842000-EP2" id="au_extension_ep2_2017-07-20_role-842000-EP2">
+				<link:definition>[842000-EP2] Notes - Effects of changes in foreign exchange rates</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-851100-EP2" id="au_extension_ep2_2017-07-20_role-851100-EP2">
+				<link:definition>[851100-EP2] Notes - Cash flow statement</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-861000-EP2" id="au_extension_ep2_2017-07-20_role-861000-EP2">
+				<link:definition>[861000-EP2] Notes - Analysis of other comprehensive income by item</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-861200-EP2" id="au_extension_ep2_2017-07-20_role-861200-EP2">
+				<link:definition>[861200-EP2] Notes - Share capital, reserves and other equity interest</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-868200-EP2" id="au_extension_ep2_2017-07-20_role-868200-EP2">
+				<link:definition>[868200-EP2] Notes - Rights to interests arising from decommissioning, restoration and environmental rehabilitation funds</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-868500-EP2" id="au_extension_ep2_2017-07-20_role-868500-EP2">
+				<link:definition>[868500-EP2] Notes - Members' shares in co-operative entities and similar instruments</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-871100-EP2" id="au_extension_ep2_2017-07-20_role-871100-EP2">
+				<link:definition>[871100-EP2] Notes - Operating segments</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-880000-EP2" id="au_extension_ep2_2017-07-20_role-880000-EP2">
+				<link:definition>[880000-EP2] Notes - Additional information</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+</xsd:schema>

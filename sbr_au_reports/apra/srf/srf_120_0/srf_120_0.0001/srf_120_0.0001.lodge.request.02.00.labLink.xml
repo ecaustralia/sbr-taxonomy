@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:href="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#Label"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:href="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#reportGuidance"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/rprt/apra/srf/srf_120_0/srf_120_0.0001.lodge.request.02.00/labRole" xlink:href="srf_120_0.0001.lodge.request.02.00.xsd#srf_120_0.0001.lodge.request.02.00.labLink"/>
+	<link:labelLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/apra/srf/srf_120_0/srf_120_0.0001.lodge.request.02.00/labRole">
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo3.02.04.data.xsd#DE5445" xlink:label="loc_DE5445" xlink:title="Liabilities.Exposures.BorrowingsNetMarketValue.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE5445" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Borrowings</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5445" xlink:to="lbl_DE5445" xlink:title="label: Liabilities.Exposures.BorrowingsNetMarketValue.Amount to label_Liabilities.Exposures.BorrowingsNetMarketValue.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE5445_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance"></link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5445" xlink:to="lbl_DE5445_1" xlink:title="label: Liabilities.Exposures.BorrowingsNetMarketValue.Amount to label_Liabilities.Exposures.BorrowingsNetMarketValue.Amount"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafot/bafot.02.05.data.xsd#DE5173" xlink:label="loc_DE5173" xlink:title="FinancialRisk.ExposuresNetMarketValue.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE5173" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Net market value of exposures greater than 5% of total assets of the superannuation entity</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5173" xlink:to="lbl_DE5173" xlink:title="label: FinancialRisk.ExposuresNetMarketValue.Amount to label_FinancialRisk.ExposuresNetMarketValue.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE5173_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance">Exposure concentrations of investments should only be reported if they represent greater than 5% of total assets. i.e. each individual line item disclosed must be greater than 5% of total assets.
+
+If a superannuation entity has a number of like investments in the same counterparty, then these should be reported in aggregate.
+
+A liability for accrued member benefits does not form part of an exposure concentration.
+
+Exposures of the reporting entity to related parties must be included.
+
+Include the aggregate investment value exposure of the superannuation entity to an external investment manager or Pooled Superannuation Trusts (PST), Wholesale trusts, units in retail/public offer trusts, listed or unlisted trusts, corporations, and managed investment schemes for the purposes of this analysis.
+There is no need to record the exposures to the Underlying assets/investments held through the intermediary.
+</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5173" xlink:to="lbl_DE5173_1" xlink:title="label: FinancialRisk.ExposuresNetMarketValue.Amount to label_FinancialRisk.ExposuresNetMarketValue.Amount"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafot/bafot.02.05.data.xsd#DE5745" xlink:label="loc_DE5745" xlink:title="FinancialRisk.ExposuresOtherSRF1200SRF2200SRF3200.Description"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE5745" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Description of other exposures greater than 5% of total assets of the superannuation entity</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5745" xlink:to="lbl_DE5745" xlink:title="label: FinancialRisk.ExposuresOtherSRF1200SRF2200SRF3200.Description to label_FinancialRisk.ExposuresOtherSRF1200SRF2200SRF3200.Description"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE5745_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance">Exposure concentrations of investments should only be reported if they represent greater than 5% of total assets. i.e. each individual line item disclosed must be greater than 5% of total assets.
+
+If a superannuation entity has a number of like investments in the same counterparty, then these should be reported in aggregate.
+
+A liability for accrued member benefits does not form part of an exposure concentration.
+
+Exposures of the reporting entity to related parties must be included.
+
+Include the aggregate investment value exposure of the superannuation entity to an external investment manager or Pooled Superannuation Trusts (PST), Wholesale trusts, units in retail/public offer trusts, listed or unlisted trusts, corporations, and managed investment schemes for the purposes of this analysis.
+There is no need to record the exposures to the Underlying assets/investments held through the intermediary.
+</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5745" xlink:to="lbl_DE5745_1" xlink:title="label: FinancialRisk.ExposuresOtherSRF1200SRF2200SRF3200.Description to label_FinancialRisk.ExposuresOtherSRF1200SRF2200SRF3200.Description"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo3.02.04.data.xsd#DE5591" xlink:label="loc_DE5591" xlink:title="Assets.Exposures.ReceivablesNetMarketValue.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE5591" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Receivables</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5591" xlink:to="lbl_DE5591" xlink:title="label: Assets.Exposures.ReceivablesNetMarketValue.Amount to label_Assets.Exposures.ReceivablesNetMarketValue.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE5591_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance"></link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5591" xlink:to="lbl_DE5591_1" xlink:title="label: Assets.Exposures.ReceivablesNetMarketValue.Amount to label_Assets.Exposures.ReceivablesNetMarketValue.Amount"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafot/bafot.02.05.data.xsd#DE5093" xlink:label="loc_DE5093" xlink:title="FinancialRisk.ExposuresInvestmentsNetMarketValue.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE5093" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Investments</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5093" xlink:to="lbl_DE5093" xlink:title="label: FinancialRisk.ExposuresInvestmentsNetMarketValue.Amount to label_FinancialRisk.ExposuresInvestmentsNetMarketValue.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE5093_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance"></link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5093" xlink:to="lbl_DE5093_1" xlink:title="label: FinancialRisk.ExposuresInvestmentsNetMarketValue.Amount to label_FinancialRisk.ExposuresInvestmentsNetMarketValue.Amount"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafot/bafot.02.05.data.xsd#DE5189" xlink:label="loc_DE5189" xlink:title="FinancialRisk.ExposuresDerivativeFinancialInstrumentsDirectlyHeldNetMarketValue.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE5189" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Direct holdings - derivative instruments</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5189" xlink:to="lbl_DE5189" xlink:title="label: FinancialRisk.ExposuresDerivativeFinancialInstrumentsDirectlyHeldNetMarketValue.Amount to label_FinancialRisk.ExposuresDerivativeFinancialInstrumentsDirectlyHeldNetMarketValue.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE5189_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance"></link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5189" xlink:to="lbl_DE5189_1" xlink:title="label: FinancialRisk.ExposuresDerivativeFinancialInstrumentsDirectlyHeldNetMarketValue.Amount to label_FinancialRisk.ExposuresDerivativeFinancialInstrumentsDirectlyHeldNetMarketValue.Amount"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo3.02.04.data.xsd#DE5379" xlink:label="loc_DE5379" xlink:title="Liabilities.Exposures.MemberBenefitsPayableNetMarketValue.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE5379" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Member benefits payable</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5379" xlink:to="lbl_DE5379" xlink:title="label: Liabilities.Exposures.MemberBenefitsPayableNetMarketValue.Amount to label_Liabilities.Exposures.MemberBenefitsPayableNetMarketValue.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE5379_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance"></link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5379" xlink:to="lbl_DE5379_1" xlink:title="label: Liabilities.Exposures.MemberBenefitsPayableNetMarketValue.Amount to label_Liabilities.Exposures.MemberBenefitsPayableNetMarketValue.Amount"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo3.02.04.data.xsd#DE5039" xlink:label="loc_DE5039" xlink:title="Assets.Exposures.OtherSRF1200SRF2200AndSRF3200.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE5039" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Other Exposures</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5039" xlink:to="lbl_DE5039" xlink:title="label: Assets.Exposures.OtherSRF1200SRF2200AndSRF3200.Amount to label_Assets.Exposures.OtherSRF1200SRF2200AndSRF3200.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE5039_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance"></link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5039" xlink:to="lbl_DE5039_1" xlink:title="label: Assets.Exposures.OtherSRF1200SRF2200AndSRF3200.Amount to label_Assets.Exposures.OtherSRF1200SRF2200AndSRF3200.Amount"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo3.02.04.data.xsd#DE5463" xlink:label="loc_DE5463" xlink:title="Liabilities.Exposures.PayablesExlcudingMemberBenefitsNetMarketValue.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE5463" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Total Payables and Creditors</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5463" xlink:to="lbl_DE5463" xlink:title="label: Liabilities.Exposures.PayablesExlcudingMemberBenefitsNetMarketValue.Amount to label_Liabilities.Exposures.PayablesExlcudingMemberBenefitsNetMarketValue.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE5463_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance"></link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5463" xlink:to="lbl_DE5463_1" xlink:title="label: Liabilities.Exposures.PayablesExlcudingMemberBenefitsNetMarketValue.Amount to label_Liabilities.Exposures.PayablesExlcudingMemberBenefitsNetMarketValue.Amount"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo7.02.00.data.xsd#DE170" xlink:label="loc_DE170" xlink:title="Assets.CashAndLiquidAssets.SecuritiesPurchasedUnderAgreementsToResell.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE170" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Securities under agreement to resell</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE170" xlink:to="lbl_DE170" xlink:title="label: Assets.CashAndLiquidAssets.SecuritiesPurchasedUnderAgreementsToResell.Amount to label_Assets.CashAndLiquidAssets.SecuritiesPurchasedUnderAgreementsToResell.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE170_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance"></link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE170" xlink:to="lbl_DE170_1" xlink:title="label: Assets.CashAndLiquidAssets.SecuritiesPurchasedUnderAgreementsToResell.Amount to label_Assets.CashAndLiquidAssets.SecuritiesPurchasedUnderAgreementsToResell.Amount"/>
+	</link:labelLink>
+</link:linkbase>

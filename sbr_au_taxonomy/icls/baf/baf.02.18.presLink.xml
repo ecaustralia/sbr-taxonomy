@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/icls" xlink:type="simple" xlink:href="../../fdtn/tech.sbr.01.02.xsd#icls"/>
+    <link:presentationLink xlink:type="extended" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/icls">
+        <link:loc xlink:type="locator" xlink:href="baf.02.18.data.xsd#baf.02.18_bafAbstract" xlink:label="loc_baf.02.18_bafAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="baf.02.18.data.xsd#bafpr.02.17_bafprAbstract" xlink:label="loc_bafpr.02.17_bafprAbstract"/>
+        <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_baf.02.18_bafAbstract" xlink:to="loc_bafpr.02.17_bafprAbstract" order="1.0"/>
+        <link:loc xlink:type="locator" xlink:href="baf.02.18.data.xsd#bafpo.02.17_bafpoAbstract" xlink:label="loc_bafpo.02.17_bafpoAbstract"/>
+        <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_baf.02.18_bafAbstract" xlink:to="loc_bafpo.02.17_bafpoAbstract" order="2.0"/>
+        <link:loc xlink:type="locator" xlink:href="bafot/bafot.02.16.data.xsd#bafot.02.16_bafotAbstract" xlink:label="loc_bafot.02.16_bafotAbstract"/>
+        <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_baf.02.18_bafAbstract" xlink:to="loc_bafot.02.16_bafotAbstract" order="3.0"/>
+    </link:presentationLink>
+</link:linkbase>

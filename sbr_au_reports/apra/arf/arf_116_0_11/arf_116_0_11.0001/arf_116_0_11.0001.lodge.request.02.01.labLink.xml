@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:href="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#Label"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:href="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#reportGuidance"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/rprt/apra/arf/arf_116_0_11/arf_116_0_11.0001.lodge.request.02.01/labRole" xlink:href="arf_116_0_11.0001.lodge.request.02.01.xsd#arf_116_0_11.0001.lodge.request.02.01.labLink"/>
+	<link:labelLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/apra/arf/arf_116_0_11/arf_116_0_11.0001.lodge.request.02.01/labRole">
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafot/bafot.02.06.data.xsd#DE8115" xlink:label="loc_DE8115" xlink:title="FinancialRisk.Market.OptionsForeignExchange.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE8115" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Standard Method - Contingent Loss Method - Foreign Exchange Options</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8115" xlink:to="lbl_DE8115" xlink:title="label: FinancialRisk.Market.OptionsForeignExchange.Amount to label_FinancialRisk.Market.OptionsForeignExchange.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE8115_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance">The capital charge on this item is the maximum loss figure obtained from the scenario matrix constructed for each currency pair (refer to APS 116).
+
+Maximum loss is calculated by specifying a fixed range of changes in the option portfolio's risk factors (i.e. underlying price and volatility) and calculating changes in the value of the option portfolio at various points along this matrix. The maximum loss is determined as being the largest loss within the matrix.</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8115" xlink:to="lbl_DE8115_1" xlink:title="label: FinancialRisk.Market.OptionsForeignExchange.Amount to label_FinancialRisk.Market.OptionsForeignExchange.Amount"/>
+	</link:labelLink>
+</link:linkbase>

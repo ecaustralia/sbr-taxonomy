@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:href="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#Label"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:href="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#reportGuidance"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/rprt/apra/rrf/rrf_231_1a/rrf_231_1a.0001.lodge.request.02.01/labRole" xlink:href="rrf_231_1a.0001.lodge.request.02.01.xsd#rrf_231_1a.0001.lodge.request.02.01.labLink"/>
+	<link:labelLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/apra/rrf/rrf_231_1a/rrf_231_1a.0001.lodge.request.02.01/labRole">
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo1.02.00.data.xsd#DE1273" xlink:label="loc_DE1273" xlink:title="Assets.Total.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE1273" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Total Assets</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1273" xlink:to="lbl_DE1273" xlink:title="label: Assets.Total.Amount to label_Assets.Total.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE1273_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance">The principal balance sheet items to be included as claims (i.e.. assets) are deposits and balances placed with banks; derivatives; loans and advances; holdings of debt securities; and investment equity securities (i.e.. those held with the intention of sale at a profit, excludes equity securities in associated entities). The value includes interest and principal in arrears where appropriate.</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1273" xlink:to="lbl_DE1273_1" xlink:title="label: Assets.Total.Amount to label_Assets.Total.Amount"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo7.02.05.data.xsd#DE956" xlink:label="loc_DE956" xlink:title="Assets.Investment.DebtSecuritiesTotal.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE956" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Holdings of Debt Securities</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE956" xlink:to="lbl_DE956" xlink:title="label: Assets.Investment.DebtSecuritiesTotal.Amount to label_Assets.Investment.DebtSecuritiesTotal.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE956_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance">The items to be included are balance sheet holdings of debt securities. The value includes interest and principal in arrears where appropriate.
+                                                                                                                          
+Holdings of debt securities comprise all negotiable short- and long-term debt instruments (including negotiable certificates of deposit) and those debt securities held in the reporting parties' own name but on behalf of third parties as part of trustee business. Debt securities held on a purely custodial basis for customers and debt securities acquired in the context of securities lending transactions without cash collateral should not be included in the data on holdings of debt securities. It is recognised that the borrowing of securities that are subsequently sold to third parties may result in negative holdings of securities.</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE956" xlink:to="lbl_DE956_1" xlink:title="label: Assets.Investment.DebtSecuritiesTotal.Amount to label_Assets.Investment.DebtSecuritiesTotal.Amount"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo1.02.06.data.xsd#DE8744" xlink:label="loc_DE8744" xlink:title="Assets.NotLoansAdvancesDebtSecurities.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE8744" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Other Assets</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8744" xlink:to="lbl_DE8744" xlink:title="label: Assets.NotLoansAdvancesDebtSecurities.Amount to label_Assets.NotLoansAdvancesDebtSecurities.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE8744_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance">The principal balance sheet items to be included as other assets are:  equity shares; participations, which are permanent financial interests in other entities; derivatives; and working capital supplied by head offices to their branches.</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8744" xlink:to="lbl_DE8744_1" xlink:title="label: Assets.NotLoansAdvancesDebtSecurities.Amount to label_Assets.NotLoansAdvancesDebtSecurities.Amount"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo1.02.06.data.xsd#DE8968" xlink:label="loc_DE8968" xlink:title="Assets.LoansAndAdvancesInternationalExposures.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE8968" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Loans And Advances</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8968" xlink:to="lbl_DE8968" xlink:title="label: Assets.LoansAndAdvancesInternationalExposures.Amount to label_Assets.LoansAndAdvancesInternationalExposures.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE8968_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance">The principal balance sheet items to be included are financial assets classified as loans and advances. The value includes interest and principal in arrears where appropriate.
+                                                                                                                          
+Loans should comprise those financial assets that are created through the lending of funds by a creditor (lender) to a debtor (borrower) and that are not represented by negotiable securities, including interbank borrowings, loans and inter-office balances.
+
+Loans should also include: 
+- foreign trade-related credits; 
+- holdings of international notes and coins that are in circulation
+- international loans granted and deposits made on a trust basis
+- Sale and repurchase transactions (repos)
+- financial leases 
+- promissory notes
+- non-negotiable debt securities
+-  endorsement liabilities arising from bills rediscounted abroad
+- subordinated loans (including subordinated non-negotiable debt securities)
+- Loans which have become negotiable de facto should be classified under debt securities (For doing so there needs to be evidence of a secondary market trading.)
+
+Borrowing and lending of securities and gold without cash collateral should not be reported.
+
+The reporting of negative positions is accepted in those cases where it is the result of the short selling of securities acquired in the context of repo or bond lending transactions.</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8968" xlink:to="lbl_DE8968_1" xlink:title="label: Assets.LoansAndAdvancesInternationalExposures.Amount to label_Assets.LoansAndAdvancesInternationalExposures.Amount"/>
+	</link:labelLink>
+</link:linkbase>

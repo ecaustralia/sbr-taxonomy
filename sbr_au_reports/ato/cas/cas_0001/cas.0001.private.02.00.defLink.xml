@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:p0="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/cas/cas.0001.private.02.00/defRole" xlink:type="simple" xlink:href="cas.0001.private.02.00.module.xsd#cas.0001.02.00.privatedefLink"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/cas/cas.0001.private.02.00/hypercubes/ReportingParty" xlink:type="simple" xlink:href="cas.0001.private.02.00.module.xsd#cas.0001.02.00.privatedefLink.ReportingParty"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/cas/cas.0001.private.02.00/hypercubes/ReportingParty.RelativePeriodDuration.Y0.Y0Minus1" xlink:type="simple" xlink:href="cas.0001.private.02.00.module.xsd#cas.0001.02.00.privatedefLink.ReportingParty.RelativePeriodDuration.Y0.Y0Minus1"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/cas/cas.0001.private.02.00/defRole"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/cas/cas.0001.private.02.00/hypercubes/ReportingParty">
+    <link:loc xlink:type="locator" xlink:href="cas.0001.private.02.00.module.xsd#HC1139" xlink:label="ReportParty" xlink:title="ReportParty"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.03.data.xsd#DM5" xlink:label="ReportPartyTypeDimension" xlink:title="ReportPartyTypeDimension"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportParty" xlink:to="ReportPartyTypeDimension" xlink:title="definition: ReportParty to ReportPartyTypeDimension" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.03.data.xsd#DV29" xlink:label="ReportingParty" xlink:title="ReportingParty"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="ReportingParty" xlink:title="definition: ReportPartyTypeDimension to ReportingParty" order="1.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/cas/cas.0001.private.02.00/hypercubes/ReportingParty.RelativePeriodDuration.Y0.Y0Minus1">
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.03.data.xsd#DM5" xlink:label="ReportPartyTypeDimension" xlink:title="ReportPartyTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.03.data.xsd#DV29" xlink:label="ReportingParty" xlink:title="ReportingParty"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="ReportingParty" xlink:title="definition: ReportPartyTypeDimension to ReportingParty" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="cas.0001.private.02.00.module.xsd#HC1140" xlink:label="ReportingPartyRelativePeriodDurationY0Y0Minus1" xlink:title="ReportingPartyRelativePeriodDurationY0Y0Minus1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RelPrdDrtn.02.00.data.xsd#DM20" xlink:label="RelativePeriodDurationDimension" xlink:title="RelativePeriodDurationDimension"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyRelativePeriodDurationY0Y0Minus1" xlink:to="RelativePeriodDurationDimension" xlink:title="definition: ReportingPartyRelativePeriodDurationY0Y0Minus1 to RelativePeriodDurationDimension" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RelPrdDrtn.02.00.data.xsd#DV141" xlink:label="Y0Minus1" xlink:title="Y0Minus1"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="RelativePeriodDurationDimension" xlink:to="Y0Minus1" xlink:title="definition: RelativePeriodDurationDimension to Y0Minus1" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RelPrdDrtn.02.00.data.xsd#DV139" xlink:label="Y0" xlink:title="Y0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="RelativePeriodDurationDimension" xlink:to="Y0" xlink:title="definition: RelativePeriodDuration to Y0" order="1.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyRelativePeriodDurationY0Y0Minus1" xlink:to="ReportPartyTypeDimension" xlink:title="definition: ReportingPartyRelativePeriodDurationY0Y0Minus1 to ReportPartyTypeDimension" order="1.0"/>
+  </link:definitionLink>
+</link:linkbase>

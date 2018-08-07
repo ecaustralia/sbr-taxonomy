@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:ClientCode.02.00="http://sbr.gov.au/dims/ClientCode.02.00.dims" xmlns:dtyp.02.09="http://sbr.gov.au/fdtn/sbr.02.09.dtyp" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+	<link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+		<link:loc xlink:type="locator" xlink:label="ClientCode" xlink:title="ClientCode" xlink:href="ClientCode.02.00.data.xsd#DM453"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="label_ClientCode" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_ClientCode">Client Code</link:label>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="label_ClientCode_2" xlink:title="label_ClientCode_2" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition">This is the unique identifier for the client as used by the insurance intermediary.</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ClientCode" xlink:to="label_ClientCode" xlink:title="label: ClientCode to label_ClientCode"/>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ClientCode" xlink:to="label_ClientCode_2" xlink:title="label: ClientCode to label_ClientCode_2"/>
+	</link:labelLink>
+</link:linkbase>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:txmy.02.05="http://sbr.gov.au/sbr.au.taxonomy.02.05.data" xmlns:MajOwnshpAndCntrlTestType.02.00="http://sbr.gov.au/dims/MajOwnshpAndCntrlTestType.02.00.dims" xmlns:address4.02.00="http://sbr.gov.au/comnmdle/comnmdle.addressdetails4.02.00.module" xmlns:CGTMethod.02.00="http://sbr.gov.au/dims/CGTMethod.02.00.dims" xmlns:h02.02.03="http://sbr.gov.au/dims/EmpGrpSts.02.03.dims" xmlns:LossGenSource.02.00="http://sbr.gov.au/dims/LossGenSource.02.00.dims" xmlns:FinclArrngmtType.02.00="http://sbr.gov.au/dims/FinclArrngmtType.02.00.dims" xmlns:CountryResCFCClass.02.00="http://sbr.gov.au/dims/CountryResCFCClass.02.00.dims" xmlns:AssblFrgnIncClass.02.00="http://sbr.gov.au/dims/AssblFrgnIncClass.02.00.dims" xmlns:CapLossApplicPrdType.02.00="http://sbr.gov.au/dims/CapLossApplicPrdType.02.00.dims" xmlns:CGTAssetType.02.00="http://sbr.gov.au/dims/CGTAssetType.02.00.dims" xmlns:IntlJurisdiction.02.00="http://sbr.gov.au/dims/IntlJurisdiction.02.00.dims" xmlns:h06.02.00="http://sbr.gov.au/dims/PrdType.02.00.dims" xmlns:LifeInsPolicyClassType.02.00="http://sbr.gov.au/dims/LifeInsPolicyClassType.02.00.dims" xmlns:h03.02.00="http://sbr.gov.au/dims/LiabEstMethod.02.00.dims" xmlns:h05.02.00="http://sbr.gov.au/dims/TaxOblgtn.02.00.dims" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ConcessionType.02.00="http://sbr.gov.au/dims/ConcessionType.02.00.dims" xmlns:icls.02.05="http://sbr.gov.au/icls/icls.02.05.data" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:period1.02.01="http://sbr.gov.au/comnmdle/comnmdle.perioddetails1.02.01.module" xmlns:h01.02.01="http://sbr.gov.au/dims/AuStsTerrOS.02.01.dims" xmlns:RprtPyType.02.03="http://sbr.gov.au/dims/RprtPyType.02.03.dims" xmlns:RelPrdDrtn.02.00="http://sbr.gov.au/dims/RelPrdDrtn.02.00.dims" xmlns:OpenCloseBalance.02.00="http://sbr.gov.au/dims/OpenCloseBalance.02.00.dims" xmlns:xbrli="http://www.xbrl.org/2003/instance" targetNamespace="http://sbr.gov.au/sbr.au.taxonomy.02.05.data" elementFormDefault="qualified">
+    <xsd:annotation>
+        <xsd:appinfo>
+            <link:linkbaseRef xlink:type="simple" xlink:href="icls/icls.02.05.presLink.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="icls/icls.02.05.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+        </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:import namespace="http://sbr.gov.au/icls/icls.02.05.data" schemaLocation="icls/icls.02.05.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.addressdetails4.02.00.module" schemaLocation="comnmdle/comnmdle.addressdetails4.02.00.module.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.perioddetails1.02.01.module" schemaLocation="comnmdle/comnmdle.perioddetails1.02.01.module.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/LiabEstMethod.02.00.dims" schemaLocation="dims/LiabEstMethod.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/TaxOblgtn.02.00.dims" schemaLocation="dims/TaxOblgtn.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/AuStsTerrOS.02.01.dims" schemaLocation="dims/AuStsTerrOS.02.01.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/EmpGrpSts.02.03.dims" schemaLocation="dims/EmpGrpSts.02.03.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/AssblFrgnIncClass.02.00.dims" schemaLocation="dims/AssblFrgnIncClass.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/CapLossApplicPrdType.02.00.dims" schemaLocation="dims/CapLossApplicPrdType.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/CGTAssetType.02.00.dims" schemaLocation="dims/CGTAssetType.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/CGTMethod.02.00.dims" schemaLocation="dims/CGTMethod.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/ConcessionType.02.00.dims" schemaLocation="dims/ConcessionType.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/CountryResCFCClass.02.00.dims" schemaLocation="dims/CountryResCFCClass.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/FinclArrngmtType.02.00.dims" schemaLocation="dims/FinclArrngmtType.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/IntlJurisdiction.02.00.dims" schemaLocation="dims/IntlJurisdiction.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/LifeInsPolicyClassType.02.00.dims" schemaLocation="dims/LifeInsPolicyClassType.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/LossGenSource.02.00.dims" schemaLocation="dims/LossGenSource.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/MajOwnshpAndCntrlTestType.02.00.dims" schemaLocation="dims/MajOwnshpAndCntrlTestType.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/OpenCloseBalance.02.00.dims" schemaLocation="dims/OpenCloseBalance.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/PrdType.02.00.dims" schemaLocation="dims/PrdType.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/RelPrdDrtn.02.00.dims" schemaLocation="dims/RelPrdDrtn.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.03.dims" schemaLocation="dims/RprtPyType.02.03.data.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="sbr_au_taxonomyAbstract" id="sbr_au_taxonomy.02.05_sbr_au_taxonomyAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+</xsd:schema>

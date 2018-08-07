@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bafpo1.02.15="http://sbr.gov.au/icls/baf/bafpo/bafpo1.02.15.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dtyp.02.21="http://sbr.gov.au/fdtn/sbr.02.21.dtyp" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/baf/bafpo/bafpo1.02.15.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.21.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.21.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="bafpo1Abstract" id="bafpo1.02.15_bafpo1Abstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="Assets.SecuritiesLendingProgram.Amount" id="DE13189" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+    <xsd:element name="Assets.SecuritiesLendingProgramCollateral.Amount" id="DE13191" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+    <xsd:element name="Assets.SecuritiesLendingProgramLoanedOut.Amount" id="DE13190" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+    <xsd:element name="Liabilities.DerivativesCoverCash.Amount" id="DE13195" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+    <xsd:element name="OffBalanceSheet.CommitmentsOutstanding.Amount" id="DE13209" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+</xsd:schema>

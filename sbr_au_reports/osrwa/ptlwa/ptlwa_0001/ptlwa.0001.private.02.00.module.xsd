@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema targetNamespace="http://sbr.gov.au/rprt/osrwa/ptlwa/ptlwa.0001.private.02.00.module" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ptlwa.0001.prv.02.00="http://sbr.gov.au/rprt/osrwa/ptlwa/ptlwa.0001.private.02.00.module" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:dtyp.02.00="http://sbr.gov.au/fdtn/sbr.02.00.dtyp" xmlns:pyin.02.00="http://sbr.gov.au/icls/py/pyin/pyin.02.00.data" xmlns:pyid.02.00="http://sbr.gov.au/icls/py/pyid/pyid.02.00.data" xmlns:h04.02.00="http://sbr.gov.au/dims/RprtPyType.02.00.dims" xmlns:pyin.02.01="http://sbr.gov.au/icls/py/pyin/pyin.02.01.data" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:fininstacc1.02.00="http://sbr.gov.au/comnmdle/comnmdle.financialinstitutionaccount1.02.00.module" xmlns:h01.02.00="http://sbr.gov.au/dims/AuStsTerrOS.02.00.dims" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:h02.02.00="http://sbr.gov.au/dims/EmpGrpSts.02.00.dims" xmlns:pyde.02.00="http://sbr.gov.au/icls/py/pyde/pyde.02.00.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:ddebit1.02.00="http://sbr.gov.au/comnmdle/comnmdle.directdebit1.02.00.module" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ptlwa.0001.private.02.00.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ptlwa.0001.private.02.00.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.01.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ptlwa.0001.private.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrwa/ptlwa/ptlwa.0001.private.02.00/labRole" id="ptlwa.0001.02.00.privatelabLinkInfoCls">
+        <link:definition>ptlwa.0001_private</link:definition>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrwa/ptlwa/ptlwa.0001.private.02.00/refRole" id="ptlwa.0001.02.00.privaterefLink">
+        <link:definition>ptlwa.0001_private</link:definition>
+        <link:usedOn>link:referenceLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrwa/ptlwa/ptlwa.0001.private.02.00/defRole" id="ptlwa.0001.02.00.privatedefLink">
+        <link:definition>ptlwa.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrwa/ptlwa/ptlwa.0001.private.02.00/hypercubes/ReportingPartyWACCCI" id="ptlwa.0001.02.00.privatedefLink.ReportingPartyWACCCI">
+        <link:definition>ptlwa.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrwa/ptlwa/ptlwa.0001.private.02.00/hypercubes/ReportingPartyWACCCIEmployerGroupStatus" id="ptlwa.0001.02.00.privatedefLink.ReportingPartyWACCCIEmployerGroupStatus">
+        <link:definition>ptlwa.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrwa/ptlwa/ptlwa.0001.private.02.00/hypercubes/GovernmentAgency" id="ptlwa.0001.02.00.privatedefLink.GovernmentAgency">
+        <link:definition>ptlwa.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/dims/AuStsTerrOS.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/AuStsTerrOS.02.00.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/dims/EmpGrpSts.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/EmpGrpSts.02.00.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/icls/py/pyin/pyin.02.00.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/icls/py/pyin/pyin.02.01.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.01.data.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.directdebit1.02.00.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.directdebit1.02.00.module.xsd"/>
+  <xsd:element name="ReportingPartyWACCCIPrimaryItemsAbstract" id="RA386" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyWACCCIEmployerGroupStatusPrimaryItemsAbstract" id="RA726" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="GovernmentAgencyPrimaryItemsAbstract" id="RA727" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyWACCCI" id="HC386" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyWACCCIEmployerGroupStatus" id="HC726" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="GovernmentAgency" id="HC727" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="PaymentMechanism" id="RT733" substitutionGroup="xbrli:tuple" nillable="true">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="pyin.02.00:PaymentMechanism.PaymentMethod.Code"/>
+        <xsd:element minOccurs="0" ref="pyin.02.01:PaymentMechanism.CustomerReference.Number"/>
+        <xsd:element maxOccurs="unbounded" minOccurs="0" ref="ddebit1.02.00:DirectDebit"/>
+      </xsd:sequence>
+      <xsd:attribute name="id" type="xsd:ID"/>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

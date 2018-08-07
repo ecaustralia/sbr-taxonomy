@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="bafpo5.02.01.data.xsd#bafpo5.02.01_bafpo5Abstract" xlink:label="loc_bafpo5.02.01_bafpo5Abstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_bafpo5Abstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Position 5</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_bafpo5.02.01_bafpo5Abstract" xlink:to="lbl_bafpo5Abstract"/>
+        <link:loc xlink:type="locator" xlink:href="bafpo5.02.01.data.xsd#DE3495" xlink:label="loc_DE3495"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3495" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Assets Loans And Receivables Related Parties Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3495" xlink:to="lbl_DE3495"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3495" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Balance amount of loans to shareholders and their associates.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3495" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Inform the relevant field with the amount of loans to shareholders and their associates.
+The amount of sum of all such loans that have a debit balance at the end of the income year, if:
+- the company is a private company
+- the company has a loan to a shareholder or an associate of a shareholder that has a debit balance at the end of the income year, and
+- the recipient of the loan was a natural person, partnership or trust.
+Return the amount of Loans to shareholders and their associates in this field.</link:label>
+    </link:labelLink>
+</link:linkbase>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:emfsm.02.04="http://sbr.gov.au/icls/em/emfsm/emfsm.02.04.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dtyp.02.08="http://sbr.gov.au/fdtn/sbr.02.08.dtyp" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/em/emfsm/emfsm.02.04.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.08.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.08.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="emfsmAbstract" id="emfsm.02.04_emfsmAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AuditorAppointment.MembershipAssociationOfTaxationAndManagementAccountants.Indicator" id="DE5734" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="AuditorAppointment.MembershipCPAAustralia.Indicator" id="DE5122" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="AuditorAppointment.MembershipInstituteOfCharteredAccountantsInAustralia.Indicator" id="DE4952" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="AuditorAppointment.MembershipNationalInstituteOfAccountants.Indicator" id="DE4914" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="AuditorAppointment.MembershipNationalTaxAndAccountantsAssociation.Indicator" id="DE5617" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="AuditorAppointment.MembershipOtherSRF2500AndSRF3400.Indicator" id="DE5539" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="AuditorAppointment.RegisteredCompanyAuditor.Indicator" id="DE5139" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="AuditorDisclosures.RemunerationTotal.Amount" id="DE2013" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+    <xsd:element name="AuditorReport.AuditorNotSatisfiedStatementOfReasonsProvided.Indicator" id="DE227" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="AuditorReport.ExistingClassOrderExemption.Indicator" id="DE250" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="AuditorReport.FinancialStatementsAudited.Code" id="DE226" type="dtyp.02.08:sbrFinancialStatementsAuditedItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="AuditorReport.FinancialStatementsReviewerStatus.Indicator" id="DE4869" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="AuditorReport.StatementOfDeficiencyDetailsProvided.Indicator" id="DE228" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="BusinessTermination.SuccessorFundTransfer.Indicator" id="DE5406" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="BusinessTermination.WindUp.Date" id="DE5205" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="BusinessTermination.WindUpReason.Code" id="DE4991" type="dtyp.02.08:sbrWindUpReasonCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+</xsd:schema>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bafpo6.02.17="http://sbr.gov.au/icls/baf/bafpo/bafpo6.02.17.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dtyp.02.49="http://sbr.gov.au/fdtn/sbr.02.49.dtyp" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/baf/bafpo/bafpo6.02.17.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.49.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.49.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="bafpo6Abstract" id="bafpo6.02.17_bafpo6Abstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="Liabilities.OtherFinancialLiabilities.AdjustmentAmounts.Amount" id="DE14850" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+    <xsd:element name="Liabilities.OtherFinancialLiabilities.AdjustmentAmountsDailyAverage.Amount" id="DE14854" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Liabilities.OtherFinancialLiabilities.DebtSecurities.Amount" id="DE7660" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+    <xsd:element name="Liabilities.OtherFinancialLiabilities.DebtSecuritiesDailyAverage.Amount" id="DE14851" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Liabilities.OtherFinancialLiabilities.FinancialClaimsSchemeEntitlementMaximum.Amount" id="DE14855" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+    <xsd:element name="Liabilities.OtherFinancialLiabilities.LoansDailyAverage.Amount" id="DE14853" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+</xsd:schema>

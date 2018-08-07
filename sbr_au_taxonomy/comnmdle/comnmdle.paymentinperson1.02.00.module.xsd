@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:pmtinperson1.02.00="http://sbr.gov.au/comnmdle/comnmdle.paymentinperson1.02.00.module" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:address1.02.00="http://sbr.gov.au/comnmdle/comnmdle.addressdetails1.02.00.module" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" targetNamespace="http://sbr.gov.au/comnmdle/comnmdle.paymentinperson1.02.00.module" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:href="comnmdle.paymentinperson1.02.00.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:roleType roleURI="http://sbr.gov.au/comnmdle/comnmdle.paymentinperson1.02.00/defRole" id="pmtinperson1.02.00.paymentinperson1defLink">
+				<link:definition>comnmdle_paymentinperson1</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../fdtn/tech.sbr.01.02.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.addressdetails1.02.00.module" schemaLocation="comnmdle.addressdetails1.02.00.module.xsd"/>
+	<xsd:element name="PaymentInPerson" substitutionGroup="xbrli:tuple" nillable="true" id="RT741">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="address1.02.00:AddressDetails"/>
+			</xsd:sequence>
+			<xsd:attribute name="id" type="xsd:ID" use="optional"/>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

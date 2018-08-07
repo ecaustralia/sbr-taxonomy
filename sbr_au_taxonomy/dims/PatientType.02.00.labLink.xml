@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="PatientType.02.00.data.xsd#DM800" xlink:label="loc_DM800"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM800" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Patient Type Dimension</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DM800" xlink:to="lbl_DM800"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM800" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This dimension categorises the reported data according to the type of patient.</link:label>
+        <link:loc xlink:type="locator" xlink:href="PatientType.02.00.data.xsd#DV7651" xlink:label="loc_DV7651"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7651" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Nursing Home</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7651" xlink:to="lbl_DV7651"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7651" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The information reported is in relation to a patient who is a nursing home type patient. This is a patient who has been provided with accommodation and hospital care as an end in itself for a continuous period exceeding 35 days.</link:label>
+        <link:loc xlink:type="locator" xlink:href="PatientType.02.00.data.xsd#DV7652" xlink:label="loc_DV7652"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7652" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Non Nursing Home</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7652" xlink:to="lbl_DV7652"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7652" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The information reported is in relation to a patient who is not a nursing home type patient. Nursing home type patients are those who have been provided with accommodation and hospital care as an end in itself for a continuous period exceeding 35 days.</link:label>
+    </link:labelLink>
+</link:linkbase>

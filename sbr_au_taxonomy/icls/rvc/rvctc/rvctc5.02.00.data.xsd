@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dtyp.02.00="http://sbr.gov.au/fdtn/sbr.02.00.dtyp" xmlns:rvctc5.02.00="http://sbr.gov.au/icls/rvc/rvctc/rvctc5.02.00.data" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/rvc/rvctc/rvctc5.02.00.data" elementFormDefault="qualified">
+	<xsd:annotation>
+		<xsd:appinfo>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd" />
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.00.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.00.xsd" />
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:element name="rvctc5Abstract" id="rvctc5.02.00_rvctc5Abstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+	<xsd:element name="PayrollTax.AccountBalanceBroughtForwardPayableorRefundable.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE799" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.AgencyRecordOfAssessedLiabilitiesPaid.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE919" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="PayrollTax.AssessedLiabilitiesPaidOrPayable.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE134" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="PayrollTax.AssessedLiabilitiesPaidRevision.Text" substitutionGroup="xbrli:item" nillable="true" id="DE908" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.AssessedLiabilitiesPaidVariationReason.Text" substitutionGroup="xbrli:item" nillable="true" id="DE1602" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.AssessedLiabilitiesPaid.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE802" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="PayrollTax.AssessedLiabilityLessApprenticeandTraineeOffset.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE803" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="PayrollTax.Expense.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE365" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="PayrollTax.LiabilityJurisdiction.Code" substitutionGroup="xbrli:item" nillable="true" id="DE766" xbrli:periodType="duration" type="dtyp.02.00:sbrJurisdictionOfPayrollTaxLiabilityCodeItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.LiabilityNonPaymentReason.Text" substitutionGroup="xbrli:item" nillable="true" id="DE832" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.LiabilityOrCreditIncludingUnpaidTaxInterest.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE133" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.LiabilityOrCredit.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1605" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.LiabilityWithApprenticesandTrainees.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE891" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="PayrollTax.LiabilityWithoutApprenticesandTrainees.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE892" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="PayrollTax.LiableDaysEnd.Date" substitutionGroup="xbrli:item" nillable="true" id="DE3141" xbrli:periodType="duration" type="xbrli:dateItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.LiableDaysStart.Date" substitutionGroup="xbrli:item" nillable="true" id="DE3142" xbrli:periodType="duration" type="xbrli:dateItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.LiableDays.Count" substitutionGroup="xbrli:item" nillable="true" id="DE130" xbrli:periodType="duration" type="xbrli:positiveIntegerItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.LiablePeriodEmploymentDays.Count" substitutionGroup="xbrli:item" nillable="true" id="DE1594" xbrli:periodType="duration" type="xbrli:nonPositiveIntegerItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.NilReturn.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE798" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.PayableTaxCalculatedAdjusted.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1660" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="PayrollTax.PayableTaxCalculatedLessApprenticesAndTrainees.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE923" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="PayrollTax.PayableTaxCalculated.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE131" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="PayrollTax.PayableTaxLessAssessedLiabilitiesPaid.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE132" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.PayableTaxLessLiabilitiesPaid.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1659" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Payable.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE913" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="PayrollTax.RefundReason.Code" substitutionGroup="xbrli:item" nillable="true" id="DE885" xbrli:periodType="duration" type="dtyp.02.00:sbrRefundReasonCodeItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.RefundReason.Text" substitutionGroup="xbrli:item" nillable="true" id="DE1595" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.TaxableCalculated.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE502" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="PayrollTax.YearDays.Number" substitutionGroup="xbrli:item" nillable="true" id="DE762" xbrli:periodType="duration" type="xbrli:positiveIntegerItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.ActualOrEstimateMethod.Code" substitutionGroup="xbrli:item" nillable="true" id="DE902" xbrli:periodType="duration" type="dtyp.02.00:sbrPayrollTaxDeductionMethodTypeItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.AnnualMaximumCalculated.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1657" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.AnnualMaximumThreshold.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE784" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.AnnualMaximum.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE239" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.CalculatedTotalLessExcessDeduction.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1656" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.CalculatedTotal.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE395" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="PayrollTax.Deduction.ExcessDeductionAllocationOrder.Number" substitutionGroup="xbrli:item" nillable="true" id="DE235" xbrli:periodType="duration" type="xbrli:positiveIntegerItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.ExcessDeduction.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE243" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.ExcessDeduction.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE242" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.LiabilityExclusion.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE897" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.LiabilityInclusion.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE898" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.LiablePeriodAdjustment.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE506" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="PayrollTax.Deduction.LiablePeriodCutOff.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE501" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="PayrollTax.Deduction.LiablePeriodMaximum.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE500" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.LiablePeriodThreshold.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE785" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.LiablePeriod.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE507" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="PayrollTax.Deduction.MaximumThresholdExceeded.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE3144" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.PeriodicFixedThreshold.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE786" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.TaperFactor.Fraction" substitutionGroup="xbrli:item" nillable="true" id="DE240" xbrli:periodType="duration" type="xbrli:decimalItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.ThresholdCalculationDenominator.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE783" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.ThresholdClaimed.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE787" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.ThresholdEntitlementType.Code" substitutionGroup="xbrli:item" nillable="true" id="DE788" xbrli:periodType="duration" type="dtyp.02.00:sbrDesignatedGroupThresholdEntitlementCodeItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.ThresholdEntitlementWithApprenticesAndTrainees.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE889" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.ThresholdEntitlementWithoutApprenticesAndTrainees.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE890" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.ThresholdFairness.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE893" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.VariationReason.Code" substitutionGroup="xbrli:item" nillable="true" id="DE1936" xbrli:periodType="duration" type="dtyp.02.00:sbrPayrollTaxDeductionVariationReasonItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.Deduction.VariationReason.Text" substitutionGroup="xbrli:item" nillable="true" id="DE1937" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.OverdueInterest.Calculated.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE804" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="PayrollTax.OverdueInterest.Daily.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE883" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="PayrollTax.OverdueInterest.Days.Count" substitutionGroup="xbrli:item" nillable="true" id="DE808" xbrli:periodType="duration" type="xbrli:nonNegativeIntegerItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.OverdueInterest.MinimumCalculated.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE810" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.OverdueInterest.Outstanding.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE800" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="PayrollTax.OverdueInterest.Start.Date" substitutionGroup="xbrli:item" nillable="true" id="DE809" xbrli:periodType="duration" type="xbrli:dateItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.OverdueInterest.YearDays.Number" substitutionGroup="xbrli:item" nillable="true" id="DE807" xbrli:periodType="duration" type="xbrli:nonNegativeIntegerItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.OverduePenalty.Calculated.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE811" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="PayrollTax.OverduePenalty.Charge.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE812" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.OverduePenalty.MinimumCalculated.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE813" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="PayrollTax.OverduePenalty.Outstanding.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE801" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+</xsd:schema>

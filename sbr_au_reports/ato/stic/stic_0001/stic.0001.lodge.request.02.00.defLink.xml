@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt">
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/stic/stic.0001.lodge.request.02.00/defRole1" xlink:type="simple" xlink:href="stic.0001.lodge.request.02.00.report.xsd#stic.0001.lodge.request.02.00.defLink1"/>
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/stic/stic.0001.private.02.00/hypercubes/IntermediaryReportingParty" xlink:type="simple" xlink:href="stic.0001.private.02.00.module.xsd#stic.0001.02.00.privatedefLinkIntermediaryReportingParty"/>
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/stic/stic.0001.private.02.00/hypercubes/ReportingPartyABNSuperFundMember" xlink:type="simple" xlink:href="stic.0001.private.02.00.module.xsd#stic.0001.02.00.privatedefLinkReportingPartyABNSuperFundMember"/>
+    <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+    <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+    <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/stic/stic.0001.lodge.request.02.00/defRole1">
+        <link:loc xlink:type="locator" xlink:href="stic.0001.private.02.00.module.xsd#RA100541" xlink:label="loc_RA100541"/>
+        <link:loc xlink:type="locator" xlink:href="stic.0001.private.02.00.module.xsd#HC100541" xlink:label="loc_HC100541"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_RA100541" xlink:to="loc_HC100541" use="optional" order="3.0" xbrldt:contextElement="segment" xbrldt:closed="true" xbrldt:targetRole="http://sbr.gov.au/rprt/ato/stic/stic.0001.private.02.00/hypercubes/ReportingPartyABNSuperFundMember"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.12.data.xsd#DE13057" xlink:label="loc_DE13057"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100541" xlink:to="loc_DE13057" use="optional" order="4.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.data.xsd#DE27" xlink:label="loc_DE27"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100541" xlink:to="loc_DE27" use="optional" order="5.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.03.data.xsd#DE7461" xlink:label="loc_DE7461"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100541" xlink:to="loc_DE7461" use="optional" order="6.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/em/emsup/emsup.02.03.data.xsd#DE7398" xlink:label="loc_DE7398"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100541" xlink:to="loc_DE7398" use="optional" order="7.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE40" xlink:label="loc_DE40"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100541" xlink:to="loc_DE40" use="optional" order="8.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE41" xlink:label="loc_DE41"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100541" xlink:to="loc_DE41" use="optional" order="9.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE42" xlink:label="loc_DE42"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100541" xlink:to="loc_DE42" use="optional" order="10.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE17" xlink:label="loc_DE17"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100541" xlink:to="loc_DE17" use="optional" order="11.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE18" xlink:label="loc_DE18"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100541" xlink:to="loc_DE18" use="optional" order="12.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE19" xlink:label="loc_DE19"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100541" xlink:to="loc_DE19" use="optional" order="13.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE21" xlink:label="loc_DE21"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100541" xlink:to="loc_DE21" use="optional" order="14.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE22" xlink:label="loc_DE22"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100541" xlink:to="loc_DE22" use="optional" order="15.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.08.data.xsd#DE15" xlink:label="loc_DE15"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100541" xlink:to="loc_DE15" use="optional" order="16.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.14.data.xsd#DE13082" xlink:label="loc_DE13082"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100541" xlink:to="loc_DE13082" use="optional" order="17.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.12.data.xsd#DE13055" xlink:label="loc_DE13055"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100541" xlink:to="loc_DE13055" use="optional" order="18.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.12.data.xsd#DE13056" xlink:label="loc_DE13056"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100541" xlink:to="loc_DE13056" use="optional" order="19.0"/>
+        <link:loc xlink:type="locator" xlink:href="stic.0001.private.02.00.module.xsd#RA100540" xlink:label="loc_RA100540"/>
+        <link:loc xlink:type="locator" xlink:href="stic.0001.private.02.00.module.xsd#HC100540" xlink:label="loc_HC100540"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_RA100540" xlink:to="loc_HC100540" use="optional" order="1.0" xbrldt:contextElement="segment" xbrldt:closed="true" xbrldt:targetRole="http://sbr.gov.au/rprt/ato/stic/stic.0001.private.02.00/hypercubes/IntermediaryReportingParty"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE55" xlink:label="loc_DE55"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100540" xlink:to="loc_DE55" use="optional" order="2.0"/>
+    </link:definitionLink>
+    
+    
+</link:linkbase>

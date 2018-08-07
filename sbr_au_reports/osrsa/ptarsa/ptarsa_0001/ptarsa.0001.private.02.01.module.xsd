@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema targetNamespace="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.private.02.01.module" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ptarsa.0001.prv.02.01="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.private.02.01.module" xmlns:pyin.02.02="http://sbr.gov.au/icls/py/pyin/pyin.02.02.data" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:pyin.02.03="http://sbr.gov.au/icls/py/pyin/pyin.02.03.data" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:EmpGrpSts.02.04="http://sbr.gov.au/dims/EmpGrpSts.02.04.dims" xmlns:dtyp.02.00="http://sbr.gov.au/fdtn/sbr.02.00.dtyp" xmlns:pyin.02.00="http://sbr.gov.au/icls/py/pyin/pyin.02.00.data" xmlns:pyid.02.00="http://sbr.gov.au/icls/py/pyid/pyid.02.00.data" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:directcredit1.02.03="http://sbr.gov.au/comnmdle/comnmdle.directcredit1.02.03.module" xmlns:fininstacc1.02.00="http://sbr.gov.au/comnmdle/comnmdle.financialinstitutionaccount1.02.00.module" xmlns:dtyp.02.03="http://sbr.gov.au/fdtn/sbr.02.03.dtyp" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:h01.02.01="http://sbr.gov.au/dims/AuStsTerrOS.02.01.dims" xmlns:bpay1.02.00="http://sbr.gov.au/comnmdle/comnmdle.bpay1.02.00.module" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:RprtPyType.02.03="http://sbr.gov.au/dims/RprtPyType.02.03.dims" xmlns:ddebit1.02.02="http://sbr.gov.au/comnmdle/comnmdle.directdebit1.02.02.module" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ptarsa.0001.private.02.01.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ptarsa.0001.private.02.01.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.03.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.02.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ptarsa.0001.private.02.01.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.private.02.01/labRole" id="ptarsa.0001.02.01.privatelabLinkInfoCls">
+        <link:definition>ptarsa.0001_private</link:definition>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.private.02.01/refRole" id="ptarsa.0001.02.01.privaterefLink">
+        <link:definition>ptarsa.0001_private</link:definition>
+        <link:usedOn>link:referenceLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.private.02.01/defRole" id="ptarsa.0001.02.01.privatedefLink">
+        <link:definition>ptarsa.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.private.02.01/hypercubes/ReportingParty.SA" id="ptarsa.0001.02.01.privatedefLinkReportingParty.SA">
+        <link:definition>ptarsa.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.private.02.01/hypercubes/GovernmentAgency" id="ptarsa.0001.02.01.privatedefLinkGovernmentAgency">
+        <link:definition>ptarsa.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.private.02.01/hypercubes/ReportingParty.SA.GroupStatusCurrent" id="ptarsa.0001.02.01.privatedefLinkReportingParty.SA.GroupStatusCurrent">
+        <link:definition>ptarsa.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.private.02.01/hypercubes/ReportingParty.SA.GroupStatusNonNSLGroup" id="ptarsa.0001.02.01.privatedefLinkReportingParty.SA.GroupStatusNonNSLGroup">
+        <link:definition>ptarsa.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.private.02.01/hypercubes/ReportingParty.SA.GroupStatusNext" id="ptarsa.0001.02.01.privatedefLinkReportingParty.SA.GroupStatusNext">
+        <link:definition>ptarsa.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.private.02.01/hypercubes/ReportingParty.SA.GroupStatusGESLM" id="ptarsa.0001.02.01.privatedefLinkReportingParty.SA.GroupStatusGESLM">
+        <link:definition>ptarsa.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.private.02.01/hypercubes/ReportingParty.SA.GroupStatusGESLMDGE" id="ptarsa.0001.02.01.privatedefLinkReportingParty.SA.GroupStatusGESLMDGE">
+        <link:definition>ptarsa.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/dims/AuStsTerrOS.02.01.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/AuStsTerrOS.02.01.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/dims/EmpGrpSts.02.04.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/EmpGrpSts.02.04.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.03.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.03.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/icls/py/pyin/pyin.02.03.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.03.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/icls/py/pyin/pyin.02.02.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.02.data.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.bpay1.02.00.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.bpay1.02.00.module.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.directcredit1.02.03.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.directcredit1.02.03.module.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.directdebit1.02.02.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.directdebit1.02.02.module.xsd"/>
+  <xsd:element name="ReportingPartySAPrimaryItemsAbstract" id="RA1344" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartySAGroupStatusCurrentPrimaryItemsAbstract" id="RA1345" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartySAGroupStatusNonNSLGroupPrimaryItemsAbstract" id="RA1586" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartySAGroupStatusNextPrimaryItemsAbstract" id="RA1587" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartySAGroupStatusGESLMPrimaryItemsAbstract" id="RA1588" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartySAGroupStatusDGEPrimaryItemsAbstract" id="RA1589" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartySAGroupStatusSLMPrimaryItemsAbstract" id="RA1590" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartySAGroupStatusGESLMDGEPrimaryItemsAbstract" id="RA1628" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartySAGroupStatusGEPrimaryItemsAbstract" id="RA1600" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="GovernmentAgencyPrimaryItemsAbstract" id="RA1531" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartySA" id="HC1344" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartySAGroupStatusCurrent" id="HC1345" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="GovernmentAgency" id="HC1531" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartySAGroupStatusNonNSLGroup" id="HC1586" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartySAGroupStatusNext" id="HC1587" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartySAGroupStatusGESLM" id="HC1588" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="PaymentMechanism" id="RT1608" substitutionGroup="xbrli:tuple" nillable="true">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="pyin.02.03:PaymentMechanism.PaymentMethod.Code"/>
+        <xsd:element minOccurs="0" ref="pyin.02.02:PaymentMechanism.Instruction.Text"/>
+        <xsd:element minOccurs="0" ref="ddebit1.02.02:DirectDebit"/>
+        <xsd:element minOccurs="0" ref="directcredit1.02.03:DirectCredit"/>
+        <xsd:element minOccurs="0" ref="bpay1.02.00:Bpay"/>
+      </xsd:sequence>
+      <xsd:attribute name="id" use="optional" type="xsd:ID"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="ReportingPartySAGroupStatusGESLMDGE" id="HC1628" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+</xsd:schema>

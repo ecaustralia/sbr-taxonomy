@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2010 rel. 2 (http://www.altova.com) by Warwick Foster (ATO) -->
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema targetNamespace="http://sbr.gov.au/rprt/osract/ptmract/ptmract.0001.lodge.response.02.01.report" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ptmract.0001.lodge.rsp.02.01="http://sbr.gov.au/rprt/osract/ptmract/ptmract.0001.lodge.response.02.01.report" xmlns:bpay1.02.00="http://sbr.gov.au/comnmdle/comnmdle.bpay1.02.00.module" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:pyin.02.03="http://sbr.gov.au/icls/py/pyin/pyin.02.03.data" xmlns:pyin.02.01="http://sbr.gov.au/icls/py/pyin/pyin.02.01.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:orgname1.02.00="http://sbr.gov.au/comnmdle/comnmdle.organisationname1.02.00.module" xmlns:directcredit1.02.02="http://sbr.gov.au/comnmdle/comnmdle.directcredit1.02.02.module" xmlns:declaration2.02.00="http://sbr.gov.au/comnmdle/comnmdle.declaration2.02.00.module" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:fininstacc1.02.00="http://sbr.gov.au/comnmdle/comnmdle.financialinstitutionaccount1.02.00.module" xmlns:prsnunstrcnm1.02.00="http://sbr.gov.au/comnmdle/comnmdle.personunstructuredname1.02.00.module" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:pyin.02.00="http://sbr.gov.au/icls/py/pyin/pyin.02.00.data" xmlns:ptmract.0001.prv.02.01="http://sbr.gov.au/rprt/osract/ptmract/ptmract.0001.private.02.01.module" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ptmract.0001.lodge.response.02.01.presLink.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ptmract.0001.lodge.response.02.01.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ptmract.0001.lodge.response.02.01.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.01.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.03.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ptmract.0001.lodge.response.02.01.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osract/ptmract/ptmract.0001.lodge.response.02.01/presRole" id="ptmract.0001.lodge.response.02.01.presLink">
+        <link:definition>ptmract.0001_lodge_response</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osract/ptmract/ptmract.0001.lodge.response.02.01/labRole" id="ptmract.0001.lodge.response.02.01.labLinkInfoCls">
+        <link:definition>ptmract.0001_lodge_response</link:definition>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osract/ptmract/ptmract.0001.lodge.response.02.01/refRole" id="ptmract.0001.lodge.response.02.01.refLink">
+        <link:definition>ptmract.0001_lodge_response</link:definition>
+        <link:usedOn>link:referenceLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osract/ptmract/ptmract.0001.lodge.response.02.01/defRole" id="ptmract.0001.lodge.response.02.01.defLink">
+        <link:definition>ptmract.0001_lodge_response</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osract/ptmract/ptmract.0001.lodge.response.02.01/defRole2" id="ptmract.0001.lodge.response.02.01.defLink2">
+        <link:definition>ptmract.0001_lodge_response</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/rprt/osract/ptmract/ptmract.0001.private.02.01.module" schemaLocation="ptmract.0001.private.02.01.module.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.organisationname1.02.00.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.organisationname1.02.00.module.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.bpay1.02.00.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.bpay1.02.00.module.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.financialinstitutionaccount1.02.00.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.financialinstitutionaccount1.02.00.module.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.declaration2.02.00.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.declaration2.02.00.module.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.personunstructuredname1.02.00.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.personunstructuredname1.02.00.module.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.directcredit1.02.02.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.directcredit1.02.02.module.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/icls/py/pyin/pyin.02.00.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/icls/py/pyin/pyin.02.01.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.01.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/icls/py/pyin/pyin.02.03.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.03.data.xsd"/>
+  <xsd:element name="PTMRACTLodgeResponseAbstract" id="RA933" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="PayrollTaxPayment" id="RT934" substitutionGroup="xbrli:tuple" nillable="true">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="pyin.02.00:PaymentRecord.Payment.Amount"/>
+      </xsd:sequence>
+      <xsd:attribute name="id" use="optional" type="xsd:ID"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="PaymentReference" id="RT935" substitutionGroup="xbrli:tuple" nillable="true">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="pyin.02.03:PaymentMechanism.PaymentMethod.Code"/>
+        <xsd:element ref="pyin.02.01:PaymentMechanism.CustomerReference.Number"/>
+      </xsd:sequence>
+      <xsd:attribute name="id" use="optional" type="xsd:ID"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="PaymentMechanism" id="RT936" substitutionGroup="xbrli:tuple" nillable="true">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="pyin.02.03:PaymentMechanism.PaymentMethod.Code"/>
+      </xsd:sequence>
+      <xsd:attribute name="id" use="optional" type="xsd:ID"/>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

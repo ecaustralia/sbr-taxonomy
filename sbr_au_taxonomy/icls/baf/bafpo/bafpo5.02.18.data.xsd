@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bafpo5.02.18="http://sbr.gov.au/icls/baf/bafpo/bafpo5.02.18.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:dtyp.02.53="http://sbr.gov.au/fdtn/sbr.02.53.dtyp" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/baf/bafpo/bafpo5.02.18.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.53.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.53.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="bafpo5Abstract" id="bafpo5.02.18_bafpo5Abstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="Assets.LoansAndReceivables.CreditOutstandingMarginLoansCalled.Amount" id="DE15169" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+    <xsd:element name="Assets.LoansAndReceivables.CreditOutstandingMarginLoansLVRGreaterThan5LessThanEqual10PercentMarginCall.Amount" id="DE15178" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+    <xsd:element name="Assets.LoansAndReceivables.CreditOutstandingMarginLoansLVRLessThanEqual5PercentMarginCall.Amount" id="DE15176" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+    <xsd:element name="Assets.LoansAndReceivables.ReinvestmentCashCollateral.Amount" id="DE15170" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+    <xsd:element name="Assets.LoansAndReceivables.ReinvestmentWeightedAverage.Percent" id="DE15166" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+</xsd:schema>

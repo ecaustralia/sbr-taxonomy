@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:lrla.02.00="http://sbr.gov.au/icls/lr/lrla/lrla.02.00.data" xmlns:lrla.02.01="http://sbr.gov.au/icls/lr/lrla/lrla.02.01.data" xmlns:lrla.02.02="http://sbr.gov.au/icls/lr/lrla/lrla.02.02.data" xmlns:lr.02.02="http://sbr.gov.au/icls/lr/lr.02.02.data" targetNamespace="http://sbr.gov.au/icls/lr/lr.02.02.data" elementFormDefault="qualified">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="lrla/lrla.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+			<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="lrla/lrla.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:type="simple"/>
+			<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="lrla/lrla.02.01.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+			<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="lrla/lrla.02.02.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+			<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="lrla/lrla.02.02.presLink.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/lr/lrla/lrla.02.00.data" schemaLocation="lrla/lrla.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/lr/lrla/lrla.02.01.data" schemaLocation="lrla/lrla.02.01.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/lr/lrla/lrla.02.02.data" schemaLocation="lrla/lrla.02.02.data.xsd"/>
+	<xsd:element name="lrAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="lr.02.02_lrAbstract" xbrli:periodType="instant"/>
+</xsd:schema>

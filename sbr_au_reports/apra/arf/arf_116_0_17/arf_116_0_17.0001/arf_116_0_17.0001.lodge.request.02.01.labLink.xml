@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:href="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#Label"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:href="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#reportGuidance"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/rprt/apra/arf/arf_116_0_17/arf_116_0_17.0001.lodge.request.02.01/labRole" xlink:href="arf_116_0_17.0001.lodge.request.02.01.xsd#arf_116_0_17.0001.lodge.request.02.01.labLink"/>
+	<link:labelLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/apra/arf/arf_116_0_17/arf_116_0_17.0001.lodge.request.02.01/labRole">
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafot/bafot.02.06.data.xsd#DE8064" xlink:label="loc_DE8064" xlink:title="FinancialRisk.Market.StressTestingEquityScenarios.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE8064" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Stress Testing - Equity Scenarios</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8064" xlink:to="lbl_DE8064" xlink:title="label: FinancialRisk.Market.StressTestingEquityScenarios.Amount to label_FinancialRisk.Market.StressTestingEquityScenarios.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE8064_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance">All equity positions within the trading book must be included in the stress test portfolio revaluations. In assessing the change in portfolio value arising from the pre-specified scenarios, ADIs may net all positions within each national market (refer to  APS 116). A separate scenario matrix should be completed for each national market. 
+
+The scenario representing a 75% decrease in the implied volatility only needs to be reported where the corresponding change in price scenario is 0%.</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8064" xlink:to="lbl_DE8064_1" xlink:title="label: FinancialRisk.Market.StressTestingEquityScenarios.Amount to label_FinancialRisk.Market.StressTestingEquityScenarios.Amount"/>
+	</link:labelLink>
+</link:linkbase>

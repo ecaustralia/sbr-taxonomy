@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:iitr.0002.prv.02.00="http://sbr.gov.au/rprt/ato/iitr/iitr.0002.private.02.00.module" xmlns:RprtPyType.02.11="http://sbr.gov.au/dims/RprtPyType.02.11.dims" xmlns:LossSqNumDim.02.00="http://sbr.gov.au/dims/LossSqNumDim.02.00.dims" xmlns:AddUsgDim.02.00="http://sbr.gov.au/dims/AddUsgDim.02.00.dims" xmlns:SWSqNumDim.02.00="http://sbr.gov.au/dims/SWSqNumDim.02.00.dims" xmlns:IncSqNumDim.02.00="http://sbr.gov.au/dims/IncSqNumDim.02.00.dims" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:DeclarationType.02.00="http://sbr.gov.au/dims/DeclarationType.02.00.dims" xmlns:PHISqNumDim.02.00="http://sbr.gov.au/dims/PHISqNumDim.02.00.dims" xmlns:SprLSPaySqNumDim.02.00="http://sbr.gov.au/dims/SprLSPaySqNumDim.02.00.dims" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ETPSqNumDim.02.00="http://sbr.gov.au/dims/ETPSqNumDim.02.00.dims" xmlns:SprConSqNumDim.02.00="http://sbr.gov.au/dims/SprConSqNumDim.02.00.dims" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:EmpLumpPaySqNumDim.02.00="http://sbr.gov.au/dims/EmpLumpPaySqNumDim.02.00.dims" xmlns:OTHSqNumDim.02.00="http://sbr.gov.au/dims/OTHSqNumDim.02.00.dims" targetNamespace="http://sbr.gov.au/rprt/ato/iitr/iitr.0002.private.02.00.module" elementFormDefault="qualified">
+    <xsd:annotation>
+        <xsd:appinfo>
+            <link:linkbaseRef xlink:type="simple" xlink:href="iitr.0002.private.02.00.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="iitr.0002.private.02.00.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/iitr/iitr.0002.private.02.00/defRole" id="iitr.0002.02.00.privatedefLink">
+                <link:definition>iitr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/iitr/iitr.0002.private.02.00/labRole" id="iitr.0002.02.00.privatelabLinkInfoCls">
+                <link:definition>iitr.0002_private</link:definition>
+                <link:usedOn>link:labelLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/iitr/iitr.0002.private.02.00/refRole" id="iitr.0002.02.00.privaterefLink">
+                <link:definition>iitr.0002_private</link:definition>
+                <link:usedOn>link:referenceLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/iitr/iitr.0002.private.02.00/hypercubes/AddUsgDimReportingParty" id="iitr.0002.02.00.privatedefLinkAddUsgDimReportingParty">
+                <link:definition>iitr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/iitr/iitr.0002.private.02.00/hypercubes/EmpLumpPaySqNumDimReportingParty" id="iitr.0002.02.00.privatedefLinkEmpLumpPaySqNumDimReportingParty">
+                <link:definition>iitr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/iitr/iitr.0002.private.02.00/hypercubes/ETPSqNumDimReportingParty" id="iitr.0002.02.00.privatedefLinkETPSqNumDimReportingParty">
+                <link:definition>iitr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/iitr/iitr.0002.private.02.00/hypercubes/IncSqNumDimReportingParty" id="iitr.0002.02.00.privatedefLinkIncSqNumDimReportingParty">
+                <link:definition>iitr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/iitr/iitr.0002.private.02.00/hypercubes/LossSqNumDimReportingParty" id="iitr.0002.02.00.privatedefLinkLossSqNumDimReportingParty">
+                <link:definition>iitr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/iitr/iitr.0002.private.02.00/hypercubes/OTHSqNumDimReportingParty" id="iitr.0002.02.00.privatedefLinkOTHSqNumDimReportingParty">
+                <link:definition>iitr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/iitr/iitr.0002.private.02.00/hypercubes/PHISqNumDimReportingParty" id="iitr.0002.02.00.privatedefLinkPHISqNumDimReportingParty">
+                <link:definition>iitr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/iitr/iitr.0002.private.02.00/hypercubes/POSReportingParty" id="iitr.0002.02.00.privatedefLinkPOSReportingParty">
+                <link:definition>iitr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/iitr/iitr.0002.private.02.00/hypercubes/POSRESReportingParty" id="iitr.0002.02.00.privatedefLinkPOSRESReportingParty">
+                <link:definition>iitr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/iitr/iitr.0002.private.02.00/hypercubes/ReportingParty" id="iitr.0002.02.00.privatedefLinkReportingParty">
+                <link:definition>iitr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/iitr/iitr.0002.private.02.00/hypercubes/SpouseReportingParty" id="iitr.0002.02.00.privatedefLinkSpouseReportingParty">
+                <link:definition>iitr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/iitr/iitr.0002.private.02.00/hypercubes/SprConSqNumDimReportingParty" id="iitr.0002.02.00.privatedefLinkSprConSqNumDimReportingParty">
+                <link:definition>iitr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/iitr/iitr.0002.private.02.00/hypercubes/SprLSPaySqNumDimReportingParty" id="iitr.0002.02.00.privatedefLinkSprLSPaySqNumDimReportingParty">
+                <link:definition>iitr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/iitr/iitr.0002.private.02.00/hypercubes/SWSqNumDimReportingParty" id="iitr.0002.02.00.privatedefLinkSWSqNumDimReportingParty">
+                <link:definition>iitr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/iitr/iitr.0002.private.02.00/hypercubes/TrueAndCorrectIntermediaryReportingParty" id="iitr.0002.02.00.privatedefLinkTrueAndCorrectIntermediaryReportingParty">
+                <link:definition>iitr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+        </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.11.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.11.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/AddUsgDim.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/AddUsgDim.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/SWSqNumDim.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/SWSqNumDim.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/EmpLumpPaySqNumDim.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/EmpLumpPaySqNumDim.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/ETPSqNumDim.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/ETPSqNumDim.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/SprLSPaySqNumDim.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/SprLSPaySqNumDim.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/PHISqNumDim.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/PHISqNumDim.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/IncSqNumDim.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/IncSqNumDim.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/SprConSqNumDim.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/SprConSqNumDim.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/OTHSqNumDim.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/OTHSqNumDim.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/LossSqNumDim.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/LossSqNumDim.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/DeclarationType.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/DeclarationType.02.00.data.xsd"/>
+    <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="AddUsgDimReportingPartyPrimaryItemsAbstract" id="RA100280" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EmpLumpPaySqNumDimReportingPartyPrimaryItemsAbstract" id="RA100281" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ETPSqNumDimReportingPartyPrimaryItemsAbstract" id="RA100282" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="IncSqNumDimReportingPartyPrimaryItemsAbstract" id="RA100283" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="LossSqNumDimReportingPartyPrimaryItemsAbstract" id="RA100284" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="OTHSqNumDimReportingPartyPrimaryItemsAbstract" id="RA100285" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="PHISqNumDimReportingPartyPrimaryItemsAbstract" id="RA100286" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="POSReportingPartyPrimaryItemsAbstract" id="RA100287" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="POSRESReportingPartyPrimaryItemsAbstract" id="RA100288" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingPartyPrimaryItemsAbstract" id="RA100289" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="SpouseReportingPartyPrimaryItemsAbstract" id="RA100290" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="SprConSqNumDimReportingPartyPrimaryItemsAbstract" id="RA100291" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="SprLSPaySqNumDimReportingPartyPrimaryItemsAbstract" id="RA100292" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="SWSqNumDimReportingPartyPrimaryItemsAbstract" id="RA100293" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="TrueAndCorrectIntermediaryReportingPartyPrimaryItemsAbstract" id="RA100294" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AddUsgDimReportingParty" id="HC100280" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EmpLumpPaySqNumDimReportingParty" id="HC100281" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ETPSqNumDimReportingParty" id="HC100282" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="IncSqNumDimReportingParty" id="HC100283" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="LossSqNumDimReportingParty" id="HC100284" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="OTHSqNumDimReportingParty" id="HC100285" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="PHISqNumDimReportingParty" id="HC100286" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="POSReportingParty" id="HC100287" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="POSRESReportingParty" id="HC100288" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingParty" id="HC100289" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="SpouseReportingParty" id="HC100290" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="SprConSqNumDimReportingParty" id="HC100291" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="SprLSPaySqNumDimReportingParty" id="HC100292" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="SWSqNumDimReportingParty" id="HC100293" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="TrueAndCorrectIntermediaryReportingParty" id="HC100294" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+</xsd:schema>

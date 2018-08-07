@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="emsup.02.26.data.xsd#emsup.02.26_emsupAbstract" xlink:label="loc_emsup.02.26_emsupAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_emsupAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_emsup.02.26_emsupAbstract" xlink:to="lbl_emsupAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.26.data.xsd#DE14313" xlink:label="loc_DE14313"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14313" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Fund Details Age Pension Fund Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14313" xlink:to="lbl_DE14313"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14313" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicator that the funds governing rules provide that the sole or primary purpose of the fund is the provision of age pensions.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14313" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+
+true = The sole or primary purpose of the fund is the provision of pensions.
+false = The sole or primary purpose of the fund is not the provision of pensions.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.26.data.xsd#DE14277" xlink:label="loc_DE14277"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14277" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Fund Details Fund Type Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14277" xlink:to="lbl_DE14277"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14277" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The code that represents the type of superannuation fund.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14277" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+NPF = Non-public Offer Fund.
+POF = Public Offer Fund.
+PSF = Public Sector Fund.
+PSS = Public Sector Scheme.
+SAF = Small Australian Prudential Regulation Authority (APRA) Fund.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.26.data.xsd#DE14314" xlink:label="loc_DE14314"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14314" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Fund Details Self Managed Superannuation Fund Activity Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14314" xlink:to="lbl_DE14314"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14314" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the self managed superannuation fund (SMSF) has been active for twelve months or longer.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14314" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+
+true = The self-managed super fund (SMSF) has been active for twelve months or longer.
+false = The self-managed super fund (SMSF) has not been active for twelve months or longer.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.26.data.xsd#DE14315" xlink:label="loc_DE14315"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14315" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Fund Details Self Managed Superannuation Fund Trustees Bankrupt Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14315" xlink:to="lbl_DE14315"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14315" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">An indicator specifying that the self-managed superannuation fund (SMSF) trustee has applied for bankruptcy currently or previously.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14315" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+
+true = This self-managed superannuation fund (SMSF) trustee has applied for bankruptcy currently or previously.
+false = This self-managed superannuation fund (SMSF) trustee has not applied for bankruptcy currently or previously.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.26.data.xsd#DE14289" xlink:label="loc_DE14289"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14289" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Election Date</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14289" xlink:to="lbl_DE14289"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14289" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The date the superannuation fund elected to be regulated.</link:label>
+    </link:labelLink>
+</link:linkbase>

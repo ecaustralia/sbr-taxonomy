@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="pyin.02.10.data.xsd#pyin.02.10_pyinAbstract" xlink:label="loc_pyin.02.10_pyinAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_pyinAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Party Interaction</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_pyin.02.10_pyinAbstract" xlink:to="lbl_pyinAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.10.data.xsd#DE7459" xlink:label="loc_DE7459"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE7459" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicates a final report.</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE7459" xlink:to="lbl_DE7459"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE7459" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+
+TRUE = a final report.
+
+FALSE = a report that is not final.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE7459" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Report Final Indicator</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.10.data.xsd#DE7392" xlink:label="loc_DE7392"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE7392" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicates the reason for the final report being lodged.</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE7392" xlink:to="lbl_DE7392"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE7392" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+
+Wind-up = Use this code where wind-up is the reason for the report being lodged.
+Merger = Use this code where merger is the reason for the report being lodged.
+Other = Use this code where there is a reason, other than wind-up or merger, for the report being lodged.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE7392" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Report Final Reason Code</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.10.data.xsd#DE7418" xlink:label="loc_DE7418"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE7418" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The financial year within which the contributions being reported were made to the provider.</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE7418" xlink:to="lbl_DE7418"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE7418" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Report Financial Year</link:label>
+    </link:labelLink>
+</link:linkbase>

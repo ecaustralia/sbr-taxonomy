@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="bafot.02.23.data.xsd#bafot.02.23_bafotAbstract" xlink:label="loc_bafot.02.23_bafotAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_bafotAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Other Accounting And Financial Disclosures</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_bafot.02.23_bafotAbstract" xlink:to="lbl_bafotAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.23.data.xsd#DE12598" xlink:label="loc_DE12598"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12598" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Miscellaneous Percentage Of Dealings With Documentation Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12598" xlink:to="lbl_DE12598"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12598" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The code to identify the percentage of dealings for which you have documentation. Percentage of dealings with documentation refers to the aggregate dollar amount of transactions reported for which you have relevant documentation expressed as a percentage of total dollar value of transactions reported.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12598" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+1 = 0%
+2 = 1% to less than 25%
+3 = 25% to less than 50%
+4 = 50% to less than 75%
+5 = 75% to less than 100%
+6 = 100%
+7 = Application of Simplified Record Keeping Method</link:label>
+    </link:labelLink>
+</link:linkbase>

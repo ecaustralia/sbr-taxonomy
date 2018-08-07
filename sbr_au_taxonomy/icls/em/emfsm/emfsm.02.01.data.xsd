@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dtyp.02.01="http://sbr.gov.au/fdtn/sbr.02.01.dtyp" xmlns:emfsm.02.01="http://sbr.gov.au/icls/em/emfsm/emfsm.02.01.data" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" targetNamespace="http://sbr.gov.au/icls/em/emfsm/emfsm.02.01.data" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:annotation>
+		<xsd:appinfo>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.01.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.01.xsd"/>
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:element name="emfsmAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="emfsm.02.01_emfsmAbstract" xbrli:periodType="instant"/>
+	<xsd:element name="ExternalAdministratorAppointment.AppointmentEnd.Date" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" id="DE120" xbrli:periodType="duration"/>
+	<xsd:element name="ExternalAdministratorAppointment.AppointmentStart.Date" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" id="DE118" xbrli:periodType="duration"/>
+</xsd:schema>

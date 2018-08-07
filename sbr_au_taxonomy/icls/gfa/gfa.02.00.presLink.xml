@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/icls" xlink:href="../../fdtn/tech.sbr.01.02.xsd#icls" xlink:type="simple"/>
+	<link:presentationLink xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/icls" xlink:type="extended">
+		<link:loc xlink:href="gfa.02.00.data.xsd#gfa.02.00_gfaAbstract" xlink:label="loc_gfaAbstract" xlink:type="locator"/>
+		<link:loc xlink:href="gfagc/gfagc.02.00.data.xsd#gfagc.02.00_gfagcAbstract" xlink:label="loc_gfagcAbstract" xlink:type="locator"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_gfaAbstract" xlink:to="loc_gfagcAbstract" order="1.0"/>
+		<link:loc xlink:href="gfagg/gfagg.02.00.data.xsd#gfagg.02.00_gfaggAbstract" xlink:label="loc_gfaggAbstract" xlink:type="locator"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_gfaAbstract" xlink:to="loc_gfaggAbstract" order="2.0"/>
+		<link:loc xlink:href="gfati/gfati.02.00.data.xsd#gfati.02.00_gfatiAbstract" xlink:label="loc_gfatiAbstract" xlink:type="locator"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_gfaAbstract" xlink:to="loc_gfatiAbstract" order="3.0"/>
+		<link:loc xlink:href="gfags/gfags.02.00.data.xsd#gfags.02.00_gfagsAbstract" xlink:label="loc_gfagsAbstract" xlink:type="locator"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_gfaAbstract" xlink:to="loc_gfagsAbstract" order="4.0"/>
+		<link:loc xlink:href="gfapc/gfapc.02.00.data.xsd#gfapc.02.00_gfapcAbstract" xlink:label="loc_gfapcAbstract" xlink:type="locator"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_gfaAbstract" xlink:to="loc_gfapcAbstract" order="5.0"/>
+	</link:presentationLink>
+</link:linkbase>

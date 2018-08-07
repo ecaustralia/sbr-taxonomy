@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance" xlink:type="simple"/>
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition" xlink:type="simple"/>
+	<link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+		<link:loc xlink:href="emfsm.02.00.data.xsd#emfsm.02.00_emfsmAbstract" xlink:label="loc_emfsmAbstract" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_emfsmAbstract" xlink:to="lbl_emfsmAbstract" xlink:type="arc"/>
+		<link:label xlink:label="lbl_emfsmAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Financial System Management</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE2518" xlink:label="loc_DE2518" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2518" xlink:to="lbl_DE2518" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE2518" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Appointment Auditor Action Code</link:label>
+		<link:label xlink:label="lbl_DE2518" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">1 - Appoint an Auditor
+2 - Change Auditor Address
+3 - Cease Auditor
+4 - Remove / resign Auditor
+5 - Appoint un-official Auditor</link:label>
+		<link:label xlink:label="lbl_DE2518" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">Indicates the type of action required against an Auditor.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE488" xlink:label="loc_DE488" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE488" xlink:to="lbl_DE488" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE488" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Appointment Auditor Continuation Text</link:label>
+		<link:label xlink:label="lbl_DE488" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">Auditors must be appointed and removed in accordance with the Corporations Act requirements. The directors may state in the directors&apos; report that this requirement has been fulfilled.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE2522" xlink:label="loc_DE2522" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2522" xlink:to="lbl_DE2522" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE2522" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Appointment Auditor Jurisdiction Code</link:label>
+		<link:label xlink:label="lbl_DE2522" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">The region that the Auditor-General has jurisdiction over. There is one Auditor-General office for each State or Territory other than the Australian Antarctic Territory and the national Auditor-General&apos;s title is the Commonwealth Auditor-General. </link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE2520" xlink:label="loc_DE2520" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2520" xlink:to="lbl_DE2520" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE2520" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Appointment Auditor Type Code</link:label>
+		<link:label xlink:label="lbl_DE2520" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">1 - Auditor General
+2 - ASIC registered auditor
+3 - Audit firm</link:label>
+		<link:label xlink:label="lbl_DE2520" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">Indicates the type of Auditor appointed</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE625" xlink:label="loc_DE625" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE625" xlink:to="lbl_DE625" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE625" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Appointment Ceased Indicator</link:label>
+		<link:label xlink:label="lbl_DE625" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">Auditors must be ceased via lodgement of Form 315.</link:label>
+		<link:label xlink:label="lbl_DE625" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">Indicates whether the appointment of an auditor for a given Organisation has ceased.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE224" xlink:label="loc_DE224" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE224" xlink:to="lbl_DE224" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE224" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Appointment First Appointment Date</link:label>
+		<link:label xlink:label="lbl_DE224" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">Provide the date the auditor was first appointed to audit the accounts. Generally this is earlier then when the audit work commenced.</link:label>
+		<link:label xlink:label="lbl_DE224" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">This is the date that the auditor was first appointed to audit the accounts of the organisation.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE225" xlink:label="loc_DE225" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE225" xlink:to="lbl_DE225" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE225" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Appointment Joint Appointment Indicator</link:label>
+		<link:label xlink:label="lbl_DE225" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">An auditor can only be appointed if there is a vacancy in that office. Therefore the only time multiple auditors can be appointed is if they were appointed jointly. A subsequent auditor appointment is not valid (and therefore their audit is not valid) if the first or current auditor has not been properly ceased from the company and ASIC&apos;s records updated accordingly. In most cases of auditor removal or resignation, ASIC&apos;s consent is required before that event can occur.</link:label>
+		<link:label xlink:label="lbl_DE225" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">Indicates that more than one auditor were appointed jointly at the same date to audit the organisation&apos;s accounts.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE2519" xlink:label="loc_DE2519" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2519" xlink:to="lbl_DE2519" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE2519" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Appointment Vacancy Indicator</link:label>
+		<link:label xlink:label="lbl_DE2519" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">An auditor cannot be appointed to an Australian company unless there is a vacancy in the office of auditor. The method for the termination of an auditor will depend on the manner of them finalising that office. A new auditor cannot be appointed until the correct process is followed and the appropriate ASIC consent or confirmation is obtained.
+If Vacancy Indicator is True, than possible action codes are:
+1 - Appoint an Auditor
+5 - Appoint un-official Auditor
+If Vacancy Indicator is False, than possible action codes are:
+2 - Change Auditor Address
+3 - Cease Auditor
+4 - Remove / resign Auditor
+5 - Appoint un-official Auditor</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE584" xlink:label="loc_DE584" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE584" xlink:to="lbl_DE584" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE584" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Disclosures Independence Declaration Date</link:label>
+		<link:label xlink:label="lbl_DE584" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">The date the auditor signed the auditor&apos;s independence declaration.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE2490" xlink:label="loc_DE2490" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2490" xlink:to="lbl_DE2490" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE2490" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Disclosures Remuneration On External Audit Services Amount</link:label>
+		<link:label xlink:label="lbl_DE2490" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">Includes fees for all external audit services.</link:label>
+		<link:label xlink:label="lbl_DE2490" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en"></link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE2562" xlink:label="loc_DE2562" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2562" xlink:to="lbl_DE2562" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE2562" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Disclosures Remuneration On Internal Audit Services Amount</link:label>
+		<link:label xlink:label="lbl_DE2562" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">Includes fees for all internal audit services.</link:label>
+		<link:label xlink:label="lbl_DE2562" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en"></link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE2491" xlink:label="loc_DE2491" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2491" xlink:to="lbl_DE2491" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE2491" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Disclosures Remuneration Other Amount</link:label>
+		<link:label xlink:label="lbl_DE2491" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">This is a balancing item within the list in which it is being used</link:label>
+		<link:label xlink:label="lbl_DE2491" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en"></link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE2013" xlink:label="loc_DE2013" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2013" xlink:to="lbl_DE2013" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE2013" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Disclosures Remuneration Total Amount</link:label>
+		<link:label xlink:label="lbl_DE2013" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">Report in this item all fees and expenses paid/payable by the superannuation entity to the external audit firm for the rendering of professional services to the superannuation entity. This includes all fees and expenses paid to the firm which is conducting the external audit of the superannuation entity, for the provision of both audit and non-audit services.  </link:label>
+		<link:label xlink:label="lbl_DE2013" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en"></link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE513" xlink:label="loc_DE513" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE513" xlink:to="lbl_DE513" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE513" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Disclosures Remuneration Text</link:label>
+		<link:label xlink:label="lbl_DE513" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE489" xlink:label="loc_DE489" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE489" xlink:to="lbl_DE489" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE489" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Auditor Independence Declaration Text</link:label>
+		<link:label xlink:label="lbl_DE489" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">The auditor&apos;s independence declaration states that there have been no contraventions of the auditor independence requirements of the Corporations Act or of any applicable codes of professional conduct (such as APES 110).</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE227" xlink:label="loc_DE227" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE227" xlink:to="lbl_DE227" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE227" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Auditor Not Satisfied Statement Of Reasons Provided Indicator</link:label>
+		<link:label xlink:label="lbl_DE227" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">The reasons provided by the auditor relate to the accounts having not been prepared in compliance with accounting standards.</link:label>
+		<link:label xlink:label="lbl_DE227" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">The Act requires that the accounts comply with accounting standards and give a true and fair view of the financial status of the company. Directors are obliged under the Act to ensure that financial records are kept in such a way that an audit can be conducted and the auditor is assisted in preparing the audit (e.g. by being given access to the books). This field indicates if there was any deficiencies by the company or its officeholders in meeting these requirements, the next field lists those deficiencies.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE1608" xlink:label="loc_DE1608" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1608" xlink:to="lbl_DE1608" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE1608" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Australian Financial Services Licensee Received Loan From Client Indicator</link:label>
+		<link:label xlink:label="lbl_DE1608" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">If the licensee has received money from a client in the form of a loan, indicate Yes, otherwise indicate No.</link:label>
+		<link:label xlink:label="lbl_DE1608" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">The licensee has received loan money from a client. The Corporations Act includes specific instructions on how such money is to be dealt with.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE1606" xlink:label="loc_DE1606" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1606" xlink:to="lbl_DE1606" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE1606" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Australian Financial Services Licensee Received Money From Client Indicator</link:label>
+		<link:label xlink:label="lbl_DE1606" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">If the licensee has received money from a client (excluding loans) indicate Yes, otherwise indicate No.</link:label>
+		<link:label xlink:label="lbl_DE1606" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">The licensee has received monies from a client not in the form of a loan. The Corporations Act includes specific instructions on how such money is to be dealt with.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE1607" xlink:label="loc_DE1607" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1607" xlink:to="lbl_DE1607" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE1607" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Australian Financial Services Licensee Received Property From Client Indicator</link:label>
+		<link:label xlink:label="lbl_DE1607" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">If the licensee has received property (other than money) from a client, indicate Yes, otherwise indicate No.</link:label>
+		<link:label xlink:label="lbl_DE1607" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">The licensee has received properties (other than money) from a client. The Corporations Act includes specific instructions on how such property is to be dealt with.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE516" xlink:label="loc_DE516" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE516" xlink:to="lbl_DE516" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE516" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Engagement Type Description</link:label>
+		<link:label xlink:label="lbl_DE516" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE250" xlink:label="loc_DE250" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE250" xlink:to="lbl_DE250" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE250" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Existing Class Order Exemption Indicator</link:label>
+		<link:label xlink:label="lbl_DE250" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">Refer to the national name index to see if the Form 382 has been lodged at www.asic.gov.au/nni. For more information on the relevant class orders refer to www.asic.gov.au/co</link:label>
+		<link:label xlink:label="lbl_DE250" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">Indicates that the business has a class order exemption. For a class order exemption to apply, a Form 382 Notification of resolutions for audit relief - proprietary companies must have been lodged with ASIC. The Form 382 (which can be received in the form of a letter) must be lodged for each relevant financial year.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE520" xlink:label="loc_DE520" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE520" xlink:to="lbl_DE520" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE520" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report External Auditors Text</link:label>
+		<link:label xlink:label="lbl_DE520" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE226" xlink:label="loc_DE226" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE226" xlink:to="lbl_DE226" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE226" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Financial Statements Audited Indicator</link:label>
+		<link:label xlink:label="lbl_DE226" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">All public companies and schemes are required to have their accounts audited. Large proprietary companies, unless exempted via a class order are also required to appoint an auditor. The auditing process is a safeguard for members, investors and business associates to ensure that the company is not trading while insolvent and is preparing true and accurate accounts. If the accounts are not audited, and no class order applies, ASIC cannot accept the Form 388. 
+
+Accounts must be audited for all public companies and registered schemes. Class order relief from audit requirements may apply to some proprietary companies. Small proprietary companies that need to lodge the accounts with ASIC do not need to have those accounts audited.</link:label>
+		<link:label xlink:label="lbl_DE226" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">Indicates that the organisation has its Financial Statement audited and no Class Order is in place.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE519" xlink:label="loc_DE519" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE519" xlink:to="lbl_DE519" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE519" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Full Text Text</link:label>
+		<link:label xlink:label="lbl_DE519" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE518" xlink:label="loc_DE518" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE518" xlink:to="lbl_DE518" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE518" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Modification Text</link:label>
+		<link:label xlink:label="lbl_DE518" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE514" xlink:label="loc_DE514" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE514" xlink:to="lbl_DE514" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE514" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Non Audit Services Text</link:label>
+		<link:label xlink:label="lbl_DE514" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">Detail within the directors&apos; report of the non-audit services provided by the auditor during the year.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE517" xlink:label="loc_DE517" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE517" xlink:to="lbl_DE517" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE517" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Opinion Text</link:label>
+		<link:label xlink:label="lbl_DE517" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE1611" xlink:label="loc_DE1611" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1611" xlink:to="lbl_DE1611" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE1611" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Report Modified Indicator</link:label>
+		<link:label xlink:label="lbl_DE1611" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">This information is obtained from the audit report.</link:label>
+		<link:label xlink:label="lbl_DE1611" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">An indication that an auditor has noted that there are modifications (or exceptions) to the expended standard and accuracy of the audited accounts.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE515" xlink:label="loc_DE515" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE515" xlink:to="lbl_DE515" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE515" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Signature Date</link:label>
+		<link:label xlink:label="lbl_DE515" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE228" xlink:label="loc_DE228" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE228" xlink:to="lbl_DE228" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE228" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Statement Of Deficiency Details Provided Indicator</link:label>
+		<link:label xlink:label="lbl_DE228" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">The details provided by the auditor relate to the accounts having not provided a true and fair view of the financial position and performance of the subject(s) of the accounts.</link:label>
+		<link:label xlink:label="lbl_DE228" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">The Act requires that the accounts comply with accounting standards and give a true and fair view of the financial status of the company. Directors are obliged under the Act to ensure that financial records are kept in such a way that an audit can be conducted and the auditor is assisted in preparing the audit (e.g. by being given access to the books). When auditors find that there was any deficiencies by the company or its officeholders in meeting these requirements, this field lists those deficiencies.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE1609" xlink:label="loc_DE1609" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1609" xlink:to="lbl_DE1609" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE1609" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Modification Auditor Opinion Qualification Indicator</link:label>
+		<link:label xlink:label="lbl_DE1609" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">This information is obtained from the audit report.</link:label>
+		<link:label xlink:label="lbl_DE1609" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">An indication that the financial statements have not been presented to the auditor in accordance with the requirements of the Corporations Act and that the auditor has qualified their opinion (for example the accounts do not present a true and fair view of the financial situation of the licensee).</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE1615" xlink:label="loc_DE1615" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1615" xlink:to="lbl_DE1615" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE1615" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Modification Client Money Accounts Indicator</link:label>
+		<link:label xlink:label="lbl_DE1615" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">This information is obtained from the audit report.</link:label>
+		<link:label xlink:label="lbl_DE1615" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">An indication that there are modifications in the audit report that relate to the operation and control of accounts used to hold client money by the entity being audited.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE1622" xlink:label="loc_DE1622" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1622" xlink:to="lbl_DE1622" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE1622" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Modification Contraventions Breaches And Misconduct Text</link:label>
+		<link:label xlink:label="lbl_DE1622" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">Provide details of any deficiencies or misconduct by the licensee (as required to be reported under s990K of the Corporations Act 2001) which have not been previously reported.</link:label>
+		<link:label xlink:label="lbl_DE1622" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">The full description of an Australian financial services licensee&apos;s deficiencies or misconduct as required to be reported under s990K of the Corporations Act 2001 and which have not been previously reported.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE1610" xlink:label="loc_DE1610" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1610" xlink:to="lbl_DE1610" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE1610" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Modification Emphasis Of Matter Indicator</link:label>
+		<link:label xlink:label="lbl_DE1610" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">This information is obtained from the audit report.</link:label>
+		<link:label xlink:label="lbl_DE1610" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">An indication that the auditor considers a matter presented or disclosed in the financial statements to be of such importance to users&apos; understanding of the financial statements as a whole that it would be appropriate to draw their attention to it.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE1613" xlink:label="loc_DE1613" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1613" xlink:to="lbl_DE1613" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE1613" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Modification Licence Conditions Indicator</link:label>
+		<link:label xlink:label="lbl_DE1613" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">This information is obtained from the audit report.</link:label>
+		<link:label xlink:label="lbl_DE1613" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">An indication that there are modifications in the audit report concerning the licensee&apos;s licence conditions.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE1614" xlink:label="loc_DE1614" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1614" xlink:to="lbl_DE1614" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE1614" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Modification Licensee Controls Indicator</link:label>
+		<link:label xlink:label="lbl_DE1614" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">This information is obtained from the audit report.</link:label>
+		<link:label xlink:label="lbl_DE1614" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">An indication that there are modifications in the audit report that relate to the controls used by the entity being audited to comply with the relevant legislation.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE1616" xlink:label="loc_DE1616" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1616" xlink:to="lbl_DE1616" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE1616" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Modification Records And Explanations Indicator</link:label>
+		<link:label xlink:label="lbl_DE1616" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">This information is obtained from the audit report.</link:label>
+		<link:label xlink:label="lbl_DE1616" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">An indication that there are modifications in the audit report that relate to whether the auditor received all information and explanations relevant for the purposes of completing the audit report.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE1621" xlink:label="loc_DE1621" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1621" xlink:to="lbl_DE1621" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE1621" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Modification Statement Exceptions Text</link:label>
+		<link:label xlink:label="lbl_DE1621" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">Provide a statement of any exceptions to statements made.</link:label>
+		<link:label xlink:label="lbl_DE1621" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">A statement of qualification made by an auditor containing exceptions to previous statements in an audit report.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE1612" xlink:label="loc_DE1612" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1612" xlink:to="lbl_DE1612" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE1612" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Report Modification True And Fair View And Compliance Indicator</link:label>
+		<link:label xlink:label="lbl_DE1612" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">This information is obtained from the audit report.</link:label>
+		<link:label xlink:label="lbl_DE1612" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">An indication that there are modifications in the audit report as to whether the accounts provide a true and fair view of the financial statements and if the accounts were prepared in accordance with the relevant accounting standards and pronouncements.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE120" xlink:label="loc_DE120" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE120" xlink:to="lbl_DE120" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE120" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">External Administrator Appointment Appointment End Date</link:label>
+		<link:label xlink:label="lbl_DE120" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">The day after the external manager appointment ceases to have effect.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE119" xlink:label="loc_DE119" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE119" xlink:to="lbl_DE119" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE119" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">External Administrator Appointment Appointment End Indicator</link:label>
+		<link:label xlink:label="lbl_DE119" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">Indicates the appointment of an external manager for the employer&apos;s business ceases.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE118" xlink:label="loc_DE118" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE118" xlink:to="lbl_DE118" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE118" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">External Administrator Appointment Appointment Start Date</link:label>
+		<link:label xlink:label="lbl_DE118" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">The date of the external managers appointment.</link:label>
+		<link:loc xlink:href="emfsm.02.00.data.xsd#DE117" xlink:label="loc_DE117" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE117" xlink:to="lbl_DE117" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE117" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">External Administrator Appointment Appointment Start Indicator</link:label>
+		<link:label xlink:label="lbl_DE117" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">Indicator to define if an external manager is appointed for the employer&apos;s business</link:label>
+	</link:labelLink>
+</link:linkbase>

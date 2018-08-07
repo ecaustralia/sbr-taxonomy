@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.22.data.xsd#rvctc1.02.22_rvctc1Abstract" xlink:label="loc_rvctc1.02.22_rvctc1Abstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_rvctc1Abstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Collection 1</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_rvctc1.02.22_rvctc1Abstract" xlink:to="lbl_rvctc1Abstract"/>
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.22.data.xsd#DE14258" xlink:label="loc_DE14258"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14258" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Assessable Character Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14258" xlink:to="lbl_DE14258"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14258" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This code identifies the tax character type of assessable income derived by an individual.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14258" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Primary production income = Income that is related to primary production.
+Interest = Income that is related to interest.
+Interest exempt from withholding = Income that is related to interest exempt from withholding.
+Unfranked dividends not declared to be conduit foreign income = Income that is related to unfranked dividends not declared to be conduit foreign income.
+Unfranked dividends declared to be conduit foreign income = Income that is related to unfranked dividends declared to be conduit foreign income.
+Franked dividends = Income that is related to franked dividends.
+Franking credit gross-up = Income that is related to franking credit gross-up.
+Other Australian Income = Income that is related to Australian income not classified elsewhere.
+National rental affordability Scheme Rental Income = Income that is related to the national rental affordability scheme.
+Royalties = Income that is related to royalties.
+Capital gains discounted method - taxable Australian property = Income that is related to discount capital gain from taxable Australian property.
+Capital gains discounted method - non-taxable Australian property = Income that is related to discount capital gain from non taxable Australian property.
+Capital gains other - taxable Australian property = Income that is related to non discount capital gain from taxable Australian property.
+Capital gains other - non-taxable Australian property = Income that is related to non discount capital gain from non taxable Australian property.
+Dividend amount from listed investment company capital gain = Income that is related to dividend amount from listed investment company capital gain.
+Assessable foreign source income = Income that is related to assessable foreign source income.
+Other net foreign source income = Income that is related to other net foreign source income.
+Controlled foreign company attributable income = Income that is related to controlled foreign company attributable income.
+Transferor trust income = Income that is related to transferor trust income.
+Other = Income that is not classified elsewhere.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.22.data.xsd#DE14260" xlink:label="loc_DE14260"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14260" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Attribution Managed Investment Trust Class Description</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14260" xlink:to="lbl_DE14260"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14260" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A description that identifies each separate attribution managed investment trust (AMIT) class where an election has been made.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.22.data.xsd#DE14149" xlink:label="loc_DE14149"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14149" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Attribution Managed Investment Trust Related Entities Payment Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14149" xlink:to="lbl_DE14149"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14149" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the attribution managed investment trust received payments from related entities during the income year.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14149" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = The trust received payments from related entities during the income year.
+false = The trust did not receive payments from related entities during the income year.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.22.data.xsd#DE14259" xlink:label="loc_DE14259"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14259" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Exempt Character Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14259" xlink:to="lbl_DE14259"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14259" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This code identifies the tax character type of exempt income derived by an individual.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14259" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Net exempt income for foreign residents = Exempt income related to foreign residents.
+Other net exempt income = Exempt income that is not classified elsewhere.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.22.data.xsd#DE14238" xlink:label="loc_DE14238"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14238" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Multi Class Transfer Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14238" xlink:to="lbl_DE14238"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14238" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether assets have been transferred between classes for the trust.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14238" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = Assets have been transferred between trust classes.
+false = Assets have not been transferred between trust classes.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.22.data.xsd#DE14243" xlink:label="loc_DE14243"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14243" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Offset Character Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14243" xlink:to="lbl_DE14243"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14243" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This code identifies the tax character type of relevant tax offsets.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14243" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Franking credits = Tax offsets related to franking credits.
+Foreign income tax offsets = Tax offsets related to foreign income.
+National rental affordability scheme (NRAS) tax offset = Tax offsets related to the national rental affordability scheme.
+Exploration development credit = Tax offsets related to exploration development credit.
+Australian franking credits from a New Zealand company = Franking credits that are related to a New Zealand company.
+Other = Tax offsets that are not classified elsewhere.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.22.data.xsd#DE14037" xlink:label="loc_DE14037"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14037" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Trust Component Deficit Offset Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14037" xlink:to="lbl_DE14037"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14037" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, of the trust's trust component deficit relating to offset.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.22.data.xsd#DE14038" xlink:label="loc_DE14038"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14038" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Trust Shortfall Income Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14038" xlink:to="lbl_DE14038"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14038" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, of the trust's shortfall in determined member component of a character relating to assessable income.</link:label>
+    </link:labelLink>
+</link:linkbase>

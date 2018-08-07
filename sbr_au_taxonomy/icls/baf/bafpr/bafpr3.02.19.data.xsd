@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bafpr3.02.19="http://sbr.gov.au/icls/baf/bafpr/bafpr3.02.19.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:dtyp.02.29="http://sbr.gov.au/fdtn/sbr.02.29.dtyp" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/baf/bafpr/bafpr3.02.19.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.29.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.29.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="bafpr3Abstract" id="bafpr3.02.19_bafpr3Abstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="Income.Superannuation.AnnuitiesAndSuperannuationLumpSumArrearsTaxableComponentTaxedElement.Amount" id="DE13369" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Income.Superannuation.AnnuitiesAndSuperannuationLumpSumArrearsTaxableComponentUntaxedElement.Amount" id="DE13370" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Income.Superannuation.AnnuitiesAndSuperannuationTaxableComponentTaxedElement.Amount" id="DE13367" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Income.Superannuation.AnnuitiesAndSuperannuationTaxableComponentUntaxedElement.Amount" id="DE13368" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Income.Superannuation.DeathBenefitRecipient.Code" id="DE13981" type="dtyp.02.29:sbrDeathBenefitRecipientCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Income.Superannuation.LumpSumArrearsTaxFree.Amount" id="DE13879" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Income.Superannuation.LumpSumPaymentTaxableComponentTaxedElement.Amount" id="DE13373" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Income.Superannuation.LumpSumPaymentTaxableComponentUntaxedElement.Amount" id="DE13374" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+</xsd:schema>

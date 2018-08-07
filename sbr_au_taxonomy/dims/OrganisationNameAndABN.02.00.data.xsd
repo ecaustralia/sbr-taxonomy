@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:OrganisationNameAndABN.02.00="http://sbr.gov.au/dims/OrganisationNameAndABN.02.00.dims" xmlns:dtyp.02.09="http://sbr.gov.au/fdtn/sbr.02.09.dtyp" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://sbr.gov.au/dims/OrganisationNameAndABN.02.00.dims">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:href="OrganisationNameAndABN.02.00.labLink.xml"/>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.09.dtyp" schemaLocation="../fdtn/dtyp.sbr.02.09.xsd"/>
+	<xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+	<xsd:element name="OrganisationNameAndABNContainer" id="DV5269" type="OrganisationNameAndABN.02.00:OrganisationNameAndABNContainerType"/>
+	<xsd:complexType name="OrganisationNameAndABNContainerType">
+		<xsd:choice>
+			<xsd:sequence>
+				<xsd:element ref="OrganisationNameAndABN.02.00:ABN"/>
+				<xsd:element ref="OrganisationNameAndABN.02.00:OrganisationName" minOccurs="0"/>
+			</xsd:sequence>
+			<xsd:sequence>
+				<xsd:element ref="OrganisationNameAndABN.02.00:OrganisationName"/>
+			</xsd:sequence>
+		</xsd:choice>
+	</xsd:complexType>
+	<xsd:element name="OrganisationName" id="DV5272" type="xsd:string"/>
+	<xsd:element name="ABN" id="DV5273" type="xsd:string"/>
+	<xsd:element name="OrganisationNameAndABNDimension" id="DM352" xbrldt:typedDomainRef="#DV5269" nillable="true" substitutionGroup="xbrldt:dimensionItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+</xsd:schema>

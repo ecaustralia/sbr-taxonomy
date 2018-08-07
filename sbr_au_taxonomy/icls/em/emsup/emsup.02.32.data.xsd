@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:emsup.02.32="http://sbr.gov.au/icls/em/emsup/emsup.02.32.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dtyp.02.51="http://sbr.gov.au/fdtn/sbr.02.51.dtyp" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/em/emsup/emsup.02.32.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.51.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.51.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="emsupAbstract" id="emsup.02.32_emsupAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="SuperannuationAccountDetails.AccountActivityStatus.Code" id="DE13960" type="dtyp.02.51:sbrAccountActivityStatusCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationAccountDetails.AccountContributions.Code" id="DE14799" type="dtyp.02.51:sbrAccountContributionsCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationAccountDetails.AccountPhase.Code" id="DE14814" type="dtyp.02.51:sbrAccountPhaseCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationAccountDetails.DefinedBenefitInterest.Indicator" id="DE14726" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationAccountDetails.GovernmentRollover.Indicator" id="DE14720" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationAccountDetails.Grandfathering.Indicator" id="DE14723" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationAccountDetails.IncomeStreamAccountStatus.Code" id="DE14813" type="dtyp.02.51:sbrAccountIncomeStreamStatusCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationAccountDetails.InnovativeIncomeStreamProduct.Indicator" id="DE14812" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationAccountDetails.OutwardRollover.Indicator" id="DE14719" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationMemberDetails.DeferredTaxDebtAccountStatus.Code" id="DE14800" type="dtyp.02.51:sbrDeferredTaxDebtAccountStatusCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+</xsd:schema>

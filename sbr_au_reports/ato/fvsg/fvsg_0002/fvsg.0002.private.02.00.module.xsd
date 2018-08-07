@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Modified External to TIMS-->
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema targetNamespace="http://sbr.gov.au/rprt/ato/fvsg/fvsg.0002.private.02.00.module" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fvsg.0002.prv.02.00="http://sbr.gov.au/rprt/ato/fvsg/fvsg.0002.private.02.00.module" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:RprtPyType.02.10="http://sbr.gov.au/dims/RprtPyType.02.10.dims" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:SuperPaymentDest.02.01="http://sbr.gov.au/dims/SuperPaymentDest.02.01.dims" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:SprFndUSI.02.00="http://sbr.gov.au/dims/SprFndUSI.02.00.dims" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="fvsg.0002.private.02.00.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="fvsg.0002.private.02.00.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/fvsg/fvsg.0002.private.02.00/defRole" id="fvsg.0002.02.00.privatedefLink">
+        <link:definition>fvsg.0002_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/fvsg/fvsg.0002.private.02.00/labRole" id="fvsg.0002.02.00.privatelabLinkInfoCls">
+        <link:definition>fvsg.0002_private</link:definition>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/fvsg/fvsg.0002.private.02.00/refRole" id="fvsg.0002.02.00.privaterefLink">
+        <link:definition>fvsg.0002_private</link:definition>
+        <link:usedOn>link:referenceLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/fvsg/fvsg.0002.private.02.00/hypercubes/ContributionRolloverSprFndUSISuperFund" id="fvsg.0002.02.00.privatedefLinkContributionRolloverSprFndUSISuperFund">
+        <link:definition>fvsg.0002_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/fvsg/fvsg.0002.private.02.00/hypercubes/RprtPyType" id="fvsg.0002.02.00.privatedefLinkRprtPyType">
+        <link:definition>fvsg.0002_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/fvsg/fvsg.0002.private.02.00/hypercubes/SprFndUSISuperFund" id="fvsg.0002.02.00.privatedefLinkSprFndUSISuperFund">
+        <link:definition>fvsg.0002_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/fvsg/fvsg.0002.private.02.00/hypercubes/SuperFund" id="fvsg.0002.02.00.privatedefLinkSuperFund">
+        <link:definition>fvsg.0002_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.10.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.10.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/dims/SprFndUSI.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/SprFndUSI.02.00.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/dims/SuperPaymentDest.02.01.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/SuperPaymentDest.02.01.data.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:element name="ContributionRolloverSprFndUSISuperFundPrimaryItemsAbstract" id="RA100293" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="RprtPyTypePrimaryItemsAbstract" id="RA100294" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="SprFndUSISuperFundPrimaryItemsAbstract" id="RA100295" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="SuperFundPrimaryItemsAbstract" id="RA100296" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ContributionRolloverSprFndUSISuperFund" id="HC100293" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="RprtPyType" id="HC100294" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="SprFndUSISuperFund" id="HC100295" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="SuperFund" id="HC100296" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+</xsd:schema>

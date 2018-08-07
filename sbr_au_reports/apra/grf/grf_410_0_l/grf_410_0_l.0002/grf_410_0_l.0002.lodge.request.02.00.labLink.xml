@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:href="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#Label"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:href="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#reportGuidance"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/rprt/apra/grf/grf_410_0_l/grf_410_0_l.0002.lodge.request.02.00/labRole" xlink:href="grf_410_0_l.0002.lodge.request.02.00.xsd#grf_410_0_l.0002.lodge.request.02.00.labLink"/>
+	<link:labelLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/apra/grf/grf_410_0_l/grf_410_0_l.0002.lodge.request.02.00/labRole">
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr3.02.05.data.xsd#DE8572" xlink:label="loc_DE8572" xlink:title="Expense.Insurance.ClaimsGrossReserveStrengtheningNotDiscounted.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE8572" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Reserve Strengthening</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8572" xlink:to="lbl_DE8572" xlink:title="label: Expense.Insurance.ClaimsGrossReserveStrengtheningNotDiscounted.Amount to label_Expense.Insurance.ClaimsGrossReserveStrengtheningNotDiscounted.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE8572_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance">Reserve strengthening refers to those occasions when a provision that was created/ posted at the end of the previous financial year, is subsequently found to be insufficient to cover both the related claim payments made in the current financial year and the re-estimated value of outstanding future claim payments (including risk margin) at the end of the current financial year.  Reserve strengthening is assessed for particular accident years for direct writers of insurance and underwriting years for reinsurance writers. 
+
+In these instances where the opening provision is insufficient, the insurer strengthens or increases these provisions to accommodate the additional costs expected from this particular prior accident / underwriting year.  This becomes a reduction in profit (i.e. rise in the claims expense) in the current financial year.
+
+Enter reserve stengthenings as a positive figure.</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8572" xlink:to="lbl_DE8572_1" xlink:title="label: Expense.Insurance.ClaimsGrossReserveStrengtheningNotDiscounted.Amount to label_Expense.Insurance.ClaimsGrossReserveStrengtheningNotDiscounted.Amount"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr3.02.05.data.xsd#DE8573" xlink:label="loc_DE8573" xlink:title="Income.Insurance.ClaimsGrossReserveReleasesNotDiscounted.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE8573" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Reserve Releases</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8573" xlink:to="lbl_DE8573" xlink:title="label: Income.Insurance.ClaimsGrossReserveReleasesNotDiscounted.Amount to label_Income.Insurance.ClaimsGrossReserveReleasesNotDiscounted.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE8573_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance">Reserve release refers to those occasions when a provision that was created/posted at the end of the previous financial year, is subsequently found to be more than is required to cover both the related claim payments made in the current financial year and the re-estimated value of outstanding future claim payments (including risk margin) at the end of the current financial year. Reserve release is assessed for particular accident years for direct writers of insurance and underwriting years for reinsurance writers.
+
+In these instances where the opening provision is more than sufficient, the insurer releases these excess provisions to reflect the lower costs expected from this particular prior accident / underwriting year.  This becomes a rise in profit (i.e. a fall in the claims expense) in the current financial year.
+
+Claim payments (that are debited out of the OCL for accounting purposes) are not to be classified as a reserve release for the purposes of this form.
+
+Enter reserve releases as a positive figure.
+</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8573" xlink:to="lbl_DE8573_1" xlink:title="label: Income.Insurance.ClaimsGrossReserveReleasesNotDiscounted.Amount to label_Income.Insurance.ClaimsGrossReserveReleasesNotDiscounted.Amount"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo3.02.09.data.xsd#DE12925" xlink:label="loc_DE12925" xlink:title="Liabilities.Insurance.OutstandingClaimsLiabilityNotDiscounted.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE12925" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Outstanding Claims Liabilities - Net of Recoveries (Undiscounted)</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12925" xlink:to="lbl_DE12925" xlink:title="label: Liabilities.Insurance.OutstandingClaimsLiabilityNotDiscounted.Amount to label_Liabilities.Insurance.OutstandingClaimsLiabilityNotDiscounted.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE12925_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance"></link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12925" xlink:to="lbl_DE12925_1" xlink:title="label: Liabilities.Insurance.OutstandingClaimsLiabilityNotDiscounted.Amount to label_Liabilities.Insurance.OutstandingClaimsLiabilityNotDiscounted.Amount"/>
+	</link:labelLink>
+</link:linkbase>

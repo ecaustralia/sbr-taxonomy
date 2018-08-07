@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#Label"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#reportGuidance"/>
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/odrpt/odrpt.0001.list.request.02.00/labRole" xlink:type="simple" xlink:href="odrpt.0001.list.request.02.00.report.xsd#odrpt.0001.list.request.02.00.labLinkInfoCls"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/odrpt/odrpt.0001.list.request.02.00/labRole">
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.data.xsd#DE26" xlink:label="loc_DE26"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE26" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Provide either the client's ABN or TFN. The ABN or TFN is not required when a whole of practice report is selected.</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE26" xlink:to="lbl_DE26"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE26" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Australian Business Number</link:label>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.data.xsd#DE27" xlink:label="loc_DE27"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE27" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Provide either the client's ABN or TFN. The ABN or TFN is not required when a whole of practice report is selected.</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE27" xlink:to="lbl_DE27"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE27" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Tax File Number</link:label>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.02.data.xsd#DE833" xlink:label="loc_DE833"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE833" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Valid values are:
+- Income Tax Client Report 
+- Activity Statement Client Report
+- Activity Statement Lodgment Report</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE833" xlink:to="lbl_DE833"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE833" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Report Type</link:label>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.20.data.xsd#DE13676" xlink:label="loc_DE13676"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13676" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Indicates whether the report is to return information for all client's associated to the RAN as per the report requestor ID or only to the clients listed in the client identifier group.</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13676" xlink:to="lbl_DE13676"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13676" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Client lodgment report request type</link:label>
+        <link:loc xlink:type="locator" xlink:href="odrpt.0001.list.request.02.00.report.xsd#RA4616" xlink:label="loc_RA4616"/>
+        <link:label xlink:type="resource" xlink:label="lbl_RA4616" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">ODRPTListRequest [Abstract]</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA4616" xlink:to="lbl_RA4616"/>
+        <link:loc xlink:type="locator" xlink:href="odrpt.0001.list.request.02.00.report.xsd#RA100449" xlink:label="loc_RA100449"/>
+        <link:label xlink:type="resource" xlink:label="lbl_RA100449" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">RP Primary Items [Abstract]</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA100449" xlink:to="lbl_RA100449"/>
+    </link:labelLink>
+</link:linkbase>

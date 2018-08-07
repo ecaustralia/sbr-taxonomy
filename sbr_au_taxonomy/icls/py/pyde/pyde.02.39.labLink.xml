@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="pyde.02.39.data.xsd#pyde.02.39_pydeAbstract" xlink:label="loc_pyde.02.39_pydeAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_pydeAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Party Demographics</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_pyde.02.39_pydeAbstract" xlink:to="lbl_pydeAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.39.data.xsd#DE14672" xlink:label="loc_DE14672"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14672" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Party Entity Relationship Type Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14672" xlink:to="lbl_DE14672"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14672" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A code which identifies the relationship from one entity to another entity.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14672" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+AGENT-CLIENT = Agent to Client
+CLIENT-AGENT = Client to Agent
+PAYPRVDR-CLIENT = Payroll Provider to Client
+CLIENT-PAYPRVDR = Client to Payroll Provider
+PTNRSHP-PTNR = Partnership to Partner
+PTNR-PTNRSHP = Partner to Partnership
+LTDPTNRSHP-PTNR = Limited Partnership to Partner
+PTNR-LTDPTNRSHP = Partner to Limited Partnership
+CMP-DTR = Company to Director
+DTR-CMP = Director to Company
+CMP-PBLOFFCR = Company to Public Officer
+PBLOFFCR-CMP = Public Officer to Company
+CMP-OFFCBRR = Company to Office Bearer
+OFFCBRR-CMP = Office Bearer to Company
+CMP-TRSTEE = Company to Trustee
+TRSTEE-CMP = Trustee to Company
+TRST-TRSTEE = Trust to Trustee
+TRSTEE-TRST = Trustee to Trust
+SF-TRSTEE = Superannuation Fund to Trustee
+TRSTEE-SF = Trustee to Superannuation Fund
+SF-TRSTEEDTR = Superannuation Fund to Trustee Director
+TRSTEEDTR-SF = Trustee Director to Superannuation Fund
+SF-MBR = Superannuation Fund to Member
+MBR-SF = Member to Superannuation Fund
+ITGRPHD-ITGRPMBR = Income Tax Group Head to Income Tax Group Member
+ITGRPMBR-ITGRPHD = Income Tax Group Member to Income Tax Group Head
+NMTDHDCMP-ITGRPMBR = Nominated Head Company to Income Tax Group Member
+ITGRPMBR-NMTDHDCMP = Income Tax Group Member to Nominated Head Company
+GSTGRPREP-GRPMBR = GST Group Representative to Group Member
+GRPMBR-GSTGRPREP = GST Group Member to Group Representative
+GSTRELGRPPRNPL-MBR = GST Religious Group Principal to Member
+MBR-GSTRELGRPPRNPL = GST Religious Group Member to Principal</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.39.data.xsd#DE14996" xlink:label="loc_DE14996"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14996" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Party Entity Relationship With Agents Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14996" xlink:to="lbl_DE14996"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14996" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A code value that represents the existence of relationships between an entity and a requesting agent or other agents.</link:label>
+    </link:labelLink>
+</link:linkbase>

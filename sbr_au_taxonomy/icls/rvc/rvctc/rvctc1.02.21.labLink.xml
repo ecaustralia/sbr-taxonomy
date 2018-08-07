@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.21.data.xsd#rvctc1.02.21_rvctc1Abstract" xlink:label="loc_rvctc1.02.21_rvctc1Abstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_rvctc1Abstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Collection 1</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_rvctc1.02.21_rvctc1Abstract" xlink:to="lbl_rvctc1Abstract"/>
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.21.data.xsd#DE1670" xlink:label="loc_DE1670"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE1670" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Assessment Calculation Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1670" xlink:to="lbl_DE1670"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE1670" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A code that is given to each beneficiary, where the beneficiary is presently entitled to a share of the income of a trust and also against income to which no beneficiary is presently entitled and in which no beneficiary has an indefeasible vested interest.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE1670" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+
+11 = Deceased Estate - Resident beneficiary under a legal disability
+12 = Deceased Estate - Resident beneficiary not under a legal disability
+13 = Deceased Estate - Resident company 
+14 = Deceased Estate - Resident trustee
+15 = Deceased Estate - No beneficiary entitled and deceased person died &lt; 3 years 
+16 = Deceased Estate - No beneficiary entitled and deceased person died =&gt; 3 years 
+17 = Deceased Estate - Non resident trust 
+25 = Inter Vivos - Resident beneficiary - Over 18 years and under legal disability
+26 = Inter Vivos - Resident beneficiary - Receiving excepted income only
+27 = Inter Vivos - Resident beneficiary - Receiving eligible income only
+28 = Inter Vivos - Resident beneficiary - Receiving excepted and eligible income 
+29 = Inter Vivos - Resident beneficiary - Receiving income from multiple trusts
+30 = Inter Vivos - Resident beneficiary - Not under legal disability
+34 = Inter Vivos - Resident beneficiary - A company
+35 = Inter Vivos - Resident beneficiary - A trustee
+36 = Inter Vivos Trusts - Resident beneficiary - No Beneficiary entitled to income.
+37 = Inter Vivos Trusts - Resident beneficiary - A bankrupt estate or no beneficiary entitled.
+45 = Inter Vivos Trusts - Resident beneficiary - A special disability trust.
+111 = Deceased Estate - Non Resident beneficiary under a legal disability
+118 = Deceased Estate - Non Resident beneficiary not under a legal disability
+119 = Deceased Est - Non Resident beneficiary company 
+120 = Deceased Est - Non Resident beneficiary trustee
+125 = Inter Vivos - Non Resident beneficiary - Over 18 years and under legal disability
+126 = Inter Vivos - Non Resident beneficiary - Receiving excepted income only
+127 = Inter Vivos - Non Resident beneficiary - Receiving eligible income only
+128 = Inter Vivos - Non Resident beneficiary - Receiving excepted and eligible income 
+129 = Inter Vivos - Non Resident beneficiary - Receiving income from multiple trusts
+134 = Inter Vivos - Non-Resident beneficiary - A small business company
+138 = Inter Vivos - Non Resident beneficiary - Not under legal disability
+139 = Inter Vivos - Non Resident beneficiary - A company
+140 = Inter Vivos - Non Resident beneficiary - A trustee
+145 = Inter Vivos - Non Resident beneficiary - A special disability trust</link:label>
+    </link:labelLink>
+</link:linkbase>

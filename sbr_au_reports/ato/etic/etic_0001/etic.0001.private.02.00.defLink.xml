@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/etic/etic.0001.private.02.00/hypercubes/IntermediaryReportingParty" xlink:type="simple" xlink:href="etic.0001.private.02.00.module.xsd#etic.0001.02.00.privatedefLinkIntermediaryReportingParty"/>
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/etic/etic.0001.private.02.00/hypercubes/ReportingPartyABNEmployee" xlink:type="simple" xlink:href="etic.0001.private.02.00.module.xsd#etic.0001.02.00.privatedefLinkReportingPartyABNEmployee"/>
+    <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+    <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+    <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/etic/etic.0001.private.02.00/hypercubes/IntermediaryReportingParty">
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.07.data.xsd#DM5" xlink:label="loc_DM5"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.07.data.xsd#DV30" xlink:label="loc_DV30"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM5" xlink:to="loc_DV30" use="optional" order="1.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.07.data.xsd#DV29" xlink:label="loc_DV29"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM5" xlink:to="loc_DV29" use="optional" order="2.0"/>
+        <link:loc xlink:type="locator" xlink:href="etic.0001.private.02.00.module.xsd#HC100296" xlink:label="loc_HC100296"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100296" xlink:to="loc_DM5" use="optional" order="1.0"/>
+    </link:definitionLink>
+    <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/etic/etic.0001.private.02.00/hypercubes/ReportingPartyABNEmployee">
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.07.data.xsd#DM5" xlink:label="loc_DM5"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.07.data.xsd#DV6216" xlink:label="loc_DV6216"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM5" xlink:to="loc_DV6216" use="optional" order="1.0"/>
+        <link:loc xlink:type="locator" xlink:href="etic.0001.private.02.00.module.xsd#HC100297" xlink:label="loc_HC100297"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/ReportingPartyABN.02.00.data.xsd#DM493" xlink:label="loc_DM493"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100297" xlink:to="loc_DM493" use="optional" order="1.0"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100297" xlink:to="loc_DM5" use="optional" order="2.0"/>
+    </link:definitionLink>
+</link:linkbase>

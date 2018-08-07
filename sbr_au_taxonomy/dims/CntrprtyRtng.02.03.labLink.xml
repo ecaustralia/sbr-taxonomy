@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRtng.02.03.data.xsd#DM393" xlink:label="loc_DM393"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM393" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Counterparty Rating Dimension</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DM393" xlink:to="lbl_DM393"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM393" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This rating categorises the credit ratings of the counterparty in relation to the investments of the reporting entity as determined by various rating agencies.
+
+
+Rating Grade1: Standard &amp; Poor's AAA; Moody's Aaa; AM Best A++; Fitch AAA
+
+Rating Grade2: Standard &amp; Poor's AA+, AA, AA-; Moody's Aa1, Aa2, Aa3; AM Best A+; Fitch AA+, AA, AA-
+
+Rating Grade3: Standard &amp; Poor's A+, A, A-; Moody's A1, A2, A3; AM Best A, A-; Fitch  A+, A, A-
+
+Rating Grade4: Standard &amp; Poor's BBB+, BBB, BBB-; Moody's Baa1, Baa2, Baa3; AM Best B++, B+; Fitch BBB+, BBB, BBB-
+
+Rating Grade5: Standard &amp; Poor's BB+, or below; Moody's Ba1, or below; AM Best B, or below; Fitch BB+, or below</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRtng.02.03.data.xsd#DM388" xlink:label="loc_DM388"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM388" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Counterparty Rating Super</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DM388" xlink:to="lbl_DM388"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM388" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This rating categorises the credit ratings of the counterparty in relation to the investments of the reporting party as determined by various rating agencies.
+Rating Grade1: Standard &amp; Poor's AAA, Moody's Aaa, AM Best A++, Fitch AAA
+Rating Grade2: Standard &amp; Poor's AA+, AA, AA-; Moody's Aa1, Aa2, Aa3; AM Best A+; Fitch AA+, AA, AA-
+Rating Grade3: Standard &amp; Poor's A+, A, A-; Moody's A1, A2, A3; AM Best A, A-; Fitch  A+, A, A-
+Rating Grade4: Standard &amp; Poor's BBB+, BBB, BBB-; Moody's Baa1,  Baa2, Baa3; AM Best B++; Fitch BBB+, BBB, BBB-
+Rating Grade5: Standard &amp; Poor's BB+, or below; Moody's Ba1, or below; AM Best B+, or below; Fitch BB+, or below</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRtng.02.03.data.xsd#DM575" xlink:label="loc_DM575"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM575" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Counterparty Rating After Eligible Credit Support Dimension</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DM575" xlink:to="lbl_DM575"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM575" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This dimension categorises the counterparty grade after eligible credit support provided according to the long-term and short-term credit rating grades of the provider as determined by various rating agencies.
+Long-term ratings. 
+Rating Grade1: Standard &amp; Poor's AAA; Moody's Aaa; AM Best Debt aaa; AM Best FSR A++; Fitch AAA;
+Rating Grade2: Standard &amp; Poor's AA+, AA, AA-; Moody's Aa1, Aa2, Aa3; AM Best Debt Debt aa+, aa, aa-; AM Best FSR A+; Fitch AA+, AA, AA-;
+Rating Grade3: Standard &amp; Poor's A+, A, A-; Moody's A1, A2, A3; AM Best Debt a+, a, a-; AM Best FSR A, A-; Fitch A+, A, A-;
+Rating Grade4: Standard &amp; Poor's BBB+, BBB, BBB-; Moody's Baa1, Baa2, Baa3; AM Best Debt bbb+, bbb, bbb-; AM Best FSR B++, B+; Fitch BBB+, BBB, BBB-;
+Rating Grade5: Standard &amp; Poor's BB+, BB, BB- ; Moody's Ba1, Ba2, Ba3; AM Best Debt bb+, bb, bb-; AM Best FSR B, B-; Fitch BB+, BB, BB-;
+Rating Grade6: Standard &amp; Poor's B+, B, B- ; Moody's B1, B2, B3; AM Best Debt b+, b, b-; AM Best FSR C++, C+, C, C-; Fitch B+, B, B-;
+Rating Grade7: Standard &amp; Poor's Below B-; Moody's Below B3; AM Best Debt Below b-; AM Best FSR Below C-; Fitch CCC or Below;
+Short-term ratings
+Rating Grade1: Standard &amp; Poor's A+, AM Best AMB-1+; Fitch F1+;
+Rating Grade2: Standard &amp; Poor's A1; Moody's P1; AM Best AMB-1; Fitch F1;
+Rating Grade3: Standard &amp; Poor's A2; Moody's P2; AM Best AMB-2; Fitch F2;
+Rating Grade4: Standard &amp; Poor's A3; Moody's P3; AM Best AMB-3; Fitch F3;
+Rating Grade6: Standard &amp; Poor's B; Moody's NP Vulnerable; AM Best AMB-4; Fitch B;
+Rating Grade7: Standard &amp; Poor's C; Moody's NP Currently Vulnerable; Fitch C;</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRtng.02.03.data.xsd#DM576" xlink:label="loc_DM576"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM576" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Counterparty Rating Grades Dimension</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DM576" xlink:to="lbl_DM576"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM576" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This dimension categorises investments of the reporting entity according to the long-term and short-term credit rating grades of the counterparty as determined by various rating agencies.
+
+Long-term ratings. 
+
+Rating Grade1: Standard &amp; Poor's AAA; Moody's Aaa; AM Best Debt aaa; AM Best FSR A++; Fitch AAA;
+
+Rating Grade2: Standard &amp; Poor's AA+, AA, AA-; Moody's Aa1, Aa2, Aa3; AM Best Debt aa+, aa, aa-; AM Best FSR A+; Fitch AA+, AA, AA-;
+
+Rating Grade3: Standard &amp; Poor's A+, A, A-; Moody's A1, A2, A3; AM Best Debt a+, a, a-; AM Best FSR A, A-; Fitch A+, A, A-;
+
+Rating Grade4: Standard &amp; Poor's BBB+, BBB, BBB-; Moody's Baa1, Baa2, Baa3; AM Best Debt bbb+, bbb, bbb-; AM Best FSR B++, B+; Fitch BBB+, BBB, BBB-;
+
+Rating Grade5: Standard &amp; Poor's BB+, BB, BB- ; Moody's Ba1, Ba2, Ba3; AM Best Debt bb+, bb, bb-; AM Best FSR B, B-; Fitch BB+, BB, BB-;
+
+Rating Grade6: Standard &amp; Poor's B+, B, B- ; Moody's B1, B2, B3; AM Best Debt b+, b, b-; AM Best FSR C++, C+, C, C-; Fitch B+, B, B-;
+
+Rating Grade7: Standard &amp; Poor's Below B-; Moody's Below B3; AM Best Debt Below b-; AM Best FSR Below C-; Fitch CCC or Below;
+
+Short-term ratings.
+
+Rating Grade1: Standard &amp; Poor's A+, AM Best AMB-1+; Fitch F1+;
+
+Rating Grade2: Standard &amp; Poor's A1; Moody's P1; AM Best AMB-1; Fitch F1;
+
+Rating Grade3: Standard &amp; Poor's A2; Moody's P2; AM Best AMB-2; Fitch F2;
+
+Rating Grade4: Standard &amp; Poor's A3; Moody's P3; AM Best AMB-3; Fitch F3;
+
+Rating Grade6: Standard &amp; Poor's B; Moody's NP Vulnerable; AM Best AMB-4; Fitch B;
+
+Rating Grade7: Standard &amp; Poor's C; Moody's NP Currently Vulnerable; Fitch C;</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRtng.02.03.data.xsd#DM683" xlink:label="loc_DM683"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM683" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Counterparty Rating Super Reform Dimension</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DM683" xlink:to="lbl_DM683"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM683" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This rating categorises the credit ratings of the counterparty in relation to the investments of the reporting entity as determined by various rating agencies. Rating Grade1: Standard &amp; Poor's AAA; Moody's Aaa; AM Best Debt aaa; Fitch AAA; Rating Grade2: Standard &amp; Poor's AA+, AA, AA-; Moody's Aa1, Aa2, Aa3; AM Best Debt aa+, aa, aa-; Fitch AA+, AA, AA-; Rating Grade3: Standard &amp; Poor's A+, A, A-; Moody's A1, A2, A3; AM Best Debt a+, a, a-; Fitch A+, A, A-; Rating Grade4: Standard &amp; Poor's BBB+, BBB, BBB-; Moody's Baa1, Baa2, Baa3; AM Best Debt bbb+, bbb, bbb-; Fitch BBB+, BBB, BBB-; Rating Grade5: Standard &amp; Poor's BB+, BB, BB- ; Moody's Ba1, Ba2, Ba3; AM Best Debt bb+, bb, bb-; Fitch BB+, BB, BB-; Rating Grade6: Standard &amp; Poor's B+, B, B- ; Moody's B1, B2, B3; AM Best Debt b+, b, b-; Fitch B+, B, B-; Rating Grade7: Standard &amp; Poor's CCC or below; Moody's Caa or below; AM Best Debt b or below; Fitch CCC or Below; unrated.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRtng.02.03.data.xsd#DM735" xlink:label="loc_DM735"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM735" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Counterparty Grade After Collateral Dimension</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DM735" xlink:to="lbl_DM735"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM735" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This dimension categorises the long-term and short-term credit rating grades of the counterparty of collateral or guarantee as determined by various rating agencies. 
+Long-term ratings. 
+Rating Grade1: Standard &amp; Poor's AAA; Moody's Aaa; AM Best Debt aaa; AM Best FSR A++; Fitch AAA;
+Rating Grade2: Standard &amp; Poor's AA+, AA, AA-; Moody's Aa1, Aa2, Aa3; AM Best Debt aa+, aa, aa-; AM Best FSR A+; Fitch AA+, AA, AA-; 
+Rating Grade3: Standard &amp; Poor's A+, A, A-; Moody's A1, A2, A3; AM Best Debt a+, a, a-; AM Best FSR A, A-; Fitch A+, A, A-; 
+Rating Grade4: Standard &amp; Poor's BBB+, BBB, BBB-; Moody's Baa1, Baa2, Baa3; AM Best Debt bbb+, bbb, bbb-; AM Best FSR B++, B+; Fitch BBB+, BBB, BBB-; 
+Rating Grade5: Standard &amp; Poor's BB+, BB, BB- ; Moody's Ba1, Ba2, Ba3; AM Best Debt bb+, bb, bb-; AM Best FSR B, B-; Fitch BB+, BB, BB-; 
+Rating Grade6: Standard &amp; Poor's B+, B, B- ; Moody's B1, B2, B3; AM Best Debt b+, b, b-; AM Best FSR C++, C+, C, C-; Fitch B+, B, B-; 
+Rating Grade7: Standard &amp; Poor's Below B-; Moody's Below B3; AM Best Debt Below b-; AM Best FSR Below C-; Fitch CCC or Below; 
+Short-term ratings. 
+Rating Grade1: Standard &amp; Poor's A+, AM Best AMB-1+; Fitch F1+; 
+Rating Grade2: Standard &amp; Poor's A1; Moody's P1; AM Best AMB-1; Fitch F1; 
+Rating Grade3: Standard &amp; Poor's A2; Moody's P2; AM Best AMB-2; Fitch F2; 
+Rating Grade4: Standard &amp; Poor's A3; Moody's P3; AM Best AMB-3; Fitch F3; 
+Rating Grade6: Standard &amp; Poor's B; Moody's NP Vulnerable; AM Best AMB-4; Fitch B; 
+Rating Grade7: Standard &amp; Poor's C; Moody's NP Currently Vulnerable; Fitch C;</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRtng.02.03.data.xsd#DV3941" xlink:label="loc_DV3941"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3941" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Investment</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3941" xlink:to="lbl_DV3941"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3941" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the reported information has a credit rating of at least "investment grade" by an external credit assessment institution.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRtng.02.03.data.xsd#DV3942" xlink:label="loc_DV3942"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3942" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Rating Grade 5</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3942" xlink:to="lbl_DV3942"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3942" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the reported information has a rating grade of 5.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRtng.02.03.data.xsd#DV3943" xlink:label="loc_DV3943"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3943" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Rating Grade 4</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3943" xlink:to="lbl_DV3943"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3943" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the reported information has a rating grade of 4.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRtng.02.03.data.xsd#DV3944" xlink:label="loc_DV3944"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3944" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Rating Grade 2</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3944" xlink:to="lbl_DV3944"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3944" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the reported information has a rating grade of 2.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRtng.02.03.data.xsd#DV3945" xlink:label="loc_DV3945"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3945" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Rating Grade 1</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3945" xlink:to="lbl_DV3945"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3945" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the reported information has a rating grade of 1.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRtng.02.03.data.xsd#DV4794" xlink:label="loc_DV4794"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4794" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Rating Grade 1 or 2</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4794" xlink:to="lbl_DV4794"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4794" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the reported information has a rating grade of 1 or 2.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRtng.02.03.data.xsd#DV4795" xlink:label="loc_DV4795"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4795" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Rating Grade 3</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4795" xlink:to="lbl_DV4795"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4795" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the reported information has a rating grade of 3.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRtng.02.03.data.xsd#DV4796" xlink:label="loc_DV4796"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4796" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Rating Grade 4 or Unrated</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4796" xlink:to="lbl_DV4796"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4796" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the reported information has a rating grade of 4 or is unrated.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRtng.02.03.data.xsd#DV4797" xlink:label="loc_DV4797"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4797" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Unrated</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4797" xlink:to="lbl_DV4797"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4797" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the reported information is unrated.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRtng.02.03.data.xsd#DV4798" xlink:label="loc_DV4798"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4798" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Rating Grade 4 or 5</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4798" xlink:to="lbl_DV4798"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4798" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the reported information has a rating grade of 4 or 5.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRtng.02.03.data.xsd#DV5466" xlink:label="loc_DV5466"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5466" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Other</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5466" xlink:to="lbl_DV5466"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5466" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Detailed in GPS 114</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRtng.02.03.data.xsd#DV6131" xlink:label="loc_DV6131"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6131" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Rating Grade 6</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV6131" xlink:to="lbl_DV6131"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6131" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the reported information has a rating grade of 6.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRtng.02.03.data.xsd#DV6132" xlink:label="loc_DV6132"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6132" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Rating Grade 7</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV6132" xlink:to="lbl_DV6132"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6132" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the reported information has a rating grade of 7.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRtng.02.03.data.xsd#DV6133" xlink:label="loc_DV6133"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6133" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Grade Five Six Or Seven</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV6133" xlink:to="lbl_DV6133"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6133" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the reported information has a rating grade of 5, 6 or 7.</link:label>
+    </link:labelLink>
+</link:linkbase>

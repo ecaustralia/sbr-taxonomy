@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/osrwa/osrwacomn/osrwacomn.listoutstandingobligations.response.02.01/presRole" xlink:type="simple" xlink:href="osrwacomn.listoutstandingobligations.response.02.01.report.xsd#osrwacomn.listoutstandingobligations.response.02.01.presLink"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/osrwa/osrwacomn/osrwacomn.listoutstandingobligations.response.02.01/presRole">
+    <link:loc xlink:type="locator" xlink:href="osrwacomn.listoutstandingobligations.response.02.01.report.xsd#RA715" xlink:label="loc_RA715"/>
+    <link:loc xlink:type="locator" xlink:href="osrwacomn.private.02.01.module.xsd#RA722" xlink:label="ReportingPartyWACCCIPrimaryItemsAbstract" xlink:title="ReportingPartyWACCCIPrimaryItemsAbstract"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA715" xlink:to="ReportingPartyWACCCIPrimaryItemsAbstract" xlink:title="presentation: OSRWACOMNListOutstandingObligationsResponseAbstract to ReportingPartyWACCCIPrimaryItemsAbstract" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.data.xsd#DE763" xlink:label="Identifiers.StateRevenueOfficeClientNumber.Identifier"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ReportingPartyWACCCIPrimaryItemsAbstract" xlink:to="Identifiers.StateRevenueOfficeClientNumber.Identifier" xlink:title="presentation: ReportingPartyWACCCIPrimaryItemsAbstract to Identifiers.StateRevenueOfficeClientNumber.Identifier" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.data.xsd#DE765" xlink:label="Identifiers.PayrollTaxGroup.Identifier"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ReportingPartyWACCCIPrimaryItemsAbstract" xlink:to="Identifiers.PayrollTaxGroup.Identifier" xlink:title="presentation: ReportingPartyWACCCIPrimaryItemsAbstract to Identifiers.PayrollTaxGroup.Identifier" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/comnmdle/comnmdle.organisationname1.02.00.module.xsd#RT586" xlink:label="OrganisationNameDetails" xlink:title="OrganisationNameDetails"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ReportingPartyWACCCIPrimaryItemsAbstract" xlink:to="OrganisationNameDetails" xlink:title="presentation: ReportingPartyWACCCIPrimaryItemsAbstract to OrganisationNameDetails" use="optional" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE64" xlink:label="OrganisationNameDetails.OrganisationalNameType.Code" xlink:title="OrganisationNameDetails.OrganisationalNameType.Code"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OrganisationNameDetails" xlink:to="OrganisationNameDetails.OrganisationalNameType.Code" xlink:title="presentation: OrganisationNameDetails to OrganisationNameDetails.OrganisationalNameType.Code" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE55" xlink:label="OrganisationNameDetails.OrganisationalName.Text" xlink:title="OrganisationNameDetails.OrganisationalName.Text"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OrganisationNameDetails" xlink:to="OrganisationNameDetails.OrganisationalName.Text" xlink:title="presentation: OrganisationNameDetails to OrganisationNameDetails.OrganisationalName.Text" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="osrwacomn.listoutstandingobligations.response.02.01.report.xsd#RT716" xlink:label="loc_RT716"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ReportingPartyWACCCIPrimaryItemsAbstract" xlink:to="loc_RT716" xlink:title="presentation: ReportingPartyWACCCIPrimaryItemsAbstract to ObligationDetail" use="optional" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE219" xlink:label="loc_DE219"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT716" xlink:to="loc_DE219" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.02.data.xsd#DE833" xlink:label="loc_DE833"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT716" xlink:to="loc_DE833" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE815" xlink:label="loc_DE815"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT716" xlink:to="loc_DE815" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE816" xlink:label="loc_DE816"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT716" xlink:to="loc_DE816" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE915" xlink:label="loc_DE915"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT716" xlink:to="loc_DE915" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE162" xlink:label="loc_DE162"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT716" xlink:to="loc_DE162" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE882" xlink:label="loc_DE882"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT716" xlink:to="loc_DE882" order="8.0"/>
+    <link:loc xlink:type="locator" xlink:href="osrwacomn.listoutstandingobligations.response.02.01.report.xsd#RT717" xlink:label="loc_RT717"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT716" xlink:to="loc_RT717" order="9.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE1930" xlink:label="loc_DE1930"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT717" xlink:to="loc_DE1930" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd#DE791" xlink:label="loc_DE791"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT717" xlink:to="loc_DE791" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE706" xlink:label="loc_DE706"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT717" xlink:to="loc_DE706" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="osrwacomn.private.02.01.module.xsd#RA720" xlink:label="ReportingPartyWACCCIEmployerGroupStatusPrimaryItemsAbstract" xlink:title="ReportingPartyWACCCIEmployerGroupStatusPrimaryItemsAbstract"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA715" xlink:to="ReportingPartyWACCCIEmployerGroupStatusPrimaryItemsAbstract" xlink:title="presentation: OSRWACOMNListOutstandingObligationsResponseAbstract to ReportingPartyWACCCIEmployerGroupStatusPrimaryItemsAbstract" order="2.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ReportingPartyWACCCIEmployerGroupStatusPrimaryItemsAbstract" xlink:to="loc_DE1930" xlink:title="presentation: ReportingPartyWACCCIEmployerGroupStatusPrimaryItemsAbstract to BusinessDocument.GovernmentGeneratedIdentifier.Text" use="optional" order="1.0"/>
+  </link:presentationLink>
+</link:linkbase>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="rvctc4.02.06.data.xsd#rvctc4.02.06_rvctc4Abstract" xlink:label="loc_rvctc4.02.06_rvctc4Abstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_rvctc4Abstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Collection 4</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_rvctc4.02.06_rvctc4Abstract" xlink:to="lbl_rvctc4Abstract"/>
+        <link:loc xlink:type="locator" xlink:href="rvctc4.02.06.data.xsd#DE12796" xlink:label="loc_DE12796"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12796" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">International Dealings Conduit Foreign Income Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12796" xlink:to="lbl_DE12796"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12796" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">An indicator of Conduit Foreign Income balance and/or distribution of Conduit Foreign Income during the income year.
+
+Conduit foreign income is foreign income that is ultimately received by a non-resident through one or more interposed Australian corporate tax entities.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12796" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+
+TRUE = The entity had a Conduit Foreign Income balance and/or distributed amounts of Conduit Foreign Income during the income year.
+
+FALSE = The entity did not have a Conduit Foreign Income balance and/or distributed amounts of Conduit Foreign Income during the income year.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc4.02.06.data.xsd#DE12797" xlink:label="loc_DE12797"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12797" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">International Dealings Unfranked Non Portfolio Account Conduit Foreign Income Included Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12797" xlink:to="lbl_DE12797"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12797" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">An indicator of whether conduit foreign income has been included in the balance of unfranked non-portfolio dividend account at year end or not.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12797" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+
+TRUE = indicates that the balance of unfranked non-portfolio dividend account at year end includes an amount that has also been counted towards the company's conduit foreign income for that income year.
+
+FALSE = indicates that the balance of unfranked non-portfolio dividend account at year end does not include an amount that has also been counted towards the company's conduit foreign income for that income year.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc4.02.06.data.xsd#DE12719" xlink:label="loc_DE12719"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12719" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">International Dealings Unfranked Non Portfolio Dividend Account Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12719" xlink:to="lbl_DE12719"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12719" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The balance amount of the unfranked non-portfolio dividend account as at the last day of the period.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc4.02.06.data.xsd#DE12716" xlink:label="loc_DE12716"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12716" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">International Dealings Unfranked Non Portfolio Dividend Account Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12716" xlink:to="lbl_DE12716"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12716" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">An indicator of whether the entity has a unfranked non-portfolio dividend account or not.
+
+The unfranked non-portfolio dividend account is not a financial account for accounting purposes. It is an account the purpose of which is solely to track unfranked non-portfolio dividends received and on-paid by the company.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12716" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+
+TRUE = The entity had an unfranked non-portfolio dividend account.
+
+FALSE = The entity did not have an unfranked non-portfolio dividend account.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc4.02.06.data.xsd#DE12768" xlink:label="loc_DE12768"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12768" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">International Dealings Withholding Tax Exempt Non Resident Interest Paid Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12768" xlink:to="lbl_DE12768"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12768" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The balance amount of interest paid to non-residents that is exempt from withholding tax.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc4.02.06.data.xsd#DE12767" xlink:label="loc_DE12767"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12767" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">International Dealings Withholding Tax Exempt Non Resident Interest Paid Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12767" xlink:to="lbl_DE12767"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12767" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">An indicator of whether the entity paid amounts of interest exempt from withholding tax during the income period.
+Interest paid to foreign financial institutions is exempt from withholding tax because of Australia's double tax agreements (DTAs) with those countries.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12767" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+
+TRUE = The entity paid amounts of interest exempt from withholding tax during the income year.
+
+FALSE = The entity did not pay amounts of interest exempt from withholding tax during the income year.</link:label>
+    </link:labelLink>
+</link:linkbase>

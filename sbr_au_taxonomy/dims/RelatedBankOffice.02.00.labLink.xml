@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:RelatedBankOffice.02.00="http://sbr.gov.au/dims/RelatedBankOffice.02.00.dims" xmlns:dtyp.02.09="http://sbr.gov.au/fdtn/sbr.02.09.dtyp" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+	<link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+		<link:loc xlink:type="locator" xlink:label="RelatedBankOffice" xlink:title="RelatedBankOffice" xlink:href="RelatedBankOffice.02.00.data.xsd#DM267"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="label_RelatedBankOffice" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RelatedBankOffice">Related Bank Office</link:label>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="label_RelatedBankOffice_2" xlink:title="label_RelatedBankOffice_2" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition">This dimension is used to categorise reported information according to the related bank offices to which the data relates. The information reported represents the related bank office on an unconsolidated (stand-alone) basis.
+
+Related bank offices include a bank's branches, banking subsidiaries (e.g. deposit-taking companies in Hong Kong) and banking joint ventures. For the purposes of this form, consolidate branches by country of location. Do not consolidate separate legal entities (i.e. subsidiaries or banking joint ventures).</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RelatedBankOffice" xlink:to="label_RelatedBankOffice" xlink:title="label: RelatedBankOffice to label_RelatedBankOffice"/>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RelatedBankOffice" xlink:to="label_RelatedBankOffice_2" xlink:title="label: RelatedBankOffice to label_RelatedBankOffice_2"/>
+	</link:labelLink>
+</link:linkbase>

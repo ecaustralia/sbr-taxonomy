@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<!--
+		This file uses certain elements from the IFRS Taxonomy released by the IFRS Foundation on 2017-03-09.
+		For information on the IFRS Foundation's copyright and the terms and conditions of use for these files, please refer to http://go.ifrs.org/IFRSTterms.
+		The IFRS Foundation logo, the IASB logo, the IFRS for SMEs logo, the "Hexagon Device", "IFRS Foundation", "eIFRS", "IAS", "IASB", "IFRS for SMEs", "IASs", "IFRS", "IFRSs", "International Accounting Standards" and "International Financial Reporting Standards", "IFRIC", "SIC" and "IFRS Taxonomy" are Trade Marks of the IFRS Foundation.
+		For further information about where the Trade Marks are protected and/or are in use please contact the IFRS Foundation.
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://xbrl.ifrs.org/role/ifrs/ias_7_2017-03-09_role-510000" xlink:type="simple" xlink:href="../../../full_ifrs/linkbases/ias_7/rol_ias_7_2017-03-09.xsd#ias_7_2017-03-09_role-510000"/>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.ifrs.org/role/ifrs/ias_7_2017-03-09_role-510000">
+    <link:loc xlink:type="locator" xlink:href="../../../full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_CashFlowsFromUsedInOperations" xlink:label="loc_4"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2017-07-20.xsd#ifrs_au-full_PremiumReceived" xlink:label="PremiumReceived"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="PremiumReceived" order="121.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2017-07-20.xsd#ifrs_au-full_OutwardReinsurancePremiumPaid" xlink:label="OutwardReinsurancePremiumPaid"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="OutwardReinsurancePremiumPaid" order="122.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2017-07-20.xsd#ifrs_au-full_ClaimPaid" xlink:label="ClaimPaid"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="ClaimPaid" order="123.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2017-07-20.xsd#ifrs_au-full_ClaimHandlingCostPaid" xlink:label="ClaimHandlingCostPaid"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="ClaimHandlingCostPaid" order="124.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2017-07-20.xsd#ifrs_au-full_ReinsuranceAndOtherRecoveriesReceived" xlink:label="ReinsuranceAndOtherRecoveriesReceived"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="ReinsuranceAndOtherRecoveriesReceived" order="125.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2017-07-20.xsd#ifrs_au-full_AcquisitionCostsPaid" xlink:label="AcquisitionCostsPaid"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="AcquisitionCostsPaid" order="126.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2017-07-20.xsd#ifrs_au-full_UnderwritingExpensesPaid" xlink:label="UnderwritingExpensesPaid"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="UnderwritingExpensesPaid" order="127.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2017-07-20.xsd#ifrs_au-full_LifeInsurancePremiumReceipt" xlink:label="LifeInsurancePremiumReceipt"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="LifeInsurancePremiumReceipt" order="128.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2017-07-20.xsd#ifrs_au-full_PolicyClaims" xlink:label="PolicyClaims"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="PolicyClaims" order="129.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2017-07-20.xsd#ifrs_au-full_LifeInvestmentContractContributionReceipts" xlink:label="LifeInvestmentContractContributionReceipts"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="LifeInvestmentContractContributionReceipts" order="130.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2017-07-20.xsd#ifrs_au-full_LifeInvestmentContractWithdrawalPayments" xlink:label="LifeInvestmentContractWithdrawalPayments"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="LifeInvestmentContractWithdrawalPayments" order="131.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2017-07-20.xsd#ifrs_au-full_DepositComponentOfLifeInsurancePremiums" xlink:label="DepositComponentOfLifeInsurancePremiums"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="DepositComponentOfLifeInsurancePremiums" order="132.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2017-07-20.xsd#ifrs_au-full_WithdrawalComponentOfLifeInsuranceClaims" xlink:label="WithdrawalComponentOfLifeInsuranceClaims"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="WithdrawalComponentOfLifeInsuranceClaims" order="133.0" weight="-1"/>
+  </link:calculationLink>
+</link:linkbase>

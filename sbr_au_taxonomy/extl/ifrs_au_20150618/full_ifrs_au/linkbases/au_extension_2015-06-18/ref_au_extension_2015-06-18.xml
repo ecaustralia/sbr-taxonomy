@@ -1,0 +1,1380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<!--
+        Taxonomy: 2015-06-18 (Final release)
+        ********************** 
+        Copyright © 2011 International Financial Reporting Standards (IFRS) Foundation
+        All rights reserved.  No part of this publication may be translated, reprinted or reproduced 
+        or utilised in any form either in whole or in part without prior permission in writing from the IFRS Foundation.
+        For more information on the IFRS Foundation's copyright, please refer to http://www.ifrs.org/XBRL/Legal/
+        **********************
+    -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd http://www.xbrl.org/2009/role/reference ../../../../ifrs_20150311/resources/reference-2009-12-16.xsd http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:finrpt.0006.formula.req="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0006.formula.request.02.00.report" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:type="simple" xlink:href="../../../../ifrs_20150311/resources/reference-2009-12-16.xsd#commonPracticeRef"/>
+  <link:referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_Assets" xlink:label="loc_103"/>
+    <link:reference xlink:type="resource" xlink:label="res_71_1" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.01</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>b</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_103" xlink:to="res_71_1" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_Equity" xlink:label="Equity"/>
+    <link:reference xlink:type="resource" xlink:label="res_75_1" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.01</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>e</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Equity" xlink:to="res_75_1" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_ComprehensiveIncome" xlink:label="loc_110"/>
+    <link:reference xlink:type="resource" xlink:label="res_77_1" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.01</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>g</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_110" xlink:to="res_77_1" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_SharePremium" xlink:label="SharePremium"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SharePremium" xlink:to="res_75_1" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_RetainedEarnings" xlink:label="RetainedEarnings"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RetainedEarnings" xlink:to="res_75_1" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_OtherReserves" xlink:label="OtherReserves"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtherReserves" xlink:to="res_75_1" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_TreasuryShares" xlink:label="TreasuryShares"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TreasuryShares" xlink:to="res_75_1" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_OtherEquityInterest" xlink:label="OtherEquityInterest"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtherEquityInterest" xlink:to="res_75_1" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_IssuedCapital" xlink:label="loc_107"/>
+    <link:reference xlink:type="resource" xlink:label="res_69_2" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_LiabilitiesIncurred_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>3</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>RDRB65</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_107" xlink:to="res_69_2" priority="0"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_107" xlink:to="res_75_1" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_CurrentAssets" xlink:label="loc_106"/>
+    <link:reference xlink:type="resource" xlink:label="res_74_1" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.01</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>a</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_106" xlink:to="res_74_1" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_CurrentLiabilities" xlink:label="loc_104"/>
+    <link:reference xlink:type="resource" xlink:label="res_72_1" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.01</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>c</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_104" xlink:to="res_72_1" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_ProfitLoss" xlink:label="loc_109"/>
+    <link:reference xlink:type="resource" xlink:label="res_76_1" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.01</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>f</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_109" xlink:to="res_76_1" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_Liabilities" xlink:label="loc_105"/>
+    <link:reference xlink:type="resource" xlink:label="res_73_1" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.01</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>d</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_105" xlink:to="res_73_1" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_ExpenseFromSharebasedPaymentTransactionsWithEmployees" xlink:label="loc_100"/>
+    <link:reference xlink:type="resource" xlink:label="res_49_3" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_ExpenseFromShareBasedPaymentTransactionsWithEmployees_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>2</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>RDR50</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_100" xlink:to="res_49_3" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis" xlink:label="ConsolidatedAndSeparateFinancialStatementsAxis"/>
+    <link:reference xlink:type="resource" xlink:label="res_100_2" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_DisclosureOfConsolidatedAndSeparateFinancialStatementsTable_disclosureRef">
+      <ref:Name>ASIC CO 10/654</ref:Name>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ConsolidatedAndSeparateFinancialStatementsAxis" xlink:to="res_100_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_MethodUsedToAccountForInvestmentsInJointVentures" xlink:label="MethodUsedToAccountForInvestmentsInJointVentures"/>
+    <link:reference xlink:type="resource" xlink:label="res_49_2" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_MethodUsedToAccountForInvestmentsInSubsidiaries">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>127</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>RDR43</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MethodUsedToAccountForInvestmentsInJointVentures" xlink:to="res_49_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_MethodUsedToAccountForInvestmentsInSubsidiaries" xlink:label="MethodUsedToAccountForInvestmentsInSubsidiaries"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MethodUsedToAccountForInvestmentsInSubsidiaries" xlink:to="res_49_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_MethodUsedToAccountForInvestmentsInAssociates" xlink:label="MethodUsedToAccountForInvestmentsInAssociates"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MethodUsedToAccountForInvestmentsInAssociates" xlink:to="res_49_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_DisclosureOfInitialApplicationOfStandardsOrInterpretationsTable" xlink:label="loc_102"/>
+    <link:reference xlink:type="resource" xlink:label="res_70_1" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_DisclosureOfInitialApplicationOfStandardsOrInterpretationsTable_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>108</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>RDR28</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_102" xlink:to="res_70_1" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_LiabilitiesFromSharebasedPaymentTransactions2011" xlink:label="loc_101"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_101" xlink:to="res_49_3" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_IdentifiableAssetsAcquiredLiabilitiesAssumed" xlink:label="loc_21"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_21" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_FinancialAssetsRecognisedAsOfAcquisitionDate" xlink:label="FinancialAssetsRecognisedAsOfAcquisitionDate"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FinancialAssetsRecognisedAsOfAcquisitionDate" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_InventoryRecognisedAsOfAcquisitionDate" xlink:label="InventoryRecognisedAsOfAcquisitionDate"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InventoryRecognisedAsOfAcquisitionDate" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_PropertyPlantAndEquipmentRecognisedAsOfAcquisitionDate" xlink:label="PropertyPlantAndEquipmentRecognisedAsOfAcquisitionDate"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PropertyPlantAndEquipmentRecognisedAsOfAcquisitionDate" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_IdentifiableIntangibleAssetsRecognisedAsOfAcquisitionDate" xlink:label="loc_25"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_25" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_FinancialLiabilitiesRecognisedAsOfAcquisitionDate" xlink:label="FinancialLiabilitiesRecognisedAsOfAcquisitionDate"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FinancialLiabilitiesRecognisedAsOfAcquisitionDate" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_ContingentLiabilitiesRecognisedAsOfAcquisitionDate" xlink:label="ContingentLiabilitiesRecognisedAsOfAcquisitionDate"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ContingentLiabilitiesRecognisedAsOfAcquisitionDate" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_AcquisitiondateFairValueOfTotalConsiderationTransferred" xlink:label="loc_37"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_37" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_CashTransferred" xlink:label="loc_38"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_38" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_OtherTangibleOrIntangibleAssetsTransferred" xlink:label="loc_39"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_39" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_LiabilitiesIncurred" xlink:label="loc_40"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_40" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_EquityInterestsOfAcquirer" xlink:label="loc_41"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_41" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_ContingentConsiderationArrangementsAndIndemnificationAssetsRecognisedAsOfAcquisitionDate" xlink:label="loc_42"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_42" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_DescriptionOfArrangementForContingentConsiderationArrangementsAndIndemnificationAssets" xlink:label="loc_43"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_43" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_DescriptionOfEstimateOfRangeOfOutcomesFromContingentConsiderationArrangementsAndIndemnificationAssets" xlink:label="loc_44"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_44" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_ExplanationOfAmountOfAnyGainRecognisedAndLineItemInStatementOfComprehensiveIncomeInWhichGainIsRecognisedInBargainPurchase" xlink:label="loc_106_3"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_106_3" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_NoncontrollingInterestInAcquireeRecognisedAtAcquisitionDate" xlink:label="loc_52"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_52" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_AcquisitiondateFairValueOfEquityInterestInAcquireeHeldByAcquirerImmediatelyBeforeAcquisitionDate" xlink:label="loc_54"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_54" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_DescriptionOfLineItemInStatementOfComprehensiveIncomeInWhichGainOrLossAsResultOfRemeasuringToFairValueEquityInterestIsRecognised" xlink:label="loc_68"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_68" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_NumberOfInstrumentsOrInterestsIssuedOrIssuable" xlink:label="NumberOfInstrumentsOrInterestsIssuedOrIssuable"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NumberOfInstrumentsOrInterestsIssuedOrIssuable" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_MethodOfDeterminingFairValueOfInstrumentsOrInterests" xlink:label="loc_94"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_94" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_DescriptionOfBasisForDeterminingAmountOfPaymentForContingentConsiderationArrangementsAndIndemnificationAssets" xlink:label="DescriptionOfBasisForDeterminingAmountOfPaymentForContingentConsiderationArrangementsAndIndemnificationAssets"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DescriptionOfBasisForDeterminingAmountOfPaymentForContingentConsiderationArrangementsAndIndemnificationAssets" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_DescriptionOfExplanationOfFactAndReasonsWhyRangeOfOutcomesFromContingentConsiderationArrangementsAndIndemnificationAssetsCannotBeEstimated" xlink:label="DescriptionOfExplanationOfFactAndReasonsWhyRangeOfOutcomesFromContingentConsiderationArrangementsAndIndemnificationAssetsCannotBeEstimated"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DescriptionOfExplanationOfFactAndReasonsWhyRangeOfOutcomesFromContingentConsiderationArrangementsAndIndemnificationAssetsCannotBeEstimated" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_ExplanationOfFactThatMaximumAmountOfPaymentForContingentConsiderationArrangementsAndIndemnificationAssetsIsUnlimited" xlink:label="ExplanationOfFactThatMaximumAmountOfPaymentForContingentConsiderationArrangementsAndIndemnificationAssetsIsUnlimited"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExplanationOfFactThatMaximumAmountOfPaymentForContingentConsiderationArrangementsAndIndemnificationAssetsIsUnlimited" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_GainRecognisedInBargainPurchaseTransaction" xlink:label="loc_106_2"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_106_2" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_DescriptionOfMeasurementBasisForNoncontrollingInterestInAcquireeRecognisedAtAcquisitionDate" xlink:label="loc_107"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_GainLossRecognisedAsResultOfRemeasuringToFairValueEquityInterestInAcquireeHeldByAcquirerBeforeBusinessCombination" xlink:label="GainLossRecognisedAsResultOfRemeasuringToFairValueEquityInterestInAcquireeHeldByAcquirerBeforeBusinessCombination"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="GainLossRecognisedAsResultOfRemeasuringToFairValueEquityInterestInAcquireeHeldByAcquirerBeforeBusinessCombination" xlink:to="res_69_2" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_DescriptionOfDetailsOfDefaultsDuringPeriodOfPrincipalInterestSinkingFundOrRedemptionTermsOfLoansPayable" xlink:label="loc_30"/>
+    <link:reference xlink:type="resource" xlink:label="res_262" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_DescriptionOfDetailsOfDefaultsDuringPeriodOfPrincipalInterestSinkingFundOrRedemptionTermsOfLoansPayable_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>7</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>RDR18</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_30" xlink:to="res_262"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_DisclosureWhetherLoansPayableInDefaultRemediedOrTermsOfLoansPayableRenegotiatedBeforeAuthorisationForIssueOfFinancialStatements" xlink:label="loc_32"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_32" xlink:to="res_262"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_OutstandingClaimsLiability" xlink:label="OutstandingClaimsLiability"/>
+    <link:reference xlink:type="resource" xlink:label="res_208" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_DeferredAcquisitionCosts_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>101</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>60</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OutstandingClaimsLiability" xlink:to="res_208"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_UnearnedPremiumLiability" xlink:label="UnearnedPremiumLiability"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="UnearnedPremiumLiability" xlink:to="res_208"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_UnexpiredRiskLiability" xlink:label="UnexpiredRiskLiability"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="UnexpiredRiskLiability" xlink:to="res_208"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DeferredAcquisitionCosts" xlink:label="DeferredAcquisitionCosts"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DeferredAcquisitionCosts" xlink:to="res_208"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_LoansPayableInDefaultOrBreachUnderReducedDisclosureRequirements" xlink:label="LoansPayableInDefaultOrBreachUnderReducedDisclosureRequirements"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="LoansPayableInDefaultOrBreachUnderReducedDisclosureRequirements" xlink:to="res_262" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfConsolidatedAndSeparateFinancialStatementsTable" xlink:label="DisclosureOfConsolidatedAndSeparateFinancialStatementsTable"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfConsolidatedAndSeparateFinancialStatementsTable" xlink:to="res_100_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_CorporateDirectory" xlink:label="CorporateDirectory"/>
+    <link:reference xlink:type="resource" xlink:label="res_286" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" id="ifrs_au-full_CorporateDirectory_commonPracticeRef">
+      <ref:Name>Common Practice</ref:Name>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CorporateDirectory" xlink:to="res_286" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_FeesPaidByParentToEachAuditorOrReviewerIncludingAnyNetworkFirmForOtherServicesPerformedDuringTheReportingPeriod" xlink:label="FeesPaidByParentToEachAuditorOrReviewerIncludingAnyNetworkFirmForOtherServicesPerformedDuringTheReportingPeriod"/>
+    <link:reference xlink:type="resource" xlink:label="res_311" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_FeesPaidBySubsidiariesToEachAuditorOrReviewerIncludingAnyNetworkFirmForOtherServicesPerformedDuringTheReportingPeriod_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>1054</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>10</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FeesPaidByParentToEachAuditorOrReviewerIncludingAnyNetworkFirmForOtherServicesPerformedDuringTheReportingPeriod" xlink:to="res_311"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_FeesPaidBySubsidiariesToEachAuditorOrReviewerIncludingAnyNetworkFirmForOtherServicesPerformedDuringTheReportingPeriod" xlink:label="FeesPaidBySubsidiariesToEachAuditorOrReviewerIncludingAnyNetworkFirmForOtherServicesPerformedDuringTheReportingPeriod"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FeesPaidBySubsidiariesToEachAuditorOrReviewerIncludingAnyNetworkFirmForOtherServicesPerformedDuringTheReportingPeriod" xlink:to="res_311"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_GoodsAndServicesTaxTextBlock" xlink:label="GoodsAndServicesTaxTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_314" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" id="ifrs_au-full_GoodsAndServicesTaxTextBlock_commonPracticeRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>101</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>10</ref:Paragraph>
+      <ref:Clause>e</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="GoodsAndServicesTaxTextBlock" xlink:to="res_314"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_StatementOfEarlyAdoptionOfAASB92010" xlink:label="StatementOfEarlyAdoptionOfAASB92010"/>
+    <link:reference xlink:type="resource" xlink:label="res_300" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_StatementOfEarlyAdoptionOfAASB92010_disclosureRef">
+      <ref:Note>Expiry 2018-01-01</ref:Note>
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>9 (2010)</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>Aus1</ref:Paragraph>
+      <ref:Subparagraph>3</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="StatementOfEarlyAdoptionOfAASB92010" xlink:to="res_300"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfAnyOtherInformationRequiredToGiveTrueAndFairViewTextBlock" xlink:label="DisclosureOfAnyOtherInformationRequiredToGiveTrueAndFairViewTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_249" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s295</ref:Section>
+      <ref:Subsection>3</ref:Subsection>
+      <ref:Clause>c</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfAnyOtherInformationRequiredToGiveTrueAndFairViewTextBlock" xlink:to="res_249"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfDirectorsReportTextBlock" xlink:label="DisclosureOfDirectorsReportTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_13" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s298</ref:Section>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfDirectorsReportTextBlock" xlink:to="res_13" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DateOfDirectorsReport" xlink:label="DateOfDirectorsReport"/>
+    <link:reference xlink:type="resource" xlink:label="res_14" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s298</ref:Section>
+      <ref:Subsection>2</ref:Subsection>
+      <ref:Clause>b</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DateOfDirectorsReport" xlink:to="res_14" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_StatementOfDirectorsReportInAccordanceWithDirectorsResolutionTextBlock" xlink:label="StatementOfDirectorsReportInAccordanceWithDirectorsResolutionTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_15" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s298</ref:Section>
+      <ref:Subsection>2</ref:Subsection>
+      <ref:Clause>a</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="StatementOfDirectorsReportInAccordanceWithDirectorsResolutionTextBlock" xlink:to="res_15" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_NameOfEntityOfDirectorsReport" xlink:label="NameOfEntityOfDirectorsReport"/>
+    <link:reference xlink:type="resource" xlink:label="res_16" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>299</ref:Section>
+      <ref:Subsection>2</ref:Subsection>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NameOfEntityOfDirectorsReport" xlink:to="res_16" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfReviewAndResultsOfOperationsTextBlock" xlink:label="DisclosureOfReviewAndResultsOfOperationsTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_17" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s299</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>a</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfReviewAndResultsOfOperationsTextBlock" xlink:to="res_17" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfAdditionalGeneralInformationRequiredForListedEntitiesInRelationToOperationsFinancialPositionBusinessStrategiesAndProspectsForFutureFinancialYearsTextBlock" xlink:label="DisclosureOfAdditionalGeneralInformationRequiredForListedEntitiesInRelationToOperationsFinancialPositionBusinessStrategiesAndProspectsForFutureFinancialYearsTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_18" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>299A</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfAdditionalGeneralInformationRequiredForListedEntitiesInRelationToOperationsFinancialPositionBusinessStrategiesAndProspectsForFutureFinancialYearsTextBlock" xlink:to="res_18" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_StatementOfOmissionOfRequiredDisclosureInRelationToBusinessStrategiesAndProspectsForFutureFinancialYears" xlink:label="StatementOfOmissionOfRequiredDisclosureInRelationToBusinessStrategiesAndProspectsForFutureFinancialYears"/>
+    <link:reference xlink:type="resource" xlink:label="res_19" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>299A</ref:Section>
+      <ref:Subsection>3</ref:Subsection>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="StatementOfOmissionOfRequiredDisclosureInRelationToBusinessStrategiesAndProspectsForFutureFinancialYears" xlink:to="res_19" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_StatementOfOmissionOfRequiredDisclosureInRelationToDevelopmentInEntitysOperations" xlink:label="StatementOfOmissionOfRequiredDisclosureInRelationToDevelopmentInEntitysOperations"/>
+    <link:reference xlink:type="resource" xlink:label="res_20" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>299</ref:Section>
+      <ref:Subsection>3</ref:Subsection>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="StatementOfOmissionOfRequiredDisclosureInRelationToDevelopmentInEntitysOperations" xlink:to="res_20" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfSignificantChangesToEntitysStateAffairsDuringReportingPeriodTextBlock" xlink:label="DisclosureOfSignificantChangesToEntitysStateAffairsDuringReportingPeriodTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_21" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s299</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>b</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfSignificantChangesToEntitysStateAffairsDuringReportingPeriodTextBlock" xlink:to="res_21" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfPrincipalActivitiesAndSignificantChangesToPrincipalActivitiesDuringReportingPeriodTextBlock" xlink:label="DisclosureOfPrincipalActivitiesAndSignificantChangesToPrincipalActivitiesDuringReportingPeriodTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_22" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s299</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>c</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfPrincipalActivitiesAndSignificantChangesToPrincipalActivitiesDuringReportingPeriodTextBlock" xlink:to="res_22" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfSignificantMattersArisingAfterBalanceSheetDateTextBlock" xlink:label="DisclosureOfSignificantMattersArisingAfterBalanceSheetDateTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_23" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s299</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>d</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfSignificantMattersArisingAfterBalanceSheetDateTextBlock" xlink:to="res_23" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfLikelyDevelopmentsInOperationsTheirEffectOnFutureResultsTextBlock" xlink:label="DisclosureOfLikelyDevelopmentsInOperationsTheirEffectOnFutureResultsTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_24" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s299</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>e</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfLikelyDevelopmentsInOperationsTheirEffectOnFutureResultsTextBlock" xlink:to="res_24" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfPerformanceInRelationToEnvironmentalRegulationsTextBlock" xlink:label="DisclosureOfPerformanceInRelationToEnvironmentalRegulationsTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_25" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s299</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>f</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfPerformanceInRelationToEnvironmentalRegulationsTextBlock" xlink:to="res_25" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfDividendsOrDistributionsPaidRecommendedOrDeclaredTextBlock" xlink:label="DisclosureOfDividendsOrDistributionsPaidRecommendedOrDeclaredTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_26" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s300</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>a, b</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfDividendsOrDistributionsPaidRecommendedOrDeclaredTextBlock" xlink:to="res_26" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfEntitysDirectorsAndOfficersTextBlock" xlink:label="DisclosureOfEntitysDirectorsAndOfficersTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_27" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s300</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>c</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfEntitysDirectorsAndOfficersTextBlock" xlink:to="res_27" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfOptionsGrantedOverUnissuedSharesOrUnissuedInterestsTextBlock" xlink:label="DisclosureOfOptionsGrantedOverUnissuedSharesOrUnissuedInterestsTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_28" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s300</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>d</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfOptionsGrantedOverUnissuedSharesOrUnissuedInterestsTextBlock" xlink:to="res_28" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfUnissuedSharesOrInterestsUnderOptionTextBlock" xlink:label="DisclosureOfUnissuedSharesOrInterestsUnderOptionTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_29" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s300</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>e</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfUnissuedSharesOrInterestsUnderOptionTextBlock" xlink:to="res_29" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfIssuedSharesOnExerciseOptionsTextBlock" xlink:label="DisclosureOfIssuedSharesOnExerciseOptionsTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_30" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s300</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>f</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfIssuedSharesOnExerciseOptionsTextBlock" xlink:to="res_30" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfIndemnitiesAndInsurancePremiumsGivenByEntityForOfficersTextBlock" xlink:label="DisclosureOfIndemnitiesAndInsurancePremiumsGivenByEntityForOfficersTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_31" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s300</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>g</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfIndemnitiesAndInsurancePremiumsGivenByEntityForOfficersTextBlock" xlink:to="res_31" priority="0"/>
+    <link:reference xlink:type="resource" xlink:label="res_32" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s300</ref:Section>
+      <ref:Subsection>8</ref:Subsection>
+      <ref:Clause>a, b</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfIndemnitiesAndInsurancePremiumsGivenByEntityForOfficersTextBlock" xlink:to="res_32" priority="0"/>
+    <link:reference xlink:type="resource" xlink:label="res_33" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s300</ref:Section>
+      <ref:Subsection>9</ref:Subsection>
+      <ref:Clause>a, b, c, d, e, f</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfIndemnitiesAndInsurancePremiumsGivenByEntityForOfficersTextBlock" xlink:to="res_33" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfProceedingsBroughtWithLeaveUnderSection237TextBlock" xlink:label="DisclosureOfProceedingsBroughtWithLeaveUnderSection237TextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_34" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s300</ref:Section>
+      <ref:Subsection>14</ref:Subsection>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfProceedingsBroughtWithLeaveUnderSection237TextBlock" xlink:to="res_34" priority="0"/>
+    <link:reference xlink:type="resource" xlink:label="res_35" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s300</ref:Section>
+      <ref:Subsection>15</ref:Subsection>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfProceedingsBroughtWithLeaveUnderSection237TextBlock" xlink:to="res_35" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfDirectorsInterestsTextBlock" xlink:label="DisclosureOfDirectorsInterestsTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_36" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>300</ref:Section>
+      <ref:Subsection>11</ref:Subsection>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfDirectorsInterestsTextBlock" xlink:to="res_36" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfModificationsOfAuditorRotationRequirementsTextBlock" xlink:label="DisclosureOfModificationsOfAuditorRotationRequirementsTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_37" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>300</ref:Section>
+      <ref:Subsection>11A</ref:Subsection>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfModificationsOfAuditorRotationRequirementsTextBlock" xlink:to="res_37" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfNonauditServicesTextBlock" xlink:label="DisclosureOfNonauditServicesTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_38" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s300</ref:Section>
+      <ref:Subsection>11B</ref:Subsection>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfNonauditServicesTextBlock" xlink:to="res_38" priority="0"/>
+    <link:reference xlink:type="resource" xlink:label="res_39" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s300</ref:Section>
+      <ref:Subsection>11C</ref:Subsection>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfNonauditServicesTextBlock" xlink:to="res_39" priority="0"/>
+    <link:reference xlink:type="resource" xlink:label="res_40" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s300</ref:Section>
+      <ref:Subsection>11D</ref:Subsection>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfNonauditServicesTextBlock" xlink:to="res_40" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfSpecificInformationRequiredForPublicEntitiesThatAreNotWhollyownedSubsidiariesOfAnotherEntityTextBlock" xlink:label="DisclosureOfSpecificInformationRequiredForPublicEntitiesThatAreNotWhollyownedSubsidiariesOfAnotherEntityTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_41" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>300</ref:Section>
+      <ref:Subsection>10</ref:Subsection>
+      <ref:Clause>a, b, c, d</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfSpecificInformationRequiredForPublicEntitiesThatAreNotWhollyownedSubsidiariesOfAnotherEntityTextBlock" xlink:to="res_41" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfCompaniesLimitedByGuaranteeTextBlock" xlink:label="DisclosureOfCompaniesLimitedByGuaranteeTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_42" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s300B</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfCompaniesLimitedByGuaranteeTextBlock" xlink:to="res_42" priority="0"/>
+    <link:reference xlink:type="resource" xlink:label="res_43" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s300B</ref:Section>
+      <ref:Subsection>2</ref:Subsection>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfCompaniesLimitedByGuaranteeTextBlock" xlink:to="res_43" priority="0"/>
+    <link:reference xlink:type="resource" xlink:label="res_44" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s300B</ref:Section>
+      <ref:Subsection>3</ref:Subsection>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfCompaniesLimitedByGuaranteeTextBlock" xlink:to="res_44" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfDirectorsReasonsForIncludingAdditionalInformationRequiredToGiveTrueAndFairViewTextBlock" xlink:label="DisclosureOfDirectorsReasonsForIncludingAdditionalInformationRequiredToGiveTrueAndFairViewTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_45" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s298</ref:Section>
+      <ref:Subsection>1A</ref:Subsection>
+      <ref:Clause>a</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfDirectorsReasonsForIncludingAdditionalInformationRequiredToGiveTrueAndFairViewTextBlock" xlink:to="res_45" priority="0"/>
+    <link:reference xlink:type="resource" xlink:label="res_46" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s298</ref:Section>
+      <ref:Subsection>1A</ref:Subsection>
+      <ref:Clause>b</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfDirectorsReasonsForIncludingAdditionalInformationRequiredToGiveTrueAndFairViewTextBlock" xlink:to="res_46" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfRegisteredSchemesTextBlock" xlink:label="DisclosureOfRegisteredSchemesTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_47" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s300</ref:Section>
+      <ref:Subsection>12</ref:Subsection>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfRegisteredSchemesTextBlock" xlink:to="res_47" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_InformationAboutRoundingInFinancialReportAndDirectorsReport" xlink:label="InformationAboutRoundingInFinancialReportAndDirectorsReport"/>
+    <link:reference xlink:type="resource" xlink:label="res_48" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_InformationAboutRoundingInFinancialReportAndDirectorsReport_reference">
+      <ref:Name>ASIC CO98/100</ref:Name>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InformationAboutRoundingInFinancialReportAndDirectorsReport" xlink:to="res_48" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_StatementOfComplianceWithAuditReliefForProprietaryCompanies" xlink:label="StatementOfComplianceWithAuditReliefForProprietaryCompanies"/>
+    <link:reference xlink:type="resource" xlink:label="res_49" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_StatementOfComplianceWithAuditReliefForProprietaryCompanies_reference">
+      <ref:Name>ASIC CO98/1417</ref:Name>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="StatementOfComplianceWithAuditReliefForProprietaryCompanies" xlink:to="res_49" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfRemunerationReportTextBlock" xlink:label="DisclosureOfRemunerationReportTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_50" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s300A</ref:Section>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfRemunerationReportTextBlock" xlink:to="res_50" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfRemunerationPolicyTextBlock" xlink:label="DisclosureOfRemunerationPolicyTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_51" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>300A</ref:Section>
+      <ref:Subsection>1A</ref:Subsection>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfRemunerationPolicyTextBlock" xlink:to="res_51" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfEntitysPerformanceTextBlock" xlink:label="DisclosureOfEntitysPerformanceTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_52" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>300A</ref:Section>
+      <ref:Subsection>1AA, 1AB, 1B</ref:Subsection>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfEntitysPerformanceTextBlock" xlink:to="res_52" priority="0"/>
+    <link:reference xlink:type="resource" xlink:label="res_53" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>300A</ref:Section>
+      <ref:Paragraph>1</ref:Paragraph>
+      <ref:Subparagraph>(ba), (c)</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfEntitysPerformanceTextBlock" xlink:to="res_53" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfKeyManagementPersonnelTextBlock" xlink:label="DisclosureOfKeyManagementPersonnelTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_54" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.03</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>1, 2, 3, 4, 5</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfKeyManagementPersonnelTextBlock" xlink:to="res_54" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfCompensationOfKeyManagementPersonnelAndExecutivesTextBlock" xlink:label="DisclosureOfCompensationOfKeyManagementPersonnelAndExecutivesTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_55" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.03</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>6, 7, 8, 9, 11</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfCompensationOfKeyManagementPersonnelAndExecutivesTextBlock" xlink:to="res_55" priority="0"/>
+    <link:reference xlink:type="resource" xlink:label="res_56" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.03</ref:Section>
+      <ref:Subsection>2</ref:Subsection>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfCompensationOfKeyManagementPersonnelAndExecutivesTextBlock" xlink:to="res_56" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfPrinciplesOfCompensationTextBlock" xlink:label="DisclosureOfPrinciplesOfCompensationTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_57" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.03</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>10, 12, 13</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfPrinciplesOfCompensationTextBlock" xlink:to="res_57" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfModificationsOfTermsOfSharebasedPaymentTransactionsTextBlock" xlink:label="DisclosureOfModificationsOfTermsOfSharebasedPaymentTransactionsTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_58" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.03</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>14</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfModificationsOfTermsOfSharebasedPaymentTransactionsTextBlock" xlink:to="res_58" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfOptionsAndRightsProvidedAsCompensationTextBlock" xlink:label="DisclosureOfOptionsAndRightsProvidedAsCompensationTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_59" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.03</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>15</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfOptionsAndRightsProvidedAsCompensationTextBlock" xlink:to="res_59" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfEquityInstrumentsProvidedOnExerciseOfOptionsAndRightsGrantedAsCompensationTextBlock" xlink:label="DisclosureOfEquityInstrumentsProvidedOnExerciseOfOptionsAndRightsGrantedAsCompensationTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_60" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.03</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>16</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfEquityInstrumentsProvidedOnExerciseOfOptionsAndRightsGrantedAsCompensationTextBlock" xlink:to="res_60" priority="0"/>
+    <link:reference xlink:type="resource" xlink:label="res_61" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.03</ref:Section>
+      <ref:Subsection>3</ref:Subsection>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfEquityInstrumentsProvidedOnExerciseOfOptionsAndRightsGrantedAsCompensationTextBlock" xlink:to="res_61" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DateOfAuditorDeclaration" xlink:label="DateOfAuditorDeclaration"/>
+    <link:reference xlink:type="resource" xlink:label="res_62" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DateOfAuditorDeclaration_reference">
+      <ref:Name>ASA</ref:Name>
+      <ref:Number>700</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DateOfAuditorDeclaration" xlink:to="res_62" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfAuditorsIndependenceDeclarationTextBlock" xlink:label="DisclosureOfAuditorsIndependenceDeclarationTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_63" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s298</ref:Section>
+      <ref:Subsection>1AA</ref:Subsection>
+      <ref:Clause>c</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfAuditorsIndependenceDeclarationTextBlock" xlink:to="res_63" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DateOfDirectorsDeclaration" xlink:label="DateOfDirectorsDeclaration"/>
+    <link:reference xlink:type="resource" xlink:label="res_64" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s295</ref:Section>
+      <ref:Subsection>4</ref:Subsection>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DateOfDirectorsDeclaration" xlink:to="res_64" priority="0"/>
+    <link:reference xlink:type="resource" xlink:label="res_65" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s295A</ref:Section>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DateOfDirectorsDeclaration" xlink:to="res_65" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfDirectorsDeclarationTextBlock" xlink:label="DisclosureOfDirectorsDeclarationTextBlock"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfDirectorsDeclarationTextBlock" xlink:to="res_64" priority="0"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfDirectorsDeclarationTextBlock" xlink:to="res_65" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_StatementOfSolvencyForExtendedClosedGroupInRelationToDeedOfCrossGuarantee" xlink:label="StatementOfSolvencyForExtendedClosedGroupInRelationToDeedOfCrossGuarantee"/>
+    <link:reference xlink:type="resource" xlink:label="res_68" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_StatementOfSolvencyForExtendedClosedGroupInRelationToDeedOfCrossGuarantee_reference">
+      <ref:Name>ASIC CO98/1418</ref:Name>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="StatementOfSolvencyForExtendedClosedGroupInRelationToDeedOfCrossGuarantee" xlink:to="res_68" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfDeedOfCrossGuaranteeTextBlock" xlink:label="DisclosureOfDeedOfCrossGuaranteeTextBlock"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfDeedOfCrossGuaranteeTextBlock" xlink:to="res_68"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_TitleOfAuditorsReport" xlink:label="TitleOfAuditorsReport"/>
+    <link:reference xlink:type="resource" xlink:label="res_69" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_TitleOfAuditorsReport_reference">
+      <ref:Name>ASA</ref:Name>
+      <ref:Number>700</ref:Number>
+      <ref:Paragraph>21</ref:Paragraph>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TitleOfAuditorsReport" xlink:to="res_69" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfScopeOfAuditorsReportTextBlock" xlink:label="DisclosureOfScopeOfAuditorsReportTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_70" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfScopeOfAuditorsReportTextBlock_reference">
+      <ref:Name>ASA</ref:Name>
+      <ref:Number>700</ref:Number>
+      <ref:Paragraph>23</ref:Paragraph>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfScopeOfAuditorsReportTextBlock" xlink:to="res_70" priority="0"/>
+    <link:reference xlink:type="resource" xlink:label="res_308" xlink:role="http://www.xbrl.org/2003/role/reference" id="reference_DisclosureOfScopeOfAuditorsReportTextBlock">
+      <ref:Name>ASA</ref:Name>
+      <ref:Number>700</ref:Number>
+      <ref:Paragraph>24</ref:Paragraph>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfScopeOfAuditorsReportTextBlock" xlink:to="res_308"/>
+    <link:reference xlink:type="resource" xlink:label="res_309" xlink:role="http://www.xbrl.org/2003/role/reference" id="reference_DisclosureOfScopeOfAuditorsReportTextBlock_2">
+      <ref:Name>ASA</ref:Name>
+      <ref:Number>700</ref:Number>
+      <ref:Paragraph>28</ref:Paragraph>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfScopeOfAuditorsReportTextBlock" xlink:to="res_309"/>
+    <link:reference xlink:type="resource" xlink:label="res_310" xlink:role="http://www.xbrl.org/2003/role/reference" id="reference_DisclosureOfScopeOfAuditorsReportTextBlock_3">
+      <ref:Name>ASA</ref:Name>
+      <ref:Number>700</ref:Number>
+      <ref:Paragraph>29</ref:Paragraph>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfScopeOfAuditorsReportTextBlock" xlink:to="res_310"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfIndependenceInAuditorsReportTextBlock" xlink:label="DisclosureOfIndependenceInAuditorsReportTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_71" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s307C</ref:Section>
+      <ref:Subsection>5A</ref:Subsection>
+      <ref:Paragraph>d</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfIndependenceInAuditorsReportTextBlock" xlink:to="res_71" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfAuditOpinionTextBlock" xlink:label="DisclosureOfAuditOpinionTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_72" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfAuditOpinionTextBlock_reference">
+      <ref:Name>ASA</ref:Name>
+      <ref:Number>700</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>34</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfAuditOpinionTextBlock" xlink:to="res_72" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfModifiedAuditOpinionTextBlock" xlink:label="DisclosureOfModifiedAuditOpinionTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_73" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfModifiedAuditOpinionTextBlock_reference">
+      <ref:Name>ASA</ref:Name>
+      <ref:Number>705</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>34</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfModifiedAuditOpinionTextBlock" xlink:to="res_73" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfEmphasisOfMatterTextBlock" xlink:label="DisclosureOfEmphasisOfMatterTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_74" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfEmphasisOfMatterTextBlock_reference">
+      <ref:Name>ASA</ref:Name>
+      <ref:Number>706</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfEmphasisOfMatterTextBlock" xlink:to="res_74" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfAuditorsDetailsTextBlock" xlink:label="DisclosureOfAuditorsDetailsTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_75" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfAuditorsDetailsTextBlock_reference">
+      <ref:Name>ASA</ref:Name>
+      <ref:Number>700</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>Aus40</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfAuditorsDetailsTextBlock" xlink:to="res_75" priority="0"/>
+    <link:reference xlink:type="resource" xlink:label="res_76" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfAuditorsDetailsTextBlock_reference_2">
+      <ref:Name>ASA</ref:Name>
+      <ref:Number>700</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>41</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfAuditorsDetailsTextBlock" xlink:to="res_76"/>
+    <link:reference xlink:type="resource" xlink:label="res_77" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_DisclosureOfAuditorsDetailsTextBlock_disclosureRef">
+      <ref:Name>ASA</ref:Name>
+      <ref:Number>700</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>42</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfAuditorsDetailsTextBlock" xlink:to="res_77"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfConclusionInAuditReviewReportTextBlock" xlink:label="DisclosureOfConclusionInAuditReviewReportTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_78" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfConclusionInAuditReviewReportTextBlock_reference">
+      <ref:Name>ASRE</ref:Name>
+      <ref:Number>2405</ref:Number>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfConclusionInAuditReviewReportTextBlock" xlink:to="res_78" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfModifiedConclusionInAuditReviewReportTextBlock" xlink:label="DisclosureOfModifiedConclusionInAuditReviewReportTextBlock"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfModifiedConclusionInAuditReviewReportTextBlock" xlink:to="res_78" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfCorporateGovernanceStatementTextBlock" xlink:label="DisclosureOfCorporateGovernanceStatementTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_80" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfCorporateGovernanceStatementTextBlock_reference">
+      <ref:Name>ASX</ref:Name>
+      <ref:Number>4</ref:Number>
+      <ref:Paragraph>10</ref:Paragraph>
+      <ref:Subparagraph>3</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfCorporateGovernanceStatementTextBlock" xlink:to="res_80" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfPrincipleInRelationToLaySolidFoundationsForManagementAndOversightTextBlock" xlink:label="DisclosureOfPrincipleInRelationToLaySolidFoundationsForManagementAndOversightTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_81" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfPrincipleInRelationToLaySolidFoundationsForManagementAndOversightTextBlock_reference">
+      <ref:Name>ASX CGC Principle</ref:Name>
+      <ref:Number>1</ref:Number>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfPrincipleInRelationToLaySolidFoundationsForManagementAndOversightTextBlock" xlink:to="res_81" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfPrincipleInRelationToStructureOfBoardToAddValueTextBlock" xlink:label="DisclosureOfPrincipleInRelationToStructureOfBoardToAddValueTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_82" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfPrincipleInRelationToStructureOfBoardToAddValueTextBlock_reference">
+      <ref:Name>ASX CGC Principle</ref:Name>
+      <ref:Number>2</ref:Number>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfPrincipleInRelationToStructureOfBoardToAddValueTextBlock" xlink:to="res_82" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfPrincipleInRelationToPromotionOfEthicalAndResponsibleDecisionMakingTextBlock" xlink:label="DisclosureOfPrincipleInRelationToPromotionOfEthicalAndResponsibleDecisionMakingTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_83" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfPrincipleInRelationToPromotionOfEthicalAndResponsibleDecisionMakingTextBlock_reference">
+      <ref:Name>ASX CGC Principle</ref:Name>
+      <ref:Number>3</ref:Number>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfPrincipleInRelationToPromotionOfEthicalAndResponsibleDecisionMakingTextBlock" xlink:to="res_83" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfPrincipleInRelationToSafeguardingIntegrityInFinancialReportingTextBlock" xlink:label="DisclosureOfPrincipleInRelationToSafeguardingIntegrityInFinancialReportingTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_84" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfPrincipleInRelationToSafeguardingIntegrityInFinancialReportingTextBlock_reference">
+      <ref:Name>ASX CGC Principle</ref:Name>
+      <ref:Number>4</ref:Number>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfPrincipleInRelationToSafeguardingIntegrityInFinancialReportingTextBlock" xlink:to="res_84" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfPrincipleInRelationToMakingTimelyAndBalancedDisclosureTextBlock" xlink:label="DisclosureOfPrincipleInRelationToMakingTimelyAndBalancedDisclosureTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_85" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfPrincipleInRelationToMakingTimelyAndBalancedDisclosureTextBlock_reference">
+      <ref:Name>ASX CGC Principle</ref:Name>
+      <ref:Number>5</ref:Number>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfPrincipleInRelationToMakingTimelyAndBalancedDisclosureTextBlock" xlink:to="res_85" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfPrincipleInRelationToRespectingRightsOfShareholdersTextBlock" xlink:label="DisclosureOfPrincipleInRelationToRespectingRightsOfShareholdersTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_86" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfPrincipleInRelationToRespectingRightsOfShareholdersTextBlock_reference">
+      <ref:Name>ASX CGC Principle</ref:Name>
+      <ref:Number>6</ref:Number>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfPrincipleInRelationToRespectingRightsOfShareholdersTextBlock" xlink:to="res_86" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfPrincipleInRelationToRecognisingAndManagingRiskTextBlock" xlink:label="DisclosureOfPrincipleInRelationToRecognisingAndManagingRiskTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_87" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfPrincipleInRelationToRecognisingAndManagingRiskTextBlock_reference">
+      <ref:Name>ASX CGC Principle</ref:Name>
+      <ref:Number>7</ref:Number>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfPrincipleInRelationToRecognisingAndManagingRiskTextBlock" xlink:to="res_87" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfPrincipleInRelationToRemuneratingFairlyAndResponsiblyTextBlock" xlink:label="DisclosureOfPrincipleInRelationToRemuneratingFairlyAndResponsiblyTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_88" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfPrincipleInRelationToRemuneratingFairlyAndResponsiblyTextBlock_reference">
+      <ref:Name>ASX CGC Principle</ref:Name>
+      <ref:Number>8</ref:Number>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfPrincipleInRelationToRemuneratingFairlyAndResponsiblyTextBlock" xlink:to="res_88" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfExtentOfFollowingBestPracticeRecommendationsTextBlock" xlink:label="DisclosureOfExtentOfFollowingBestPracticeRecommendationsTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_89" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfExtentOfFollowingBestPracticeRecommendationsTextBlock_reference">
+      <ref:Name>ASX</ref:Name>
+      <ref:Number>4</ref:Number>
+      <ref:IssueDate>2008-03-31</ref:IssueDate>
+      <ref:Paragraph>10</ref:Paragraph>
+      <ref:Subparagraph>3</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfExtentOfFollowingBestPracticeRecommendationsTextBlock" xlink:to="res_89" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfAdministrationInformationTextBlock" xlink:label="DisclosureOfAdministrationInformationTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_90" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfAdministrationInformationTextBlock_reference">
+      <ref:Name>ASX</ref:Name>
+      <ref:Number>4</ref:Number>
+      <ref:Paragraph>10</ref:Paragraph>
+      <ref:Subparagraph>10, 11, 12, 13</ref:Subparagraph>
+      <ref:IssueDate>2008-03-31</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfAdministrationInformationTextBlock" xlink:to="res_90" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfReviewOfOperationsAndActivitiesDuringReportingPeriodTextBlock" xlink:label="DisclosureOfReviewOfOperationsAndActivitiesDuringReportingPeriodTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_91" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfReviewOfOperationsAndActivitiesDuringReportingPeriodTextBlock_reference">
+      <ref:Name>ASX</ref:Name>
+      <ref:Number>4</ref:Number>
+      <ref:IssueDate>2008-03-31</ref:IssueDate>
+      <ref:Paragraph>10</ref:Paragraph>
+      <ref:Subparagraph>17</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfReviewOfOperationsAndActivitiesDuringReportingPeriodTextBlock" xlink:to="res_91" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfHoldersOfEquitySecuritiesTextBlock" xlink:label="DisclosureOfHoldersOfEquitySecuritiesTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_92" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfHoldersOfEquitySecuritiesTextBlock_reference">
+      <ref:Name>ASX</ref:Name>
+      <ref:Number>4</ref:Number>
+      <ref:IssueDate>2008-03-31</ref:IssueDate>
+      <ref:Paragraph>10</ref:Paragraph>
+      <ref:Subparagraph>4, 5, 6, 7, 8, 9, 16</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfHoldersOfEquitySecuritiesTextBlock" xlink:to="res_92" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfRestrictedSecuritiesTextBlock" xlink:label="DisclosureOfRestrictedSecuritiesTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_93" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfRestrictedSecuritiesTextBlock_reference">
+      <ref:Name>ASX</ref:Name>
+      <ref:Number>4</ref:Number>
+      <ref:IssueDate>2008-03-31</ref:IssueDate>
+      <ref:Paragraph>10</ref:Paragraph>
+      <ref:Subparagraph>14</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfRestrictedSecuritiesTextBlock" xlink:to="res_93" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfMiningTenementsTextBlock" xlink:label="DisclosureOfMiningTenementsTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_94" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfMiningTenementsTextBlock_reference">
+      <ref:Name>ASX</ref:Name>
+      <ref:Number>4</ref:Number>
+      <ref:IssueDate>2008-03-31</ref:IssueDate>
+      <ref:Paragraph>10</ref:Paragraph>
+      <ref:Subparagraph>15</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfMiningTenementsTextBlock" xlink:to="res_94" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfCurrentOnMarketBuyBackTextBlock" xlink:label="DisclosureOfCurrentOnMarketBuyBackTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_95" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfCurrentOnMarketBuyBackTextBlock_reference">
+      <ref:Name>ASX</ref:Name>
+      <ref:Number>4</ref:Number>
+      <ref:IssueDate>2008-03-31</ref:IssueDate>
+      <ref:Paragraph>10</ref:Paragraph>
+      <ref:Subparagraph>18</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfCurrentOnMarketBuyBackTextBlock" xlink:to="res_95" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfUseOfCashAndLiquidAssetsSinceListingTextBlock" xlink:label="DisclosureOfUseOfCashAndLiquidAssetsSinceListingTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_96" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfUseOfCashAndLiquidAssetsSinceListingTextBlock_reference">
+      <ref:Name>ASX</ref:Name>
+      <ref:Number>4</ref:Number>
+      <ref:IssueDate>2008-03-31</ref:IssueDate>
+      <ref:Paragraph>10</ref:Paragraph>
+      <ref:Subparagraph>19</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfUseOfCashAndLiquidAssetsSinceListingTextBlock" xlink:to="res_96" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfInformationInRelationToInvestmentEntitiesTextBlock" xlink:label="DisclosureOfInformationInRelationToInvestmentEntitiesTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_97" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfInformationInRelationToInvestmentEntitiesTextBlock_reference">
+      <ref:Name>ASX</ref:Name>
+      <ref:Number>4</ref:Number>
+      <ref:IssueDate>2008-03-31</ref:IssueDate>
+      <ref:Paragraph>10</ref:Paragraph>
+      <ref:Subparagraph>20</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfInformationInRelationToInvestmentEntitiesTextBlock" xlink:to="res_97" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfInformationInRelationToTakeoverActivityTextBlock" xlink:label="DisclosureOfInformationInRelationToTakeoverActivityTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_98" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfInformationInRelationToTakeoverActivityTextBlock_reference">
+      <ref:Name>ASX</ref:Name>
+      <ref:Number>4</ref:Number>
+      <ref:IssueDate>2008-03-31</ref:IssueDate>
+      <ref:Paragraph>10</ref:Paragraph>
+      <ref:Subparagraph>21</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfInformationInRelationToTakeoverActivityTextBlock" xlink:to="res_98" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfCorrectionOfErrorRevisionOfEstimatesAndVariationFromPreliminaryReportTextBlock" xlink:label="DisclosureOfCorrectionOfErrorRevisionOfEstimatesAndVariationFromPreliminaryReportTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_99" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfCorrectionOfErrorRevisionOfEstimatesAndVariationFromPreliminaryReportTextBlock_reference">
+      <ref:Name>ASX</ref:Name>
+      <ref:Number>4</ref:Number>
+      <ref:IssueDate>2007-07-11</ref:IssueDate>
+      <ref:Paragraph>3D</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfCorrectionOfErrorRevisionOfEstimatesAndVariationFromPreliminaryReportTextBlock" xlink:to="res_99" priority="0"/>
+    <link:reference xlink:type="resource" xlink:label="res_100" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfCorrectionOfErrorRevisionOfEstimatesAndVariationFromPreliminaryReportTextBlock_reference_2">
+      <ref:Name>ASX</ref:Name>
+      <ref:Number>4</ref:Number>
+      <ref:IssueDate>2007-07-11</ref:IssueDate>
+      <ref:Paragraph>5A</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfCorrectionOfErrorRevisionOfEstimatesAndVariationFromPreliminaryReportTextBlock" xlink:to="res_100" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfParentEntityInformationTextBlock" xlink:label="DisclosureOfParentEntityInformationTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_101" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.1</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfParentEntityInformationTextBlock" xlink:to="res_101"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfDetailsOfAnyGuaranteesEnteredIntoByParentEntityInRelationToDebtsOfItsSubsidiariesTextBlock" xlink:label="DisclosureOfDetailsOfAnyGuaranteesEnteredIntoByParentEntityInRelationToDebtsOfItsSubsidiariesTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_102" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.1</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>h</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfDetailsOfAnyGuaranteesEnteredIntoByParentEntityInRelationToDebtsOfItsSubsidiariesTextBlock" xlink:to="res_102"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfContingentLiabilitiesOfParentEntityTextBlock" xlink:label="DisclosureOfContingentLiabilitiesOfParentEntityTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_103" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.1</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>i</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfContingentLiabilitiesOfParentEntityTextBlock" xlink:to="res_103"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfContractualCommitmentsByParentEntityForAcquisitionOfPropertyPlantAndEquipmentTextBlock" xlink:label="DisclosureOfContractualCommitmentsByParentEntityForAcquisitionOfPropertyPlantAndEquipmentTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_104" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.1</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>j</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfContractualCommitmentsByParentEntityForAcquisitionOfPropertyPlantAndEquipmentTextBlock" xlink:to="res_104"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_NameOfSigningDirector" xlink:label="NameOfSigningDirector"/>
+    <link:reference xlink:type="resource" xlink:label="res_105" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>Corporations Act</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>s298</ref:Section>
+      <ref:Subsection>2</ref:Subsection>
+      <ref:Clause>c</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NameOfSigningDirector" xlink:to="res_105"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_StatementOnWhetherAnEntityIsForProfitOrNotForProfitEntity" xlink:label="StatementOnWhetherAnEntityIsForProfitOrNotForProfitEntity"/>
+    <link:reference xlink:type="resource" xlink:label="res_106" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_StatementOnWhetherAnEntityIsForProfitOrNotForProfitEntity_reference">
+      <ref:Name>AASB</ref:Name>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Section>1054</ref:Section>
+      <ref:Subsection>8</ref:Subsection>
+      <ref:Clause>b</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="StatementOnWhetherAnEntityIsForProfitOrNotForProfitEntity" xlink:to="res_106"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DescriptionByParentPreparingSeparateFinancialStatementsApplyingReducedDisclosureRequirementsOfMethodsUsedToAccountForInvestmentsInSubsidiariesJointlyControlledEntitiesAndAssociatesTextBlock" xlink:label="DescriptionByParentPreparingSeparateFinancialStatementsApplyingReducedDisclosureRequirementsOfMethodsUsedToAccountForInvestmentsInSubsidiariesJointlyControlledEntitiesAndAssociatesTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_107" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DescriptionByParentPreparingSeparateFinancialStatementsApplyingReducedDisclosureRequirementsOfMethodsUsedToAccountForInvestmentsInSubsidiariesJointlyControlledEntitiesAndAssociatesTextBlock_reference">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>127</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>RDR43</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DescriptionByParentPreparingSeparateFinancialStatementsApplyingReducedDisclosureRequirementsOfMethodsUsedToAccountForInvestmentsInSubsidiariesJointlyControlledEntitiesAndAssociatesTextBlock" xlink:to="res_107"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DescriptionByParentOrInvestorWithJointControlPreparingSeparateFinancialStatementsApplyingReducedDisclosureRequirementsOfMethodsUsedToAccountForInvestmentWhenInvestmentIsSignificantTextBlock" xlink:label="DescriptionByParentOrInvestorWithJointControlPreparingSeparateFinancialStatementsApplyingReducedDisclosureRequirementsOfMethodsUsedToAccountForInvestmentWhenInvestmentIsSignificantTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_108" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DescriptionByParentOrInvestorWithJointControlPreparingSeparateFinancialStatementsApplyingReducedDisclosureRequirementsOfMethodsUsedToAccountForInvestmentWhenInvestmentIsSignificantTextBlock_reference">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>127</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>RDR17</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DescriptionByParentOrInvestorWithJointControlPreparingSeparateFinancialStatementsApplyingReducedDisclosureRequirementsOfMethodsUsedToAccountForInvestmentWhenInvestmentIsSignificantTextBlock" xlink:to="res_108"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DescriptionOfAccountingPoliciesAdoptedInMeasuringInventoriesHeldForDistributionIncludingCostFormulaUsedTextBlock" xlink:label="DescriptionOfAccountingPoliciesAdoptedInMeasuringInventoriesHeldForDistributionIncludingCostFormulaUsedTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_109" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DescriptionOfAccountingPoliciesAdoptedInMeasuringInventoriesHeldForDistributionIncludingCostFormulaUsedTextBlock_reference">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>102</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>Aus36</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+      <ref:Clause>a</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DescriptionOfAccountingPoliciesAdoptedInMeasuringInventoriesHeldForDistributionIncludingCostFormulaUsedTextBlock" xlink:to="res_109"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfTotalCarryingAmountOfInventoriesHeldForDistributionAndCarryingAmountInClassificationsAppropriateToEntity" xlink:label="DisclosureOfTotalCarryingAmountOfInventoriesHeldForDistributionAndCarryingAmountInClassificationsAppropriateToEntity"/>
+    <link:reference xlink:type="resource" xlink:label="res_110" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DisclosureOfTotalCarryingAmountOfInventoriesHeldForDistributionAndCarryingAmountInClassificationsAppropriateToEntity_reference">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>102</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>Aus36</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+      <ref:Clause>b</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfTotalCarryingAmountOfInventoriesHeldForDistributionAndCarryingAmountInClassificationsAppropriateToEntity" xlink:to="res_110"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_InventoriesHeldForDistributionRecognisedAsExpenseDuringPeriod" xlink:label="InventoriesHeldForDistributionRecognisedAsExpenseDuringPeriod"/>
+    <link:reference xlink:type="resource" xlink:label="res_111" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_InventoriesHeldForDistributionRecognisedAsExpenseDuringPeriod_reference">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>102</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>Aus36</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+      <ref:Clause>c</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InventoriesHeldForDistributionRecognisedAsExpenseDuringPeriod" xlink:to="res_111"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_WritedownOfInventoriesHeldForDistributionRecognisedAsExpenseDuringPeriod" xlink:label="WritedownOfInventoriesHeldForDistributionRecognisedAsExpenseDuringPeriod"/>
+    <link:reference xlink:type="resource" xlink:label="res_112" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_WritedownOfInventoriesHeldForDistributionRecognisedAsExpenseDuringPeriod_reference">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>102</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>Aus36</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+      <ref:Clause>d</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="WritedownOfInventoriesHeldForDistributionRecognisedAsExpenseDuringPeriod" xlink:to="res_112"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_ReversalOfAnyWritedownThatIsRecognisedAsReductionInAmountOfInventoriesHeldForDistributionRecognisedAsExpenseInPeriod" xlink:label="ReversalOfAnyWritedownThatIsRecognisedAsReductionInAmountOfInventoriesHeldForDistributionRecognisedAsExpenseInPeriod"/>
+    <link:reference xlink:type="resource" xlink:label="res_113" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_ReversalOfAnyWritedownThatIsRecognisedAsReductionInAmountOfInventoriesHeldForDistributionRecognisedAsExpenseInPeriod_reference">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>102</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>Aus36</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+      <ref:Clause>e</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ReversalOfAnyWritedownThatIsRecognisedAsReductionInAmountOfInventoriesHeldForDistributionRecognisedAsExpenseInPeriod" xlink:to="res_113"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DescriptionOfCircumstancesOrEventsThatLedToReversalOfWritedownOfInventoriesHeldForDistributionTextBlock" xlink:label="DescriptionOfCircumstancesOrEventsThatLedToReversalOfWritedownOfInventoriesHeldForDistributionTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_114" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DescriptionOfCircumstancesOrEventsThatLedToReversalOfWritedownOfInventoriesHeldForDistributionTextBlock_reference">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>102</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>Aus36</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+      <ref:Clause>f</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DescriptionOfCircumstancesOrEventsThatLedToReversalOfWritedownOfInventoriesHeldForDistributionTextBlock" xlink:to="res_114"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_InventoriesHeldForDistributionPledgedAsSecurityForLiabilities" xlink:label="InventoriesHeldForDistributionPledgedAsSecurityForLiabilities"/>
+    <link:reference xlink:type="resource" xlink:label="res_115" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_InventoriesHeldForDistributionPledgedAsSecurityForLiabilities_reference">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>102</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>Aus36</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+      <ref:Clause>g</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InventoriesHeldForDistributionPledgedAsSecurityForLiabilities" xlink:to="res_115"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DescriptionOfBasisOnWhichAnyLossOfServicePotentialOfInventoriesHeldForDistributionIsAssessedOrBasesWhenMoreThanOneBasisIsUsedTextBlock" xlink:label="DescriptionOfBasisOnWhichAnyLossOfServicePotentialOfInventoriesHeldForDistributionIsAssessedOrBasesWhenMoreThanOneBasisIsUsedTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_116" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DescriptionOfBasisOnWhichAnyLossOfServicePotentialOfInventoriesHeldForDistributionIsAssessedOrBasesWhenMoreThanOneBasisIsUsedTextBlock_reference">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>102</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>Aus36</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+      <ref:Clause>h</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DescriptionOfBasisOnWhichAnyLossOfServicePotentialOfInventoriesHeldForDistributionIsAssessedOrBasesWhenMoreThanOneBasisIsUsedTextBlock" xlink:to="res_116"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_StatementOfComplianceWithAustralianAccountingStandardsAndOtherRelevantStatutoryAndOtherRequirementsIfApplicable" xlink:label="StatementOfComplianceWithAustralianAccountingStandardsAndOtherRelevantStatutoryAndOtherRequirementsIfApplicable"/>
+    <link:reference xlink:type="resource" xlink:label="res_117" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_StatementOfComplianceWithAustralianAccountingStandardsAndOtherRelevantStatutoryAndOtherRequirementsIfApplicable_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>1054</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>7</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="StatementOfComplianceWithAustralianAccountingStandardsAndOtherRelevantStatutoryAndOtherRequirementsIfApplicable" xlink:to="res_117"/>
+    <link:reference xlink:type="resource" xlink:label="res_118" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_StatementOfComplianceWithAustralianAccountingStandardsAndOtherRelevantStatutoryAndOtherRequirementsIfApplicable_disclosureRef_2">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>1054</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>8</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="StatementOfComplianceWithAustralianAccountingStandardsAndOtherRelevantStatutoryAndOtherRequirementsIfApplicable" xlink:to="res_118"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfDepartureFromRequirementsOfAustralianAccountingStandardsTextBlock" xlink:label="DisclosureOfDepartureFromRequirementsOfAustralianAccountingStandardsTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_119" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_DisclosureOfDepartureFromRequirementsOfAustralianAccountingStandardsTextBlock_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>101</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>20</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfDepartureFromRequirementsOfAustralianAccountingStandardsTextBlock" xlink:to="res_119"/>
+    <link:reference xlink:type="resource" xlink:label="res_120" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_DisclosureOfDepartureFromRequirementsOfAustralianAccountingStandardsTextBlock_disclosureRef_2">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>101</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>21</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfDepartureFromRequirementsOfAustralianAccountingStandardsTextBlock" xlink:to="res_120"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_StatementOfWhetherFinancialStatementsAreGeneralOrSpecialPurposeFinancialStatements" xlink:label="StatementOfWhetherFinancialStatementsAreGeneralOrSpecialPurposeFinancialStatements"/>
+    <link:reference xlink:type="resource" xlink:label="res_122" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_StatementOfWhetherFinancialStatementsAreGeneralOrSpecialPurposeFinancialStatements_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>1054</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>9</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="StatementOfWhetherFinancialStatementsAreGeneralOrSpecialPurposeFinancialStatements" xlink:to="res_122"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfRemunerationOfAuditorsAndReviewersIncludingOtherServicesTextBlock" xlink:label="DisclosureOfRemunerationOfAuditorsAndReviewersIncludingOtherServicesTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_123" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_DisclosureOfRemunerationOfAuditorsAndReviewersIncludingOtherServicesTextBlock_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>1054</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>10</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfRemunerationOfAuditorsAndReviewersIncludingOtherServicesTextBlock" xlink:to="res_123"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_FeesPaidByParentToEachAuditorOrReviewerIncludingAnyNetworkFirmForTheAuditOrReviewOfTheFinancialStatementsPerformedDuringTheReportingPeriod" xlink:label="FeesPaidByParentToEachAuditorOrReviewerIncludingAnyNetworkFirmForTheAuditOrReviewOfTheFinancialStatementsPerformedDuringTheReportingPeriod"/>
+    <link:reference xlink:type="resource" xlink:label="res_124" xlink:role="http://www.xbrl.org/2003/role/reference" id="ifrs_au-full_DeferredOutwardReinsuranceExpense_disclosureRef_2">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>1054</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>10</ref:Paragraph>
+      <ref:Subparagraph>a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FeesPaidByParentToEachAuditorOrReviewerIncludingAnyNetworkFirmForTheAuditOrReviewOfTheFinancialStatementsPerformedDuringTheReportingPeriod" xlink:to="res_124"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_FeesPaidBySubsidiariesToEachAuditorOrReviewerIncludingAnyNetworkFirmForTheAuditOrReviewOfTheFinancialStatementsPerformedDuringTheReportingPeriod" xlink:label="FeesPaidBySubsidiariesToEachAuditorOrReviewerIncludingAnyNetworkFirmForTheAuditOrReviewOfTheFinancialStatementsPerformedDuringTheReportingPeriod"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FeesPaidBySubsidiariesToEachAuditorOrReviewerIncludingAnyNetworkFirmForTheAuditOrReviewOfTheFinancialStatementsPerformedDuringTheReportingPeriod" xlink:to="res_124"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfTheNatureOfOtherNonAuditAndNonReviewServicesTextBlock" xlink:label="DisclosureOfTheNatureOfOtherNonAuditAndNonReviewServicesTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_125" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_DisclosureOfTheNatureOfOtherNonAuditAndNonReviewServicesTextBlock_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>1054</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>11</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfTheNatureOfOtherNonAuditAndNonReviewServicesTextBlock" xlink:to="res_125"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfFrankingCreditsTextBlock" xlink:label="DisclosureOfFrankingCreditsTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_126" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_DisclosureOfFrankingCreditsTextBlock_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>1054</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>12</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfFrankingCreditsTextBlock" xlink:to="res_126"/>
+    <link:reference xlink:type="resource" xlink:label="res_127" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_DisclosureOfFrankingCreditsTextBlock_disclosureRef_2">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>1054</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>13</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfFrankingCreditsTextBlock" xlink:to="res_127"/>
+    <link:reference xlink:type="resource" xlink:label="res_128" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_DisclosureOfFrankingCreditsTextBlock_disclosureRef_3">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>1054</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>14</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfFrankingCreditsTextBlock" xlink:to="res_128"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfAdditionalInformationAboutFrankingCreditsForEachClassTextBlock" xlink:label="DisclosureOfAdditionalInformationAboutFrankingCreditsForEachClassTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_129" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_DisclosureOfAdditionalInformationAboutFrankingCreditsForEachClassTextBlock_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>1054</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>15</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfAdditionalInformationAboutFrankingCreditsForEachClassTextBlock" xlink:to="res_129"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfReconciliationOfProfitToNetCashInflowFromOperatingActivitiesTextBlock" xlink:label="DisclosureOfReconciliationOfProfitToNetCashInflowFromOperatingActivitiesTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_130" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_DisclosureOfReconciliationOfProfitToNetCashInflowFromOperatingActivitiesTextBlock_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>1054</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>16</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfReconciliationOfProfitToNetCashInflowFromOperatingActivitiesTextBlock" xlink:to="res_130"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfTaxConsolidationTextBlock" xlink:label="DisclosureOfTaxConsolidationTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_131" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_DisclosureOfTaxConsolidationTextBlock_disclosureRef">
+      <ref:Name>AASB Interpretation</ref:Name>
+      <ref:Number>1052</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>16</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfTaxConsolidationTextBlock" xlink:to="res_131"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfInformationInRelationToParentEntitiesAndOrUltimateControllingPartiesIncorporatedOrConstitutedOutsideAustraliaTextBlock" xlink:label="DisclosureOfInformationInRelationToParentEntitiesAndOrUltimateControllingPartiesIncorporatedOrConstitutedOutsideAustraliaTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_133" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_DisclosureOfInformationInRelationToParentEntitiesAndOrUltimateControllingPartiesIncorporatedOrConstitutedOutsideAustraliaTextBlock_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>124</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>Aus13</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfInformationInRelationToParentEntitiesAndOrUltimateControllingPartiesIncorporatedOrConstitutedOutsideAustraliaTextBlock" xlink:to="res_133"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfKeyManagementPersonnelAndChangesAfterYearEndTextBlock" xlink:label="DisclosureOfKeyManagementPersonnelAndChangesAfterYearEndTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_171" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.03</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>1, 2, 3, 4, 5</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfKeyManagementPersonnelAndChangesAfterYearEndTextBlock" xlink:to="res_171"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfCompensationForEachKeyManagementPersonnelTextBlock" xlink:label="DisclosureOfCompensationForEachKeyManagementPersonnelTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_172" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.03</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>6, 7, 8, 9, 10, 11, 12, 13, 14</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfCompensationForEachKeyManagementPersonnelTextBlock" xlink:to="res_172"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfInformationInRelationToEquityInstrumentsProvidedAsCompensationToEachKeyManagementPersonnelTextBlock" xlink:label="DisclosureOfInformationInRelationToEquityInstrumentsProvidedAsCompensationToEachKeyManagementPersonnelTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_173" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.03</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>15, 16, 17, 18, 19</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfInformationInRelationToEquityInstrumentsProvidedAsCompensationToEachKeyManagementPersonnelTextBlock" xlink:to="res_173"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfEachAggregateOfLoansToEachKeyManagementPersonnelTextBlock" xlink:label="DisclosureOfEachAggregateOfLoansToEachKeyManagementPersonnelTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_174" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.03</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>20, 21</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfEachAggregateOfLoansToEachKeyManagementPersonnelTextBlock" xlink:to="res_174"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfOtherTransactionsAndBalancesBetweenDisclosingEntityAndAnyOfItsSubsidiariesAndKeyManagementPersonnelTextBlock" xlink:label="DisclosureOfOtherTransactionsAndBalancesBetweenDisclosingEntityAndAnyOfItsSubsidiariesAndKeyManagementPersonnelTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_175" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Corporations Regulations</ref:Name>
+      <ref:IssueDate>2001</ref:IssueDate>
+      <ref:Section>2M.3.03</ref:Section>
+      <ref:Subsection>1</ref:Subsection>
+      <ref:Clause>22, 23, 24</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfOtherTransactionsAndBalancesBetweenDisclosingEntityAndAnyOfItsSubsidiariesAndKeyManagementPersonnelTextBlock" xlink:to="res_175"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_ExplanationOfHowFairValueOfGoodsOrServicesReceivedOrEquityInstrumentsGrantedIsMeasuredForEquitysettledSharebasedPaymentArrangementsUnderReducedDisclosureRequirementsTextBlock" xlink:label="ExplanationOfHowFairValueOfGoodsOrServicesReceivedOrEquityInstrumentsGrantedIsMeasuredForEquitysettledSharebasedPaymentArrangementsUnderReducedDisclosureRequirementsTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_151" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_ExplanationOfHowFairValueOfGoodsOrServicesReceivedOrEquityInstrumentsGrantedIsMeasuredForEquitysettledSharebasedPaymentArrangementsUnderReducedDisclosureRequirementsTextBlock_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>2</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>RDR46</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExplanationOfHowFairValueOfGoodsOrServicesReceivedOrEquityInstrumentsGrantedIsMeasuredForEquitysettledSharebasedPaymentArrangementsUnderReducedDisclosureRequirementsTextBlock" xlink:to="res_151" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_ExplanationOfHowLiabilitiesInRespectOfCashsettledShareBasedPaymentWereMeasuredUnderReducedDisclosureRequirementsTextBlock" xlink:label="ExplanationOfHowLiabilitiesInRespectOfCashsettledShareBasedPaymentWereMeasuredUnderReducedDisclosureRequirementsTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_152" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_ExplanationOfHowLiabilitiesInRespectOfCashsettledShareBasedPaymentWereMeasuredUnderReducedDisclosureRequirementsTextBlock_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>2</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>RDR46</ref:Paragraph>
+      <ref:Subparagraph>2</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExplanationOfHowLiabilitiesInRespectOfCashsettledShareBasedPaymentWereMeasuredUnderReducedDisclosureRequirementsTextBlock" xlink:to="res_152" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_StatementOfComplianceWithReducedDisclosureRequirements" xlink:label="StatementOfComplianceWithReducedDisclosureRequirements"/>
+    <link:reference xlink:type="resource" xlink:label="res_153" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_StatementOfComplianceWithReducedDisclosureRequirements_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>1054</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>RDR7</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="StatementOfComplianceWithReducedDisclosureRequirements" xlink:to="res_153"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_AggregateAmountOfCurrentAndDeferredIncomeTaxRelatingToComponentsOfOtherComprehensiveIncomeUnderReducedDisclosureRequirements" xlink:label="AggregateAmountOfCurrentAndDeferredIncomeTaxRelatingToComponentsOfOtherComprehensiveIncomeUnderReducedDisclosureRequirements"/>
+    <link:reference xlink:type="resource" xlink:label="res_154" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_AggregateAmountOfCurrentAndDeferredIncomeTaxRelatingToComponentsOfOtherComprehensiveIncomeUnderReducedDisclosureRequirements_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>112</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>RDR81</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AggregateAmountOfCurrentAndDeferredIncomeTaxRelatingToComponentsOfOtherComprehensiveIncomeUnderReducedDisclosureRequirements" xlink:to="res_154"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_StatementOfComplianceWithReducedDisclosureRequirementsIfAppliedForInterimFinancialReport" xlink:label="StatementOfComplianceWithReducedDisclosureRequirementsIfAppliedForInterimFinancialReport"/>
+    <link:reference xlink:type="resource" xlink:label="res_156" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_StatementOfComplianceWithReducedDisclosureRequirementsIfAppliedForInterimFinancialReport_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Number>134</ref:Number>
+      <ref:Paragraph>RDR19</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="StatementOfComplianceWithReducedDisclosureRequirementsIfAppliedForInterimFinancialReport" xlink:to="res_156"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfAdditionalInformationAboutRecoverabilityOfExplorationAndEvaluationAssetsRecognisedForAnyOfAreasOfInterestTextBlock" xlink:label="DisclosureOfAdditionalInformationAboutRecoverabilityOfExplorationAndEvaluationAssetsRecognisedForAnyOfAreasOfInterestTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_157" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_DisclosureOfAdditionalInformationAboutRecoverabilityOfExplorationAndEvaluationAssetsRecognisedForAnyOfAreasOfInterestTextBlock_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>6</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>Aus24</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfAdditionalInformationAboutRecoverabilityOfExplorationAndEvaluationAssetsRecognisedForAnyOfAreasOfInterestTextBlock" xlink:to="res_157"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_StatementOfEarlyAdoptionOfAasb92009" xlink:label="StatementOfEarlyAdoptionOfAasb92009"/>
+    <link:reference xlink:type="resource" xlink:label="res_158" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_StatementOfEarlyAdoptionOfAasb92009_disclosureRef">
+      <ref:Note>Expiry 2018-01-01</ref:Note>
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>9(2009)</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>Aus1</ref:Paragraph>
+      <ref:Subparagraph>3</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="StatementOfEarlyAdoptionOfAasb92009" xlink:to="res_158"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_StatementAndExplanationWhenInitiallyApplyingAASB9NotAtBeginningOfReportingPeriod" xlink:label="StatementAndExplanationWhenInitiallyApplyingAASB9NotAtBeginningOfReportingPeriod"/>
+    <link:reference xlink:type="resource" xlink:label="res_160" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_StatementAndExplanationWhenInitiallyApplyingAASB9NotAtBeginningOfReportingPeriod_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>9</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>Aus1</ref:Paragraph>
+      <ref:Subparagraph>5</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="StatementAndExplanationWhenInitiallyApplyingAASB9NotAtBeginningOfReportingPeriod" xlink:to="res_160"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfAdditionalInformationByNotforprofitEntitiesInRelationToInventoriesTextBlock" xlink:label="DisclosureOfAdditionalInformationByNotforprofitEntitiesInRelationToInventoriesTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_161" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_DisclosureOfAdditionalInformationByNotforprofitEntitiesInRelationToInventoriesTextBlock_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>102</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>Aus36</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfAdditionalInformationByNotforprofitEntitiesInRelationToInventoriesTextBlock" xlink:to="res_161"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfReconciliationOfCashFlowsArisingFromOperatingActivitiesToNetCostOfServicesByNotforprofitEntitiesTextBlock" xlink:label="DisclosureOfReconciliationOfCashFlowsArisingFromOperatingActivitiesToNetCostOfServicesByNotforprofitEntitiesTextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="res_162" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" id="ifrs_au-full_DisclosureOfReconciliationOfCashFlowsArisingFromOperatingActivitiesToNetCostOfServicesByNotforprofitEntitiesTextBlock_disclosureRef">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>107</ref:Number>
+      <ref:IssueDate>2015-01-01</ref:IssueDate>
+      <ref:Paragraph>Aus20</ref:Paragraph>
+      <ref:Subparagraph>2</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfReconciliationOfCashFlowsArisingFromOperatingActivitiesToNetCostOfServicesByNotforprofitEntitiesTextBlock" xlink:to="res_162" priority="0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_StatementOfEarlyAdoptionOfAasb15TextBlock" xlink:label="StatementOfEarlyAdoptionOfAasb15TextBlock" xlink:title="StatementOfEarlyAdoptionOfAasb15TextBlock"/>
+    <link:reference xlink:type="resource" xlink:label="reference_StatementOfEarlyAdoptionOfAasb15TextBlock" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_StatementOfEarlyAdoptionOfAasb15TextBlock" id="reference_StatementOfEarlyAdoptionOfAasb15TextBlock">
+      <ref:Name>AASB</ref:Name>
+      <ref:Number>15</ref:Number>
+      <ref:Paragraph>Aus4</ref:Paragraph>
+      <ref:Subparagraph>3</ref:Subparagraph>
+      <ref:Note>Expiry 1/1/2017</ref:Note>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="StatementOfEarlyAdoptionOfAasb15TextBlock" xlink:to="reference_StatementOfEarlyAdoptionOfAasb15TextBlock" xlink:title="reference: StatementOfEarlyAdoptionOfAasb15TextBlock to reference_StatementOfEarlyAdoptionOfAasb15TextBlock"/>
+  </link:referenceLink>
+</link:linkbase>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt" xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#sbrReportLabel"/>
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#Label"/>
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#reportGuidance"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/osract/ptaract/ptaract.0001.calculate.response.02.00/labRole" xlink:type="simple" xlink:href="ptaract.0001.calculate.response.02.00.report.xsd#ptaract.0001.calculate.response.02.00.labLinkInfoCls"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/osract/ptaract/ptaract.0001.calculate.response.02.00/labRole">
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE219" xlink:label="loc_DE219"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE219" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Report name</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE219" xlink:to="lbl_DE219" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE219" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Report name - ACT Payroll Tax Annual Reconiliation Return</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc5.02.00.data.xsd#DE787" xlink:label="loc_DE787"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE787" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Claiming threshold?</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE787" xlink:to="lbl_DE787" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE787" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Claiming threshold? - Asks the employer if they are claiming the annual threshold.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE827" xlink:label="loc_DE827"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE827" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Tax payable</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE827" xlink:to="lbl_DE827" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE827" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Tax payable - Amount of payroll tax payable as returned in the Calculate or Lodge response. A minus figure indicates that the employer is entitled to a refund and should contact the ACT Revenue Office outside of the SBR channel. Amounts of zero or greater should be displayed with a 'Tax payable' label. Negative amounts should be displayed with a 'Refund amount' label.</link:label>
+    <link:loc xlink:type="locator" xlink:href="ptaract.0001.calculate.response.02.00.report.xsd#RA1128" xlink:label="loc_RA1128"/>
+    <link:label xlink:type="resource" xlink:label="lbl_RA1128" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">PTARACT Calculate Response [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA1128" xlink:to="lbl_RA1128" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="ptaract.0001.calculate.response.02.00.report.xsd#RT1598" xlink:label="loc_RT1598"/>
+    <link:label xlink:type="resource" xlink:label="lbl_RT1598" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">PayrollTaxPayment</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RT1598" xlink:to="lbl_RT1598" order="1.0"/>
+  </link:labelLink>
+</link:linkbase>

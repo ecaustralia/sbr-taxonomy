@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bafpr1.02.24="http://sbr.gov.au/icls/baf/bafpr/bafpr1.02.24.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:dtyp.02.29="http://sbr.gov.au/fdtn/sbr.02.29.dtyp" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/baf/bafpr/bafpr1.02.24.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.29.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.29.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="bafpr1Abstract" id="bafpr1.02.24_bafpr1Abstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="Income.AttributedPersonalServicesIncomeGross.Amount" id="DE13875" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Income.AveragingTaxable.Amount" id="DE13920" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Income.BackPaymentLumpSumE.Amount" id="DE13871" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Income.BusinessIncomeOrLossNetPreviousYear.Indicator" id="DE13862" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Income.CommunityDevelopmentEmploymentProject.Amount" id="DE13869" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Income.EmploymentTerminationPaymentTaxFree.Amount" id="DE13878" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Income.FarmManagementDepositsInformation.Date" id="DE13962" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Income.FarmManagementDepositsRepayment.Date" id="DE13934" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Income.FarmManagementDepositsTransferIn.Amount" id="DE13932" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Income.FarmManagementDepositsTransferIn.Date" id="DE13933" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Income.FarmManagementDepositsTransferOut.Amount" id="DE13935" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Income.FarmManagementDepositsTransferOut.Date" id="DE13936" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Income.ForeignEntityActivityPreviousYear.Indicator" id="DE13863" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Income.ForestryManagedInvestmentSchemePreviousYear.Indicator" id="DE13866" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Income.GenuineRedundancyPaymentLumpSumD.Amount" id="DE13870" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Income.LabourHireArrangementPaymentGross.Amount" id="DE13873" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Income.PartnershipTrustPreviousYear.Indicator" id="DE13860" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Income.PersonalServiceIncomeNetPreviousYear.Indicator" id="DE13861" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Income.SpecifiedPaymentGrossOther.Amount" id="DE13874" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Income.VoluntaryAgreementGross.Amount" id="DE13872" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+</xsd:schema>

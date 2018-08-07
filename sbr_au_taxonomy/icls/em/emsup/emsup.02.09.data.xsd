@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:emsup.02.09="http://sbr.gov.au/icls/em/emsup/emsup.02.09.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtyp.02.17="http://sbr.gov.au/fdtn/sbr.02.17.dtyp" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/em/emsup/emsup.02.09.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.17.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.17.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="emsupAbstract" id="emsup.02.09_emsupAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="SuperannuationFundDetails.ActuarialCertificate.Indicator" id="DE12751" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationFundDetails.FundAcceptGovernmentContributions.Indicator" id="DE12733" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationFundDetails.IncomeStreamPaid.Indicator" id="DE12794" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationFundDetails.MemberAccountStatus.Code" id="DE7393" type="dtyp.02.17:sbrFundMemberAccountStatusCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationPayment.BenefitLumpSum.Amount" id="DE12771" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationPayment.BenefitLumpSum.Code" id="DE12772" type="dtyp.02.17:sbrSuperannuationPaymentBenefitLumpSumCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationPayment.BenefitPensions.Code" id="DE12773" type="dtyp.02.17:sbrSuperannuationPaymentBenefitPensionCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+</xsd:schema>

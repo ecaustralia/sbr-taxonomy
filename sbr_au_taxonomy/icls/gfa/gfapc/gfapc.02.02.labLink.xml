@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="gfapc.02.02.data.xsd#gfapc.02.02_gfapcAbstract" xlink:label="loc_gfapc.02.02_gfapcAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_gfapcAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payments To Citizens</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_gfapc.02.02_gfapcAbstract" xlink:to="lbl_gfapcAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="gfapc.02.02.data.xsd#DE13569" xlink:label="loc_DE13569"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13569" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Pension Spouse Exempt Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13569" xlink:to="lbl_DE13569"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13569" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for total amount of pension income received by the individual's spouse that does not need to be included as taxable income on the spouse's tax return for the applicable reporting period.</link:label>
+        <link:loc xlink:type="locator" xlink:href="gfapc.02.02.data.xsd#DE13416" xlink:label="loc_DE13416"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13416" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Pension Tax Free Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13416" xlink:to="lbl_DE13416"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13416" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for tax free government pensions.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13416" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Tax free government pensions are:
+ - Disability support pension paid by Centrelink 
+ - Wife pension 
+ - Carer payment 
+ - Pension for defence, peacekeeping or war-caused death or incapacity
+ - Invalidity service pension 
+ - Partner service pension 
+ - Income support supplement
+ - Defence Force income support allowance 
+ - A special rate disability pension  * A payment of compensation under section 68, 71 or 75 of the Military Rehabilitation and Compensation Act 2004
+* A payment of compensation mentioned in paragraph 234(1)(b) of the Military Rehabilitation and Compensation Act 2004</link:label>
+        <link:loc xlink:type="locator" xlink:href="gfapc.02.02.data.xsd#DE13430" xlink:label="loc_DE13430"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13430" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Pension Tax Free Military Rehabilitation Compensation Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13430" xlink:to="lbl_DE13430"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13430" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the total amount of the tax-free government pensions the individual received under the Military Rehabilitation Compensation Act 2004.</link:label>
+    </link:labelLink>
+</link:linkbase>

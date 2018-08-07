@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ls.0004.prv.02.01="http://sbr.gov.au/rprt/ato/ls/ls.0004.private.02.01.module" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:RelPrdDrtn.02.04="http://sbr.gov.au/dims/RelPrdDrtn.02.04.dims" xmlns:RprtPyType.02.07="http://sbr.gov.au/dims/RprtPyType.02.07.dims" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/rprt/ato/ls/ls.0004.private.02.01.module" elementFormDefault="qualified">
+    <xsd:annotation>
+        <xsd:appinfo>
+            <link:linkbaseRef xlink:type="simple" xlink:href="ls.0004.private.02.01.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="ls.0004.private.02.01.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ls/ls.0004.private.02.01/defRole" id="ls.0004.02.01.privatedefLink">
+                <link:definition>ls.0004_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ls/ls.0004.private.02.01/labRole" id="ls.0004.02.01.privatelabLinkInfoCls">
+                <link:definition>ls.0004_private</link:definition>
+                <link:usedOn>link:labelLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ls/ls.0004.private.02.01/refRole" id="ls.0004.02.01.privaterefLink">
+                <link:definition>ls.0004_private</link:definition>
+                <link:usedOn>link:referenceLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ls/ls.0004.private.02.01/hypercubes/RelPrdDrtnReportingParty1" id="ls.0004.02.01.privatedefLinkRelPrdDrtnReportingParty1">
+                <link:definition>ls.0004_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ls/ls.0004.private.02.01/hypercubes/RelPrdDrtnReportingParty2" id="ls.0004.02.01.privatedefLinkRelPrdDrtnReportingParty2">
+                <link:definition>ls.0004_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ls/ls.0004.private.02.01/hypercubes/ReportingParty" id="ls.0004.02.01.privatedefLinkReportingParty">
+                <link:definition>ls.0004_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+        </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.07.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.07.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/RelPrdDrtn.02.04.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RelPrdDrtn.02.04.data.xsd"/>
+    <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="RelPrdDrtnReportingParty1PrimaryItemsAbstract" id="RA100244" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="RelPrdDrtnReportingParty2PrimaryItemsAbstract" id="RA100245" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingPartyPrimaryItemsAbstract" id="RA100246" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="RelPrdDrtnReportingParty1" id="HC100244" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="RelPrdDrtnReportingParty2" id="HC100245" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingParty" id="HC100246" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+</xsd:schema>

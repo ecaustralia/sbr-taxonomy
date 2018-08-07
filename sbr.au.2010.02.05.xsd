@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sbr.au.02.05="http://sbr.gov.au/sbr.au.02.05" targetNamespace="http://sbr.gov.au/sbr.au.02.05" xmlns:rprt.02.05="http://sbr.gov.au/sbr.au.reports.02.05.data" xmlns:txmy.02.04="http://sbr.gov.au/sbr.au.taxonomy.02.04.data" elementFormDefault="qualified">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="sbr_au_taxonomy/sbr.au.taxonomy.02.04.presLink.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+			<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="sbr_au_taxonomy/sbr.au.taxonomy.02.04.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://sbr.gov.au/sbr.au.reports.02.05.data" schemaLocation="sbr_au_reports/sbr.au.reports.02.05.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/sbr.au.taxonomy.02.04.data" schemaLocation="sbr_au_taxonomy/sbr.au.taxonomy.02.04.xsd"/>
+</xsd:schema>

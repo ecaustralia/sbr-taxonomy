@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/icls" xlink:href="../../fdtn/tech.sbr.01.02.xsd#icls" xlink:type="simple"/>
+	<link:presentationLink xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/icls" xlink:type="extended">
+		<link:loc xlink:href="baf.02.01.data.xsd#baf.02.01_bafAbstract" xlink:label="loc_bafAbstract" xlink:type="locator"/>
+		<link:loc xlink:href="bafpr/bafpr1.02.01.data.xsd#bafpr1.02.01_bafpr1Abstract" xlink:label="loc_bafpr1Abstract" xlink:type="locator"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_bafAbstract" xlink:to="loc_bafpr1Abstract" order="1.0"/>
+		<link:loc xlink:href="bafpr/bafpr2.02.01.data.xsd#bafpr2.02.01_bafpr2Abstract" xlink:label="loc_bafpr2Abstract" xlink:type="locator"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_bafAbstract" xlink:to="loc_bafpr2Abstract" order="2.0"/>
+		<link:loc xlink:href="bafpr/bafpr3.02.01.data.xsd#bafpr3.02.01_bafpr3Abstract" xlink:label="loc_bafpr3Abstract" xlink:type="locator"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_bafAbstract" xlink:to="loc_bafpr3Abstract" order="3.0"/>
+		<link:loc xlink:href="bafpo/bafpo1.02.01.data.xsd#bafpo1.02.01_bafpo1Abstract" xlink:label="loc_bafpo1Abstract" xlink:type="locator"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_bafAbstract" xlink:to="loc_bafpo1Abstract" order="4.0"/>
+		<link:loc xlink:href="bafpo/bafpo2.02.01.data.xsd#bafpo2.02.01_bafpo2Abstract" xlink:label="loc_bafpo2Abstract" xlink:type="locator"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_bafAbstract" xlink:to="loc_bafpo2Abstract" order="5.0"/>
+		<link:loc xlink:href="bafpo/bafpo3.02.01.data.xsd#bafpo3.02.01_bafpo3Abstract" xlink:label="loc_bafpo3Abstract" xlink:type="locator"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_bafAbstract" xlink:to="loc_bafpo3Abstract" order="6.0"/>
+		<link:loc xlink:href="bafpo/bafpo4.02.01.data.xsd#bafpo4.02.01_bafpo4Abstract" xlink:label="loc_bafpo4Abstract" xlink:type="locator"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_bafAbstract" xlink:to="loc_bafpo4Abstract" order="7.0"/>
+		<link:loc xlink:href="bafpo/bafpo5.02.00.data.xsd#bafpo5.02.00_bafpo5Abstract" xlink:label="loc_bafpo5Abstract" xlink:type="locator"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_bafAbstract" xlink:to="loc_bafpo5Abstract" order="8.0"/>		
+		<link:loc xlink:href="bafpo/bafpo6.02.01.data.xsd#bafpo6.02.01_bafpo6Abstract" xlink:label="loc_bafpo6Abstract" xlink:type="locator"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_bafAbstract" xlink:to="loc_bafpo6Abstract" order="9.0"/>
+		<link:loc xlink:href="bafpo/bafpo7.02.01.data.xsd#bafpo7.02.01_bafpo7Abstract" xlink:label="loc_bafpo7Abstract" xlink:type="locator"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_bafAbstract" xlink:to="loc_bafpo7Abstract" order="10.0"/>
+		<link:loc xlink:href="bafot/bafot.02.01.data.xsd#bafot.02.01_bafotAbstract" xlink:label="loc_bafotAbstract" xlink:type="locator"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_bafAbstract" xlink:to="loc_bafotAbstract" order="11.0"/>
+	</link:presentationLink>
+</link:linkbase>

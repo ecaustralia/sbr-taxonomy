@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/ptr/ptr.0002.lodge.request.02.00/presRole" xlink:type="simple" xlink:href="ptr.0002.lodge.request.02.00.report.xsd#ptr.0002.lodge.request.02.00.presLink"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/ptr/ptr.0002.lodge.request.02.00/presRole">
+    <link:loc xlink:type="locator" xlink:href="ptr.0002.lodge.request.02.00.report.xsd#RA528" xlink:label="loc_RA528"/>
+    <link:loc xlink:type="locator" xlink:href="ptr.0002.lodge.request.02.00.report.xsd#RA100349" xlink:label="loc_RA100349"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA528" xlink:to="loc_RA100349" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="ptr.0002.lodge.request.02.00.report.xsd#RT100368" xlink:label="lbl_StatementOfDistribution"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_StatementOfDistribution" order="0.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/comnmdle/comnmdle.personstructuredname3.02.01.module.xsd#RT101981" xlink:label="loc_RT101981"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_StatementOfDistribution" xlink:to="loc_RT101981" xlink:title="presentation: StatementOfDistribution to PersonNameDetails" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE44" xlink:label="PersonNameDetails.PersonNameType.Code" xlink:title="PersonNameDetails.PersonNameType.Code"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT101981" xlink:to="PersonNameDetails.PersonNameType.Code" xlink:title="presentation: PersonNameDetails to PersonNameDetails.PersonNameType.Code" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.05.data.xsd#DE870" xlink:label="PersonNameDetails.Usage.Code" xlink:title="PersonNameDetails.Usage.Code"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT101981" xlink:to="PersonNameDetails.Usage.Code" xlink:title="presentation: PersonNameDetails to PersonNameDetails.Usage.Code" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE43" xlink:label="PersonNameDetails.Currency.Code" xlink:title="PersonNameDetails.Currency.Code"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT101981" xlink:to="PersonNameDetails.Currency.Code" xlink:title="presentation: PersonNameDetails to PersonNameDetails.Currency.Code" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE60" xlink:label="PersonNameDetails.Title.Text" xlink:title="PersonNameDetails.Title.Text"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT101981" xlink:to="PersonNameDetails.Title.Text" xlink:title="presentation: PersonNameDetails to PersonNameDetails.Title.Text" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE104" xlink:label="PersonNameDetails.NameSuffix.Text" xlink:title="PersonNameDetails.NameSuffix.Text"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT101981" xlink:to="PersonNameDetails.NameSuffix.Text" xlink:title="presentation: PersonNameDetails to PersonNameDetails.NameSuffix.Text" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE40" xlink:label="PersonNameDetails.FamilyName.Text" xlink:title="PersonNameDetails.FamilyName.Text"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT101981" xlink:to="PersonNameDetails.FamilyName.Text" xlink:title="presentation: PersonNameDetails to PersonNameDetails.FamilyName.Text" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE41" xlink:label="PersonNameDetails.GivenName.Text" xlink:title="PersonNameDetails.GivenName.Text"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT101981" xlink:to="PersonNameDetails.GivenName.Text" xlink:title="presentation: PersonNameDetails to PersonNameDetails.GivenName.Text" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE42" xlink:label="PersonNameDetails.OtherGivenName.Text" xlink:title="PersonNameDetails.OtherGivenName.Text"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT101981" xlink:to="PersonNameDetails.OtherGivenName.Text" xlink:title="presentation: PersonNameDetails to PersonNameDetails.OtherGivenName.Text" order="8.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd#DE1887" xlink:label="Remuneration.PartnerWithNoControlAndShareDisposalInPartnershipIncome.Indicator" xlink:title="Remuneration.PartnerWithNoControlAndShareDisposalInPartnershipIncome.Indicator"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_StatementOfDistribution" xlink:to="Remuneration.PartnerWithNoControlAndShareDisposalInPartnershipIncome.Indicator" xlink:title="presentation: StatementOfDistribution to Remuneration.PartnerWithNoControlAndShareDisposalInPartnershipIncome.Indicator" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/comnmdle/comnmdle.organisationname2.02.00.module.xsd#RT665" xlink:label="loc_RT665"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_StatementOfDistribution" xlink:to="loc_RT665" xlink:title="presentation: StatementOfDistribution to OrganisationNameDetails" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE64" xlink:label="OrganisationNameDetails.OrganisationalNameType.Code" xlink:title="OrganisationNameDetails.OrganisationalNameType.Code"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT665" xlink:to="OrganisationNameDetails.OrganisationalNameType.Code" xlink:title="presentation: OrganisationNameDetails to OrganisationNameDetails.OrganisationalNameType.Code" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE1893" xlink:label="OrganisationNameDetails.Currency.Code" xlink:title="OrganisationNameDetails.Currency.Code"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT665" xlink:to="OrganisationNameDetails.Currency.Code" xlink:title="presentation: OrganisationNameDetails to OrganisationNameDetails.Currency.Code" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE55" xlink:label="OrganisationNameDetails.OrganisationalName.Text" xlink:title="OrganisationNameDetails.OrganisationalName.Text"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT665" xlink:to="OrganisationNameDetails.OrganisationalName.Text" xlink:title="presentation: OrganisationNameDetails to OrganisationNameDetails.OrganisationalName.Text" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/comnmdle/comnmdle.addressdetails2.02.02.module.xsd#RT515" xlink:label="lbl_AddressDetails"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_StatementOfDistribution" xlink:to="lbl_AddressDetails" xlink:title="presentation: StatementOfDistribution to AddressDetails" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE529" xlink:label="AddressDetails.OverseasAddress.Indicator" xlink:title="AddressDetails.OverseasAddress.Indicator"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_AddressDetails" xlink:to="AddressDetails.OverseasAddress.Indicator" xlink:title="presentation: AddressDetails to AddressDetails.OverseasAddress.Indicator" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.01.data.xsd#DE23" xlink:label="AddressDetails.Usage.Code" xlink:title="AddressDetails.Usage.Code"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_AddressDetails" xlink:to="AddressDetails.Usage.Code" xlink:title="presentation: AddressDetails to AddressDetails.Usage.Code" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE75" xlink:label="AddressDetails.Currency.Code" xlink:title="AddressDetails.Currency.Code"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_AddressDetails" xlink:to="AddressDetails.Currency.Code" xlink:title="presentation: AddressDetails to AddressDetails.Currency.Code" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE17" xlink:label="AddressDetails.Line1.Text" xlink:title="AddressDetails.Line1.Text"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_AddressDetails" xlink:to="AddressDetails.Line1.Text" xlink:title="presentation: AddressDetails to AddressDetails.Line1.Text" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE18" xlink:label="AddressDetails.Line2.Text" xlink:title="AddressDetails.Line2.Text"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_AddressDetails" xlink:to="AddressDetails.Line2.Text" xlink:title="presentation: AddressDetails to AddressDetails.Line2.Text" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE167" xlink:label="AddressDetails.Line3.Text" xlink:title="AddressDetails.Line3.Text"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_AddressDetails" xlink:to="AddressDetails.Line3.Text" xlink:title="presentation: AddressDetails to AddressDetails.Line3.Text" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE80" xlink:label="AddressDetails.Line4.Text" xlink:title="AddressDetails.Line4.Text"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_AddressDetails" xlink:to="AddressDetails.Line4.Text" xlink:title="presentation: AddressDetails to AddressDetails.Line4.Text" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE19" xlink:label="AddressDetails.LocalityName.Text" xlink:title="AddressDetails.LocalityName.Text"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_AddressDetails" xlink:to="AddressDetails.LocalityName.Text" xlink:title="presentation: AddressDetails to AddressDetails.LocalityName.Text" order="8.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE21" xlink:label="AddressDetails.Postcode.Text" xlink:title="AddressDetails.Postcode.Text"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_AddressDetails" xlink:to="AddressDetails.Postcode.Text" xlink:title="presentation: AddressDetails to AddressDetails.Postcode.Text" order="9.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE22" xlink:label="AddressDetails.StateOrTerritory.Code" xlink:title="AddressDetails.StateOrTerritory.Code"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_AddressDetails" xlink:to="AddressDetails.StateOrTerritory.Code" xlink:title="presentation: AddressDetails to AddressDetails.StateOrTerritory.Code" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.08.data.xsd#DE528" xlink:label="AddressDetails.CountryName.Text" xlink:title="AddressDetails.CountryName.Text"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_AddressDetails" xlink:to="AddressDetails.CountryName.Text" xlink:title="presentation: AddressDetails to AddressDetails.CountryName.Text" order="11.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.08.data.xsd#DE15" xlink:label="AddressDetails.Country.Code" xlink:title="AddressDetails.Country.Code"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_AddressDetails" xlink:to="AddressDetails.Country.Code" xlink:title="presentation: AddressDetails to AddressDetails.Country.Code" order="12.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.data.xsd#DE27" xlink:label="loc_DE27"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_StatementOfDistribution" xlink:to="loc_DE27" xlink:title="presentation: StatementOfDistribution to Identifiers.TaxFileNumber.Identifier" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.04.data.xsd#DE4006" xlink:label="Income.BeneficiaryShare.Amount" xlink:title="Income.BeneficiaryShare.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_StatementOfDistribution" xlink:to="Income.BeneficiaryShare.Amount" xlink:title="presentation: StatementOfDistribution to Income.BeneficiaryShare.Amount" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc2.02.00.data.xsd#DE1697" xlink:label="loc_DE1697"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_StatementOfDistribution" xlink:to="loc_DE1697" xlink:title="presentation: StatementOfDistribution to IncomeTax.PayAsYouGoWithholding.CreditForTaxWithheldWhereABNNotQuoted.Amount" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.09.data.xsd#DE12507" xlink:label="Income.DistributionFranked.Amount" xlink:title="Income.DistributionFranked.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_StatementOfDistribution" xlink:to="Income.DistributionFranked.Amount" xlink:title="presentation: StatementOfDistribution to Income.DistributionFranked.Amount" order="8.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc2.02.00.data.xsd#DE1747" xlink:label="IncomeTax.FrankingCredits.ReceivedFromAustralianCompanies.Amount" xlink:title="IncomeTax.FrankingCredits.ReceivedFromAustralianCompanies.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_StatementOfDistribution" xlink:to="IncomeTax.FrankingCredits.ReceivedFromAustralianCompanies.Amount" xlink:title="presentation: StatementOfDistribution to IncomeTax.FrankingCredits.ReceivedFromAustralianCompanies.Amount" order="9.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc2.02.04.data.xsd#DE8971" xlink:label="IncomeTax.PayAsYouGoWithholding.CreditForAmountsWithheldWhereTFNNotQuoted.Amount" xlink:title="IncomeTax.PayAsYouGoWithholding.CreditForAmountsWithheldWhereTFNNotQuoted.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_StatementOfDistribution" xlink:to="IncomeTax.PayAsYouGoWithholding.CreditForAmountsWithheldWhereTFNNotQuoted.Amount" xlink:title="presentation: StatementOfDistribution to IncomeTax.PayAsYouGoWithholding.CreditForAmountsWithheldWhereTFNNotQuoted.Amount" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc2.02.03.data.xsd#DE4872" xlink:label="IncomeTax.PayAsYouGoWithholding.CreditForTaxWithheldFromCloselyHeldTrust.Amount" xlink:title="IncomeTax.PayAsYouGoWithholding.CreditForTaxWithheldFromCloselyHeldTrust.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_StatementOfDistribution" xlink:to="IncomeTax.PayAsYouGoWithholding.CreditForTaxWithheldFromCloselyHeldTrust.Amount" xlink:title="presentation: StatementOfDistribution to IncomeTax.PayAsYouGoWithholding.CreditForTaxWithheldFromCloselyHeldTrust.Amount" order="11.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc4.02.00.data.xsd#DE1694" xlink:label="loc_DE1694"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_StatementOfDistribution" xlink:to="loc_DE1694" xlink:title="presentation: StatementOfDistribution to InternationalDealings.CreditForTaxWithheldFromForeignResidentWithholding.Amount" order="12.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc2.02.00.data.xsd#DE1751" xlink:label="loc_DE1751"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_StatementOfDistribution" xlink:to="loc_DE1751" xlink:title="presentation: StatementOfDistribution to IncomeTax.FrankingCredits.ReceivedFromNewZealandCompanies.Amount" order="13.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/gfa/gfati/gfati.02.03.data.xsd#DE1845" xlink:label="TaxOffsetClaim.SmallBusinessEntityIncomeNet.Amount" xlink:title="TaxOffsetClaim.SmallBusinessEntityIncomeNet.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_StatementOfDistribution" xlink:to="TaxOffsetClaim.SmallBusinessEntityIncomeNet.Amount" xlink:title="presentation: StatementOfDistribution to TaxOffsetClaim.SmallBusinessEntityIncomeNet.Amount" order="14.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/gfa/gfati/gfati.02.01.data.xsd#DE3530" xlink:label="lbl_TaxOffsetClaim.NationalRentalAffordabilitySchemeEntitlement.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_StatementOfDistribution" xlink:to="lbl_TaxOffsetClaim.NationalRentalAffordabilitySchemeEntitlement.Amount" xlink:title="presentation: StatementOfDistribution to TaxOffsetClaim.NationalRentalAffordabilitySchemeEntitlement.Amount" order="15.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr2.02.04.data.xsd#DE4011" xlink:label="lbl_Income.Investment.FinancialIncomeOrLossNet.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_StatementOfDistribution" xlink:to="lbl_Income.Investment.FinancialIncomeOrLossNet.Amount" xlink:title="presentation: StatementOfDistribution to Income.Investment.FinancialIncomeOrLossNet.Amount" order="16.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.04.data.xsd#DE4013" xlink:label="lbl_Income.RentalIncomeOrLossNet.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_StatementOfDistribution" xlink:to="lbl_Income.RentalIncomeOrLossNet.Amount" xlink:title="presentation: StatementOfDistribution to Income.RentalIncomeOrLossNet.Amount" order="17.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc4.02.00.data.xsd#DE1821" xlink:label="lbl_InternationalDealings.RelatedPartiesTransactionsExcessAggregateValue.Indicator"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_InternationalDealings.RelatedPartiesTransactionsExcessAggregateValue.Indicator" order="0.5"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc4.02.00.data.xsd#DE1871" xlink:label="lbl_InternationalDealings.TransactionswithTaxHavenCountries.Indicator"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_InternationalDealings.TransactionswithTaxHavenCountries.Indicator" order="0.7"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.09.data.xsd#DE1883" xlink:label="lbl_Remuneration.PersonalServicesIncome.MainIncomeReward.Indicator"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Remuneration.PersonalServicesIncome.MainIncomeReward.Indicator" order="0.8"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo1.02.04.data.xsd#DE3988" xlink:label="lbl_Equity.ProprietorsFundsNet.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Equity.ProprietorsFundsNet.Amount" order="0.9"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr2.02.02.data.xsd#DE3486" xlink:label="lbl_Expense.Purchases.AndOtherCosts.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Expense.Purchases.AndOtherCosts.Amount" order="0.95"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.05.data.xsd#DE3501" xlink:label="lbl_Remuneration.WagesAndSalaries.Total.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Remuneration.WagesAndSalaries.Total.Amount" order="0.97"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/comnmdle/comnmdle.declaration2.02.01.module.xsd#RT950" xlink:label="loc_RT950"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="loc_RT950" order="0.98"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.03.data.xsd#DE3132" xlink:label="loc_DE3132"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT950" xlink:to="loc_DE3132" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE229" xlink:label="loc_DE229"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT950" xlink:to="loc_DE229" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE3147" xlink:label="loc_DE3147"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT950" xlink:to="loc_DE3147" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE230" xlink:label="loc_DE230"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT950" xlink:to="loc_DE230" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE4" xlink:label="loc_DE4"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT950" xlink:to="loc_DE4" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/comnmdle/comnmdle.personunstructuredname1.02.01.module.xsd#RT688" xlink:label="loc_RT688"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT950" xlink:to="loc_RT688" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.05.data.xsd#DE503" xlink:label="loc_DE503"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT688" xlink:to="loc_DE503" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE106" xlink:label="loc_DE106"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT688" xlink:to="loc_DE106" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.05.data.xsd#DE3502" xlink:label="lbl_Remuneration.WagesAndSalariesAction.Code"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Remuneration.WagesAndSalariesAction.Code" order="0.975"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd#DE1819" xlink:label="lbl_Remuneration.PaymentToRelatedPartiesGross.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Remuneration.PaymentToRelatedPartiesGross.Amount" order="0.977"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr3.02.02.data.xsd#DE3497" xlink:label="lbl_Expense.DepreciatingAssets.IntangibleFirstDeducted.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Expense.DepreciatingAssets.IntangibleFirstDeducted.Amount" order="0.978"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr3.02.02.data.xsd#DE3498" xlink:label="lbl_Expense.DepreciatingAssets.OtherFirstDeducted.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Expense.DepreciatingAssets.OtherFirstDeducted.Amount" order="0.979"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo7.02.02.data.xsd#DE3499" xlink:label="lbl_Assets.DepreciatingAssets.IntangibleTerminationValue.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Assets.DepreciatingAssets.IntangibleTerminationValue.Amount" order="0.9795"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo7.02.02.data.xsd#DE3500" xlink:label="lbl_Assets.DepreciatingAssets.OtherTerminationValue.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Assets.DepreciatingAssets.OtherTerminationValue.Amount" order="0.9797"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.02.data.xsd#DE3476" xlink:label="lbl_Expense.ProjectPoolAllowableDeduction.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Expense.ProjectPoolAllowableDeduction.Amount" order="0.9798"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.02.data.xsd#DE3478" xlink:label="lbl_Expense.CapitalExpenditureSpecifiedAllowableDeduction.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Expense.CapitalExpenditureSpecifiedAllowableDeduction.Amount" order="0.9799"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd#DE1639" xlink:label="lbl_Remuneration.FringeBenefits.EmployeeContribution.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Remuneration.FringeBenefits.EmployeeContribution.Amount" order="0.97995"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.02.data.xsd#DE3481" xlink:label="lbl_Expense.EnvironmentalProtectionDeduction.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Expense.EnvironmentalProtectionDeduction.Amount" order="0.97997"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc3.02.02.data.xsd#DE3488" xlink:label="lbl_Elections.TradingStock.Indicator"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Elections.TradingStock.Indicator" order="0.97998"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr3.02.02.data.xsd#DE3508" xlink:label="lbl_Expense.DepreciatingAssets.SmallBusinessEntityLowCost.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Expense.DepreciatingAssets.SmallBusinessEntityLowCost.Amount" order="0.97999"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr3.02.02.data.xsd#DE3509" xlink:label="lbl_Expense.DepreciatingAssets.SmallBusinessEntityGeneralPool.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Expense.DepreciatingAssets.SmallBusinessEntityGeneralPool.Amount" order="0.979995"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr3.02.02.data.xsd#DE3510" xlink:label="lbl_Expense.DepreciatingAssets.SmallBusinessEntityLongLifePool.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Expense.DepreciatingAssets.SmallBusinessEntityLongLifePool.Amount" order="0.979997"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.04.data.xsd#DE4014" xlink:label="lbl_Income.SmallBusinessEntityAggregatedGroupTurnoverTotal.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Income.SmallBusinessEntityAggregatedGroupTurnoverTotal.Amount" order="0.979998"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.04.data.xsd#DE4015" xlink:label="lbl_Income.SmallBusinessEntityNet.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Income.SmallBusinessEntityNet.Amount" order="0.979999"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE319" xlink:label="lbl_Report.CompletionHours.Number"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Report.CompletionHours.Number" order="0.9799995"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/gfa/gfagc/gfagc.02.01.data.xsd#DE3529" xlink:label="lbl_TaxConcession.SmallBusinessAndGeneralBusinessTaxBreak.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_TaxConcession.SmallBusinessAndGeneralBusinessTaxBreak.Amount" order="0.9799997"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_TaxOffsetClaim.NationalRentalAffordabilitySchemeEntitlement.Amount" order="0.9799998"/>
+    <link:loc xlink:type="locator" xlink:href="ptr.0002.lodge.request.02.00.report.xsd#RT100363" xlink:label="loc_RT100363"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="loc_RT100363" order="0.9799999"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT100363" xlink:to="loc_RT101981" order="1.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT100363" xlink:to="loc_RT665" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.data.xsd#DE26" xlink:label="loc_DE26"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT100363" xlink:to="loc_DE26" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc1.02.01.data.xsd#DE3534" xlink:label="lbl_IncomeTax.FinancialArrangementRelatedGainLossOrBalancingAdjustmentsSubjectToTOFARules.Indicator"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_IncomeTax.FinancialArrangementRelatedGainLossOrBalancingAdjustmentsSubjectToTOFARules.Indicator" order="0.97999995"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Income.Investment.FinancialIncomeOrLossNet.Amount" order="0.97999997"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Income.RentalIncomeOrLossNet.Amount" order="0.97999998"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc3.02.00.data.xsd#DE1779" xlink:label="lbl_Elections.InterposedEntityElectionStatus.Year"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Elections.InterposedEntityElectionStatus.Year" order="0.97999999"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc3.02.00.data.xsd#DE1778" xlink:label="lbl_Elections.InterposedEntityElectionRevocation.Code"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Elections.InterposedEntityElectionRevocation.Code" order="0.979999995"/>
+    <link:loc xlink:type="locator" xlink:href="ptr.0002.lodge.request.02.00.report.xsd#RT100364" xlink:label="loc_RT100364"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="loc_RT100364" order="0.979999997"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT100364" xlink:to="loc_DE27" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE1624" xlink:label="lbl_Lodgment.FinalReturn.Indicator"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Lodgment.FinalReturn.Indicator" order="0.979999998"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.05.data.xsd#DE247" xlink:label="lbl_OrganisationDetails.MainIncomeActivity.Description"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_OrganisationDetails.MainIncomeActivity.Description" order="0.979999999"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.03.data.xsd#DE246" xlink:label="lbl_OrganisationDetails.OrganisationIndustry2006Extended.Code"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_OrganisationDetails.OrganisationIndustry2006Extended.Code" order="0.9799999995"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafot/bafot.02.00.data.xsd#DE2807" xlink:label="lbl_RegulatoryDisclosures.GeneralInformationAboutFinancialStatements.Text"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_RegulatoryDisclosures.GeneralInformationAboutFinancialStatements.Text" order="0.9799999997"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE377" xlink:label="lbl_Report.TargetFinancial.Year"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Report.TargetFinancial.Year" order="0.9799999998"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.07.data.xsd#DE706" xlink:label="lbl_Report.Amendment.Indicator"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Report.Amendment.Indicator" order="0.97999999975"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.08.data.xsd#DE4856" xlink:label="lbl_Report.AmendmentType.Code"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Report.AmendmentType.Code" order="0.97999999977"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.08.data.xsd#DE4855" xlink:label="lbl_Report.AmendmentReason.Text"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Report.AmendmentReason.Text" order="0.97999999978"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.08.data.xsd#DE4854" xlink:label="lbl_Report.AmendmentSequence.Number"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Report.AmendmentSequence.Number" order="0.97999999979"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.03.data.xsd#DE3569" xlink:label="lbl_OrganisationDetails.ActivityEvent.Code"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_OrganisationDetails.ActivityEvent.Code" order="0.979999999795"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE1852" xlink:label="lbl_OrganisationDetails.TaxConsolidationStatus.Indicator"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_OrganisationDetails.TaxConsolidationStatus.Indicator" order="0.979999999797"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.00.data.xsd#DE1777" xlink:label="lbl_Income.InternetSales.Indicator"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_Income.InternetSales.Indicator" order="0.979999999798"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="loc_DE26" order="0.979999999799"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="lbl_AddressDetails" order="0.9799999999"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100349" xlink:to="loc_RT665" order="0.97999999995"/>
+    <link:loc xlink:type="locator" xlink:href="ptr.0002.lodge.request.02.00.report.xsd#RA100350" xlink:label="loc_RA100350"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA528" xlink:to="loc_RA100350" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo1.02.00.data.xsd#DE2817" xlink:label="loc_DE2817"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100350" xlink:to="loc_DE2817" order="134.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo1.02.00.data.xsd#DE1273" xlink:label="loc_DE1273"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100350" xlink:to="loc_DE1273" order="135.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo1.02.00.data.xsd#DE2834" xlink:label="loc_DE2834"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100350" xlink:to="loc_DE2834" order="136.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo1.02.00.data.xsd#DE1519" xlink:label="loc_DE1519"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100350" xlink:to="loc_DE1519" order="137.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo7.02.04.data.xsd#DE590" xlink:label="loc_DE590"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100350" xlink:to="loc_DE590" order="144.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo7.02.02.data.xsd#DE3487" xlink:label="loc_DE3487"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100350" xlink:to="loc_DE3487" order="145.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo1.02.00.data.xsd#DE591" xlink:label="loc_DE591"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100350" xlink:to="loc_DE591" order="146.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo1.02.00.data.xsd#DE594" xlink:label="loc_DE594"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100350" xlink:to="loc_DE594" order="147.0"/>
+    <link:loc xlink:type="locator" xlink:href="ptr.0002.lodge.request.02.00.report.xsd#RA100351" xlink:label="loc_RA100351"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA528" xlink:to="loc_RA100351" order="3.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100351" xlink:to="loc_DE590" order="142.0"/>
+    <link:loc xlink:type="locator" xlink:href="ptr.0002.lodge.request.02.00.report.xsd#RA100352" xlink:label="loc_RA100352"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA528" xlink:to="loc_RA100352" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr2.02.04.data.xsd#DE3996" xlink:label="loc_DE3996"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE3996" order="51.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr2.02.04.data.xsd#DE3995" xlink:label="loc_DE3995"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE3995" order="52.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr2.02.04.data.xsd#DE3998" xlink:label="loc_DE3998"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE3998" order="53.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr2.02.04.data.xsd#DE4000" xlink:label="loc_DE4000"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE4000" order="54.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr2.02.04.data.xsd#DE3997" xlink:label="loc_DE3997"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE3997" order="55.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr2.02.00.data.xsd#DE1835" xlink:label="loc_DE1835"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE1835" order="56.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.04.data.xsd#DE303" xlink:label="loc_DE303"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE303" order="57.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr2.02.04.data.xsd#DE3999" xlink:label="loc_DE3999"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE3999" order="58.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr2.02.04.data.xsd#DE1794" xlink:label="loc_DE1794"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE1794" order="59.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr2.02.04.data.xsd#DE4001" xlink:label="loc_DE4001"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE4001" order="60.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.04.data.xsd#DE3989" xlink:label="loc_DE3989"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE3989" order="61.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.04.data.xsd#DE1764" xlink:label="loc_DE1764"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE1764" order="63.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE1697" order="68.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE1694" order="69.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc2.02.00.data.xsd#DE1699" xlink:label="loc_DE1699"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE1699" order="81.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc2.02.00.data.xsd#DE1746" xlink:label="loc_DE1746"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE1746" order="82.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc2.02.00.data.xsd#DE1692" xlink:label="loc_DE1692"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE1692" order="83.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc4.02.00.data.xsd#DE1696" xlink:label="loc_DE1696"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE1696" order="85.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr2.02.00.data.xsd#DE1825" xlink:label="loc_DE1825"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE1825" order="87.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.05.data.xsd#DE306" xlink:label="loc_DE306"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE306" order="88.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.02.data.xsd#DE3477" xlink:label="loc_DE3477"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE3477" order="89.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc2.02.00.data.xsd#DE1824" xlink:label="loc_DE1824"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE1824" order="90.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.02.data.xsd#DE3459" xlink:label="loc_DE3459"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE3459" order="92.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr2.02.02.data.xsd#DE3460" xlink:label="loc_DE3460"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE3460" order="94.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc1.02.00.data.xsd#DE1867" xlink:label="loc_DE1867"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE1867" order="95.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.05.data.xsd#DE1711" xlink:label="loc_DE1711"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE1711" order="97.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.00.data.xsd#DE1708" xlink:label="loc_DE1708"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE1708" order="98.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc1.02.03.data.xsd#DE4016" xlink:label="loc_DE4016"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE4016" order="99.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc1.02.00.data.xsd#DE1709" xlink:label="loc_DE1709"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE1709" order="100.0"/>
+    <link:loc xlink:type="locator" xlink:href="ptr.0002.lodge.request.02.00.report.xsd#RT100365" xlink:label="loc_RT100365"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_RT100365" order="102.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.00.data.xsd#DE2028" xlink:label="loc_DE2028"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT100365" xlink:to="loc_DE2028" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.04.data.xsd#DE348" xlink:label="loc_DE348"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT100365" xlink:to="loc_DE348" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.04.data.xsd#DE1661" xlink:label="loc_DE1661"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE1661" order="105.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.02.data.xsd#DE3474" xlink:label="loc_DE3474"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE3474" order="107.0"/>
+    <link:loc xlink:type="locator" xlink:href="ptr.0002.lodge.request.02.00.report.xsd#RT100366" xlink:label="loc_RT100366"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_RT100366" order="108.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/gfa/gfagc/gfagc.02.00.data.xsd#DE1742" xlink:label="loc_DE1742"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT100366" xlink:to="loc_DE1742" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/gfa/gfagc/gfagc.02.00.data.xsd#DE1744" xlink:label="loc_DE1744"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT100366" xlink:to="loc_DE1744" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/gfa/gfagc/gfagc.02.00.data.xsd#DE1743" xlink:label="loc_DE1743"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT100366" xlink:to="loc_DE1743" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="ptr.0002.lodge.request.02.00.report.xsd#RT100367" xlink:label="loc_RT100367"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_RT100367" order="109.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.04.data.xsd#DE3990" xlink:label="loc_DE3990"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT100367" xlink:to="loc_DE3990" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.04.data.xsd#DE3484" xlink:label="loc_DE3484"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT100367" xlink:to="loc_DE3484" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc2.02.03.data.xsd#DE4871" xlink:label="lbl_IncomeTax.PayAsYouGoWithholding.CreditForTaxWithheldFromCloselyHeldTrustShareReceivedIndirectly.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="lbl_IncomeTax.PayAsYouGoWithholding.CreditForTaxWithheldFromCloselyHeldTrustShareReceivedIndirectly.Amount" order="46.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.02.data.xsd#DE3464" xlink:label="lbl_Expense.ForeignResidentWithholding.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="lbl_Expense.ForeignResidentWithholding.Amount" order="46.5"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd#DE837" xlink:label="lbl_Remuneration.WagesAndSalaries.ContractorsAndConsultantsPayments.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="lbl_Remuneration.WagesAndSalaries.ContractorsAndConsultantsPayments.Amount" order="46.7"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/em/emsup/emsup.02.02.data.xsd#DE1848" xlink:label="lbl_SuperannuationContribution.EmployerContributions.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="lbl_SuperannuationContribution.EmployerContributions.Amount" order="46.8"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.10.data.xsd#DE4003" xlink:label="lbl_Expense.ReconciliationAdjustmentTotal.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="lbl_Expense.ReconciliationAdjustmentTotal.Amount" order="110.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.02.data.xsd#DE3511" xlink:label="loc_DE3511"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100352" xlink:to="loc_DE3511" order="109.5"/>
+    <link:loc xlink:type="locator" xlink:href="ptr.0002.lodge.request.02.00.report.xsd#RA100353" xlink:label="loc_RA100353"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA528" xlink:to="loc_RA100353" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd#DE743" xlink:label="loc_DE743"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100353" xlink:to="loc_DE743" order="37.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/gfa/gfagg/gfagg.02.00.data.xsd#DE1666" xlink:label="loc_DE1666"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100353" xlink:to="loc_DE1666" order="41.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100353" xlink:to="loc_DE348" order="45.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100353" xlink:to="loc_DE3511" order="65.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.02.data.xsd#DE3457" xlink:label="loc_DE3457"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100353" xlink:to="loc_DE3457" order="71.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.02.data.xsd#DE3458" xlink:label="loc_DE3458"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100353" xlink:to="loc_DE3458" order="72.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.04.data.xsd#DE3991" xlink:label="loc_DE3991"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100353" xlink:to="loc_DE3991" order="74.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/gfa/gfagg/gfagg.02.02.data.xsd#DE4004" xlink:label="loc_DE4004"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100353" xlink:to="loc_DE4004" order="36.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.05.data.xsd#DE4033" xlink:label="loc_DE4033"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100353" xlink:to="loc_DE4033" order="36.5"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd#DE745" xlink:label="loc_DE745"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100353" xlink:to="loc_DE745" order="36.7"/>
+    <link:loc xlink:type="locator" xlink:href="ptr.0002.lodge.request.02.00.report.xsd#RA100354" xlink:label="loc_RA100354"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA528" xlink:to="loc_RA100354" order="6.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100354" xlink:to="loc_DE743" order="38.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100354" xlink:to="loc_DE745" order="40.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100354" xlink:to="loc_DE1666" order="43.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100354" xlink:to="loc_DE348" order="46.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100354" xlink:to="loc_DE3511" order="66.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.04.data.xsd#DE4012" xlink:label="loc_DE4012"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100354" xlink:to="loc_DE4012" order="75.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.05.data.xsd#DE1880" xlink:label="loc_DE1880"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100354" xlink:to="loc_DE1880" order="76.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100354" xlink:to="loc_DE3991" order="78.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.04.data.xsd#DE4028" xlink:label="lbl_Income.TrustDistributionFranked.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100354" xlink:to="lbl_Income.TrustDistributionFranked.Amount" order="37.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc2.02.05.data.xsd#DE12508" xlink:label="lbl_IncomeTax.Deduction.TrustDistributionFranked.Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100354" xlink:to="lbl_IncomeTax.Deduction.TrustDistributionFranked.Amount" order="37.5"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100354" xlink:to="loc_DE4033" order="37.7"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100354" xlink:to="loc_DE4004" order="37.8"/>
+    <link:loc xlink:type="locator" xlink:href="ptr.0002.lodge.request.02.00.report.xsd#RA100355" xlink:label="loc_RA100355"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA528" xlink:to="loc_RA100355" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr3.02.03.data.xsd#DE1774" xlink:label="loc_DE1774"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100355" xlink:to="loc_DE1774" order="114.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100355" xlink:to="loc_DE348" order="119.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100355" xlink:to="loc_DE3511" order="120.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr3.02.02.data.xsd#DE3524" xlink:label="loc_DE3524"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100355" xlink:to="loc_DE3524" order="121.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100355" xlink:to="loc_DE1751" order="122.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100355" xlink:to="loc_DE306" order="159.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.04.data.xsd#DE2235" xlink:label="loc_DE2235"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100355" xlink:to="loc_DE2235" order="160.0"/>
+    <link:loc xlink:type="locator" xlink:href="ptr.0002.lodge.request.02.00.report.xsd#RA100356" xlink:label="loc_RA100356"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA528" xlink:to="loc_RA100356" order="8.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr3.02.02.data.xsd#DE3505" xlink:label="loc_DE3505"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100356" xlink:to="loc_DE3505" order="115.0"/>
+    <link:loc xlink:type="locator" xlink:href="ptr.0002.lodge.request.02.00.report.xsd#RA100357" xlink:label="loc_RA100357"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA528" xlink:to="loc_RA100357" order="9.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100357" xlink:to="loc_DE3505" order="116.0"/>
+    <link:loc xlink:type="locator" xlink:href="ptr.0002.lodge.request.02.00.report.xsd#RA100358" xlink:label="loc_RA100358"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA528" xlink:to="loc_RA100358" order="10.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100358" xlink:to="loc_DE3505" order="117.0"/>
+    <link:loc xlink:type="locator" xlink:href="ptr.0002.lodge.request.02.00.report.xsd#RA100359" xlink:label="loc_RA100359"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA528" xlink:to="loc_RA100359" order="11.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.04.data.xsd#DE4009" xlink:label="loc_DE4009"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100359" xlink:to="loc_DE4009" order="129.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.04.data.xsd#DE3993" xlink:label="loc_DE3993"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100359" xlink:to="loc_DE3993" order="130.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.05.data.xsd#DE3535" xlink:label="loc_DE3535"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100359" xlink:to="loc_DE3535" order="131.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.02.data.xsd#DE3564" xlink:label="loc_DE3564"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100359" xlink:to="loc_DE3564" order="132.0"/>
+    <link:loc xlink:type="locator" xlink:href="ptr.0002.lodge.request.02.00.report.xsd#RA100362" xlink:label="loc_RA100362"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA528" xlink:to="loc_RA100362" order="14.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100362" xlink:to="loc_RT950" order="181.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/comnmdle/comnmdle.electroniccontacttelephone1.02.00.module.xsd#RT511" xlink:label="loc_RT511"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100362" xlink:to="loc_RT511" order="184.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE53" xlink:label="loc_DE53"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT511" xlink:to="loc_DE53" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE51" xlink:label="loc_DE51"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT511" xlink:to="loc_DE51" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE48" xlink:label="loc_DE48"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT511" xlink:to="loc_DE48" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE52" xlink:label="loc_DE52"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RT511" xlink:to="loc_DE52" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.data.xsd#DE1641" xlink:label="lbl_Identifiers.TaxAgentClientReference.Text"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100362" xlink:to="lbl_Identifiers.TaxAgentClientReference.Text" order="180.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.data.xsd#DE217" xlink:label="lbl_Identifiers.TaxAgentNumber.Identifier"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100362" xlink:to="lbl_Identifiers.TaxAgentNumber.Identifier" order="180.5"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA100362" xlink:to="loc_RT688" order="180.7"/>
+  </link:presentationLink>
+</link:linkbase>

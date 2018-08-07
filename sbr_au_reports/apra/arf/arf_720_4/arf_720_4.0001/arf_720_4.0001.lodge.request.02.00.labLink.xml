@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:href="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#Label"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:href="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#reportGuidance"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/rprt/apra/arf/arf_720_4/arf_720_4.0001.lodge.request.02.00/labRole" xlink:href="arf_720_4.0001.lodge.request.02.00.xsd#arf_720_4.0001.lodge.request.02.00.labLink"/>
+	<link:labelLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/apra/arf/arf_720_4/arf_720_4.0001.lodge.request.02.00/labRole">
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo7.02.26.data.xsd#DE956" xlink:label="loc_DE956" xlink:title="Assets.Investment.DebtSecuritiesHeld.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE956" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Debt securities held - market value</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE956" xlink:to="lbl_DE956" xlink:title="label: Assets.Investment.DebtSecuritiesHeld.Amount to label_Assets.Investment.DebtSecuritiesHeld.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE956_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance">It includes: negotiable certificates of deposit; bills of exchange; and hybrid securities treated as liabilities under accounting standards. Exclude: non-negotiable certificate of deposits; and hybrid securities treated as equity under accounting standards.  
+All securities must be reported at their market value, irrespective of how these instruments are classified on the reporting entity's balance sheet and/or how they are typically valued under accounting standards.</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE956" xlink:to="lbl_DE956_1" xlink:title="label: Assets.Investment.DebtSecuritiesHeld.Amount to label_Assets.Investment.DebtSecuritiesHeld.Amount"/>
+	</link:labelLink>
+</link:linkbase>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="emsup.02.11.data.xsd#emsup.02.11_emsupAbstract" xlink:label="loc_emsup.02.11_emsupAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_emsupAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_emsup.02.11_emsupAbstract" xlink:to="lbl_emsupAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.11.data.xsd#DE1943" xlink:label="loc_DE1943"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE1943" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Contribution Total Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1943" xlink:to="lbl_DE1943"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE1943" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for any contributions paid in from all possible sources.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.11.data.xsd#DE13188" xlink:label="loc_DE13188"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13188" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Benefit Payments Made In Accordance With Actuarial Recommendations Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13188" xlink:to="lbl_DE13188"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13188" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the members benefit payments were made in accordance with actuarial recommendations during the relevant period.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13188" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = members benefit payments were made in accordance with actuarial recommendations during the relevant period. 
+false = members benefit payments were not made in accordance with actuarial recommendations during the relevant period.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.11.data.xsd#DE13206" xlink:label="loc_DE13206"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13206" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Employer Sponsor Count</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13206" xlink:to="lbl_DE13206"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13206" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the number, as at the relevant date, of employer-sponsors within the meaning given in the Superannuation Industry (Supervision) Act (SIS Act).</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.11.data.xsd#DE13187" xlink:label="loc_DE13187"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13187" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Employer Sponsor Participation Limited Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13187" xlink:to="lbl_DE13187"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13187" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the employer sponsor participation is limited during the relevant period.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13187" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values. 
+true = employer sponsor participation is limited during the relevant period. 
+false = employer sponsor participation is not limited during the relevant period.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.11.data.xsd#DE13208" xlink:label="loc_DE13208"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13208" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Interposed Associate Count</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13208" xlink:to="lbl_DE13208"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13208" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the number, as at the relevant date, of the interposed associates. Interposed associate represents an associate that has been engaged to manage some or all of the investments of the Registrable Superannuation Entity (RSE) that invests in other investment vehicles.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13208" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Exclude: an investment vehicle that holds the Registrable Superannuation Entity's investment.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.11.data.xsd#DE13227" xlink:label="loc_DE13227"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13227" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Member Profile Maximum Account Balance Number</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13227" xlink:to="lbl_DE13227"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13227" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the maximum allowable member account balance in the product.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.11.data.xsd#DE13226" xlink:label="loc_DE13226"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13226" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Member Profile Maximum Age Number</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13226" xlink:to="lbl_DE13226"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13226" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the maximum allowable age of a member in the product.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.11.data.xsd#DE13228" xlink:label="loc_DE13228"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13228" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Member Profile Maximum Contribution Rate Percent</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13228" xlink:to="lbl_DE13228"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13228" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the percentage, as at the relevant date, of the maximum allowable contribution rate, as a percentage of the member's salary, for a member in the product.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.11.data.xsd#DE13222" xlink:label="loc_DE13222"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13222" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Member Profile Maximum Salary Number</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13222" xlink:to="lbl_DE13222"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13222" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the maximum allowable salary of a member in the product.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.11.data.xsd#DE13230" xlink:label="loc_DE13230"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13230" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Member Profile Maximum Time Remaining To Retirement Number</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13230" xlink:to="lbl_DE13230"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13230" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the maximum allowable number of years until retirement for a member in the product.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.11.data.xsd#DE13219" xlink:label="loc_DE13219"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13219" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Member Profile Minimum Account Balance Number</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13219" xlink:to="lbl_DE13219"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13219" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the minimum allowable member account balance in the product.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.11.data.xsd#DE13220" xlink:label="loc_DE13220"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13220" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Member Profile Minimum Age Number</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13220" xlink:to="lbl_DE13220"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13220" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the minimum allowable age of a member in the product.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.11.data.xsd#DE13221" xlink:label="loc_DE13221"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13221" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Member Profile Minimum Contribution Rate Percent</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13221" xlink:to="lbl_DE13221"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13221" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the percentage, as at the relevant date, of the minimum allowable contribution rate, as a percentage of the member's salary, for a member in the product.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.11.data.xsd#DE13229" xlink:label="loc_DE13229"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13229" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Member Profile Minimum Salary Number</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13229" xlink:to="lbl_DE13229"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13229" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the minimum allowable salary of a member in the product.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.11.data.xsd#DE13223" xlink:label="loc_DE13223"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13223" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Member Profile Minimum Time Remaining To Retirement Number</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13223" xlink:to="lbl_DE13223"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13223" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the minimum allowable number of years until retirement for a member in the product.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.11.data.xsd#DE13224" xlink:label="loc_DE13224"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13224" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Member Profile Other Factors Text</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13224" xlink:to="lbl_DE13224"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13224" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the description, as at the relevant date, of any other factors determining membership in a product.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.11.data.xsd#DE13234" xlink:label="loc_DE13234"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13234" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Membership Coverage Count</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13234" xlink:to="lbl_DE13234"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13234" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the number, as at the relevant date, of member accounts entitled to be offered the insurance cover as disclosed in the Product Disclosure Statement (PDS) or other disclosure material.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.11.data.xsd#DE13216" xlink:label="loc_DE13216"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13216" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Membership Profile Gender Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13216" xlink:to="lbl_DE13216"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13216" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the classification, as at the relevant date, of allowable gender of a member in the product.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13216" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">The valid enumerated values are:
+Female = Where women are the only determinant for membership in a lifecycle stage,
+Male = Where men are the only determinant for membership in a lifecycle stage,
+Either = Where gender is not a determinant for membership in a lifecycle stage</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.11.data.xsd#DE13210" xlink:label="loc_DE13210"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13210" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Representative Member Net Return Percent</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13210" xlink:to="lbl_DE13210"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13210" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the percentage, during the relevant period, of the net return for a representative member. It equates to the net investment return that is also net of administration and advice fees, costs and taxes calculated for a representative member.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.11.data.xsd#DE13201" xlink:label="loc_DE13201"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13201" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Tax Expense Benefit Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13201" xlink:to="lbl_DE13201"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13201" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, of the tax benefits/expenses derived from fees or costs charged to a member.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.11.data.xsd#DE13202" xlink:label="loc_DE13202"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13202" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Tax Expense Benefit Percent</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13202" xlink:to="lbl_DE13202"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13202" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the percentage, during the relevant period, of the tax benefits/expenses derived from fees or costs charged to a member.</link:label>
+    </link:labelLink>
+</link:linkbase>

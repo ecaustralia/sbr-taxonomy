@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema targetNamespace="http://sbr.gov.au/rprt/asic/fs70/fs70.0001.private.02.00.module" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fs70.0001.prv.02.00="http://sbr.gov.au/rprt/asic/fs70/fs70.0001.private.02.00.module" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:h04.02.02="http://sbr.gov.au/dims/RprtPyType.02.02.dims" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:href="fs70.0001.private.02.00.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="fs70.0001.private.02.00.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="fs70.0001.private.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/asic/fs70/fs70.0001.private.02.00/labRole" id="fs70.0001.02.00.privatelabLinkInfoCls">
+				<link:definition>fs70.0001_private</link:definition>
+				<link:usedOn>link:labelLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/asic/fs70/fs70.0001.private.02.00/refRole" id="fs70.0001.02.00.privaterefLink">
+				<link:definition>fs70.0001_private</link:definition>
+				<link:usedOn>link:referenceLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/asic/fs70/fs70.0001.private.02.00/defRole" id="fs70.0001.02.00.privatedefLink">
+				<link:definition>fs70.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/asic/fs70/fs70.0001.private.02.00/hypercubes/ReportingParty" id="fs70.0001.02.00.privatedefLink.ReportingParty">
+				<link:definition>fs70.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/asic/fs70/fs70.0001.private.02.00/hypercubes/Intermediary" id="fs70.0001.02.00.privatedefLink.Intermediary">
+				<link:definition>fs70.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/asic/fs70/fs70.0001.private.02.00/hypercubes/ReportingParty.Intermediary.Auditor" id="fs70.0001.02.00.privatedefLink.ReportingParty.Intermediary.Auditor">
+				<link:definition>fs70.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/asic/fs70/fs70.0001.private.02.00/hypercubes/Auditor" id="fs70.0001.02.00.privatedefLink.Auditor">
+				<link:definition>fs70.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.02.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.02.data.xsd"/>
+	<xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+	<xsd:element name="ReportingPartyPrimaryItemsAbstract" id="RA1038" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyIntermediaryAuditorPrimaryItemsAbstract" id="RA1039" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+	<xsd:element name="AuditorPrimaryItemsAbstract" id="RA1040" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+	<xsd:element name="IntermediaryPrimaryItemsAbstract" id="RA1041" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyIntermediaryAuditor" id="HC1039" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingParty" id="HC1038" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+	<xsd:element name="Intermediary" id="HC1041" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+	<xsd:element name="Auditor" id="HC1040" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+</xsd:schema>

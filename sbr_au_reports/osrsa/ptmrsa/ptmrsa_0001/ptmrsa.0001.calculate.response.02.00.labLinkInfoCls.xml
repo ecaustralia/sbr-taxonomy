@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt" xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#sbrReportLabel"/>
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#Label"/>
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#reportGuidance"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/osrsa/ptmrsa/ptmrsa.0001.calculate.response.02.00/labRole" xlink:type="simple" xlink:href="ptmrsa.0001.calculate.response.02.00.report.xsd#ptmrsa.0001.calculate.rsp.02.00.calculate.responselabLinkInfoCls"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/osrsa/ptmrsa/ptmrsa.0001.calculate.response.02.00/labRole">
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.01.data.xsd#DE626" xlink:label="loc_DE626"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE626" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">EFT Payment Reference Number</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE626" xlink:to="lbl_DE626" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE626" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">EFT Payment Reference Number - This number is a unique reference number that is used to allocate your payment to the correct return period</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.03.data.xsd#DE824" xlink:label="loc_DE824"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE824" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Payment Method</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE824" xlink:to="lbl_DE824" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE824" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Payment Method - The payment method the client is registered to use in RevNet.</link:label>
+ 	<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc3.02.00.data.xsd#DE869" xlink:label="loc_DE869" xlink:type="locator"/>
+	<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE869" xlink:to="lbl_DE869" xlink:type="arc"/>
+	<link:label xlink:label="lbl_DE869" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Tax Rate Type Code</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc3.02.00.data.xsd#DE868" xlink:label="loc_DE868"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE868" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Rate Percentage</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE868" xlink:to="lbl_DE868" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE868" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Rate Percentage - Legislated rate in South Australia for the return period. Generally this is the same for the financial year but Parliament could potentially set a rate that changes during the year.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc5.02.00.data.xsd#DE131" xlink:label="loc_DE131"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE131" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Calculated Tax Payable</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE131" xlink:to="lbl_DE131" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE131" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Calculated Tax Payable - Either calculated when user has entered SA taxable wages and deduction entitlement.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd#DE145" xlink:label="loc_DE145"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE145" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">South Australian Taxable Wages</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE145" xlink:to="lbl_DE145" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE145" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">South Australian Taxable Wages - SA taxable wages. SA wage components refers to the types of remunerations that are liable to
+payroll tax. SA wage components include:
+
+    Salaries and wages
+    Fringe benefits
+    Employer superannuation contributions
+    Director's fees
+    Payments to contractors under relevant contracts
+    Allowances
+    Share scheme contributions
+    Bonuses and commissions
+    Make-up pay additional to worker's compensation payments. That is,
+    payments you make to an employee that are more than the amount specified
+    in the award or agreement.
+    Motor vehicle allowance - the exempt rate is 70 cents per business kilometer
+    travelled for the use of an employee's own motor vehicle (threshold reviewed annually). Amounts paid
+    above the exempt rate will be subject to payroll tax. (Log books must be
+    maintained to establish business kilometers travelled).
+    Accommodation allowance - the exempt rate is $218.30 per night (threshold reviewed annually). Amounts
+    paid above the exempt rate will be subject to payroll tax.
+    Cash allowances not liable to fringe benefits tax
+    Payments to or by a third party for employees' services - whether at piece-
+    work rates or otherwise, and whether paid in cash or in kind
+    Payments to expatriate staff (for less than six months of continuous services overseas)
+    Any accrued annual leave and long service leave paid to an employee when
+    they leave your business, irrespective of when it accrued
+    Employment termination payments (ETP). The amount of the ETP that is
+    subject to payroll tax is the amount that would be subject to income tax in the hands of the employee.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc5.02.00.data.xsd#DE395" xlink:label="loc_DE395"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE395" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Estimated Deduction Entitlement</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE395" xlink:to="lbl_DE395" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE395" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Estimated Deduction Entitlement - Currently entered into the system by the client - provided to the client as part of their previous year's annual reconciliation. Mandatory if SA taxable wages is entered. Not mandatory if client enters SA tax payable.</link:label>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc5.02.00.data.xsd#DE502" xlink:label="loc_DE502"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE502" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Taxable Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE502" xlink:to="lbl_DE502" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE502" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">Taxable Amount - Derived but displayed to the user.</link:label>
+    <link:loc xlink:type="locator" xlink:href="ptmrsa.0001.calculate.response.02.00.report.xsd#RA854" xlink:label="loc_RA854"/>
+    <link:label xlink:type="resource" xlink:label="lbl_RA854" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">PTMRSA Calculate Response [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA854" xlink:to="lbl_RA854" order="1.0"/>
+  </link:labelLink>
+</link:linkbase>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#Label"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#reportGuidance"/>
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/pptr/pptr.0001.lodge.response.02.00/labRole" xlink:type="simple" xlink:href="pptr.0001.lodge.response.02.00.report.xsd#pptr.0001.lodge.response.02.00.labLinkInfoCls"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/pptr/pptr.0001.lodge.response.02.00/labRole">
+        <link:loc xlink:type="locator" xlink:href="pptr.0001.lodge.response.02.00.report.xsd#RA4642" xlink:label="loc_RA4642"/>
+        <link:label xlink:type="resource" xlink:label="lbl_RA4642" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">PPTRLodgeResponse [Abstract]</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA4642" xlink:to="lbl_RA4642"/>
+        <link:loc xlink:type="locator" xlink:href="pptr.0001.lodge.response.02.00.report.xsd#RA100284" xlink:label="loc_RA100284"/>
+        <link:label xlink:type="resource" xlink:label="lbl_RA100284" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">RP Primary Items [Abstract]</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA100284" xlink:to="lbl_RA100284"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.20.data.xsd#DE13805" xlink:label="loc_DE13805"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13805" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">This will return the allowed lodgment type.
+
+The valid values are:
+standard = only a standard return may be lodged
+simplified = a simple return may be lodged</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13805" xlink:to="lbl_DE13805"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13805" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Type of lodgment allowed</link:label>
+    </link:labelLink>
+</link:linkbase>

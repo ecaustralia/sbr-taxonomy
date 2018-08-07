@@ -1,0 +1,1384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:bafot.02.25="http://sbr.gov.au/icls/baf/bafot/bafot.02.25.data" xmlns:bafpr1.02.26="http://sbr.gov.au/icls/baf/bafpr/bafpr1.02.26.data" xmlns:bafpr3.02.21="http://sbr.gov.au/icls/baf/bafpr/bafpr3.02.21.data" xmlns:hrf_601_1_2="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00.report" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:report="http://sbr.gov.au/rprt/apra/apra.report.02.11.module" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00.report">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafot/bafot.02.25.labLink.xml"/>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr3.02.21.labLink.xml"/>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.26.labLink.xml"/>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:href="hrf_601_1_2.0001.lodge.request.02.00.labLink.xml"/>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/labRole" id="hrf_601_1_2.0001.lodge.request.02.00.labLink">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:labelLink</link:usedOn>
+			</link:roleType>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:href="hrf_601_1_2.0001.lodge.request.02.00.defLink.xml"/>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole" id="hrf_601_1_2.0001.lodge.request.02.00.defLink">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:href="hrf_601_1_2.0001.lodge.request.02.00.presLink.xml"/>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/presRole" id="hrf_601_1_2.0001.lodge.request.02.00.presLink">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole1_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink1_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole2_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink2_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole3_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink3_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole4_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink4_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole5_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink5_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole6_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink6_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole7_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink7_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole8_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink8_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole9_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink9_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole10_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink10_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole11_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink11_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole12_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink12_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole13_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink13_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole14_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink14_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole15_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink15_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole16_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink16_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole17_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink17_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole18_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink18_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole19_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink19_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole20_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink20_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole21_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink21_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole22_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink22_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole23_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink23_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole24_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink24_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole25_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink25_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole26_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink26_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole27_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink27_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole28_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink28_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole29_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink29_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole30_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink30_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole31_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink31_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole32_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink32_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole33_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink33_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole34_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink34_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole35_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink35_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole36_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink36_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole37_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink37_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole38_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink38_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole39_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink39_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole40_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink40_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole41_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink41_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole42_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink42_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole43_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink43_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole44_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink44_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole45_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink45_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole46_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink46_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole47_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink47_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole48_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink48_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole49_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink49_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole50_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink50_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole51_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink51_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole52_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink52_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole53_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink53_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole54_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink54_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole55_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink55_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole56_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink56_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole57_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink57_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole58_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink58_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole59_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink59_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole60_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink60_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole61_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink61_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole62_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink62_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole63_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink63_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole64_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink64_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole65_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink65_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole66_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink66_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole67_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink67_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole68_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink68_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole69_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink69_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole70_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink70_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole71_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink71_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole72_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink72_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole73_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink73_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole74_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink74_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole75_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink75_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole76_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink76_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole77_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink77_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole78_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink78_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole79_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink79_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole80_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink80_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole81_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink81_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole82_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink82_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole83_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink83_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole84_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink84_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole85_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink85_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole86_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink86_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole87_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink87_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole88_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink88_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole89_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink89_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole90_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink90_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole91_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink91_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole92_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink92_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole93_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink93_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole94_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink94_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole95_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink95_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole96_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink96_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole97_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink97_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole98_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink98_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole99_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink99_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole100_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink100_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole101_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink101_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole102_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink102_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole103_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink103_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole104_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink104_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole105_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink105_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole106_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink106_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole107_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink107_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole108_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink108_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole109_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink109_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole110_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink110_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole111_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink111_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole112_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink112_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole113_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink113_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole114_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink114_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole115_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink115_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole116_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink116_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole117_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink117_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole118_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink118_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole119_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink119_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole120_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink120_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole121_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink121_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole122_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink122_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole123_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink123_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole124_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink124_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole125_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink125_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole126_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink126_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole127_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink127_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole128_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink128_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole129_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink129_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole130_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink130_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole131_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink131_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole132_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink132_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole133_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink133_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole134_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink134_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole135_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink135_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole136_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink136_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole137_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink137_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole138_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink138_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole139_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink139_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole140_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink140_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole141_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink141_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole142_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink142_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole143_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink143_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole144_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink144_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole145_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink145_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole146_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink146_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole147_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink147_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole148_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink148_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole149_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink149_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole150_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink150_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole151_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink151_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole152_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink152_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole153_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink153_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole154_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink154_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole155_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink155_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole156_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink156_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole157_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink157_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole158_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink158_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole159_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink159_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole160_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink160_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole161_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink161_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole162_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink162_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole163_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink163_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole164_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink164_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole165_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink165_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole166_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink166_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole167_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink167_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole168_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink168_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole169_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink169_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole170_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink170_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole171_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink171_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole172_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink172_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole173_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink173_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole174_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink174_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole175_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink175_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole176_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink176_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole177_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink177_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole178_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink178_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole179_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink179_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole180_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink180_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole181_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink181_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole182_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink182_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole183_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink183_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole184_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink184_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole185_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink185_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole186_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink186_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole187_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink187_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole188_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink188_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole189_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink189_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole190_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink190_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole191_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink191_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole192_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink192_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole193_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink193_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole194_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink194_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole195_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink195_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole196_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink196_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole197_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink197_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole198_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink198_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole199_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink199_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole200_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink200_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole201_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink201_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole202_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink202_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole203_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink203_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole204_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink204_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole205_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink205_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole206_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink206_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole207_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink207_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole208_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink208_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole209_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink209_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole210_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink210_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole211_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink211_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole212_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink212_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole213_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink213_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole214_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink214_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole215_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink215_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole216_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink216_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole217_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink217_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole218_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink218_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole219_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink219_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole220_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink220_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole221_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink221_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole222_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink222_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole223_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink223_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole224_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink224_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole225_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink225_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole226_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink226_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole227_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink227_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole228_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink228_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole229_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink229_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole230_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink230_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole231_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink231_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole232_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink232_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole233_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink233_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole234_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink234_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole235_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink235_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole236_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink236_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole237_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink237_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole238_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink238_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole239_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink239_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole240_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink240_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole241_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink241_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole242_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink242_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole243_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink243_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole244_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink244_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole245_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink245_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole246_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink246_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole247_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink247_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole248_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink248_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole249_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink249_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole250_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink250_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole251_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink251_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole252_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink252_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole253_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink253_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole254_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink254_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole255_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink255_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole256_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink256_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole257_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink257_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole258_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink258_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole259_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink259_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole260_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink260_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole261_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink261_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole262_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink262_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole263_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink263_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole264_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink264_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole265_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink265_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole266_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink266_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole267_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink267_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole268_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink268_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole269_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink269_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole270_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink270_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole271_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink271_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole272_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink272_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole273_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink273_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole274_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink274_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole275_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink275_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole276_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink276_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole277_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink277_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole278_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink278_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole279_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink279_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole280_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink280_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole281_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink281_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole282_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink282_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole283_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink283_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole284_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink284_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole285_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink285_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole286_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink286_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole287_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink287_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole288_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink288_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole289_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink289_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole290_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink290_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole291_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink291_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole292_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink292_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole293_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink293_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole294_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink294_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole295_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink295_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole296_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink296_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole297_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink297_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole298_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink298_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole299_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink299_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole300_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink300_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole301_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink301_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole302_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink302_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole303_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink303_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole304_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink304_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole305_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink305_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole306_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink306_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole307_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink307_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole308_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink308_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole309_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink309_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole310_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink310_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole311_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink311_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole312_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink312_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole313_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink313_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole314_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink314_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole315_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink315_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole316_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink316_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole317_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink317_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole318_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink318_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole319_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink319_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole320_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink320_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole321_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink321_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole322_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink322_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole323_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink323_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole324_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink324_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole325_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink325_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole326_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink326_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole327_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink327_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole328_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink328_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole329_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink329_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/hrf/hrf_601_1_2/hrf_601_1_2.0001.lodge.request.02.00/defRole330_1" id="hrf_601_1_2.0001.lodge.request.02.00.defLink330_1">
+				<link:definition>hrf_601_1_2.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/rprt/apra/apra.report.02.11.module" schemaLocation="../../../../../sbr_au_reports/apra/apracomn/apra.report.02.11.module.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/rprt/apra/sbr_au\sbr_au_reports\apra\hrf\hrf_601_1_2\hrf_601_1_2.0001\hrf_601_1_2.0001.private.02.00.module" schemaLocation="hrf_601_1_2.0001.private.02.00.module.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/baf/bafot/bafot.02.25.data" schemaLocation="../../../../../sbr_au_taxonomy/icls/baf/bafot/bafot.02.25.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/baf/bafpr/bafpr3.02.21.data" schemaLocation="../../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr3.02.21.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/baf/bafpr/bafpr1.02.26.data" schemaLocation="../../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr1.02.26.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/InsrdPrsnsCvr.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/InsrdPrsnsCvr.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/AuStsTerrOS.02.04.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/AuStsTerrOS.02.04.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/GapAgreement.02.01.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/GapAgreement.02.01.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/HospitalType.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/HospitalType.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/GnrlTrtmntCtgrs.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/GnrlTrtmntCtgrs.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/LftmHlthCvrLdng.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/LftmHlthCvrLdng.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/CoverType.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/CoverType.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/HlthBnftTyps.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/HlthBnftTyps.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/RskEqlstnElgblty.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/RskEqlstnElgblty.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/PlcyOrPrsnMvmntRsn.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/PlcyOrPrsnMvmntRsn.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/ExcssAndCPymntAmnts.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/ExcssAndCPymntAmnts.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/LftmHlthCvrCrtfdAg.02.01.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/LftmHlthCvrCrtfdAg.02.01.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/RelativeFeeSize.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/RelativeFeeSize.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/Description.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/Description.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/HlthBnftsFnd.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/HlthBnftsFnd.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/GnrlTrtmntTyp.02.01.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/GnrlTrtmntTyp.02.01.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/ChrncDssMngmntPrgrmDlvrbls.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/ChrncDssMngmntPrgrmDlvrbls.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/AgeRange.02.03.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/AgeRange.02.03.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/Gender.02.03.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/Gender.02.03.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/ExclsnryTyp.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/ExclsnryTyp.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/HsptlAndHsptlSbstttTrtmntTyps.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/HsptlAndHsptlSbstttTrtmntTyps.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/PrdType.02.02.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/PrdType.02.02.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/ExcessType.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/ExcessType.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/LngthOfTrtmnt.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/LngthOfTrtmnt.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/PlcyTrtmntTyp.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/PlcyTrtmntTyp.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/PatientType.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/PatientType.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/PrvtHsptlTyp.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/PrvtHsptlTyp.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/TypsOfChrncDssMngmntPrgrm.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/TypsOfChrncDssMngmntPrgrm.02.00.data.xsd"/>
+	<xsd:element name="ReportHeader" substitutionGroup="xbrli:tuple" nillable="false" id="hrf_601_1_2_ReportHeader" type="report:reportHeaderType"/>
+	<xsd:element name="ReportContent" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="instant" nillable="false" abstract="true" id="hrf_601_1_2_ReportContent"/>
+</xsd:schema>

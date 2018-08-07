@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="HedgingType.02.00.data.xsd#DM666" xlink:label="loc_DM666"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM666" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Hedging Type Dimension</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DM666" xlink:to="lbl_DM666"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM666" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This dimension categorises the reported information based on the specific type of hedging applied. Hedging refers to transactions where the purpose is to offset the risk of changes in the fair value of cash flows of another contract.</link:label>
+        <link:loc xlink:type="locator" xlink:href="HedgingType.02.00.data.xsd#DV7100" xlink:label="loc_DV7100"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7100" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Currency Hedge</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7100" xlink:to="lbl_DV7100"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7100" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The information reported is currency hedged. This represents where derivative financial instruments are used to reduce the risk of adverse currency movements.</link:label>
+    </link:labelLink>
+</link:linkbase>

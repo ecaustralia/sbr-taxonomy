@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="emsup.02.23.data.xsd#emsup.02.23_emsupAbstract" xlink:label="loc_emsup.02.23_emsupAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_emsupAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_emsup.02.23_emsupAbstract" xlink:to="lbl_emsupAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.23.data.xsd#DE14167" xlink:label="loc_DE14167"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14167" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Rollover Other Details Description</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14167" xlink:to="lbl_DE14167"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14167" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A description of the additional reportable amount relevant to the superannuation rollover.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.23.data.xsd#DE14166" xlink:label="loc_DE14166"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14166" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Rollover Other Details Text</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14166" xlink:to="lbl_DE14166"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14166" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Additional reportable information about the superannuation rollover.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.23.data.xsd#DE14165" xlink:label="loc_DE14165"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14165" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Rollover Unclaimed Superannuation Money Date</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14165" xlink:to="lbl_DE14165"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14165" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The date of the unclaimed money day, which is the last day of an unclaimed money period.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14165" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">The unclaimed money day provided must directly correspond to a scheduled statement day.
+The unclaimed money days and scheduled statement days are:
+30 June if the scheduled statement day is 31 October of the same year; or
+31 December if the scheduled statement day is 30 April of the following year.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.23.data.xsd#DE14164" xlink:label="loc_DE14164"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14164" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Rollover Unclaimed Superannuation Money Reason Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14164" xlink:to="lbl_DE14164"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14164" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The code that represents the reason for the payment of any Unclaimed Superannuation Money (USM) .</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14164" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+R = Temporary resident (received s20C Notice).
+Q = Small lost member accounts (less than threshold and lost).
+P = Insoluble lost member accounts (insoluble and lost).
+A = Member reached eligible age.
+N = Non-member spouse.
+D = Deceased member.</link:label>
+    </link:labelLink>
+</link:linkbase>

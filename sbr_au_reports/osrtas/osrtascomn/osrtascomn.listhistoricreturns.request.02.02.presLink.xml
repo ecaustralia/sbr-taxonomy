@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:osrtascomn.listhistoricreturns.req.02.02="http://sbr.gov.au/rprt/osrtas/osrtascomn/osrtascomn.listhistoricreturns.request.02.02.report" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/osrtas/osrtascomn/osrtascomn.listhistoricreturns.request.02.02/presRole" xlink:type="simple" xlink:href="osrtascomn.listhistoricreturns.request.02.02.report.xsd#osrtascomn.listhistoricreturns.request.02.02.presLink"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/osrtas/osrtascomn/osrtascomn.listhistoricreturns.request.02.02/presRole">
+    <link:loc xlink:type="locator" xlink:href="osrtascomn.listhistoricreturns.request.02.02.report.xsd#RA839" xlink:label="loc_RA839"/>
+    <link:loc xlink:type="locator" xlink:href="osrtascomn.private.02.01.module.xsd#RA836" xlink:label="ReportingPartyPrimaryItemsAbstract" xlink:title="ReportingPartyPrimaryItemsAbstract"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RA839" xlink:to="ReportingPartyPrimaryItemsAbstract" xlink:title="presentation: OSRTASCOMNListHistoricReturnsRequestAbstract to ReportingPartyPrimaryItemsAbstract" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE3155" xlink:label="Report.Submission.Date"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ReportingPartyPrimaryItemsAbstract" xlink:to="Report.Submission.Date" xlink:title="presentation: ReportingPartyPrimaryItemsAbstract to Report.Submission.Date" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.02.data.xsd#DE833" xlink:label="Report.Type.Code"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ReportingPartyPrimaryItemsAbstract" xlink:to="Report.Type.Code" xlink:title="presentation: ReportingPartyPrimaryItemsAbstract to Report.Type.Code" use="optional" order="2.0"/>
+  </link:presentationLink>
+</link:linkbase>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dtyp.02.02="http://sbr.gov.au/fdtn/sbr.02.02.dtyp" xmlns:lrla.02.04="http://sbr.gov.au/icls/lr/lrla/lrla.02.04.data" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/lr/lrla/lrla.02.04.data" elementFormDefault="qualified">
+	<xsd:annotation>
+		<xsd:appinfo>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.02.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.02.xsd" />
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:element name="lrlaAbstract" id="lrla.02.04_lrlaAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+	<xsd:element name="EmployerConditions.GroupMember.InformationDisclosureAuthorisation.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE3552" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="Remuneration.EmploymentAllowancesIncludingApprenticesAndTrainees.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE3560" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="Remuneration.WagesAndSalaries.EstimatedTaxableInterstateWages.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE3539" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="Remuneration.WagesAndSalaries.EstimatedTaxableStateWages.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE3538" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="Remuneration.WagesAndSalaries.GroupEstimatedGrossTaxableInterstateWages.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE3551" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="Remuneration.WagesAndSalaries.GroupEstimatedGrossTaxableStateWages.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE3550" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="Remuneration.WagesAndSalaries.InterstateOnlyMembersGrossTaxableInterstateWages.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE3543" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="Remuneration.WagesAndSalaries.OrdinaryMembersGrossTaxableAustralianWages.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE3549" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="Remuneration.WagesAndSalaries.SharesAndOptionsOffset.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE3537" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="Remuneration.WagesAndSalaries.TotalOrdinaryMembersGrossTaxableInterstateWages.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE3548" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="Remuneration.WagesAndSalaries.TotalOrdinaryMembersGrossTaxableVictorianWages.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE3547" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="Remuneration.WagesAndSalaries.TotalOrdinaryScheduledMembersGrossTaxableAustralianWages.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE3546" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="Remuneration.WagesAndSalaries.TotalOrdinaryScheduledMembersGrossTaxableInterstateWages.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE3545" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="Remuneration.WagesAndSalaries.TotalOrdinaryScheduledMembersGrossTaxableStateWages.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE3544" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+</xsd:schema>

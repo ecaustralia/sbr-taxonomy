@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:cgts.0004.prv.02.01="http://sbr.gov.au/rprt/ato/cgts/cgts.0004.private.02.01.module" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:AMITCharType.02.01="http://sbr.gov.au/dims/AMITCharType.02.01.dims" xmlns:RelPrdDrtn.02.04="http://sbr.gov.au/dims/RelPrdDrtn.02.04.dims" xmlns:AccntTrtmntMthdDim.02.00="http://sbr.gov.au/dims/AccntTrtmntMthdDim.02.00.dims" xmlns:EarnoutArrgmtGrpItmDim.02.00="http://sbr.gov.au/dims/EarnoutArrgmtGrpItmDim.02.00.dims" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:RprtPyType.02.12="http://sbr.gov.au/dims/RprtPyType.02.12.dims" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:AssetType.02.01="http://sbr.gov.au/dims/AssetType.02.01.dims" targetNamespace="http://sbr.gov.au/rprt/ato/cgts/cgts.0004.private.02.01.module" elementFormDefault="qualified">
+    <xsd:annotation>
+        <xsd:appinfo>
+            <link:linkbaseRef xlink:type="simple" xlink:href="cgts.0004.private.02.01.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="cgts.0004.private.02.01.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgts/cgts.0004.private.02.01/defRole" id="cgts.0004.02.01.privatedefLink">
+                <link:definition>cgts.0004_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgts/cgts.0004.private.02.01/labRole" id="cgts.0004.02.01.privatelabLinkInfoCls">
+                <link:definition>cgts.0004_private</link:definition>
+                <link:usedOn>link:labelLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgts/cgts.0004.private.02.01/refRole" id="cgts.0004.02.01.privaterefLink">
+                <link:definition>cgts.0004_private</link:definition>
+                <link:usedOn>link:referenceLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgts/cgts.0004.private.02.01/hypercubes/AppliedReportingParty" id="cgts.0004.02.01.privatedefLinkAppliedReportingParty">
+                <link:definition>cgts.0004_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgts/cgts.0004.private.02.01/hypercubes/AssetTypeReportingParty1" id="cgts.0004.02.01.privatedefLinkAssetTypeReportingParty1">
+                <link:definition>cgts.0004_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgts/cgts.0004.private.02.01/hypercubes/AssetTypeReportingParty2" id="cgts.0004.02.01.privatedefLinkAssetTypeReportingParty2">
+                <link:definition>cgts.0004_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgts/cgts.0004.private.02.01/hypercubes/EarnoutArrgmtGrpItmDimReportingParty" id="cgts.0004.02.01.privatedefLinkEarnoutArrgmtGrpItmDimReportingParty">
+                <link:definition>cgts.0004_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgts/cgts.0004.private.02.01/hypercubes/ReportingParty" id="cgts.0004.02.01.privatedefLinkReportingParty">
+                <link:definition>cgts.0004_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgts/cgts.0004.private.02.01/hypercubes/TransfersToOtherClassesReportingParty" id="cgts.0004.02.01.privatedefLinkTransfersToOtherClassesReportingParty">
+                <link:definition>cgts.0004_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgts/cgts.0004.private.02.01/hypercubes/UnappliedCollectablesCGTOtherReportingParty" id="cgts.0004.02.01.privatedefLinkUnappliedCollectablesCGTOtherReportingParty">
+                <link:definition>cgts.0004_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgts/cgts.0004.private.02.01/hypercubes/Y0AppliedReportingParty" id="cgts.0004.02.01.privatedefLinkY0AppliedReportingParty">
+                <link:definition>cgts.0004_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgts/cgts.0004.private.02.01/hypercubes/Y0MinusAppliedReportingParty" id="cgts.0004.02.01.privatedefLinkY0MinusAppliedReportingParty">
+                <link:definition>cgts.0004_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+        </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/AssetType.02.01.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/AssetType.02.01.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.12.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.12.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/RelPrdDrtn.02.04.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RelPrdDrtn.02.04.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/AccntTrtmntMthdDim.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/AccntTrtmntMthdDim.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/EarnoutArrgmtGrpItmDim.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/EarnoutArrgmtGrpItmDim.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/AMITCharType.02.01.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/AMITCharType.02.01.data.xsd"/>
+    <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="AppliedReportingPartyPrimaryItemsAbstract" id="RA100223" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AssetTypeReportingParty1PrimaryItemsAbstract" id="RA100224" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AssetTypeReportingParty2PrimaryItemsAbstract" id="RA100225" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EarnoutArrgmtGrpItmDimReportingPartyPrimaryItemsAbstract" id="RA100226" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingPartyPrimaryItemsAbstract" id="RA100227" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="TransfersToOtherClassesReportingPartyPrimaryItemsAbstract" id="RA100228" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="UnappliedCollectablesCGTOtherReportingPartyPrimaryItemsAbstract" id="RA100229" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="Y0AppliedReportingPartyPrimaryItemsAbstract" id="RA100230" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="Y0MinusAppliedReportingPartyPrimaryItemsAbstract" id="RA100231" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AppliedReportingParty" id="HC100223" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AssetTypeReportingParty1" id="HC100224" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AssetTypeReportingParty2" id="HC100225" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EarnoutArrgmtGrpItmDimReportingParty" id="HC100226" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingParty" id="HC100227" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="TransfersToOtherClassesReportingParty" id="HC100228" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="UnappliedCollectablesCGTOtherReportingParty" id="HC100229" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="Y0AppliedReportingParty" id="HC100230" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="Y0MinusAppliedReportingParty" id="HC100231" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+</xsd:schema>

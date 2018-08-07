@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="rvctc2.02.28.data.xsd#rvctc2.02.28_rvctc2Abstract" xlink:label="loc_rvctc2.02.28_rvctc2Abstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_rvctc2Abstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Collection 2</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_rvctc2.02.28_rvctc2Abstract" xlink:to="lbl_rvctc2Abstract"/>
+        <link:loc xlink:type="locator" xlink:href="rvctc2.02.28.data.xsd#DE15081" xlink:label="loc_DE15081"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE15081" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Medicare Levy Half Or Full Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE15081" xlink:to="lbl_DE15081"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE15081" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A code to identifiy if half or a full Medicare levy exemption has been claimed.  This is subject to an individual's circumstances and is calculated on taxable income only.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE15081" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Half = Half Exemption
+Full = Full Exemption
+Blank = Nil Exemption</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc2.02.28.data.xsd#DE15071" xlink:label="loc_DE15071"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE15071" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Medicare Levy Reduction Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE15071" xlink:to="lbl_DE15071"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE15071" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates if a Medicare levy reduction has been applied.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE15071" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values. 
+true = a Medicare levy reduction has been applied
+false = a Medicare levy reduction has not been applied</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc2.02.28.data.xsd#DE15072" xlink:label="loc_DE15072"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE15072" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Medicare Levy Spouse Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE15072" xlink:to="lbl_DE15072"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE15072" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates if a beneficiary is a spouse.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE15072" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values. 
+true = beneficiary is a spouse
+false = beneficiary is not a spouse</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc2.02.28.data.xsd#DE15068" xlink:label="loc_DE15068"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE15068" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Medicare Levy Surcharge Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE15068" xlink:to="lbl_DE15068"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE15068" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates if a Medicare surcharge levy has been applied for.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE15068" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values:
+true = a Medicare surcharge levy has been applied
+false = No Medicare surcharge levy has been applied</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc2.02.28.data.xsd#DE15070" xlink:label="loc_DE15070"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE15070" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Medicare Levy Surcharge Percent</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE15070" xlink:to="lbl_DE15070"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE15070" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The percentage of Medicare surcharge levy applied.</link:label>
+    </link:labelLink>
+</link:linkbase>

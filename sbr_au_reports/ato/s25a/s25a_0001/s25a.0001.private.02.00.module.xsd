@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema targetNamespace="http://sbr.gov.au/rprt/ato/s25a/s25a.0001.private.02.00.module" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:s25a.0001.prv.02.00="http://sbr.gov.au/rprt/ato/s25a/s25a.0001.private.02.00.module" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:RprtPyType.02.03="http://sbr.gov.au/dims/RprtPyType.02.03.dims" xmlns:OpenCloseBalance.02.00="http://sbr.gov.au/dims/OpenCloseBalance.02.00.dims" xmlns:CountryResCFCClass.02.00="http://sbr.gov.au/dims/CountryResCFCClass.02.00.dims" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.03.labLink.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/OpenCloseBalance.02.00.labLink.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/CountryResCFCClass.02.00.labLink.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="s25a.0001.private.02.00.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="s25a.0001.private.02.00.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/CountryResCFCClass.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/OpenCloseBalance.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.03.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="s25a.0001.private.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/s25a/s25a.0001.private.02.00/labRole" id="s25a.0001.privatelabLinkInfoCls">
+        <link:definition>s25a.0001_private</link:definition>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/s25a/s25a.0001.private.02.00/refRole" id="s25a.0001.privaterefLink">
+        <link:definition>s25a.0001_private</link:definition>
+        <link:usedOn>link:referenceLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/s25a/s25a.0001.private.02.00/defRole" id="s25a.0001.privatedefLink">
+        <link:definition>s25a.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/s25a/s25a.0001.private.02.00/hypercubes/ReportingParty" id="s25a.0001.privatedefLink.ReportingParty">
+        <link:definition>s25a.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/s25a/s25a.0001.private.02.00/hypercubes/ReportingParty.CountryResidencyCFCClassification.OpeningClosingBalance" id="s25a.0001.privatedefLink.ReportingPartyCountryResidencyCFCClassificationOpeningClosingBalance">
+        <link:definition>s25a.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/s25a/s25a.0001.private.02.00/hypercubes/ReportingParty.CountryResidencyCFCClassification1" id="s25a.0001.privatedefLink.ReportingPartyCountryResidencyCFCClassification1">
+        <link:definition>s25a.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/s25a/s25a.0001.private.02.00/hypercubes/ReportingParty.CountryResidencyCFCClassification2" id="s25a.0001.privatedefLink.ReportingPartyCountryResidencyCFCClassification2">
+        <link:definition>s25a.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/s25a/s25a.0001.private.02.00/hypercubes/ReportingParty.CountryResidencyCFCClassification3" id="s25a.0001.privatedefLink.ReportingPartyCountryResidencyCFCClassification3">
+        <link:definition>s25a.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/s25a/s25a.0001.private.02.00/hypercubes/ReportingParty.LoansInterestBearingOpeningClosingBalance" id="s25a.0001.privatedefLink.ReportingPartyLoansInterestBearingOpeningClosingBalance">
+        <link:definition>s25a.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/dims/CountryResCFCClass.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/CountryResCFCClass.02.00.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/dims/OpenCloseBalance.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/OpenCloseBalance.02.00.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.03.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.03.data.xsd"/>
+  <xsd:element name="ReportingPartyPrimaryItemsAbstract" id="RA1166" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyLoansInterestBearingOpeningClosingBalancePrimaryItemsAbstract" id="RA1181" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyCountryResidencyCFCClassificationOpeningClosingBalancePrimaryItemsAbstract" id="RA1182" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyCountryResidencyCFCClassification2PrimaryItemsAbstract" id="RA1183" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyCountryResidencyCFCClassification3PrimaryItemsAbstract" id="RA1184" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyCountryResidencyCFCClassification1PrimaryItemsAbstract" id="RA1186" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingParty" id="HC1166" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyCountryResidencyCFCClassificationOpeningClosingBalance" id="HC1182" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyCountryResidencyCFCClassification1" id="HC1186" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyCountryResidencyCFCClassification2" id="HC1183" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyCountryResidencyCFCClassification3" id="HC1184" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyLoansInterestBearingOpeningClosingBalance" id="HC1181" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+</xsd:schema>

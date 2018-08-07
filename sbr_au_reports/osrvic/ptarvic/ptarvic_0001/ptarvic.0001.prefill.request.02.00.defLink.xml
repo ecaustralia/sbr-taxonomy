@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:p0="http://xbrl.org/2005/xbrldt">
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/osrvic/ptarvic/ptarvic.0001.prefill.request.02.00/defRole" xlink:type="simple" xlink:href="ptarvic.0001.prefill.request.02.00.report.xsd#ptarvic.0001.prefill.req.02.00.prefill.requestdefLink"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/osrvic/ptarvic/ptarvic.0001.private.02.00/hypercubes/ReportingParty.VIC" xlink:type="simple" xlink:href="ptarvic.0001.private.02.00.module.xsd#ptarvic.0001.02.00.privatedefLink.ReportingParty.VIC"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/osrvic/ptarvic/ptarvic.0001.prefill.request.02.00/defRole">
+    <link:loc xlink:type="locator" xlink:href="ptarvic.0001.private.02.00.module.xsd#RA1075" xlink:label="ReportingPartyVICPrimaryItemsAbstract" xlink:title="ReportingPartyVICPrimaryItemsAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="ptarvic.0001.private.02.00.module.xsd#HC1075" xlink:label="ReportingPartyVIC" xlink:title="ReportingPartyVIC"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="ReportingPartyVICPrimaryItemsAbstract" xlink:to="ReportingPartyVIC" xlink:title="definition: ReportingPartyVICPrimaryItemsAbstract to ReportingPartyVIC" order="2.0" p0:targetRole="http://sbr.gov.au/rprt/osrvic/ptarvic/ptarvic.0001.private.02.00/hypercubes/ReportingParty.VIC" p0:contextElement="segment" p0:closed="true"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE915" xlink:label="Period.Unique.Identifier" xlink:title="Period.Unique.Identifier"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ReportingPartyVICPrimaryItemsAbstract" xlink:to="Period.Unique.Identifier" xlink:title="definition: ReportingPartyVICPrimaryItemsAbstract to Period.Unique.Identifier" use="optional" order="3.0"/>
+  </link:definitionLink>
+</link:linkbase>

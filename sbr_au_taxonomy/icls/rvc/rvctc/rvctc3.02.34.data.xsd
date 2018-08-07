@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:rvctc3.02.34="http://sbr.gov.au/icls/rvc/rvctc/rvctc3.02.34.data" xmlns:dtyp.02.45="http://sbr.gov.au/fdtn/sbr.02.45.dtyp" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/rvc/rvctc/rvctc3.02.34.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.45.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.45.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="rvctc3Abstract" id="rvctc3.02.34_rvctc3Abstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="Capital.Losses.DeductedOwnershipTestFailContinuityTestPass.Amount" id="DE3327" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+    <xsd:element name="Capital.Losses.TransferredFromJoiningEntitiesAfterConsolidation.Amount" id="DE3236" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+    <xsd:element name="Capital.Losses.TransferredFromJoiningEntitiesIncludingHeadCompanyNet.Amount" id="DE3235" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+    <xsd:element name="Capital.Losses.CarriedForward.BusinessContinuityTestPassedNet.Amount" id="DE13244" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+    <xsd:element name="GoodsAndServicesTax.ReportingMethod.Code" id="DE659" type="dtyp.02.45:sbrGstReportingOptionCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="GoodsAndServicesTax.ReportingMethodEffective.Date" id="DE14650" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Tax.Losses.DeductedOwnershipTestFailContinuityTestPass.Amount" id="DE2119" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+    <xsd:element name="Tax.Losses.Forgone.Amount" id="DE3268" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+    <xsd:element name="Tax.Losses.TransferredContinuityTestFail.Amount" id="DE3243" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+    <xsd:element name="Tax.Losses.TransferredFromJoiningEntitiesAfterConsolidation.Amount" id="DE3233" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+    <xsd:element name="Tax.Losses.TransferredFromJoiningEntitiesIncludingHeadCompany.Amount" id="DE3232" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+    <xsd:element name="Tax.Losses.CarriedForward.BusinessContinuityTestPassed.Amount" id="DE2120" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+</xsd:schema>

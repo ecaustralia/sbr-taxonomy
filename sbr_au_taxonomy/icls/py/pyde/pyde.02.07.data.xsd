@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:pyde.02.07="http://sbr.gov.au/icls/py/pyde/pyde.02.07.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dtyp.02.09="http://sbr.gov.au/fdtn/sbr.02.09.dtyp" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:pyde.02.00="http://sbr.gov.au/icls/py/pyde/pyde.02.00.data" targetNamespace="http://sbr.gov.au/icls/py/pyde/pyde.02.07.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.09.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.09.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/py/pyde/pyde.02.00.data" schemaLocation="pyde.02.00.data.xsd"/>
+    <xsd:element name="pydeAbstract" id="pyde.02.07_pydeAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ElectronicContact.Telephone.Mobile.Number" id="DE8668" type="dtyp.02.09:sbrTelephoneNumberItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationDetails.BranchInsurer.Indicator" id="DE8309" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="OrganisationDetails.MainBusinessBrief.Description" id="DE8323" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationDetails.ServiceChannel.Description" id="DE8253" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="OrganisationDetails.ServiceChannelElectronic.Indicator" id="DE8256" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="OrganisationDetails.ServiceChannelMeetsMinimumBranchRequirements.Indicator" id="DE8254" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="OrganisationDetails.ServiceChannelOtherARF396.Indicator" id="DE8257" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="OrganisationDetails.ServiceChannelOtherFaceToFace.Indicator" id="DE8255" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="OrganisationDetails.ServiceChannelOverCounterCashTransactionsBusiness.Indicator" id="DE8259" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="OrganisationDetails.ServiceChannelOverCounterCashTransactionsPersonal.Indicator" id="DE8258" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="OrganisationDetails.ServicePoints.Count" id="DE8260" type="xbrli:positiveIntegerItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="OrganisationDetails.ServicePointsPartTime.Count" id="DE8261" type="xbrli:nonNegativeIntegerItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="Party.MainResponsibilities.Text" id="DE8665" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="ElectronicContact.Telephone" id="DT145" substitutionGroup="xbrli:tuple" nillable="true">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element minOccurs="0" ref="pyde.02.00:ElectronicContact.Telephone.Area.Code"/>
+                <xsd:element minOccurs="0" ref="pyde.02.00:ElectronicContact.Telephone.Country.Code"/>
+                <xsd:element minOccurs="0" ref="pyde.02.00:ElectronicContact.Telephone.Minimal.Number"/>
+                <xsd:element minOccurs="0" ref="pyde.02.07:ElectronicContact.Telephone.Mobile.Number"/>
+                <xsd:element minOccurs="0" ref="pyde.02.00:ElectronicContact.Telephone.ServiceLine.Code"/>
+                <xsd:element minOccurs="0" ref="pyde.02.00:ElectronicContact.Telephone.Usage.Code"/>
+            </xsd:sequence>
+            <xsd:attribute name="id" use="optional" type="xsd:ID"/>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

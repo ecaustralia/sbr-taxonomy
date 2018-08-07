@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt" xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#sbrReportLabel"/>
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#Label"/>
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#reportGuidance"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/asic/f7051/f7051.0001.private.02.00/labRole" xlink:type="simple" xlink:href="f7051.0001.private.02.00.module.xsd#f7051.0001.02.00.privatelabLinkInfoCls"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/asic/f7051/f7051.0001.private.02.00/labRole">
+    <link:loc xlink:type="locator" xlink:href="f7051.0001.private.02.00.module.xsd#RA1031" xlink:label="loc_RA1031"/>
+    <link:label xlink:type="resource" xlink:label="lbl_RA1031" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">IntermediaryPrimaryItems [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA1031" xlink:to="lbl_RA1031" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="f7051.0001.private.02.00.module.xsd#RA1030" xlink:label="loc_RA1030"/>
+    <link:label xlink:type="resource" xlink:label="lbl_RA1030" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">ReportingPartyPrimaryItems [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA1030" xlink:to="lbl_RA1030" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="f7051.0001.private.02.00.module.xsd#RA1032" xlink:label="loc_RA1032"/>
+    <link:label xlink:type="resource" xlink:label="lbl_RA1032" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">ReportingPartyResponsibleEntityIntermediaryPrimaryItems [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA1032" xlink:to="lbl_RA1032" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="f7051.0001.private.02.00.module.xsd#HC1030" xlink:label="ReportingParty" xlink:title="ReportingParty"/>
+    <link:label xlink:type="resource" xlink:label="label_ReportingParty" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:title="label_ReportingParty" xml:lang="en" id="label_ReportingParty_2">Reporting Party</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ReportingParty" xlink:to="label_ReportingParty" xlink:title="label: ReportingParty to label_ReportingParty"/>
+    <link:loc xlink:type="locator" xlink:href="f7051.0001.private.02.00.module.xsd#HC1031" xlink:label="Intermediary" xlink:title="Intermediary"/>
+    <link:label xlink:type="resource" xlink:label="label_Intermediary" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:title="label_Intermediary" xml:lang="en" id="label_Intermediary_2">Intermediary</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Intermediary" xlink:to="label_Intermediary" xlink:title="label: Intermediary to label_Intermediary"/>
+    <link:loc xlink:type="locator" xlink:href="f7051.0001.private.02.00.module.xsd#HC1032" xlink:label="ResponsibleEntity" xlink:title="ResponsibleEntity"/>
+    <link:label xlink:type="resource" xlink:label="label_ResponsibleEntity" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:title="label_ResponsibleEntity" xml:lang="en" id="label_ResponsibleEntity_2">Reporting Party Responsible Entity Intermediary</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ResponsibleEntity" xlink:to="label_ResponsibleEntity" xlink:title="label: ResponsibleEntity to label_ResponsibleEntity"/>
+    <link:loc xlink:type="locator" xlink:href="f7051.0001.private.02.00.module.xsd#RA1045" xlink:label="ReportingPartyIntermediaryPrimaryItemsAbstract" xlink:title="ReportingPartyIntermediaryPrimaryItemsAbstract"/>
+    <link:label xlink:type="resource" xlink:label="label_ReportingPartyIntermediaryPrimaryItemsAbstract" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:title="label_ReportingPartyIntermediaryPrimaryItemsAbstract" xml:lang="en" id="label_ReportingPartyIntermediaryPrimaryItemsAbstract">ReportingPartyIntermediaryPrimaryItems [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ReportingPartyIntermediaryPrimaryItemsAbstract" xlink:to="label_ReportingPartyIntermediaryPrimaryItemsAbstract" xlink:title="label: ReportingPartyIntermediaryPrimaryItemsAbstract to label_ReportingPartyIntermediaryPrimaryItemsAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="f7051.0001.private.02.00.module.xsd#HC1045" xlink:label="ReportingPartyIntermediary" xlink:title="ReportingPartyIntermediary"/>
+    <link:label xlink:type="resource" xlink:label="label_ReportingPartyIntermediary" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:title="label_ReportingPartyIntermediary" xml:lang="en" id="label_ReportingPartyIntermediary">Reporting Party Intermediary</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ReportingPartyIntermediary" xlink:to="label_ReportingPartyIntermediary" xlink:title="label: ReportingPartyIntermediary to label_ReportingPartyIntermediary"/>
+    <link:loc xlink:type="locator" xlink:href="f7051.0001.private.02.00.module.xsd#RA1047" xlink:label="ResponsibleEntityPrimaryItemsAbstract" xlink:title="ResponsibleEntityPrimaryItemsAbstract"/>
+    <link:label xlink:type="resource" xlink:label="label_ResponsibleEntityPrimaryItemsAbstract" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:title="label_ResponsibleEntityPrimaryItemsAbstract" xml:lang="en" id="label_ResponsibleEntityPrimaryItemsAbstract">ResponsibleEntityPrimaryItems [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ResponsibleEntityPrimaryItemsAbstract" xlink:to="label_ResponsibleEntityPrimaryItemsAbstract" xlink:title="label: ResponsibleEntityPrimaryItemsAbstract to label_ResponsibleEntityPrimaryItemsAbstract"/>
+  </link:labelLink>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link"/>
+</link:linkbase>

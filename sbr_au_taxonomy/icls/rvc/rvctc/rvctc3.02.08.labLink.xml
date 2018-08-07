@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="rvctc3.02.08.data.xsd#rvctc3.02.08_rvctc3Abstract" xlink:label="loc_rvctc3.02.08_rvctc3Abstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_rvctc3Abstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Collection 3</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_rvctc3.02.08_rvctc3Abstract" xlink:to="lbl_rvctc3Abstract"/>
+        <link:loc xlink:type="locator" xlink:href="rvctc3.02.08.data.xsd#DE12581" xlink:label="loc_DE12581"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12581" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Capital Gains Tax Assessment Calculation Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12581" xlink:to="lbl_DE12581"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12581" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This code identifies which assessment calculation is to be used for the amount of capital gains on which the trustee has chosen to be assessed on behalf of the beneficiaries.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12581" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+
+36 = Resident trusteeâ€™s choice to be assessed to a capital gain on behalf of a beneficiary where section 99A applies.
+37 = Resident trusteeâ€™s choice to be assessed to a capital gain on behalf of a beneficiary where section 99 applies.
+15 = Resident trusteeâ€™s choice to be assessed to a capital gain on behalf of a beneficiary where the deceased person died less than three years before the end of the income year.
+16 = Resident trusteeâ€™s choice to be assessed to a capital gain on behalf of a beneficiary where the deceased person died three years or more before the end of the income year.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc3.02.08.data.xsd#DE12578" xlink:label="loc_DE12578"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12578" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Capital Gains Tax Trustee Assessed Capital Gain Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12578" xlink:to="lbl_DE12578"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount of capital gains on which the trustee has chosen to be assessed on behalf of beneficiaries.</link:label>
+    </link:labelLink>
+</link:linkbase>

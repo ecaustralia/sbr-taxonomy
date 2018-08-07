@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="pyde.02.20.data.xsd#pyde.02.20_pydeAbstract" xlink:label="loc_pyde.02.20_pydeAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_pydeAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Party Demographics</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_pyde.02.20_pydeAbstract" xlink:to="lbl_pydeAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.20.data.xsd#DE13320" xlink:label="loc_DE13320"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13320" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Address Details Incorrect Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13320" xlink:to="lbl_DE13320"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13320" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates if the address is incorrect.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13320" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = the address is incorrect.
+false = the address is correct.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.20.data.xsd#DE13792" xlink:label="loc_DE13792"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13792" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Electronic Contact Electronic Mail Deletion Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13792" xlink:to="lbl_DE13792"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13792" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates if an email address is no longer valid.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13792" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = email address is no longer valid.
+false = email address is valid.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.20.data.xsd#DE13793" xlink:label="loc_DE13793"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13793" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Electronic Contact Facsimile Deletion Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13793" xlink:to="lbl_DE13793"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13793" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the facsimile number is no longer valid.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13793" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = facsimile number is no longer valid.
+false = facsimile number is valid.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.20.data.xsd#DE13794" xlink:label="loc_DE13794"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13794" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Electronic Contact Telephone Deletion Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13794" xlink:to="lbl_DE13794"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13794" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates if the telephone number is no longer valid.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13794" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = telephone number is no longer valid.
+false = telephone number is valid.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.20.data.xsd#DE13795" xlink:label="loc_DE13795"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13795" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Electronic Contact Telephone Mobile Deletion Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13795" xlink:to="lbl_DE13795"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13795" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates if the mobile number is no longer valid.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13795" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = Mobile number is no longer valid.
+false = Mobile number is valid.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.20.data.xsd#DE13676" xlink:label="loc_DE13676"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13676" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Organisation Details Whole Of Practice Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13676" xlink:to="lbl_DE13676"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13676" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates if the tax practitioner's entire practice is required to be returned for the specified report request type provided.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13676" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values:
+True = applies to the entire practice.
+False = does not apply to the entire practice.</link:label>
+    </link:labelLink>
+</link:linkbase>

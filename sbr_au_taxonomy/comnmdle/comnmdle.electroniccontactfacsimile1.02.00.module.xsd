@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" elementFormDefault="qualified"  xmlns:fax1.02.00="http://sbr.gov.au/comnmdle/comnmdle.electroniccontactfacsimile1.02.00.module" targetNamespace="http://sbr.gov.au/comnmdle/comnmdle.electroniccontactfacsimile1.02.00.module" xmlns:pyde.02.00="http://sbr.gov.au/icls/py/pyde/pyde.02.00.data" >
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="comnmdle.electroniccontactfacsimile1.02.00.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+			<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="../icls/py/pyde/pyde.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+			<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="../icls/py/pyde/pyde.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:type="simple"/>
+			<link:roleType roleURI="http://sbr.gov.au/comnmdle/comnmdle.electroniccontactfacsimile1.02.00/defRole" id="comnmdle.electroniccontactfacsimile1defLink">
+				<link:definition>comnmdle_electroniccontactfacsimile1</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../fdtn/tech.sbr.01.02.xsd" />
+	<xsd:import namespace="http://sbr.gov.au/icls/py/pyde/pyde.02.00.data" schemaLocation="../icls/py/pyde/pyde.02.00.data.xsd" />
+<xsd:element name="ElectronicContactFacsimile" substitutionGroup="xbrli:tuple" id="RT596" nillable="true">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element ref="pyde.02.00:ElectronicContact.Facsimile.Usage.Code"/>
+			<xsd:element ref="pyde.02.00:ElectronicContact.Facsimile.Area.Code" minOccurs="0"/>
+			<xsd:element ref="pyde.02.00:ElectronicContact.Facsimile.Minimal.Number"/>
+		</xsd:sequence>
+		<xsd:attribute name="id" type="xsd:ID" use="optional"/>
+	</xsd:complexType>
+</xsd:element>
+</xsd:schema>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="rvctc4.02.08.data.xsd#rvctc4.02.08_rvctc4Abstract" xlink:label="loc_rvctc4.02.08_rvctc4Abstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_rvctc4Abstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Collection 4</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_rvctc4.02.08_rvctc4Abstract" xlink:to="lbl_rvctc4Abstract"/>
+        <link:loc xlink:type="locator" xlink:href="rvctc4.02.08.data.xsd#DE13502" xlink:label="loc_DE13502"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13502" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">International Dealings Assets Located Outside Australia Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13502" xlink:to="lbl_DE13502"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13502" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates if owned assets are located outside of Australia.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13502" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values:
+true = taxpayer owns assets located outside of Australia.
+false = taxpayer does not own assets located outside of Australia.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc4.02.08.data.xsd#DE13500" xlink:label="loc_DE13500"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13500" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">International Dealings Exempt Foreign Employment Income Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13500" xlink:to="lbl_DE13500"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13500" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for foreign income that is exempt from tax, less any expenses that are not capital in nature, that the individual incurred in earning that exempt income.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc4.02.08.data.xsd#DE13491" xlink:label="loc_DE13491"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13491" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">International Dealings Foreign Employment Income Other Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13491" xlink:to="lbl_DE13491"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13491" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for taxable foreign employment income not covered by other categories.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc4.02.08.data.xsd#DE13499" xlink:label="loc_DE13499"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13499" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">International Dealings Foreign Employment Income Payment Summary Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13499" xlink:to="lbl_DE13499"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13499" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the difference between gross payments and the deductible expenses incurred in earning foreign employment income.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc4.02.08.data.xsd#DE13417" xlink:label="loc_DE13417"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13417" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">International Dealings Foreign Income Target Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13417" xlink:to="lbl_DE13417"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13417" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for target foreign income where the amount has neither been included in taxable income, nor received in the form of a fringe benefit.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13417" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Target foreign income is:
+- any income earned, derived or received from sources outside Australia.
+- a periodical payment by way of gifts or allowances from a source outside Australia.
+- a periodical benefit by way of gifts or allowances from a source outside Australia provided that the amount has neither been included in taxable income, nor received in the form of a fringe benefit.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc4.02.08.data.xsd#DE13493" xlink:label="loc_DE13493"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13493" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">International Dealings Foreign Pension Or Annuity Income Undeducted Purchase Price Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13493" xlink:to="lbl_DE13493"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13493" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the taxable amount of foreign pension or annuity income with an undeducted purchase price.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc4.02.08.data.xsd#DE13492" xlink:label="loc_DE13492"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13492" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">International Dealings Foreign Pension Or Annuity Income Without Undeducted Purchase Price Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13492" xlink:to="lbl_DE13492"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13492" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the taxable amount of foreign pension or annuity income without an undeducted purchase price.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc4.02.08.data.xsd#DE13494" xlink:label="loc_DE13494"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13494" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">International Dealings Foreign Rent Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13494" xlink:to="lbl_DE13494"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13494" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the taxable amount of foreign rental income.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc4.02.08.data.xsd#DE13495" xlink:label="loc_DE13495"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13495" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">International Dealings Foreign Source Company Income Other Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13495" xlink:to="lbl_DE13495"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13495" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for foreign source income from companies not categorised elsewhere.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc4.02.08.data.xsd#DE13496" xlink:label="loc_DE13496"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13496" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">International Dealings Foreign Source Income Other Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13496" xlink:to="lbl_DE13496"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13496" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for foreign source income not categorised elsewhere.</link:label>
+    </link:labelLink>
+</link:linkbase>

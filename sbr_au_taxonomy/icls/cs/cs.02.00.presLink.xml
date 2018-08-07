@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/icls" xlink:type="simple" xlink:href="../../fdtn/tech.sbr.01.02.xsd#icls"/>
+    <link:presentationLink xlink:type="extended" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/icls">
+        <link:loc xlink:type="locator" xlink:href="cs.02.00.data.xsd#cs.02.00_csAbstract" xlink:label="loc_cs.02.00_csAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="cssup/cssup.02.00.data.xsd#cssup.02.00_cssupAbstract" xlink:label="loc_cssup.02.00_cssupAbstract"/>
+        <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cs.02.00_csAbstract" xlink:to="loc_cssup.02.00_cssupAbstract" order="1.0"/>
+    </link:presentationLink>
+</link:linkbase>

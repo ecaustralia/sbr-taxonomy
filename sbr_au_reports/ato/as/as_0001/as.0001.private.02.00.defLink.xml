@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/defRole" xlink:type="simple" xlink:href="as.0001.private.02.00.module.xsd#as.0001.privatedefLink"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/GovernmentAgency" xlink:type="simple" xlink:href="as.0001.private.02.00.module.xsd#as.0001.privatedefLinkGovernmentAgency"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/Intermediary" xlink:type="simple" xlink:href="as.0001.private.02.00.module.xsd#as.0001.privatedefLinkIntermediary"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingParty" xlink:type="simple" xlink:href="as.0001.private.02.00.module.xsd#as.0001.privatedefLinkReportingParty"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingPartyFBT" xlink:type="simple" xlink:href="as.0001.private.02.00.module.xsd#as.0001.privatedefLinkReportingPartyFBT"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingPartyFBTLiabEstMethod" xlink:type="simple" xlink:href="as.0001.private.02.00.module.xsd#as.0001.privatedefLinkReportingPartyFBTLiabEstMethod"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingPartyGST" xlink:type="simple" xlink:href="as.0001.private.02.00.module.xsd#as.0001.privatedefLinkReportingPartyGST"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingPartyGSTLiabEstMethod" xlink:type="simple" xlink:href="as.0001.private.02.00.module.xsd#as.0001.privatedefLinkReportingPartyGSTLiabEstMethod"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingPartyOrGovernmentAgency" xlink:type="simple" xlink:href="as.0001.private.02.00.module.xsd#as.0001.privatedefLinkReportingPartyOrGovernmentAgency"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingPartyOrIntermediary" xlink:type="simple" xlink:href="as.0001.private.02.00.module.xsd#as.0001.privatedefLinkReportingPartyOrIntermediary"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingPartyPAYGI" xlink:type="simple" xlink:href="as.0001.private.02.00.module.xsd#as.0001.privatedefLinkReportingPartyPAYGI"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingPartyPAYGICommissionerChosenOrBusinessVariation" xlink:type="simple" xlink:href="as.0001.private.02.00.module.xsd#as.0001.privatedefLinkReportingPartyPAYGICommissionerChosenOrBusinessVariation"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingPartyPAYGILiabEstMethod" xlink:type="simple" xlink:href="as.0001.private.02.00.module.xsd#as.0001.privatedefLinkReportingPartyPAYGILiabEstMethod"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingPartyPAYGW" xlink:type="simple" xlink:href="as.0001.private.02.00.module.xsd#as.0001.privatedefLinkReportingPartyPAYGW"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingParty">
+    <link:loc xlink:type="locator" xlink:href="as.0001.private.02.00.module.xsd#HC598" xlink:label="as0001ReportingParty" xlink:title="as0001ReportingParty"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DM5" xlink:label="ReportPartyTypeDimension" xlink:title="ReportPartyTypeDimension"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="as0001ReportingParty" xlink:to="ReportPartyTypeDimension" xlink:title="definition: as0001ReportingParty to ReportPartyTypeDimension" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DV29" xlink:label="ReportingParty" xlink:title="ReportingParty"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="ReportingParty" xlink:title="definition: ReportPartyTypeDimension to ReportingParty" order="1.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/Intermediary">
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DM5" xlink:label="ReportPartyTypeDimension" xlink:title="ReportPartyTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DV30" xlink:label="Intermediary_2" xlink:title="Intermediary"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="Intermediary_2" xlink:title="definition: ReportPartyTypeDimension to Intermediary" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="as.0001.private.02.00.module.xsd#HC600" xlink:label="Intermediary" xlink:title="Intermediary"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="Intermediary" xlink:to="ReportPartyTypeDimension" xlink:title="definition: Intermediary to ReportPartyTypeDimension" order="1.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/defRole"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/GovernmentAgency">
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DM5" xlink:label="ReportPartyTypeDimension" xlink:title="ReportPartyTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DV32" xlink:label="GovernmentAgency_2" xlink:title="GovernmentAgency"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="GovernmentAgency_2" xlink:title="definition: ReportPartyTypeDimension to GovernmentAgency" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="as.0001.private.02.00.module.xsd#HC601" xlink:label="GovernmentAgency" xlink:title="GovernmentAgency"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="GovernmentAgency" xlink:to="ReportPartyTypeDimension" xlink:title="definition: GovernmentAgency to ReportPartyTypeDimension" order="1.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingPartyOrGovernmentAgency">
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DM5" xlink:label="ReportPartyTypeDimension" xlink:title="ReportPartyTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DV29" xlink:label="ReportingParty" xlink:title="ReportingParty"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="ReportingParty" xlink:title="definition: ReportPartyTypeDimension to ReportingParty" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DV32" xlink:label="GovernmentAgency" xlink:title="GovernmentAgency"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="GovernmentAgency" xlink:title="definition: ReportPartyTypeDimension to GovernmentAgency" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="as.0001.private.02.00.module.xsd#HC602" xlink:label="ReportingPartyOrGovernmentAgency" xlink:title="ReportingPartyOrGovernmentAgency"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyOrGovernmentAgency" xlink:to="ReportPartyTypeDimension" xlink:title="definition: ReportingPartyOrGovernmentAgency to ReportPartyTypeDimension" order="1.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingPartyGST">
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DM5" xlink:label="ReportPartyTypeDimension" xlink:title="ReportPartyTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DV29" xlink:label="ReportingParty" xlink:title="ReportingParty"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="ReportingParty" xlink:title="definition: ReportPartyTypeDimension to ReportingParty" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="as.0001.private.02.00.module.xsd#HC603" xlink:label="ReportingPartyGST" xlink:title="ReportingPartyGST"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyGST" xlink:to="ReportPartyTypeDimension" xlink:title="definition: ReportingPartyGST to ReportPartyTypeDimension" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/TaxOblgtn.02.00.data.xsd#DM6" xlink:label="TaxObligationTypeDimension" xlink:title="TaxObligationTypeDimension"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyGST" xlink:to="TaxObligationTypeDimension" xlink:title="definition: ReportingPartyGST to TaxObligationTypeDimension" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/TaxOblgtn.02.00.data.xsd#DV33" xlink:label="GST" xlink:title="GST"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="TaxObligationTypeDimension" xlink:to="GST" xlink:title="definition: TaxObligationTypeDimension to GST" order="1.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingPartyFBT">
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DM5" xlink:label="ReportPartyTypeDimension" xlink:title="ReportPartyTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DV29" xlink:label="ReportingParty" xlink:title="ReportingParty"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="ReportingParty" xlink:title="definition: ReportPartyTypeDimension to ReportingParty" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/TaxOblgtn.02.00.data.xsd#DM6" xlink:label="TaxObligationTypeDimension" xlink:title="TaxObligationTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/TaxOblgtn.02.00.data.xsd#DV34" xlink:label="FBT" xlink:title="FBT"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="TaxObligationTypeDimension" xlink:to="FBT" xlink:title="definition: TaxObligationTypeDimension to FBT" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="as.0001.private.02.00.module.xsd#HC604" xlink:label="ReportingPartyFBT" xlink:title="ReportingPartyFBT"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyFBT" xlink:to="ReportPartyTypeDimension" xlink:title="definition: ReportingPartyFBT to ReportPartyTypeDimension" order="1.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyFBT" xlink:to="TaxObligationTypeDimension" xlink:title="definition: ReportingPartyFBT to TaxObligationTypeDimension" order="2.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingPartyPAYGW">
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DM5" xlink:label="ReportPartyTypeDimension" xlink:title="ReportPartyTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DV29" xlink:label="ReportingParty" xlink:title="ReportingParty"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="ReportingParty" xlink:title="definition: ReportPartyTypeDimension to ReportingParty" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/TaxOblgtn.02.00.data.xsd#DM6" xlink:label="TaxObligationTypeDimension" xlink:title="TaxObligationTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/TaxOblgtn.02.00.data.xsd#DV35" xlink:label="PAYGW" xlink:title="PAYGW"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="TaxObligationTypeDimension" xlink:to="PAYGW" xlink:title="definition: TaxObligationTypeDimension to PAYGW" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="as.0001.private.02.00.module.xsd#HC605" xlink:label="ReportingPartyPAYGW" xlink:title="ReportingPartyPAYGW"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyPAYGW" xlink:to="ReportPartyTypeDimension" xlink:title="definition: ReportingPartyPAYGW to ReportPartyTypeDimension" order="1.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyPAYGW" xlink:to="TaxObligationTypeDimension" xlink:title="definition: ReportingPartyPAYGW to TaxObligationTypeDimension" order="2.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingPartyPAYGI">
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DM5" xlink:label="ReportPartyTypeDimension" xlink:title="ReportPartyTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DV29" xlink:label="ReportingParty" xlink:title="ReportingParty"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="ReportingParty" xlink:title="definition: ReportPartyTypeDimension to ReportingParty" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/TaxOblgtn.02.00.data.xsd#DM6" xlink:label="TaxObligationTypeDimension" xlink:title="TaxObligationTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/TaxOblgtn.02.00.data.xsd#DV36" xlink:label="PAYGI" xlink:title="PAYGI"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="TaxObligationTypeDimension" xlink:to="PAYGI" xlink:title="definition: TaxObligationTypeDimension to PAYGI" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="as.0001.private.02.00.module.xsd#HC606" xlink:label="ReportingPartyPAYGI" xlink:title="ReportingPartyPAYGI"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyPAYGI" xlink:to="ReportPartyTypeDimension" xlink:title="definition: ReportingPartyPAYGI to ReportPartyTypeDimension" order="1.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyPAYGI" xlink:to="TaxObligationTypeDimension" xlink:title="definition: ReportingPartyPAYGI to TaxObligationTypeDimension" order="2.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingPartyGSTLiabEstMethod">
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DM5" xlink:label="ReportPartyTypeDimension" xlink:title="ReportPartyTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DV29" xlink:label="ReportingParty" xlink:title="ReportingParty"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="ReportingParty" xlink:title="definition: ReportPartyTypeDimension to ReportingParty" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/TaxOblgtn.02.00.data.xsd#DM6" xlink:label="TaxObligationTypeDimension" xlink:title="TaxObligationTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/TaxOblgtn.02.00.data.xsd#DV33" xlink:label="GST" xlink:title="GST"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="TaxObligationTypeDimension" xlink:to="GST" xlink:title="definition: TaxObligationTypeDimension to GST" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="as.0001.private.02.00.module.xsd#HC608" xlink:label="ReportingPartyGSTLiabEstMethod" xlink:title="ReportingPartyGSTLiabEstMethod"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyGSTLiabEstMethod" xlink:to="ReportPartyTypeDimension" xlink:title="definition: ReportingPartyGSTLiabEstMethod to ReportPartyTypeDimension" order="1.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyGSTLiabEstMethod" xlink:to="TaxObligationTypeDimension" xlink:title="definition: ReportingPartyGSTLiabEstMethod to TaxObligationTypeDimension" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/LiabEstMethod.02.00.data.xsd#DM4" xlink:label="LiabilityEstimationMethodDimension" xlink:title="LiabilityEstimationMethodDimension"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyGSTLiabEstMethod" xlink:to="LiabilityEstimationMethodDimension" xlink:title="definition: ReportingPartyGSTLiabEstMethod to LiabilityEstimationMethodDimension" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/LiabEstMethod.02.00.data.xsd#DV25" xlink:label="CommissionerChosen" xlink:title="CommissionerChosen"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="LiabilityEstimationMethodDimension" xlink:to="CommissionerChosen" xlink:title="definition: LiabilityEstimationMethodDimension to CommissionerChosen" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/LiabEstMethod.02.00.data.xsd#DV26" xlink:label="BusinessEstimation" xlink:title="BusinessEstimation"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="LiabilityEstimationMethodDimension" xlink:to="BusinessEstimation" xlink:title="definition: LiabilityEstimationMethodDimension to BusinessEstimation" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/LiabEstMethod.02.00.data.xsd#DV27" xlink:label="BusinessVariation" xlink:title="BusinessVariation"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="LiabilityEstimationMethodDimension" xlink:to="BusinessVariation" xlink:title="definition: LiabilityEstimationMethodDimension to BusinessVariation" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/LiabEstMethod.02.00.data.xsd#DV28" xlink:label="Calculation" xlink:title="Calculation"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="LiabilityEstimationMethodDimension" xlink:to="Calculation" xlink:title="definition: LiabilityEstimationMethodDimension to Calculation" order="4.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingPartyFBTLiabEstMethod">
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DM5" xlink:label="ReportPartyTypeDimension" xlink:title="ReportPartyTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DV29" xlink:label="ReportingParty" xlink:title="ReportingParty"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="ReportingParty" xlink:title="definition: ReportPartyTypeDimension to ReportingParty" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/TaxOblgtn.02.00.data.xsd#DM6" xlink:label="TaxObligationTypeDimension" xlink:title="TaxObligationTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/TaxOblgtn.02.00.data.xsd#DV34" xlink:label="FBT" xlink:title="FBT"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="TaxObligationTypeDimension" xlink:to="FBT" xlink:title="definition: TaxObligationTypeDimension to FBT" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/LiabEstMethod.02.00.data.xsd#DM4" xlink:label="LiabilityEstimationMethodDimension" xlink:title="LiabilityEstimationMethodDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/LiabEstMethod.02.00.data.xsd#DV25" xlink:label="CommissionerChosen" xlink:title="CommissionerChosen"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="LiabilityEstimationMethodDimension" xlink:to="CommissionerChosen" xlink:title="definition: LiabilityEstimationMethodDimension to CommissionerChosen" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/LiabEstMethod.02.00.data.xsd#DV26" xlink:label="BusinessEstimation" xlink:title="BusinessEstimation"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="LiabilityEstimationMethodDimension" xlink:to="BusinessEstimation" xlink:title="definition: LiabilityEstimationMethodDimension to BusinessEstimation" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/LiabEstMethod.02.00.data.xsd#DV27" xlink:label="BusinessVariation" xlink:title="BusinessVariation"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="LiabilityEstimationMethodDimension" xlink:to="BusinessVariation" xlink:title="definition: LiabilityEstimationMethodDimension to BusinessVariation" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="as.0001.private.02.00.module.xsd#HC609" xlink:label="ReportingPartyFBTLiabEstMethod" xlink:title="ReportingPartyFBTLiabEstMethod"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyFBTLiabEstMethod" xlink:to="ReportPartyTypeDimension" xlink:title="definition: ReportingPartyFBTLiabEstMethod to ReportPartyTypeDimension" order="1.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyFBTLiabEstMethod" xlink:to="TaxObligationTypeDimension" xlink:title="definition: ReportingPartyFBTLiabEstMethod to TaxObligationTypeDimension" order="2.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyFBTLiabEstMethod" xlink:to="LiabilityEstimationMethodDimension" xlink:title="definition: ReportingPartyFBTLiabEstMethod to LiabilityEstimationMethodDimension" order="3.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingPartyOrIntermediary">
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DM5" xlink:label="ReportPartyTypeDimension" xlink:title="ReportPartyTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DV29" xlink:label="ReportingParty" xlink:title="ReportingParty"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="ReportingParty" xlink:title="definition: ReportPartyTypeDimension to ReportingParty" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DV30" xlink:label="Intermediary" xlink:title="Intermediary"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="Intermediary" xlink:title="definition: ReportPartyTypeDimension to Intermediary" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="as.0001.private.02.00.module.xsd#HC607" xlink:label="ReportingPartyOrIntermediary" xlink:title="ReportingPartyOrIntermediary"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyOrIntermediary" xlink:to="ReportPartyTypeDimension" xlink:title="definition: ReportingPartyOrIntermediary to ReportPartyTypeDimension" order="1.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingPartyPAYGILiabEstMethod">
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DM5" xlink:label="ReportPartyTypeDimension" xlink:title="ReportPartyTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DV29" xlink:label="ReportingParty" xlink:title="ReportingParty"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="ReportingParty" xlink:title="definition: ReportPartyTypeDimension to ReportingParty" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/TaxOblgtn.02.00.data.xsd#DM6" xlink:label="TaxObligationTypeDimension" xlink:title="TaxObligationTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/TaxOblgtn.02.00.data.xsd#DV36" xlink:label="PAYGI" xlink:title="PAYGI"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="TaxObligationTypeDimension" xlink:to="PAYGI" xlink:title="definition: TaxObligationTypeDimension to PAYGI" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/LiabEstMethod.02.00.data.xsd#DM4" xlink:label="LiabilityEstimationMethodDimension" xlink:title="LiabilityEstimationMethodDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/LiabEstMethod.02.00.data.xsd#DV25" xlink:label="CommissionerChosen" xlink:title="CommissionerChosen"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="LiabilityEstimationMethodDimension" xlink:to="CommissionerChosen" xlink:title="definition: LiabilityEstimationMethodDimension to CommissionerChosen" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/LiabEstMethod.02.00.data.xsd#DV26" xlink:label="BusinessEstimation" xlink:title="BusinessEstimation"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="LiabilityEstimationMethodDimension" xlink:to="BusinessEstimation" xlink:title="definition: LiabilityEstimationMethodDimension to BusinessEstimation" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/LiabEstMethod.02.00.data.xsd#DV27" xlink:label="BusinessVariation" xlink:title="BusinessVariation"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="LiabilityEstimationMethodDimension" xlink:to="BusinessVariation" xlink:title="definition: LiabilityEstimationMethodDimension to BusinessVariation" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/LiabEstMethod.02.00.data.xsd#DV28" xlink:label="Calculation" xlink:title="Calculation"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="LiabilityEstimationMethodDimension" xlink:to="Calculation" xlink:title="definition: LiabilityEstimationMethodDimension to Calculation" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="as.0001.private.02.00.module.xsd#HC610" xlink:label="ReportingPartyPAYGILiabEstMethod" xlink:title="ReportingPartyPAYGILiabEstMethod"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyPAYGILiabEstMethod" xlink:to="ReportPartyTypeDimension" xlink:title="definition: ReportingPartyPAYGILiabEstMethod to ReportPartyTypeDimension" order="1.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyPAYGILiabEstMethod" xlink:to="TaxObligationTypeDimension" xlink:title="definition: ReportingPartyPAYGILiabEstMethod to TaxObligationTypeDimension" order="2.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyPAYGILiabEstMethod" xlink:to="LiabilityEstimationMethodDimension" xlink:title="definition: ReportingPartyPAYGILiabEstMethod to LiabilityEstimationMethodDimension" order="3.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingPartyPAYGICommissionerChosenOrBusinessVariation">
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DM5" xlink:label="ReportPartyTypeDimension" xlink:title="ReportPartyTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.00.data.xsd#DV29" xlink:label="ReportingParty" xlink:title="ReportingParty"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="ReportingParty" xlink:title="definition: ReportPartyTypeDimension to ReportingParty" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/TaxOblgtn.02.00.data.xsd#DM6" xlink:label="TaxObligationTypeDimension" xlink:title="TaxObligationTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/TaxOblgtn.02.00.data.xsd#DV36" xlink:label="PAYGI" xlink:title="PAYGI"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="TaxObligationTypeDimension" xlink:to="PAYGI" xlink:title="definition: TaxObligationTypeDimension to PAYGI" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/LiabEstMethod.02.00.data.xsd#DM4" xlink:label="LiabilityEstimationMethodDimension" xlink:title="LiabilityEstimationMethodDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/LiabEstMethod.02.00.data.xsd#DV25" xlink:label="CommissionerChosen" xlink:title="CommissionerChosen"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="LiabilityEstimationMethodDimension" xlink:to="CommissionerChosen" xlink:title="definition: LiabilityEstimationMethodDimension to CommissionerChosen" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/LiabEstMethod.02.00.data.xsd#DV27" xlink:label="BusinessVariation" xlink:title="BusinessVariation"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="LiabilityEstimationMethodDimension" xlink:to="BusinessVariation" xlink:title="definition: LiabilityEstimationMethodDimension to BusinessVariation" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="as.0001.private.02.00.module.xsd#HC611" xlink:label="ReportingPartyPAYGICommissionerChosenOrBusinessVariation" xlink:title="ReportingPartyPAYGICommissionerChosenOrBusinessVariation"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyPAYGICommissionerChosenOrBusinessVariation" xlink:to="ReportPartyTypeDimension" xlink:title="definition: ReportingPartyPAYGICommissionerChosenOrBusinessVariation to ReportPartyTypeDimension" order="1.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyPAYGICommissionerChosenOrBusinessVariation" xlink:to="TaxObligationTypeDimension" xlink:title="definition: ReportingPartyPAYGICommissionerChosenOrBusinessVariation to TaxObligationTypeDimension" order="2.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyPAYGICommissionerChosenOrBusinessVariation" xlink:to="LiabilityEstimationMethodDimension" xlink:title="definition: ReportingPartyPAYGICommissionerChosenOrBusinessVariation to LiabilityEstimationMethodDimension" order="3.0"/>
+  </link:definitionLink>
+</link:linkbase>

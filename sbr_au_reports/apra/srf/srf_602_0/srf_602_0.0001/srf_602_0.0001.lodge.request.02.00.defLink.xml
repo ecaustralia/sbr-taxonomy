@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/rprt/apra/srf/srf_602_0/srf_602_0.private.02.00/hypercubes/1_1" xlink:href="srf_602_0.0001.private.02.00.module.xsd#srf_602_0.0001.lodge.request.02.00.privateDefLink1_1"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/rprt/apra/srf/srf_602_0/srf_602_0.0001.lodge.request.02.00/defRole1_1" xlink:href="srf_602_0.0001.lodge.request.02.00.xsd#srf_602_0.0001.lodge.request.02.00.defLink1_1"/>
+	<link:arcroleRef xlink:type="simple" arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+	<link:arcroleRef xlink:type="simple" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/apra/srf/srf_602_0/srf_602_0.0001.lodge.request.02.00/defRole1_1">
+		<link:loc xlink:type="locator" xlink:href="srf_602_0.0001.private.02.00.module.xsd#HC1_1" xlink:label="HC1_1" xlink:title="HC1_1"/>
+		<link:loc xlink:type="locator" xlink:href="srf_602_0.0001.private.02.00.module.xsd#RA1_1" xlink:label="Abstract1_1" xlink:title="Abstract1_1"/>
+		<link:definitionArc xlink:type="arc" order="1.0" xbrldt:contextElement="segment" xbrldt:closed="true" xlink:from="Abstract1_1" xlink:to="HC1_1" xlink:title="definition: Abstract1_1 to HC1_1" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xbrldt:targetRole="http://sbr.gov.au/rprt/apra/srf/srf_602_0/srf_602_0.private.02.00/hypercubes/1_1"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/em/emfsm/emfsm.02.10.data.xsd#DE13725" xlink:label="BusinessTermination.WindUpMethod.Code" xlink:title="BusinessTermination.WindUpMethod.Code"/>
+		<link:definitionArc xlink:type="arc" order="1.0" xbrldt:contextElement="segment" xbrldt:closed="true" xlink:from="Abstract1_1" xlink:to="BusinessTermination.WindUpMethod.Code" xlink:title="definition: Abstract1_1 to BusinessTermination.WindUpMethod.Code" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.data.xsd#DE26" xlink:label="Identifiers.AustralianBusinessNumber.Identifier" xlink:title="Identifiers.AustralianBusinessNumber.Identifier"/>
+		<link:definitionArc xlink:type="arc" order="1.0" xbrldt:contextElement="segment" xbrldt:closed="true" xlink:from="Abstract1_1" xlink:to="Identifiers.AustralianBusinessNumber.Identifier" xlink:title="definition: Abstract1_1 to Identifiers.AustralianBusinessNumber.Identifier" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE55" xlink:label="OrganisationNameDetails.OrganisationalName.Text" xlink:title="OrganisationNameDetails.OrganisationalName.Text"/>
+		<link:definitionArc xlink:type="arc" order="1.0" xbrldt:contextElement="segment" xbrldt:closed="true" xlink:from="Abstract1_1" xlink:to="OrganisationNameDetails.OrganisationalName.Text" xlink:title="definition: Abstract1_1 to OrganisationNameDetails.OrganisationalName.Text" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/em/emfsm/emfsm.02.10.data.xsd#DE5205" xlink:label="BusinessTermination.WindUp.Date" xlink:title="BusinessTermination.WindUp.Date"/>
+		<link:definitionArc xlink:type="arc" order="1.0" xbrldt:contextElement="segment" xbrldt:closed="true" xlink:from="Abstract1_1" xlink:to="BusinessTermination.WindUp.Date" xlink:title="definition: Abstract1_1 to BusinessTermination.WindUp.Date" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"/>
+	</link:definitionLink>
+</link:linkbase>

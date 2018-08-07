@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:href="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#Label"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:href="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#reportGuidance"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/rprt/apra/arf/arf_116_0a18/arf_116_0a18.0001.lodge.request.02.02/labRole" xlink:href="arf_116_0a18.0001.lodge.request.02.02.xsd#arf_116_0a18.0001.lodge.request.02.02.labLink"/>
+	<link:labelLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/apra/arf/arf_116_0a18/arf_116_0a18.0001.lodge.request.02.02/labRole">
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafot/bafot.02.06.data.xsd#DE8065" xlink:label="loc_DE8065" xlink:title="FinancialRisk.Market.StressTestingExchangeRateScenarios.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE8065" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Stress Testing - Exchange Rate Scenarios</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8065" xlink:to="lbl_DE8065" xlink:title="label: FinancialRisk.Market.StressTestingExchangeRateScenarios.Amount to label_FinancialRisk.Market.StressTestingExchangeRateScenarios.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE8065_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance">All exchange rate sensitive positions (as specified in APS 116) must be included in the stress test portfolio revaluations. Positions in gold, however, should be excluded.
+
+A separate scenario matrix should be completed for each material currency. For example, the USD scenario should include all spot and forward positions in USD (as specified in APS 116), options on USD/AUD and options on USD against all non-AUD currencies. A decrease in price should be interpreted as a depreciation in the USD. Similarly, for the other currency scenarios, a decrease in price should be interpreted as a depreciation in the specified currency. No separate AUD scenario matrix is needed.
+
+The scenario representing a 50% decrease in the implied volatility only needs to be reported where the corresponding change in price scenario is 0%.</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8065" xlink:to="lbl_DE8065_1" xlink:title="label: FinancialRisk.Market.StressTestingExchangeRateScenarios.Amount to label_FinancialRisk.Market.StressTestingExchangeRateScenarios.Amount"/>
+	</link:labelLink>
+</link:linkbase>

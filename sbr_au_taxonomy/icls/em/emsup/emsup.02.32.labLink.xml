@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="emsup.02.32.data.xsd#emsup.02.32_emsupAbstract" xlink:label="loc_emsup.02.32_emsupAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_emsupAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_emsup.02.32_emsupAbstract" xlink:to="lbl_emsupAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.32.data.xsd#DE13960" xlink:label="loc_DE13960"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13960" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Account Details Account Activity Status Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13960" xlink:to="lbl_DE13960"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13960" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates the activity status of the superannuation account.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13960" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Active = Active
+Open And Not Lost = Open and not lost
+Open And Lost = Open and lost
+Closed = Closed
+Lost Inactive = Lost - Inactive
+Lost Uncontactable = Lost - Uncontactable
+Not Lost =  The member is neither uncontactable nor inactive
+Uncontactable = The member has had no contact within the past 12 months
+Inactive = The member's account is inactive and has not received a contribution or rollover for the member within the past five years</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.32.data.xsd#DE14799" xlink:label="loc_DE14799"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14799" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Account Details Account Contributions Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14799" xlink:to="lbl_DE14799"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14799" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A code which indicates the types of contributions that can be accepted by a superannuation account.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14799" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+All = All types of contributions are accepted.
+None = Contributions are not accepted.
+Non-government = All types of contributions are accepted other than those from the government.
+Government only = Only government contributions are accepted.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.32.data.xsd#DE14814" xlink:label="loc_DE14814"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14814" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Account Details Account Phase Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14814" xlink:to="lbl_DE14814"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14814" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A code which indicates the phase of a superannuation account.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14814" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Accumulation = The account is in accumulation phase and will accept payments, rollovers and contributions.
+Retirement = The account is in retirement phase and funds are accessible.
+Insurance Only = The account has been established for insurance purposes only, not to fund retirement.
+Closed = The account has been closed and the member no longer has an interest in the fund.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.32.data.xsd#DE14726" xlink:label="loc_DE14726"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14726" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Account Details Defined Benefit Interest Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14726" xlink:to="lbl_DE14726"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14726" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the superannuation account has a defined benefit interest.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14726" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = The superannuation account has a defined benefit interest.
+false = The superannuation account does not have a defined benefit interest.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.32.data.xsd#DE14720" xlink:label="loc_DE14720"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14720" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Account Details Government Rollover Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14720" xlink:to="lbl_DE14720"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14720" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the superannuation account accepts government rollover.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14720" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = The superannuation account accepts government rollover.
+false = The superannuation account does not accept government rollover.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.32.data.xsd#DE14723" xlink:label="loc_DE14723"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14723" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Account Details Grandfathering Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14723" xlink:to="lbl_DE14723"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14723" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether grandfathering provisions apply to the superannuation account for superannuation contributions.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14723" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = Grandfathering provisions apply to the superannuation account for superannuation contributions.
+false = Grandfathering provisions do not apply to the superannuation account for superannuation contributions.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.32.data.xsd#DE14813" xlink:label="loc_DE14813"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14813" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Account Details Income Stream Account Status Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14813" xlink:to="lbl_DE14813"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14813" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A code which indicates the income stream account status that applies to the member's superannuation account.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14813" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Open = The member's account is open.
+Transition to retirement income stream (TRIS) = The member's account is a transition to retirement income stream.
+Non capped defined benefit income stream (non-TRIS) = The member's account is not a capped defined benefit income stream and not a TRIS.
+Non capped defined benefit income stream (TRIS) = The member's account is not a capped defined benefit income stream and is a TRIS.
+Capped defined benefit income stream (1 July 2017 onwards) = The member's account is a capped defined benefit income stream that commenced post 1 July 2017.
+Capped defined benefit income stream (pre 1 July 2017) = The member's account is a capped defined benefit income stream that existed pre 1 July 2017.
+Market linked capped defined benefit income stream (pre 1 July 2017) = The member's account is a market linked capped defined benefit income stream that existed pre 1 July 2017.
+Closed = The member's account is closed.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.32.data.xsd#DE14812" xlink:label="loc_DE14812"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14812" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Account Details Innovative Income Stream Product Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14812" xlink:to="lbl_DE14812"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14812" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the superannuation account has an innovative income stream product.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14812" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = The superannuation account has an innovative income stream product.
+false = The superannuation account does not have an innovative income stream product.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.32.data.xsd#DE14719" xlink:label="loc_DE14719"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14719" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Account Details Outward Rollover Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14719" xlink:to="lbl_DE14719"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14719" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the superannuation account accepts outward rollover.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14719" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = The superannuation account accepts outward rollover.
+false = The superannuation account does not accept outward rollover.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.32.data.xsd#DE14800" xlink:label="loc_DE14800"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14800" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Member Details Deferred Tax Debt Account Status Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14800" xlink:to="lbl_DE14800"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14800" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A code which indicates the deferred tax debt account status for the superannuation member.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14800" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Exists = The superannuation member has an existing deferred tax debt account.
+None = The superannuation member does not have a deferred tax debt account.         
+Unconfirmed = Deferred debt account status has not been confirmed for superannuation member.</link:label>
+    </link:labelLink>
+</link:linkbase>

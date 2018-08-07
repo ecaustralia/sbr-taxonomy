@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<!--
+		This file uses certain elements from the IFRS Taxonomy released by the IFRS Foundation on 2018-03-16.  
+		For more information on the IFRS Foundation's copyright and the terms and conditions of use for these files, please refer to http://go.ifrs.org/IFRSTterms.
+		The IFRS Foundation logo, the IASB logo, the IFRS for SMEs logo, the "Hexagon Device", "IFRS Foundation", "eIFRS", "IAS", "IASB", "IFRS for SMEs", "IASs", "IFRS", "IFRSs", "International Accounting Standards" and "International Financial Reporting Standards", "IFRIC", "SIC" and "IFRS Taxonomy" are Trade Marks of the IFRS Foundation.
+		For further information about where the Trade Marks are protected and/or are in use please contact the IFRS Foundation.
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://xbrl.ifrs.org/role/ifrs/ias_1_2018-03-16_role-210000" xlink:type="simple" xlink:href="../../../full_ifrs/linkbases/ias_1/rol_ias_1_2018-03-16.xsd#ias_1_2018-03-16_role-210000"/>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.ifrs.org/role/ifrs/ias_1_2018-03-16_role-210000">
+    <link:loc xlink:type="locator" xlink:href="../../../full_ifrs/full_ifrs-cor_2018-03-16.xsd#ifrs-full_NoncurrentLiabilities" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_NoncurrentUnearnedPremiumLiability" xlink:label="NoncurrentUnearnedPremiumLiability"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="NoncurrentUnearnedPremiumLiability" order="61.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_NoncurrentOutstandingClaimsLiability" xlink:label="NoncurrentOutstandingClaimsLiability"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="NoncurrentOutstandingClaimsLiability" order="62.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_NoncurrentUnexpiredRiskLiability" xlink:label="NoncurrentUnexpiredRiskLiability"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="NoncurrentUnexpiredRiskLiability" order="63.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_LifeInsuranceContractLiabilities" xlink:label="LifeInsuranceContractLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="LifeInsuranceContractLiabilities" order="64.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_LifeInvestmentContractLiabilities" xlink:label="LifeInvestmentContractLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="LifeInvestmentContractLiabilities" order="65.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_UnvestedPolicyholderBenefitsLiabilities" xlink:label="UnvestedPolicyholderBenefitsLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="UnvestedPolicyholderBenefitsLiabilities" order="66.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../full_ifrs/full_ifrs-cor_2018-03-16.xsd#ifrs-full_CurrentLiabilitiesOtherThanLiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale" xlink:label="loc_5"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_CurrentOutstandingClaimsLiability" xlink:label="CurrentOutstandingClaimsLiability"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_5" xlink:to="CurrentOutstandingClaimsLiability" order="51.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_CurrentUnearnedPremiumLiability" xlink:label="CurrentUnearnedPremiumLiability"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_5" xlink:to="CurrentUnearnedPremiumLiability" order="52.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_CurrentUnexpiredRiskLiability" xlink:label="CurrentUnexpiredRiskLiability"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_5" xlink:to="CurrentUnexpiredRiskLiability" order="53.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_OutwardsReinsuranceExpenseLiability" xlink:label="OutwardsReinsuranceExpenseLiability"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_5" xlink:to="OutwardsReinsuranceExpenseLiability" order="54.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../full_ifrs/full_ifrs-cor_2018-03-16.xsd#ifrs-full_NoncurrentAssets" xlink:label="loc_7"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_NoncurrentReinsuranceAndOtherRecoveriesReceivable" xlink:label="NoncurrentReinsuranceAndOtherRecoveriesReceivable"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="NoncurrentReinsuranceAndOtherRecoveriesReceivable" order="141.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_NoncurrentDeferredAcquisitionCosts" xlink:label="NoncurrentDeferredAcquisitionCosts"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="NoncurrentDeferredAcquisitionCosts" order="142.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_NonCurrentDeferredOutwardReinsuranceExpense" xlink:label="NonCurrentDeferredOutwardReinsuranceExpense"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="NonCurrentDeferredOutwardReinsuranceExpense" order="143.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_IntangibleAssetsRelatingToAcquiredInsuranceContracts" xlink:label="IntangibleAssetsRelatingToAcquiredInsuranceContracts"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="IntangibleAssetsRelatingToAcquiredInsuranceContracts" order="144.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_ReinsurersShareOfLifeInsuranceContractLiabilities" xlink:label="ReinsurersShareOfLifeInsuranceContractLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="ReinsurersShareOfLifeInsuranceContractLiabilities" order="145.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../full_ifrs/full_ifrs-cor_2018-03-16.xsd#ifrs-full_CurrentAssetsOtherThanAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners" xlink:label="loc_10"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_CurrentReinsuranceAndOtherRecoveriesReceivable" xlink:label="CurrentReinsuranceAndOtherRecoveriesReceivable"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_10" xlink:to="CurrentReinsuranceAndOtherRecoveriesReceivable" order="81.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_PremiumReceivable" xlink:label="PremiumReceivable"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_10" xlink:to="PremiumReceivable" order="82.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_PrepaidReinsurancePremiums" xlink:label="PrepaidReinsurancePremiums"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_10" xlink:to="PrepaidReinsurancePremiums" order="83.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_CurrentDeferredAcquisitionCosts" xlink:label="CurrentDeferredAcquisitionCosts"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_10" xlink:to="CurrentDeferredAcquisitionCosts" order="84.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_CurrentDeferredOutwardReinsuranceExpense" xlink:label="CurrentDeferredOutwardReinsuranceExpense"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_10" xlink:to="CurrentDeferredOutwardReinsuranceExpense" order="85.0" weight="1"/>
+  </link:calculationLink>
+</link:linkbase>

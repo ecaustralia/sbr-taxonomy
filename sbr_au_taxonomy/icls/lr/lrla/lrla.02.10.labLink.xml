@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="lrla.02.10.data.xsd#lrla.02.10_lrlaAbstract" xlink:label="loc_lrla.02.10_lrlaAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_lrlaAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Labour Arrangements</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_lrla.02.10_lrlaAbstract" xlink:to="lbl_lrlaAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="lrla.02.10.data.xsd#DE8865" xlink:label="loc_DE8865"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE8865" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report as at the relevant date, the total number of employees.</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8865" xlink:to="lbl_DE8865"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE8865" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Labour Statistics Employees Count</link:label>
+        <link:loc xlink:type="locator" xlink:href="lrla.02.10.data.xsd#DE7571" xlink:label="loc_DE7571"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE7571" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the number of persons working for the reporting party during the last pay period in the relevant period
+Include:
+- persons paid a retainer, wage or salary;
+- working proprietors and partners;
+- full-time and part-time employees;
+- permanent, temporary and casual employees;
+- managerial and executive employees;
+- employees absent on paid or prepaid leave; and
+- employees on workers' compensation who continue to be paid through the payroll.
+Exclude:
+- persons paid by commission only;
+- non-salaried directors;
+- self employed persons such as consultants and contractors; and
+- volunteers.</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE7571" xlink:to="lbl_DE7571"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE7571" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Labour Statistics Employees Per ARF332 Count</link:label>
+    </link:labelLink>
+</link:linkbase>

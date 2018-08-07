@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="emfsm.02.10.data.xsd#emfsm.02.10_emfsmAbstract" xlink:label="loc_emfsm.02.10_emfsmAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_emfsmAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial System Management</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_emfsm.02.10_emfsmAbstract" xlink:to="lbl_emfsmAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="emfsm.02.10.data.xsd#DE5205" xlink:label="loc_DE5205"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE5205" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Business Termination Wind Up Date</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5205" xlink:to="lbl_DE5205"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE5205" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the date the entity was wound up.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emfsm.02.10.data.xsd#DE13725" xlink:label="loc_DE13725"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13725" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Business Termination Wind Up Method Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13725" xlink:to="lbl_DE13725"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13725" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates the method of wind-up of the entity.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13725" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">The valid enumerated values are: 
+Successor fund transfer = represents a transfer of a member's benefits without the member's consent from one Registrable Superannuation Entity (RSE) to a successor fund within the meaning given in the relevant Superannuation Industry (Supervision) Regulations 1994 (SIS Regulations).  
+Via member consent = represents where the winding up was implemented via members' consent to the transfer within the meaning given in the relevant SIS Regulations, rather than a transfer to a successor fund.  
+ERF wind up = represents a transfer from an eligible rollover fund (ERF) within the meaning given in the relevant section of the Superannuation Industry (Supervision) Act 1993 (SIS Act).  
+Part 18 amalgamation = represents where APRA approves, under the relevant section of the SIS Act, the transfer of all benefits of members and beneficiaries in an RSE, small APRA fund or single member approved deposit fund to another RSE, small APRA fund or single member approved deposit fund.  
+Other method = represents other methods of wind-up that do not fall under a successor fund transfer, transfer via member consent, ERF wind up or Part 18 amalgamation.</link:label>
+    </link:labelLink>
+</link:linkbase>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.26.data.xsd#rvctc1.02.26_rvctc1Abstract" xlink:label="loc_rvctc1.02.26_rvctc1Abstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_rvctc1Abstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Collection 1</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_rvctc1.02.26_rvctc1Abstract" xlink:to="lbl_rvctc1Abstract"/>
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.26.data.xsd#DE14333" xlink:label="loc_DE14333"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14333" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Pay As You Go Withholding Legal Requirement Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14333" xlink:to="lbl_DE14333"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14333" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This code identifies whether the entity has a legal requirement to register for Pay As You Go (PAYG) withholding.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14333" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Yes = yes.
+No = no.
+NS = not sure.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.26.data.xsd#DE14343" xlink:label="loc_DE14343"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14343" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Retrieve Tax Role Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14343" xlink:to="lbl_DE14343"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14343" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the person or entity wants to retrieve tax roles.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14343" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = The person or entity would like to retrieve tax roles.
+false = The person or Entity would not like to retrieve tax roles.</link:label>
+    </link:labelLink>
+</link:linkbase>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="pyde.02.29.data.xsd#pyde.02.29_pydeAbstract" xlink:label="loc_pyde.02.29_pydeAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_pydeAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Party Demographics</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_pyde.02.29_pydeAbstract" xlink:to="lbl_pydeAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.29.data.xsd#DE14350" xlink:label="loc_DE14350"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14350" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Electronic Contact End Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14350" xlink:to="lbl_DE14350"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14350" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicates whether the entity or party's electronic contact has ended.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14350" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values:
+true = the entity or person's contact has ceased.
+false = the entity or person's contact has not ceased.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.29.data.xsd#DE14347" xlink:label="loc_DE14347"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14347" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Electronic Contact Usage Type Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14347" xlink:to="lbl_DE14347"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14347" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This code identifies the type or usage of electronic address.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14347" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+APH = After Hours Telephone.
+BPH = Business Telephone.
+BUS = Main Business.
+EML = Electronic Mail.
+FAX = Facsimile.
+MPH = Mobile Telephone.
+SON = Service of Notice.
+URL = URL.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.29.data.xsd#DE14348" xlink:label="loc_DE14348"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14348" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Organisation Details Main Business Activity Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14348" xlink:to="lbl_DE14348"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14348" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates that the business activity performed at the additional business location is the same as the main business.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14348" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values:
+true = the activity is the same as the main business.
+false = the activity is different from the main business.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.29.data.xsd#DE14351" xlink:label="loc_DE14351"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14351" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Organisation Details Registration Status Description</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14351" xlink:to="lbl_DE14351"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14351" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The Australian Charities and Not for Profit Commission charity role registration status.</link:label>
+    </link:labelLink>
+</link:linkbase>

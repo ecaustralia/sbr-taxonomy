@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="lrla.02.20.data.xsd#lrla.02.20_lrlaAbstract" xlink:label="loc_lrla.02.20_lrlaAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_lrlaAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Labour Arrangements</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_lrla.02.20_lrlaAbstract" xlink:to="lbl_lrlaAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="lrla.02.20.data.xsd#DE14340" xlink:label="loc_DE14340"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14340" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Allowance Type Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14340" xlink:to="lbl_DE14340"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14340" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates the allowance type to be assigned to an individual's taxable allowance amount that is subject to income tax.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14340" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Car = Car expense allowance. 
+Transport  = Award transport payments up to reasonable amounts.
+Laundry = Laundry allowances.
+Meals = Award overtime meal allowance.
+Travel  = Domestic or overseas travel allowance above the reasonable limit and all overseas accommodation allowances.
+Other = All other allowances for expected deductible expenses.</link:label>
+        <link:loc xlink:type="locator" xlink:href="lrla.02.20.data.xsd#DE14338" xlink:label="loc_DE14338"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14338" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Deduction Type Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14338" xlink:to="lbl_DE14338"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14338" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates the deduction type to be assigned to an individual's allowance amount that is subject to income tax.</link:label>
+        <link:loc xlink:type="locator" xlink:href="lrla.02.20.data.xsd#DE14336" xlink:label="loc_DE14336"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14336" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Ordinary Time Earnings Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14336" xlink:to="lbl_DE14336"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14336" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for what an individual has earned during their ordinary hours of work.</link:label>
+        <link:loc xlink:type="locator" xlink:href="lrla.02.20.data.xsd#DE14337" xlink:label="loc_DE14337"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14337" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Other Allowance Type Description</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14337" xlink:to="lbl_DE14337"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14337" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the description or justification of the type of allowance paid to an individual that is not classified elsewhere.</link:label>
+        <link:loc xlink:type="locator" xlink:href="lrla.02.20.data.xsd#DE14339" xlink:label="loc_DE14339"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14339" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Payroll Event Final Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14339" xlink:to="lbl_DE14339"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14339" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the report is the employers final payroll for the current reporting period.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14339" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = report is the employers final payroll data for the current reporting period.
+false = report is not the employers final payroll data for the current reporting period.</link:label>
+        <link:loc xlink:type="locator" xlink:href="lrla.02.20.data.xsd#DE14335" xlink:label="loc_DE14335"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14335" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Payroll Transaction Identifier</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14335" xlink:to="lbl_DE14335"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14335" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a unique identifier, that is internally assigned to identify a payroll report for a relevant period.</link:label>
+    </link:labelLink>
+</link:linkbase>

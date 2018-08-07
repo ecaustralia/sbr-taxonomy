@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:pyde.02.14="http://sbr.gov.au/icls/py/pyde/pyde.02.14.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtyp.02.20="http://sbr.gov.au/fdtn/sbr.02.20.dtyp" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/py/pyde/pyde.02.14.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.20.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.20.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="pydeAbstract" id="pyde.02.14_pydeAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AddressDetails.GeocodeLatitude.Number" id="DE13091" type="dtyp.02.20:sbrGeocodeLatitudeNumberItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="AddressDetails.GeocodeLongitude.Number" id="DE13092" type="dtyp.02.20:sbrGeocodeLongitudeNumberItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="AddressDetails.GeocodePositionalUncertainty.Number" id="DE13093" type="dtyp.02.20:sbrGeocodePositionalUncertaintyNumberItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="AddressDetails.MeshBlock.Code" id="DE13090" type="dtyp.02.20:sbrASGSMeshBlockItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationDetails.OrganisationIndustry2006.Code" id="DE13178" type="dtyp.02.20:sbrOrganisationIndustry2006CodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationDetails.OrganisationIndustry2006.Description" id="DE13094" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationDetails.OrganisationIndustry2006Extended.Code" id="DE246" type="dtyp.02.20:sbrOrganisationIndustry2006ExtendedCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationDetails.RegistrationChanged.Date" id="DE13096" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="OrganisationDetails.RegistrationEnd.Date" id="DE74" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="OrganisationDetails.RegistrationStart.Date" id="DE73" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+</xsd:schema>

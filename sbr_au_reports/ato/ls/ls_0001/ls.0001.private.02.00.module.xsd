@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by Matthew Vines (Inforail) -->
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema targetNamespace="http://sbr.gov.au/rprt/ato/ls/ls.0001.private.02.00.module" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ls.0001.prv.02.00="http://sbr.gov.au/rprt/ato/ls/ls.0001.private.02.00.module" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:h04.02.02="http://sbr.gov.au/dims/RprtPyType.02.02.dims" xmlns:RelPrdDrtn.02.00="http://sbr.gov.au/dims/RelPrdDrtn.02.00.dims" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:h06.02.00="http://sbr.gov.au/dims/PrdType.02.00.dims" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:AssblFrgnIncClass.02.00="http://sbr.gov.au/dims/AssblFrgnIncClass.02.00.dims" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.02.labLink.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/RelPrdDrtn.02.00.labLink.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/AssblFrgnIncClass.02.00.labLink.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ls.0001.private.02.00.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ls.0001.private.02.00.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.02.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/PrdType.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/RelPrdDrtn.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/AssblFrgnIncClass.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ls.0001.private.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ls/ls.0001.private.02.00/labRole" id="ls.0001.02.00.privatelabLinkInfoCls">
+        <link:definition>ls.0001_private</link:definition>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ls/ls.0001.private.02.00/refRole" id="ls.0001.02.00.privaterefLink">
+        <link:definition>ls.0001_private</link:definition>
+        <link:usedOn>link:referenceLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ls/ls.0001.private.02.00/defRole" id="ls.0001.02.00.privatedefLink">
+        <link:definition>ls.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ls/ls.0001.private.02.00/hypercubes/ReportingParty" id="ls.0001.02.00.privatedefLinkReportingParty">
+        <link:definition>ls.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ls/ls.0001.private.02.00/hypercubes/ReportingParty.RelativePeriodDuration" id="ls.0001.02.00.privatedefLinkReportingParty.RelativePeriodDuration">
+        <link:definition>ls.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ls/ls.0001.private.02.00/hypercubes/ReportingParty.RelativePeriodDuration.All" id="ls.0001.02.00.privatedefLinkReportingParty.RelativePeriodDuration.All">
+        <link:definition>ls.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ls/ls.0001.private.02.00/hypercubes/ReportingParty.AssessableForeignIncomeClassification" id="ls.0001.02.00.privatedefLinkReportingParty.AssessableForeignIncomeClassification">
+        <link:definition>ls.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ls/ls.0001.private.02.00/hypercubes/ReportingParty.RelativePeriodDuration.Y0Minus10SAP" id="ls.0001.02.00.privatedefLinkReportingParty.RelativePeriodDuration.Y0Minus10SAP">
+        <link:definition>ls.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.02.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.02.data.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/dims/RelPrdDrtn.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RelPrdDrtn.02.00.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/dims/AssblFrgnIncClass.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/AssblFrgnIncClass.02.00.data.xsd"/>
+  <xsd:element name="ReportingPartyPrimaryItemsAbstract" id="RA1298" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyRelativePeriodDurationPrimaryItemsAbstract" id="RA1299" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyRelativePeriodDurationAllPrimaryItemsAbstract" id="RA1300" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyAssessableForeignIncomeClassificationPrimaryItemsAbstract" id="RA1303" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyRelativePeriodDurationY0Minus10SAPPrimaryItemsAbstract" id="RA1305" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="false" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingParty" id="HC1298" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyRelativePeriodDuration" id="HC1299" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyRelativePeriodDurationAll" id="HC1300" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyAssessableForeignIncomeClassification" id="HC1303" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyRelativePeriodDurationY0Minus10SAP" id="HC1305" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+</xsd:schema>

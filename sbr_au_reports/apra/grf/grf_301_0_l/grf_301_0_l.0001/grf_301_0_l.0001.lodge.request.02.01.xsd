@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:bafpo3.02.05="http://sbr.gov.au/icls/baf/bafpo/bafpo3.02.05.data" xmlns:grf_301_0_l="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01.report" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:pyde.02.07="http://sbr.gov.au/icls/py/pyde/pyde.02.07.data" xmlns:report="http://sbr.gov.au/rprt/apra/apra.report.02.01.module" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01.report">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo3.02.05.labLink.xml"/>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:href="../../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.07.labLink.xml"/>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:href="grf_301_0_l.0001.lodge.request.02.01.labLink.xml"/>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/labRole" id="grf_301_0_l.0001.lodge.request.02.01.labLink">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:labelLink</link:usedOn>
+			</link:roleType>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:href="grf_301_0_l.0001.lodge.request.02.01.defLink.xml"/>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole" id="grf_301_0_l.0001.lodge.request.02.01.defLink">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:href="grf_301_0_l.0001.lodge.request.02.01.presLink.xml"/>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/presRole" id="grf_301_0_l.0001.lodge.request.02.01.presLink">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole1" id="grf_301_0_l.0001.lodge.request.02.01.defLink1">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole2" id="grf_301_0_l.0001.lodge.request.02.01.defLink2">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole3" id="grf_301_0_l.0001.lodge.request.02.01.defLink3">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole4" id="grf_301_0_l.0001.lodge.request.02.01.defLink4">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole5" id="grf_301_0_l.0001.lodge.request.02.01.defLink5">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole6" id="grf_301_0_l.0001.lodge.request.02.01.defLink6">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole7" id="grf_301_0_l.0001.lodge.request.02.01.defLink7">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole8" id="grf_301_0_l.0001.lodge.request.02.01.defLink8">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole9" id="grf_301_0_l.0001.lodge.request.02.01.defLink9">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole10" id="grf_301_0_l.0001.lodge.request.02.01.defLink10">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole11" id="grf_301_0_l.0001.lodge.request.02.01.defLink11">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole12" id="grf_301_0_l.0001.lodge.request.02.01.defLink12">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole13" id="grf_301_0_l.0001.lodge.request.02.01.defLink13">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole14" id="grf_301_0_l.0001.lodge.request.02.01.defLink14">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole15" id="grf_301_0_l.0001.lodge.request.02.01.defLink15">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole16" id="grf_301_0_l.0001.lodge.request.02.01.defLink16">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole17" id="grf_301_0_l.0001.lodge.request.02.01.defLink17">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole18" id="grf_301_0_l.0001.lodge.request.02.01.defLink18">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole19" id="grf_301_0_l.0001.lodge.request.02.01.defLink19">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole20" id="grf_301_0_l.0001.lodge.request.02.01.defLink20">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole21" id="grf_301_0_l.0001.lodge.request.02.01.defLink21">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole22" id="grf_301_0_l.0001.lodge.request.02.01.defLink22">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole23" id="grf_301_0_l.0001.lodge.request.02.01.defLink23">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole24" id="grf_301_0_l.0001.lodge.request.02.01.defLink24">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole25" id="grf_301_0_l.0001.lodge.request.02.01.defLink25">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole26" id="grf_301_0_l.0001.lodge.request.02.01.defLink26">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole27" id="grf_301_0_l.0001.lodge.request.02.01.defLink27">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole28" id="grf_301_0_l.0001.lodge.request.02.01.defLink28">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole29" id="grf_301_0_l.0001.lodge.request.02.01.defLink29">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole30" id="grf_301_0_l.0001.lodge.request.02.01.defLink30">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole31" id="grf_301_0_l.0001.lodge.request.02.01.defLink31">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole32" id="grf_301_0_l.0001.lodge.request.02.01.defLink32">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole33" id="grf_301_0_l.0001.lodge.request.02.01.defLink33">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole34" id="grf_301_0_l.0001.lodge.request.02.01.defLink34">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole35" id="grf_301_0_l.0001.lodge.request.02.01.defLink35">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole36" id="grf_301_0_l.0001.lodge.request.02.01.defLink36">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole37" id="grf_301_0_l.0001.lodge.request.02.01.defLink37">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole38" id="grf_301_0_l.0001.lodge.request.02.01.defLink38">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole39" id="grf_301_0_l.0001.lodge.request.02.01.defLink39">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole40" id="grf_301_0_l.0001.lodge.request.02.01.defLink40">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole41" id="grf_301_0_l.0001.lodge.request.02.01.defLink41">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole42" id="grf_301_0_l.0001.lodge.request.02.01.defLink42">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole43" id="grf_301_0_l.0001.lodge.request.02.01.defLink43">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole44" id="grf_301_0_l.0001.lodge.request.02.01.defLink44">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole45" id="grf_301_0_l.0001.lodge.request.02.01.defLink45">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole46" id="grf_301_0_l.0001.lodge.request.02.01.defLink46">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole47" id="grf_301_0_l.0001.lodge.request.02.01.defLink47">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole48" id="grf_301_0_l.0001.lodge.request.02.01.defLink48">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole49" id="grf_301_0_l.0001.lodge.request.02.01.defLink49">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole50" id="grf_301_0_l.0001.lodge.request.02.01.defLink50">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole51" id="grf_301_0_l.0001.lodge.request.02.01.defLink51">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole52" id="grf_301_0_l.0001.lodge.request.02.01.defLink52">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole53" id="grf_301_0_l.0001.lodge.request.02.01.defLink53">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole54" id="grf_301_0_l.0001.lodge.request.02.01.defLink54">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole55" id="grf_301_0_l.0001.lodge.request.02.01.defLink55">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole56" id="grf_301_0_l.0001.lodge.request.02.01.defLink56">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole57" id="grf_301_0_l.0001.lodge.request.02.01.defLink57">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole58" id="grf_301_0_l.0001.lodge.request.02.01.defLink58">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole59" id="grf_301_0_l.0001.lodge.request.02.01.defLink59">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole60" id="grf_301_0_l.0001.lodge.request.02.01.defLink60">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole61" id="grf_301_0_l.0001.lodge.request.02.01.defLink61">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole62" id="grf_301_0_l.0001.lodge.request.02.01.defLink62">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole63" id="grf_301_0_l.0001.lodge.request.02.01.defLink63">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole64" id="grf_301_0_l.0001.lodge.request.02.01.defLink64">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole65" id="grf_301_0_l.0001.lodge.request.02.01.defLink65">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole66" id="grf_301_0_l.0001.lodge.request.02.01.defLink66">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole67" id="grf_301_0_l.0001.lodge.request.02.01.defLink67">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole68" id="grf_301_0_l.0001.lodge.request.02.01.defLink68">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole69" id="grf_301_0_l.0001.lodge.request.02.01.defLink69">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole70" id="grf_301_0_l.0001.lodge.request.02.01.defLink70">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole71" id="grf_301_0_l.0001.lodge.request.02.01.defLink71">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole72" id="grf_301_0_l.0001.lodge.request.02.01.defLink72">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole73" id="grf_301_0_l.0001.lodge.request.02.01.defLink73">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole74" id="grf_301_0_l.0001.lodge.request.02.01.defLink74">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole75" id="grf_301_0_l.0001.lodge.request.02.01.defLink75">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole76" id="grf_301_0_l.0001.lodge.request.02.01.defLink76">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole77" id="grf_301_0_l.0001.lodge.request.02.01.defLink77">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole78" id="grf_301_0_l.0001.lodge.request.02.01.defLink78">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole79" id="grf_301_0_l.0001.lodge.request.02.01.defLink79">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole80" id="grf_301_0_l.0001.lodge.request.02.01.defLink80">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole81" id="grf_301_0_l.0001.lodge.request.02.01.defLink81">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole82" id="grf_301_0_l.0001.lodge.request.02.01.defLink82">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole83" id="grf_301_0_l.0001.lodge.request.02.01.defLink83">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole84" id="grf_301_0_l.0001.lodge.request.02.01.defLink84">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole85" id="grf_301_0_l.0001.lodge.request.02.01.defLink85">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole86" id="grf_301_0_l.0001.lodge.request.02.01.defLink86">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole87" id="grf_301_0_l.0001.lodge.request.02.01.defLink87">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole88" id="grf_301_0_l.0001.lodge.request.02.01.defLink88">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole89" id="grf_301_0_l.0001.lodge.request.02.01.defLink89">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole90" id="grf_301_0_l.0001.lodge.request.02.01.defLink90">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole91" id="grf_301_0_l.0001.lodge.request.02.01.defLink91">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole92" id="grf_301_0_l.0001.lodge.request.02.01.defLink92">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole93" id="grf_301_0_l.0001.lodge.request.02.01.defLink93">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole94" id="grf_301_0_l.0001.lodge.request.02.01.defLink94">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole95" id="grf_301_0_l.0001.lodge.request.02.01.defLink95">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole96" id="grf_301_0_l.0001.lodge.request.02.01.defLink96">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole97" id="grf_301_0_l.0001.lodge.request.02.01.defLink97">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole98" id="grf_301_0_l.0001.lodge.request.02.01.defLink98">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole99" id="grf_301_0_l.0001.lodge.request.02.01.defLink99">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole100" id="grf_301_0_l.0001.lodge.request.02.01.defLink100">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole101" id="grf_301_0_l.0001.lodge.request.02.01.defLink101">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole102" id="grf_301_0_l.0001.lodge.request.02.01.defLink102">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole103" id="grf_301_0_l.0001.lodge.request.02.01.defLink103">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole104" id="grf_301_0_l.0001.lodge.request.02.01.defLink104">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole105" id="grf_301_0_l.0001.lodge.request.02.01.defLink105">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole106" id="grf_301_0_l.0001.lodge.request.02.01.defLink106">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole107" id="grf_301_0_l.0001.lodge.request.02.01.defLink107">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole108" id="grf_301_0_l.0001.lodge.request.02.01.defLink108">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole109" id="grf_301_0_l.0001.lodge.request.02.01.defLink109">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole110" id="grf_301_0_l.0001.lodge.request.02.01.defLink110">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole111" id="grf_301_0_l.0001.lodge.request.02.01.defLink111">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole112" id="grf_301_0_l.0001.lodge.request.02.01.defLink112">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole113" id="grf_301_0_l.0001.lodge.request.02.01.defLink113">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole114" id="grf_301_0_l.0001.lodge.request.02.01.defLink114">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole115" id="grf_301_0_l.0001.lodge.request.02.01.defLink115">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole116" id="grf_301_0_l.0001.lodge.request.02.01.defLink116">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_301_0_l/grf_301_0_l.0001.lodge.request.02.01/defRole117" id="grf_301_0_l.0001.lodge.request.02.01.defLink117">
+				<link:definition>grf_301_0_l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/rprt/apra/apra.report.02.01.module" schemaLocation="../../../../../sbr_au_reports/apra/apracomn/apra.report.02.01.module.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/rprt/apra/sbr_au\sbr_au_reports\apra\grf\grf_301_0_l\grf_301_0_l.0001\grf_301_0_l.0001.private.02.01.module" schemaLocation="grf_301_0_l.0001.private.02.01.module.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/baf/bafpo/bafpo3.02.05.data" schemaLocation="../../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo3.02.05.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/py/pyde/pyde.02.07.data" schemaLocation="../../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.07.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/Jurisdiction.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/Jurisdiction.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/CounterpartyType.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/CounterpartyType.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/AssetQuality.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/AssetQuality.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/BalanceType.02.01.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/BalanceType.02.01.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/CounterpartyRating.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/CounterpartyRating.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/AssetSecurity.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/AssetSecurity.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/CntrprtyRltnshpTyp.02.01.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/CntrprtyRltnshpTyp.02.01.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/ReportingLocation.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/ReportingLocation.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/APRAGISegments.02.00.dims" schemaLocation="../../../../../sbr_au_taxonomy/dims/APRAGISegments.02.00.data.xsd"/>
+	<xsd:element name="ReportHeader" substitutionGroup="xbrli:tuple" nillable="false" id="grf_301_0_l_ReportHeader" type="report:reportHeaderNilType"/>
+	<xsd:element name="ReportContent" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="instant" nillable="false" abstract="true" id="grf_301_0_l_ReportContent"/>
+</xsd:schema>

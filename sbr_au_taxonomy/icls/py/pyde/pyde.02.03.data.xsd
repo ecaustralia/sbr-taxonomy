@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:pyde.02.03="http://sbr.gov.au/icls/py/pyde/pyde.02.03.data" xmlns:dtyp.02.04="http://sbr.gov.au/fdtn/sbr.02.04.dtyp" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/py/pyde/pyde.02.03.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.04.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.04.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="pydeAbstract" id="pyde.02.03_pydeAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="OrganisationControl.RoleCease.Date" id="DE3566" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationControl.RoleStart.Date" id="DE3567" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationDetails.TaxConsolidationStatus.Code" id="DE3326" type="dtyp.02.04:sbrTaxConsolidationStatusItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationDetails.OrganisationIndustry2006Extended.Code" id="DE246" type="dtyp.02.04:sbrOrganisationIndustry2006CodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationDetails.OrganisationType.Code" id="DE68" type="dtyp.02.04:sbrOrganisationTypeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationDetails.ActivityEvent.Code" id="DE3569" type="dtyp.02.04:sbrOrganisationActivityEventItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="OrganisationDetails.AnnualGeneralMeeting.Date" id="DE3565" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Party.Type.Code" id="DE747" type="dtyp.02.04:sbrPartyTypeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="PersonDemographicDetails.BirthLocalityName.Text" id="DE3570" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="PersonDemographicDetails.BirthStateOrTerritory.Code" id="DE3571" type="dtyp.02.04:sbrStateOrTerritoryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+</xsd:schema>

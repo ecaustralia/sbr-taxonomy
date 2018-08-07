@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bafot.02.03="http://sbr.gov.au/icls/baf/bafot/bafot.02.03.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtyp.02.05="http://sbr.gov.au/fdtn/sbr.02.05.dtyp" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/baf/bafot/bafot.02.03.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.05.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.05.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="bafotAbstract" id="bafot.02.03_bafotAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="DirectorsDisclosures.DirectorsReport.StatementThatDirectorsReportInAccordanceWithResolution.Text" id="DE490" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="DirectorsDisclosures.DirectorsReport.PrincipalActivitiesAndSignificantChangesToPrincipalActivities.Text" id="DE492" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="DirectorsDisclosures.DirectorsReport.DividendDisclosures.Text" id="DE493" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="DirectorsDisclosures.DirectorsReport.ReviewAndResultsOfOperations.Text" id="DE494" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="DirectorsDisclosures.DirectorsReport.SignificantChangesToEntitiesStateOfAffairs.Text" id="DE495" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="DirectorsDisclosures.DirectorsReport.MattersArisingAfterBalanceDate.Text" id="DE496" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="DirectorsDisclosures.DirectorsReport.LikelyDevelopmentsInOperationsAndTheirEffectOnFutureResults.Text" id="DE497" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="DirectorsDisclosures.DirectorsReport.DisclosuresForOfficers.Text" id="DE499" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="DirectorsDisclosures.DirectorsReport.IndemnitiesAndInsurancePremiumsGivenForOfficersAndAuditor.Text" id="DE505" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="DirectorsDisclosures.DirectorsReport.DetailsofRegisteredSchemes.Text" id="DE509" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="DirectorsDisclosures.DirectorsReport.DetailOfProceedingsByOthersOnBehalfOfCompany.Text" id="DE510" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="DirectorsDisclosures.DirectorsReport.Rounding.Text" id="DE511" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="DirectorsDisclosures.DirectorsReport.NonAuditServices.Text" id="DE514" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+</xsd:schema>

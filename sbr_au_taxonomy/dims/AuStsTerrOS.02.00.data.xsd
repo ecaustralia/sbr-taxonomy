@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://sbr.gov.au/dims/AuStsTerrOS.02.00.dims" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:h01.02.00="http://sbr.gov.au/dims/AuStsTerrOS.02.00.dims" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="AuStsTerrOS.02.00.labLink.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://sbr.gov.au/dims/AuStsTerrOS.01.01.dims/hypercubes/AustralianStatesTerritoriesAndOffShoreAreas.hypRole" id="australianStatesTerritoriesAndOffShoreAreas">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/dims/AuStsTerrOS.01.01.dims/hypercubes/AustralianStatesAndTerritories.hypRole" id="australianStatesAndTerritories">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/dims/AuStsTerrOS.01.01.dims/hypercubes/AustralianStatesTerritoriesAndOffShoreAreas.hypRole.hypNegRole1" id="australianStatesTerritoriesAndOffShoreAreasNeg1">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/dims/AuStsTerrOS.01.01.dims/hypercubes/AustralianStatesTerritoriesAndOffShoreAreas.hypRole.hypNegRole2" id="australianStatesTerritoriesAndOffShoreAreasNeg2">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/dims/AuStsTerrOS.01.01.dims/hypercubes/AustralianStatesTerritoriesAndOffShoreAreas.hypRole.hypNegRole3" id="australianStatesTerritoriesAndOffShoreAreas.hypRole.hypNegRole3">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/dims/AuStsTerrOS.01.01.dims/hypercubes/AustralianStatesTerritoriesAndOffShoreAreas.hypRole.hypNegRole4" id="australianStatesTerritoriesAndOffShoreAreas.hypRole.hypNegRole4">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:element name="AustralianStatesTerritoriesAndOffShoreAreasDimension" id="DM1" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" xbrli:periodType="duration"/>
+  <xsd:element name="ATT" id="DV1" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="duration"/>
+  <xsd:element name="ACT" id="DV2" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="duration"/>
+  <xsd:element name="NSW" id="DV3" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="duration"/>
+  <xsd:element name="NT" id="DV4" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="duration"/>
+  <xsd:element name="QLD" id="DV5" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="duration"/>
+  <xsd:element name="SA" id="DV6" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="duration"/>
+  <xsd:element name="TAS" id="DV7" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="duration"/>
+  <xsd:element name="VIC" id="DV8" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="duration"/>
+  <xsd:element name="WA" id="DV9" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="duration"/>
+  <xsd:element name="TS" id="DV10" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="duration"/>
+  <xsd:element name="CC" id="DV11" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="duration"/>
+  <xsd:element name="CI" id="DV12" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="duration"/>
+  <xsd:element name="TOTOS" id="DV13" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="duration"/>
+  <xsd:element name="AustralianStatesAndTerritoriesDimension" id="DM2" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" xbrli:periodType="duration"/>
+  <xsd:element name="TOTAU" id="DV14" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="duration"/>
+</xsd:schema>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt">
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/fvsl/fvsl.0001.list.response.02.00/defRole1" xlink:type="simple" xlink:href="fvsl.0001.list.response.02.00.report.xsd#fvsl.0001.list.response.02.00.defLink1"/>
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/fvsl/fvsl.0001.private.02.00/hypercubes/IntermediaryReportingParty" xlink:type="simple" xlink:href="fvsl.0001.private.02.00.module.xsd#fvsl.0001.02.00.privatedefLinkIntermediaryReportingParty"/>
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/fvsl/fvsl.0001.private.02.00/hypercubes/ReportingParty" xlink:type="simple" xlink:href="fvsl.0001.private.02.00.module.xsd#fvsl.0001.02.00.privatedefLinkReportingParty"/>
+    <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+    <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+    <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/fvsl/fvsl.0001.list.response.02.00/defRole1">
+        <link:loc xlink:type="locator" xlink:href="fvsl.0001.private.02.00.module.xsd#RA100229" xlink:label="loc_RA100229"/>
+        <link:loc xlink:type="locator" xlink:href="fvsl.0001.private.02.00.module.xsd#HC100229" xlink:label="loc_HC100229"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_RA100229" xlink:to="loc_HC100229" use="optional" order="1.0" xbrldt:contextElement="segment" xbrldt:closed="true" xbrldt:targetRole="http://sbr.gov.au/rprt/ato/fvsl/fvsl.0001.private.02.00/hypercubes/IntermediaryReportingParty"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE55" xlink:label="loc_DE55"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100229" xlink:to="loc_DE55" use="optional" order="2.0"/>
+        <link:loc xlink:type="locator" xlink:href="fvsl.0001.private.02.00.module.xsd#RA100230" xlink:label="loc_RA100230"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/em/emsup/emsup.02.08.data.xsd#DE7395" xlink:label="loc_DE7395"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100230" xlink:to="loc_DE7395" use="optional" order="5.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/em/emsup/emsup.02.13.data.xsd#DE13264" xlink:label="loc_DE13264"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100230" xlink:to="loc_DE13264" use="optional" order="6.0"/>
+        <link:loc xlink:type="locator" xlink:href="fvsl.0001.private.02.00.module.xsd#HC100230" xlink:label="loc_HC100230"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_RA100230" xlink:to="loc_HC100230" use="optional" order="3.0" xbrldt:contextElement="segment" xbrldt:closed="true" xbrldt:targetRole="http://sbr.gov.au/rprt/ato/fvsl/fvsl.0001.private.02.00/hypercubes/ReportingParty"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.17.data.xsd#DE13269" xlink:label="loc_DE13269"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100230" xlink:to="loc_DE13269" use="optional" order="4.0"/>
+    </link:definitionLink>
+    
+    
+</link:linkbase>

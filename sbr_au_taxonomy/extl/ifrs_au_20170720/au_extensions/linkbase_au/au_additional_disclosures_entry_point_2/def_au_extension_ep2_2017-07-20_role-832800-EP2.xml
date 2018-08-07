@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<!--
+		This file uses elements from the IFRS Taxonomy released by the IFRS Foundation on 2017-03-09.
+		For more information on the IFRS Foundation's copyright and the terms and conditions of use for these files, please refer to http://go.ifrs.org/IFRSTterms.
+		The IFRS Foundation logo, the IASB logo, the IFRS for SMEs logo, the "Hexagon Device", "IFRS Foundation", "eIFRS", "IAS", "IASB", "IFRS for SMEs", "IASs", "IFRS", "IFRSs", "International Accounting Standards" and "International Financial Reporting Standards", "IFRIC", "SIC" and "IFRS Taxonomy" are Trade Marks of the IFRS Foundation.
+		For further information about where the Trade Marks are protected and/or are in use please contact the IFRS Foundation.
+        **********************
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-832800-EP2" xlink:type="simple" xlink:href="rol_au_extension_ep2_2017-07-20.xsd#au_extension_ep2_2017-07-20_role-832800-EP2"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/role/au/au_extension_ep2_2017-07-20_role-832800-EP2">
+    <link:loc xlink:type="locator" xlink:href="../../../full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis" xlink:label="ConsolidatedAndSeparateFinancialStatementsAxis"/>
+    <link:loc xlink:type="locator" xlink:href="../../../full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_ConsolidatedMember" xlink:label="ConsolidatedMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ConsolidatedAndSeparateFinancialStatementsAxis" xlink:to="ConsolidatedMember" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_SeparateMember" xlink:label="SeparateMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ConsolidatedMember" xlink:to="SeparateMember" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2017-07-20.xsd#ifrs_au-full_DisclosureOfConsolidatedAndSeparateFinancialStatementsAbstract" xlink:label="DisclosureOfConsolidatedAndSeparateFinancialStatementsAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2017-07-20.xsd#ifrs_au-full_DisclosureOfConsolidatedAndSeparateFinancialStatementsLineItems" xlink:label="DisclosureOfConsolidatedAndSeparateFinancialStatementsLineItems"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="DisclosureOfConsolidatedAndSeparateFinancialStatementsAbstract" xlink:to="DisclosureOfConsolidatedAndSeparateFinancialStatementsLineItems" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_DisclosureOfArrangementsInvolvingLegalFormOfLeaseExplanatory" xlink:label="DisclosureOfArrangementsInvolvingLegalFormOfLeaseExplanatory"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="DisclosureOfConsolidatedAndSeparateFinancialStatementsLineItems" xlink:to="DisclosureOfArrangementsInvolvingLegalFormOfLeaseExplanatory" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_DisclosureOfDetailedInformationAboutArrangementsInvolvingLegalFormOfLeaseExplanatory" xlink:label="DisclosureOfDetailedInformationAboutArrangementsInvolvingLegalFormOfLeaseExplanatory"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="DisclosureOfArrangementsInvolvingLegalFormOfLeaseExplanatory" xlink:to="DisclosureOfDetailedInformationAboutArrangementsInvolvingLegalFormOfLeaseExplanatory" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2017-07-20.xsd#ifrs_au-full_DisclosureOfConsolidatedAndSeparateFinancialStatementsTable" xlink:label="DisclosureOfConsolidatedAndSeparateFinancialStatementsTable"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="DisclosureOfConsolidatedAndSeparateFinancialStatementsAbstract" xlink:to="DisclosureOfConsolidatedAndSeparateFinancialStatementsTable" order="2.0" xbrldt:contextElement="scenario" xbrldt:closed="true"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="DisclosureOfConsolidatedAndSeparateFinancialStatementsTable" xlink:to="ConsolidatedAndSeparateFinancialStatementsAxis" order="1.0"/>
+  </link:definitionLink>
+</link:linkbase>

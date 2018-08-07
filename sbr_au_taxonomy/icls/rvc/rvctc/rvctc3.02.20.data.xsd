@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:rvctc3.02.20="http://sbr.gov.au/icls/rvc/rvctc/rvctc3.02.20.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:dtyp.02.29="http://sbr.gov.au/fdtn/sbr.02.29.dtyp" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/rvc/rvctc/rvctc3.02.20.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.29.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.29.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="rvctc3Abstract" id="rvctc3.02.20_rvctc3Abstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="Capital.Gains.DiscountedMethod.Amount" id="DE13925" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Capital.Gains.IndexationMethod.Amount" id="DE13926" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Capital.Gains.OtherMethod.Amount" id="DE13927" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Capital.Gains.SharesDisposalPreviousYear.Indicator" id="DE13865" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="CapitalGainsTax.SecurityData.Indicator" id="DE13989" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="FuelTax.FuelType.Code" id="DE13826" type="dtyp.02.29:sbrFuelTypeCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="FuelTax.HeavyVehicle.Indicator" id="DE13827" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="FuelTax.RegistrationCancellation.Indicator" id="DE13847" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="FuelTax.RegistrationStart.Date" id="DE13825" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="GoodsAndServicesTax.Import.Indicator" id="DE13824" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="GoodsAndServicesTax.RegistrationCancellation.Code" id="DE13821" type="dtyp.02.29:sbrGstCancelReasonCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="GoodsAndServicesTax.RegistrationReason.Code" id="DE13819" type="dtyp.02.29:sbrGstRegistrationCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="GoodsAndServicesTax.RegistrationStart.Date" id="DE13822" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="GoodsAndServicesTax.TurnoverRange.Code" id="DE13823" type="dtyp.02.29:sbrGstTurnoverCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="LuxuryCarTax.Activity.Code" id="DE13964" type="dtyp.02.29:sbrLuxuryCarTaxActivityCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="LuxuryCarTax.ActivityStatementRegistration.Indicator" id="DE13836" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="LuxuryCarTax.Importing.Percent" id="DE13833" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="LuxuryCarTax.LiabilityRange.Code" id="DE13835" type="dtyp.02.29:sbrLuxuryCarTaxLiabilityRangeCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="LuxuryCarTax.Manufacturing.Percent" id="DE13831" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="LuxuryCarTax.RegistrationCancellation.Indicator" id="DE13855" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="LuxuryCarTax.RegistrationStart.Date" id="DE13830" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="LuxuryCarTax.Retailing.Percent" id="DE13834" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="LuxuryCarTax.Wholesale.Percent" id="DE13832" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Tax.EmployeeShareSchemeData.Indicator" id="DE13902" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Tax.HigherEducationLoanProgramBalance.Amount" id="DE13912" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Tax.InterestChargeCredit.Amount" id="DE13893" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Tax.InterestChargeDebit.Amount" id="DE13894" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+    <xsd:element name="Tax.InterestChargeExclusion.Code" id="DE13895" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Tax.InterestDelayedRefund.Amount" id="DE13892" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Tax.InterestOnEarlyPayment.Amount" id="DE13891" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Tax.InterestOnOverpayment.Amount" id="DE13890" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Tax.RoleRegistrationCancellation.Date" id="DE13961" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="Tax.RoleType.Code" id="DE13272" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Tax.StudentFinancialSupplementSchemeBalance.Amount" id="DE13913" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Tax.TaxablePaymentsAnnualReportData.Indicator" id="DE13903" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="WineEqualisationTax.Beer.Percent" id="DE13844" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="WineEqualisationTax.Exporting.Indicator" id="DE13841" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="WineEqualisationTax.Importing.Indicator" id="DE13840" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="WineEqualisationTax.IndirectMarketingRetailer.Indicator" id="DE13842" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="WineEqualisationTax.Manufacturing.Indicator" id="DE13838" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="WineEqualisationTax.Other.Percent" id="DE13846" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="WineEqualisationTax.RegistrationCancellation.Indicator" id="DE13856" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="WineEqualisationTax.RegistrationStart.Date" id="DE13837" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="WineEqualisationTax.Spirit.Percent" id="DE13845" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="WineEqualisationTax.Wholesale.Indicator" id="DE13839" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="WineEqualisationTax.Wine.Percent" id="DE13843" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+</xsd:schema>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:asiccomn.02.01.prv="http://sbr.gov.au/rprt/asic/asiccomn/asiccomn.private.02.01.report" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt" xlink:type="simple" xlink:href="../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#sbrReportLabel"/>
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="simple" xlink:href="../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#Label"/>
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="simple" xlink:href="../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#reportGuidance"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/asic/asiccomn/asiccomn.private.02.01/labRole" xlink:type="simple" xlink:href="asiccomn.private.02.01.module.xsd#asiccomn.privatelabLinkInfoCls"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/asic/asiccomn/asiccomn.private.02.01/labRole">
+    <link:loc xlink:type="locator" xlink:href="asiccomn.private.02.01.module.xsd#RA449" xlink:label="loc_RA449"/>
+    <link:label xlink:type="resource" xlink:label="lbl_RA449" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Intermediary Primary Items  [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA449" xlink:to="lbl_RA449" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="asiccomn.private.02.01.module.xsd#RA638" xlink:label="loc_RA638"/>
+    <link:label xlink:type="resource" xlink:label="lbl_RA638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Reporting Party Primary Items [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA638" xlink:to="lbl_RA638" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="asiccomn.private.02.01.module.xsd#HC638" xlink:label="asiccomn.ReportingParty" xlink:title="asiccomn.ReportingParty"/>
+    <link:label xlink:type="resource" xlink:label="label_asiccomn.ReportingParty" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:title="label_asiccomn.ReportingParty" xml:lang="en" id="label_asiccomn.ReportingParty">Reporting Party</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="asiccomn.ReportingParty" xlink:to="label_asiccomn.ReportingParty" xlink:title="label: asiccomn.ReportingParty to label_asiccomn.ReportingParty"/>
+    <link:loc xlink:type="locator" xlink:href="asiccomn.private.02.01.module.xsd#HC449" xlink:label="asiccomn.Intermediary" xlink:title="asiccomn.Intermediary"/>
+    <link:label xlink:type="resource" xlink:label="label_asiccomn.Intermediary" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:title="label_asiccomn.Intermediary" xml:lang="en" id="label_asiccomn.Intermediary">Intermediary</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="asiccomn.Intermediary" xlink:to="label_asiccomn.Intermediary" xlink:title="label: asiccomn.Intermediary to label_asiccomn.Intermediary"/>
+  </link:labelLink>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link"/>
+</link:linkbase>

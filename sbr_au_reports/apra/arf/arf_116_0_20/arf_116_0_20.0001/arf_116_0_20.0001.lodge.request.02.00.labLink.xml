@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:href="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#Label"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:href="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#reportGuidance"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/rprt/apra/arf/arf_116_0_20/arf_116_0_20.0001.lodge.request.02.00/labRole" xlink:href="arf_116_0_20.0001.lodge.request.02.00.xsd#arf_116_0_20.0001.lodge.request.02.00.labLink"/>
+	<link:labelLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/apra/arf/arf_116_0_20/arf_116_0_20.0001.lodge.request.02.00/labRole">
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafot/bafot.02.06.data.xsd#DE8067" xlink:label="loc_DE8067" xlink:title="FinancialRisk.Market.StressTestingBaseMetalScenarios.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE8067" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Stress Testing - Base Metals Scenarios</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8067" xlink:to="lbl_DE8067" xlink:title="label: FinancialRisk.Market.StressTestingBaseMetalScenarios.Amount to label_FinancialRisk.Market.StressTestingBaseMetalScenarios.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE8067_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance">The price shifts should be applied to each commodity separately; a separate scenario matrix should be completed for each base metal.
+ 
+The scenario representing a 75% decrease in the implied volatility only needs to be reported where the corresponding change in price scenario is 0%.</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8067" xlink:to="lbl_DE8067_1" xlink:title="label: FinancialRisk.Market.StressTestingBaseMetalScenarios.Amount to label_FinancialRisk.Market.StressTestingBaseMetalScenarios.Amount"/>
+	</link:labelLink>
+</link:linkbase>

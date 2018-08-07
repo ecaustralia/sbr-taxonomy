@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/cgls/cgls.0005.private.02.00/hypercubes/JoiningEntity" xlink:type="simple" xlink:href="cgls.0005.private.02.00.module.xsd#cgls.0005.02.00.privatedefLinkJoiningEntity"/>
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/cgls/cgls.0005.private.02.00/hypercubes/LossGenSourceReportingParty" xlink:type="simple" xlink:href="cgls.0005.private.02.00.module.xsd#cgls.0005.02.00.privatedefLinkLossGenSourceReportingParty"/>
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/cgls/cgls.0005.private.02.00/hypercubes/MajOwnshpAndCntrlTestTypeReportingParty" xlink:type="simple" xlink:href="cgls.0005.private.02.00.module.xsd#cgls.0005.02.00.privatedefLinkMajOwnshpAndCntrlTestTypeReportingParty"/>
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/cgls/cgls.0005.private.02.00/hypercubes/RelPrdDrtnReportingParty" xlink:type="simple" xlink:href="cgls.0005.private.02.00.module.xsd#cgls.0005.02.00.privatedefLinkRelPrdDrtnReportingParty"/>
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/cgls/cgls.0005.private.02.00/hypercubes/ReportingParty" xlink:type="simple" xlink:href="cgls.0005.private.02.00.module.xsd#cgls.0005.02.00.privatedefLinkReportingParty"/>
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/cgls/cgls.0005.private.02.00/hypercubes/Transferor" xlink:type="simple" xlink:href="cgls.0005.private.02.00.module.xsd#cgls.0005.02.00.privatedefLinkTransferor"/>
+    <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+    <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+    <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/cgls/cgls.0005.private.02.00/hypercubes/JoiningEntity">
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.12.data.xsd#DM5" xlink:label="loc_DM5"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.12.data.xsd#DV152" xlink:label="loc_DV152"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM5" xlink:to="loc_DV152" use="optional" order="1.0"/>
+        <link:loc xlink:type="locator" xlink:href="cgls.0005.private.02.00.module.xsd#HC100293" xlink:label="loc_HC100293"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100293" xlink:to="loc_DM5" use="optional" order="1.0"/>
+    </link:definitionLink>
+    <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/cgls/cgls.0005.private.02.00/hypercubes/LossGenSourceReportingParty">
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.12.data.xsd#DM5" xlink:label="loc_DM5"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.12.data.xsd#DV29" xlink:label="loc_DV29"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM5" xlink:to="loc_DV29" use="optional" order="1.0"/>
+        <link:loc xlink:type="locator" xlink:href="cgls.0005.private.02.00.module.xsd#HC100294" xlink:label="loc_HC100294"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/LossGenSource.02.00.data.xsd#DM16" xlink:label="loc_DM16"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100294" xlink:to="loc_DM16" use="optional" order="1.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/LossGenSource.02.00.data.xsd#DV128" xlink:label="loc_DV128"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM16" xlink:to="loc_DV128" use="optional" order="1.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/LossGenSource.02.00.data.xsd#DV129" xlink:label="loc_DV129"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM16" xlink:to="loc_DV129" use="optional" order="2.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/LossGenSource.02.00.data.xsd#DV127" xlink:label="loc_DV127"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM16" xlink:to="loc_DV127" use="optional" order="3.0"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100294" xlink:to="loc_DM5" use="optional" order="2.0"/>
+    </link:definitionLink>
+    <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/cgls/cgls.0005.private.02.00/hypercubes/MajOwnshpAndCntrlTestTypeReportingParty">
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.12.data.xsd#DM5" xlink:label="loc_DM5"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.12.data.xsd#DV29" xlink:label="loc_DV29"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM5" xlink:to="loc_DV29" use="optional" order="1.0"/>
+        <link:loc xlink:type="locator" xlink:href="cgls.0005.private.02.00.module.xsd#HC100295" xlink:label="loc_HC100295"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/MajOwnshpAndCntrlTestType.02.00.data.xsd#DM17" xlink:label="loc_DM17"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100295" xlink:to="loc_DM17" use="optional" order="1.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/MajOwnshpAndCntrlTestType.02.00.data.xsd#DV130" xlink:label="loc_DV130"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM17" xlink:to="loc_DV130" use="optional" order="1.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/MajOwnshpAndCntrlTestType.02.00.data.xsd#DV131" xlink:label="loc_DV131"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM17" xlink:to="loc_DV131" use="optional" order="2.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/MajOwnshpAndCntrlTestType.02.00.data.xsd#DV132" xlink:label="loc_DV132"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM17" xlink:to="loc_DV132" use="optional" order="3.0"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100295" xlink:to="loc_DM5" use="optional" order="2.0"/>
+    </link:definitionLink>
+    <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/cgls/cgls.0005.private.02.00/hypercubes/RelPrdDrtnReportingParty">
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.12.data.xsd#DM5" xlink:label="loc_DM5"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.12.data.xsd#DV29" xlink:label="loc_DV29"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM5" xlink:to="loc_DV29" use="optional" order="1.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RelPrdDrtn.02.04.data.xsd#DM63" xlink:label="loc_DM63"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RelPrdDrtn.02.04.data.xsd#DV146" xlink:label="loc_DV146"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM63" xlink:to="loc_DV146" use="optional" order="1.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RelPrdDrtn.02.04.data.xsd#DV144" xlink:label="loc_DV144"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM63" xlink:to="loc_DV144" use="optional" order="2.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RelPrdDrtn.02.04.data.xsd#DV143" xlink:label="loc_DV143"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM63" xlink:to="loc_DV143" use="optional" order="3.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RelPrdDrtn.02.04.data.xsd#DV141" xlink:label="loc_DV141"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM63" xlink:to="loc_DV141" use="optional" order="4.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RelPrdDrtn.02.04.data.xsd#DV139" xlink:label="loc_DV139"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM63" xlink:to="loc_DV139" use="optional" order="5.0"/>
+        <link:loc xlink:type="locator" xlink:href="cgls.0005.private.02.00.module.xsd#HC100296" xlink:label="loc_HC100296"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100296" xlink:to="loc_DM63" use="optional" order="1.0"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100296" xlink:to="loc_DM5" use="optional" order="2.0"/>
+    </link:definitionLink>
+    <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/cgls/cgls.0005.private.02.00/hypercubes/ReportingParty">
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.12.data.xsd#DM5" xlink:label="loc_DM5"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.12.data.xsd#DV29" xlink:label="loc_DV29"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM5" xlink:to="loc_DV29" use="optional" order="1.0"/>
+        <link:loc xlink:type="locator" xlink:href="cgls.0005.private.02.00.module.xsd#HC100297" xlink:label="loc_HC100297"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100297" xlink:to="loc_DM5" use="optional" order="1.0"/>
+    </link:definitionLink>
+    <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/cgls/cgls.0005.private.02.00/hypercubes/Transferor">
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.12.data.xsd#DM5" xlink:label="loc_DM5"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.12.data.xsd#DV155" xlink:label="loc_DV155"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM5" xlink:to="loc_DV155" use="optional" order="1.0"/>
+        <link:loc xlink:type="locator" xlink:href="cgls.0005.private.02.00.module.xsd#HC100298" xlink:label="loc_HC100298"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100298" xlink:to="loc_DM5" use="optional" order="1.0"/>
+    </link:definitionLink>
+</link:linkbase>

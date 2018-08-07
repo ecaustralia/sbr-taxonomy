@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dtyp.02.00="http://sbr.gov.au/fdtn/sbr.02.00.dtyp" xmlns:gfati.02.00="http://sbr.gov.au/icls/gfa/gfati/gfati.02.00.data" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/gfa/gfati/gfati.02.00.data" elementFormDefault="qualified">
+	<xsd:annotation>
+		<xsd:appinfo>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd" />
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.00.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.00.xsd" />
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:element name="gfatiAbstract" id="gfati.02.00_gfatiAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+	<xsd:element name="Rebate.LoanInterest.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2016" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="TaxOffsetClaim.DependantSpouse.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE45" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="TaxOffsetClaim.Entrepreneurs.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1714" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="TaxOffsetClaim.LandcareAndWaterFacilityBroughtForwardFromPriorYears.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1781" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="TaxOffsetClaim.OverseasForces.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE530" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="TaxOffsetClaim.ParentSpouseOrInvalidRelative.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE46" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="TaxOffsetClaim.ReversionaryBonusRebate.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2017" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="TaxOffsetClaim.SeniorAustraliansTaxOffset.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE2" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="TaxOffsetClaim.SmallBusinessEntityAggregatedGroupTurnover.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1840" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="TaxOffsetClaim.SmallBusinessEntityIncomeNet.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1845" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="TaxOffsetClaim.SmallBusinessEntityIncomeNet.Code" substitutionGroup="xbrli:item" nillable="true" id="DE1846" xbrli:periodType="duration" type="dtyp.02.00:sbrSmallBusinessEntityIncomeNetItemType" block="substitution"/>
+	<xsd:element name="TaxOffsetClaim.SuperannuationIncomeStream.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1579" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="TaxOffsetClaim.TaxFreeThreshold.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE3" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="TaxOffsetClaim.Zone.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE47" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+</xsd:schema>

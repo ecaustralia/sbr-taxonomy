@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema targetNamespace="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01.module" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:finrpt.0001.prv.02.01="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01.module" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:RetroApplRetroStmt.02.00="http://sbr.gov.au/dims/RetroApplRetroStmt.02.00.dims" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:RprtPyType.02.03="http://sbr.gov.au/dims/RprtPyType.02.03.dims" xmlns:CompntsEquity.02.00="http://sbr.gov.au/dims/CompntsEquity.02.00.dims" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="finrpt.0001.private.02.01.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="finrpt.0001.private.02.01.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="finrpt.0001.private.02.01.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/labRole" id="finrpt.0001.02.01.privatelabLinkInfoCls">
+        <link:definition>finrpt.0001_private</link:definition>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/refRole" id="finrpt.0001.02.01.privaterefLink">
+        <link:definition>finrpt.0001_private</link:definition>
+        <link:usedOn>link:referenceLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/defRole" id="finrpt.0001.02.01.privatedefLink">
+        <link:definition>finrpt.0001_private</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/hypercubes/ReportingParty" id="finrpt.0001.02.01.privatedefLink.ReportingParty">
+        <link:definition>ReportingParty</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/hypercubes/ConsolidatedParty" id="finrpt.0001.02.01.privatedefLink.ConsolidatedParty">
+        <link:definition>ConsolidatedParty</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/hypercubes/ReportingPartyConsolidatedParty" id="finrpt.0001.02.01.privatedefLink.ReportingParty.ConsolidatedParty">
+        <link:definition>ReportingPartyConsolidatedParty</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/hypercubes/ReportingPartyWithComponentsOfEquity" id="finrpt.0001.02.01.privatedefLink.ReportingPartyWithComponentsOfEquity">
+        <link:definition>ReportingPartyWithComponentsOfEquity</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/hypercubes/ReportingPartyWithComponentsOfEquityAndRetrospectiveRestatement" id="finrpt.0001.02.01.privatedefLink.ReportingPartyWithComponentsOfEquityAndRetrospectiveRestatement">
+        <link:definition>fReportingPartyWithComponentsOfEquityAndRetrospectiveRestatement</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/hypercubes/ConsolidatedPartyWithComponentsOfEquity" id="privatedefLink.ConsolidatedPartyWithComponentsOfEquity">
+        <link:definition>ConsolidatedPartyWithComponentsOfEquity</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/hypercubes/ConsolidatedPartyWithComponentsOfEquityAndRetrospectiveRestatement" id="privatedefLink.ConsolidatedPartyWithComponentsOfEquityAndRetrospectiveRestatement">
+        <link:definition>ConsolidatedPartyWithComponentsOfEquityAndRetrospectiveRestatement</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/hypercubes/ComponentsOfEquityNotUsed1" id="privatedefLink.ComponentsOfEquityNotUsed1">
+        <link:definition>ComponentsOfEquityNotUsed1</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/hypercubes/ComponentsOfEquityNotUsed2" id="privatedefLink.ComponentsOfEquityNotUsed2">
+        <link:definition>ComponentsOfEquityNotUsed2</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/hypercubes/ComponentsOfEquityNotUsed3" id="privatedefLink.ComponentsOfEquityNotUsed3">
+        <link:definition>ComponentsOfEquityNotUsed3</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/hypercubes/ComponentsOfEquityNotUsed4" id="privatedefLink.ComponentsOfEquityNotUsed4">
+        <link:definition>ComponentsOfEquityNotUsed4</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/hypercubes/ComponentsOfEquityNotUsed5" id="privatedefLink.ComponentsOfEquityNotUsed5">
+        <link:definition>ComponentsOfEquityNotUsed5</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/hypercubes/ComponentsOfEquityNotUsed6" id="privatedefLink.ComponentsOfEquityNotUsed6">
+        <link:definition>ComponentsOfEquityNotUsed6</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/hypercubes/ComponentsOfEquityNotUsed7" id="privatedefLink.ComponentsOfEquityNotUsed7">
+        <link:definition>ComponentsOfEquityNotUsed7</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/hypercubes/ComponentsOfEquityNotUsed8" id="privatedefLink.ComponentsOfEquityNotUsed8">
+        <link:definition>ComponentsOfEquityNotUsed8</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/hypercubes/ComponentsOfEquityNotUsed9" id="privatedefLink.ComponentsOfEquityNotUsed9">
+        <link:definition>ComponentsOfEquityNotUsed9</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/hypercubes/ComponentsOfEquityNotUsed10" id="privatedefLink.ComponentsOfEquityNotUsed10">
+        <link:definition>ComponentsOfEquityNotUsed10</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/hypercubes/ComponentsOfEquityNotUsed11" id="privatedefLink.ComponentsOfEquityNotUsed11">
+        <link:definition>ComponentsOfEquityNotUsed11</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/hypercubes/ComponentsOfEquityNotUsed12" id="privatedefLink.ComponentsOfEquityNotUsed12">
+        <link:definition>ComponentsOfEquityNotUsed12</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/hypercubes/ComponentsOfEquityNotUsed13" id="privatedefLink.ComponentsOfEquityNotUsed13">
+        <link:definition>ComponentsOfEquityNotUsed13</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/hypercubes/ComponentsOfEquityNotUsed14" id="privatedefLink.ComponentsOfEquityNotUsed14">
+        <link:definition>ComponentsOfEquityNotUsed14</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/asic/finrpt/finrpt.0001.private.02.01/hypercubes/ComponentsOfEquityNotUsed15" id="privatedefLink.ComponentsOfEquityNotUsed15">
+        <link:definition>ComponentsOfEquityNotUsed15</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/dims/CompntsEquity.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/CompntsEquity.02.00.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/dims/RetroApplRetroStmt.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RetroApplRetroStmt.02.00.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.03.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.03.data.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:element name="ReportingPartyPrimaryItemsAbstract" id="RA1015" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ConsolidatedPartyPrimaryItemsAbstract" id="RA1020" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyConsolidatedPartyPrimaryItemsAbstract" id="RA1021" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyWithComponentsOfEquityPrimaryItemsAbstract" id="RA1609" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyWithComponentsOfEquityAndRetrospectiveRestatementPrimaryItemsAbstract" id="RA1610" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ConsolidatedPartyWithComponentsOfEquityPrimaryItemsAbstract" id="RA1611" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ConsolidatedPartyWithComponentsOfEquityAndRetrospectiveRestatementPrimaryItemsAbstract" id="RA1612" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="Negative1PrimaryItemsAbstract" id="RA1613" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed2PrimaryItemsAbstract" id="RA1614" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed3PrimaryItemsAbstract" id="RA1615" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed4PrimaryItemsAbstract" id="RA1616" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed5PrimaryItemsAbstract" id="RA1617" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed6PrimaryItemsAbstract" id="RA1618" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed7PrimaryItemsAbstract" id="RA1619" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed8PrimaryItemsAbstract" id="RA1620" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed9PrimaryItemsAbstract" id="RA1621" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed10PrimaryItemsAbstract" id="RA1622" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed11PrimaryItemsAbstract" id="RA1623" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed12PrimaryItemsAbstract" id="RA1624" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed13PrimaryItemsAbstract" id="RA1625" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed14PrimaryItemsAbstract" id="RA1626" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed15PrimaryItemsAbstract" id="RA1627" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingParty" id="HC1015" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ConsolidatedParty" id="HC1020" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyConsolidatedParty" id="HC1021" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyWithComponentsOfEquity" id="HC1609" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingPartyWithComponentsOfEquityAndRetrospectiveRestatement" id="HC1610" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ConsolidatedPartyWithComponentsOfEquity" id="HC1611" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ConsolidatedPartyWithComponentsOfEquityAndRetrospectiveRestatement" id="HC1612" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed1" id="HC1613" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed2" id="HC1614" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed3" id="HC1615" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed4" id="HC1616" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed5" id="HC1617" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed6" id="HC1618" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed7" id="HC1619" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed8" id="HC1620" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed9" id="HC1621" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed10" id="HC1622" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed11" id="HC1623" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed12" id="HC1624" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed13" id="HC1625" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed14" id="HC1626" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComponentsOfEquityNotUsed15" id="HC1627" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+</xsd:schema>

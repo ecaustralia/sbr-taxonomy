@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2011 rel. 3 (http://www.altova.com) by APRA (APRA) -->
+<xsd:schema targetNamespace="http://sbr.gov.au/rprt/apra/apra.report.02.00.module" attributeFormDefault="unqualified" elementFormDefault="qualified" blockDefault="" finalDefault="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:report="http://sbr.gov.au/rprt/apra/apra.report.02.00.module" xmlns:orgname1.02.00="http://sbr.gov.au/comnmdle/comnmdle.organisationname1.02.00.module" xmlns:pyin.02.02="http://sbr.gov.au/icls/py/pyin/pyin.02.02.data" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:dtyp.02.00="http://sbr.gov.au/fdtn/sbr.02.00.dtyp" xmlns:pyin.02.00="http://sbr.gov.au/icls/py/pyin/pyin.02.00.data" xmlns:bafot.02.05="http://sbr.gov.au/icls/baf/bafot/bafot.02.05.data" xmlns:pyin.02.05="http://sbr.gov.au/icls/py/pyin/pyin.02.05.data" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:period1.02.01="http://sbr.gov.au/comnmdle/comnmdle.perioddetails1.02.01.module" xmlns:pyde.02.00="http://sbr.gov.au/icls/py/pyde/pyde.02.00.data" xmlns:dtyp.02.04="http://sbr.gov.au/fdtn/sbr.02.04.dtyp" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:pyin.02.09="http://sbr.gov.au/icls/py/pyin/pyin.02.09.data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:href="apra.report.02.00.module.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/apra.report.02.00.module/defRole" id="RT_defLink">
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/apra.report.02.00.module/defRole_HC1" id="RT_HC1">
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/py/pyde/pyde.02.00.data" schemaLocation="../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/py/pyin/pyin.02.00.data" schemaLocation="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/py/pyin/pyin.02.09.data" schemaLocation="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.09.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/py/pyin/pyin.02.02.data" schemaLocation="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.02.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/baf/bafot/bafot.02.05.data" schemaLocation="../../../sbr_au_taxonomy/icls/baf/bafot/bafot.02.05.data.xsd"/>
+
+	<xsd:element name="HC_1" id="HC10999" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+	<xsd:element name="Abstract_1" id="RA10999" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+	<xsd:complexType name="reportHeaderType">
+		<xsd:sequence>
+			<xsd:element minOccurs="0" ref="pyde.02.00:OrganisationNameDetails.OrganisationalName.Text"/>
+			<xsd:element ref="pyin.02.00:Period.Start.Date"/>
+			<xsd:element ref="pyin.02.00:Period.End.Date"/>
+			<xsd:element ref="pyin.02.09:Lodgment.ReturnIdentifier.Code"/>
+			<xsd:element ref="pyin.02.09:Lodgment.ReturnVersion.Number"/>
+			<xsd:element minOccurs="0" ref="pyin.02.09:Lodgment.ReturnName.Text"/>
+			<xsd:element ref="pyin.02.02:Report.Type.Code"/>
+			<xsd:element ref="pyin.02.00:Report.Version.Text"/>
+			<xsd:element minOccurs="0" ref="pyin.02.09:Lodgment.FormName.Text"/>
+			<xsd:element ref="bafot.02.05:Miscellaneous.ReportingConsolidationIdentifier.Code"/>
+			<xsd:element ref="bafot.02.05:Miscellaneous.ReportingConsolidationType.Code"/>
+			<xsd:element minOccurs="0" ref="bafot.02.05:Miscellaneous.ReportingConsolidationSubType.Code"/>
+			<xsd:element minOccurs="0" ref="bafot.02.05:Miscellaneous.ReportingConsolidationName.Text"/>
+		</xsd:sequence>
+		<xsd:attribute name="id" type="xsd:ID"/>
+	</xsd:complexType>
+	<xsd:complexType name="reportHeaderNilType">
+		<xsd:complexContent>
+			<xsd:extension base="report:reportHeaderType">
+				<xsd:sequence>
+					<xsd:element minOccurs="0" ref="pyin.02.09:Lodgment.NilForm.Indicator"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+</xsd:schema>

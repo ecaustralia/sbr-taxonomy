@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="emsup.02.05.data.xsd#emsup.02.05_emsupAbstract" xlink:label="loc_emsup.02.05_emsupAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_emsupAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_emsup.02.05_emsupAbstract" xlink:to="lbl_emsupAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.05.data.xsd#DE2609" xlink:label="loc_DE2609"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE2609" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Contribution Employer Contributions Tax File Number Not Quoted Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2609" xlink:to="lbl_DE2609"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE2609" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The total amount of all employer contributions received  for a member who has not quoted a Tax File Number</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.05.data.xsd#DE2620" xlink:label="loc_DE2620"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE2620" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Fund Details Fund Benefit Structure Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2620" xlink:to="lbl_DE2620"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE2620" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The code that best describes the 'benefit structure' of the fund.
+
+A fund can be classified as one, and only one, of the valid benefit types, which may include:
+Accumulation Benefit Funds;
+Defined Benefit Funds - all members defined benefits; or
+Defined Benefit Funds - not all members defined benefits
+Unfunded Defined Benefit.
+
+An Accumulation Benefit Entity, or Defined Contribution Entity, is a fund where the benefit a member receives is the total of specifically defined contributions to the fund plus earnings on those contributions, minus expenses and tax. Members carry the investment risk with this style of fund.
+
+A Defined Benefit Entity (all members defined benefits) is an entity where the formula for calculating the retirement benefit (and possibly other benefits also) is specified, usually in terms of years of service with the employer (or years of membership of the entity) and average salary level over the last few years prior to retirement. For example the formula may be that a member on retiring will receive 15 per cent of final average salary for each year of membership. The employer sponsor/contributor to a defined benefit entity carries the investment risk. 
+
+A Defined Benefit Entity (not all members defined benefits) represents a fund which consists of a combination of both Accumulation (Defined Contribution) and Defined Benefit members. This is sometimes referred to as a 'hybrid' fund.
+
+An Unfunded Defined Benefit is similar to defined benefit, but the superannuation members' benefits are unfunded. Only governments are allowed to run unfunded defined benefit funds.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE2620" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">"Valid values are:
+
+A  = Accumulation fund 
+D  = Defined benefit fund - all members defined benefits
+U  = Unfunded defined benefit
+E = Defined benefit funds - not all members defined benefits"
+</link:label>
+    </link:labelLink>
+</link:linkbase>

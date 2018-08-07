@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+        Formula Linkbase: 2014-04-02 (Final release)
+        ********************** 
+        Copyright © 2014 International Financial Reporting Standards (IFRS) Foundation
+        All rights reserved.  No part of this publication may be translated, reprinted or reproduced 
+        or utilised in any form either in whole or in part without prior permission in writing from the IFRS Foundation.
+        For more information on the IFRS Foundation's copyright, please refer to http://www.ifrs.org/XBRL/Legal/
+        **********************
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://xbrl.org/2008/formula http://www.xbrl.org/2008/formula.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/reference http://www.xbrl.org/2008/generic-reference.xsd http://xbrl.org/2008/filter/boolean http://www.xbrl.org/2008/boolean-filter.xsd http://xbrl.org/2008/filter/concept http://www.xbrl.org/2008/concept-filter.xsd http://xbrl.org/2008/filter/dimension http://www.xbrl.org/2008/dimension-filter.xsd http://xbrl.org/2008/filter/entity http://www.xbrl.org/2008/entity-filter.xsd http://xbrl.org/2008/filter/general http://www.xbrl.org/2008/general-filter.xsd http://xbrl.org/2008/filter/match http://www.xbrl.org/2008/match-filter.xsd http://xbrl.org/2008/filter/period http://www.xbrl.org/2008/period-filter.xsd http://xbrl.org/2008/filter/relative http://www.xbrl.org/2008/relative-filter.xsd http://xbrl.org/2008/filter/segment-scenario http://www.xbrl.org/2008/segment-scenario-filter.xsd http://xbrl.org/2008/filter/tuple http://www.xbrl.org/2008/tuple-filter.xsd http://xbrl.org/2008/filter/unit http://www.xbrl.org/2008/unit-filter.xsd http://xbrl.org/2008/filter/value http://www.xbrl.org/2008/value-filter.xsd http://xbrl.org/2008/assertion/consistency http://www.xbrl.org/2008/consistency-assertion.xsd http://xbrl.org/2008/assertion/existence http://www.xbrl.org/2008/existence-assertion.xsd http://xbrl.org/2008/assertion/value http://www.xbrl.org/2008/value-assertion.xsd http://xbrl.org/2010/filter/concept-relation http://www.xbrl.org/2010/concept-relation-filter.xsd http://xbrl.org/2010/message http://www.xbrl.org/2010/generic-message.xsd http://xbrl.org/2010/message/validation http://www.xbrl.org/2010/validation-message.xsd" xmlns:ca="http://xbrl.org/2008/assertion/consistency" xmlns:ifrs_full="http://xbrl.ifrs.org/taxonomy/2014-03-05/ifrs-full" xmlns:gen="http://xbrl.org/2008/generic" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:sf="http://xbrl.org/2008/filter/segment-scenario" xmlns:variable="http://xbrl.org/2008/variable" xmlns:xfi="http://www.xbrl.org/2008/function/instance" xmlns:cf="http://xbrl.org/2008/filter/concept" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:valm="http://xbrl.org/2010/message/validation" xmlns:mf="http://xbrl.org/2008/filter/match" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ea="http://xbrl.org/2008/assertion/existence" xmlns:df="http://xbrl.org/2008/filter/dimension" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:rf="http://xbrl.org/2008/filter/relative" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uf="http://xbrl.org/2008/filter/unit" xmlns:validation="http://xbrl.org/2008/validation" xmlns:pf="http://xbrl.org/2008/filter/period" xmlns:tf="http://xbrl.org/2008/filter/tuple" xmlns:formula="http://xbrl.org/2008/formula" xmlns:msg="http://xbrl.org/2010/message" xmlns:vf="http://xbrl.org/2008/filter/value" xmlns:va="http://xbrl.org/2008/assertion/value" xmlns:label="http://xbrl.org/2008/label" xmlns:gf="http://xbrl.org/2008/filter/general" xmlns:crf="http://xbrl.org/2010/filter/concept-relation" xmlns:bf="http://xbrl.org/2008/filter/boolean" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:roleRef roleURI="http://www.xbrl.org/2010/role/message" xlink:type="simple" xlink:href="http://www.xbrl.org/2010/generic-message.xsd#standard-message"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2008/role/link" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-filter"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-set" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-set"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/boolean-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/boolean-filter.xsd#boolean-filter"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:type="simple" xlink:href="http://www.xbrl.org/2010/validation-message.xsd#assertion-unsatisfied-message"/>
+  <gen:link xlink:type="extended" xlink:role="http://www.xbrl.org/2008/role/link">
+    <va:valueAssertion xlink:type="resource" xlink:label="res_2" id="negative_1" aspectModel="dimensional" implicitFiltering="true" test="$neg le 0"/>
+    <msg:message xlink:type="resource" xlink:label="res_1" xlink:role="http://www.xbrl.org/2010/role/message" xml:lang="en" id="res_msg">Reported value exceeds 0</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_2" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_3" id="factVariable_0" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_2" xlink:to="res_3" order="2.0" name="neg"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="res_4" id="explicitDimension_1">
+      <df:dimension>
+        <df:qname>ifrs_full:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_full:AccumulatedDepreciationAmortisationAndImpairmentMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_3" xlink:to="res_4" priority="0" order="1.0" complement="false" cover="true"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="res_5" id="explicitDimension_2">
+      <df:dimension>
+        <df:qname>ifrs_full:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_full:AccumulatedDepreciationAndAmortisationMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_3" xlink:to="res_5" priority="0" order="2.0" complement="false" cover="true"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="res_6" id="explicitDimension_3">
+      <df:dimension>
+        <df:qname>ifrs_full:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_full:AccumulatedImpairmentMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_3" xlink:to="res_6" priority="0" order="3.0" complement="false" cover="true"/>
+    <bf:orFilter xlink:type="resource" xlink:label="res_7"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_3" xlink:to="res_7" priority="0" order="4.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_8" id="loc_auto_5">
+      <cf:concept>
+        <cf:qname>ifrs_full:DecreaseDueToHarvestBiologicalAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_8" priority="0" order="1.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_9" id="loc_auto_6">
+      <cf:concept>
+        <cf:qname>ifrs_full:DecreaseThroughClassifiedAsHeldForSaleBiologicalAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_10" id="loc_auto_7">
+      <cf:concept>
+        <cf:qname>ifrs_full:DecreaseThroughClassifiedAsHeldForSaleGoodwill</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_10" priority="0" order="3.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_11" id="loc_auto_8">
+      <cf:concept>
+        <cf:qname>ifrs_full:DecreaseThroughClassifiedAsHeldForSaleIntangibleAssetsOtherThanGoodwill</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_11" priority="0" order="4.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_12" id="loc_auto_9">
+      <cf:concept>
+        <cf:qname>ifrs_full:DecreaseThroughClassifiedAsHeldForSaleInvestmentProperty</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_12" priority="0" order="5.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_13" id="loc_auto_10">
+      <cf:concept>
+        <cf:qname>ifrs_full:DecreaseThroughClassifiedAsHeldForSalePropertyPlantAndEquipment</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_13" priority="0" order="6.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_14" id="loc_auto_11">
+      <cf:concept>
+        <cf:qname>ifrs_full:DisposalsBiologicalAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_14" priority="0" order="7.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_15" id="loc_auto_12">
+      <cf:concept>
+        <cf:qname>ifrs_full:DisposalsIntangibleAssetsOtherThanGoodwill</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_15" priority="0" order="8.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_16" id="loc_auto_13">
+      <cf:concept>
+        <cf:qname>ifrs_full:DisposalsInvestmentProperty</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_16" priority="0" order="9.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_17" id="loc_auto_14">
+      <cf:concept>
+        <cf:qname>ifrs_full:DisposalsPropertyPlantAndEquipment</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_17" priority="0" order="10.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_18" id="loc_auto_15">
+      <cf:concept>
+        <cf:qname>ifrs_full:GoodwillDerecognisedWithoutHavingPreviouslyBeenIncludedInDisposalGroupClassifiedAsHeldForSale</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_18" priority="0" order="11.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_19" id="loc_auto_16">
+      <cf:concept>
+        <cf:qname>ifrs_full:BiologicalAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_19" priority="0" order="12.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_20" id="loc_auto_17">
+      <cf:concept>
+        <cf:qname>ifrs_full:FinancialAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_20" priority="0" order="13.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_21" id="loc_auto_18">
+      <cf:concept>
+        <cf:qname>ifrs_full:Goodwill</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_21" priority="0" order="14.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_22" id="loc_auto_19">
+      <cf:concept>
+        <cf:qname>ifrs_full:IntangibleAssetsAndGoodwill</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_22" priority="0" order="15.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_23" id="loc_auto_20">
+      <cf:concept>
+        <cf:qname>ifrs_full:IntangibleAssetsOtherThanGoodwill</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_23" priority="0" order="16.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_24" id="loc_auto_21">
+      <cf:concept>
+        <cf:qname>ifrs_full:InvestmentProperty</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_24" priority="0" order="17.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_25" id="loc_auto_22">
+      <cf:concept>
+        <cf:qname>ifrs_full:PropertyPlantAndEquipment</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_25" priority="0" order="18.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_26" id="loc_auto_23">
+      <cf:concept>
+        <cf:qname>ifrs_full:RecognisedFinanceLeaseAsAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_26" priority="0" order="19.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_27" id="loc_auto_24">
+      <cf:concept>
+        <cf:qname>ifrs_full:DecreaseThroughClassifiedAsHeldForSaleIntangibleAssetsAndGoodwill</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_27" priority="0" order="20.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_28" id="loc_auto_25">
+      <cf:concept>
+        <cf:qname>ifrs_full:DecreaseThroughLossOfControlOfSubsidiaryIntangibleAssetsAndGoodwill</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_28" priority="0" order="21.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_29" id="loc_auto_26">
+      <cf:concept>
+        <cf:qname>ifrs_full:DecreaseThroughLossOfControlOfSubsidiaryIntangibleAssetsOtherThanGoodwill</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_29" priority="0" order="22.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_30" id="loc_auto_27">
+      <cf:concept>
+        <cf:qname>ifrs_full:DecreaseThroughLossOfControlOfSubsidiaryPropertyPlantAndEquipment</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_30" priority="0" order="23.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_31" id="loc_auto_28">
+      <cf:concept>
+        <cf:qname>ifrs_full:DisposalsIntangibleAssetsAndGoodwill</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_31" priority="0" order="24.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_32" id="loc_auto_29">
+      <cf:concept>
+        <cf:qname>ifrs_full:RetirementsPropertyPlantAndEquipment</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_32" priority="0" order="25.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_33" id="loc_auto_30">
+      <cf:concept>
+        <cf:qname>ifrs_full:DisposalsAndRetirementsPropertyPlantAndEquipment</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_33" priority="0" order="26.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_34" id="loc_auto_31">
+      <cf:concept>
+        <cf:qname>ifrs_full:RetirementsIntangibleAssetsOtherThanGoodwill</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_34" priority="0" order="27.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_35" id="loc_auto_32">
+      <cf:concept>
+        <cf:qname>ifrs_full:DisposalsAndRetirementsIntangibleAssetsOtherThanGoodwill</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_35" priority="0" order="28.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_36" id="loc_auto_33">
+      <cf:concept>
+        <cf:qname>ifrs_full:RetirementsIntangibleAssetsAndGoodwill</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_36" priority="0" order="29.0" complement="false" cover="true"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_37" id="loc_auto_34">
+      <cf:concept>
+        <cf:qname>ifrs_full:DisposalsAndRetirementsIntangibleAssetsAndGoodwill</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="res_7" xlink:to="res_37" priority="0" order="30.0" complement="false" cover="true"/>
+  </gen:link>
+</link:linkbase>

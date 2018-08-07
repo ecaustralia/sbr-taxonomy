@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<!--
+		This file uses certain elements from the IFRS Taxonomy released by the IFRS Foundation on 2017-03-09.
+		For information on the IFRS Foundation's copyright and the terms and conditions of use for these files, please refer to http://go.ifrs.org/IFRSTterms.
+		The IFRS Foundation logo, the IASB logo, the IFRS for SMEs logo, the "Hexagon Device", "IFRS Foundation", "eIFRS", "IAS", "IASB", "IFRS for SMEs", "IASs", "IFRS", "IFRSs", "International Accounting Standards" and "International Financial Reporting Standards", "IFRIC", "SIC" and "IFRS Taxonomy" are Trade Marks of the IFRS Foundation.
+		For further information about where the Trade Marks are protected and/or are in use please contact the IFRS Foundation.
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://xbrl.ifrs.org/role/ifrs/ias_1_2017-03-09_role-880000" xlink:type="simple" xlink:href="../../../full_ifrs/linkbases/ias_1/rol_ias_1_2017-03-09.xsd#ias_1_2017-03-09_role-880000"/>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.ifrs.org/role/ifrs/ias_1_2017-03-09_role-880000">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2017-07-20.xsd#ifrs_au-full_AuditorAndReviewerRemuneration" xlink:label="AuditorAndReviewerRemuneration"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2017-07-20.xsd#ifrs_au-full_FeesPaidByParentToEachAuditorOrReviewerIncludingAnyNetworkFirmForTheAuditOrReviewOfTheFinancialStatementsPerformedDuringTheReportingPeriod" xlink:label="FeesPaidByParentToEachAuditorOrReviewerIncludingAnyNetworkFirmForTheAuditOrReviewOfTheFinancialStatementsPerformedDuringTheReportingPeriod"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="AuditorAndReviewerRemuneration" xlink:to="FeesPaidByParentToEachAuditorOrReviewerIncludingAnyNetworkFirmForTheAuditOrReviewOfTheFinancialStatementsPerformedDuringTheReportingPeriod" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2017-07-20.xsd#ifrs_au-full_FeesPaidBySubsidiariesToEachAuditorOrReviewerIncludingAnyNetworkFirmForTheAuditOrReviewOfTheFinancialStatementsPerformedDuringTheReportingPeriod" xlink:label="FeesPaidBySubsidiariesToEachAuditorOrReviewerIncludingAnyNetworkFirmForTheAuditOrReviewOfTheFinancialStatementsPerformedDuringTheReportingPeriod"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="AuditorAndReviewerRemuneration" xlink:to="FeesPaidBySubsidiariesToEachAuditorOrReviewerIncludingAnyNetworkFirmForTheAuditOrReviewOfTheFinancialStatementsPerformedDuringTheReportingPeriod" order="20.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2017-07-20.xsd#ifrs_au-full_FeesPaidByParentToEachAuditorOrReviewerIncludingAnyNetworkFirmForOtherServicesPerformedDuringTheReportingPeriod" xlink:label="FeesPaidByParentToEachAuditorOrReviewerIncludingAnyNetworkFirmForOtherServicesPerformedDuringTheReportingPeriod"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="AuditorAndReviewerRemuneration" xlink:to="FeesPaidByParentToEachAuditorOrReviewerIncludingAnyNetworkFirmForOtherServicesPerformedDuringTheReportingPeriod" order="30.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2017-07-20.xsd#ifrs_au-full_FeesPaidBySubsidiariesToEachAuditorOrReviewerIncludingAnyNetworkFirmForOtherServicesPerformedDuringTheReportingPeriod" xlink:label="FeesPaidBySubsidiariesToEachAuditorOrReviewerIncludingAnyNetworkFirmForOtherServicesPerformedDuringTheReportingPeriod"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="AuditorAndReviewerRemuneration" xlink:to="FeesPaidBySubsidiariesToEachAuditorOrReviewerIncludingAnyNetworkFirmForOtherServicesPerformedDuringTheReportingPeriod" order="40.0" weight="1"/>
+  </link:calculationLink>
+</link:linkbase>

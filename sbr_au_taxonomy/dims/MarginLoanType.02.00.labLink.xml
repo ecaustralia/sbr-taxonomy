@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="MarginLoanType.02.00.data.xsd#DM938" xlink:label="loc_DM938"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM938" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Margin Loan Type Dimension</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DM938" xlink:to="lbl_DM938"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM938" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The information reported is categorised according to the type of margin loan.</link:label>
+        <link:loc xlink:type="locator" xlink:href="MarginLoanType.02.00.data.xsd#DV8719" xlink:label="loc_DV8719"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV8719" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Protected Margin Loan</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV8719" xlink:to="lbl_DV8719"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV8719" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Protected margin loans have a maximum allowable loan-to-valuation ratio (LVR) of 100 per cent and the lender guarantees that the value of the borrower's underlying security will not be less than the value of credit outstanding at the end of the predetermined investment horizon. Borrowers with protected margin loans do not receive margin calls, but are charged a significantly higher interest rate than for standard margin loans. Protected margin loans in effect combine a standard margin loan with a put option on the assets purchased.</link:label>
+        <link:loc xlink:type="locator" xlink:href="MarginLoanType.02.00.data.xsd#DV8720" xlink:label="loc_DV8720"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV8720" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Standard Margin Loan</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV8720" xlink:to="lbl_DV8720"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV8720" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Standard margin loans typically have a maximum allowable loan-to-valuation ratio (LVR) of 40 to 80 per cent, depending on the type of stock or managed fund that is provided as security for the margin loan. These loans are subject to margin calls if a decline in the value of the underlying security raises the LVR above the pre-specified maximum.</link:label>
+        <link:loc xlink:type="locator" xlink:href="MarginLoanType.02.00.data.xsd#DV8721" xlink:label="loc_DV8721"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV8721" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not Standard Protected Margin Loan</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV8721" xlink:to="lbl_DV8721"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV8721" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Any margin loans that are not standard margin loans or protected margin loans.</link:label>
+    </link:labelLink>
+</link:linkbase>

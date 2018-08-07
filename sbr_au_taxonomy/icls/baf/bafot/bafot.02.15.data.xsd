@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bafot.02.15="http://sbr.gov.au/icls/baf/bafot/bafot.02.15.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dtyp.02.19="http://sbr.gov.au/fdtn/sbr.02.19.dtyp" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/baf/bafot/bafot.02.15.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.19.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.19.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="bafotAbstract" id="bafot.02.15_bafotAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="FinancialRisk.AssetAllocation.Percent" id="DE13146" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="FinancialRisk.Hedging.Percent" id="DE13147" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="FinancialRisk.InsuranceCoverLimit.Amount" id="DE13137" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+    <xsd:element name="FinancialRisk.StressTest.Date" id="DE13158" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="FinancialRisk.SurplusCapitalDistributed.Amount" id="DE13125" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+    <xsd:element name="FinancialRisk.SurplusReserveDistributed.Amount" id="DE13174" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+    <xsd:element name="FinancialRisk.Target.Amount" id="DE13118" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+    <xsd:element name="FinancialRisk.ToleranceLimit.Amount" id="DE13119" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+    <xsd:element name="FinancialServices.InvestmentOptions.Count" id="DE13155" type="xbrli:nonNegativeIntegerItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="Miscellaneous.BusinessActivity.Percent" id="DE13104" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="RegulatoryDisclosures.ActualSelfInsuranceFundingHeld.Amount" id="DE13140" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+    <xsd:element name="RegulatoryDisclosures.BusinessActivity.Indicator" id="DE13106" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="RegulatoryDisclosures.DefinedBenefitInterests.Indicator" id="DE13169" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="RegulatoryDisclosures.FinancialStatementsStatus.Code" id="DE13135" type="dtyp.02.19:sbrFinancialPositionTypeCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="RegulatoryDisclosures.FundingArrangement.Code" id="DE13144" type="dtyp.02.19:sbrInsuranceFundingArrangementCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="RegulatoryDisclosures.InsuranceClaimsAdmitted.Amount" id="DE13130" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+    <xsd:element name="RegulatoryDisclosures.InsuranceClaimsAdmitted.Count" id="DE13129" type="xbrli:nonNegativeIntegerItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="RegulatoryDisclosures.InsuranceClaimsPaid.Count" id="DE13131" type="xbrli:nonNegativeIntegerItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="RegulatoryDisclosures.Offshoring.Indicator" id="DE13107" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="RegulatoryDisclosures.RecommendedSelfInsuranceFunding.Amount" id="DE13139" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+    <xsd:element name="RegulatoryDisclosures.Review.Date" id="DE13105" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+</xsd:schema>

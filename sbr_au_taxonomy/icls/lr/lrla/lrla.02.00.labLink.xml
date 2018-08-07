@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#lrla.02.00_lrlaAbstract" xlink:label="loc_lrlaAbstract"/>
+    <link:label xlink:type="resource" xlink:label="lbl_lrlaAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Labour Arrangements</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_lrlaAbstract" xlink:to="lbl_lrlaAbstract" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE115" xlink:label="loc_DE115"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE115" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employer Conditions Cease To Employ From Next Period Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE115" xlink:to="lbl_DE115" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE115" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicator to define if the employer has ceased to employ</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE116" xlink:label="loc_DE116"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE116" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employer Conditions Cease To Employ Date</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE116" xlink:to="lbl_DE116" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE116" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Date the employer ceased employment</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE1620" xlink:label="loc_DE1620"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1620" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employer Conditions Deduction Entitlement Claim Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1620" xlink:to="lbl_DE1620" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1620" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicator to specify the intention to claim a General Exemption Deduction. The reporting party must be entitled to claim the deduction.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE2764" xlink:label="loc_DE2764"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2764" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employer Conditions Designated Group Member Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2764" xlink:to="lbl_DE2764" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2764" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicates that an entity is the designated group employer for a group</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE866" xlink:label="loc_DE866"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE866" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employer Conditions Designated Group Single Lodger Other Entities Count</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE866" xlink:to="lbl_DE866" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE866" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The number of non lodging group members which the single lodger is lodging on behalf of.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE769" xlink:label="loc_DE769"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE769" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employer Conditions Designated Group Single Lodger Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE769" xlink:to="lbl_DE769" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE769" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicates the client is the employer responsible for lodging the return on behalf of all other members of the Single Lodger group.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE775" xlink:label="loc_DE775"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE775" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employer Conditions Employer Change Of Status Reason Code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE775" xlink:to="lbl_DE775" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE775" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">01 - Change in ownership; 02 -Commenced or ceased to employ Interstate; 03 - Change in control/decision making; 04 - Acquired a controlling interest in another company; 05 - Change to the Designated Group Employer; 06 - Other</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE775" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The reason for the change in group status.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE776" xlink:label="loc_DE776"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE776" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employer Conditions Employer Change Of Status Reason Text</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE776" xlink:to="lbl_DE776" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE776" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A free format field for recording additional information regarding the group status change</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE114" xlink:label="loc_DE114"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE114" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employer Conditions Employer Group Status Code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE114" xlink:to="lbl_DE114" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE114" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">DGE: Designated Grouped Employer
+GE: Grouped Employer
+NGE: Non Grouped Employer
+SM: Scheduled Member
+NSM: Non Scheduled Member
+OM: Ordinary Member
+ALL: All
+ALLSM: All Scheduled Members
+ALLOM: All Ordinary Members
+ANY: Any
+NSL: Nominated Single Lodger
+SHA: SHA
+ISG: ISG
+ALLGM: All Group Members
+DGELWG: Designated Group employer lodging for whole group
+DGELSG: Designated Group Employer lodging for part of scheduled group
+DGESG: Designated Group Employer of a Scheduled Group
+ALLNSM: All Non Scheduled Member
+SLM: Single Lodger Member
+GA: Government Agency
+NSGOM: Non Schedule Group Ordinary Member
+SGOM: Scheduled Group Ordinary Member
+DGENSG: Designated Group Employer of a Non Scheduled Group
+DGESM: Designated Group Employer reporting on behalf of Scheduled Members</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE114" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Identifies the  employer group status of the reporting party.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE791" xlink:label="loc_DE791"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE791" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employer Conditions Employment State Interstate Condition Code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE791" xlink:to="lbl_DE791" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE791" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Interstate Only - When employment falls outside of the return state; State Only - When employment falls only within the return state; State and Interstate  - When employment falls within and outside of the return state</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE791" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Identifies where employer employs when it falls outside the return state.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE881" xlink:label="loc_DE881"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE881" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employer Conditions Employs In Other States Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE881" xlink:to="lbl_DE881" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE881" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicates that the employer employs in states other than the revenue state.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE921" xlink:label="loc_DE921"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE921" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employer Conditions Nominated Single Lodger For Full Period Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE921" xlink:to="lbl_DE921" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE921" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicates whether the reporting party was the Nominated Single Lodger for the full period. The Nominated Single Lodger is the employer responsible for lodging the return on behalf of all other members of the Single Lodger group.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE914" xlink:label="loc_DE914"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE914" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employer Conditions Period State Code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE914" xlink:to="lbl_DE914" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE914" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A three letter code that describes the Frequency, Location and Group Status of the employer.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE774" xlink:label="loc_DE774"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE774" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employer Conditions Group Member Change Of Status Count</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE774" xlink:to="lbl_DE774" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE774" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The number of times that the group structure changed during the period.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE772" xlink:label="loc_DE772"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE772" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employer Conditions Group Member Employs Interstate Only Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE772" xlink:to="lbl_DE772" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE772" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicator to define if interstate wages that are taxable in other Australian States or Territories under laws that corresponds with State based Payroll Tax legislation.                                                                                                  </link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE773" xlink:label="loc_DE773"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE773" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employer Conditions Group Member Status Change Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE773" xlink:to="lbl_DE773" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE773" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicator of a change in the membership of the payroll tax group during the lodgment period.  A change may be caused by an employer leaving or joining the group. An existing member commencing or ceasing to employ during the period does not alter the group structure.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE768" xlink:label="loc_DE768"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE768" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employer Conditions Group Member Status Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE768" xlink:to="lbl_DE768" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE768" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicates that the client is a member of a group comprising other Payroll Tax clients.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE771" xlink:label="loc_DE771"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE771" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employer Conditions Group Member Type Code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE771" xlink:to="lbl_DE771" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE771" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values include: Scheduled Group; Non-Scheduled Group</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE771" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The category of a group member.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE894" xlink:label="loc_DE894"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE894" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employer Conditions Group Member With Nominated Single Lodger Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE894" xlink:to="lbl_DE894" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE894" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The Single Lodger Group indicates the client is a member of a group that has a nominated Single Lodger.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE781" xlink:label="loc_DE781"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE781" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employment Conditions Apprentices And Trainees Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE781" xlink:to="lbl_DE781" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE781" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicates whether the employer employed apprentices or trainees during the employing period within the state where payroll tax is liable</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE851" xlink:label="loc_DE851"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE851" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employment Conditions Workers Compensation Payments Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE851" xlink:to="lbl_DE851" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE851" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Payments to employees under relevant provisions of a State or Federal Workers Compensation and Rehabilitation Act.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE370" xlink:label="loc_DE370"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE370" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employment Conditions Workers Compensation Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE370" xlink:to="lbl_DE370" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE370" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Workers compensation is a compulsory insurance program financed by contributions from employers, to pay for medical care and rehabilitation of workers who are incapacitated by work-related injury or illness.
+
+Workers compensation expenses refers to expenses related to workers compensation premiums and associated costs, including any provisions for workers compensation expenses.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE9" xlink:label="loc_DE9"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE9" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employment Identification Payroll Number Identifier</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE9" xlink:to="lbl_DE9" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE9" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Number allocated by the payer payroll system to identify a payee. This identifier will be quoted on any correspondence regarding the payee's declaration to assist correct identification of the payee.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE782" xlink:label="loc_DE782"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE782" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Labour Statistics Apprentices And Exempt Trainees Count</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE782" xlink:to="lbl_DE782" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE782" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The number of apprentices and trainees that were employed during the employing period.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE358" xlink:label="loc_DE358"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE358" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Labour Statistics Employees Other Count</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE358" xlink:to="lbl_DE358" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE358" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The number of persons working for the reporting party not elsewhere specified.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE779" xlink:label="loc_DE779"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE779" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Labour Statistics Employees Part Time Female Count</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE779" xlink:to="lbl_DE779" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE779" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Number of part time female employees </link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE780" xlink:label="loc_DE780"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE780" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Labour Statistics Employees Part Time Male Count</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE780" xlink:to="lbl_DE780" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE780" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Number of part time male employees </link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE268" xlink:label="loc_DE268"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE268" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Labour Statistics Employees With Exclusions Count</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE268" xlink:to="lbl_DE268" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE268" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Total employment refers to the total number of persons working for the reporting party. It includes all persons engaged in one or more hours of paid work during the period, as well as persons temporarily absent from work.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE777" xlink:label="loc_DE777"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE777" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Labour Statistics Full Time Female Employees Count</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE777" xlink:to="lbl_DE777" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE777" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Number of full time female employees </link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE778" xlink:label="loc_DE778"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE778" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Labour Statistics Full Time Male Employees Count</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE778" xlink:to="lbl_DE778" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE778" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Number of full time male employees </link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE359" xlink:label="loc_DE359"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE359" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Labour Statistics Salaried Directors Count</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE359" xlink:to="lbl_DE359" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE359" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A director is a person who has been appointed with the power to steer an entity in its financial and operating activities. Salaried directors working for the entity are any directors who by agreement draw a regular salary, and have worked for the business/organisation during the period.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE361" xlink:label="loc_DE361"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE361" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Labour Statistics Working Proprietors and Partners Count</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE361" xlink:to="lbl_DE361" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE361" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Working proprietors and partners are defined as those business owners who operate their own economic enterprise, or engage independently in a profession or trade. As owners of the business, working proprietors and partners are not considered to be employees of that enterprise.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE743" xlink:label="loc_DE743"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE743" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration ABN Not Quoted Payment Gross Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE743" xlink:to="lbl_DE743" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE743" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Do not include cents</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE743" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Payments for goods and services, from which an amount was required to be withheld, where the payee has failed to provide an ABN</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE126" xlink:label="loc_DE126"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE126" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Apprentices Payment Total Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE126" xlink:to="lbl_DE126" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE126" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">All payments made to or on behalf of apprentices, as apprentices</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE839" xlink:label="loc_DE839"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE839" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Bonuses And Allowances Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE839" xlink:to="lbl_DE839" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE839" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Sum of bonuses and allowances.
+
+Bonuses which are paid or payable to, or in relation to, an employee as an employee or applied for the employee's benefit.  Does not include items which have been included in the non taxable wages section
+
+Allowances such as meal allowances, clothing allowances, overtime allowances, tool allowances, relocation allowances, and travelling, motor vehicle and accommodation allowances, are taxable (certain exemptions apply to motor vehicle and accommodation allowances). Does not include allowances paid to apprentices and trainees</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE838" xlink:label="loc_DE838"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE838" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Commissions And Bonuses Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE838" xlink:to="lbl_DE838" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE838" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Sum of bonuses and commissions. Bonuses which are paid or payable to, or in relation to, an employee as an employee or applied for the employee's benefit.  Commissions paid to an employee or applied for the employee's benefit and commission payable to an insurance or time-payment canvasser or collector are taxable.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE840" xlink:label="loc_DE840"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE840" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Commissions Bonuses and Allowances Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE840" xlink:to="lbl_DE840" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE840" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Sum of bonuses, allowances and commissions.
+
+Bonuses which are paid or payable to, or in relation to, an employee as an employee or applied for the employee's benefit.  Does not include items which have been included in the non taxable wages section
+
+Allowances such as meal allowances, clothing allowances, overtime allowances, tool allowances, relocation allowances, and travelling, motor vehicle and accommodation allowances, are taxable (certain exemptions apply to motor vehicle and accommodation allowances). Does not include allowances paid to apprentices and trainees
+
+Commissions paid to an employee or applied for the employee's benefit and commission payable to an insurance or time-payment canvasser or collector are taxable.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE269" xlink:label="loc_DE269"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE269" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Employee Share Based Payments and Stock Options Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE269" xlink:to="lbl_DE269" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE269" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Employee share based payments and stock options refers to company shares/stocks and other securities that are issued to employees as part of their remuneration package. The shares are usually issued on a conditional basis (e.g. the company reaches or exceeds its target for the reporting period).</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE2553" xlink:label="loc_DE2553"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2553" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Employee Share Scheme Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2553" xlink:to="lbl_DE2553" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2553" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicator to determine if the entity had an employee share scheme in place at any time during the year.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE845" xlink:label="loc_DE845"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE845" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Employee Shares And Options Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE845" xlink:to="lbl_DE845" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE845" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The taxable value of any shares or options granted to an employee by an employer for services performed or provided by the employee.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE861" xlink:label="loc_DE861"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE861" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Employer Superannuation Contributions Including Salary Sacrifice Earnings Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE861" xlink:to="lbl_DE861" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE861" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Employer contributions into superannuation is where an employer provides contributions towards post-employment benefits for one or more employees. Post-employment benefits are employee benefits (other than termination benefits) which are payable after the completion of employment. 
+
+Salary sacrifice is an arrangement where an employee agrees to forego part of their pre-tax salary in return for benefits.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE122" xlink:label="loc_DE122"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE122" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Employment Allowances Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE122" xlink:to="lbl_DE122" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE122" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Allowances such as meal allowances, clothing allowances, overtime allowances, tool allowances, relocation allowances, and travelling, motor vehicle and accommodation allowances, are taxable (certain exemptions apply to motor vehicle and accommodation allowances). Does not include allowances paid to apprentices and trainees</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE123" xlink:label="loc_DE123"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE123" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Employment Bonuses Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE123" xlink:to="lbl_DE123" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE123" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Bonuses which are paid or payable to, or in relation to, an employee as an employee or applied for the employee's benefit.  Does not include items which have been included in the non taxable wages section</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE124" xlink:label="loc_DE124"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE124" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Employment Commissions Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE124" xlink:to="lbl_DE124" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE124" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Commissions paid to an employee or applied for the employee's benefit and commission payable to an insurance or time-payment canvasser or collector are taxable.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE848" xlink:label="loc_DE848"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE848" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Estimated Payroll Figures Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE848" xlink:to="lbl_DE848" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE848" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Client nominates whether estimates have been used </link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE703" xlink:label="loc_DE703"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE703" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Individual Non Business Community Development Employment Project Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE703" xlink:to="lbl_DE703" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE703" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Do not include cents</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE703" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A CDEP payment is one of the following:
+CDEP scheme wages
+These are payments you make to participants as a wage for the work they do 
+for hours worked in excess of the CDEP 'limit', or  to trainees under the traineeship program. 
+CDEP scheme participant supplement from a Centrelink payment
+This supplement is an extra payment to make sure that someone getting a CDEP wage component is getting at least the same level of income as an unemployed person.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE698" xlink:label="loc_DE698"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE698" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Individual Non Business Employment Allowances Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE698" xlink:to="lbl_DE698" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE698" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Do not include cents</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE698" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Amounts paid by employers to cover anticipated costs or as compensation for conditions of employment. Allowances may include: 
+- car, travel or transport allowances
+- award transport payments - these are allowances covering either transport or car expenses which are paid under an industrial law or award that was in force on 29 October 1986
+- allowances for tools, clothing or laundry
+- dirt, height, site, risk, meal or entertainment allowances
+- allowances for qualifications - for example, a first aid certificate
+- any reimbursement of car expenses - calculated by reference to the distance travelled by the car - which is an exempt car expense payment benefit for fringe benefits tax purposes.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE704" xlink:label="loc_DE704"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE704" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Individual Non Business Exempt Or Foreign Source Income Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE704" xlink:to="lbl_DE704" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE704" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Do not include cents</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE704" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Amounts paid to the payee that are exempt income and/or foreign source salary and wage income</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE697" xlink:label="loc_DE697"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE697" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Individual Non Business Gross Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE697" xlink:to="lbl_DE697" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE697" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Include all salary, wages, bonuses and commissions paid to the payee as an employee, company director or office holder. 
+Include the total gross amount before amounts are withheld.
+Gross payments also include: pensions and annuities; compensation, and  sickness or accident pay.
+Show the gross payments in whole dollars. 
+Do not include cents;
+Also include the following amounts:
+- allowances you paid to compensate for specific working conditions and payments for special qualifications or extended hours
+- allowances you paid to cover expenses that are not tax deductible to the payee - for example, normal home-to-work transport expenses
+- holiday pay or bonuses, and
+- amounts you paid for unused long service leave, unused holiday pay and other leave-related payments that accrued after 17 August 1993, except if the amount was paid because the payee ceased employment under an approved early retirement scheme, invalidity or bona fide redundancy</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE697" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Payments of salary, wages, bonuses and commissions paid to the payee as an employee, company director or office holder. Include the total gross amount before amounts are withheld for tax.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE693" xlink:label="loc_DE693"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE693" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Individual Non Business Income Type Code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE693" xlink:to="lbl_DE693" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE693" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">This field must be set to one of the enumerated values. S = Salary and Wages, P = Non-Superannuation pension or annuity payments</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE693" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Type of income being reported on the Individual Non Business payment summary: Salary or Wages or; Non-Superannuation pension or annuity payments.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE508" xlink:label="loc_DE508"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE508" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Issued Shares On Exercise Of Options Text</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE508" xlink:to="lbl_DE508" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE508" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Detail within the directors' report of the contributed equity issued during the period or since balance date through the exercise of options.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE573" xlink:label="loc_DE573"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE573" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Key Management Personnel Text</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE573" xlink:to="lbl_DE573" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE573" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE709" xlink:label="loc_DE709"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE709" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Labour Hire Arrangement Or Other Specified By Regulation Type Code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE709" xlink:to="lbl_DE709" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE709" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">001 = Labour Hire
+002 = Other Specified payments</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE709" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Identifies the type of income being reported on the payment summary: Labour Hire or Other Specified</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE742" xlink:label="loc_DE742"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE742" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Labour Hire Arrangement Or Specified By Regulation Payment Gross Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE742" xlink:to="lbl_DE742" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE742" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Do not include cents</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE742" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount of income earned by the payee through a labour hire agreement or other specified by regulations, including the market value of non-cash benefits. The market value of the non-cash benefit is a notional amount of the benefits on which tax is withheld.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE3150" xlink:label="loc_DE3150"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3150" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Labour Hire Arrangement Payment Gross Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3150" xlink:to="lbl_DE3150" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3150" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">This is the amount of income earned by the payee, including the market value of non-cash benefits. Do not include cents.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3150" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Gross payment received for a labour hire arrangement is an arrangement where an end user of labour engages an individual worker through a labour hire firm, without establishing a contractual arrangement with the worker.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE522" xlink:label="loc_DE522"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE522" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Officer Compensation Text</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE522" xlink:to="lbl_DE522" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE522" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Details of the remuneration received by key management personnel disclosed within the directors report.  Includes the remuneration report required by listed companies.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE1887" xlink:label="loc_DE1887"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1887" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Partner With No Control And Share Disposal In Partnership Income Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1887" xlink:to="lbl_DE1887" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1887" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">If a partner aged 18 years or more on the last day of the partnership's income year does not have real and effective control and disposal of part or the whole of their share of partnership net income, the partner pays further tax - see section 94 of the ITAA 1936. Real control depends on the constitution and control of the partnership and the conduct of its operations.
+Broadly, there is a lack of real control if the partner must allow any part of their share of income to be dealt with in a particular way so that the partner cannot, on their own,deal with it in another way.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1887" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicates if a partner aged 18 years or more on the last day of the partnership's income year does not have real and effective control and disposal of part or the whole of their share of partnership net income.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE745" xlink:label="loc_DE745"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE745" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Payment To Foreign Resident Gross Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE745" xlink:to="lbl_DE745" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE745" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Do not include cents</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE745" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The total of all gross payments made to the foreign resident payee for the financial year.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE1819" xlink:label="loc_DE1819"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1819" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Payment To Related Parties Gross Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1819" xlink:to="lbl_DE1819" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1819" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The total amounts including salary, wages, commissions or allowances paid by: partnerships, trusts, private companies.
+
+For partnerships, the amounts include salaries, wages, commissions, superannuation contributions or allowances, paid to: a relative of a partner, another partnership in which a relative is a partner, a shareholder or director (or their relatives) of a private company that is a partner in the partnership, a beneficiary (or a relative of a beneficiary) of a trust where the trustee is a partner in the partnership. Do not include amounts paid to a partner in the partnership.
+
+For trusts, the amounts include salaries, wages, commissions, superannuation contributions or allowances, paid to the trustee's relatives or partnerships in which a relative of the trustee is a partner.
+
+For private companies, the amounts include salaries, wages, commissions, superannuation contributions, allowances and payments in consequence of retirement or termination of employment, paid to a current or former shareholder or director of the company, or an associate of such a person.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE884" xlink:label="loc_DE884"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE884" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Payments In Kind Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE884" xlink:to="lbl_DE884" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE884" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Any non-monetary payment of goods and/or services rewarded to an employee for services rendered in their capacity as an employee.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE364" xlink:label="loc_DE364"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE364" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Payments to Other Businesses For Staff Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE364" xlink:to="lbl_DE364" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE364" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Payments made to other businesses (e.g. a contract labour hire business) for the supply of their own employees to this business on a fee or contract basis. Assignments are usually temporary and performed under the supervision of staff of this business.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE366" xlink:label="loc_DE366"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE366" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Salary Sacrificed Other Than Superannuation Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE366" xlink:to="lbl_DE366" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE366" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Salary sacrificing is a special arrangement between employers and employees where the pre-tax salary of an employee is sacrificed in return for employment related benefits. Salary sacrificing is used by taxpayers who attract income tax at a high marginal tax rate to obtain benefits which instead attract fringe benefit tax at a lower rate, and therefore cost the employee less than if they had used after-tax salary to obtain the same benefit.
+
+Salary sacrificed earnings from benefits other than superannuation refers to benefits obtained under a salary sacrificing agreement other than superannuation (e.g. motor vehicles, laptop computers). This is the actual salary foregone by employees.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE3151" xlink:label="loc_DE3151"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3151" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Specified By Regulation Payment Gross Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3151" xlink:to="lbl_DE3151" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3151" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">This is the amount of income earned by the payee, including the market value of non-cash benefits. Do not include cents.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3151" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The total income received by a taxpayer, including tax withheld, that is:
+
+- income from tutorial services provided for the Indigenous Tutorial Assistance Scheme of the Department of Education, Science and Training
+
+- income from translation and interpretation services for the Translating and Interpreting Service of the Department of Immigration and Multicultural and Indigenous Affairs
+
+- income as a performing artist in a promotional activity</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE844" xlink:label="loc_DE844"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE844" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Specified Taxable Benefits Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE844" xlink:to="lbl_DE844" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE844" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A number of benefits that are not fringe benefits under the Fringe Benefits Tax Assessment Act 1986 are also liable for payroll tax as specified taxable benefits. These benefits are contributions by an employer to: an industry redundancy fund; a portable long service leave fund;</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE482" xlink:label="loc_DE482"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE482" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Suppliers And Employees Payments GST Inclusive Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE482" xlink:to="lbl_DE482" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE482" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE127" xlink:label="loc_DE127"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE127" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Trainees Payment Total Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE127" xlink:to="lbl_DE127" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE127" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Payments made to Trainees subject to section 14 of the Act</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE850" xlink:label="loc_DE850"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE850" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Trainees Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE850" xlink:to="lbl_DE850" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE850" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">All taxable wages made to or on behalf of Trainees, as trainees</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE504" xlink:label="loc_DE504"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE504" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Un Issued Shares Or Interests Under Option Text</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE504" xlink:to="lbl_DE504" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE504" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Detail within the directors' report of contributed equity under option.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE699" xlink:label="loc_DE699"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE699" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Unused Annual Or Long Service Leave Payment Lump Sum A Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE699" xlink:to="lbl_DE699" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE699" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Do not include cents</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE699" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount at lump sum A represents the amount paid for: unused long service leave that accrued after 15 August 1978 but before 18 August 1993; unused holiday pay and other leave related payments that accrued before 18 August 1993, or unused long service leave accrued after 17 August 1993 or unused holiday pay or related payments, where the amount was paid in connection with a payment that includes, or consists of a genuine redundancy payment, an early retirement scheme payment or the invalidity segment of an employment  termination payment or superannuation payment</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE3152" xlink:label="loc_DE3152"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3152" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Unused Annual Or Long Service Leave Payment Lump Sum A Code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3152" xlink:to="lbl_DE3152" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3152" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">"Inform the relevant field with the allowed indicator for the Lump sum payment A type.
+If the field is greater than zero, this field must be set to one of the allowable indicators as specified below:
+R = where payment was for a genuine redundancy, invalidity or under an early retirement scheme.
+T = where payment was not a payment for a genuine redundancy, invalidity or under an early retirement scheme.
+Blank fill this field if Lump sum payment A field is zero."</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3152" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicator to identify the type of Lump sum payment A.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE700" xlink:label="loc_DE700"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE700" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Unused Annual Or Long Service Leave Payment Lump Sum B Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE700" xlink:to="lbl_DE700" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE700" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Do not include cents</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE700" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount at lump sum B represents the amount paid for unused long service leave that accrued before 16 August 1978. </link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE701" xlink:label="loc_DE701"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE701" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Unused Annual Or Long Service Leave Payment Lump Sum D Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE701" xlink:to="lbl_DE701" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE701" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Do not include cents</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE701" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount at lump sum D represents the amount of genuine redundancy payment or early retirement scheme payment below the tax-free threshold. </link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE702" xlink:label="loc_DE702"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE702" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Unused Annual Or Long Service Leave Payment Lump Sum E Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE702" xlink:to="lbl_DE702" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE702" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Do not include cents</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE702" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount at lump sum E represents the amount for back payment of certain amounts including a payment of salary or wages that accrued more than 12 months ago. </link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE708" xlink:label="loc_DE708"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE708" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Voluntary Agreement Gross Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE708" xlink:to="lbl_DE708" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE708" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Do not include cents</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE708" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount of income earned by the payee, including the market value of non-cash benefits. The market value of the non-cash benefit is a notional amount of the benefits on which tax is withheld.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE3149" xlink:label="loc_DE3149"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3149" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Withholding Payment Income Type Code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3149" xlink:to="lbl_DE3149" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3149" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Inform the relevant field with the appropriate code to identify the type of income being reported on the payment summary. This field must be informed with one of the enumerated values.
+
+The type codes are as follows:
+
+001 - for labour hire
+
+002 - for other specified payments
+
+003 - for voluntary agreement
+
+004 - for personal services attributed income
+
+005 = Salary and Wages
+
+006 = Non-Superannuation pension or annuity payments</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3149" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The code identifying  the type of income being reported on the payment summary.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE843" xlink:label="loc_DE843"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE843" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Employment Termination Payments Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE843" xlink:to="lbl_DE843" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE843" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Broadly, a termination payment is a lump sum paid to an employee, relevant contractor or director by an employer upon retirement or the ceasing of employment, termination of services as a director or termination of a contractor's supply of services. The  taxable component of an employment termination payment or transitional termination payment paid to an employee is the amount that is subject to Commonwealth Income Tax. </link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE383" xlink:label="loc_DE383"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE383" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Employment Termination Total Payment Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE383" xlink:to="lbl_DE383" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE383" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A payment made upon termination or retirement of an employee, director of a company or an employee under a relevant contract. Does not include items which have been included in the non taxable wages section.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE842" xlink:label="loc_DE842"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE842" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Fees Directors Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE842" xlink:to="lbl_DE842" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE842" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Remuneration paid or payable to a working or non-working director.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE1629" xlink:label="loc_DE1629"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1629" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Fringe Benefits Aggregate Non Exempt Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1629" xlink:to="lbl_DE1629" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1629" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount that exceeds the capping threshold of the grossed-up taxable value of benefits provided to employees.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE1638" xlink:label="loc_DE1638"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Fringe Benefits Benefit Gross Taxable Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1638" xlink:to="lbl_DE1638" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1638" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Taxable value of the fringe benefits provided  prior to recipient's payments (employee contributions) or any other reduction being taken into account.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE1593" xlink:label="loc_DE1593"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Fringe Benefits Benefit Net Taxable Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1593" xlink:to="lbl_DE1593" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The taxable value of  a given fringe benefit type after taking into account any employee contributions and/or other reductions for the fringe benefit type.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE1639" xlink:label="loc_DE1639"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Fringe Benefits Employee Contribution Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1639" xlink:to="lbl_DE1639" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1639" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Amount of recipient's payments (employee contributions) made towards a type of fringe benefit.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE1637" xlink:label="loc_DE1637"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1637" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Fringe Benefits Items Provided Number</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1637" xlink:to="lbl_DE1637" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1637" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the number of benefits provided to employees of a particular type of fringe benefit.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE903" xlink:label="loc_DE903"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE903" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Fringe Benefits Living Away From Home Allowance Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE903" xlink:to="lbl_DE903" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE903" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount of fringe benefit that arises if an employer pays an allowance to an employee to cover additional expenses incurred because the employee is temporarily required to live away from their usual place of residence in order to perform their employment duties.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE1623" xlink:label="loc_DE1623"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1623" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Fringe Benefits Recipients Count</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1623" xlink:to="lbl_DE1623" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1623" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Number of employees receiving fringe benefits during the FBT year period which is from 1 April  to 31 March of the following year.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE1640" xlink:label="loc_DE1640"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Fringe Benefits Reduction Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1640" xlink:to="lbl_DE1640" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1640" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the total amount by which benefits of that type have been reduced under the 'otherwise deductible' rule or other reductions.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE705" xlink:label="loc_DE705"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE705" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Fringe Benefits Reportable Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE705" xlink:to="lbl_DE705" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE705" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Do not include cents</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE705" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Where the total taxable value of the fringe benefits provided to a payee by a payer supplying a payment summary in the FBT year (1 April to 31 March) exceeds the limit, the grossed-up taxable value of those benefits must be recorded on the payee's payment summary as the reportable fringe benefits amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE1630" xlink:label="loc_DE1630"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1630" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Fringe Benefits Taxable Total Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1630" xlink:to="lbl_DE1630" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1630" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The dollar value of the Type 1 aggregate amount plus the Type 2 aggregate amount, or the equivalent of the Aggregate non-exempt amount (relevant to Public Benevolent Institutions (PBIs), health promotion charities, public hospitals, not-for-profit hospitals or public ambulance services).</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE1625" xlink:label="loc_DE1625"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1625" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Fringe Benefits Type 1 Aggregate Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1625" xlink:to="lbl_DE1625" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1625" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The type 1 aggregate fringe benefits amount represents the total taxable values of fringe benefits (including any excluded fringe benefits) that are GST-creditable benefits.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE1627" xlink:label="loc_DE1627"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1627" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Fringe Benefits Type 2 Aggregate Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1627" xlink:to="lbl_DE1627" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1627" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Fringe benefits and excluded fringe benefits that are not type 1 benefits are called type 2 benefits. The lower gross-up rate is used for type 2 benefits.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE1578" xlink:label="loc_DE1578"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Fringe Benefits Type Code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1578" xlink:to="lbl_DE1578" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Inform one of the values in the enumeration values list.
+A = Cars using the statutory formula
+B = Cars using the operating cost method
+C = Loans granted
+D = Debt waiver
+E = Expense payments
+F = Housing - units of accommodation provided
+G = Employees receiving living-away-from-home allowance (show total paid including exempt components)
+H = Airline transport (airlines and travel agents only)
+J = Board
+K = Property
+L = Income tax exempt body - entertainment
+M = Other benefits (residual)
+N = Car parking
+P = Meal entertainment</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1578" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A benefit provided in respect of employment. This effectively means a benefit provided to somebody because they are an employee. However, a fringe benefit may be provided by another person on behalf of the employer. It may also be provided to another person on behalf of the employee (for example, a relative).
+
+A fringe benefit is usually a non-cash benefit (for example, the use of a car, house or equipment). The Tax Office has categorised fringe benefits into 13 different types:
+- car
+- debt waiver
+- loan 
+- expense payment
+- housing
+- living away from home allowance
+- airline transport
+- board
+- meal entertainment
+- tax-exempt body entertainment fringe benefit
+- car parking
+- property
+- residual</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE711" xlink:label="loc_DE711"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE711" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Personal Services Income Alienated Attributed Gross Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE711" xlink:to="lbl_DE711" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE711" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Do not include cents</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE711" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The total amount of personal services income attributed to the individual. It does not include income paid for salary, wages, bonuses and commissions paid to the individual as an employee, company director or office holder. </link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE2181" xlink:label="loc_DE2181"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2181" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Personal Services Income Atributed to Individuals Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2181" xlink:to="lbl_DE2181" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2181" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The total amount of PSI attributed to individuals</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE2187" xlink:label="loc_DE2187"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2187" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Personal Services Income Attributed Or Paid As Wages And Salaries Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2187" xlink:to="lbl_DE2187" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2187" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount of Personal Services Income (PSI) attributable or paid as salary and wages.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE2180" xlink:label="loc_DE2180"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2180" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Personal Services Income Business Premises Test Satisfied Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2180" xlink:to="lbl_DE2180" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2180" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Question to determine whether a personal services business satisfies the business premises test in the income year.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE2184" xlink:label="loc_DE2184"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2184" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Personal Services Income Deductions Other Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2184" xlink:to="lbl_DE2184" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2184" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The total amount of other deductions that offset PSI in calculating attributed income</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE2183" xlink:label="loc_DE2183"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2183" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Personal Services Income Deductions Paid to Associates Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2183" xlink:to="lbl_DE2183" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2183" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The total amount being claimed as deductions that were paid to  associates from which PSI was gained or produced.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE2179" xlink:label="loc_DE2179"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2179" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Personal Services Income Employment Test Satisfied Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2179" xlink:to="lbl_DE2179" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2179" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Question to determine whether a personal services business satisfies the employment test in the income year.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE2186" xlink:label="loc_DE2186"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2186" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Personal Services Income Individuals Total Count</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2186" xlink:to="lbl_DE2186" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2186" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The number of individuals to whom income is attributable or was paid as salary and wages.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE1883" xlink:label="loc_DE1883"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1883" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Personal Services Income Main Income Reward Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1883" xlink:to="lbl_DE1883" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1883" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicates whether the income is mainly a reward for your personal efforts or skills (or would mainly be such a reward if it was your income).</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE2185" xlink:label="loc_DE2185"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2185" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Personal Services Income Net Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2185" xlink:to="lbl_DE2185" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2185" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The net Personal Services Income (PSI) is the total of the personal services income to be attributed to individuals.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE2175" xlink:label="loc_DE2175"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2175" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Personal Services Income Personal Services Business Determination Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2175" xlink:to="lbl_DE2175" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2175" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Question to determine if Personal Services Business(PSB) determination is held in respect of any individual.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE2174" xlink:label="loc_DE2174"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2174" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Personal Services Income Results Test Satisfied Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2174" xlink:to="lbl_DE2174" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2174" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A question to determine if the results test in respect of the individual is satisfied.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE2182" xlink:label="loc_DE2182"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2182" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Personal Services Income Salary or Wages Paid Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2182" xlink:to="lbl_DE2182" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2182" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The total amount of PSI promptly paid as salary or wages</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE2177" xlink:label="loc_DE2177"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2177" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Personal Services Income Test Failed And Multiple Source Income Less Than Eighty Percent Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2177" xlink:to="lbl_DE2177" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2177" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Question to determine if an individual who did not satisfy the results test or hold a PSB determinationI yielded less than 80% of their total PSI from each source.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE2176" xlink:label="loc_DE2176"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2176" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Personal Services Income Test Failed And Single Source Income Greater Than Eighty Percent Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2176" xlink:to="lbl_DE2176" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2176" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Inform the relevant field with the appropriate symbol if any individual did not satisfy the results test or hold a Personal Services Business (PSB) determination and more than  80% or more of their Personal Services Income (PSI) came from one source.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2176" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Question to determine if an individual has gained 80% or more of their Personal Services Income (PSI) income from one source but did not satisfy the PSI rules or hold a Personal Services Business (PSB) determination.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE2188" xlink:label="loc_DE2188"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2188" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Personal Services Income Type Code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2188" xlink:to="lbl_DE2188" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2188" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">P = Promptly paid salary and wages, A = Attributable PSI, B = Both
+</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2188" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Code relating to the type of Personal Services Income (PSI)</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE2178" xlink:label="loc_DE2178"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2178" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Personal Services Income Unrelated Clients Test Satisfied Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2178" xlink:to="lbl_DE2178" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2178" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Question to determine whether a personal services business satisfies the unrelated clients test in the income year.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE849" xlink:label="loc_DE849"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE849" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Apprentices And Trainees Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE849" xlink:to="lbl_DE849" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE849" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Represents wages paid by the client to Apprentices and Trainees in the return period.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE909" xlink:label="loc_DE909"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE909" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Apprentices Trainees And Graduates Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE909" xlink:to="lbl_DE909" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE909" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Payments made to eligible apprentices, trainees and graduates</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE837" xlink:label="loc_DE837"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE837" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Contractors And Consultants Payments Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE837" xlink:to="lbl_DE837" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE837" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Payments made to certain workers (often called contractors or subcontractors under a contract of services arrangement) will be liable for payroll tax if they are engaged under a contract of service (i.e. have a common law relationship of employer/employee). If the worker is a specific individual, is essentially only providing the labour (and in the case of a tradesperson the tools of trade), and is being paid an hourly or piecemeal rate, then it will generally be considered that they are engaged under a contract of service, even if the payment for the work performed is being made to the worker's company, partnership or family trust.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE918" xlink:label="loc_DE918"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE918" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Contractors Payments Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE918" xlink:to="lbl_DE918" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE918" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Amount payable under a contract of services less amounts payable for materials/equipment and any goods and services tax payable upon the contract</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE899" xlink:label="loc_DE899"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE899" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages and Salaries Defence Forces Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE899" xlink:to="lbl_DE899" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE899" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Payments to employees who are absent in the defence forces.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE877" xlink:label="loc_DE877"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE877" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Employed In All States And Territories Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE877" xlink:to="lbl_DE877" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE877" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicator to flag employment in ALL States and Territories.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE907" xlink:label="loc_DE907"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE907" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages and Salaries Estimate State Wages Equivalent Zero Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE907" xlink:to="lbl_DE907" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE907" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicator to determine whether the return state wages are equal to zero</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE369" xlink:label="loc_DE369"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE369" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Excluding Share Based Payments Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE369" xlink:to="lbl_DE369" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE369" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The value of wages and salaries excluding any share based payments paid to employees during the reporting period.
+
+Wages are defined as remuneration paid to hourly-paid employees for work done, usually based on the number of hours spent at the place of work. Salaries are defined as regular payments, usually monthly, which are made by an employer under a contract of employment to an employee.
+
+Wages and salaries refers to payments made to all permanent, part-time and temporary employees on the payroll during the reporting period.
+
+Share based payments refers to company shares/stocks and rights to and options for company shares/stocks that are issued to employees as part of their remuneration package. The shares are usually issued on a conditional basis (e.g. the company reaches or exceeds its target for the reporting period).</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE900" xlink:label="loc_DE900"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE900" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Exempt Other Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE900" xlink:to="lbl_DE900" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE900" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Wages that may be exempt from Payroll Tax, other than Overseas Exempt and Defence Force Wages and Salaries.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE901" xlink:label="loc_DE901"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE901" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages and Salaries Exempt Total Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE901" xlink:to="lbl_DE901" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE901" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Total wages that are exempt from Payroll Tax.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE1599" xlink:label="loc_DE1599"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1599" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Gross State Including Exempt Wages Total Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1599" xlink:to="lbl_DE1599" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1599" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The total gross wages for the state where the return will be lodged. This amount includes exempt wages.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE859" xlink:label="loc_DE859"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE859" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Including Share Based Payments Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE859" xlink:to="lbl_DE859" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE859" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The value of wages and salaries including any share based payments paid to employees during the reporting period.
+
+Wages are defined as remuneration paid to hourly-paid employees for work done, usually based on the number of hours spent at the place of work. Salaries are defined as regular payments, usually monthly, which are made by an employer under a contract of employment to an employee. Wages and salaries refer to payments made to all permanent, part-time and temporary employees on the payroll during the reporting period.
+
+Share based payments refers to company shares/stocks and rights to and options for company shares/stocks that are issued to employees as part of their remuneration package. The shares are usually issued on a conditional basis (e.g. the company reaches or exceeds its target for the reporting period).</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE146" xlink:label="loc_DE146"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE146" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Non Taxable State Other Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE146" xlink:to="lbl_DE146" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE146" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Other non taxable payments made to employees for the state where the return will be lodged</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE147" xlink:label="loc_DE147"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE147" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Non Taxable State Total Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE147" xlink:to="lbl_DE147" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE147" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The total non taxable wages declared for the state where the return will be lodged</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE148" xlink:label="loc_DE148"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE148" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Other State Or Territory Taxable Amount Paid Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE148" xlink:to="lbl_DE148" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE148" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicator to define if interstate wages that are taxable in other Australian States or Territories have been paid, under laws that corresponds with the revenue states' respective Tax Act.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE916" xlink:label="loc_DE916"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE916" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Overseas Exempt After 6 Months Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE916" xlink:to="lbl_DE916" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE916" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Wages paid to an employee are exempt after six months, where the wages are paid in respect of services performed by the employee wholly in another country, for a continuous period exceeding six months.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE895" xlink:label="loc_DE895"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE895" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Overseas Exempt Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE895" xlink:to="lbl_DE895" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE895" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Wages paid to an employee providing services in another country for a continuous period of more than 6 months.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE836" xlink:label="loc_DE836"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE836" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages and Salaries Payments Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE836" xlink:to="lbl_DE836" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE836" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The gross wages and salaries paid including any PAYG (Pay-as you-go) withholding amounts or other deductions made by an employer on behalf of an employee. Salaries and wages include payments for overtime, penalty payments, sick pay, holiday pay and leave loadings.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE750" xlink:label="loc_DE750"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE750" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Plus Payments Other Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE750" xlink:to="lbl_DE750" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE750" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Total gross payments subject to withholding.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE750" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is where a client reports the total of salary, wages and other payments made to their employees during the reporting period. The total amount that the client has paid where a percentage would be required to be withheld under divisions 12, 13 and 14 of Schedule 1 to the TAA.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE860" xlink:label="loc_DE860"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE860" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Reason For Difference Description</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE860" xlink:to="lbl_DE860" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE860" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Wages are defined as remuneration paid to hourly-paid employees for work done, usually based on the number of hours spent at the place of work. Salaries are defined as regular payments, usually monthly, which are made by an employer under a contract of employment to an employee. Wages and salaries refer to payments made to all permanent, part-time and temporary employees on the payroll during the reporting period.
+
+Share based payments refers to company shares/stocks that are issued to employees as part of their remuneration package. The shares are usually issued on a conditional basis (e.g. the company reaches or exceeds its target for the reporting period).
+
+The reason for the difference between reporting periods is the cause or events that have resulted in a variation of greater than 10 percent from the value reported in the previous reporting period.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE152" xlink:label="loc_DE152"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE152" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Taxable Group State And Interstate Total Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE152" xlink:to="lbl_DE152" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE152" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The total sum of Australian group taxable wages declared.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE151" xlink:label="loc_DE151"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE151" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Taxable Interstate All Group Members Total Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE151" xlink:to="lbl_DE151" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE151" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The Designated Group Employer supplies the total interstate wages for all group members who employ in that state</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE789" xlink:label="loc_DE789"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE789" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Taxable Interstate Other Group Members Total Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE789" xlink:to="lbl_DE789" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE789" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Total taxable interstate wages in other Australian States or Territories paid by other group members.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE149" xlink:label="loc_DE149"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE149" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Taxable Interstate Total Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE149" xlink:to="lbl_DE149" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE149" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Total interstate wages paid. Interstate wages are wages that are taxable in other Australian States or Territories under laws that correspond to their respective Tax Act.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE846" xlink:label="loc_DE846"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE846" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Taxable Payroll Other Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE846" xlink:to="lbl_DE846" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE846" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Other wages and benefits that may be taxable not specified elsewhere.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE847" xlink:label="loc_DE847"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE847" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Taxable Payroll Other Description</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE847" xlink:to="lbl_DE847" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE847" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Description of the Other Payments figure - Other wages and benefits that may be taxable not specified elsewhere.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE150" xlink:label="loc_DE150"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE150" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Taxable State All Group Members Total Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE150" xlink:to="lbl_DE150" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE150" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The Designated Group Employer supplies the total state taxable wages for all group members. </link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE878" xlink:label="loc_DE878"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE878" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Taxable State And Interstate All Group Members Total Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE878" xlink:to="lbl_DE878" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE878" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The sum of all group member's taxable wages and salaries for all Australian states.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE153" xlink:label="loc_DE153"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE153" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Taxable State And Interstate Total Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE153" xlink:to="lbl_DE153" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE153" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The sum of taxable wages and salaries for all Australian states.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE887" xlink:label="loc_DE887"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE887" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Taxable State And Interstate With Apprentices And Trainees Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE887" xlink:to="lbl_DE887" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE887" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The total of state and interstate wage components including apprentices and trainees</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE888" xlink:label="loc_DE888"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE888" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Taxable State And Interstate Without Apprentices And Trainees Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE888" xlink:to="lbl_DE888" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE888" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The total of state and interstate wage components excluding apprentices and trainees</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE790" xlink:label="loc_DE790"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE790" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Taxable State Other Group Members Total Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE790" xlink:to="lbl_DE790" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE790" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Total taxable wages paid by other group members in Return State.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE145" xlink:label="loc_DE145"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE145" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Taxable State Total Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE145" xlink:to="lbl_DE145" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE145" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The total taxable wages declared for the state where the return will be lodged</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE1597" xlink:label="loc_DE1597"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1597" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Taxable State With Apprentices And Trainees Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1597" xlink:to="lbl_DE1597" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1597" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The total of state wage components including apprentices and trainees.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE886" xlink:label="loc_DE886"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE886" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Taxable State Without Apprentices And Trainees Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE886" xlink:to="lbl_DE886" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE886" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The total of state wage components excluding apprentices and trainees.</link:label>
+    <link:loc xlink:type="locator" xlink:href="lrla.02.00.data.xsd#DE144" xlink:label="loc_DE144"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE144" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Taxable Wages Not Declared Elsewhere Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE144" xlink:to="lbl_DE144" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE144" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Wages that are taxable and have not been included elsewhere</link:label>
+  </link:labelLink>
+</link:linkbase>

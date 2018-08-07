@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/rprt/apra/mrf/mrf_150_0/mrf_150_0.private.02.00/hypercubes/1" xlink:href="mrf_150_0.0001.private.02.00.module.xsd#mrf_150_0.0001.lodge.request.02.00.privateDefLink1"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/rprt/apra/mrf/mrf_150_0/mrf_150_0.0001.lodge.request.02.00/defRole1" xlink:href="mrf_150_0.0001.lodge.request.02.00.xsd#mrf_150_0.0001.lodge.request.02.00.defLink1"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/rprt/apra/mrf/mrf_150_0/mrf_150_0.private.02.00/hypercubes/2" xlink:href="mrf_150_0.0001.private.02.00.module.xsd#mrf_150_0.0001.lodge.request.02.00.privateDefLink2"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/rprt/apra/mrf/mrf_150_0/mrf_150_0.0001.lodge.request.02.00/defRole2" xlink:href="mrf_150_0.0001.lodge.request.02.00.xsd#mrf_150_0.0001.lodge.request.02.00.defLink2"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/rprt/apra/mrf/mrf_150_0/mrf_150_0.private.02.00/hypercubes/3" xlink:href="mrf_150_0.0001.private.02.00.module.xsd#mrf_150_0.0001.lodge.request.02.00.privateDefLink3"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/rprt/apra/mrf/mrf_150_0/mrf_150_0.0001.lodge.request.02.00/defRole3" xlink:href="mrf_150_0.0001.lodge.request.02.00.xsd#mrf_150_0.0001.lodge.request.02.00.defLink3"/>
+	<link:arcroleRef xlink:type="simple" arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+	<link:arcroleRef xlink:type="simple" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/apra/mrf/mrf_150_0/mrf_150_0.0001.lodge.request.02.00/defRole1">
+		<link:loc xlink:type="locator" xlink:href="mrf_150_0.0001.private.02.00.module.xsd#HC1" xlink:label="HC1" xlink:title="HC1"/>
+		<link:loc xlink:type="locator" xlink:href="mrf_150_0.0001.private.02.00.module.xsd#RA1" xlink:label="Abstract1" xlink:title="Abstract1"/>
+		<link:definitionArc xlink:type="arc" order="1.0" xbrldt:contextElement="segment" xbrldt:closed="true" xlink:from="Abstract1" xlink:to="HC1" xlink:title="definition: Abstract1 to HC1" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xbrldt:targetRole="http://sbr.gov.au/rprt/apra/mrf/mrf_150_0/mrf_150_0.private.02.00/hypercubes/1"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafot/bafot.02.06.data.xsd#DE8965" xlink:label="FinancialRisk.OffBalanceSheetExposuresAccounting.Amount" xlink:title="FinancialRisk.OffBalanceSheetExposuresAccounting.Amount"/>
+		<link:definitionArc xlink:type="arc" order="1.0" xbrldt:contextElement="segment" xbrldt:closed="true" xlink:from="Abstract1" xlink:to="FinancialRisk.OffBalanceSheetExposuresAccounting.Amount" xlink:title="definition: Abstract1 to FinancialRisk.OffBalanceSheetExposuresAccounting.Amount" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo1.02.06.data.xsd#DE8264" xlink:label="Assets.EquitySecuritiesExcessIdentifiableNetTangibleAssets.Amount" xlink:title="Assets.EquitySecuritiesExcessIdentifiableNetTangibleAssets.Amount"/>
+		<link:definitionArc xlink:type="arc" order="1.0" xbrldt:contextElement="segment" xbrldt:closed="true" xlink:from="Abstract1" xlink:to="Assets.EquitySecuritiesExcessIdentifiableNetTangibleAssets.Amount" xlink:title="definition: Abstract1 to Assets.EquitySecuritiesExcessIdentifiableNetTangibleAssets.Amount" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafot/bafot.02.06.data.xsd#DE8966" xlink:label="FinancialRisk.ExposuresAccounting.Amount" xlink:title="FinancialRisk.ExposuresAccounting.Amount"/>
+		<link:definitionArc xlink:type="arc" order="1.0" xbrldt:contextElement="segment" xbrldt:closed="true" xlink:from="Abstract1" xlink:to="FinancialRisk.ExposuresAccounting.Amount" xlink:title="definition: Abstract1 to FinancialRisk.ExposuresAccounting.Amount" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"/>
+	</link:definitionLink>
+	<link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/apra/mrf/mrf_150_0/mrf_150_0.0001.lodge.request.02.00/defRole2">
+		<link:loc xlink:type="locator" xlink:href="mrf_150_0.0001.private.02.00.module.xsd#HC2" xlink:label="HC2" xlink:title="HC2"/>
+		<link:loc xlink:type="locator" xlink:href="mrf_150_0.0001.private.02.00.module.xsd#RA2" xlink:label="Abstract2" xlink:title="Abstract2"/>
+		<link:definitionArc xlink:type="arc" order="1.0" xbrldt:contextElement="segment" xbrldt:closed="true" xlink:from="Abstract2" xlink:to="HC2" xlink:title="definition: Abstract2 to HC2" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xbrldt:targetRole="http://sbr.gov.au/rprt/apra/mrf/mrf_150_0/mrf_150_0.private.02.00/hypercubes/2"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo1.02.00.data.xsd#DE1273" xlink:label="Assets.Total.Amount" xlink:title="Assets.Total.Amount"/>
+		<link:definitionArc xlink:type="arc" order="1.0" xbrldt:contextElement="segment" xbrldt:closed="true" xlink:from="Abstract2" xlink:to="Assets.Total.Amount" xlink:title="definition: Abstract2 to Assets.Total.Amount" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"/>
+	</link:definitionLink>
+	<link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/apra/mrf/mrf_150_0/mrf_150_0.0001.lodge.request.02.00/defRole3">
+		<link:loc xlink:type="locator" xlink:href="mrf_150_0.0001.private.02.00.module.xsd#HC3" xlink:label="HC3" xlink:title="HC3"/>
+		<link:loc xlink:type="locator" xlink:href="mrf_150_0.0001.private.02.00.module.xsd#RA3" xlink:label="Abstract3" xlink:title="Abstract3"/>
+		<link:definitionArc xlink:type="arc" order="1.0" xbrldt:contextElement="segment" xbrldt:closed="true" xlink:from="Abstract3" xlink:to="HC3" xlink:title="definition: Abstract3 to HC3" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xbrldt:targetRole="http://sbr.gov.au/rprt/apra/mrf/mrf_150_0/mrf_150_0.private.02.00/hypercubes/3"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafot/bafot.02.06.data.xsd#DE8967" xlink:label="FinancialRisk.CapitalBase.Amount" xlink:title="FinancialRisk.CapitalBase.Amount"/>
+		<link:definitionArc xlink:type="arc" order="1.0" xbrldt:contextElement="segment" xbrldt:closed="true" xlink:from="Abstract3" xlink:to="FinancialRisk.CapitalBase.Amount" xlink:title="definition: Abstract3 to FinancialRisk.CapitalBase.Amount" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"/>
+	</link:definitionLink>
+</link:linkbase>

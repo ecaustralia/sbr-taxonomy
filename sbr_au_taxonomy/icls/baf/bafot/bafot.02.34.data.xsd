@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bafot.02.34="http://sbr.gov.au/icls/baf/bafot/bafot.02.34.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dtyp.02.52="http://sbr.gov.au/fdtn/sbr.02.52.dtyp" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/baf/bafot/bafot.02.34.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.52.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.52.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="bafotAbstract" id="bafot.02.34_bafotAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="FinancialRisk.Market.BenchmarkRate.Percent" id="DE15107" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="FinancialRisk.Market.WeightedAverageInterestRate.Percent" id="DE15102" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="FinancialRisk.Market.WeightedAverageInterestRateNetOffset.Percent" id="DE15101" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="FinancialRisk.Market.WeightedAverageTenor.Percent" id="DE15106" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="Miscellaneous.AccountSequence.Number" id="DE15080" type="xbrli:nonNegativeIntegerItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Miscellaneous.AustralianTaxationOfficeMatchRate.Percent" id="DE15059" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="Miscellaneous.BrokerNumber.Identifier" id="DE15061" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Miscellaneous.BulkTrade.Indicator" id="DE15063" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Miscellaneous.InvestorReferenceNumber.Identifier" id="DE15079" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Miscellaneous.InvestorType.Code" id="DE15060" type="dtyp.02.52:sbrInvestorCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Miscellaneous.SecuritiesHolding.Identifier" id="DE15066" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Miscellaneous.SecuritiesHoldingType.Code" id="DE15064" type="dtyp.02.52:sbrSecuritiesHoldingCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Miscellaneous.SecuritiesTransaction.Count" id="DE15077" type="xbrli:nonNegativeIntegerItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Miscellaneous.SecuritiesTransaction.Date" id="DE15069" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Miscellaneous.SecurityCode.Text" id="DE15067" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Miscellaneous.SecurityPrice.Amount" id="DE15078" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Miscellaneous.TransactionBuySell.Code" id="DE15074" type="dtyp.02.52:sbrSecuritiesTransactionCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Miscellaneous.TransactionInitiator.Identifier" id="DE15062" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+</xsd:schema>

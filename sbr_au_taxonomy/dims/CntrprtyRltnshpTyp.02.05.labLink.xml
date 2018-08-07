@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DM359" xlink:label="loc_DM359"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM359" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Counterparty Relationship Type Dimension</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DM359" xlink:to="lbl_DM359"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM359" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This dimension categorises reported information based on the type of relationship between two or more counterparties.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV3814" xlink:label="loc_DV3814"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3814" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not Sub Assoc JV</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3814" xlink:to="lbl_DV3814"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3814" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a relationship exists between the reporting party and the counterparty, and where the counterparty is not classified as a controlled entity, an associate or joint venture of the reporting party.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV3815" xlink:label="loc_DV3815"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3815" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Other Group Entities Of Trustee</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3815" xlink:to="lbl_DV3815"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3815" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where an Other Group Entity of the Approved Trustee relationship exists.
+
+This refers to those entities where the trustee is a corporate trustee. This selection will be applicable where there have been transactions between the entity and an entity that is part of the consolidated group economic entity to which the approved trustee belongs.  This will include the following group entities:
+
+
+- The parent entity(s) of the approved trustee;
+
+- Controlled entities of the parent entity(s) of the approved trustee; and
+
+- Joint ventures or associates of the parent entity(s) of the approved trustee.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV3816" xlink:label="loc_DV3816"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3816" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Subsidiary</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3816" xlink:to="lbl_DV3816"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3816" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a subsidiary of the reporting party, as determined in accordance with accounting standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV3817" xlink:label="loc_DV3817"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3817" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Trustee Director Group Entity Of Trustee</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3817" xlink:to="lbl_DV3817"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3817" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a Trustee or Director of a Group Entity of the Trustee relationship exists.
+
+This refers to those entities where the trustee is a corporate trustee. This selection will be applicable where there have been transactions between the  entity and directors of an entity that is part of the consolidated group economic entity of which the approved trustee forms a part.  This will include directors of the following group entities:
+
+
+- Directors of the parent entity(s) of the approved trustee;
+
+- Directors of subsidiaries of the parent entity of the approved trustee;
+
+- Directors of subsidiaries of the approved trustee; 
+
+- Directors of joint ventures or associates of the approved trustee; and
+
+- Directors of other entities in the trustee's group</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4115" xlink:label="loc_DV4115"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4115" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Joint Venture</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4115" xlink:to="lbl_DV4115"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4115" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Joint Venture of the reporting party.
+
+A Joint Venture Is defined in accordance with the current Australian Accounting Standard relating to  joint ventures, as meaning a contractual arrangement whereby two or more parties undertake an economic activity, which is subject to joint control. A joint venture may take the form of the following:
+ 
+A joint venture entity:
+Means a joint venture that is in the form of an entity and does not include an entity that:
+(a) is acquired and held exclusively with a view to its disposal in the near future.
+(b) operates under severe long-term restrictions that impair significantly its ability to make distributions to the venturer.
+
+A Joint venture operation:
+Means a joint venture that is not in the form of a joint venture entity and it does not include an entity that:
+(a) is acquired and held exclusively with a view to its disposal in the near future.
+(b) operates under severe long-term restrictions that impair significantly its ability to make distributions to the venturer.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4163" xlink:label="loc_DV4163"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4163" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Associate</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4163" xlink:to="lbl_DV4163"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4163" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an Associate of the reporting party.
+
+This selection will be applicable where there have been transactions between the reporting party and any associates of the reporting party. 
+Associate is defined in accordance with the definition provided in the current Australian Accounting Standard relating to investments in associates as meaning an investee not being a:
+(a) subsidiary of the investor; or
+(b) partnership of the investor; or
+(c) investment acquired and held exclusively with a view to its disposal in the near future; 
+over which the investor has significant influence. 
+
+Significant influence is defined in accordance with the definition provided in the current Australian Accounting Standard relating to investments in associates as significant influence as the power to participate in the financial and operating policy decisions of the investee but not to control those policies.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4164" xlink:label="loc_DV4164"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4164" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Subsidiary Non Life</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4164" xlink:to="lbl_DV4164"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4164" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a Subsidiary relationship exists with a company other than a Life Insurance company.
+
+Subsidiary is defined in accordance with the definition provided in the current Australian Accounting Standard relating to consolidated accounts as, 'an entity that is controlled by a parent entity'.
+
+Control is defined by the current Australian Accounting Standard relating to consolidated accounts as the capacity of an entity to dominate decision-making, directly or indirectly, in relation to the financial and operating policies of another entity so as to enable that other entity to operate with it in pursuing the objectives of the controlling entity.
+
+Capacity is defined by the current Australian Accounting Standard relating to consolidated accounts as meaning ability or power, whether direct or indirect, and includes ability or power that is presently exercisable as a result of, by means of, in breach of, or by revocation of, any of or any combination of the following: 
+(a) trusts;
+(b) relevant agreements; and 
+(c) practices;
+whether or not enforceable.
+
+A Life Insurance company is one that issues or undertakes liability under life or sinking fund policies, or related activities.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4165" xlink:label="loc_DV4165"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4165" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Subsidiary Life</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4165" xlink:to="lbl_DV4165"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4165" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a Subsidiary relationship exists with a Life Insurance company.
+
+Subsidiary is defined in accordance with the definition provided in the current Australian Accounting Standard relating to consolidated accounts as 'an entity that is controlled by a parent entity'.
+
+Control is defined by the current Australian Accounting Standard relating to consolidated accounts as the capacity of an entity to dominate decision-making, directly or indirectly, in relation to the financial and operating policies of another entity so as to enable that other entity to operate with it in pursuing the objectives of the controlling entity.
+
+Capacity is defined by the current Australian Accounting Standard relating to consolidated accounts as meaning ability or power, whether direct or indirect, and includes ability or power that is presently exercisable as a result of, by means of, in breach of, or by revocation of, any of or any combination of the following: 
+(a) trusts;
+(b) relevant agreements; and 
+(c) practices;
+whether or not enforceable.
+
+A Life Insurance company is one that issues or undertakes liability under life or sinking fund policies, or related activities.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4166" xlink:label="loc_DV4166"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4166" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Approved Trustee</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4166" xlink:to="lbl_DV4166"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4166" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an approved trustee of the reporting party.
+
+An Approved Trustee is any trustee of a regulated entity that is a corporation where the entity itself has been approved by the relevant regulatory body.  It includes (but is not limited to) any corporate trustee, including a corporate trustee approved by the relevant regulatory body (where the Regulator must be satisfied that it can be relied on to perform the duties of trustee in a proper manner and which satisfies minimum liquidity / financial requirements).  It does not include a group of individual trustees.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4167" xlink:label="loc_DV4167"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4167" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Trustee</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4167" xlink:to="lbl_DV4167"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4167" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a Trustee relationship exists.
+
+This refers to those entities where the trustees are individuals rather than a corporate trustee. This selection will be applicable where there have been transactions between the entity and a Trustee and / or the spouse of a Trustee of the entity.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4168" xlink:label="loc_DV4168"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4168" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Other Counterparty Relationship Type</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4168" xlink:to="lbl_DV4168"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4168" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a balancing item within the list in which it is being used
+
+Report only where a counterparty relationship exists that cannot appropriately be classified within the list in which this item is being used.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4169" xlink:label="loc_DV4169"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4169" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Member Related Business Entity</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4169" xlink:to="lbl_DV4169"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4169" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a business or entity related to a member of the reporting party. 
+
+A business or entity that is related to a Member of the reporting party is to be interpreted as including: 
+- The member of the entity is a director of that entity / business.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4170" xlink:label="loc_DV4170"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4170" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Related Party for Accounting Purposes Excluding Subsidiaries, Associates, Joint Ventures and Parent Entity</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4170" xlink:to="lbl_DV4170"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4170" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information comprises of related parties in accordance with AASB124 excluding those related parties classified as parent, subsidiary, associate or joint venture entities.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4240" xlink:label="loc_DV4240"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4240" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Trustee Director Not Group Entity Trustee</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4240" xlink:to="lbl_DV4240"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4240" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a Director or Trustee of an Entity that is not a Group Entity of the Approved Trustee relationship exists.
+
+This refers to those entities where the trustee is a corporate trustee. This selection will be applicable where there have been transactions between the entity and an entity that is related to a director of the corporate trustee of the reporting superannuation entity, but that entity is NOT part of the consolidated group economic entity to which the approved trustee belongs i.e. this does not include entities that are listed in section 8. 
+
+An entity that is related to a Trustee or a director of the corporate trustee of the entity is to be interpreted as including: 
+
+
+- A director of the corporate trustee of the entity, is a director of that entity / business; and
+
+- The spouse of a director of the corporate trustee of the entity, is a director of that entity / business.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4241" xlink:label="loc_DV4241"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4241" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Parent</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4241" xlink:to="lbl_DV4241"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4241" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information reported is the parent of the reporting party, as determined in accordance with accounting standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4242" xlink:label="loc_DV4242"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4242" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Related Entity Of The Trustee</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4242" xlink:to="lbl_DV4242"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4242" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where the reporting party is a related entity of the Trustee of the Entity. This refers to those superannuation entities where the trustees are individuals rather than a corporate trustee. This selection will be applicable where there have been transactions between the reporting superannuation entity and a business or entity that is related to a Trustee of the reporting superannuation entity.  A business or entity that is related to a Trustee is to be interpreted as including: 
+- The trustee of the superannuation entity is a director of that entity / business; 
+- The spouse of a trustee of the superannuation entity is a director of that entity / business; and
+- The trustee of the superannuation entity is an employee of that entity / business.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4243" xlink:label="loc_DV4243"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4243" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not Sub Assoc JV Parent</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4243" xlink:to="lbl_DV4243"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4243" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a relationship exists that is not classified as a parent entity, controlled entity, associate or joint venture relationship.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4244" xlink:label="loc_DV4244"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4244" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Subsidiary Associate Or Joint Venture</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4244" xlink:to="lbl_DV4244"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4244" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a Subsidiary, Associate or Joint Venture relationship exists.
+
+This selection will be applicable where there have been transactions between the reporting superannuation entity and any subsidiaries, associates or joint ventures of the reporting superannuation entity.  This includes:
+- Controlled entities of the approved trustee; and
+-  Joint ventures or associates of the approved trustee.
+
+Subsidiary is defined in accordance with the definition provided in the current Australian Accounting Standard relating to consolidated accounts as, 'an entity that is controlled by a parent entity'.
+
+Control is defined by the current Australian Accounting Standard relating to consolidated accounts as the capacity of an entity to dominate decision-making, directly or indirectly, in relation to the financial and operating policies of another entity so as to enable that other entity to operate with it in pursuing the objectives of the controlling entity.
+
+Capacity is defined by the current Australian Accounting Standard relating to consolidated accounts as meaning ability or power, whether direct or indirect, and includes ability or power that is presently exercisable as a result of, by means of, in breach of, or by revocation of, any of or any combination of the following: 
+(a) trusts;
+(b) relevant agreements; and 
+(c) practices;
+
+whether or not enforceable.
+
+Associate is defined in accordance with the definition provided in the current Australian Accounting Standard relating to investments in associates as meaning an investee not being a:
+
+(a) subsidiary of the investor; or
+(b) partnership of the investor; or
+(c) investment acquired and held exclusively with a view to its disposal in the near future; 
+
+over which the investor has significant influence. 
+
+Significant influence is defined in accordance with the definition provided in the current Australian Accounting Standard relating to investments in associates as significant influence as the power to participate in the financial and operating policy decisions of the investee but not to control those policies.
+
+A Joint Venture Is defined in accordance with the current Australian Accounting Standard relating to  joint ventures, as meaning a contractual arrangement whereby two or more parties undertake an economic activity, which is subject to joint control. A joint venture may take the form of the following:
+ 
+A joint venture entity:
+Means a joint venture that is in the form of an entity and does not include an entity that:
+(a) is acquired and held exclusively with a view to its disposal in the near future.
+(b) operates under severe long-term restrictions that impair significantly its ability to make distributions to the venturer.
+
+A Joint venture operation:
+Means a joint venture that is not in the form of a joint venture entity and it does not include an entity that:
+(a) is acquired and held exclusively with a view to its disposal in the near future.
+(b) operates under severe long-term restrictions that impair significantly its ability to make distributions to the venturer.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4359" xlink:label="loc_DV4359"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4359" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Sub Non Consolidated</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4359" xlink:to="lbl_DV4359"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4359" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a relationship exists between the reporting party and the counterparty, and where the counterparty is classified as a controlled entity, or subsidiary, of the reporting party, but where the counterparty is not consolidated for prudential reporting purposes.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4360" xlink:label="loc_DV4360"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4360" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not Sub</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4360" xlink:to="lbl_DV4360"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4360" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a relationship exists between the reporting party and the counterparty, and where the counterparty is not classified as a controlled entity, or subsidiary, of the reporting party.
+
+Subsidiary is defined in accordance with the definition provided in the current Australian Accounting Standard relating to consolidated accounts as 'an entity that is controlled by a parent entity'.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4361" xlink:label="loc_DV4361"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4361" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Non Related Party for Accounting Purposes Under AASB124</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4361" xlink:to="lbl_DV4361"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4361" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a relationship exists between the reporting party and the counterparty that is not deemed a related party relationship in accordance with AASB124.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4362" xlink:label="loc_DV4362"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4362" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Non Offshore Operations ADI</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4362" xlink:to="lbl_DV4362"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4362" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where the counterparty is not an offshore operation of the reporting party. Offshore operations include overseas branches of a locally incorporated ADI or the parent entity for Australian branches of a foreign ADI.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4363" xlink:label="loc_DV4363"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4363" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Offshore Operations ADI</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4363" xlink:to="lbl_DV4363"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4363" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where the counterparty is an offshore operation of the reporting party. This includes overseas branches of a locally incorporated ADI or the parent entity for Australian branches of a foreign ADI.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4364" xlink:label="loc_DV4364"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4364" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Non Intragroup</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4364" xlink:to="lbl_DV4364"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4364" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where the counterparty does not have an intra-group relationship with the reporting party.  
+
+An intra-group relationship exists between a reporting party and its parent entity, controlled entities, associated entities, joint ventures and other branches under the same parent entity.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4365" xlink:label="loc_DV4365"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4365" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Intragroup</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4365" xlink:to="lbl_DV4365"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4365" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an intra-group entity of the reporting party (i.e. an intra-group relationship exists).
+
+An intra-group relationship exists between a reporting party and its parent entity, controlled entities, associates, joint ventures and other branches under the same parent entity.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4366" xlink:label="loc_DV4366"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4366" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Related Party for Accounting Purposes Under AASB124</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4366" xlink:to="lbl_DV4366"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4366" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a relationship exists between the reporting party and the counterparty that is deemed a related party relationship in accordance with AASB124.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4367" xlink:label="loc_DV4367"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4367" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Associate or Joint Venture</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4367" xlink:to="lbl_DV4367"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4367" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an Associate or Joint Venture of reporting party, as determined in accordance with accounting standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4368" xlink:label="loc_DV4368"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4368" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not Sub Assoc</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4368" xlink:to="lbl_DV4368"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4368" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a relationship exists where the counterparty is not classified as a controlled entity or associate of the reporting party.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4372" xlink:label="loc_DV4372"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4372" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Subsidiary Associate Joint Venture and Parent</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4372" xlink:to="lbl_DV4372"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4372" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a relationship exists that is classified as a parent entity, controlled entity, associate or joint venture relationship.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4392" xlink:label="loc_DV4392"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4392" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not a Related Party for Prudential Purposes</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4392" xlink:to="lbl_DV4392"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4392" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a relationship exists between the reporting party and the counterparty that is deemed not to be a related entity relationship in accordance with relevant prudential standards</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4393" xlink:label="loc_DV4393"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4393" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not a Level 2 Subsidiary</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4393" xlink:to="lbl_DV4393"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4393" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a relationship exists between the reporting party and the counterparty that is not deemed a subsidiary relationship where the subsidiary would be consolidated as part of the Level 2 group in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4394" xlink:label="loc_DV4394"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4394" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Level 2 Subsidiary</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4394" xlink:to="lbl_DV4394"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4394" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a subsidiary of the reporting party, but only where the subsidiary would be consolidated as part of a Level 2 group in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4402" xlink:label="loc_DV4402"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4402" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Non Australian Operations ADI</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4402" xlink:to="lbl_DV4402"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4402" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where the counterparty is not an Australian operation of the reporting party. Australian operations include Australian branches of a locally incorporated ADI or the Australian branches of a foreign ADI.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4450" xlink:label="loc_DV4450"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4450" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Related Party and APRA Deemed Excluding Foreign</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4450" xlink:to="lbl_DV4450"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4450" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is any entity controlled (whether directly or indirectly) by the reporting party (other than those subsidiaries forming part of the consolidated group), or by the ultimate domestic parent of the reporting party (including the parent entity itself). For the purposes of this item, a related entity excludes the foreign parent(s) of the reporting party, the foreign parent's overseas based subsidiaries and their directly owned non-ADI entities operating in Australia.
+
+Where appropriate, APRA may deem that other entities (and their subsidiaries) represent a "related entity".
+
+Subsidiary is defined in accordance with the definition provided in AASB127 as "an entity that is controlled by another entity (known as the parent)", unless otherwise instructed by APRA.
+
+Control is defined by AASB127 as "the power to govern the financial and operating policies of an entity so as to obtain benefits from its activities".
+
+Parent entity is defined by AASB127 as "an entity that has one or ore subsidiaries".</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4506" xlink:label="loc_DV4506"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4506" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Australian Operations ADI</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4506" xlink:to="lbl_DV4506"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4506" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an Australian Operation of the reporting party.
+
+Australian operations include Australian branches of a locally incorporated Authorised Deposit-taking Institution (ADI) or the Australian branches of a foreign ADI.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4550" xlink:label="loc_DV4550"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4550" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Director, Director of Related Party or Director's Spouse</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4550" xlink:to="lbl_DV4550"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4550" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a director of the reporting party, a director of any party related to the reporting party, or a spouse of these directors.
+
+Related party is determined in accordance with the relevant accounting standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4602" xlink:label="loc_DV4602"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4602" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">ELE Eligible Subsidiaries APRA Deemed</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4602" xlink:to="lbl_DV4602"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4602" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an APRA-approved Extended Licensed Entity (ELE) eligible Subsidiary of the reporting party.
+
+The Extended Licensed Entity (ELE) is, in relation to the ADI:
+     (a) the ADI; and
+     (b) all subsidiaries of the ADI that have been approved under Prudential Standard APS 110 Capital Adequacy (APS 110) for the purposes of Prudential Standard APS 222 Associates with Related Entities (APS 222) (each made under s11AF of the Banking Act 1959) taken together and treated as if they formed a single entity for the purposes of measuring the ADI's exposures to related entities.
+
+Subject to specific requirements, APRA may deem a subsidiary of an ADI (other than an entity regulated by APRA or by a foreign equivalent) to be part of the ADI itself for the purposes of measuring the ADI's exposures to related entities (refer APS 110 and APS 222).</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4613" xlink:label="loc_DV4613"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4613" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Head Office Overseas Branch And Subsidiaries</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4613" xlink:to="lbl_DV4613"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4613" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is the Head Office, Overseas Branch or Subsidiary of the reporting party.
+
+An Overseas Branch represents an establishment of a company which is not a separate legal entity and which is situated in a country other than the home country of that company. Australia allows branch banks and general insurers and, following commencement of US Free Trade Agreement Act, life insurers. 
+
+Subsidiary is defined in accordance with the definition provided in AASB127 as "an entity that is controlled by another entity (known as the parent)", unless otherwise instructed by APRA.
+
+Control is defined by AASB127 as "the power to govern the financial and operating policies of an entity so as to obtain benefits from its activities".
+
+Parent entity is defined by AASB127 as "an entity that has one or ore subsidiaries".</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4792" xlink:label="loc_DV4792"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4792" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not an Associate, Joint Venture or Parent relationship</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4792" xlink:to="lbl_DV4792"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4792" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a relationship exists that is not classified as a parent entity, associate entity or joint venture relationship.
+
+These relationships are to be determined in accordance with relevant accounting standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4804" xlink:label="loc_DV4804"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4804" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not Parent Controlled</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4804" xlink:to="lbl_DV4804"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4804" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the reported information is a related party of the reporting party, as defined according to accounting standards, but other than the parent; ultimate holding company; or any interposed entity between the parent and the ultimate holding company; or controlled entities of the reporting party.
+
+For branches, the information reported is in relation to entities referred to above plus information in relation to the head office of the entity of which the reporting party is the branch. The reference to controlled entities is a reference to controlled entities of the entity to which this branch belongs.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4847" xlink:label="loc_DV4847"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4847" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Reporting Party</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4847" xlink:to="lbl_DV4847"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4847" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is the reporting party itself (i.e. there is no other counterparty).</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4848" xlink:label="loc_DV4848"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4848" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not Self, Parent, Subsidiary, Associate or Joint Venture</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4848" xlink:to="lbl_DV4848"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4848" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a related party of the reporting party, according to relevant accounting standards, but is not the reporting party itself, its parent, subsidiary, joint venture or associate.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4851" xlink:label="loc_DV4851"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4851" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Parent And Controlled</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4851" xlink:to="lbl_DV4851"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4851" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is the parent; ultimate holding company; or any interposed entity between the parent and the ultimate holding company; or controlled entities of the reporting party.
+
+For branches, the information reported is in relation to entities referred to above plus information in relation to the head office of the entity of which the reporting party is the branch. The reference to controlled entities is a reference to controlled entities of the entity to which this branch belongs.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4916" xlink:label="loc_DV4916"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4916" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Sub Not Level 2 Sub Excluding Pass Through</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4916" xlink:to="lbl_DV4916"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4916" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a relationship exists between the reporting party and the counterparty that is deemed a subsidiary relationship. This only applies where the subsidiary would not be consolidated as part of the Level 2 group in accordance with relevant prudential standards.
+
+For the purposes of this item, do not include all amounts with subsidiary holding companies where they act as a holding company for pass-through of equity exposures and other capital investments in subsidiary ADIs or equivalent overseas deposit-taking institutions. Include amounts in these subsidiary holding companies net of the value of the holding company's investment in any consolidated subsidiary ADI or equivalent overseas deposit-taking institution.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV4990" xlink:label="loc_DV4990"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4990" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Intragroup Not Offshore Operations ADI</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4990" xlink:to="lbl_DV4990"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4990" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an intra-group member with the reporting party (i.e. an intra-group relationship exists), other than members considered offshore operations.
+
+Report only where the counterparty has an intra-group relationship with the reporting party, excluding offshore operations.  
+
+An intra-group relationship exists between a reporting party and its parent entity, controlled entities, associates, joint ventures and other branches under the same parent entity.
+
+An offshore operation includes overseas branches of a locally incorporated ADI or the parent entity for Australian branches of a foreign ADI.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV5054" xlink:label="loc_DV5054"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5054" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Level 2 Australian Subsidiary</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5054" xlink:to="lbl_DV5054"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5054" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a subsidiary of the reporting party. This only applies where the subsidiary would be consolidated as part of a Level 2 group in accordance with relevant prudential standards and the entity is incorporated in Australia.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV5055" xlink:label="loc_DV5055"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5055" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Level 2 International Subsidiary</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5055" xlink:to="lbl_DV5055"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5055" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a subsidiary of the reporting party, but only where the subsidiary would be consolidated as part of a Level 2 group in accordance with relevant prudential standards and the entity is not incorporated in Australia.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV5159" xlink:label="loc_DV5159"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5159" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Related Party as per Prudential Standards</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5159" xlink:to="lbl_DV5159"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5159" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a relationship exists between the reporting party and the counterparty that is deemed a related entity relationship in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV5160" xlink:label="loc_DV5160"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5160" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Subsidiaries Excluding Level 2 Subsidiaries</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5160" xlink:to="lbl_DV5160"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5160" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a relationship exists between the reporting party and the counterparty that is deemed a subsidiary relationship. This only applies where the subsidiary would not be consolidated as part of the Level 2 group in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV5362" xlink:label="loc_DV5362"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5362" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Director of Level 2 General Insurance Group Entity</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5362" xlink:to="lbl_DV5362"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5362" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a director of the reporting party, or a director of any member of the level 2 insurance group, determined in accordance with the relevant prudential standards, of which the reporting party is a member.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV5363" xlink:label="loc_DV5363"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5363" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">GI Controlled Entity</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5363" xlink:to="lbl_DV5363"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5363" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the reported information is an entity over which the reporting party has the power to govern its financial and operational policies to obtain economic benefits for the reporting party. In the case of a reporting party that is a branch operation, this refers only to where the counterparty is controlled by the branch itself, not the entity of which the branch is a part.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV5364" xlink:label="loc_DV5364"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5364" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not Sub Parent</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5364" xlink:to="lbl_DV5364"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5364" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a relationship exists that is not classified as a parent or controlled entity relationship.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV5365" xlink:label="loc_DV5365"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5365" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Related Party AASB Not Self, Parent, Subsidiary, Associate or Joint Venture</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5365" xlink:to="lbl_DV5365"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5365" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a related party of the reporting party according to relevant accounting standards, but is not the reporting party itself, its parent, subsidiary, joint venture or associate.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV5366" xlink:label="loc_DV5366"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5366" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Subsidiary Prudential Consolidated</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5366" xlink:to="lbl_DV5366"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5366" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a relationship exists between the reporting party and the counterparty, and where the counterparty is classified as a controlled entity, or subsidiary, of the reporting party, and where the counterparty is consolidated for prudential reporting purposes.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV5367" xlink:label="loc_DV5367"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5367" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employee</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5367" xlink:to="lbl_DV5367"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5367" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an Employee, Contractor, or Consultant of the reporting party.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV5368" xlink:label="loc_DV5368"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5368" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Entities Related to Directors</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5368" xlink:to="lbl_DV5368"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5368" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is any entity related to a director of the reporting party.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV5369" xlink:label="loc_DV5369"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5369" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Related Party Not Parent, Subsidiary, Director Related Entity, JV or Associate</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5369" xlink:to="lbl_DV5369"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5369" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a related party of the reporting party, according to relevant accounting standards, but is not the parent, a subsidiary, joint venture, associate or an entity related to a director of the reporting party.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV5370" xlink:label="loc_DV5370"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5370" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not Parent</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5370" xlink:to="lbl_DV5370"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5370" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a related party of the reporting party, as defined according to accounting standards, but other than the parent entity.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV5371" xlink:label="loc_DV5371"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5371" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Related Party as per AASB Not Parent or Subsidiary</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5371" xlink:to="lbl_DV5371"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5371" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a related party of the reporting party according to relevant accounting standards, but is not the parent or a subsidiary of the reporting party.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV5499" xlink:label="loc_DV5499"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5499" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not Parent, Subsidiary, Subsidiary of the parent or Associate</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5499" xlink:to="lbl_DV5499"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5499" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a relationship exists that is not classified as a parent entity, controlled entity  (whether directly or indirectly) or associate relationship.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV5501" xlink:label="loc_DV5501"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5501" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Parent Controlled</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5501" xlink:to="lbl_DV5501"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5501" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is any entity controlled (whether directly or indirectly) by the reporting party's parent, excluding the reporting party itself.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV5959" xlink:label="loc_DV5959"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5959" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Related Party</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5959" xlink:to="lbl_DV5959"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5959" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a related party of the reporting party.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV6134" xlink:label="loc_DV6134"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6134" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Parent Or Related Party</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV6134" xlink:to="lbl_DV6134"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6134" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a parent or a related party as per the Australian Accounting Standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV6135" xlink:label="loc_DV6135"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6135" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Parent Or Related Party Not On Commercial Terms</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV6135" xlink:to="lbl_DV6135"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6135" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a parent or a related party which has not been established on a commercial arm's length basis as per the Australian Accounting Standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV6928" xlink:label="loc_DV6928"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6928" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Director Of Associate</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV6928" xlink:to="lbl_DV6928"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6928" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to a director of an associate of the RSE licensee. Includes directors of: the parent entity(s) of the RSE licensee; subsidiaries of the parent entity of the RSE licensee; subsidiaries of the RSE licensee; joint ventures or associates of the RSE licensee; and other associates.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV6929" xlink:label="loc_DV6929"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6929" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Connected Entity</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV6929" xlink:to="lbl_DV6929"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6929" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to an RSE licensee of a registrable superannuation entity, means: 
+(a) a subsidiary of the RSE licensee (where the RSE licensee is a body corporate); and 
+(b) any other entity of a kind prescribed by the regulations.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV6930" xlink:label="loc_DV6930"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6930" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">RSE Licensee</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV6930" xlink:to="lbl_DV6930"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6930" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to a constitutional corporation, body corporate, or group of individual trustees, that holds an RSE licence granted under relevant legislation.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV3818" xlink:label="loc_DV3818"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3818" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employee Consultant Of Trustee</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3818" xlink:to="lbl_DV3818"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3818" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an Employee, Contractor or Consultant of the Trustee of the reporting entity. 
+
+This refers to those entities where the trustee is a corporate trustee or a group of individual trustees. This selection will be applicable where there have been transactions between the entity and any individual employees or contractors or consultants of the corporate Trustee of the reporting superannuation entity.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV6931" xlink:label="loc_DV6931"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6931" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Associate Of Director Associate Approved Trustee</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV6931" xlink:to="lbl_DV6931"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6931" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an associate of a director and an associate of the RSE licensee or approved trustee itself.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV6932" xlink:label="loc_DV6932"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6932" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Associate Of Director Non Associate Of Trustee</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV6932" xlink:to="lbl_DV6932"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6932" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an associate of a director but is not an associate of the RSE licensee or approved trustee itself.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV3819" xlink:label="loc_DV3819"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3819" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Trustee Director Of Approved Trustee</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3819" xlink:to="lbl_DV3819"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3819" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Report only where a Trustee or Director of the RSE licensee or Approved Trustee relationship exists. 
+
+This refers to those entities where the trustee is a corporate trustee or a group of individual trustees. This selection will be applicable where there have been transactions between the entity and individual directors (and / or those directors' spouses) of the corporate Trustee of the reporting superannuation entity.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyRltnshpTyp.02.05.data.xsd#DV7286" xlink:label="loc_DV7286"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7286" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Inter Group Not Offshore Operations Not Authorised Deposit Taking Institutions</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7286" xlink:to="lbl_DV7286"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7286" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an intra-group member with the entity (i.e. an intra-group relationship exists), other than members considered offshore operations. Exclude authorised deposit-taking institutions.</link:label>
+    </link:labelLink>
+</link:linkbase>

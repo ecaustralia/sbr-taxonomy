@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bafot.02.16="http://sbr.gov.au/icls/baf/bafot/bafot.02.16.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dtyp.02.21="http://sbr.gov.au/fdtn/sbr.02.21.dtyp" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/baf/bafot/bafot.02.16.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.21.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.21.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="bafotAbstract" id="bafot.02.16_bafotAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="FinancialRisk.Credit.Collateral.Amount" id="DE13194" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+    <xsd:element name="RegulatoryDisclosures.CostsOther.Amount" id="DE13196" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+    <xsd:element name="RegulatoryDisclosures.CostsOther.Percent" id="DE13197" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="RegulatoryDisclosures.Fees.Percent" id="DE13239" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="RegulatoryDisclosures.FeesAndCosts.Amount" id="DE13237" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+    <xsd:element name="RegulatoryDisclosures.FeesAndCosts.Percent" id="DE13238" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="RegulatoryDisclosures.FeesAndOtherCosts.Amount" id="DE13215" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+    <xsd:element name="RegulatoryDisclosures.FeesDisclosed.Amount" id="DE13203" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+    <xsd:element name="RegulatoryDisclosures.FeesDisclosed.Percent" id="DE13204" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="RegulatoryDisclosures.FeesDisclosedCap.Amount" id="DE13205" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+    <xsd:element name="RegulatoryDisclosures.Gearing.Percent" id="DE13207" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="RegulatoryDisclosures.IndirectCostRatio.Amount" id="DE13235" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+    <xsd:element name="RegulatoryDisclosures.IndirectCostRatio.Percent" id="DE13240" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="RegulatoryDisclosures.IndirectCostRatioPortion.Percent" id="DE13211" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="RegulatoryDisclosures.InsuranceDefaultCover.Amount" id="DE13231" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+    <xsd:element name="RegulatoryDisclosures.InsuranceDefaultCover.Percent" id="DE13232" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="RegulatoryDisclosures.InsuranceDefaultCoverCost.Amount" id="DE13233" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+    <xsd:element name="RegulatoryDisclosures.InvestmentRelatedTaxExpenseBenefit.Amount" id="DE13198" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+    <xsd:element name="RegulatoryDisclosures.InvestmentRelatedTaxExpenseBenefit.Percent" id="DE13199" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="RegulatoryDisclosures.InvestmentRisk.Code" id="DE13225" type="dtyp.02.21:sbrInvestmentRiskCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="RegulatoryDisclosures.LevelInvestmentRisk.Number" id="DE13214" type="xbrli:decimalItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="RegulatoryDisclosures.MovingAverageReturn.Percent" id="DE13217" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="RegulatoryDisclosures.MovingAverageTargetReturn.Percent" id="DE13218" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="RegulatoryDisclosures.NetInvestmentReturn.Percent" id="DE13200" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="RegulatoryDisclosures.NewInvestmentOptionStart.Date" id="DE13236" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="RegulatoryDisclosures.ReturnTarget.Percent" id="DE13212" type="xbrli:pureItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="RegulatoryDisclosures.ReturnTargetStart.Date" id="DE13213" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+</xsd:schema>

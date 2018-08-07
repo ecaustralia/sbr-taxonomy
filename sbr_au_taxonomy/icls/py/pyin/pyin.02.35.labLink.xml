@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="pyin.02.35.data.xsd#pyin.02.35_pyinAbstract" xlink:label="loc_pyin.02.35_pyinAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_pyinAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Party Interaction</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_pyin.02.35_pyinAbstract" xlink:to="lbl_pyinAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.35.data.xsd#DE14521" xlink:label="loc_DE14521"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14521" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interaction Acknowledgement Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14521" xlink:to="lbl_DE14521"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14521" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates if the interaction has been acknowledged as correct.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14521" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = acknowledged interaction as correct.
+false = acknowledged interaction as incorrect.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.35.data.xsd#DE14519" xlink:label="loc_DE14519"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14519" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interaction More Records Available Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14519" xlink:to="lbl_DE14519"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14519" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether there are more records available for collection.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14519" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = more records exist.
+false = no further records exist.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.35.data.xsd#DE14518" xlink:label="loc_DE14518"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14518" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interaction Transaction Count</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14518" xlink:to="lbl_DE14518"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14518" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the number of transactions that have been returned.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.35.data.xsd#DE14520" xlink:label="loc_DE14520"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14520" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interaction Transaction Identifier</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14520" xlink:to="lbl_DE14520"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14520" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a unique identifier to identify a transaction.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.35.data.xsd#DE14565" xlink:label="loc_DE14565"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14565" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Report Field Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14565" xlink:to="lbl_DE14565"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14565" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The code that represents a field within a report.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.35.data.xsd#DE14567" xlink:label="loc_DE14567"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14567" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Report Field Adjustment Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14567" xlink:to="lbl_DE14567"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14567" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The code that represents an adjustment reason field within a report.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.35.data.xsd#DE14568" xlink:label="loc_DE14568"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14568" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Report Field Adjustment Value Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14568" xlink:to="lbl_DE14568"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14568" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The code that represents the value of an adjustment reason field within a report.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.35.data.xsd#DE14564" xlink:label="loc_DE14564"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14564" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Report Field Context Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14564" xlink:to="lbl_DE14564"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14564" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The code that represents the context of a field within a report.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.35.data.xsd#DE14570" xlink:label="loc_DE14570"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14570" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Report Field Occurrence Number</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14570" xlink:to="lbl_DE14570"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14570" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The value that identifies a unique occurrence of a field in a report.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.35.data.xsd#DE14569" xlink:label="loc_DE14569"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14569" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Report Field Processed Datetime</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14569" xlink:to="lbl_DE14569"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14569" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The date and time that a report field was processed.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.35.data.xsd#DE14566" xlink:label="loc_DE14566"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14566" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Report Field Value Text</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14566" xlink:to="lbl_DE14566"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14566" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The value of a field within a report.</link:label>
+    </link:labelLink>
+</link:linkbase>

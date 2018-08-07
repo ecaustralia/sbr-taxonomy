@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="lrla.02.05.data.xsd#lrla.02.05_lrlaAbstract" xlink:label="loc_lrla.02.05_lrlaAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_lrlaAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Labour Arrangements</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_lrla.02.05_lrlaAbstract" xlink:to="lbl_lrlaAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="lrla.02.05.data.xsd#DE3302" xlink:label="loc_DE3302"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3302" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employer Conditions Employee Share Scheme Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3302" xlink:to="lbl_DE3302"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3302" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Indicator to determine if the entity had an employee share scheme in place at any time during the year.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3302" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Inform the relevant field with the appropriate symbol if the company had an employee share scheme in place at any time during the income year.</link:label>
+        <link:loc xlink:type="locator" xlink:href="lrla.02.05.data.xsd#DE3502" xlink:label="loc_DE3502"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3502" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Action Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3502" xlink:to="lbl_DE3502"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3502" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The code to describe the expense component where salary and wage expenses have been wholly or predominantly reported.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3502" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Inform the relevant field with one of the following salary and wage expenses codes:  
+C - Cost of sales                                                      
+A - All other expenses                                                 
+B - Cost of sales and All other expenses
+O - Other than Cost of sales and/or All other expenses
+or leave this field blank.</link:label>
+        <link:loc xlink:type="locator" xlink:href="lrla.02.05.data.xsd#DE3465" xlink:label="loc_DE3465"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3465" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Contractor and Consultant Payments Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3465" xlink:to="lbl_DE3465"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3465" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Payments made to certain workers (often called contractors or subcontractors under a contract of services arrangement) will be liable for payroll tax if they are engaged under a contract of service (i.e. have a common law relationship of employer/employee). If the worker is a specific individual, is essentially only providing the labour (and in the case of a tradesperson the tools of trade), and is being paid an hourly or piecemeal rate, then it will generally be considered that they are engaged under a contract of service, even if the payment for the work performed is being made to the worker's company, partnership or family trust.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3465" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Inform the relevant field with the expenditure incurred for labour and services provided under contract other than those in the nature of salaries and wages. For example:
+- payments to self-employed people such as consultants and contractors including payments subject to a PAYG voluntary agreement to withhold and payments made under a labour hire arrangement
+- commissions paid to people not receiving a retainer
+- agency fees (such as advertising)
+- service fees (such as plant service)
+- management fees
+- consultant fees.
+
+Do not include the following at the Contractor, sub-contractor &amp; commission expenses label:
+- expenses for external labour that are incorporated into
+the amount written at Cost of sales
+- expenses for accounting or legal services included at all other expenses.</link:label>
+        <link:loc xlink:type="locator" xlink:href="lrla.02.05.data.xsd#DE3343" xlink:label="loc_DE3343"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3343" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Salary Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3343" xlink:to="lbl_DE3343"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3343" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Expenditure amount claimable under Subsection 73B(14C) incurred on foreign owned R&amp;D, under a contract with a Registered Research Agency (RRA), wholly or primarily on behalf of a grouped foreign company.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3343" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Inform the relevant field with the portion of expenditure claimable at claimable at Foreign owned R&amp;D Exp.
+
+Contracted Expenditure Registered Research Agency. Amount claimable under Subsection 73B(14C)</link:label>
+        <link:loc xlink:type="locator" xlink:href="lrla.02.05.data.xsd#DE3501" xlink:label="loc_DE3501"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3501" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remuneration Wages And Salaries Total Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3501" xlink:to="lbl_DE3501"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3501" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount of total salary, wage and other labour costs incurred, including directors? remuneration, as per payment summaries.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3501" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Inform the relevant field with the amount of total salary and wage expenses.
+These expenses include any salary and wage component of  Cost of sales  -  that is, allowances, bonuses, casual labour, retainers and commissions paid to people who received a retainer, and workers compensation paid through the payroll.
+Also included are direct and indirect labour costs, directors? fees, holiday pay, locums, long service leave, lump sum payments, other employee benefits, overtime, payments under an incentive or profit sharing scheme, retiring allowances and sick pay. Any salary and wage paid by a private company to a current or former shareholder or director of the company, or to an associate of such a person, is included here and at Payments to associated persons.
+However, do not include agency fees, contract payments, sub-contract payments, service fees, superannuation, reimbursements or allowances for travel, management fees, consultant fees, and wages or salaries reimbursed under a government program.</link:label>
+    </link:labelLink>
+</link:linkbase>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:UndrlyngInvstmntNmOrABN.02.00="http://sbr.gov.au/dims/UndrlyngInvstmntNmOrABN.02.00.dims" xmlns:dtyp.02.21="http://sbr.gov.au/fdtn/sbr.02.21.dtyp" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://sbr.gov.au/dims/UndrlyngInvstmntNmOrABN.02.00.dims">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:href="UndrlyngInvstmntNmOrABN.02.00.labLink.xml"/>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.21.dtyp" schemaLocation="../fdtn/dtyp.sbr.02.21.xsd"/>
+	<xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+	<xsd:complexType name="UnderlyingInvestmentNameOrABNContainerType">
+		<xsd:choice>
+			<xsd:sequence>
+				<xsd:choice minOccurs="0" maxOccurs="1">
+					<xsd:element ref="UndrlyngInvstmntNmOrABN.02.00:UnderlyingInvestmentABN"/>
+				</xsd:choice>
+				<xsd:choice minOccurs="1" maxOccurs="1">
+					<xsd:element ref="UndrlyngInvstmntNmOrABN.02.00:UnderlyingInvestmentName"/>
+				</xsd:choice>					
+			</xsd:sequence>
+		</xsd:choice>
+	</xsd:complexType>
+	<xsd:element name="UnderlyingInvestmentNameOrABNContainer" id="DV7157" type="UndrlyngInvstmntNmOrABN.02.00:UnderlyingInvestmentNameOrABNContainerType"/>
+	<xsd:element name="UnderlyingInvestmentName" id="DV7158" type="xsd:string"/>
+	<xsd:element name="UnderlyingInvestmentABN" id="DV7159" type="xsd:nonNegativeInteger"/>
+	<xsd:element name="UnderlyingInvestmentNameOrABNDimension" id="DM677" xbrldt:typedDomainRef="#DV7157" nillable="true" substitutionGroup="xbrldt:dimensionItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+</xsd:schema>

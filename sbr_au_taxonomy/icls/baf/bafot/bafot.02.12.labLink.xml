@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#bafot.02.12_bafotAbstract" xlink:label="loc_bafot.02.12_bafotAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_bafotAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Other Accounting And Financial Disclosures</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_bafot.02.12_bafotAbstract" xlink:to="lbl_bafotAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE13052" xlink:label="loc_DE13052"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13052" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Adjustment And Exclusion Status Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13052" xlink:to="lbl_DE13052"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13052" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Is the adjustment and exclusion approved by the Australian Prudential Regulation Authority for transitional purposes?</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13052" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+
+true = The adjustment and exclusion approved by the Australian Prudential Regulation Authority is transitional.
+
+false = The adjustment and exclusion approved by the Australian Prudential Regulation Authority is not transitional.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12828" xlink:label="loc_DE12828"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12828" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Adjustment Status Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12828" xlink:to="lbl_DE12828"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12828" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the adjustment is approved by the Australian Prudential Regulation Authority for transitional purposes.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12828" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+
+true = The adjustment approved by the Australian Prudential Regulation Authority is transitional.
+
+false = The adjustment approved by the Australian Prudential Regulation Authority is not transitional.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12829" xlink:label="loc_DE12829"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12829" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Aggregation Benefit Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12829" xlink:to="lbl_DE12829"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12829" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the aggregation benefit which relates to the recognition of diversification benefits between asset risk and the sum of insurance risk and insurance concentration risk in the calculation of the prescribed capital amount. This item must be calculated in accordance with the prescribed formula in the relevant prudential standard.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12830" xlink:label="loc_DE12830"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12830" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Aggregation Benefit Life Business Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12830" xlink:to="lbl_DE12830"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12830" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of aggregation benefit which relates to the recognition of diversification benefits between asset and insurance risks for life business other than variable annuities. This item must be calculated in accordance with the prescribed formula in the relevant prudential standard.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12831" xlink:label="loc_DE12831"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12831" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk APRA Approved Adjustments To LMICRC Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12831" xlink:to="lbl_DE12831"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12831" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of adjustments to the loan mortgage insurance concentration risk charge (LMICRC) as approved by APRA and in accordance to the relevant prudential standards</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12833" xlink:label="loc_DE12833"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12833" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Adjustment Capital Shortfall Lower Category Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12833" xlink:to="lbl_DE12833"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12833" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of adjustment to capital due to a shortfall in a lower category of capital.  This item is calculated for capital adequacy purposes and is to be determined in accordance with relevant Prudential Standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12834" xlink:label="loc_DE12834"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12834" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Adjustment Investments Related Parties Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12834" xlink:to="lbl_DE12834"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12834" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of deductions for investments in related parties that are subject to regulatory capital requirements in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12835" xlink:label="loc_DE12835"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12835" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Adjustments APRA Approved Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12835" xlink:to="lbl_DE12835"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12835" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of adjustments to capital as approved by the Australian Prudential Regulation Authority.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE13019" xlink:label="loc_DE13019"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13019" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Aggregated Risk Charge Components Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13019" xlink:to="lbl_DE13019"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13019" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the aggregate of the risk charge components resulting from the application of the asset risk stress scenarios, allowing for the likelihood of the scenarios occurring simultaneously. This item is to be determined in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE13020" xlink:label="loc_DE13020"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13020" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Aggregated Risk Charge Diversification Impact Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13020" xlink:to="lbl_DE13020"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13020" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date of the impact of diversification, calculated as the difference between the sum of the individual risk charge components used in calculating the aggregated risk charge component less the aggregated risk charge component. This item is to be determined in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12836" xlink:label="loc_DE12836"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12836" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Capital Base Deductions Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12836" xlink:to="lbl_DE12836"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12836" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of assets already deducted from capital base. This item is calculated for capital adequacy purposes and is determined in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12837" xlink:label="loc_DE12837"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12837" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Capital Instruments Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12837" xlink:to="lbl_DE12837"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12837" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of capital instruments issued by the reporting entity. This item is calculated for capital adequacy purposes and is to be determined in accordance with relevant Prudential Standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12838" xlink:label="loc_DE12838"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12838" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Capital Instruments Transitional Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12838" xlink:to="lbl_DE12838"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12838" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of capital instruments issued by the reporting entity, that have been temporarily recognised and approved to a capital category for transitional purposes. This item is calculated for capital adequacy purposes and is to be determined in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12839" xlink:label="loc_DE12839"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12839" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Capital Investments Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12839" xlink:to="lbl_DE12839"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12839" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the reporting entity's direct, indirect and synthetic holdings of Capital instruments of other Authorised Deposit-taking institutions, or overseas equivalents and their subsidiaries, insurance companies and other financial institutions. For the purposes of this item, exclude:
+(a) exposures acquired through underwriting of a new capital instrument and the exposure is disposed of within five days of the date of issue. If the exposure is not disposed of within five days of issuance, it must be reported; or
+(b) exposures that are held under a legal agreement on behalf of:
+* at Level 1 - an external third party, even if held in the name of the reporting entity; or
+* at Level 2 - a party outside the Level 2 consolidated group, even if held in the name of the reporting entity (or another member of its Level 2 consolidated group).
+This item is calculated for capital adequacy purposes and is to be determined in accordance with relevant Prudential Standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12840" xlink:label="loc_DE12840"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12840" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Covered Bonds Assets Cover Pool Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12840" xlink:to="lbl_DE12840"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12840" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the assets in cover pools that do not qualify for treatment of assets of the Authorised Deposit-taking Institution in accordance with the Banking Act.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12841" xlink:label="loc_DE12841"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12841" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Diversification Factor Number</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12841" xlink:to="lbl_DE12841"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12841" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the diversification factor that has been estimated between asset and insurance risks. This item is calculated for capital requirement (including hedging) and is to be determined in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12842" xlink:label="loc_DE12842"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12842" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Effectiveness Factor Number</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12842" xlink:to="lbl_DE12842"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12842" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the effectiveness factor used to reflect the level of sophistication of the assumed model of dynamic hedging. This is calculated for capital requirements and is to be determined in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12843" xlink:label="loc_DE12843"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12843" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Equity Exposures And Capital Support Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12843" xlink:to="lbl_DE12843"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12843" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of direct, indirect and synthetic equity exposures, guarantees and other capital support held by the reporting entity. For the purposes of this item, exclude equity exposures where:
+(a) the equity exposure is acquired through underwriting of a new equity instrument and the equity instrument is disposed of within five days of the date of issue. If the equity instrument is not disposed of within five days of issuance, it must be reported; or
+(b) the equity exposure is held under a legal agreement on behalf of:
+* at Level 1 - an external third party, even if held in the name of the reporting entity; or
+* at Level 2 - a party outside the Level 2 consolidated group, even if held in the name of the reporting entity (or another member of its Level 2 consolidated group).
+This item is calculated for capital adequacy purposes and is to be determined in accordance with relevant Prudential Standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12844" xlink:label="loc_DE12844"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12844" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Fair Value Gains Net Effective Cash Flow Hedges Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12844" xlink:to="lbl_DE12844"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12844" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the cash flow hedge reserve that relates to the hedging of items that are not recorded at fair value on the accounting balance sheet (including projected cash flows).</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12845" xlink:label="loc_DE12845"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12845" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Guarantees And Credit Derivatives That Provide Materiality Threshold Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12845" xlink:to="lbl_DE12845"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12845" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of guarantees and credit derivatives that provide for a materiality threshold below which no payment will be made in the event of a loss. This item is calculated for capital adequacy purposes and is to be determined in accordance with relevant Prudential Standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12846" xlink:label="loc_DE12846"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12846" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Holdings Of Own Capital Instruments Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12846" xlink:to="lbl_DE12846"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12846" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the reporting entity's holdings of its own capital instruments, unless exempted by APRA. Include any unused trading limit on these instruments where agreed with APRA.
+
+This item is calculated for capital adequacy purposes and is to be determined in accordance with relevant Prudential Standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12847" xlink:label="loc_DE12847"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12847" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Liability Adjustments Including Tax Effects Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12847" xlink:to="lbl_DE12847"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12847" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of liability adjustments. The liability adjustment reflects the difference between the adjusted policy liabilities and the net policy liabilities and policy owners' retained profits for the purpose of determining the capital base under the relevant prudential standards. For the purposes of this item, include all tax effects arising from the liability adjustment.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12848" xlink:label="loc_DE12848"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12848" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Net Assets Adjustments APRA Approved Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12848" xlink:to="lbl_DE12848"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12848" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of adjustments to capital, as approved by the Australian Prudential Regulation Authority.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12849" xlink:label="loc_DE12849"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12849" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Net Assets Adjustments Regulatory Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12849" xlink:to="lbl_DE12849"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12849" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of adjustments to capital, as required by relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12850" xlink:label="loc_DE12850"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12850" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Non Repayable Loans APRA Certified Industry Support Arrangements Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12850" xlink:to="lbl_DE12850"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12850" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of non-repayable loans advanced by the reporting entity under APRA's certified industry support arrangements.
+
+This item is calculated for capital adequacy purposes and is to be determined in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12851" xlink:label="loc_DE12851"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12851" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Policy Liabilities Adjusted Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12851" xlink:to="lbl_DE12851"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12851" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of adjusted policy liabilities. This item is determined for capital base purposes in accordance with the relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12852" xlink:label="loc_DE12852"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12852" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Policy Liabilities Adjusted Discretionary Component Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12852" xlink:to="lbl_DE12852"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12852" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the discretionary component of adjusted policy liabilities. This item is determined for capital base purposes in accordance with the relevant prudential and reporting standards. The discretionary component relates to the component of the policy liabilities whose valuation is subject to certain discretionary decisions made by the reporting entity.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12853" xlink:label="loc_DE12853"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12853" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Probable Maximum Loss Adjusted Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12853" xlink:to="lbl_DE12853"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12853" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of adjusted Probable Maximum Loss (PML). This item is to be determined in accordance with the relevant prudential standards. Probable Maximum Loss (PML) is the largest gross loss to which an insurer will be exposed (taking into account the probability of that loss) due to a concentration of risk exposures, without any allowance for potential reinsurance recoveries.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12854" xlink:label="loc_DE12854"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12854" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Securitisation Related Adjustments Other Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12854" xlink:to="lbl_DE12854"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12854" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a balancing item in the list in which it is being used. This is the value, as at the relevant date, of adjustments to all other applicable securitisation related amounts. This item is calculated for capital adequacy purposes and is to be determined in accordance with relevant Prudential Standards. A securitisation represents a structure where the cash flow from a pool is used to service obligations to at least two different tranches or classes of creditors (typically holders of debt securities), with each class or tranche reflecting a different degree of credit risk (i.e. one class of creditors is entitled to receive payments from the pool before another class of creditors).</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE7842" xlink:label="loc_DE7842"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE7842" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Securitisation Start Up And Establishment Costs Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE7842" xlink:to="lbl_DE7842"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE7842" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of capitalised securitisation start-up costs. The balance of any transaction costs and like items that are capitalised and deferred as an asset must be netted off against the balance of any income deferred as a liability relating to the products giving rise to the capitalised transaction costs (i.e. only deferred costs and income in particular product portfolios may be netted). Any positive net balance of capitalised transaction costs must be reported as a positive figure. Any surplus of up-front fee income received over deferred costs may be reported as a negative figure provided the up-front fee income received satisfies the criteria set under the relevant Prudential Standard. Otherwise, report this item as zero. This item is calculated for capital adequacy purposes and is to be determined in accordance with relevant Prudential Standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12855" xlink:label="loc_DE12855"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12855" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Undercapitalisation Non Consolidated Subsidiaries Adjustment Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12855" xlink:to="lbl_DE12855"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12855" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of adjustments to cover undercapitalisation of a non-consolidated subsidiary (or subsidiaries) as required by the Australian Prudential Regulation Authority in accordance with the relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE7679" xlink:label="loc_DE7679"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE7679" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Unrealised Fair Value Gains Net Effective Cash Flow Hedges Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE7679" xlink:to="lbl_DE7679"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE7679" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the cash flow hedge reserve that relates to the hedging of items that are not recorded at fair value on the accounting balance sheet (including projected cash flows). This item is reported for capital adequacy purposes and is to be determined in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12856" xlink:label="loc_DE12856"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12856" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Variable Annuities Excluding Hedging Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12856" xlink:to="lbl_DE12856"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12856" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the estimate of capital requirement, for variable annuities business, covering the associated insurance and asset risks under the combined scenario. The item excludes any hedging/risk mitigation arrangements, as determined in accordance with relevant prudential standards. Variable annuity means a policy with benefits calculated by reference to the value of the units allocated to the policy, but the benefits may exceed the value of those units in specified circumstances.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12857" xlink:label="loc_DE12857"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12857" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Capital Adequacy Variable Annuities Including Hedging Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12857" xlink:to="lbl_DE12857"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12857" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the estimate of capital requirement, for variable annuities business, covering the associated insurance and asset risks under the combined scenario. This includes the effects of hedging/risk mitigation arrangements, as determined in accordance with relevant prudential standards. Variable annuity means a policy with benefits calculated by reference to the value of the units allocated to the policy, but the benefits may exceed the value of those units in specified circumstances.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE13050" xlink:label="loc_DE13050"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13050" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Catastrophe Reinsurance End Date</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13050" xlink:to="lbl_DE13050"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13050" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the end date of the catastrophe reinsurance program.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE13051" xlink:label="loc_DE13051"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13051" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Catastrophe Reinsurance Start Date</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13051" xlink:to="lbl_DE13051"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13051" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the commencement date of the catastrophe reinsurance program.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12832" xlink:label="loc_DE12832"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12832" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Charge Adjustment Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12832" xlink:to="lbl_DE12832"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12832" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date of adjustments for the risk charge, as approved by the Australian Prudential Regulation Authority.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12468" xlink:label="loc_DE12468"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12468" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Credit Cash Collateral Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12468" xlink:to="lbl_DE12468"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12468" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of regulatory capital for credit risk that are associated with cash collateral provided by the reporting entity to collateralise its obligations under liquidity and other facilities, in accordance with the relevant prudential standards. 
+
+For the purposes of calculating risk-weighted assets, cash collateral amounts (where not treated as a drawn facility), together with the undrawn portion of the relevant facility (or credit equivalent amount), may be treated as overlapping securitisation exposures under the relevant prudential standard. 
+
+Cash collateral can be lodged for securitisation and resecuritisation exposures.
+
+Securitisation exposures are on-balance sheet and off-balance sheet risk positions held by a reporting entity arising from a securitisation including, but not limited to:
+
+(i) investments by the reporting entity in securities issued by a special purpose vehicle (SPV), including retention of a subordinated tranche of securities issued by an SPV;
+
+(ii) other credit enhancements, such as guarantees provided by the reporting entity;
+
+(iii) drawn and undrawn funding, underwriting, liquidity and other facilities provided by the reporting entity to a securitisation; and
+
+(iv) exposures arising from swaps and other derivative transactions with an SPV.
+
+A resecuritisation exposure is a securitisation exposure in which the risk associated with an underlying pool of exposures is tranched and at least one of the underlying exposures is a securitisation exposure. In addition, an exposure to one or more resecuritisation exposures is a resecuritisation exposure.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE13021" xlink:label="loc_DE13021"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13021" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Credit Central Counterparty Trade Exposure Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13021" xlink:to="lbl_DE13021"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13021" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, for the trade exposures for exchange traded and centrally cleared OTC derivatives. This item is calculated in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12859" xlink:label="loc_DE12859"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12859" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Credit Claims On Guaranteed By Secured Against Governments Central Banks Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12859" xlink:to="lbl_DE12859"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12859" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of claims on, or claims to the extent that they are guaranteed by or secured against securities issued by:
+- State or Territory Governments in Australia, including State and Territory central borrowing authorities; or
+- Overseas central, state and regional governments.
+
+This item also includes all foreign currency claims on the Australian Commonwealth Government.
+
+Also includes claims on central banks (including the Reserve Bank of Australia) other than Australian dollar balances with the Reserve Bank of Australia.
+
+State and Territory central borrowing authorities in Australia include the following corporations established by State and Territory governments to provide finance for government authorities and to manage their surplus funds: 
+(a) New South Wales Treasury Corporation (NSW TCorp); 
+(b) Treasury Corporation of Victoria (TCV); 
+(c) Queensland Treasury Corporation (QTC); 
+(d) South Australian Government Financing Authority (SAFA); 
+(e) Western Australian Treasury Corporation (WATC); 
+(f) Tasmanian Public Finance Corporation (Tas Corp); 
+(g) Northern Territory Treasury Corporation (NT TCorp); and 
+(h) ACT Treasury.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE13054" xlink:label="loc_DE13054"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13054" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Credit Counterparty Rating After Collateral Guarantee Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13054" xlink:to="lbl_DE13054"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13054" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the rating grade, as at the relevant date, of the collateralised or guaranteed counterparty exposure, set according to the long-term and short-term credit rating grades of the counterparty as determined by various rating agencies.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13054" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">For long-term ratings the valid enumerated values are:
+
+Grade1 = Standard &amp; Poor's AAA; Moody's Aaa; AM Best Debt aaa; AM Best FSR A++; Fitch AAA;
+
+Grade2 = Standard &amp; Poor's AA+, AA, AA-; Moody's Aa1, Aa2, Aa3; AM Best Debt aa+, aa, aa-; AM Best FSR A+; Fitch AA+, AA, AA-;
+
+Grade3 = Standard &amp; Poor's A+, A, A-; Moody's A1, A2, A3; AM Best Debt a+, a, a-; AM Best FSR A, A-; Fitch A+, A, A-;
+
+Grade4 = Standard &amp; Poor's BBB+, BBB, BBB-; Moody's Baa1, Baa2, Baa3; AM Best Debt bbb+, bbb, bbb-; AM Best FSR B++, B+; Fitch BBB+, BBB, BBB-;
+
+Grade5 = Standard &amp; Poor's BB+, BB, BB- ; Moody's Ba1, Ba2, Ba3; AM Best Debt bb+, bb, bb-; AM Best FSR B, B-; Fitch BB+, BB, BB-;
+
+Grade6 = Standard &amp; Poor's B+, B, B- ; Moody's B1, B2, B3; AM Best Debt b+, b, b-; AM Best FSR C++, C+, C, C-; Fitch B+, B, B-;
+
+Grade7 = Standard &amp; Poor's Below B-; Moody's Below B3; AM Best Debt Below b-; AM Best FSR Below C-; Fitch CCC or Below;
+
+For short-term ratings the valid enumerated values are:
+
+Grade1 = Standard &amp; Poor's A+, AM Best AMB-1+; Fitch F1+;
+
+Grade2 = Standard &amp; Poor's A1; Moody's P1; AM Best AMB-1; Fitch F1;
+
+Grade3 = Standard &amp; Poor's A2; Moody's P2; AM Best AMB-2; Fitch F2;
+
+Grade4 = Standard &amp; Poor's A3; Moody's P3; AM Best AMB-3; Fitch F3;
+
+Grade6 = Standard &amp; Poor's B; Moody's NP Vulnerable; AM Best AMB-4; Fitch B;
+
+Grade7 = Standard &amp; Poor's C; Moody's NP Currently Vulnerable; Fitch C;</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE13023" xlink:label="loc_DE13023"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13023" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Credit Credit Value Adjustment Calculating Approach Risk Charge Text</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13023" xlink:to="lbl_DE13023"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13023" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The reporting entity must identify the calculation approach used in determining the credit value adjustment (CVA) risk capital charge.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE13022" xlink:label="loc_DE13022"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13022" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Credit Credit Value Adjustment Capital Charge Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13022" xlink:to="lbl_DE13022"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13022" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, for the capital charge applied to the credit value adjustment (CVA) risk. This is the difference between the risk-free portfolio value and the true portfolio value that takes into account the possibility of a counterparty's default. It is calculated in accordance with the relevant prudential standard.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12860" xlink:label="loc_DE12860"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12860" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Credit Direct Credit Substitutes Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12860" xlink:to="lbl_DE12860"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12860" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of direct credit substitutes.
+     
+A direct credit substitute is any irrevocable off-balance sheet obligation that carries the same credit risk as a direct extension of credit, such as an undertaking to make a payment to a third party in the event that a counterparty fails to meet a financial obligation, or an undertaking to a counterparty to acquire a potential claim on another party in the event of default by that party (i.e. the risk of loss depends on the creditworthiness of the counterparty or the party on which a potential claim is acquired).</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE7979" xlink:label="loc_DE7979"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE7979" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Credit Exposures APRA Other Adjustments Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE7979" xlink:to="lbl_DE7979"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE7979" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of any other adjustments to credit exposures, as required by APRA.
+
+A credit exposure represents an asset, liability, claim or commitment of an entity, which may be recorded on or off the balance sheet and which gives rise to credit risk.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE8474" xlink:label="loc_DE8474"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE8474" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Credit Loans And Advances Security Held Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8474" xlink:to="lbl_DE8474"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE8474" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the total value, as at the relevant date, of any security held in relation to loans and advances receivable by the reporting party determined in accordance with the relevant accounting standards.
+
+Loans and advances are those financial assets categorised as "Loans and receivables" in the accounting standards other than "Trade receivables" and "Cash".</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE7909" xlink:label="loc_DE7909"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE7909" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Credit Sold Credit Derivatives Excluding Direct Credit Substitutes Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE7909" xlink:to="lbl_DE7909"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE7909" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of credit derivatives used for acquiring credit risk exposures other than those classified as direct credit substitutes.
+
+This item is reported for capital adequacy purposes and is to be determined in accordance with relevant prudential standards.
+
+A sold credit derivative is a credit derivative that has been sold, or written, by an entity. A credit derivative enables the user to transfer the credit risk of an underlying asset from one party, the protection buyer, to another, the protection seller, in isolation from other risks.
+
+A direct credit substitute is an irrevocable off-balance sheet obligation that carries the same credit risk as a direct extension of credit, such as an undertaking to make a payment to a third party in the event that a counterparty fails to meet a financial obligation.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12861" xlink:label="loc_DE12861"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12861" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Credit Unsettled Delivery Versus Payment Transactions Risk Weight Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12861" xlink:to="lbl_DE12861"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12861" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, for the risk weight of delivery-versus-payment (DvP) transactions that remain unsettled after their due delivery dates. The treatment of the exposure is in accordance to the relevant prudential standards.
+
+Exclude repurchase and reverse-repurchase agreements as well as securities lending and borrowing.
+
+Delivery-versus-payment transactions are those transactions of securities using a settlement mechanism which links the securities transfer and the funds transfer in such a way as to ensure that delivery occurs if, and only if, the corresponding payment occurs.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12862" xlink:label="loc_DE12862"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12862" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Credit Unsettled Non Delivery Versus Payment Transactions Percent</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12862" xlink:to="lbl_DE12862"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12862" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the risk weight percent for non-delivery-versus-payment (non-DvP) transactions that remain unsettled after their due delivery dates. Delivery-versus-payment transactions are those transactions of securities using a settlement mechanism which links the securities transfer and the funds transfer in such a way as to ensure that delivery occurs if, and only if, the corresponding payment occurs. This item is to be determined in accordance with the relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12863" xlink:label="loc_DE12863"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12863" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Cumulative Exposures Adjustment Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12863" xlink:to="lbl_DE12863"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12863" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date of adjustment for cumulative exposures, as determined in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12864" xlink:label="loc_DE12864"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12864" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Deductions For Net Premiums Liability Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12864" xlink:to="lbl_DE12864"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12864" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of deductions to the Probable Maximum Loss (PML) for the net premium liability that relates to an economic downturn. This is to be determined in accordance to the relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE13053" xlink:label="loc_DE13053"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13053" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Determination Basis Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13053" xlink:to="lbl_DE13053"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13053" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The basis used for determination as at the relevant date.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13053" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Gross = The basis used to calculate the reported information was gross of reinsurance recoveries. 
+Net = The basis used to calculate the reported information was net of reinsurance recoveries.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12865" xlink:label="loc_DE12865"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12865" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Dividend Yield Percent</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12865" xlink:to="lbl_DE12865"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12865" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the dividend yield of the S&amp;P /ASX 200 index, used in determining the reduction in equity asset values under the equity stress scenario. This item is to be determined in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12866" xlink:label="loc_DE12866"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12866" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Earnings Yield Percent</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12866" xlink:to="lbl_DE12866"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12866" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the average earnings yield before taxes, used in determining the reduction in infrastructure asset values under the property stress scenario. This item is to be determined in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12867" xlink:label="loc_DE12867"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12867" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Eligible Credit Support Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12867" xlink:to="lbl_DE12867"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12867" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the reporting entity has applied the eligible credit support to calculate the asset concentration risk charge, where the exposure is covered by an eligible collateral, guarantee, or letter of credit.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12867" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values. 
+
+true = The reporting entity has applied the eligible credit support. 
+
+false = The reporting entity has not applied the eligible credit support.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12868" xlink:label="loc_DE12868"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12868" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Exposures On Balance Sheet Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12868" xlink:to="lbl_DE12868"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12868" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of on-balance sheet exposures.
+On-balance sheet refers to those assets, or exposure items, which are recognised or recorded on the statement of financial position of the reporting entity, as determined in accordance with relevant accounting standards.
+The value of this item is to be determined in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12871" xlink:label="loc_DE12871"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12871" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Management Capital Prefunded Default Fund Contribution Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12871" xlink:to="lbl_DE12871"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12871" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, for prefunded default fund contribution with this central counterparty (CCP). This equates to the money contributed by the clearing member that will be applied upon such clearing member's default, either along with or immediately following such member's initial margin, to reduce the CCP loss.
+
+A central counterparty is defined as a clearing house that interposes itself between counterparties to contracts traded in one or more financial markets, becoming the buyer to every seller and the seller to every buyer. A CCP becomes counterparty to trades with market participants through novation, an open offer system, or another legally binding arrangement. For the purposes of the capital framework, a CCP is a financial institution.
+
+It is calculated in accordance with the relevant prudential standard.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE5661" xlink:label="loc_DE5661"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE5661" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Management Capital Prescribed Minimum Capital Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5661" xlink:to="lbl_DE5661"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE5661" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the prescribed capital amount of the reporting party, as determined in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE13058" xlink:label="loc_DE13058"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13058" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Management Capital Unfunded Default Fund Contribution Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13058" xlink:to="lbl_DE13058"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13058" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, for unfunded default fund contribution with this central counterparty. This equates to the clearing member's proportionate liability for default fund calls (i.e. unfunded default fund commitment). It is calculated in accordance with the relevant prudential standard.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE8021" xlink:label="loc_DE8021"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE8021" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Market Interest Rate Long Positions Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8021" xlink:to="lbl_DE8021"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE8021" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, that relates to long positions giving rise to interest rate risk, as determined in accordance with relevant prudential standards. This item includes long positions in: 
+- debt securities, including non-convertible preference shares and other quasi-debt securities/instruments that behave like debt (convertible bonds are to be included as debt securities if they trade like debt securities, but not if they trade like equities);
+- forward transactions in foreign exchange, equities and commodities; and
+- options that are subject to a change in value following a change in interest rates.
+
+Long positions represent positions where a rise in the value of the asset or derivative would result in a profit.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE8020" xlink:label="loc_DE8020"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE8020" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Market Interest Rate Short Positions Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8020" xlink:to="lbl_DE8020"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE8020" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, that relates to short positions giving rise to interest rate risk, calculated in accordance to the relevant prudential standards. This item includes short positions in:
+- debt securities, including non-convertible preference shares and other quasi-debt securities/instruments that behave like debt (convertible bonds are to be included as debt securities if they trade like debt securities, but not if they trade like equities);
+- forward transactions in foreign exchange, equities and commodities; and
+- options that are subject to a change in value following a change in interest rates.
+
+Short positions represent positions where a fall in the value of the asset or derivative would result in a profit.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE8138" xlink:label="loc_DE8138"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE8138" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Market IRRBB Capital Requirement Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8138" xlink:to="lbl_DE8138"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE8138" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the reporting party's interest rate risk in the banking book (IRRBB) capital requirement, as determined in accordance with relevant prudential standards. For the purposes of this item a floor of zero is applied.
+
+IRRBB capital requirement represents the regulatory capital that an entity is required to hold against its exposure to IRRBB in accordance with Prudential Standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12872" xlink:label="loc_DE12872"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12872" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Natural Perils Adjustments Other Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12872" xlink:to="lbl_DE12872"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12872" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of adjustments which include potential reinsurance recoverables from aggregate reinsurance cover. Aggregate reinsurance cover is eligible to be considered for inclusion once the aggregate reinsurance cover has reached its attachment point, or will as a result of the occurrence of natural perils probable maximum loss, or net whole-of-portfolio loss, as appropriate.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12873" xlink:label="loc_DE12873"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12873" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Natural Perils Aggregate Offset Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12873" xlink:to="lbl_DE12873"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12873" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of aggregate offset as per agreed methodology with APRA. This represents the amount of potential reinsurance recoverables from aggregate reinsurance cover, as per contractual agreements with the reinsurer(s).</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE8821" xlink:label="loc_DE8821"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE8821" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Off Balance Sheet Exposures Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8821" xlink:to="lbl_DE8821"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE8821" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of off-balance sheet exposures. Off-balance sheet exposures are those that have not been recorded on the balance sheet of the reporting entity.
+
+The value of this item is to be determined in accordance with relevant Prudential Standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12877" xlink:label="loc_DE12877"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12877" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Outstanding Claims Capital Factor Percent</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12877" xlink:to="lbl_DE12877"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12877" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the outstanding claims risk capital factor determined in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12879" xlink:label="loc_DE12879"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12879" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Premiums Liability Capital Factor Percent</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12879" xlink:to="lbl_DE12879"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12879" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the premiums liability risk capital factor determined in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12880" xlink:label="loc_DE12880"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12880" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Premiums Liability Offset Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12880" xlink:to="lbl_DE12880"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12880" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the premiums liability offset, the portion of the premiums liability provision which relates to catastrophic losses, as determined in accordance with relevant prudential standards by the relevant actuary.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12881" xlink:label="loc_DE12881"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12881" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Premiums Reinstatement Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12881" xlink:to="lbl_DE12881"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12881" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of reinstatement premiums. This is the amount of premium a reinsurer receives from an insurer as a result of the event that gives rise to its probable maximum loss.
+Probable Maximum Loss (PML) is the largest gross loss to which an insurer will be exposed (within the realms of possibility) due to a concentration of risk exposures, without any allowance for potential reinsurance assets.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12882" xlink:label="loc_DE12882"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12882" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Prescribed Capital Adjustment Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12882" xlink:to="lbl_DE12882"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12882" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date of adjustments to prescribed capital amount, as approved by the Australian Prudential Regulation Authority.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12883" xlink:label="loc_DE12883"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12883" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Probable Maximum Loss Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12883" xlink:to="lbl_DE12883"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12883" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the probable maximum loss determined in accordance with relevant prudential standards. Probable Maximum Loss (PML) is the largest gross loss to which an insurer will be exposed (within the realms of possibility) due to a concentration of risk exposures, without any allowance for potential reinsurance assets.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12884" xlink:label="loc_DE12884"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12884" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Probable Maximum Loss Adjustment Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12884" xlink:to="lbl_DE12884"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12884" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of adjustment to the probable maximum loss that is already specifically allowed for in the premiums liabilities of the insurer.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12885" xlink:label="loc_DE12885"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12885" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Regulatory Capital Requirement Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12885" xlink:to="lbl_DE12885"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12885" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the regulatory capital requirement, determined in accordance with relevant legislation and standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12886" xlink:label="loc_DE12886"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12886" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Reinsurance Cover Reinstatement Cost Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12886" xlink:to="lbl_DE12886"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12886" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of reinstatement costs. This is the cost of reinstating all catastrophe reinsurance cover relating to reinsurance recoverables.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12887" xlink:label="loc_DE12887"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12887" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Rental Yield Percent</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12887" xlink:to="lbl_DE12887"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12887" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the average rental yield based on current leases net of expenses, used in determining the reduction in the property asset values under the property stress scenario. This item is to be determined in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12888" xlink:label="loc_DE12888"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12888" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Risk Charge Asset Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12888" xlink:to="lbl_DE12888"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12888" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date of the asset risk charge, determined in accordance with relevant prudential standards. The asset risk charge is the minimum amount of capital required to be held against asset risks. The asset risk charge relates to the risk of adverse movements in the value of on-balance sheet and off-balance sheet exposures. Asset risk can be derived from a number of sources, including market risk and credit risk.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12889" xlink:label="loc_DE12889"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12889" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Risk Charge Concentration Asset Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12889" xlink:to="lbl_DE12889"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12889" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date of the asset concentration risk capital charge, determined in accordance with relevant prudential standards. The asset concentration risk charge is the minimum amount of capital required to be held against asset concentration risks. The asset concentration risk charge relates to the risk of concentration in particular assets resulting in adverse movements in the capital base.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12890" xlink:label="loc_DE12890"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12890" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Risk Charge Concentration Insurance Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12890" xlink:to="lbl_DE12890"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12890" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date of the insurance concentration risk capital charge, determined in accordance with relevant prudential standards. The Insurance Concentration Risk Charge represents the net financial impact on the reporting insurer from either a single event, or a series of multiple events, within a one year period.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12891" xlink:label="loc_DE12891"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12891" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Risk Charge Insurance Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12891" xlink:to="lbl_DE12891"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12891" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date of the insurance risk charge, determined in accordance with relevant prudential standards. The insurance risk charge is the minimum amount of capital required to be held against insurance risks. The insurance risk charge relates to the risk of adverse impacts due to movements in future mortality, morbidity, longevity, servicing expenses and lapses.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12892" xlink:label="loc_DE12892"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12892" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Risk Charge Insurance Outstanding Claims Liabilities Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12892" xlink:to="lbl_DE12892"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12892" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date of the insurance risk charge for outstanding claims liabilities (OCL), determined in accordance with relevant prudential standards. It relates to the risk that the value of net outstanding liabilities (OCL) will be insufficient to cover associated net claim payments and any associated claim expenses as they fall due.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12893" xlink:label="loc_DE12893"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12893" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Risk Charge Insurance Premiums Liability Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12893" xlink:to="lbl_DE12893"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12893" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date of the insurance risk charge for premiums liability (PL), determined in accordance with relevant prudential standards. It relates to the risk that the value of net premiums liability (PL) will be insufficient to cover associated net claim payments and any associated claim expenses as they fall due.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12894" xlink:label="loc_DE12894"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12894" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Risk Charge Operational Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12894" xlink:to="lbl_DE12894"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12894" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date of the operational risk capital charge, determined in accordance with relevant prudential standards. The operational risk charge is the minimum amount of capital required to be held against operational risks. The operational risk charge relates to the risk of loss resulting from inadequate or failed internal processes, people and systems or from external events.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12895" xlink:label="loc_DE12895"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12895" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Risk Charge Prescribed Capital Adjustment Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12895" xlink:to="lbl_DE12895"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12895" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date of the combined stress scenario adjustment to the prescribed capital amount in respect of the tax benefits and the management actions that can be recognised in determining the insurance risk charge and the asset risk charge.  This item also recognises the second order interactions between the asset and insurance risk stresses and is to be determined in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12896" xlink:label="loc_DE12896"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12896" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Risk Charge Variable Annuities Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12896" xlink:to="lbl_DE12896"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12896" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date of the capital risk charge for variable annuity business that relates to asset and insurance risks, after allowance for diversification. This item is determined in accordance with relevant prudential standards. 
+Variable annuity means a policy with benefits calculated by reference to the value of the units allocated to the policy, but the benefits may exceed the value of those units in specified circumstances.
+The asset risk charge relates to the risk of adverse movements in the value of a fund's on-balance sheet and off-balance sheet exposures. Asset risk can be derived from a number of sources, including market risk and credit risk.
+The insurance risk charge is the minimum amount of capital required to be held against insurance risks. The insurance risk charge relates to the risk of adverse impacts due to movements in future mortality, morbidity, longevity, servicing expenses and lapses.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE7689" xlink:label="loc_DE7689"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE7689" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Securitisation Costs Excluding Start Up And Establishment Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE7689" xlink:to="lbl_DE7689"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE7689" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the following securitisation related items: 
+
+- gain-on-sale, including expected future income from a securitisation exposure that the reporting party reports as an on-balance sheet asset or profit, until irrevocably received; 
+
+- funds provided by the reporting party to establish a spread, reserve or similar account, until the funds are irrevocably paid to the reporting party; 
+
+- the difference between the book value and the amount received by the reporting party, where the originating entity transfers exposures to a special purpose vehicle (SPV) below their book value, unless it is written off in the reporting party's profit and loss (and capital) accounts; and 
+
+- any other specific deductions in accordance with relevant prudential standards. 
+
+This item excludes start-up and other establishment costs that have been capitalised. This item is calculated for capital adequacy purposes and is to be determined in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12897" xlink:label="loc_DE12897"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12897" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Single Loss Event Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12897" xlink:to="lbl_DE12897"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12897" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of single event loss, as determined in accordance with relevant prudential standards. Single event loss is the loss arising from the occurrence of a single event where that loss is not less than the whole-of-portfolio annual loss with a probability of occurrence stated in the relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12898" xlink:label="loc_DE12898"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12898" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Termination Value Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12898" xlink:to="lbl_DE12898"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12898" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of the Termination Value of insurance policies, as calculated by the relevant standard. The Termination Value of a policy is either: a) the amount that would be paid in the event of voluntary termination; or b) where no amount would be paid, the discounted present value of the unexpired risks, future payments and/or contractual premium refunds.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12899" xlink:label="loc_DE12899"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12899" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Valuation Date</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12899" xlink:to="lbl_DE12899"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12899" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the valuation date on which the information was last calculated and reported.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12900" xlink:label="loc_DE12900"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12900" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Risk Whole Of Portfolio Loss Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12900" xlink:to="lbl_DE12900"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12900" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, as at the relevant date, of whole-of-portfolio loss, as determined in accordance with relevant prudential standards. Whole-of-portfolio loss is the loss arising from the occurrence of a single event where that loss is not less than the whole-of-portfolio annual loss with a probability of occurrence stated in the relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12901" xlink:label="loc_DE12901"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12901" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Services Insurance APRA Regulated Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12901" xlink:to="lbl_DE12901"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12901" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the reporting entity is an APRA regulated entity.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12901" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+
+true = The reporting entity is an APRA regulated entity.
+
+false = The reporting entity is not an APRA regulated entity.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE8852" xlink:label="loc_DE8852"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE8852" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Services Insurance Basis Used Premiums Liabilities Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE8852" xlink:to="lbl_DE8852"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE8852" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This item represents the basis used by which premiums liabilities are reported.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE8852" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Allowable values for this item are:     
+- Prudential;    
+- Accounting; and   
+- Mix</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12902" xlink:label="loc_DE12902"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12902" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Services Insurance Non APRA Authorised Reinsurer Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12902" xlink:to="lbl_DE12902"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12902" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the exposure is to a non-APRA-authorised reinsurer.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12902" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+
+true = The exposure is to a non-APRA authorised reinsurer. 
+
+false = The exposure is not to a non-APRA authorised reinsurer.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE12777" xlink:label="loc_DE12777"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12777" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Miscellaneous Currency Translation Rate</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12777" xlink:to="lbl_DE12777"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12777" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A currency translation rate used by an entity to convert amounts of income or asset values to Australian dollars in order to fulfil its reporting obligations to Australian government agencies.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE9089" xlink:label="loc_DE9089"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE9089" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Miscellaneous Earnout Arrangement Applicable Year Number</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE9089" xlink:to="lbl_DE9089"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE9089" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The applicable year in the sequence to which the earnout arrangement applies.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE9088" xlink:label="loc_DE9088"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE9088" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Miscellaneous Earnout Arrangement Duration Count</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE9088" xlink:to="lbl_DE9088"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE9088" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The duration for which the earnout arrangement will run.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafot.02.12.data.xsd#DE9087" xlink:label="loc_DE9087"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE9087" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Miscellaneous Earnout Arrangement Eligibility Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE9087" xlink:to="lbl_DE9087"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE9087" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A code to identify a reporting party who has either sold or bought an income earning asset and is eligible to receive or administer additional income, as a result of income generated from the asset, post sale.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE9087" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+
+Buyer = Yes as a buyer
+Seller = Yes as a seller
+No = Not a party to an earnout arrangement</link:label>
+    </link:labelLink>
+</link:linkbase>

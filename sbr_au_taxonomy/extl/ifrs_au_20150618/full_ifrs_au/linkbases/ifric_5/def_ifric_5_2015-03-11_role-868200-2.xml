@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<!--Taxonomy: 2015-03-11 (Final release)
+        ********************** 
+        Copyright © 2013 International Financial Reporting Standards (IFRS) Foundation
+        All rights reserved.  No part of this publication may be translated, reprinted or reproduced 
+        or utilised in any form either in whole or in part without prior permission in writing from the IFRS Foundation.
+        For more information on the IFRS Foundation's copyright, please refer to http://www.ifrs.org/XBRL/Legal/
+        **********************
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrldt="http://xbrl.org/2005/xbrldt">
+  <link:roleRef roleURI="http://sbr.gov.au/role/ifrs/ifric_5_2015-03-11_role-868200" xlink:type="simple" xlink:href="rol_ifric_5_2015-03-11.xsd#ifric_5_2015-03-11_role-868200"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/role/ifrs/ifric_5_2015-03-11_role-868200">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfConsolidatedAndSeparateFinancialStatementsAbstract" xlink:label="DisclosureOfConsolidatedAndSeparateFinancialStatementsAbstract" xlink:title="DisclosureOfConsolidatedAndSeparateFinancialStatementsAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfConsolidatedAndSeparateFinancialStatementsLineItems" xlink:label="DisclosureOfConsolidatedAndSeparateFinancialStatementsLineItems" xlink:title="DisclosureOfConsolidatedAndSeparateFinancialStatementsLineItems"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="DisclosureOfConsolidatedAndSeparateFinancialStatementsAbstract" xlink:to="DisclosureOfConsolidatedAndSeparateFinancialStatementsLineItems" xlink:title="definition: DisclosureOfConsolidatedAndSeparateFinancialStatementsAbstract to DisclosureOfConsolidatedAndSeparateFinancialStatementsLineItems" use="optional" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis" xlink:label="ConsolidatedAndSeparateFinancialStatementsAxis" xlink:title="ConsolidatedAndSeparateFinancialStatementsAxis"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_ConsolidatedMember" xlink:label="ConsolidatedMember" xlink:title="ConsolidatedMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ConsolidatedAndSeparateFinancialStatementsAxis" xlink:to="ConsolidatedMember" xlink:title="definition: ConsolidatedAndSeparateFinancialStatementsAxis to ConsolidatedMember" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_SeparateMember" xlink:label="SeparateMember" xlink:title="SeparateMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ConsolidatedMember" xlink:to="SeparateMember" xlink:title="definition: ConsolidatedMember to SeparateMember" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_DisclosureOfInterestInFundsExplanatory" xlink:label="DisclosureOfInterestInFundsExplanatory"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="DisclosureOfConsolidatedAndSeparateFinancialStatementsLineItems" xlink:to="DisclosureOfInterestInFundsExplanatory" xlink:title="definition: DisclosureOfConsolidatedAndSeparateFinancialStatementsLineItems to DisclosureOfInterestInFundsExplanatory" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_DescriptionOfNatureOfInterestInFunds" xlink:label="DescriptionOfNatureOfInterestInFunds"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="DisclosureOfInterestInFundsExplanatory" xlink:to="DescriptionOfNatureOfInterestInFunds" xlink:title="definition: DisclosureOfInterestInFundsExplanatory to DescriptionOfNatureOfInterestInFunds" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20150311/full_ifrs/full_ifrs-cor_2015-03-11.xsd#ifrs-full_RestrictionsOnAccessToAssetsInFunds" xlink:label="RestrictionsOnAccessToAssetsInFunds"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="DisclosureOfInterestInFundsExplanatory" xlink:to="RestrictionsOnAccessToAssetsInFunds" xlink:title="definition: DisclosureOfInterestInFundsExplanatory to RestrictionsOnAccessToAssetsInFunds" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2015-06-18.xsd#ifrs_au-full_DisclosureOfConsolidatedAndSeparateFinancialStatementsTable" xlink:label="DisclosureOfConsolidatedAndSeparateFinancialStatementsTable" xlink:title="DisclosureOfConsolidatedAndSeparateFinancialStatementsTable"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="DisclosureOfConsolidatedAndSeparateFinancialStatementsAbstract" xlink:to="DisclosureOfConsolidatedAndSeparateFinancialStatementsTable" xlink:title="definition: DisclosureOfConsolidatedAndSeparateFinancialStatementsAbstract to DisclosureOfConsolidatedAndSeparateFinancialStatementsTable" order="2.0" xbrldt:contextElement="scenario" xbrldt:closed="true"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="DisclosureOfConsolidatedAndSeparateFinancialStatementsTable" xlink:to="ConsolidatedAndSeparateFinancialStatementsAxis" xlink:title="definition: DisclosureOfConsolidatedAndSeparateFinancialStatementsTable to ConsolidatedAndSeparateFinancialStatementsAxis" order="1.0"/>
+  </link:definitionLink>
+</link:linkbase>

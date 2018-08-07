@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:ptarsa.0001.lodge.rsp.02.01="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.lodge.response.02.01.report" xmlns:orgname1.02.00="http://sbr.gov.au/comnmdle/comnmdle.organisationname1.02.00.module" xmlns:pyin.02.02="http://sbr.gov.au/icls/py/pyin/pyin.02.02.data" xmlns:pypr.02.00="http://sbr.gov.au/icls/py/pypr/pypr.02.00.data" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:pyin.02.03="http://sbr.gov.au/icls/py/pyin/pyin.02.03.data" xmlns:ptarsa.0001.prv.02.01="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.private.02.01.module" xmlns:EmpGrpSts.02.04="http://sbr.gov.au/dims/EmpGrpSts.02.04.dims" xmlns:dtyp.02.00="http://sbr.gov.au/fdtn/sbr.02.00.dtyp" xmlns:pyin.02.00="http://sbr.gov.au/icls/py/pyin/pyin.02.00.data" xmlns:pyid.02.00="http://sbr.gov.au/icls/py/pyid/pyid.02.00.data" xmlns:dtyp.02.01="http://sbr.gov.au/fdtn/sbr.02.01.dtyp" xmlns:pyin.02.01="http://sbr.gov.au/icls/py/pyin/pyin.02.01.data" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dtyp.02.02="http://sbr.gov.au/fdtn/sbr.02.02.dtyp" xmlns:directcredit1.02.03="http://sbr.gov.au/comnmdle/comnmdle.directcredit1.02.03.module" xmlns:fininstacc1.02.00="http://sbr.gov.au/comnmdle/comnmdle.financialinstitutionaccount1.02.00.module" xmlns:dtyp.02.03="http://sbr.gov.au/fdtn/sbr.02.03.dtyp" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:pyde.02.00="http://sbr.gov.au/icls/py/pyde/pyde.02.00.data" xmlns:bpay1.02.00="http://sbr.gov.au/comnmdle/comnmdle.bpay1.02.00.module" xmlns:h01.02.01="http://sbr.gov.au/dims/AuStsTerrOS.02.01.dims" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:RprtPyType.02.03="http://sbr.gov.au/dims/RprtPyType.02.03.dims" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:ddebit1.02.02="http://sbr.gov.au/comnmdle/comnmdle.directdebit1.02.02.module" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <link:schemaRef xlink:type="simple" xlink:href="ptarsa.0001.lodge.response.02.01.report.xsd"/>
+  <xbrli:context id="C001">
+    <xbrli:entity>
+      <xbrli:identifier scheme="htttp://www.abr.gov.au/abn">99999999999</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="RprtPyType.02.03:ReportPartyTypeDimension">RprtPyType.02.03:ReportingParty</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="h01.02.01:AustralianStatesTerritoriesAndOffShoreAreasDimension">h01.02.01:SA</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-07-01</xbrli:startDate>
+      <xbrli:endDate>2010-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="C002">
+    <xbrli:entity>
+      <xbrli:identifier scheme="htttp://www.abr.gov.au/abn">76775195331</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="RprtPyType.02.03:ReportPartyTypeDimension">RprtPyType.02.03:GovernmentAgency</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-09-01</xbrli:startDate>
+      <xbrli:endDate>2009-09-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="u1">
+    <xbrli:measure>iso4217:AUD</xbrli:measure>
+  </xbrli:unit>
+  <pyin.02.00:BusinessDocument.GovernmentGeneratedIdentifier.Text contextRef="C001">456789</pyin.02.00:BusinessDocument.GovernmentGeneratedIdentifier.Text>
+  <pyid.02.00:Identifiers.StateRevenueOfficeClientNumber.Identifier contextRef="C001">19317753</pyid.02.00:Identifiers.StateRevenueOfficeClientNumber.Identifier>
+  <orgname1.02.00:OrganisationNameDetails>
+    <pyde.02.00:OrganisationNameDetails.OrganisationalNameType.Code contextRef="C001">MN</pyde.02.00:OrganisationNameDetails.OrganisationalNameType.Code>
+    <pyde.02.00:OrganisationNameDetails.OrganisationalName.Text contextRef="C001">MyCompany</pyde.02.00:OrganisationNameDetails.OrganisationalName.Text>
+  </orgname1.02.00:OrganisationNameDetails>
+  <ptarsa.0001.lodge.rsp.02.01:PayrollTaxPayment>
+    <pyin.02.00:PaymentRecord.Payment.Amount decimals="0" contextRef="C001" unitRef="u1">5000</pyin.02.00:PaymentRecord.Payment.Amount>
+    <pyin.02.00:PaymentRecord.AgencyGeneratedReference.Number contextRef="C001">RevNet010978</pyin.02.00:PaymentRecord.AgencyGeneratedReference.Number>
+    <pypr.02.00:Preferences.TaxPaymentDirectDebitAuthorisation.Indicator contextRef="C001">true</pypr.02.00:Preferences.TaxPaymentDirectDebitAuthorisation.Indicator>
+    <ptarsa.0001.lodge.rsp.02.01:PaymentReference>
+      <pyin.02.03:PaymentMechanism.PaymentMethod.Code contextRef="C001">DirectDebit</pyin.02.03:PaymentMechanism.PaymentMethod.Code>
+    </ptarsa.0001.lodge.rsp.02.01:PaymentReference>
+  </ptarsa.0001.lodge.rsp.02.01:PayrollTaxPayment>
+  <pyin.02.00:Lodgment.Due.Date contextRef="C001">2009-07-21</pyin.02.00:Lodgment.Due.Date>
+  <pyin.02.00:Lodgment.Received.Date contextRef="C001">2009-07-15</pyin.02.00:Lodgment.Received.Date>
+  <ptarsa.0001.prv.02.01:PaymentMechanism>
+    <pyin.02.03:PaymentMechanism.PaymentMethod.Code contextRef="C002">DirectDebit</pyin.02.03:PaymentMechanism.PaymentMethod.Code>
+    <ddebit1.02.02:DirectDebit>
+      <pyin.02.00:PaymentMechanism.DirectDebitName.Text contextRef="C002">Company Payroll Tax Account</pyin.02.00:PaymentMechanism.DirectDebitName.Text>
+    </ddebit1.02.02:DirectDebit>
+  </ptarsa.0001.prv.02.01:PaymentMechanism>
+</xbrli:xbrl>

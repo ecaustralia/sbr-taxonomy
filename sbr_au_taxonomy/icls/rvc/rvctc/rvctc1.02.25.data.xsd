@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:rvctc1.02.25="http://sbr.gov.au/icls/rvc/rvctc/rvctc1.02.25.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:dtyp.02.39="http://sbr.gov.au/fdtn/sbr.02.39.dtyp" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/rvc/rvctc/rvctc1.02.25.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.39.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.39.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="rvctc1Abstract" id="rvctc1.02.25_rvctc1Abstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="IncomeTax.CreditTrusteeTaxPaidShareAdjustmentReason.Code" id="DE14384" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="IncomeTax.EmploymentBusinessOtherAdjustmentReason.Code" id="DE14374" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="IncomeTax.ExceptedNetIncomeUnder18AdjustmentReason.Code" id="DE14381" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="IncomeTax.FamilyTrustDistributionWhereTaxPaidAdjustmentReason.Code" id="DE14376" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="IncomeTax.FrankingCreditsAdjustmentReason.Code" id="DE14382" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="IncomeTax.FrankingCreditsNewZealandAdjustmentReason.Code" id="DE14373" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="IncomeTax.FrankingCreditsShareAdjustmentReason.Code" id="DE14379" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="IncomeTax.IncomeCategory1AdjustmentReason.Code" id="DE14388" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="IncomeTax.IncomeCategory2AdjustmentReason.Code" id="DE14389" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="IncomeTax.InvestmentPartnershipOtherSourceAdjustmentReason.Code" id="DE14383" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="IncomeTax.LifeInsuranceCompaniesAndFriendlySocietiesBonusesAdjustmentReason.Code" id="DE14375" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="IncomeTax.LossesClaimedNonPrimaryProductionAdjustmentReason.Code" id="DE14385" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="IncomeTax.LossesClaimedPrimaryProductionAdjustmentReason.Code" id="DE14386" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="IncomeTax.PartYearTaxFreeThresholdEligibleMonthsAdjustmentReason.Code" id="DE14377" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="IncomeTax.TaxOffsetRefundableOtherAdjustmentReason.Code" id="DE14387" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="IncomeTax.TFNAmountsWithheldFromGrossInterestAdjustmentReason.Code" id="DE14380" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="IncomeTax.TrustIncomeNotIncludedInTaxableIncomeAdjustmentReason.Code" id="DE14378" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+</xsd:schema>

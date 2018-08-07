@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<!--
+		Taxonomy: 2012-03-29 (Final release)
+        ********************** 
+        Copyright © 2012 International Financial Reporting Standards (IFRS) Foundation
+        All rights reserved.  No part of this publication may be translated, reprinted or reproduced 
+        or utilised in any form either in whole or in part without prior permission in writing from the IFRS Foundation.
+        For more information on the IFRS Foundation's copyright, please refer to http://www.ifrs.org/XBRL/Legal/
+        **********************
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://sbr.gov.au/role/ifrs/ias_1_2012-03-29_role-210000" xlink:type="simple" xlink:href="rol_ias_1_2012-03-29.xsd#ias_1_2012-03-29_role-210000"/>
+  <link:calculationLink xlink:type="extended" xlink:role="http://sbr.gov.au/role/ifrs/ias_1_2012-03-29_role-210000">
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_EquityAndLiabilities" xlink:label="loc_202"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_Equity" xlink:label="loc_201"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_202" xlink:to="loc_201" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_EquityAttributableToOwnersOfParent" xlink:label="loc_203"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_201" xlink:to="loc_203" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_IssuedCapital" xlink:label="loc_204"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_203" xlink:to="loc_204" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_RetainedEarnings" xlink:label="loc_209"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_203" xlink:to="loc_209" order="20.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_SharePremium" xlink:label="loc_2014"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_203" xlink:to="loc_2014" order="30.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_TreasuryShares" xlink:label="loc_2015"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_203" xlink:to="loc_2015" order="40.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_OtherEquityInterest" xlink:label="loc_2018"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_203" xlink:to="loc_2018" order="50.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_OtherReserves" xlink:label="loc_2019"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_203" xlink:to="loc_2019" order="60.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_NoncontrollingInterests" xlink:label="loc_2010"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_201" xlink:to="loc_2010" order="20.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_Liabilities" xlink:label="loc_206"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_202" xlink:to="loc_206" order="20.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_NoncurrentLiabilities" xlink:label="loc_2"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_206" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_NoncurrentProvisions" xlink:label="loc_1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="loc_1" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_NoncurrentProvisionsForEmployeeBenefits" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_1" xlink:to="loc_3" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_OtherLongtermProvisions" xlink:label="loc_13"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_1" xlink:to="loc_13" order="20.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_NoncurrentPayables" xlink:label="loc_18"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="loc_18" order="20.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_CurrentTaxLiabilitiesNoncurrent" xlink:label="loc_24"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="loc_24" order="40.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_DeferredTaxLiabilities" xlink:label="loc_2011"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="loc_2011" order="30.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_OtherNoncurrentFinancialLiabilities" xlink:label="loc_2016"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="loc_2016" order="50.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_OtherNoncurrentNonfinancialLiabilities" xlink:label="loc_2020"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="loc_2020" order="60.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2012-06-29.xsd#ifrs_au-cor_20120329_NoncurrentUnearnedPremiumLiability" xlink:label="NoncurrentUnearnedPremiumLiability" xlink:title="NoncurrentUnearnedPremiumLiability"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="NoncurrentUnearnedPremiumLiability" xlink:title="calculation: NoncurrentLiabilities to NoncurrentUnearnedPremiumLiability" order="70.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2012-06-29.xsd#ifrs_au-cor_20120329_NoncurrentOutstandingClaimsLiability" xlink:label="NoncurrentOutstandingClaimsLiability" xlink:title="NoncurrentOutstandingClaimsLiability"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="NoncurrentOutstandingClaimsLiability" xlink:title="calculation: NoncurrentLiabilities to NoncurrentOutstandingClaimsLiability" order="80.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2012-06-29.xsd#ifrs_au-cor_20120329_NoncurrentUnexpiredRiskLiability" xlink:label="NoncurrentUnexpiredRiskLiability" xlink:title="NoncurrentUnexpiredRiskLiability"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="NoncurrentUnexpiredRiskLiability" xlink:title="calculation: NoncurrentLiabilities to NoncurrentUnexpiredRiskLiability" order="90.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2012-06-29.xsd#ifrs_au-cor_20120329_LifeInvestmentContractLiabilities" xlink:label="LifeInvestmentContractLiabilities" xlink:title="LifeInvestmentContractLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="LifeInvestmentContractLiabilities" xlink:title="calculation: NoncurrentLiabilities to LifeInvestmentContractLiabilities" order="100.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2012-06-29.xsd#ifrs_au-cor_20120329_UnvestedPolicyholderBenefitsLiabilities" xlink:label="UnvestedPolicyholderBenefitsLiabilities" xlink:title="UnvestedPolicyholderBenefitsLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="UnvestedPolicyholderBenefitsLiabilities" xlink:title="calculation: NoncurrentLiabilities to UnvestedPolicyholderBenefitsLiabilities" order="110.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2012-06-29.xsd#ifrs_au-cor_20120329_LifeInsuranceContractLiabilities" xlink:label="LifeInsuranceContractLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="LifeInsuranceContractLiabilities" order="120.0" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_CurrentLiabilities" xlink:label="loc_208"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_206" xlink:to="loc_208" order="20.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_CurrentLiabilitiesOtherThanLiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale" xlink:label="loc_5"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_208" xlink:to="loc_5" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_CurrentProvisions" xlink:label="loc_4"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_5" xlink:to="loc_4" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_CurrentProvisionsForEmployeeBenefits" xlink:label="loc_6"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="loc_6" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_OtherShorttermProvisions" xlink:label="loc_14"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="loc_14" order="20.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_TradeAndOtherCurrentPayables" xlink:label="loc_19"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_5" xlink:to="loc_19" order="20.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_CurrentTaxLiabilitiesCurrent" xlink:label="loc_25"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_5" xlink:to="loc_25" order="30.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_OtherCurrentFinancialLiabilities" xlink:label="loc_2012"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_5" xlink:to="loc_2012" order="40.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_OtherCurrentNonfinancialLiabilities" xlink:label="loc_2017"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_5" xlink:to="loc_2017" order="50.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2012-06-29.xsd#ifrs_au-cor_20120329_CurrentOutstandingClaimsLiability" xlink:label="CurrentOutstandingClaimsLiability" xlink:title="CurrentOutstandingClaimsLiability"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_5" xlink:to="CurrentOutstandingClaimsLiability" xlink:title="calculation: CurrentLiabilitiesOtherThanLiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale to CurrentOutstandingClaimsLiability" order="60.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2012-06-29.xsd#ifrs_au-cor_20120329_CurrentUnearnedPremiumLiability" xlink:label="CurrentUnearnedPremiumLiability" xlink:title="CurrentUnearnedPremiumLiability"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_5" xlink:to="CurrentUnearnedPremiumLiability" xlink:title="calculation: CurrentLiabilitiesOtherThanLiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale to CurrentUnearnedPremiumLiability" order="70.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2012-06-29.xsd#ifrs_au-cor_20120329_CurrentUnexpiredRiskLiability" xlink:label="CurrentUnexpiredRiskLiability" xlink:title="CurrentUnexpiredRiskLiability"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_5" xlink:to="CurrentUnexpiredRiskLiability" xlink:title="calculation: CurrentLiabilitiesOtherThanLiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale to CurrentUnexpiredRiskLiability" order="80.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2012-06-29.xsd#ifrs_au-cor_20120329_OutwardsReinsuranceExpenseLiability" xlink:label="OutwardsReinsuranceExpenseLiability" xlink:title="OutwardsReinsuranceExpenseLiability"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_5" xlink:to="OutwardsReinsuranceExpenseLiability" xlink:title="calculation: CurrentLiabilitiesOtherThanLiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale to OutwardsReinsuranceExpenseLiability" order="90.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale" xlink:label="loc_2013"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_208" xlink:to="loc_2013" order="20.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_Assets" xlink:label="loc_8"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_NoncurrentAssets" xlink:label="loc_7"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_8" xlink:to="loc_7" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_PropertyPlantAndEquipment" xlink:label="loc_9"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_9" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_InvestmentProperty" xlink:label="loc_15"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_15" order="20.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_Goodwill" xlink:label="loc_20"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_20" order="30.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_IntangibleAssetsOtherThanGoodwill" xlink:label="loc_22"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_22" order="40.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_InvestmentAccountedForUsingEquityMethod" xlink:label="loc_26"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_26" order="50.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_InvestmentsInSubsidiariesJointVenturesAndAssociates" xlink:label="loc_28"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_28" order="60.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_NoncurrentBiologicalAssets" xlink:label="loc_30"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_30" order="70.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_NoncurrentReceivables" xlink:label="loc_32"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_32" order="80.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_NoncurrentInventories" xlink:label="loc_34"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_34" order="90.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_DeferredTaxAssets" xlink:label="loc_35"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_35" order="100.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_CurrentTaxAssetsNoncurrent" xlink:label="loc_36"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_36" order="110.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_OtherNoncurrentFinancialAssets" xlink:label="loc_37"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_37" order="120.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_OtherNoncurrentNonfinancialAssets" xlink:label="loc_38"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_38" order="130.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_NoncurrentNoncashAssetsPledgedAsCollateralForWhichTransfereeHasRightByContractOrCustomToSellOrRepledgeCollateral" xlink:label="loc_39"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_39" order="140.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2012-06-29.xsd#ifrs_au-cor_20120329_NoncurrentReinsuranceAndOtherRecoveriesReceivable" xlink:label="NoncurrentReinsuranceAndOtherRecoveriesReceivable" xlink:title="NoncurrentReinsuranceAndOtherRecoveriesReceivable"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="NoncurrentReinsuranceAndOtherRecoveriesReceivable" xlink:title="calculation: NoncurrentAssets to NoncurrentReinsuranceAndOtherRecoveriesReceivable" order="150.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2012-06-29.xsd#ifrs_au-cor_20120329_NoncurrentDeferredAcquisitionCosts" xlink:label="NoncurrentDeferredAcquisitionCosts" xlink:title="NoncurrentDeferredAcquisitionCosts"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="NoncurrentDeferredAcquisitionCosts" xlink:title="calculation: NoncurrentAssets to NoncurrentDeferredAcquisitionCosts" order="160.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2012-06-29.xsd#ifrs_au-cor_20120329_NonCurrentDeferredOutwardReinsuranceExpense" xlink:label="NonCurrentDeferredOutwardReinsuranceExpense" xlink:title="NonCurrentDeferredOutwardReinsuranceExpense"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="NonCurrentDeferredOutwardReinsuranceExpense" xlink:title="calculation: NoncurrentAssets to NonCurrentDeferredOutwardReinsuranceExpense" order="170.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2012-06-29.xsd#ifrs_au-cor_20120329_IntangibleAssetsRelatingToAcquiredInsuranceContracts" xlink:label="IntangibleAssetsRelatingToAcquiredInsuranceContracts" xlink:title="IntangibleAssetsRelatingToAcquiredInsuranceContracts"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="IntangibleAssetsRelatingToAcquiredInsuranceContracts" xlink:title="calculation: NoncurrentAssets to IntangibleAssetsRelatingToAcquiredInsuranceContracts" order="180.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2012-06-29.xsd#ifrs_au-cor_20120329_ReinsurersShareOfLifeInsuranceContractLiabilities" xlink:label="ReinsurersShareOfLifeInsuranceContractLiabilities" xlink:title="ReinsurersShareOfLifeInsuranceContractLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="ReinsurersShareOfLifeInsuranceContractLiabilities" xlink:title="calculation: NoncurrentAssets to ReinsurersShareOfLifeInsuranceContractLiabilities" order="190.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_CurrentAssets" xlink:label="loc_11"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_8" xlink:to="loc_11" order="20.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_CurrentAssetsOtherThanAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners" xlink:label="loc_10"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_11" xlink:to="loc_10" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_Inventories" xlink:label="loc_12"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_10" xlink:to="loc_12" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_TradeAndOtherCurrentReceivables" xlink:label="loc_16"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_10" xlink:to="loc_16" order="20.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_CurrentTaxAssetsCurrent" xlink:label="loc_21"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_10" xlink:to="loc_21" order="30.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_CurrentBiologicalAssets" xlink:label="loc_23"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_10" xlink:to="loc_23" order="40.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_OtherCurrentFinancialAssets" xlink:label="loc_27"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_10" xlink:to="loc_27" order="50.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_OtherCurrentNonfinancialAssets" xlink:label="loc_29"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_10" xlink:to="loc_29" order="60.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_CashAndCashEquivalents" xlink:label="loc_31"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_10" xlink:to="loc_31" order="70.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_CurrentNoncashAssetsPledgedAsCollateralForWhichTransfereeHasRightByContractOrCustomToSellOrRepledgeCollateral" xlink:label="loc_33"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_10" xlink:to="loc_33" order="80.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2012-06-29.xsd#ifrs_au-cor_20120329_CurrentReinsuranceAndOtherRecoveriesReceivable" xlink:label="CurrentReinsuranceAndOtherRecoveriesReceivable" xlink:title="CurrentReinsuranceAndOtherRecoveriesReceivable"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_10" xlink:to="CurrentReinsuranceAndOtherRecoveriesReceivable" xlink:title="calculation: CurrentAssetsOtherThanAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners to CurrentReinsuranceAndOtherRecoveriesReceivable" order="90.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2012-06-29.xsd#ifrs_au-cor_20120329_PremiumReceivable" xlink:label="PremiumReceivable" xlink:title="PremiumReceivable"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_10" xlink:to="PremiumReceivable" xlink:title="calculation: CurrentAssetsOtherThanAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners to PremiumReceivable" order="100.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2012-06-29.xsd#ifrs_au-cor_20120329_PrepaidReinsurancePremiums" xlink:label="PrepaidReinsurancePremiums" xlink:title="PrepaidReinsurancePremiums"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_10" xlink:to="PrepaidReinsurancePremiums" xlink:title="calculation: CurrentAssetsOtherThanAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners to PrepaidReinsurancePremiums" order="110.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2012-06-29.xsd#ifrs_au-cor_20120329_CurrentDeferredAcquisitionCosts" xlink:label="CurrentDeferredAcquisitionCosts" xlink:title="CurrentDeferredAcquisitionCosts"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_10" xlink:to="CurrentDeferredAcquisitionCosts" xlink:title="calculation: CurrentAssetsOtherThanAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners to CurrentDeferredAcquisitionCosts" order="120.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2012-06-29.xsd#ifrs_au-cor_20120329_CurrentDeferredOutwardReinsuranceExpense" xlink:label="CurrentDeferredOutwardReinsuranceExpense" xlink:title="CurrentDeferredOutwardReinsuranceExpense"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_10" xlink:to="CurrentDeferredOutwardReinsuranceExpense" xlink:title="calculation: CurrentAssetsOtherThanAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners to CurrentDeferredOutwardReinsuranceExpense" order="130.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20120329/ifrs-cor_2012-03-29.xsd#ifrs_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners" xlink:label="loc_17"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_11" xlink:to="loc_17" order="20.0" weight="1"/>
+  </link:calculationLink>
+</link:linkbase>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="gfati.02.01.data.xsd#gfati.02.01_gfatiAbstract" xlink:label="loc_gfati.02.01_gfatiAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_gfatiAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Incentives</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_gfati.02.01_gfatiAbstract" xlink:to="lbl_gfatiAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="gfati.02.01.data.xsd#DE3525" xlink:label="loc_DE3525"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3525" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Offset Claim Franking Deficit Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3525" xlink:to="lbl_DE3525"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3525" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Amount of unclaimed franking deficit tax liability from previous years that is being claimed as an offset in the current year.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3525" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">The amount of a corporate tax entity is entitled to a tax offset for an income year for which it satisfies the residency requirement and at least one of the following applies:
+-  the entity has incurred a liability to pay FDT in that year 
+-  the entity has carried forward an amount of excess FDT offset that was unable to be applied against an income tax liability in a previous income year, or 
+-  the entity incurred a liability to pay FDT in a previous income year when it did not meet the residency requirement, and was therefore not entitled to an FDT offset for that income year.
+At the end of an income year, a corporate tax entity that has a deficit balance in their franking account is liable to pay franking deficit tax (FDT).</link:label>
+        <link:loc xlink:type="locator" xlink:href="gfati.02.01.data.xsd#DE3530" xlink:label="loc_DE3530"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3530" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Offset Claim National Rental Affordability Scheme Entitlement Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3530" xlink:to="lbl_DE3530"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3530" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The National rental affordability scheme (NRAS) is designed to encourage large-scale investment in affordable housing. The scheme offers incentives to providers of new dwellings on the condition that they are rented to low and moderate-income households at 20% below market rates. A refundable tax offset is available where the housing secretary from the Department of Families, Housing, Community Services and Indigenous Affairs has issued a certificate under the scheme.</link:label>
+        <link:loc xlink:type="locator" xlink:href="gfati.02.01.data.xsd#DE3523" xlink:label="loc_DE3523"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3523" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Offset Claim Other Rebates And Tax Offsets Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3523" xlink:to="lbl_DE3523"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3523" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Endorsed income tax exempt charities and deductible gift recipients rather than the company tax return to obtain a refund.
+The company may have a refundable amount to the extent that the total of these tax offsets exceeds the tax that would otherwise be payable by the company after all its other tax offsets are taken into account. Include the R&amp;D tax offset  at the element R&amp;D tax offset and the excess of other refundable tax offsets at  Other refundable credits and not at this label.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3523" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Tax offsets  include:
+- entrepreneurs tax offset
+- allowable franking tax offsets for the income year.
+The amount claimed here should include the share of franking credit included in gross distributions from partnerships and gross distributions from trusts, the amount recorded at Franking credits and the amount recorded at Australian franking credits from a New Zealand company. If the shares or relevant interest are not held at risk as required under the holding period and related payments rules, or there is other manipulation of the imputation system, there is no entitlement to a franking tax offset
+- tax offsets for bonuses and certain other amounts received under short-term life insurance policies taken out after 27 August 1982
+- tax offsets for interest on certain government and semi-government securities
+- tax offsets to approved resident lenders for infrastructure borrowings  
+
+Do not include:
+- amounts of the intercorporate dividend rebate as this is no longer available
+- any foreign tax credit 
+- any FDT offset
+- any R&amp;D tax offset
+
+The rebates/tax offsets shown here will not be refunded nor can they be carried forward - they are only offset against gross tax. If the total of rebates/tax offsets is more than the amount at Gross tax, reduce the amount of this label so that it equals the amount at Gross Tax. The aggregate amount this label cannot exceed Gross tax.
+
+The following tax offsets are subject to refundable tax offset rules:
+- R&amp;D tax offset
+- film tax offsets under Division 376 of the ITAA 1997
+- franking tax offsets claimed by life insurance companies to the extent that they relate to distributions paid on shares and other membership interests held on behalf of policy holders
+- franking credits claimed by endorsed income tax exempt charities and deductible gift recipients that are entitled to a refund of excess franking credits. These entities may complete the Application for refund of franking credits - Endorsed income tax exempt charities and deductible gift recipients rather than the company tax return to obtain a refund.
+The company may have a refundable amount to the extent that the total of these tax offsets exceeds the tax that would otherwise be payable by the company after all its other tax offsets are taken into account. Include the R&amp;D tax offset  at the element R&amp;D tax offset and the excess of other refundable tax offsets at  Other refundable credits and not at this label.</link:label>
+    </link:labelLink>
+</link:linkbase>

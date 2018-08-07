@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:lrla.02.08="http://sbr.gov.au/icls/lr/lrla/lrla.02.08.data" xmlns:tech.01.03="http://sbr.gov.au/fdtn/sbr.01.03.tech" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dtyp.02.06="http://sbr.gov.au/fdtn/sbr.02.06.dtyp" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/lr/lrla/lrla.02.08.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.06.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.06.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.03.tech" schemaLocation="../../../fdtn/tech.sbr.01.03.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="lrlaAbstract" id="lrla.02.08_lrlaAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="Remuneration.EmployeeShareScheme.Indicator" id="DE2553" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Remuneration.PersonalServicesIncome.AtributedtoIndividuals.Amount" id="DE2181" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Remuneration.PersonalServicesIncome.BusinessPremisesTestSatisfied.Indicator" id="DE2180" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Remuneration.PersonalServicesIncome.DeductionsOther.Amount" id="DE2184" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Remuneration.PersonalServicesIncome.DeductionsPaidtoAssociates.Amount" id="DE2183" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Remuneration.PersonalServicesIncome.EmploymentTestSatisfied.Indicator" id="DE2179" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Remuneration.PersonalServicesIncome.MainIncomeReward.Indicator" id="DE1883" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Remuneration.PersonalServicesIncome.Net.Amount" id="DE2185" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+    <xsd:element name="Remuneration.PersonalServicesIncome.PersonalServicesBusinessDetermination.Indicator" id="DE2175" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Remuneration.PersonalServicesIncome.ResultsTestSatisfied.Indicator" id="DE2174" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Remuneration.PersonalServicesIncome.TestFailedAndMultipleSourceIncomeLessThanEightyPercent.Indicator" id="DE2177" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Remuneration.PersonalServicesIncome.TestFailedAndSingleSourceIncomeGreaterThanEightyPercent.Indicator" id="DE2176" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Remuneration.PersonalServicesIncome.UnrelatedClientsTestSatisfied.Indicator" id="DE2178" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+</xsd:schema>

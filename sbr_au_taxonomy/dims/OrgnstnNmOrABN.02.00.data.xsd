@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:OrgnstnNmOrABN.02.00="http://sbr.gov.au/dims/OrgnstnNmOrABN.02.00.dims" xmlns:dtyp.02.19="http://sbr.gov.au/fdtn/sbr.02.19.dtyp" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://sbr.gov.au/dims/OrgnstnNmOrABN.02.00.dims">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:href="OrgnstnNmOrABN.02.00.labLink.xml"/>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.19.dtyp" schemaLocation="../fdtn/dtyp.sbr.02.19.xsd"/>
+	<xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+	<xsd:complexType name="OrganisationNameOrABNContainerType">
+		<xsd:choice>
+			<xsd:sequence>
+				<xsd:choice minOccurs="0" maxOccurs="1">
+					<xsd:element ref="OrgnstnNmOrABN.02.00:ABN"/>
+				</xsd:choice>	
+				<xsd:choice minOccurs="1" maxOccurs="1">
+					<xsd:element ref="OrgnstnNmOrABN.02.00:OrganisationName"/>
+				</xsd:choice>
+			</xsd:sequence>
+		</xsd:choice>
+	</xsd:complexType>
+	<xsd:element name="OrganisationNameOrABNContainer" id="DV6997" type="OrgnstnNmOrABN.02.00:OrganisationNameOrABNContainerType"/>
+	<xsd:element name="OrganisationName" id="DV6999" type="xsd:string"/>
+	<xsd:element name="ABN" id="DV6998" type="xsd:nonNegativeInteger"/>
+	<xsd:element name="OrganisationNameOrABNDimension" id="DM647" xbrldt:typedDomainRef="#DV6997" nillable="true" substitutionGroup="xbrldt:dimensionItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+</xsd:schema>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance" xlink:type="simple"/>
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition" xlink:type="simple"/>
+	<link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+		<link:loc xlink:href="gfati.02.00.data.xsd#gfati.02.00_gfatiAbstract" xlink:label="loc_gfatiAbstract" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_gfatiAbstract" xlink:to="lbl_gfatiAbstract" xlink:type="arc"/>
+		<link:label xlink:label="lbl_gfatiAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Tax Incentives</link:label>
+		<link:loc xlink:href="gfati.02.00.data.xsd#DE2016" xlink:label="loc_DE2016" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2016" xlink:to="lbl_DE2016" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE2016" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Rebate Loan Interest Amount</link:label>
+		<link:label xlink:label="lbl_DE2016" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">Superannuation entities that receive interest in respect of Commonwealth, State or semi-government securities issued before 1 November 1968 are entitled to a rebate of taxation calculated at 10 cents for each dollar of interest received.</link:label>
+		<link:label xlink:label="lbl_DE2016" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en"></link:label>
+		<link:loc xlink:href="gfati.02.00.data.xsd#DE45" xlink:label="loc_DE45" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE45" xlink:to="lbl_DE45" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE45" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Tax Offset Claim Dependant Spouse Indicator</link:label>
+		<link:label xlink:label="lbl_DE45" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">If this rebate has been claimed this field must be set to True, otherwise this field must be set to False.</link:label>
+		<link:label xlink:label="lbl_DE45" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">The Dependent Spouse Tax Offset is an offset available to a resident taxpayer who contributes to the maintenance of their dependant spouse which reduces the amount of income tax to be paid.</link:label>
+		<link:loc xlink:href="gfati.02.00.data.xsd#DE1714" xlink:label="loc_DE1714" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1714" xlink:to="lbl_DE1714" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE1714" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Tax Offset Claim Entrepreneurs Amount</link:label>
+		<link:label xlink:label="lbl_DE1714" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">The sum of the amounts of ETO (Entrepreneurs tax offset) in respect of each source of net small business income.
+The entrepreneurs&apos; tax offset (ETO) is a tax offset (reduction) available to certain small business entities. For businesses with an aggregated turnover of $50,000 or less, the ETO is 25% of the income tax liability attributable to the portion of taxable income that is business income. 
+The ETO phases out if the aggregated turnover is over $50,000, and ceases when the turnover reaches $75,000.
+Any entitlement to the ETO can only be applied against the current year&apos;s tax on taxable income. That is, any unused offset cannot be refunded or transferred.</link:label>
+		<link:loc xlink:href="gfati.02.00.data.xsd#DE1781" xlink:label="loc_DE1781" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1781" xlink:to="lbl_DE1781" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE1781" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Tax Offset Claim Landcare And Water Facility Brought Forward From Prior Years Amount</link:label>
+		<link:label xlink:label="lbl_DE1781" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">The total amount of any landcare and water facility tax offsets carried forward and available for offset in this reporting period.</link:label>
+		<link:loc xlink:href="gfati.02.00.data.xsd#DE530" xlink:label="loc_DE530" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE530" xlink:to="lbl_DE530" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE530" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Tax Offset Claim Overseas Forces Indicator</link:label>
+		<link:label xlink:label="lbl_DE530" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">If this rebate has been claimed this field must be set to True, otherwise this field must be set to False.</link:label>
+		<link:label xlink:label="lbl_DE530" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">A person may be entitled to an overseas forces tax offset if they serve overseas as a member of Australia&apos;s Defence Force or a United Nations armed force. This element indicates that a tax offset of this kind has been requested.</link:label>
+		<link:loc xlink:href="gfati.02.00.data.xsd#DE46" xlink:label="loc_DE46" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE46" xlink:to="lbl_DE46" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE46" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Tax Offset Claim Parent Spouse Or Invalid Relative Indicator</link:label>
+		<link:label xlink:label="lbl_DE46" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">If this rebate has been claimed this field must be set to True, otherwise this field must be set to False.</link:label>
+		<link:label xlink:label="lbl_DE46" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">A person may be entitled to a special tax offset for a dependent invalid relative, dependent parent, housekeeper caring for an invalid spouse or a dependent child-housekeeper. This element indicates that a tax offset of this kind has been requested.</link:label>
+		<link:loc xlink:href="gfati.02.00.data.xsd#DE2017" xlink:label="loc_DE2017" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2017" xlink:to="lbl_DE2017" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE2017" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Tax Offset Claim Reversionary Bonus Rebate Amount</link:label>
+		<link:label xlink:label="lbl_DE2017" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">A complying superannuation entity is entitled to a rebate of tax under ITAA 36 section 160AAB (5A) where an &quot;eligible 26 AH amount&quot; is included in its assessable income under ITAA36 section 26AH. These amounts are reversionary bonuses (i.e. bonuses paid on maturity, forfeiture or surrender of a life assurance policy) received under short-term life assurance policies issued by a life office whose investment income was not tax exempt or by an SGIO or friendly society. The rebate can be offset against tax payable from any source, but is not refundable.</link:label>
+		<link:label xlink:label="lbl_DE2017" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en"></link:label>
+		<link:loc xlink:href="gfati.02.00.data.xsd#DE2" xlink:label="loc_DE2" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2" xlink:to="lbl_DE2" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Tax Offset Claim Senior Australians Tax Offset Indicator</link:label>
+		<link:label xlink:label="lbl_DE2" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">If this rebate has been claimed this field must be set to True, otherwise this field must be set to False.</link:label>
+		<link:label xlink:label="lbl_DE2" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">Indicates that an offset that allows eligible people to earn more income before they have to pay tax and the Medicare levy has been requested. If a taxpayer is eligible, this tax offset means that they pay less tax and in some cases may not have to lodge a tax return any more.
+To be eligible for the senior Australians tax offset a taxpayer must meet four conditions:
+condition 1 - age 
+condition 2 - eligibility for Australian Government age pension or similar payments 
+condition 3 - taxable income threshold, and 
+condition 4 - not in gaol.
+If the taxpayer meets all four conditions, the amount of tax offset will vary depending on their taxable income and circumstances. The taxpayer may also be able to transfer to themselves any unused portion of their spouse&apos;s tax offset to help reduce the amount of tax they have to pay.</link:label>
+		<link:loc xlink:href="gfati.02.00.data.xsd#DE1840" xlink:label="loc_DE1840" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1840" xlink:to="lbl_DE1840" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE1840" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Tax Offset Claim Small Business Entity Aggregated Group Turnover Amount</link:label>
+		<link:label xlink:label="lbl_DE1840" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">The amount of the company&apos;s (small business entity) aggregated turnover. This is the company&apos;s annual business turnover plus the annual business turnovers of its affiliates and any entities it is connected with.</link:label>
+		<link:loc xlink:href="gfati.02.00.data.xsd#DE1845" xlink:label="loc_DE1845" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1845" xlink:to="lbl_DE1845" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE1845" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Tax Offset Claim Small Business Entity Income Net Amount</link:label>
+		<link:label xlink:label="lbl_DE1845" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">The small business entity turnover of the reporting party less the allowable deductions attributable to that turnover.</link:label>
+		<link:loc xlink:href="gfati.02.00.data.xsd#DE1846" xlink:label="loc_DE1846" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1846" xlink:to="lbl_DE1846" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE1846" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Tax Offset Claim Small Business Entity Income Net Code</link:label>
+		<link:label xlink:label="lbl_DE1846" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">The single character code to describe  the source of net small business income.</link:label>
+		<link:loc xlink:href="gfati.02.00.data.xsd#DE1579" xlink:label="loc_DE1579" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1579" xlink:to="lbl_DE1579" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE1579" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Tax Offset Claim Superannuation Income Stream Amount</link:label>
+		<link:label xlink:label="lbl_DE1579" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">Do not include cents</link:label>
+		<link:label xlink:label="lbl_DE1579" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">It is an amount that reduces the amount of tax payable. It represents either 10% of the element untaxed in the fund of the taxable component or 15% of the element taxed in the fund of the taxable component as follows:
+- 10% of the element untaxed in the fund where a person aged 60 and over receives a superannuation income stream. 
+- 15% of the element taxed in the fund where a person aged less than 60 years, who has reached preservation age, receives a superannuation income stream.
+- 15% of the element taxed in the fund where a person aged less than preservation age receives a disability superannuation income stream. 
+- 15% of the element taxed in the fund where the person is in receipt of a superannuation income stream because of the death of another person of whom the person is a dependant and where the person is under 60 years of age when they receive the benefit and the deceased died before aged 60.
+- 10% of the element untaxed in the fund where the person is in receipt of a superannuation income stream because of the death of another person of whom the person is a dependant and where the person is aged 60 or more when they receive the benefit or the deceased died aged 60 or more.</link:label>
+		<link:loc xlink:href="gfati.02.00.data.xsd#DE3" xlink:label="loc_DE3" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3" xlink:to="lbl_DE3" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE3" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Tax Offset Claim Tax Free Threshold Indicator</link:label>
+		<link:label xlink:label="lbl_DE3" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">If this rebate has been claimed this field must be set to True, otherwise this field must be set to False.</link:label>
+		<link:label xlink:label="lbl_DE3" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">The tax-free threshold is the amount of income that can be earned each year that is not taxed (this threshold can vary each year). It is available only to people who are Australian residents for tax purposes.</link:label>
+		<link:loc xlink:href="gfati.02.00.data.xsd#DE47" xlink:label="loc_DE47" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE47" xlink:to="lbl_DE47" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE47" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Tax Offset Claim Zone Indicator</link:label>
+		<link:label xlink:label="lbl_DE47" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">If this rebate has been claimed this field must be set to True, otherwise this field must be set to False.</link:label>
+		<link:label xlink:label="lbl_DE47" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">A zone tax offset may be claimed by a taxpayer if they live or work in certain remote or isolated areas of Australia. This indicator determines whether this incentive has been claimed.</link:label>
+	</link:labelLink>
+</link:linkbase>

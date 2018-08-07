@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="rvctc5.02.02.data.xsd#DE3562" xlink:label="loc_DE3562"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3562" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payroll Tax Net Tax Payable Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3562" xlink:to="lbl_DE3562" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3562" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Total Tax Payable less Tax Paid. This label will display if the Total Tax Payable is either greater than the Tax Paid, or there is a nil balance. The result is shown on the front end as a positive integer</link:label>
+    <link:loc xlink:type="locator" xlink:href="rvctc5.02.02.data.xsd#rvctc5.02.02_rvctc5Abstract" xlink:label="loc_rvctc5Abstract"/>
+    <link:label xlink:type="resource" xlink:label="lbl_rvctc5Abstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Collection 5</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_rvctc5Abstract" xlink:to="lbl_rvctc5Abstract" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="rvctc5.02.02.data.xsd#DE3542" xlink:label="loc_DE3542"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3542" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payroll Tax DGE Pay Liability Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3542" xlink:to="lbl_DE3542" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3542" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">This field is mandatory for all Ordinary Members of a group. 'Ordinary Member will Pay Liability' is assumed if the value of this field is FALSE. Field will default to FALSE. The Ordinary Member is required to set the field to TRUE if DGE is to pay the liability.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3542" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">An Ordinary Member of a group is required to advise whether they intend to pay their tax payable, or whether it will be paid by the Designated Group Employer of their group</link:label>
+    <link:loc xlink:type="locator" xlink:href="rvctc5.02.02.data.xsd#DE3553" xlink:label="loc_DE3553"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3553" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payroll Tax Payment Amount Receipt Date</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3553" xlink:to="lbl_DE3553" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3553" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">This element relates to all employer types that are required to lodge a Payroll Tax return. This field will not contain a value if tax has not been paid during the return period. This receipt date may be different to the transaction date</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3553" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Date of receipt of the Payment Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="rvctc5.02.02.data.xsd#DE3555" xlink:label="loc_DE3555"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3555" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payroll Tax Payment Discrepency Details Text</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3555" xlink:to="lbl_DE3555" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3555" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Comments for Tax Payments. This element becomes mandatory only if the Total Payments prefilled value has been edited. It is a free Text Comments Field to provide supporting information for the amendment. Note - this label applies to all employer types that are required to lodge a Payroll Tax return.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3555" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">User provides details of any amendments that are made to the pre-filled payment amount as recorded by the Victorian State Revenue Office</link:label>
+    <link:loc xlink:type="locator" xlink:href="rvctc5.02.02.data.xsd#DE3554" xlink:label="loc_DE3554"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3554" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payroll Tax Total Payments Made For Annual Period Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3554" xlink:to="lbl_DE3554" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3554" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Tax Paid does not include any interest or penalty that may have been imposed. This element is mandatory for all employer types that are required to lodge a Payroll Tax return. It is to be an editable field to allow the user to update and advise correct total in the event that there is a discrepancy</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3554" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Total Payments received for the period of the Annual Reconciliation. If there is a discrepancy in this pre-filled value, then the correct amount is to be entered. If the pre-filled amount is amended, Payment Discrepancy Details must be advised</link:label>
+    <link:loc xlink:type="locator" xlink:href="rvctc5.02.02.data.xsd#DE1594" xlink:label="loc_DE1594"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1594" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payroll Tax Liable Period Employment Days Count</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1594" xlink:to="lbl_DE1594" order="1.0"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1594" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Number of days that the Employer employed in the State Reconciliation Period</link:label>
+  </link:labelLink>
+</link:linkbase>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:cgls.0001.prv.02.00="http://sbr.gov.au/rprt/ato/cgls/cgls.0001.private.02.00.module" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:RelPrdDrtn.02.00="http://sbr.gov.au/dims/RelPrdDrtn.02.00.dims" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:LossGenSource.02.00="http://sbr.gov.au/dims/LossGenSource.02.00.dims" xmlns:MajOwnshpAndCntrlTestType.02.00="http://sbr.gov.au/dims/MajOwnshpAndCntrlTestType.02.00.dims" xmlns:RprtPyType.02.03="http://sbr.gov.au/dims/RprtPyType.02.03.dims" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:AssblFrgnIncClass.02.00="http://sbr.gov.au/dims/AssblFrgnIncClass.02.00.dims" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" targetNamespace="http://sbr.gov.au/rprt/ato/cgls/cgls.0001.private.02.00.module" elementFormDefault="qualified">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.03.labLink.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/RelPrdDrtn.02.00.labLink.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/MajOwnshpAndCntrlTestType.02.00.labLink.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/LossGenSource.02.00.labLink.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/AssblFrgnIncClass.02.00.labLink.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="cgls.0001.private.02.00.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="cgls.0001.private.02.00.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/AssblFrgnIncClass.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/LossGenSource.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/MajOwnshpAndCntrlTestType.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/RelPrdDrtn.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.03.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="cgls.0001.private.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgls/cgls.0001.private.02.00/labRole" id="cgls.0001.privatelabLinkInfoCls">
+				<link:definition>cgls.0001_private</link:definition>
+				<link:usedOn>link:labelLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgls/cgls.0001.private.02.00/refRole" id="cgls.0001.privaterefLink">
+				<link:definition>cgls.0001_private</link:definition>
+				<link:usedOn>link:referenceLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgls/cgls.0001.private.02.00/defRole" id="cgls.0001.privatedefLink">
+				<link:definition>cgls.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgls/cgls.0001.private.02.00/defRole/hypercubes/ReportingParty" id="cgls.0001.privatedefLinkReportingParty">
+				<link:definition>cgls.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgls/cgls.0001.private.02.00/defRole/hypercubes/JoiningEntity" id="cgls.0001.privatedefLinkJoiningEntity">
+				<link:definition>cgls.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgls/cgls.0001.private.02.00/defRole/hypercubes/Transferor" id="cgls.0001.privatedefLinkTransferor">
+				<link:definition>cgls.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgls/cgls.0001.private.02.00/defRole/hypercubes/ReportingParty.MajorityOwnershipAndControlTest" id="cgls.0001.privatedefLinkReportingParty.MajorityOwnershipAndControlTest">
+				<link:definition>cgls.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgls/cgls.0001.private.02.00/defRole/hypercubes/ReportingParty.LossGenerationSource" id="cgls.0001.privatedefLinkReportingParty.LossGenerationSource">
+				<link:definition>cgls.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgls/cgls.0001.private.02.00/defRole/hypercubes/ReportingParty.RelativePeriodDuration" id="cgls.0001.privatedefLinkReportingParty.RelativePeriodDuration">
+				<link:definition>cgls.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgls/cgls.0001.private.02.00/defRole/hypercubes/ReportingParty.AssessableForeignIncomeClassification" id="cgls.0001.privatedefLinkReportingParty.AssessableForeignIncomeClassification">
+				<link:definition>cgls.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgls/cgls.0001.private.02.00/defRole/hypercubes/ReportingParty.RelativePeriodDuration.Y0Minus10SAP" id="cgls.0001.privatedefLinkReportingParty.RelativePeriodDuration.Y0Minus10SAP">
+				<link:definition>cgls.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/AssblFrgnIncClass.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/AssblFrgnIncClass.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/LossGenSource.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/LossGenSource.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/MajOwnshpAndCntrlTestType.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/MajOwnshpAndCntrlTestType.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/RelPrdDrtn.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RelPrdDrtn.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.03.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.03.data.xsd"/>
+	<xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+	<xsd:element name="ReportingPartyPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1279" xbrli:periodType="instant"/>
+	<xsd:element name="JoiningEntityPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1285" xbrli:periodType="instant"/>
+	<xsd:element name="TransferorPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1286" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyMajorityOwnershipAndControlTestPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1430" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyLossGenerationSourcePrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1431" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyRelativePeriodDurationPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1432" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyAssessableForeignIncomeClassificationPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1433" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyRelativePeriodDurationY0Minus10SAPPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1434" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingParty" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" nillable="true" id="HC1279" xbrli:periodType="instant"/>
+	<xsd:element name="JoiningEntity" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" nillable="true" id="HC1285" xbrli:periodType="instant"/>
+	<xsd:element name="Transferor" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" nillable="true" id="HC1286" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyMajorityOwnershipAndControlTest" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" nillable="true" id="HC1430" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyLossGenerationSource" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" nillable="true" id="HC1431" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyRelativePeriodDuration" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" nillable="true" id="HC1432" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyAssessableForeignIncomeClassification" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" nillable="true" id="HC1433" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyRelativePeriodDurationY0Minus10SAP" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" nillable="true" id="HC1434" xbrli:periodType="instant"/>
+</xsd:schema>

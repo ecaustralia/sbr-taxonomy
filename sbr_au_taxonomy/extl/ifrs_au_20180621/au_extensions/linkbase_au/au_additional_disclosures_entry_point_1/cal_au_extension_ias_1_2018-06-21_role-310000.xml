@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<!--
+		This file uses certain elements from the IFRS Taxonomy released by the IFRS Foundation on 2018-03-16.
+		For information on the IFRS Foundation's copyright and the terms and conditions of use for these files, please refer to http://go.ifrs.org/IFRSTterms.
+		The IFRS Foundation logo, the IASB logo, the IFRS for SMEs logo, the "Hexagon Device", "IFRS Foundation", "eIFRS", "IAS", "IASB", "IFRS for SMEs", "IASs", "IFRS", "IFRSs", "International Accounting Standards" and "International Financial Reporting Standards", "IFRIC", "SIC" and "IFRS Taxonomy" are Trade Marks of the IFRS Foundation.
+		For further information about where the Trade Marks are protected and/or are in use please contact the IFRS Foundation.
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://xbrl.ifrs.org/role/ifrs/ias_1_2018-03-16_role-310000" xlink:type="simple" xlink:href="../../../full_ifrs/linkbases/ias_1/rol_ias_1_2018-03-16.xsd#ias_1_2018-03-16_role-310000"/>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.ifrs.org/role/ifrs/ias_1_2018-03-16_role-310000">
+    <link:loc xlink:type="locator" xlink:href="../../../full_ifrs/full_ifrs-cor_2018-03-16.xsd#ifrs-full_ProfitLossFromOperatingActivities" xlink:label="loc_8"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_UnderwritingResult" xlink:label="UnderwritingResult"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_8" xlink:to="UnderwritingResult" order="11.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_NetClaimsIncurred" xlink:label="NetClaimsIncurred"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="UnderwritingResult" xlink:to="NetClaimsIncurred" order="20.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_ClaimExpense" xlink:label="ClaimExpense"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="NetClaimsIncurred" xlink:to="ClaimExpense" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_ReinsuranceAndOtherRecoveriesRevenue" xlink:label="ReinsuranceAndOtherRecoveriesRevenue"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="NetClaimsIncurred" xlink:to="ReinsuranceAndOtherRecoveriesRevenue" order="20.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_NetMovementInUnexpiredRiskLiability" xlink:label="NetMovementInUnexpiredRiskLiability"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="UnderwritingResult" xlink:to="NetMovementInUnexpiredRiskLiability" order="30.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_GrossMovementInUnexpiredRiskLiability" xlink:label="GrossMovementInUnexpiredRiskLiability"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="NetMovementInUnexpiredRiskLiability" xlink:to="GrossMovementInUnexpiredRiskLiability" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_ReinsuranceRecoveriesOnUnexpiredRiskLiability" xlink:label="ReinsuranceRecoveriesOnUnexpiredRiskLiability"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="NetMovementInUnexpiredRiskLiability" xlink:to="ReinsuranceRecoveriesOnUnexpiredRiskLiability" order="20.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_AcquisitionCosts" xlink:label="AcquisitionCosts"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="UnderwritingResult" xlink:to="AcquisitionCosts" order="40.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_UnderwritingExpenses" xlink:label="UnderwritingExpenses"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="UnderwritingResult" xlink:to="UnderwritingExpenses" order="50.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_OtherUnderwritingExpenses" xlink:label="OtherUnderwritingExpenses"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="UnderwritingResult" xlink:to="OtherUnderwritingExpenses" order="60.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_NetPremiumRevenue" xlink:label="NetPremiumRevenue"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="UnderwritingResult" xlink:to="NetPremiumRevenue" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_DirectPremiumRevenue" xlink:label="DirectPremiumRevenue"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="NetPremiumRevenue" xlink:to="DirectPremiumRevenue" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_InwardsReinsurancePremiumRevenue" xlink:label="InwardsReinsurancePremiumRevenue"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="NetPremiumRevenue" xlink:to="InwardsReinsurancePremiumRevenue" order="20.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_OutwardReinsurancePremiumExpense" xlink:label="OutwardReinsurancePremiumExpense"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="NetPremiumRevenue" xlink:to="OutwardReinsurancePremiumExpense" order="30.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_LifeInsuranceUnderwritingResult" xlink:label="LifeInsuranceUnderwritingResult"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_8" xlink:to="LifeInsuranceUnderwritingResult" order="12.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_NetLifeInsurancePremiumRevenue" xlink:label="NetLifeInsurancePremiumRevenue"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="LifeInsuranceUnderwritingResult" xlink:to="NetLifeInsurancePremiumRevenue" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_LifeInsurancePremiumRevenue" xlink:label="LifeInsurancePremiumRevenue"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="NetLifeInsurancePremiumRevenue" xlink:to="LifeInsurancePremiumRevenue" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_OutwardReinsuranceExpense" xlink:label="OutwardReinsuranceExpense"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="NetLifeInsurancePremiumRevenue" xlink:to="OutwardReinsuranceExpense" order="20.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_NetLifeInsuranceClaimExpense" xlink:label="NetLifeInsuranceClaimExpense"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="LifeInsuranceUnderwritingResult" xlink:to="NetLifeInsuranceClaimExpense" order="20.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_LifeInsuranceClaimExpense" xlink:label="LifeInsuranceClaimExpense"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="NetLifeInsuranceClaimExpense" xlink:to="LifeInsuranceClaimExpense" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_ReinsuranceRecoveriesRevenue" xlink:label="ReinsuranceRecoveriesRevenue"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="NetLifeInsuranceClaimExpense" xlink:to="ReinsuranceRecoveriesRevenue" order="20.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_ChangeInLifeInsuranceContractLiabilities" xlink:label="ChangeInLifeInsuranceContractLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="LifeInsuranceUnderwritingResult" xlink:to="ChangeInLifeInsuranceContractLiabilities" order="30.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_ChangeInLifeInvestmentContractLiabilities" xlink:label="ChangeInLifeInvestmentContractLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="LifeInsuranceUnderwritingResult" xlink:to="ChangeInLifeInvestmentContractLiabilities" order="40.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_ChangeInUnvestedPolicyholderBenefitsLiabilities" xlink:label="ChangeInUnvestedPolicyholderBenefitsLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="LifeInsuranceUnderwritingResult" xlink:to="ChangeInUnvestedPolicyholderBenefitsLiabilities" order="50.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2018-06-21.xsd#ifrs_au-full_ChangeInReinsurersShareOfLifeInsuranceLiabilities" xlink:label="ChangeInReinsurersShareOfLifeInsuranceLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="LifeInsuranceUnderwritingResult" xlink:to="ChangeInReinsurersShareOfLifeInsuranceLiabilities" order="60.0" weight="1"/>
+  </link:calculationLink>
+</link:linkbase>

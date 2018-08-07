@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:trtamis.0001.prv.02.00="http://sbr.gov.au/rprt/ato/trtamis/trtamis.0001.private.02.00.module" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:RprtPyType.02.13="http://sbr.gov.au/dims/RprtPyType.02.13.dims" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:AMITCharType.02.02="http://sbr.gov.au/dims/AMITCharType.02.02.dims" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:ExpType.02.00="http://sbr.gov.au/dims/ExpType.02.00.dims" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/rprt/ato/trtamis/trtamis.0001.private.02.00.module" elementFormDefault="qualified">
+    <xsd:annotation>
+        <xsd:appinfo>
+            <link:linkbaseRef xlink:type="simple" xlink:href="trtamis.0001.private.02.00.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="trtamis.0001.private.02.00.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtamis/trtamis.0001.private.02.00/defRole" id="trtamis.0001.02.00.privatedefLink">
+                <link:definition>trtamis.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtamis/trtamis.0001.private.02.00/labRole" id="trtamis.0001.02.00.privatelabLinkInfoCls">
+                <link:definition>trtamis.0001_private</link:definition>
+                <link:usedOn>link:labelLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtamis/trtamis.0001.private.02.00/refRole" id="trtamis.0001.02.00.privaterefLink">
+                <link:definition>trtamis.0001_private</link:definition>
+                <link:usedOn>link:referenceLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtamis/trtamis.0001.private.02.00/hypercubes/AMITCharTypeReportingParty1" id="trtamis.0001.02.00.privatedefLinkAMITCharTypeReportingParty1">
+                <link:definition>trtamis.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtamis/trtamis.0001.private.02.00/hypercubes/AMITCharTypeReportingParty2" id="trtamis.0001.02.00.privatedefLinkAMITCharTypeReportingParty2">
+                <link:definition>trtamis.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtamis/trtamis.0001.private.02.00/hypercubes/AssessableIncomeCapitalGainsReportingParty" id="trtamis.0001.02.00.privatedefLinkAssessableIncomeCapitalGainsReportingParty">
+                <link:definition>trtamis.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtamis/trtamis.0001.private.02.00/hypercubes/AssessableIncomeOtherThanCapitalGainsAssessableIncomeCapitalGainsReportingParty" id="trtamis.0001.02.00.privatedefLinkAssessableIncomeOtherThanCapitalGainsAssessableIncomeCapitalGainsReportingParty">
+                <link:definition>trtamis.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtamis/trtamis.0001.private.02.00/hypercubes/AssessableIncomeOtherThanCapitalGainsReportingParty" id="trtamis.0001.02.00.privatedefLinkAssessableIncomeOtherThanCapitalGainsReportingParty">
+                <link:definition>trtamis.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtamis/trtamis.0001.private.02.00/hypercubes/DirectAssessableIncomeOtherThanCapitalGainsAssessableIncomeCapitalGainsReportingParty" id="trtamis.0001.02.00.privatedefLinkDirectAssessableIncomeOtherThanCapitalGainsAssessableIncomeCapitalGainsReportingParty">
+                <link:definition>trtamis.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtamis/trtamis.0001.private.02.00/hypercubes/IndirectAssessableIncomeOtherThanCapitalGainsAssessableIncomeCapitalGainsReportingParty" id="trtamis.0001.02.00.privatedefLinkIndirectAssessableIncomeOtherThanCapitalGainsAssessableIncomeCapitalGainsReportingParty">
+                <link:definition>trtamis.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtamis/trtamis.0001.private.02.00/hypercubes/OffsetReportingParty" id="trtamis.0001.02.00.privatedefLinkOffsetReportingParty">
+                <link:definition>trtamis.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtamis/trtamis.0001.private.02.00/hypercubes/ReportingParty" id="trtamis.0001.02.00.privatedefLinkReportingParty">
+                <link:definition>trtamis.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+        </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.13.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.13.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/AMITCharType.02.02.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/AMITCharType.02.02.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/ExpType.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/ExpType.02.00.data.xsd"/>
+    <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="AMITCharTypeReportingParty1PrimaryItemsAbstract" id="RA100223" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AMITCharTypeReportingParty2PrimaryItemsAbstract" id="RA100224" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AssessableIncomeCapitalGainsReportingPartyPrimaryItemsAbstract" id="RA100225" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AssessableIncomeOtherThanCapitalGainsAssessableIncomeCapitalGainsReportingPartyPrimaryItemsAbstract" id="RA100226" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AssessableIncomeOtherThanCapitalGainsReportingPartyPrimaryItemsAbstract" id="RA100227" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="DirectAssessableIncomeOtherThanCapitalGainsAssessableIncomeCapitalGainsReportingPartyPrimaryItemsAbstract" id="RA100228" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="IndirectAssessableIncomeOtherThanCapitalGainsAssessableIncomeCapitalGainsReportingPartyPrimaryItemsAbstract" id="RA100229" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="OffsetReportingPartyPrimaryItemsAbstract" id="RA100230" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingPartyPrimaryItemsAbstract" id="RA100231" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AMITCharTypeReportingParty1" id="HC100223" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AMITCharTypeReportingParty2" id="HC100224" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AssessableIncomeCapitalGainsReportingParty" id="HC100225" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AssessableIncomeOtherThanCapitalGainsAssessableIncomeCapitalGainsReportingParty" id="HC100226" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AssessableIncomeOtherThanCapitalGainsReportingParty" id="HC100227" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="DirectAssessableIncomeOtherThanCapitalGainsAssessableIncomeCapitalGainsReportingParty" id="HC100228" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="IndirectAssessableIncomeOtherThanCapitalGainsAssessableIncomeCapitalGainsReportingParty" id="HC100229" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="OffsetReportingParty" id="HC100230" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingParty" id="HC100231" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+</xsd:schema>

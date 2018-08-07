@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:p0="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/osrnsw/ptarnsw/ptarnsw.0001.lodge.response.02.00/defRole" xlink:type="simple" xlink:href="ptarnsw.0001.lodge.response.02.00.report.xsd#ptarnsw.0001.lodge.rsp.02.00.lodge.responsedefLink"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/osrnsw/ptarnsw/ptarnsw.0001.private.02.00/hypercubes/ReportingParty.NSW" xlink:type="simple" xlink:href="ptarnsw.0001.private.02.00.module.xsd#ptarnsw.0001.02.00.privatedefLink.ReportingPartyNSW"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/osrnsw/ptarnsw/ptarnsw.0001.lodge.response.02.00/defRole">
+    <link:loc xlink:type="locator" xlink:href="ptarnsw.0001.private.02.00.module.xsd#RA1056" xlink:label="ReportingPartyPrimaryItemsAbstract" xlink:title="ReportingPartyPrimaryItemsAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE825" xlink:label="PaymentRecord.AgencyGeneratedReference.Number"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ReportingPartyPrimaryItemsAbstract" xlink:to="PaymentRecord.AgencyGeneratedReference.Number" xlink:title="definition: ReportingPartyPrimaryItemsAbstract to PaymentRecord.AgencyGeneratedReference.Number" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="ptarnsw.0001.private.02.00.module.xsd#HC1056" xlink:label="ReportingPartyNSW" xlink:title="ReportingPartyNSW"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="ReportingPartyPrimaryItemsAbstract" xlink:to="ReportingPartyNSW" xlink:title="definition: ReportingPartyPrimaryItemsAbstract to ReportingPartyNSW" order="2.0" p0:targetRole="http://sbr.gov.au/rprt/osrnsw/ptarnsw/ptarnsw.0001.private.02.00/hypercubes/ReportingParty.NSW" p0:contextElement="segment" p0:closed="true"/>
+  </link:definitionLink>
+</link:linkbase>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fvsu.0001.prv.02.01="http://sbr.gov.au/rprt/ato/fvsu/fvsu.0001.private.02.01.module" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:SuperPaymentDest.02.00="http://sbr.gov.au/dims/SuperPaymentDest.02.00.dims" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:RprtPyType.02.07="http://sbr.gov.au/dims/RprtPyType.02.07.dims" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:SprFndUSI.02.00="http://sbr.gov.au/dims/SprFndUSI.02.00.dims" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/rprt/ato/fvsu/fvsu.0001.private.02.01.module" elementFormDefault="qualified">
+    <xsd:annotation>
+        <xsd:appinfo>
+            <link:linkbaseRef xlink:type="simple" xlink:href="fvsu.0001.private.02.01.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="fvsu.0001.private.02.01.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/fvsu/fvsu.0001.private.02.01/defRole" id="fvsu.0001.02.01.privatedefLink">
+                <link:definition>fvsu.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/fvsu/fvsu.0001.private.02.01/labRole" id="fvsu.0001.02.01.privatelabLinkInfoCls">
+                <link:definition>fvsu.0001_private</link:definition>
+                <link:usedOn>link:labelLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/fvsu/fvsu.0001.private.02.01/refRole" id="fvsu.0001.02.01.privaterefLink">
+                <link:definition>fvsu.0001_private</link:definition>
+                <link:usedOn>link:referenceLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/fvsu/fvsu.0001.private.02.01/hypercubes/IntermediaryReportingParty" id="fvsu.0001.02.01.privatedefLinkIntermediaryReportingParty">
+                <link:definition>fvsu.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/fvsu/fvsu.0001.private.02.01/hypercubes/PrimarySecondarySprFndUSIReportingParty" id="fvsu.0001.02.01.privatedefLinkPrimarySecondarySprFndUSIReportingParty">
+                <link:definition>fvsu.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/fvsu/fvsu.0001.private.02.01/hypercubes/PrimarySprFndUSIReportingParty" id="fvsu.0001.02.01.privatedefLinkPrimarySprFndUSIReportingParty">
+                <link:definition>fvsu.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/fvsu/fvsu.0001.private.02.01/hypercubes/ReportingParty" id="fvsu.0001.02.01.privatedefLinkReportingParty">
+                <link:definition>fvsu.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/fvsu/fvsu.0001.private.02.01/hypercubes/SprFndUSIReportingParty" id="fvsu.0001.02.01.privatedefLinkSprFndUSIReportingParty">
+                <link:definition>fvsu.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+        </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.07.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.07.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/SprFndUSI.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/SprFndUSI.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/SuperPaymentDest.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/SuperPaymentDest.02.00.data.xsd"/>
+    <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="IntermediaryReportingPartyPrimaryItemsAbstract" id="RA100223" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="PrimarySecondarySprFndUSIReportingPartyPrimaryItemsAbstract" id="RA100224" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="PrimarySprFndUSIReportingPartyPrimaryItemsAbstract" id="RA100225" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingPartyPrimaryItemsAbstract" id="RA100226" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="SprFndUSIReportingPartyPrimaryItemsAbstract" id="RA100227" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="IntermediaryReportingParty" id="HC100223" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="PrimarySecondarySprFndUSIReportingParty" id="HC100224" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="PrimarySprFndUSIReportingParty" id="HC100225" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingParty" id="HC100226" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="SprFndUSIReportingParty" id="HC100227" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+</xsd:schema>

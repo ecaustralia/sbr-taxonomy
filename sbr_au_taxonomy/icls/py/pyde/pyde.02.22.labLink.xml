@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="pyde.02.22.data.xsd#pyde.02.22_pydeAbstract" xlink:label="loc_pyde.02.22_pydeAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_pydeAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Party Demographics</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_pyde.02.22_pydeAbstract" xlink:to="lbl_pydeAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.22.data.xsd#DE68" xlink:label="loc_DE68"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE68" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Organisation Details Organisation Type Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE68" xlink:to="lbl_DE68"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE68" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The legal or business structure of an organisation. It determines the nature of the organisation's business as described by the Australian Standard 4590.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.22.data.xsd#DE222" xlink:label="loc_DE222"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE222" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Person Demographic Details Address Change Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE222" xlink:to="lbl_DE222"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE222" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates that the person has had their address changed.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE222" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = indicates the address has changed.
+false = indicates the address has not changed.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.22.data.xsd#DE13421" xlink:label="loc_DE13421"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13421" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Person Demographic Details Dependent Children Count</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13421" xlink:to="lbl_DE13421"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13421" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the number of Australian resident children maintained by the individual.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.22.data.xsd#DE63" xlink:label="loc_DE63"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE63" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Person Demographic Details Occupation Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE63" xlink:to="lbl_DE63"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE63" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A code that identifies the occupation of the person.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.22.data.xsd#DE13425" xlink:label="loc_DE13425"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13425" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Person Demographic Details Spouse Full Year Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13425" xlink:to="lbl_DE13425"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13425" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the individual had the spouse for the full financial year.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13425" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = taxpayer had the spouse for the full financial year.
+false = taxpayer did not have the spouse for the full financial year.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.22.data.xsd#DE13427" xlink:label="loc_DE13427"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13427" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Person Demographic Details Spouse Relationship End Date</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13427" xlink:to="lbl_DE13427"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13427" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the end date of the period when the individual had a spouse.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.22.data.xsd#DE13426" xlink:label="loc_DE13426"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13426" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Person Demographic Details Spouse Relationship Start Date</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13426" xlink:to="lbl_DE13426"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13426" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the start date of the period when the individual had a spouse.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.22.data.xsd#DE13408" xlink:label="loc_DE13408"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13408" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Residency Tax Purposes Status Change Date</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13408" xlink:to="lbl_DE13408"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13408" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the date on which the individual became an Australian resident for tax purposes or ceased to remain an Australian resident for tax purposes.</link:label>
+    </link:labelLink>
+</link:linkbase>

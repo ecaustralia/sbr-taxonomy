@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema targetNamespace="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.prefill.response.02.00.report" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ptarsa.0001.prefill.rsp.02.00="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.prefill.response.02.00.report" xmlns:pypr.02.01="http://sbr.gov.au/icls/py/pypr/pypr.02.01.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:pyde.02.01="http://sbr.gov.au/icls/py/pyde/pyde.02.01.data" xmlns:pyin.02.00="http://sbr.gov.au/icls/py/pyin/pyin.02.00.data" xmlns:ptarsa.0001.prv.02.00="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.private.02.00.module" xmlns:address3.02.00="http://sbr.gov.au/comnmdle/comnmdle.addressdetails3.02.00.module" xmlns:pyin.02.02="http://sbr.gov.au/icls/py/pyin/pyin.02.02.data" xmlns:lrla.02.03="http://sbr.gov.au/icls/lr/lrla/lrla.02.03.data" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bpay1.02.00="http://sbr.gov.au/comnmdle/comnmdle.bpay1.02.00.module" xmlns:rvctc3.02.00="http://sbr.gov.au/icls/rvc/rvctc/rvctc3.02.00.data" xmlns:directcredit1.02.03="http://sbr.gov.au/comnmdle/comnmdle.directcredit1.02.03.module" xmlns:rvctc5.02.00="http://sbr.gov.au/icls/rvc/rvctc/rvctc5.02.00.data" xmlns:ddebit1.02.02="http://sbr.gov.au/comnmdle/comnmdle.directdebit1.02.02.module" xmlns:dtyp.02.03="http://sbr.gov.au/fdtn/sbr.02.03.dtyp" xmlns:dtyp.02.05="http://sbr.gov.au/fdtn/sbr.02.05.dtyp" xmlns:pypr.02.00="http://sbr.gov.au/icls/py/pypr/pypr.02.00.data" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:email1.02.00="http://sbr.gov.au/comnmdle/comnmdle.electroniccontactelectronicmail1.02.00.module" xmlns:fax1.02.00="http://sbr.gov.au/comnmdle/comnmdle.electroniccontactfacsimile1.02.00.module" xmlns:pyde.02.00="http://sbr.gov.au/icls/py/pyde/pyde.02.00.data" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:pyin.02.01="http://sbr.gov.au/icls/py/pyin/pyin.02.01.data" xmlns:lrla.02.00="http://sbr.gov.au/icls/lr/lrla/lrla.02.00.data" xmlns:pyin.02.03="http://sbr.gov.au/icls/py/pyin/pyin.02.03.data" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:orgname1.02.00="http://sbr.gov.au/comnmdle/comnmdle.organisationname1.02.00.module" xmlns:taxrate1.02.00="http://sbr.gov.au/comnmdle/comnmdle.taxrate1.02.00.module" xmlns:dtyp.02.00="http://sbr.gov.au/fdtn/sbr.02.00.dtyp" xmlns:phone1.02.00="http://sbr.gov.au/comnmdle/comnmdle.electroniccontacttelephone1.02.00.module" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:emsup.02.00="http://sbr.gov.au/icls/em/emsup/emsup.02.00.data" xmlns:declaration2.02.00="http://sbr.gov.au/comnmdle/comnmdle.declaration2.02.00.module" xmlns:pyid.02.00="http://sbr.gov.au/icls/py/pyid/pyid.02.00.data">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ptarsa.0001.prefill.response.02.00.presLink.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ptarsa.0001.prefill.response.02.00.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ptarsa.0001.prefill.response.02.00.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pypr/pypr.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pypr/pypr.02.01.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/em/emsup/emsup.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc3.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc5.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.01.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.02.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.03.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.03.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.01.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ptarsa.0001.prefill.response.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pypr/pypr.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pypr/pypr.02.01.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/em/emsup/emsup.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc3.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc5.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.prefill.response.02.00/presRole" id="ptarsa.0001.prefill.response.02.00.presLink">
+        <link:definition>ptarsa.0001_prefill_response</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.prefill.response.02.00/labRole" id="ptarsa.0001.prefill.response.02.00.labLinkInfoCls">
+        <link:definition>ptarsa.0001_prefill_response</link:definition>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.prefill.response.02.00/refRole" id="ptarsa.0001.prefill.response.02.00.refLink">
+        <link:definition>ptarsa.0001_prefill_response</link:definition>
+        <link:usedOn>link:referenceLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.prefill.response.02.00/defRole" id="ptarsa.0001.prefill.response.02.00.defLink">
+        <link:definition>ptarsa.0001_prefill_response</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.prefill.response.02.00/defRole2" id="ptarsa.0001.prefill.response.02.00.defLink2">
+        <link:definition>ptarsa.0001_prefill_response</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.prefill.response.02.00/defRole3" id="ptarsa.0001.prefill.response.02.00.defLink3">
+        <link:definition>ptarsa.0001_prefill_response</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.prefill.response.02.00/defRole4" id="ptarsa.0001.prefill.response.02.00.defLink4">
+        <link:definition>ptarsa.0001_prefill_response</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.prefill.response.02.00/defRole5" id="ptarsa.0001.prefill.response.02.00.defLink5">
+        <link:definition>ptarsa.0001_prefill_response</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.prefill.response.02.00/defRole6" id="ptarsa.0001.prefill.response.02.00.defLink6">
+        <link:definition>ptarsa.0001_prefill_response</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.prefill.response.02.00/defRole7" id="ptarsa.0001.prefill.response.02.00.defLink7">
+        <link:definition>ptarsa.0001_prefill_response</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.private.02.00.module" schemaLocation="ptarsa.0001.private.02.00.module.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.organisationname1.02.00.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.organisationname1.02.00.module.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.addressdetails3.02.00.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.addressdetails3.02.00.module.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.electroniccontacttelephone1.02.00.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.electroniccontacttelephone1.02.00.module.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.electroniccontactfacsimile1.02.00.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.electroniccontactfacsimile1.02.00.module.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.electroniccontactelectronicmail1.02.00.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.electroniccontactelectronicmail1.02.00.module.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.declaration2.02.00.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.declaration2.02.00.module.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.directdebit1.02.02.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.directdebit1.02.02.module.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.directcredit1.02.03.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.directcredit1.02.03.module.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.bpay1.02.00.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.bpay1.02.00.module.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.taxrate1.02.00.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.taxrate1.02.00.module.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/icls/py/pyde/pyde.02.00.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/icls/py/pyid/pyid.02.00.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/icls/py/pyin/pyin.02.00.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/icls/py/pypr/pypr.02.00.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pypr/pypr.02.00.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/icls/py/pypr/pypr.02.01.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pypr/pypr.02.01.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/icls/em/emsup/emsup.02.00.data" schemaLocation="../../../../sbr_au_taxonomy/icls/em/emsup/emsup.02.00.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/icls/lr/lrla/lrla.02.00.data" schemaLocation="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/icls/rvc/rvctc/rvctc3.02.00.data" schemaLocation="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc3.02.00.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/icls/rvc/rvctc/rvctc5.02.00.data" schemaLocation="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc5.02.00.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/icls/py/pyin/pyin.02.01.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.01.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/icls/py/pyin/pyin.02.02.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.02.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/icls/py/pyin/pyin.02.03.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.03.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/icls/lr/lrla/lrla.02.03.data" schemaLocation="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.03.data.xsd"/>
+  <xsd:import namespace="http://sbr.gov.au/icls/py/pyde/pyde.02.01.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.01.data.xsd"/>
+  <xsd:element name="PTARSAPrefillResponseAbstract" id="RA1541" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+  <xsd:element name="PayrollTaxPayment" id="RT1543" substitutionGroup="xbrli:tuple" nillable="true">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element minOccurs="0" ref="pyin.02.00:PaymentRecord.Payment.Amount"/>
+        <xsd:element minOccurs="0" ref="pyin.02.00:PaymentRecord.AgencyGeneratedReference.Number"/>
+        <xsd:element ref="pyin.02.01:PaymentRecord.PaymentStatus.Code"/>
+        <xsd:element minOccurs="0" ref="ptarsa.0001.prefill.rsp.02.00:PaymentReference"/>
+      </xsd:sequence>
+      <xsd:attribute name="id" type="xsd:ID"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="PaymentReference" id="RT1544" substitutionGroup="xbrli:tuple" nillable="true">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="pyin.02.03:PaymentMechanism.PaymentMethod.Code"/>
+        <xsd:element minOccurs="0" ref="pyin.02.01:PaymentMechanism.CustomerReference.Number"/>
+      </xsd:sequence>
+      <xsd:attribute name="id" type="xsd:ID"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="PaymentMechanism" id="RT1553" substitutionGroup="xbrli:tuple" nillable="true">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="pyin.02.03:PaymentMechanism.PaymentMethod.Code"/>
+        <xsd:element minOccurs="0" ref="pyin.02.02:PaymentMechanism.Instruction.Text"/>
+        <xsd:element minOccurs="0" ref="ddebit1.02.02:DirectDebit"/>
+        <xsd:element minOccurs="0" ref="directcredit1.02.03:DirectCredit"/>
+        <xsd:element minOccurs="0" ref="bpay1.02.00:Bpay"/>
+      </xsd:sequence>
+      <xsd:attribute name="id" type="xsd:ID"/>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

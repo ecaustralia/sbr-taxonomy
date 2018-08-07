@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srf="http://sbr.gov.au/rprt/apra/srf.02.09.data" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://sbr.gov.au/rprt/apra/srf.02.09.data">
+	<xsd:import xmlns:srf_110_2.02.02="http://sbr.gov.au/rprt/apra/srf_110_2.02.02.data" namespace="http://sbr.gov.au/rprt/apra/srf_110_2.02.02.data" schemaLocation="srf_110_2/srf_110_2.02.02.xsd"/>
+	<xsd:import xmlns:srf_210_2.02.02="http://sbr.gov.au/rprt/apra/srf_210_2.02.02.data" namespace="http://sbr.gov.au/rprt/apra/srf_210_2.02.02.data" schemaLocation="srf_210_2/srf_210_2.02.02.xsd"/>
+	<xsd:import xmlns:srf_240_0.02.02="http://sbr.gov.au/rprt/apra/srf_240_0.02.02.data" namespace="http://sbr.gov.au/rprt/apra/srf_240_0.02.02.data" schemaLocation="srf_240_0/srf_240_0.02.02.xsd"/>
+	<xsd:import xmlns:srf_260_0.02.02="http://sbr.gov.au/rprt/apra/srf_260_0.02.02.data" namespace="http://sbr.gov.au/rprt/apra/srf_260_0.02.02.data" schemaLocation="srf_260_0/srf_260_0.02.02.xsd"/>
+	<xsd:import xmlns:srf_310_1.02.02="http://sbr.gov.au/rprt/apra/srf_310_1.02.02.data" namespace="http://sbr.gov.au/rprt/apra/srf_310_1.02.02.data" schemaLocation="srf_310_1/srf_310_1.02.02.xsd"/>
+	<xsd:import xmlns:srf_310_2.02.02="http://sbr.gov.au/rprt/apra/srf_310_2.02.02.data" namespace="http://sbr.gov.au/rprt/apra/srf_310_2.02.02.data" schemaLocation="srf_310_2/srf_310_2.02.02.xsd"/>
+	<xsd:import xmlns:srf_350_0.02.02="http://sbr.gov.au/rprt/apra/srf_350_0.02.02.data" namespace="http://sbr.gov.au/rprt/apra/srf_350_0.02.02.data" schemaLocation="srf_350_0/srf_350_0.02.02.xsd"/>
+	<xsd:import xmlns:srf_110_0.02.03="http://sbr.gov.au/rprt/apra/srf_110_0.02.03.data" namespace="http://sbr.gov.au/rprt/apra/srf_110_0.02.03.data" schemaLocation="srf_110_0/srf_110_0.02.03.xsd"/>
+	<xsd:import xmlns:srf_110_1_a.02.03="http://sbr.gov.au/rprt/apra/srf_110_1_a.02.03.data" namespace="http://sbr.gov.au/rprt/apra/srf_110_1_a.02.03.data" schemaLocation="srf_110_1_a/srf_110_1_a.02.03.xsd"/>
+	<xsd:import xmlns:srf_110_1_b.02.03="http://sbr.gov.au/rprt/apra/srf_110_1_b.02.03.data" namespace="http://sbr.gov.au/rprt/apra/srf_110_1_b.02.03.data" schemaLocation="srf_110_1_b/srf_110_1_b.02.03.xsd"/>
+	<xsd:import xmlns:srf_120_0.02.03="http://sbr.gov.au/rprt/apra/srf_120_0.02.03.data" namespace="http://sbr.gov.au/rprt/apra/srf_120_0.02.03.data" schemaLocation="srf_120_0/srf_120_0.02.03.xsd"/>
+	<xsd:import xmlns:srf_210_0.02.03="http://sbr.gov.au/rprt/apra/srf_210_0.02.03.data" namespace="http://sbr.gov.au/rprt/apra/srf_210_0.02.03.data" schemaLocation="srf_210_0/srf_210_0.02.03.xsd"/>
+	<xsd:import xmlns:srf_210_1.02.03="http://sbr.gov.au/rprt/apra/srf_210_1.02.03.data" namespace="http://sbr.gov.au/rprt/apra/srf_210_1.02.03.data" schemaLocation="srf_210_1/srf_210_1.02.03.xsd"/>
+	<xsd:import xmlns:srf_220_0.02.03="http://sbr.gov.au/rprt/apra/srf_220_0.02.03.data" namespace="http://sbr.gov.au/rprt/apra/srf_220_0.02.03.data" schemaLocation="srf_220_0/srf_220_0.02.03.xsd"/>
+	<xsd:import xmlns:srf_230_0.02.03="http://sbr.gov.au/rprt/apra/srf_230_0.02.03.data" namespace="http://sbr.gov.au/rprt/apra/srf_230_0.02.03.data" schemaLocation="srf_230_0/srf_230_0.02.03.xsd"/>
+	<xsd:import xmlns:srf_310_0.02.03="http://sbr.gov.au/rprt/apra/srf_310_0.02.03.data" namespace="http://sbr.gov.au/rprt/apra/srf_310_0.02.03.data" schemaLocation="srf_310_0/srf_310_0.02.03.xsd"/>
+	<xsd:import xmlns:srf_114_0.02.00="http://sbr.gov.au/rprt/apra/srf_114_0.02.00.data" namespace="http://sbr.gov.au/rprt/apra/srf_114_0.02.00.data" schemaLocation="srf_114_0/srf_114_0.02.00.xsd"/>
+	<xsd:import xmlns:srf_114_1.02.00="http://sbr.gov.au/rprt/apra/srf_114_1.02.00.data" namespace="http://sbr.gov.au/rprt/apra/srf_114_1.02.00.data" schemaLocation="srf_114_1/srf_114_1.02.00.xsd"/>
+	<xsd:import xmlns:srf_160_0.02.00="http://sbr.gov.au/rprt/apra/srf_160_0.02.00.data" namespace="http://sbr.gov.au/rprt/apra/srf_160_0.02.00.data" schemaLocation="srf_160_0/srf_160_0.02.00.xsd"/>
+	<xsd:import xmlns:srf_161_0.02.00="http://sbr.gov.au/rprt/apra/srf_161_0.02.00.data" namespace="http://sbr.gov.au/rprt/apra/srf_161_0.02.00.data" schemaLocation="srf_161_0/srf_161_0.02.00.xsd"/>
+	<xsd:import xmlns:srf_250_0.02.00="http://sbr.gov.au/rprt/apra/srf_250_0.02.00.data" namespace="http://sbr.gov.au/rprt/apra/srf_250_0.02.00.data" schemaLocation="srf_250_0/srf_250_0.02.00.xsd"/>
+	<xsd:import xmlns:srf_320_0.02.04="http://sbr.gov.au/rprt/apra/srf_320_0.02.04.data" namespace="http://sbr.gov.au/rprt/apra/srf_320_0.02.04.data" schemaLocation="srf_320_0/srf_320_0.02.04.xsd"/>
+	<xsd:import xmlns:srf_410_0.02.00="http://sbr.gov.au/rprt/apra/srf_410_0.02.00.data" namespace="http://sbr.gov.au/rprt/apra/srf_410_0.02.00.data" schemaLocation="srf_410_0/srf_410_0.02.00.xsd"/>
+	<xsd:import xmlns:srf_533_0.02.00="http://sbr.gov.au/rprt/apra/srf_533_0.02.00.data" namespace="http://sbr.gov.au/rprt/apra/srf_533_0.02.00.data" schemaLocation="srf_533_0/srf_533_0.02.00.xsd"/>
+	<xsd:import xmlns:srf_540_0.02.00="http://sbr.gov.au/rprt/apra/srf_540_0.02.00.data" namespace="http://sbr.gov.au/rprt/apra/srf_540_0.02.00.data" schemaLocation="srf_540_0/srf_540_0.02.00.xsd"/>
+	<xsd:import xmlns:srf_610_2.02.00="http://sbr.gov.au/rprt/apra/srf_610_2.02.00.data" namespace="http://sbr.gov.au/rprt/apra/srf_610_2.02.00.data" schemaLocation="srf_610_2/srf_610_2.02.00.xsd"/>
+	<xsd:import xmlns:srf_710_0.02.00="http://sbr.gov.au/rprt/apra/srf_710_0.02.00.data" namespace="http://sbr.gov.au/rprt/apra/srf_710_0.02.00.data" schemaLocation="srf_710_0/srf_710_0.02.00.xsd"/>
+	<xsd:import xmlns:srf_100_0.02.04="http://sbr.gov.au/rprt/apra/srf_100_0.02.04.data" namespace="http://sbr.gov.au/rprt/apra/srf_100_0.02.04.data" schemaLocation="srf_100_0/srf_100_0.02.04.xsd"/>
+	<xsd:import xmlns:srf_200_0.02.04="http://sbr.gov.au/rprt/apra/srf_200_0.02.04.data" namespace="http://sbr.gov.au/rprt/apra/srf_200_0.02.04.data" schemaLocation="srf_200_0/srf_200_0.02.04.xsd"/>
+	<xsd:import xmlns:srf_300_0.02.04="http://sbr.gov.au/rprt/apra/srf_300_0.02.04.data" namespace="http://sbr.gov.au/rprt/apra/srf_300_0.02.04.data" schemaLocation="srf_300_0/srf_300_0.02.04.xsd"/>
+	<xsd:import xmlns:srf_330_2.02.01="http://sbr.gov.au/rprt/apra/srf_330_2.02.01.data" namespace="http://sbr.gov.au/rprt/apra/srf_330_2.02.01.data" schemaLocation="srf_330_2/srf_330_2.02.01.xsd"/>
+	<xsd:import xmlns:srf_331_0.02.01="http://sbr.gov.au/rprt/apra/srf_331_0.02.01.data" namespace="http://sbr.gov.au/rprt/apra/srf_331_0.02.01.data" schemaLocation="srf_331_0/srf_331_0.02.01.xsd"/>
+	<xsd:import xmlns:srf_800_0.02.01="http://sbr.gov.au/rprt/apra/srf_800_0.02.01.data" namespace="http://sbr.gov.au/rprt/apra/srf_800_0.02.01.data" schemaLocation="srf_800_0/srf_800_0.02.01.xsd"/>
+	<xsd:import xmlns:srf_802_0.02.01="http://sbr.gov.au/rprt/apra/srf_802_0.02.01.data" namespace="http://sbr.gov.au/rprt/apra/srf_802_0.02.01.data" schemaLocation="srf_802_0/srf_802_0.02.01.xsd"/>
+	<xsd:import xmlns:srf_160_1.02.00="http://sbr.gov.au/rprt/apra/srf_160_1.02.00.data" namespace="http://sbr.gov.au/rprt/apra/srf_160_1.02.00.data" schemaLocation="srf_160_1/srf_160_1.02.00.xsd"/>
+	<xsd:import xmlns:srf_320_1.02.00="http://sbr.gov.au/rprt/apra/srf_320_1.02.00.data" namespace="http://sbr.gov.au/rprt/apra/srf_320_1.02.00.data" schemaLocation="srf_320_1/srf_320_1.02.00.xsd"/>
+	<xsd:import xmlns:srf_330_1.02.00="http://sbr.gov.au/rprt/apra/srf_330_1.02.00.data" namespace="http://sbr.gov.au/rprt/apra/srf_330_1.02.00.data" schemaLocation="srf_330_1/srf_330_1.02.00.xsd"/>
+	<xsd:import xmlns:srf_530_0.02.00="http://sbr.gov.au/rprt/apra/srf_530_0.02.00.data" namespace="http://sbr.gov.au/rprt/apra/srf_530_0.02.00.data" schemaLocation="srf_530_0/srf_530_0.02.00.xsd"/>
+	<xsd:import xmlns:srf_530_1.02.01="http://sbr.gov.au/rprt/apra/srf_530_1.02.01.data" namespace="http://sbr.gov.au/rprt/apra/srf_530_1.02.01.data" schemaLocation="srf_530_1/srf_530_1.02.01.xsd"/>
+	<xsd:import xmlns:srf_531_0.02.00="http://sbr.gov.au/rprt/apra/srf_531_0.02.00.data" namespace="http://sbr.gov.au/rprt/apra/srf_531_0.02.00.data" schemaLocation="srf_531_0/srf_531_0.02.00.xsd"/>
+	<xsd:import xmlns:srf_532_0.02.00="http://sbr.gov.au/rprt/apra/srf_532_0.02.00.data" namespace="http://sbr.gov.au/rprt/apra/srf_532_0.02.00.data" schemaLocation="srf_532_0/srf_532_0.02.00.xsd"/>
+	<xsd:import xmlns:srf_534_0.02.00="http://sbr.gov.au/rprt/apra/srf_534_0.02.00.data" namespace="http://sbr.gov.au/rprt/apra/srf_534_0.02.00.data" schemaLocation="srf_534_0/srf_534_0.02.00.xsd"/>
+	<xsd:import xmlns:srf_535_0.02.00="http://sbr.gov.au/rprt/apra/srf_535_0.02.00.data" namespace="http://sbr.gov.au/rprt/apra/srf_535_0.02.00.data" schemaLocation="srf_535_0/srf_535_0.02.00.xsd"/>
+	<xsd:import xmlns:srf_601_0.02.01="http://sbr.gov.au/rprt/apra/srf_601_0.02.01.data" namespace="http://sbr.gov.au/rprt/apra/srf_601_0.02.01.data" schemaLocation="srf_601_0/srf_601_0.02.01.xsd"/>
+	<xsd:import xmlns:srf_610_0.02.00="http://sbr.gov.au/rprt/apra/srf_610_0.02.00.data" namespace="http://sbr.gov.au/rprt/apra/srf_610_0.02.00.data" schemaLocation="srf_610_0/srf_610_0.02.00.xsd"/>
+	<xsd:import xmlns:srf_610_1.02.00="http://sbr.gov.au/rprt/apra/srf_610_1.02.00.data" namespace="http://sbr.gov.au/rprt/apra/srf_610_1.02.00.data" schemaLocation="srf_610_1/srf_610_1.02.00.xsd"/>
+	<xsd:import xmlns:srf_702_0.02.00="http://sbr.gov.au/rprt/apra/srf_702_0.02.00.data" namespace="http://sbr.gov.au/rprt/apra/srf_702_0.02.00.data" schemaLocation="srf_702_0/srf_702_0.02.00.xsd"/>
+	<xsd:import xmlns:srf_703_0.02.00="http://sbr.gov.au/rprt/apra/srf_703_0.02.00.data" namespace="http://sbr.gov.au/rprt/apra/srf_703_0.02.00.data" schemaLocation="srf_703_0/srf_703_0.02.00.xsd"/>
+	<xsd:import xmlns:srf_801_0.02.01="http://sbr.gov.au/rprt/apra/srf_801_0.02.01.data" namespace="http://sbr.gov.au/rprt/apra/srf_801_0.02.01.data" schemaLocation="srf_801_0/srf_801_0.02.01.xsd"/>
+	<xsd:import xmlns:srf_330_0.02.06="http://sbr.gov.au/rprt/apra/srf_330_0.02.06.data" namespace="http://sbr.gov.au/rprt/apra/srf_330_0.02.06.data" schemaLocation="srf_330_0/srf_330_0.02.06.xsd"/>
+	<xsd:import xmlns:srf_700_0.02.01="http://sbr.gov.au/rprt/apra/srf_700_0.02.01.data" namespace="http://sbr.gov.au/rprt/apra/srf_700_0.02.01.data" schemaLocation="srf_700_0/srf_700_0.02.01.xsd"/>
+</xsd:schema>

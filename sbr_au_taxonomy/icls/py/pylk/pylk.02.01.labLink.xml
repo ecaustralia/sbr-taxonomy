@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="pylk.02.01.data.xsd#pylk.02.01_pylkAbstract" xlink:label="loc_pylk.02.01_pylkAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_pylkAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Party Links</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_pylk.02.01_pylkAbstract" xlink:to="lbl_pylkAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="pylk.02.01.data.xsd#DE5730" xlink:label="loc_DE5730"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE5730" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Has the reporting party engaged an independent custodian for funds under management?</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5730" xlink:to="lbl_DE5730"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE5730" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+
+TRUE = The reporting party has engaged an independent custodian for funds under management.
+FALSE = The reporting party has not engaged an independent custodian for funds under management.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE5730" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Service Provider Custodian Indicator</link:label>
+        <link:loc xlink:type="locator" xlink:href="pylk.02.01.data.xsd#DE5568" xlink:label="loc_DE5568"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE5568" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Has the reporting party engaged an external administrator for the fund?</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5568" xlink:to="lbl_DE5568"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE5568" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+
+TRUE = The reporting party has engaged an external administrator for the fund.
+FALSE = The reporting party has not engaged an external administrator for the fund.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE5568" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Service Provider External Administrator Indicator</link:label>
+        <link:loc xlink:type="locator" xlink:href="pylk.02.01.data.xsd#DE5524" xlink:label="loc_DE5524"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE5524" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Has the reporting party has engaged an external investment manager for funds under management?</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5524" xlink:to="lbl_DE5524"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE5524" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+
+TRUE =The reporting party has engaged an external investment manager for funds under management.
+FALSE = The reporting party has not engaged an external investment manager for funds under management.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE5524" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Service Provider External Investment Manager Indicator</link:label>
+        <link:loc xlink:type="locator" xlink:href="pylk.02.01.data.xsd#DE5410" xlink:label="loc_DE5410"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE5410" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Has the reporting party engaged the services of any other service provider not included in the applicable list on SRF_250_0 or SRF_340_0?</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5410" xlink:to="lbl_DE5410"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE5410" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+
+TRUE = The reporting party has engaged the services of any other service provider not included in the applicable list on SRF_250_0 or SRF_340_0.
+FALSE = The reporting party has not engaged the services of any other service provider not included in the applicable list on SRF_250_0 or SRF_340_0.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE5410" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Service Provider Other Used SRF 250 0 And SRF 340 0 Indicator</link:label>
+        <link:loc xlink:type="locator" xlink:href="pylk.02.01.data.xsd#DE5207" xlink:label="loc_DE5207"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE5207" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Provide the relevant description of any other service(s) provided to the reporting party during the relevant period.</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5207" xlink:to="lbl_DE5207"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE5207" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">The enumerated values are:
+Accountant
+Actuary
+Insurer
+Lawyer
+Investment Advisor
+Other Advisor</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE5207" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Service Provider Role Code</link:label>
+        <link:loc xlink:type="locator" xlink:href="pylk.02.01.data.xsd#DE5690" xlink:label="loc_DE5690"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE5690" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Where the reporting party has a corporate trustee, indicate whom the director of the corporate trustee is representing.</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE5690" xlink:to="lbl_DE5690"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE5690" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">An individual may represent one and only one of the following:
+Employer - where the individual is an employer representative.
+Member - where the individual is a member representative.
+Independent - where the individual is an independent trustee (i.e. a trustee who does not represent members or employers, but not a director of a professional trustee company.)
+Professional - for directors of a professional trustee company.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE5690" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Service Provider Trustee Representation Code</link:label>
+    </link:labelLink>
+</link:linkbase>

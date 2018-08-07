@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://sbr.gov.au/dims/PrdType.02.00.dims" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:h06.02.00="http://sbr.gov.au/dims/PrdType.02.00.dims" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="PrdType.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:element name="PeriodTypeDimension" id="DM7" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="false" xbrli:periodType="duration"/>
+  <xsd:element name="PartPeriod" id="DV44" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="false" xbrli:periodType="duration"/>
+  <xsd:element name="SplitRate" id="DV45" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="false" xbrli:periodType="duration"/>
+</xsd:schema>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:smsfar.0005.prv.02.00="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00.module" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:FinAccUsg.02.00="http://sbr.gov.au/dims/FinAccUsg.02.00.dims" xmlns:FinclArrngmtType.02.00="http://sbr.gov.au/dims/FinclArrngmtType.02.00.dims" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:RelPrdDrtn.02.04="http://sbr.gov.au/dims/RelPrdDrtn.02.04.dims" xmlns:OpenCloseBalance.02.00="http://sbr.gov.au/dims/OpenCloseBalance.02.00.dims" xmlns:RprtPyType.02.07="http://sbr.gov.au/dims/RprtPyType.02.07.dims" xmlns:IntlJurisdiction.02.00="http://sbr.gov.au/dims/IntlJurisdiction.02.00.dims" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:TaxDeductStatus.02.00="http://sbr.gov.au/dims/TaxDeductStatus.02.00.dims" xmlns:AssetType.02.01="http://sbr.gov.au/dims/AssetType.02.01.dims" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00.module" elementFormDefault="qualified">
+    <xsd:annotation>
+        <xsd:appinfo>
+            <link:linkbaseRef xlink:type="simple" xlink:href="smsfar.0005.private.02.00.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="smsfar.0005.private.02.00.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00/defRole" id="smsfar.0005.02.00.privatedefLink">
+                <link:definition>smsfar.0005_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00/labRole" id="smsfar.0005.02.00.privatelabLinkInfoCls">
+                <link:definition>smsfar.0005_private</link:definition>
+                <link:usedOn>link:labelLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00/refRole" id="smsfar.0005.02.00.privaterefLink">
+                <link:definition>smsfar.0005_private</link:definition>
+                <link:usedOn>link:referenceLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00/hypercubes/AssetTypeAustralianReportingParty" id="smsfar.0005.02.00.privatedefLinkAssetTypeAustralianReportingParty">
+                <link:definition>smsfar.0005_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00/hypercubes/AustralianClosingReportingParty" id="smsfar.0005.02.00.privatedefLinkAustralianClosingReportingParty">
+                <link:definition>smsfar.0005_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00/hypercubes/AustralianForeignClosingReportingParty" id="smsfar.0005.02.00.privatedefLinkAustralianForeignClosingReportingParty">
+                <link:definition>smsfar.0005_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00/hypercubes/AustralianForeignDeductibleNonDeductibleReportingParty" id="smsfar.0005.02.00.privatedefLinkAustralianForeignDeductibleNonDeductibleReportingParty">
+                <link:definition>smsfar.0005_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00/hypercubes/AustralianForeignReportingParty" id="smsfar.0005.02.00.privatedefLinkAustralianForeignReportingParty">
+                <link:definition>smsfar.0005_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00/hypercubes/AustralianReportingParty" id="smsfar.0005.02.00.privatedefLinkAustralianReportingParty">
+                <link:definition>smsfar.0005_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00/hypercubes/ClosingReportingParty" id="smsfar.0005.02.00.privatedefLinkClosingReportingParty">
+                <link:definition>smsfar.0005_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00/hypercubes/ClosingY0PlusReportingParty" id="smsfar.0005.02.00.privatedefLinkClosingY0PlusReportingParty">
+                <link:definition>smsfar.0005_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00/hypercubes/DeductibleNonDeductibleReportingParty" id="smsfar.0005.02.00.privatedefLinkDeductibleNonDeductibleReportingParty">
+                <link:definition>smsfar.0005_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00/hypercubes/DeductibleReportingParty" id="smsfar.0005.02.00.privatedefLinkDeductibleReportingParty">
+                <link:definition>smsfar.0005_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00/hypercubes/ForeignClosingReportingParty" id="smsfar.0005.02.00.privatedefLinkForeignClosingReportingParty">
+                <link:definition>smsfar.0005_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00/hypercubes/ForeignReportingParty" id="smsfar.0005.02.00.privatedefLinkForeignReportingParty">
+                <link:definition>smsfar.0005_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00/hypercubes/IncomeTaxRefundSuperannuationReportingParty" id="smsfar.0005.02.00.privatedefLinkIncomeTaxRefundSuperannuationReportingParty">
+                <link:definition>smsfar.0005_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00/hypercubes/Intermediary" id="smsfar.0005.02.00.privatedefLinkIntermediary">
+                <link:definition>smsfar.0005_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00/hypercubes/ReportingParty" id="smsfar.0005.02.00.privatedefLinkReportingParty">
+                <link:definition>smsfar.0005_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00/hypercubes/ReportingPartyAuditor" id="smsfar.0005.02.00.privatedefLinkReportingPartyAuditor">
+                <link:definition>smsfar.0005_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00/hypercubes/ReportingPartyIntermediary" id="smsfar.0005.02.00.privatedefLinkReportingPartyIntermediary">
+                <link:definition>smsfar.0005_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00/hypercubes/RprtPyType" id="smsfar.0005.02.00.privatedefLinkRprtPyType">
+                <link:definition>smsfar.0005_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/smsfar/smsfar.0005.private.02.00/hypercubes/TOFAReportingParty" id="smsfar.0005.02.00.privatedefLinkTOFAReportingParty">
+                <link:definition>smsfar.0005_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+        </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.07.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.07.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/FinAccUsg.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/FinAccUsg.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/IntlJurisdiction.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/IntlJurisdiction.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/TaxDeductStatus.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/TaxDeductStatus.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/OpenCloseBalance.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/OpenCloseBalance.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/RelPrdDrtn.02.04.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RelPrdDrtn.02.04.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/FinclArrngmtType.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/FinclArrngmtType.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/AssetType.02.01.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/AssetType.02.01.data.xsd"/>
+    <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="AssetTypeAustralianReportingPartyPrimaryItemsAbstract" id="RA100285" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AustralianClosingReportingPartyPrimaryItemsAbstract" id="RA100286" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AustralianForeignClosingReportingPartyPrimaryItemsAbstract" id="RA100287" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AustralianForeignDeductibleNonDeductibleReportingPartyPrimaryItemsAbstract" id="RA100288" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AustralianForeignReportingPartyPrimaryItemsAbstract" id="RA100289" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AustralianReportingPartyPrimaryItemsAbstract" id="RA100290" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ClosingReportingPartyPrimaryItemsAbstract" id="RA100291" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ClosingY0PlusReportingPartyPrimaryItemsAbstract" id="RA100292" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="DeductibleNonDeductibleReportingPartyPrimaryItemsAbstract" id="RA100293" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="DeductibleReportingPartyPrimaryItemsAbstract" id="RA100294" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ForeignClosingReportingPartyPrimaryItemsAbstract" id="RA100295" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ForeignReportingPartyPrimaryItemsAbstract" id="RA100296" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="IncomeTaxRefundSuperannuationReportingPartyPrimaryItemsAbstract" id="RA100297" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="IntermediaryPrimaryItemsAbstract" id="RA100298" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingPartyPrimaryItemsAbstract" id="RA100299" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingPartyAuditorPrimaryItemsAbstract" id="RA100300" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingPartyIntermediaryPrimaryItemsAbstract" id="RA100301" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="RprtPyTypePrimaryItemsAbstract" id="RA100302" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="TOFAReportingPartyPrimaryItemsAbstract" id="RA100303" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AssetTypeAustralianReportingParty" id="HC100285" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AustralianClosingReportingParty" id="HC100286" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AustralianForeignClosingReportingParty" id="HC100287" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AustralianForeignDeductibleNonDeductibleReportingParty" id="HC100288" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AustralianForeignReportingParty" id="HC100289" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AustralianReportingParty" id="HC100290" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ClosingReportingParty" id="HC100291" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ClosingY0PlusReportingParty" id="HC100292" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="DeductibleNonDeductibleReportingParty" id="HC100293" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="DeductibleReportingParty" id="HC100294" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ForeignClosingReportingParty" id="HC100295" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ForeignReportingParty" id="HC100296" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="IncomeTaxRefundSuperannuationReportingParty" id="HC100297" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="Intermediary" id="HC100298" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingParty" id="HC100299" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingPartyAuditor" id="HC100300" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingPartyIntermediary" id="HC100301" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="RprtPyType" id="HC100302" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="TOFAReportingParty" id="HC100303" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+</xsd:schema>

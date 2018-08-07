@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/ascrpt/ascrpt.0002.private.02.00/hypercubes/Client" xlink:type="simple" xlink:href="ascrpt.0002.private.02.00.module.xsd#ascrpt.0002.02.00.privatedefLinkClient"/>
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/ascrpt/ascrpt.0002.private.02.00/hypercubes/ReportingParty" xlink:type="simple" xlink:href="ascrpt.0002.private.02.00.module.xsd#ascrpt.0002.02.00.privatedefLinkReportingParty"/>
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/ascrpt/ascrpt.0002.private.02.00/hypercubes/ReportingPartyClient" xlink:type="simple" xlink:href="ascrpt.0002.private.02.00.module.xsd#ascrpt.0002.02.00.privatedefLinkReportingPartyClient"/>
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/ascrpt/ascrpt.0002.private.02.00/hypercubes/SqNumDimClient" xlink:type="simple" xlink:href="ascrpt.0002.private.02.00.module.xsd#ascrpt.0002.02.00.privatedefLinkSqNumDimClient"/>
+    <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+    <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+    <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/ascrpt/ascrpt.0002.private.02.00/hypercubes/Client">
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.15.data.xsd#DM5" xlink:label="loc_DM5"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.15.data.xsd#DV7473" xlink:label="loc_DV7473"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM5" xlink:to="loc_DV7473" use="optional" order="1.0"/>
+        <link:loc xlink:type="locator" xlink:href="ascrpt.0002.private.02.00.module.xsd#HC100223" xlink:label="loc_HC100223"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100223" xlink:to="loc_DM5" use="optional" order="1.0"/>
+    </link:definitionLink>
+    <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/ascrpt/ascrpt.0002.private.02.00/hypercubes/ReportingParty">
+        <link:loc xlink:type="locator" xlink:href="ascrpt.0002.private.02.00.module.xsd#HC100224" xlink:label="loc_HC100224"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.15.data.xsd#DM5" xlink:label="loc_DM5"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100224" xlink:to="loc_DM5" use="optional" order="1.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.15.data.xsd#DV29" xlink:label="loc_DV29"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM5" xlink:to="loc_DV29" use="optional" order="1.0"/>
+    </link:definitionLink>
+    <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/ascrpt/ascrpt.0002.private.02.00/hypercubes/ReportingPartyClient">
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.15.data.xsd#DM5" xlink:label="loc_DM5"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.15.data.xsd#DV29" xlink:label="loc_DV29"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM5" xlink:to="loc_DV29" use="optional" order="1.0"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.15.data.xsd#DV7473" xlink:label="loc_DV7473"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM5" xlink:to="loc_DV7473" use="optional" order="2.0"/>
+        <link:loc xlink:type="locator" xlink:href="ascrpt.0002.private.02.00.module.xsd#HC100225" xlink:label="loc_HC100225"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100225" xlink:to="loc_DM5" use="optional" order="1.0"/>
+    </link:definitionLink>
+    <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/ascrpt/ascrpt.0002.private.02.00/hypercubes/SqNumDimClient">
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.15.data.xsd#DM5" xlink:label="loc_DM5"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.15.data.xsd#DV7473" xlink:label="loc_DV7473"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM5" xlink:to="loc_DV7473" use="optional" order="1.0"/>
+        <link:loc xlink:type="locator" xlink:href="ascrpt.0002.private.02.00.module.xsd#HC100226" xlink:label="loc_HC100226"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/SqNumDim.02.01.data.xsd#DM590" xlink:label="loc_DM590"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100226" xlink:to="loc_DM590" use="optional" order="1.0"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100226" xlink:to="loc_DM5" use="optional" order="2.0"/>
+    </link:definitionLink>
+</link:linkbase>

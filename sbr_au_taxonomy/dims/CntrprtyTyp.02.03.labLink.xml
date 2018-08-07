@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DM409" xlink:label="loc_DM409"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM409" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Counterparty Type Dimension</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DM409" xlink:to="lbl_DM409"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM409" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This dimension categorises the reported information in accordance with the type of counterparty the entity has transacted with.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DM577" xlink:label="loc_DM577"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM577" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Counterparty Government And Other Dimension</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DM577" xlink:to="lbl_DM577"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DM577" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This dimension categorises the reported information according to the grade of the counterparty as defined in the relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3820" xlink:label="loc_DV3820"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3820" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Registered Financial Corporation (RFC)</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3820" xlink:to="lbl_DV3820"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3820" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Registered Financial Corporation (RFC), being a corporation registered by APRA under the Financial Sector (Collection of Data) Act 2001 that are classified as Categories D, Other, or are Cash Management Trusts. These entities are involved in the business of provision of finance (i.e. loans or debt securities) and, usually, the borrowing of money.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3821" xlink:label="loc_DV3821"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3821" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Authorised Deposit-taking Institution</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3821" xlink:to="lbl_DV3821"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3821" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an Authorised Deposit-taking Institution (ADI), being an in force authority under subsection 9(3) of the Banking Act 1959.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3822" xlink:label="loc_DV3822"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3822" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not an Authorised Deposit-taking Institution</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3822" xlink:to="lbl_DV3822"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3822" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is any organisation that is not an Authorised Deposit-taking Institution (ADI). 
+
+An ADI has an in force authority under subsection 9(3) of the Banking Act 1959.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3823" xlink:label="loc_DV3823"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3823" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Corporation Other Than an Authorised-Deposit-Taking Institution (ADI)</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3823" xlink:to="lbl_DV3823"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3823" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Corporation, but which is not a Bank or any other Authorised Deposit-taking Institution (ADI).</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3824" xlink:label="loc_DV3824"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3824" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Foreign Government</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3824" xlink:to="lbl_DV3824"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3824" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is any Foreign Government (i.e. any Government other than the Australian Government).</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3825" xlink:label="loc_DV3825"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3825" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Australian Government Not Commonwealth Government</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3825" xlink:to="lbl_DV3825"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3825" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is the Australian Government, other than the Australian Commonwealth Government, and Central Borrowing Authorities (CBA).</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3826" xlink:label="loc_DV3826"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3826" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Institution Other Than ADI, RFC, Insurance, Pension, FA</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3826" xlink:to="lbl_DV3826"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3826" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a financial institution other than:
+
+- Financial auxiliaries, being corporations and quasi-corporations engaged primarily in activities closely related to financial intermediation, but which do not themselves perform an intermediation role;
+
+- An Authorised Deposit-taking Institution (ADI) that has an in force authority under subsection 9(3) of the Banking Act 1959;
+
+- An RFC, being a company registered by APRA under the Financial Sector (Collection of Data) Act because it is in the business of provision of finance (i.e. loans or debt securities) and, usually, the borrowing of money;
+
+- Complying Pension Funds for the purposes of the Superannuation Industry (Supervision) Act 1993. These are Superannuation Funds and Approved Deposit Funds established to provide benefits for their members on retirement, resignation, death or disablement; and
+
+- Insurance entities.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3827" xlink:label="loc_DV3827"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3827" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Institution Other Than ADI, RFC, Insurance, Pension</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3827" xlink:to="lbl_DV3827"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3827" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a balancing item in the list in which it is being used.
+
+The counterparty in relation to the information is a Financial Institution, but other than those classified as any of the following::
+
+- An Authorised Deposit-taking Institution (ADI) that has an in force authority under subsection 9(3) of the Banking Act 1959;
+
+- An RFC, being a company registered by APRA under the Financial Sector (Collection of Data) Act because it is in the business of provision of finance (i.e. loans or debt securities) and, usually, the borrowing of money;
+
+- Complying Pension Funds for the purposes of the Superannuation Industry (Supervision) Act 1993. These are Superannuation Funds and Approved Deposit Funds established to provide benefits for their members on retirement, resignation, death or disablement; and
+
+- Insurance entities.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3828" xlink:label="loc_DV3828"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3828" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Individual</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3828" xlink:to="lbl_DV3828"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3828" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an individual, or group of individuals, whose dealings with the reporting party are for personal or household purposes. This does not include circumstances in which the counterparty is dealing with the reporting party in relation to a business or enterprise, regardless of how that business or enterprise is structured.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3829" xlink:label="loc_DV3829"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3829" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Community Service Organisation (CSO)</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3829" xlink:to="lbl_DV3829"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3829" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a community service organisation (CSO).
+
+CSOs are charities and aid organisations financed by voluntary transfers and institutions financed mostly by members contributions.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3830" xlink:label="loc_DV3830"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3830" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Institution Other Than ADI, RFC, Insurance, CBA</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3830" xlink:to="lbl_DV3830"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3830" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a balancing item in the list in which it is being used.
+
+The counterparty in relation to the information is a Financial Institution, but other than those Financial Institutions classified as any of the following:
+
+- Authorised Deposit-taking Institutions (ADI), being corporations in relation to which an authority under subsection 9 (3) of the Banking Act 1959 is in force;
+
+- Registered Financial Corporations (RFC), being corporations registered under the Financial Sector (Collection of Data) Act 2001 classified as Categories D, other and cash management trusts; or
+
+- Insurance entities registered with the Australian Prudential Regulation Authority; or
+
+- State or Territory Central Borrowing Authorities, being corporations established by a state or territory government to provide finance for government authorities and to manage their surplus funds. This includes the New South Wales Treasury Corporation (NSW TCorp), Treasury Corporation of Victoria (TCV), Queensland Treasury Corporation (QTC), South Australian Government Financing Authority (SAFA), Western Australian Treasury Corporation (WATC), Tasmanian Public Finance Corporation (Tas Corp), Northern Territory Treasury Corporation (NT TCorp), and the ACT Treasury.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3841" xlink:label="loc_DV3841"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3841" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Commercial</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3841" xlink:to="lbl_DV3841"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3841" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Commercial entity, being any of the following:
+
+     - private and public trading enterprises, being organisations owned and controlled by either the private or public sector which produce goods or non financial services for sale at market prices. This excludes all unincorporated businesses, except for branches of non-resident companies, property and trading trusts, and joint ventures or partnerships owned by corporations;
+
+     - private unincorporated business, being individuals acting as sole proprietors or in partnerships, for commercial or professional purposes;
+
+     - community service organisations (CSOs), being charities and aid organisations financed by voluntary transfers and institutions financed mostly by members contributions. This does not include CSOs and non profit institutes controlled and mainly financed by government; 
+
+     - financial institutions; and
+
+     - Government.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3842" xlink:label="loc_DV3842"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3842" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Institution Other Than ADI or RFC</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3842" xlink:to="lbl_DV3842"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3842" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a balancing item in the list in which it is being used.
+
+The counterparty in relation to the information is a Financial Institution, but other than those Financial Institutions classified as any of the following:
+- Approved Deposit-taking Institutions; or 
+- Registered Financial Corporations.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3843" xlink:label="loc_DV3843"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3843" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">ADI and RFC Other Than a Bank</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3843" xlink:to="lbl_DV3843"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3843" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is:
+
+     - A Non Bank Deposit Taking Institution, being an Authorised Deposit-taking Institution which have an in force authority under subsection 9(3) of the Banking Act 1959, but which does not hold a consent under section 66 of the Act to use the word 'bank'.; or
+
+     - An RFC, being a company registered by APRA under the Financial Sector (Collection of Data) Act because they are in the business of provision of finance (i.e. loans or debt securities) and, usually, the borrowing of money.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3844" xlink:label="loc_DV3844"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3844" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Non Financial Entity Other Than an Individual</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3844" xlink:to="lbl_DV3844"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3844" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a non financial entity, and which is not an individual.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3845" xlink:label="loc_DV3845"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3845" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Rural Producer As Per ANZSIC</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3845" xlink:to="lbl_DV3845"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3845" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a rural producer as determined by the following Australian and New Zealand Standard Industrial Classification (ANZSIC) categories:
+
+- 011: Horticulture and Fruit Growing
+- 012: Grain, Sheep and Beef Cattle Farming
+- 013: Dairy Cattle Farming
+- 014: Poultry Farming
+- 015: Other Livestock Farming
+- 016: Other Crop Growing
+- 021: Services to Agriculture</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3939" xlink:label="loc_DV3939"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3939" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Non Subsidiary Which Exceeds Prescribed Limits</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3939" xlink:to="lbl_DV3939"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3939" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a non-subsidiary entity in which the reporting party's equity exposures and other capital investments exceeds prescribed limits, as determined in accordance with relevant prudential standards.
+
+Prescribed limits are:
+     (a) 0.15 per cent of the reporting party's capital before deductions, for an individual investment; and
+     (b) Five per cent of the reporting party's capital base before deductions, in aggregate.
+
+For the purposes of this item, do not include counterparties classified as any of the following:
+     - Other ADIs and equivalent overseas deposit-taking institutions, and their subsidiaries.
+     - Holding companies of ADI's and equivalent overseas entities.
+     - Insurers, including holding companies of insurers, or other financial institutions other than ADIs, authorised NOHCs or equivalent overseas entities (where the reporting party holds greater than or equal to 20 per cent and less than or equal to 50 per cent of the voting shares).</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3963" xlink:label="loc_DV3963"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3963" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Institution, Insurer and Insurer Holding Companies Excluding ADI, NOHC, Overseas Equivalent</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3963" xlink:to="lbl_DV3963"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3963" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an insurer, holding companies of an insurer, or a financial institution. This excludes those financial institutions where the reporting party holds greater than or equal to 20 per cent and less than or equal to 50 per cent of the voting shares and are classified as any of the following:
+
+- Authorised Deposit-taking Institutions (ADI), being institutions that have an in force authority under subsection 9(3) of the Banking Act 1959;
+
+- Equivalent overseas deposit-taking institutions; or
+
+- Authorised Non-Operating Holding Companies (NOHC) of an ADI or equivalent overseas entity.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3964" xlink:label="loc_DV3964"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3964" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Authorised Deposit-taking Institution or Overseas Equivalent Including Subsidiaries</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3964" xlink:to="lbl_DV3964"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3964" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an Authorised Deposit-taking Institution (ADI) or an equivalent overseas deposit-taking institution (including their subsidiaries).
+
+This item includes ADIs and equivalent overseas deposit-taking institutions (including their subsidiaries) except where:
+     (a) the ADI or equivalent overseas deposit-taking institution is wholly-owned or effectively controlled, whether directly or indirectly, by the reporting party, and has been consolidated with the reporting party at Level 2 for capital adequacy purposes (refer APS 110); or
+     (b) the capital instruments of the ADI or equivalent overseas deposit-taking institution are held for trading purposes (refer APS 116).
+
+An ADI has an in force authority under subsection 9(3) of the Banking Act 1959.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3965" xlink:label="loc_DV3965"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3965" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not a Private Sector Enterprise, Community Service Organisation (CSO) or Individual</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3965" xlink:to="lbl_DV3965"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3965" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is any entity that is not a private sector enterprise, an individual ,or group of individuals, acting in a personal capacity; or a Community Service Organisation (CSO).</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3966" xlink:label="loc_DV3966"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3966" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not Australian Government or Supranational</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3966" xlink:to="lbl_DV3966"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3966" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a balancing item in the list in which it is being used.
+
+The counterparty in relation to the information is not an Australian Commonwealth, State or Territory Government, nor an organisation that is outside the control or authority of a single national government.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3967" xlink:label="loc_DV3967"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3967" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Supranational</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3967" xlink:to="lbl_DV3967"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3967" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a supranational, being an organisation that is outside the control or authority of a single national government.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3968" xlink:label="loc_DV3968"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3968" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not an Authorised Deposit-taking Institution (ADI) or Insurance Entity Registered With APRA</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3968" xlink:to="lbl_DV3968"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3968" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is any entity, other than those entities classified as any of the following:
+
+     - Authorised Deposit-taking Institutions, being corporations in relation to which an authority under subsection 9 (3) of the Banking Act 1959 is in force; or
+
+     - Insurance entities registered with the Australian Prudential Regulation Authority;</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3969" xlink:label="loc_DV3969"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3969" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">All Entities Other Than Corporations, Unincorporated Business, Government, Individuals and CSOs</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3969" xlink:to="lbl_DV3969"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3969" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a balancing item in the list in which it is being used.
+
+The counterparty in relation to the information is any entity, other than those which are classified as:
+- Corporations;
+- Unincorporated businesses;
+- General Government;
+- Individuals; and
+- Community service organisations/non-profit institutions serving households (individuals).</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3989" xlink:label="loc_DV3989"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3989" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Institution Other Than Banks and Central Banks</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3989" xlink:to="lbl_DV3989"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3989" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a balancing item in the list in which it is being used.
+
+The counterparty in relation to the information is a Financial Institution, but other than those classified as any of the following:
+
+- Banks, being Authorised Deposit-taking Institutions in relation to which an authority under subsection 9(3) of the Banking Act 1959 is in force and which holds a consent under section 66 of the Act to use the word 'bank'; or
+
+- Central banks, being public financial entities that have responsibility for monetary policy, issuing currency and holding a country's international reserves.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3990" xlink:label="loc_DV3990"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3990" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Institution Other Than ADI, RFC, Insurance</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3990" xlink:to="lbl_DV3990"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3990" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a balancing item in the list in which it is being used.
+
+The counterparty in relation to the information is a Financial Institution, but other than those Financial Institutions classified as any of the following:
+
+- Authorised Deposit-taking Institutions (ADI), being corporations in relation to which an authority under subsection 9 (3) of the Banking Act 1959 is in force;
+
+- Registered Financial Corporations (RFC), being corporations registered under the Financial Sector (Collection of Data) Act 2001 classified as Categories D, other and cash management trusts; or
+
+- Insurance entities.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3991" xlink:label="loc_DV3991"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3991" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Private Trading Corp Property Trading Trust</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3991" xlink:to="lbl_DV3991"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3991" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Private Trading Corporation, Property Trust or Trading Trust. 
+
+Private Trading Corporations are corporations owned and controlled by the private sector whose main activities are producing goods or non-financial services for sale.
+This includes:
+- All private corporate trading enterprises.
+- Intra group financiers and retailers registered under the Financial Sector (Collection of Data) Act 2001 and parent companies with significant holdings of shares in private trading companies.
+- Privately owned schools and hospitals.
+- Any unincorporated unit that is a branch in Australia of a non-resident company and which is not included in the financial sector.
+- Unincorporated business in the nature of branches of non-resident companies and joint ventures or partnerships owned / operated by trading corporations.
+
+A Property Trust is a type of collective investment that enables investors to purchase an interest in a diversified portfolio of primarily real estate assets.
+
+A Trading Trust is a type of collective investment that carries on a business that does not consist wholly of:
+- Investing in land for rental, or 
+- Investing in trading in unsecured loans, securities, shares, units in a unit trust, futures contracts, forward contracts, interest rate swap contracts, currency swap contracts, forward exchange rate contracts, forward interest rate contracts, life insurance policies, or rights or options in any of these.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3992" xlink:label="loc_DV3992"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3992" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Corporation</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3992" xlink:to="lbl_DV3992"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3992" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Corporation, being a private sector legal entity that includes all bodies corporate and certain types of unincorporated bodies, but excludes banks and unit trusts.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3998" xlink:label="loc_DV3998"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3998" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not Individual or Commercial</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3998" xlink:to="lbl_DV3998"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3998" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an entity not classified as any of the following:
+
+     - individual, being single individuals, or groups of individuals, whose dealings with the reporting party are for personal or household purposes.
+
+     - private and public trading enterprises, being organisations owned and controlled by either the private or public sector which produce goods or non financial services for sale at market prices. This excludes all unincorporated businesses, except for branches of non-resident companies, property and trading trusts, and joint ventures or partnerships owned by corporations;
+
+     - private unincorporated business, being individuals acting as sole proprietors or in partnerships, for commercial or professional purposes;
+
+     - community service organisations (CSOs), being charities and aid organisations financed by voluntary transfers and institutions financed mostly by members contributions. This does not include CSOs and non profit institutes controlled and mainly financed by government; 
+
+     - financial institutions; and
+
+     - Government.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV3999" xlink:label="loc_DV3999"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3999" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">AO</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV3999" xlink:to="lbl_DV3999"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV3999" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is not an Approved Deposit -taking Institution, Government agency, or central bank (or equivalent international organisation).</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4073" xlink:label="loc_DV4073"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4073" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">GCBIO</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4073" xlink:to="lbl_DV4073"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4073" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Government, Central Bank or an "International Organisation".
+                                                                                                                                                                 
+Government includes all levels of government (Federal, State and Local) and excludes government owned trading enterprises.
+                                                                                                             
+A Central Bank within the meaning of this domain is a public financial entity that has the responsibility for monetary policy, issuing currency and/or holding a country's international reserves. This includes supranational monetary authorities such as the Bank for International Settlements (BIS) and the European Central Bank (ECB).
+                                                                                                                                       
+International Organisations within the meaning of this domain are those organisations with an international membership, scope, or presence, but not including International corporations. These are organisations that are made up primarily of sovereign states (referred to as member states) or International non-governmental organisations that operate internationally.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4074" xlink:label="loc_DV4074"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4074" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Foreign Non Bank Parent, Subsidiary, Branch</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4074" xlink:to="lbl_DV4074"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4074" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is the foreign non-bank parent of the reporting party;  or a non deposit-taking entity that operates in Australia that is directly owned by that foreign non-bank parent.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4075" xlink:label="loc_DV4075"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4075" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Foreign Bank Parent, Subsidiary or Branch</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4075" xlink:to="lbl_DV4075"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4075" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is the foreign bank parent of the reporting party; or a branch of that bank parent entity (wherever operating, including Australia); or a deposit-taking subsidiary of that bank parent that operates outside Australia.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4076" xlink:label="loc_DV4076"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4076" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Non Deposit Taking Subsidiary of an Unrelated ADI</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4076" xlink:to="lbl_DV4076"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4076" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a non deposit-taking subsidiary of an Approved Deposit-taking Institution (ADI) that is not related to the reporting party.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4077" xlink:label="loc_DV4077"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4077" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Former Special Service Provider (SSP)</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4077" xlink:to="lbl_DV4077"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4077" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a former Special Service Providers (SSPs). SSP's are companies run by industry bodies which provide services (e.g. payments clearing) to member building societies and credit unions</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4085" xlink:label="loc_DV4085"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4085" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Institution Other Than ADI, RFC, RBA</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4085" xlink:to="lbl_DV4085"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4085" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a balancing item in the list in which it is being used.
+
+The counterparty in relation to the information is a Financial Institution, but other than those Financial Institutions classified as any of the following:
+
+- Reserve Bank of Australia (RBA);
+
+- Authorised Deposit-taking Institutions, being corporations in relation to which an authority under subsection 9 (3) of the Banking Act 1959 is in force; or
+
+- Registered Financial Corporations, being corporations registered under the Financial Sector (Collection of Data) Act 2001 classified as Categories D, other and cash management trusts;</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4116" xlink:label="loc_DV4116"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4116" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">State And Territory Central Borrowing Authority</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4116" xlink:to="lbl_DV4116"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4116" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a State or Territory Central Borrowing Authority, being a corporation established by a State or Territory Government to provide finance for Government authorities and to manage their surplus funds. This includes the following authorities:
+- New South Wales Treasury Corporation (NSW TCorp);
+- Treasury Corporation of Victoria (TCV);
+- Queensland Treasury Corporation (QTC);
+- South Australian Government Financing Authority (SAFA);
+- Western Australian Treasury Corporation (WATC);
+- Tasmanian Public Finance Corporation (Tas Corp);
+- Northern Territory Treasury Corporation (NT TCorp); and
+- ACT Treasury.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4117" xlink:label="loc_DV4117"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4117" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Other SRF_110_1_B Part A Section 3</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4117" xlink:to="lbl_DV4117"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4117" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a balancing item in the list in which it is being used.
+
+The counterparty in relation to the information is any entity not listed below, as per the requirements of SRF_110_1_B Part A Section 3:
+
+     - State and Central Borrowing Authorities;
+     - Commonwealth Public Sector Trading Enterprises;
+     - State and Local Public Sector Trading Enterprises;
+     - Private Trading Corporations;
+     - Banks; and
+     - Other Deposit Taking Institutions.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4118" xlink:label="loc_DV4118"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4118" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Private Corporation or Private Unit Trust</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4118" xlink:to="lbl_DV4118"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4118" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Private Corporation or Private Unit Trust. Private Corporations are any body corporate owned by the private sector.  Private Unit Trusts are those created/settled by private sector entities.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4119" xlink:label="loc_DV4119"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4119" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Corporations Trusts And Joint Ventures</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4119" xlink:to="lbl_DV4119"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4119" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Corporation, Trust or Joint Venture.
+
+This excludes Pooled Superannuation Trusts and Retail/Public Offer Unit Trusts
+
+Joint Ventures are contractual arrangements whereby two or more parties undertake an economic activity, which is subject to joint control. This is to be determined in accordance with accounting standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4120" xlink:label="loc_DV4120"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4120" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Individuals Corporations And Trusts</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4120" xlink:to="lbl_DV4120"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4120" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an Individual, Corporation or Private Trust.
+
+Individuals are natural persons.
+
+Corporations are companies registered under the Corporations Act 2001.
+
+Private Trusts are a type of collective investment which cannot accept money from the public. It issues units representing equal shares in the trust's investments.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4121" xlink:label="loc_DV4121"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4121" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">General Insurer</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4121" xlink:to="lbl_DV4121"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4121" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a General Insurer, being a body corporate that is authorised under s.12 of the Insurance Act 1973 to carry on insurance business in Australia. More generally, a non life, property or casualty insurer.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4122" xlink:label="loc_DV4122"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4122" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Retail Trust</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4122" xlink:to="lbl_DV4122"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4122" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Retail Trust, being a type of collective investment in which both public and private investor money is grouped together and invested by an investment manager.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4123" xlink:label="loc_DV4123"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4123" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Pooled Superannuation Trust</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4123" xlink:to="lbl_DV4123"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4123" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Pooled Superannuation Trust, being a type of collective investment in which the assets of superannuation funds, approved deposit funds and other pooled superannuation funds are grouped together and invested by an investment manager.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4124" xlink:label="loc_DV4124"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4124" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Property And Trading Trusts</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4124" xlink:to="lbl_DV4124"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4124" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Property Trust or Trading Trust.
+
+A Property Trust is a type of collective investment that enables investors to purchase an interest in a diversified portfolio of primarily real estate assets.
+
+A Trading Trust is a type of collective investment that carries on a business that does not consist wholly of the following: 
+- Investing in land for rental, or
+- Investing in trading in unsecured loans, securities, shares, units in a unit trust, futures contracts, forward contracts, interest rate swap contracts, currency swap contracts, forward exchange rate contracts, forward interest rate contracts, life insurance policies, or rights or options in any of these.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4212" xlink:label="loc_DV4212"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4212" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Non Financial Business</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4212" xlink:to="lbl_DV4212"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4212" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a non financial business.
+
+This includes:
+- private trading corporations;
+- unincorporated private business; and
+- public trading enterprises owned 50% or more by the Commonwealth, State, Territory or local government.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4213" xlink:label="loc_DV4213"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4213" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Institution Other Than ADI, RFC, Insurance, Pension, CBA, FA</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4213" xlink:to="lbl_DV4213"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4213" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a balancing item in the list in which it is being used.
+
+The counterparty in relation to the information is a Financial Institution, but other than those Financial Institutions classified as any of the following:
+
+- ADIs, being corporation in relation to which an authority under subsection 9 (3) of the Banking Act 1959 is in force;
+
+- RFCs, being corporations registered under the Financial Sector (Collection of Data) Act 2001 classified as Categories D, other and cash management trusts;
+
+- Central borrowing authorities (CBAs), being corporations established by State and Territory governments to provide finance for government authorities and to manage their surplus funds;
+
+- Financial auxiliaries, being corporations and quasi-corporations engaged primarily in activities closely related to financial intermediation, but which do not themselves perform an intermediation role;
+
+- Financial intermediaries, being securitisers; mortgage, fixed interest and equity unit trusts; and all financial intermediaries other than central bank institutions, depository corporations, insurance corporations, pension funds, CBAs, securitisers and unit trusts.
+
+- Insurance corporations, registered with the Australian Prudential Regulation Authority;
+
+- Pension Funds for the purposes of the Superannuation Industry (Supervision) Act 1993. These are Superannuation funds and Approved Deposit Funds established to provide benefits for their members on retirement, resignation, death or disablement; and
+
+- Retirement savings accounts.
+
+Include:
+
+- Government finance corporations not included in the list above.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4214" xlink:label="loc_DV4214"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4214" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Auxiliaries</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4214" xlink:to="lbl_DV4214"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4214" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Financial Auxiliary, being a corporation or quasi-corporation engaged primarily in activities closely related to financial intermediation, but which do not themselves perform an intermediation role.
+
+This includes fund managers as principal, stockbrokers and insurance brokers.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4215" xlink:label="loc_DV4215"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4215" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Insurance Entity Other Than a Life Insurer</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4215" xlink:to="lbl_DV4215"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4215" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an Insurance entity that is not regulated under the Life Insurance Act 1995.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4216" xlink:label="loc_DV4216"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4216" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Pension Fund</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4216" xlink:to="lbl_DV4216"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4216" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Pension Fund for the purposes of the Superannuation Industry (Supervision) Act 1993. These are Superannuation Funds and Approved Deposit Funds established to provide benefits for their members on retirement, resignation, death or disablement. This excludes information in relation to retirement savings accounts.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4217" xlink:label="loc_DV4217"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4217" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Life Insurance Registered with APRA</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4217" xlink:to="lbl_DV4217"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4217" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an entity regulated under the Life Insurance Act 1995 and registered with the Australian Prudential Regulation Authority.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4245" xlink:label="loc_DV4245"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4245" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not Government, Authorised Deposit-taking Institution or Corporation</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4245" xlink:to="lbl_DV4245"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4245" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a balancing item in the list in which it is being used.
+
+The counterparty in relation to the information is any entity other than those which are classified as any of the following:
+     - Government, being all levels of government, but exclude government owned or controlled commercial enterprises;
+     - Authorised deposit-taking institutions, being an in force authority under subsection 9(3) of the Banking Act 1959.; or
+     - Corporations, being a private sector legal entity that includes all bodies corporate and certain types of unincorporated bodies.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4246" xlink:label="loc_DV4246"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4246" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Unregulated by APRA or Equivalent Overseas Regulator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4246" xlink:to="lbl_DV4246"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4246" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is any entity which is not regulated by APRA or an overseas equivalent regulator.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4267" xlink:label="loc_DV4267"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4267" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Services Entity</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4267" xlink:to="lbl_DV4267"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4267" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Financial Services Entity. This includes:
+     
+- A life company (within the meaning of the Life Insurance Act 1995), general insurer (within the meaning of the Insurance Act 1973), health insurance institution (being a registered organization within the meaning of Part VI of the National Health Act 1953), ADI (within the meaning of the Banking Act 1959), foreign equivalent of any such company, or a Group containing one or more such companies;
+     
+- A mortgage lender, leasing company or Group containing one or more such companies;
+     
+- A superannuation trustee or administrative services company administering financial services business for third parties or the Group's own business;
+     
+- A financial advising distribution company providing financial advice and distributing products of third parties or the Group's own products;
+     
+- An investment management entity (such as a funds manager, property manager, asset custodian, trustee company, etc) managing the assets of third parties, or those of the Group; and
+     
+- An investment servicing company (such as a property maintenance company, property developer or share registry) providing services to the Group's own investment assets or other third parties.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4268" xlink:label="loc_DV4268"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4268" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not an Authorised Deposit-taking Institution or Insurance Corporation</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4268" xlink:to="lbl_DV4268"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4268" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is any entity, but other than those entities classified as Authorised Deposit-taking Institutions (ADI) or Insurance corporations.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4318" xlink:label="loc_DV4318"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4318" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Trading Enterprise</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4318" xlink:to="lbl_DV4318"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4318" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Trading Enterprise, being an organisation owned and controlled by either the private or public sector which produce goods or non financial services for sale at market prices. This excludes all unincorporated businesses, except for branches of non-resident companies, property and trading trusts, and joint ventures or partnerships owned by corporations.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4319" xlink:label="loc_DV4319"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4319" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Australian Commonwealth Government</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4319" xlink:to="lbl_DV4319"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4319" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is the Australian Commonwealth Government. This includes the Federal Government but excludes State and Territory Governments and Commonwealth Public Sector Trading Enterprises.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4320" xlink:label="loc_DV4320"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4320" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">State, Territory And Local Public Sector Trading Enterprise</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4320" xlink:to="lbl_DV4320"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4320" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a State, Territory or Local Public Sector Trading Enterprise, being a business which is owned and controlled by a State, Territory, or Local Government and which is not a Financial Institution or Central Borrowing Authority
+
+This includes all trading enterprises 50% or more owned by a State, Territory or Local Government or controlled by a State, Territory, or Local Government through legislation, decree, or regulation (e.g. state rail and water authorities, gas and fuel authorities, housing commissions, port authorities, non-privatised power authorities, etc.).</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4321" xlink:label="loc_DV4321"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4321" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Authorised Deposit-taking Institution Other Than a Bank</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4321" xlink:to="lbl_DV4321"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4321" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Non-Bank Deposit-taking Institution, being an Authorised Deposit-taking Institution which has an in force authority under subsection 9(3) of the Banking Act 1959, but which does not hold a consent under section 66 of the Act to use the word 'Bank'.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4322" xlink:label="loc_DV4322"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4322" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Cash Management Trust</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4322" xlink:to="lbl_DV4322"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4322" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Cash Management Trust, being a type of collective investment that enables investors to purchase an interest in primarily short-dated securities (e.g. treasury notes and bank bills).</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4323" xlink:label="loc_DV4323"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4323" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Equities Trust</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4323" xlink:to="lbl_DV4323"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4323" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an Equities Trust, being a type of collective investment that enables investors to purchase an interest in a diversified portfolio of primarily equity securities.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4324" xlink:label="loc_DV4324"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4324" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Property Trust</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4324" xlink:to="lbl_DV4324"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4324" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Property Trust, being a type of collective investment that enables investors to purchase an interest in a diversified portfolio of primarily real estate assets.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4325" xlink:label="loc_DV4325"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4325" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Private Trust</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4325" xlink:to="lbl_DV4325"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4325" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Private Trust, being a type of collective investment which cannot accept money from the public. It issues units representing equal shares in the trust's investments.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4326" xlink:label="loc_DV4326"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4326" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not Government, Individuals and Households, Corporation, Private Unincorporated Business or Community Service Organisation</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4326" xlink:to="lbl_DV4326"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4326" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The is a balancing item in the list in which it is being used.
+
+The counterparty in relation to the information is any entities, other than those which are classified as any of the following:
+
+- Financial and Non-Financial Corporations;
+
+- Private Unincorporated Businesses;
+
+- Community Service Organisations;
+
+- Government; or
+
+- Individuals and Households.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4327" xlink:label="loc_DV4327"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4327" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not Financial Institution, Insurance, Commonwealth Government Trading Entity, Private Trading Corporation, Property And Trading Trust</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4327" xlink:to="lbl_DV4327"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4327" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a balancing item in the list in which it is being used.
+
+The counterparty in relation to the information is any entity, but other than those which are classified as any of the following:
+
+- Financial Institutions;
+
+- Insurance entities registered with the Australian Prudential Regulation Authority.
+
+- Commonwealth Public Sector Trading Enterprises, being trading enterprises owned and controlled by a Commonwealth Government and which produce goods or non-financial services for sale at market price;
+
+- Private Trading Corporations, being corporations owned and controlled by the private sector whose main activities are producing goods or non-financial services for sale;
+
+- Property Trusts, being a type of collective investment that enables investors to purchase an interest in a diversified portfolio of primarily real estate assets; or
+ 
+- Trading Trusts, being a type of collective investment that carries on a business that does not consist wholly of investing in land for rental, or 
+investing in trading in unsecured loans, securities, shares, units in a unit trust, futures contracts, forward contracts, interest rate swap contracts, currency swap contracts, forward exchange rate contracts, forward interest rate contracts, life insurance policies, or rights or options in any of these.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4328" xlink:label="loc_DV4328"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4328" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Insurance Registered with APRA</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4328" xlink:to="lbl_DV4328"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4328" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an Insurance entity registered with the Australian Prudential Regulation Authority.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4369" xlink:label="loc_DV4369"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4369" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Institution Other Than ADI, Commonwealth Govt Non-Financial Corporations, RFC, Insurance, Private Trading Property Trusts, or Private Trading Companies</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4369" xlink:to="lbl_DV4369"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4369" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a balancing item in the list in which it is being used.
+
+The counterparty in relation to the information is a Financial Institution, but other than those Financial Institutions classified as any of the following:
+
+- ADIs, being corporation in relation to which an authority under subsection 9 (3) of the Banking Act 1959 is in force;
+
+- Australian Commonwealth government non-financial trading corporations;
+
+- RFCs, being corporations registered under the Financial Sector (Collection of Data) Act 2001 classified as Categories D, other and cash management trusts;
+
+- Insurance entities;
+
+- Property Trusts ,, being a type of collective investment that enables investors to purchase an interest in a diversified portfolio of primarily real estate assets;
+
+- Trading Trusts, being a type of collective investment that carries on a business that does not consist wholly of
+investing in land for rental, nor investing in trading in unsecured loans, securities, shares, units in a unit trust, futures contracts, forward contracts, interest rate swap contracts, currency swap contracts, forward exchange rate contracts, forward interest rate contracts, life insurance policies, or rights or options in any of these;
+
+- Private Trading Corporations, being corporations owned and controlled by the private sector whose main activities are producing goods or non-financial services for sale, including:
+- All private corporate trading enterprises.
+- Intra group financiers and retailers registered under the Financial Sector (Collection of Data) Act 2001 and parent companies with significant holdings of shares in private trading companies.
+- Privately owned schools and hospitals.
+- Any unincorporated unit that is a branch in Australia of a non-resident company and which is not included in the financial sector.
+- Unincorporated business in the nature of branches of non-resident companies and joint ventures or partnerships owned / operated by trading corporations.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4390" xlink:label="loc_DV4390"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4390" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not Financial Institution, Individuals and Households, Community Service Organisation or Non Financial Business</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4390" xlink:to="lbl_DV4390"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4390" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is any entity, other than those entities which are classified as any of the following:
+
+     - Individuals, or groups of individuals, whose dealings with the reporting party are for personal or household purposes. This does not include circumstances in which the counterparty is dealing with the reporting party in relation to a business or enterprise, regardless of how that business or enterprise is structured;
+     
+     - Community Service Organisations (CSO), being charities and aid organisations financed by voluntary transfers and institutions financed mostly by members contributions;
+     
+     - Non-Financial Business, including private trading corporations, unincorporated private business, and public trading enterprises owned 50% or more by the Commonwealth, State, Territory or Local government; and
+     
+     - Financial Institutions.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4451" xlink:label="loc_DV4451"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4451" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">APRA Regulated Entity Other Than an ADI or Overseas Equivalent</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4451" xlink:to="lbl_DV4451"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4451" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is any entity regulated by APRA, but other than an Authorised Deposit-taking Institution  (ADI) or overseas deposit-taking equivalent.
+
+An Authorised Deposit-taking Institution (ADI) has an in force authority under subsection 9(3) of the Banking Act 1959.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4453" xlink:label="loc_DV4453"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4453" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Trust Not Cash Management</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4453" xlink:to="lbl_DV4453"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4453" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Trust other than a Cash Management Trust.
+
+A Cash Management Trust is a type of collective investment that enables investors to purchase an interest in primarily short-dated securities (e.g. treasury notes and bank bills).</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4508" xlink:label="loc_DV4508"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4508" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Authorised Deposit-taking Institution or Overseas Equivalent</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4508" xlink:to="lbl_DV4508"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4508" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an Authorised Deposit-taking Institution (AD) or an equivalent overseas deposit-taking institutions.
+
+An ADI has an in force authority under subsection 9(3) of the Banking Act 1959.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4533" xlink:label="loc_DV4533"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4533" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not an Authorised Deposit-taking Institution or Overseas Equivalent</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4533" xlink:to="lbl_DV4533"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4533" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is any entity other than an Authorised Deposit-taking Institution (ADI) or an equivalent overseas deposit-taking institution.
+
+An Authorised Deposit-taking Institution (ADI) has an in force authority under subsection 9(3) of the Banking Act 1959.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4551" xlink:label="loc_DV4551"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4551" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Insurance Broker</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4551" xlink:to="lbl_DV4551"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4551" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the reported information is an Insurance Broker.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4614" xlink:label="loc_DV4614"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4614" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not General Insurer</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4614" xlink:to="lbl_DV4614"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4614" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is not a General Insurer, being an entity that carries on general insurance business.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4652" xlink:label="loc_DV4652"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4652" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">First Home Buyer</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4652" xlink:to="lbl_DV4652"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4652" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a first home buyer, being an individual, or groups of individuals, whose dealings with the reporting party are for the purchase or construction of the first dwelling to be occupied by the counterparty as their residence. This does not include circumstances in which the counterparty is dealing with the reporting party in relation to a business or enterprise, regardless of how that business or enterprise is structured.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4653" xlink:label="loc_DV4653"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4653" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not First Home Buyer</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4653" xlink:to="lbl_DV4653"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4653" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is any counterparty other than a First Home Buyer, being an individual, or group of individuals, whose dealings with the reporting party are for the purchase or construction of the first dwelling to be occupied by the counterparty as their residence. This does not include circumstances in which the counterparty is dealing with the reporting party in relation to a business or enterprise, regardless of how that business or enterprise is structured.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4673" xlink:label="loc_DV4673"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4673" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Private Trading Corporation</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4673" xlink:to="lbl_DV4673"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4673" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Private Trading Corporation (non-financial), being a corporation owned and controlled by the private sector whose main activities are producing goods or non-financial services for sale.
+
+This includes:
+     - All resident private corporate trading enterprises, and non-profit institutions that are market producers of goods or non-financial services.                                                                                                              
+     - Intra group financiers and retailers registered under the Financial Sector (Collection of Data) Act 2001 and parent companies with significant holdings of shares in private trading companies.
+     - Privately owned schools and hospitals.
+     - Any unincorporated unit that is a branch in Australia of a non-resident company and which is not included in the financial sector.
+     - Unincorporated business in the nature of branches of non-resident companies and joint ventures or partnerships owned / operated by trading corporations.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4674" xlink:label="loc_DV4674"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4674" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Institution</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4674" xlink:to="lbl_DV4674"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4674" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Financial Institution.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4675" xlink:label="loc_DV4675"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4675" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Joint Venture</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4675" xlink:to="lbl_DV4675"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4675" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Joint Venture, being a contractual arrangement whereby two or more parties undertake an economic activity, which is subject to joint control. This is to be determined in accordance with accounting standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4676" xlink:label="loc_DV4676"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4676" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Other Unit Trusts</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4676" xlink:to="lbl_DV4676"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4676" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a balancing item in the list in which it is being used.
+
+The counterparty in relation to the information is a Unit Trust, or than those already reported in the applicable list.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4677" xlink:label="loc_DV4677"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4677" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Institution Other Than ADI, RFC, Insurance, CBA, Securitisers</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4677" xlink:to="lbl_DV4677"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4677" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a balancing item in the list in which it is being used.
+
+The counterparty in relation to the information is a Financial Institutions, but other than those Financial Institutions classified as any of the following:
+- ADI's;
+- RFC's;
+- Insurance corporations;
+- Securitisers; or
+- Central Borrowing Authorities.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4678" xlink:label="loc_DV4678"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4678" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Wholesale Trust</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4678" xlink:to="lbl_DV4678"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4678" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Wholesale Trust, being a type of collective investment in which the assets of retail investment trusts are grouped together and invested by an investment manager.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4679" xlink:label="loc_DV4679"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4679" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Commonwealth And State Governments</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4679" xlink:to="lbl_DV4679"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4679" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is the Commonwealth (or Federal, or Australian) Government or a State Government.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4716" xlink:label="loc_DV4716"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4716" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not Former Special Service Provider (SSP)</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4716" xlink:to="lbl_DV4716"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4716" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is not a former Special Service Provider (SSP). 
+
+SSPs are companies run by industry bodies which provide services (e.g. payments clearing) to member building societies and credit unions.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4800" xlink:label="loc_DV4800"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4800" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Holding Company of ADI or Overseas Equivalent</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4800" xlink:to="lbl_DV4800"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4800" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a holding company of an Australian Authorised Deposit-taking Institution (ADI) or an equivalent overseas deposit-taking institution.
+
+This excludes holding companies of ADIs and equivalent overseas deposit-taking institutions which are held for trading purposes (refer APS 116).
+
+An Authorised Deposit-taking Institution (ADI) has an in force authority under subsection 9(3) of the Banking Act 1959.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4811" xlink:label="loc_DV4811"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4811" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not a Cash Management Trust (CMT)</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4811" xlink:to="lbl_DV4811"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4811" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is not a Cash Management Trust (CMT).
+
+A Cash Management Trust (CMT) is a type of collective investment that enables investors to purchase an interest in primarily short-dated securities (e.g. treasury notes and bank bills).</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4812" xlink:label="loc_DV4812"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4812" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Corporation Other Than ADI, General Insurance, Private Trading Corporation, Commonwealth Government or a Registered Financial Corporation</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4812" xlink:to="lbl_DV4812"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4812" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a balancing item in the list in which it is being used.
+
+The counterparty in relation to the information is a corporation, but other than those classified as any of the following:
+      - ADI, being an Authorised Deposit-taking Institution (ADI). An ADI has an in force authority under subsection 9(3) of the Banking Act 1959.;
+      - General Insurance, being a body corporate that is authorised under s.12 of the Insurance Act 1973 to carry on insurance business in Australia. More generally, a non life, property or casualty insurer;
+      - Private Trading Corporation, being corporations owned and controlled by the private sector whose main activities are producing goods or non-financial services for sale;
+      - Commonwealth Government Corporations, being trading enterprises owned and controlled by a Commonwealth Government and which produce goods or non-financial services for sale at market price; or
+      - Registered Financial Corporations, being a company registered by APRA under the Financial Sector (Collection of Data) Act because it is in the business of provision of finance (i.e. loans or debt securities) and, usually, the borrowing of money.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4850" xlink:label="loc_DV4850"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4850" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not Individual, Private Unincorporated Business, or Private Trading Corporation</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4850" xlink:to="lbl_DV4850"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4850" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is not any of the following:
+
+     - an individual, or group of individuals acting in a private (i.e. non commercial) capacity; 
+     - a private unincorporated business, being any enterprise issued with an Australian Business Number that is not a body corporate, as defined in the Corporations Act; or
+     - a private trading corporation, being a corporation owned and controlled by the private sector whose main activities are producing goods or non-financial services for sale.
+.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4896" xlink:label="loc_DV4896"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4896" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Commonwealth Public Sector Trading Enterprise</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4896" xlink:to="lbl_DV4896"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4896" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Commonwealth Public Sector Trading Enterprise (non-financial), being a trading enterprise owned and controlled by a Commonwealth Government and which produce goods or non-financial services for sale at market price.
+
+This includes all trading enterprises owned 50% or more by a Commonwealth Government or controlled by a Commonwealth Government through legislation, decree, or regulation.
+
+This excludes the Commonwealth Government itself; Government departments; Commonwealth Government owned financial institutions; and Commonwealth borrowing authorities.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4897" xlink:label="loc_DV4897"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4897" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Private Unincorporated Business CSO</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4897" xlink:to="lbl_DV4897"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4897" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Private Unincorporated Business or a Community Service Organisation (CSO). 
+
+A Private Unincorporated Business is any enterprise issued with an Australian Business Number that is not a body corporate, as defined in the Corporations Act.
+
+CSOs are charities and aid organisations financed by voluntary transfers and institutions financed mostly by members contributions. This does not include CSOs and non profit institutes controlled and mainly financed by government.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4898" xlink:label="loc_DV4898"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4898" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Private Unincorporated Business</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4898" xlink:to="lbl_DV4898"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4898" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Private Unincorporated Business, being any enterprise issued with an Australian Business Number that is not a body corporate, as defined in the Corporations Act.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4899" xlink:label="loc_DV4899"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4899" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Bank</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4899" xlink:to="lbl_DV4899"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4899" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Bank, being an Authorised Deposit-taking Institution (ADI) for which an authority under subsection 9(3) of the Banking Act 1959 is in force and which holds a consent under section 66 of the Act to use the word 'Bank'.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4900" xlink:label="loc_DV4900"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4900" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Public Sector Trading Enterprise</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4900" xlink:to="lbl_DV4900"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4900" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Public Sector Trading Enterprise (non-financial), being a trading enterprise owned and controlled by the Government and which produces goods or non-financial services for sale at market price.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4905" xlink:label="loc_DV4905"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4905" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Securitisation Program</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4905" xlink:to="lbl_DV4905"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4905" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a securitisation program, or securitiser.
+
+A securitisation program represents a structure (a special purpose vehicle, or SPV) where the cash flows from a pool (of assets, or interests in assets) are used to service obligations to creditors (typically holders of debt securities) who fund the SPV.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4906" xlink:label="loc_DV4906"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4906" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Foreign Government Grade 1 Rating for Prudential Purposes</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4906" xlink:to="lbl_DV4906"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4906" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a national government of a foreign country where the security in relation to the reported information has a grade 1 counterparty rating or the long term foreign currency counterparty rating of the country is grade 1. Grade 1 is defined in the relevant prudential standard.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4907" xlink:label="loc_DV4907"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4907" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Foreign Government Not Grade 1 Rating for Prudential Purposes</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4907" xlink:to="lbl_DV4907"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4907" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is the national government of a foreign country where the security in relation to the reported information does not have a grade 1 counterparty rating or the long term foreign currency counterparty rating of the country is not grade 1. Grade 1 is defined in the relevant prudential standard.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4908" xlink:label="loc_DV4908"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4908" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Corporation Other Than ADI, General Insurance, Private Trading Corporation, Government, Registered Financial Corporation or Securitisers</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4908" xlink:to="lbl_DV4908"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4908" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a balancing item in the list in which it is being used.
+
+The counterparty in relation to the information is a corporation, but other than those classified as any of the following:
+      - ADI, being an Authorised Deposit-taking Institution (ADI). An ADI has an in force authority under subsection 9(3) of the Banking Act 1959.;
+      - General Insurance, being a body corporate that is authorised under s.12 of the Insurance Act 1973 to carry on insurance business in Australia. More generally, a non life, property or casualty insurer;
+      - Private Trading Corporation, being corporations owned and controlled by the private sector whose main activities are producing goods or non-financial services for sale;
+      - Commonwealth Government Corporations, being trading enterprises owned and controlled by a Commonwealth Government and which produce goods or non-financial services for sale at market price; 
+      - Registered Financial Corporations, being a company registered by APRA under the Financial Sector (Collection of Data) Act because it is in the business of provision of finance (i.e. loans or debt securities) and, usually, the borrowing of money;
+      - Australian government including government owned or controlled commercial enterprises and central borrowing authorities; 
+     - National government of foreign counties; or
+     - Securitisation programs, or securitisers which represent a structure (a special purpose vehicle, or SPV) where the cash flows from a pool (of assets, or interests in assets) are used to service obligations to creditors (typically holders of debt securities) who fund the SPV.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4935" xlink:label="loc_DV4935"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4935" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Institution Other Than RBA, ADI, RFC, Insurance, Pension, CBA</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4935" xlink:to="lbl_DV4935"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4935" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a balancing item in the list in which it is being used.
+
+The counterparty in relation to the information is a Financial Institution, but other than those Financial Institutions classified as any of the following:
+
+- Authorised Deposit-taking Institutions (ADIs), being corporations in relation to which an authority under subsection 9 (3) of the Banking Act 1959 is in force;
+
+- Reserve Bank of Australia;
+
+- RFCs, being corporations registered under the Financial Sector (Collection of Data) Act 2001 classified as Categories D, other and cash management trusts;
+
+- Central borrowing authorities (CBAs), being corporations established by State and Territory governments to provide finance for government authorities and to manage their surplus funds;
+
+- Insurance corporations, registered with the Australian Prudential Regulation Authority; or
+
+- Pension Funds for the purposes of the Superannuation Industry (Supervision) Act 1993. These are Superannuation funds and Approved Deposit Funds established to provide benefits for their members on retirement, resignation, death or disablement.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4937" xlink:label="loc_DV4937"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4937" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Reserve Bank of Australia (RBA)</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4937" xlink:to="lbl_DV4937"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4937" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is the Reserve Bank of Australia (RBA).</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV5108" xlink:label="loc_DV5108"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5108" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Reinsurer Approved by APRA</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5108" xlink:to="lbl_DV5108"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5108" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Reinsurer approved by APRA.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV5109" xlink:label="loc_DV5109"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5109" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Reinsurer Not Approved by APRA</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5109" xlink:to="lbl_DV5109"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5109" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Reinsurer that has not been approved by APRA.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV5110" xlink:label="loc_DV5110"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5110" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Employee</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5110" xlink:to="lbl_DV5110"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5110" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an employee of the reporting party. 
+
+An employee is any person who received employee benefits as determined in accordance with accounting standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV5152" xlink:label="loc_DV5152"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5152" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not a Financial Services Entity</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5152" xlink:to="lbl_DV5152"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5152" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is any entity, but other than those classified as Financial Services Entities. Financial Services Entities include:
+     
+- A life company (within the meaning of the Life Insurance Act 1995), general insurer (within the meaning of the Insurance Act 1973), health insurance institution (being a registered organization within the meaning of Part VI of the National Health Act 1953), ADI (within the meaning of the Banking Act 1959), foreign equivalent of any such company, or a Group containing one or more such companies;
+     
+- A mortgage lender, leasing company or Group containing one or more such companies;
+     
+- A superannuation trustee or administrative services company administering financial services business for third parties or the Group's own business;
+     
+- A financial advising distribution company providing financial advice and distributing products of third parties or the Group's own products;
+     
+- An investment management entity (such as a funds manager, property manager, asset custodian, trustee company, etc) managing the assets of third parties, or those of the Group; and
+     
+- An investment servicing company (such as a property maintenance company, property developer or share registry) providing services to the Group's own investment assets or other third parties.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV5241" xlink:label="loc_DV5241"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5241" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">General Australian Government</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5241" xlink:to="lbl_DV5241"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5241" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is the General Government.
+
+This includes the following:
+
+     - Commonwealth General Government - Australian Commonwealth Government departments and agencies principal function is to provide non-market goods and services, principally financed by taxes, to regulate economic activity, maintain law and order and to redistribute income and wealth by means of transfers.
+
+This includes for example, departments and agencies (such as Department of Finance, Department of Defence, ABC, SBS, Australian Film Commission, CSIRO etc.); Commonwealth Government unincorporated enterprises which provide goods and services to the Australian Commonwealth Government and/or to the public for free or at prices that are not economically significant (e.g. government employee cafeterias, munitions factories, etc.), non-profit institutions controlled and mainly financed by the Commonwealth Government, Commonwealth Government quasi-corporations which sell their output, at near market prices, exclusively to other government units (e.g. government printers and defence force housing schemes), and public universities.
+
+This excludes for example, Government trading enterprises (such as Australia Post), the Reserve Bank of Australia (RBA) and Commonwealth Government financial institutions (such as Australian Industry Development Corporation (AIDC) and Export Finance and Insurance Corporation (EFIC).
+
+     - State, Territory and Local General Government - State, Territory and Local General Government provides non-market goods and services principally financed by taxes to regulate economic activity, maintain law and order and to redistribute income and wealth by means of transfers and hence provided free of charge or at nominal prices well below the cost of production.
+
+This includes for example, State and Local Government unincorporated enterprises which provide goods and services to their government and/or to the public for free or at prices that are not economically significant (e.g. government employee cafeterias, municipal swimming pools, etc.), non-profit institutions controlled and mainly financed by State and Local Government, State Government quasi-corporations which sell their output, at near market prices, exclusively to other Government units (e.g. Government printers), ACT and Northern Territory Government departments and agencies, and state schools, technical and further education colleges and state owned hospitals.
+
+This excludes for example, State and Local Government trading enterprises and financial enterprises (e.g. rail, and municipal water authorities), and State and Territory central borrowings authorities.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV5242" xlink:label="loc_DV5242"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5242" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">State, Territory And Local General Government</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5242" xlink:to="lbl_DV5242"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5242" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is the State, Territory and Local General Government.
+
+This includes the following:
+
+     - State, Territory and Local General Government - State, Territory and Local General Government provides non-market goods and services principally financed by taxes to regulate economic activity, maintain law and order and to redistribute income and wealth by means of transfers and hence provided free of charge or at nominal prices well below the cost of production.
+
+This includes for example, State and Local Government unincorporated enterprises which provide goods and services to their government and/or to the public for free or at prices that are not economically significant (e.g. government employee cafeterias, municipal swimming pools, etc.), non-profit institutions controlled and mainly financed by State and Local Government, State Government quasi-corporations which sell their output, at near market prices, exclusively to other Government units (e.g. Government printers), ACT and Northern Territory Government departments and agencies, and state schools, technical and further education colleges and state owned hospitals.
+
+This excludes for example, State and Local Government trading enterprises and financial enterprises (e.g. rail, and municipal water authorities), and State and Territory central borrowings authorities.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV5398" xlink:label="loc_DV5398"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5398" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not an Offshore Banking Unit or a Private Trading Corporation</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5398" xlink:to="lbl_DV5398"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5398" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is any entity, other than those entities classified as any of the following:
+     - An Offshore Banking Unit, being financial institutions declared by the Australian Federal Treasurer to be such in accordance with tax legislation; or
+     - A Private Trading Corporation, being corporations owned and controlled by the private sector whose main activities are producing goods or non-financial services for sale.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV5399" xlink:label="loc_DV5399"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5399" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Offshore Banking Unit (OBU)</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5399" xlink:to="lbl_DV5399"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5399" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an Offshore Banking Unit (OBU) declared by the Australian Federal Treasurer to be such in accordance with tax legislation.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV5400" xlink:label="loc_DV5400"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5400" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">European Central Bank</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5400" xlink:to="lbl_DV5400"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5400" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is the European Central Bank (ECB).</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV5401" xlink:label="loc_DV5401"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5401" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Bank Other Than a Central Bank or Foreign Office</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5401" xlink:to="lbl_DV5401"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5401" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Bank that is not a "Central Bank" nor a "Foreign Office" of the reporting party.
+                                                                                                                         
+A Central Bank is a public financial entity that has the responsibility for monetary policy, issuing currency and/or holding a country's international reserves. This includes supranational monetary authorities such as the Bank for International Settlements (BIS) and the European Central Bank (ECB).
+                                                                                                   
+A foreign office of the reporting party is an operation located outside Australia that is not a separate legal entity to the reporting party.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV5402" xlink:label="loc_DV5402"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5402" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Foreign Office</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5402" xlink:to="lbl_DV5402"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5402" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a foreign office of the reporting party, being an operation located outside Australia that is not a separate legal entity to the reporting party.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV5403" xlink:label="loc_DV5403"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5403" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not Bank In Home Country</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5403" xlink:to="lbl_DV5403"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5403" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is not a bank according to the definition used in the country where the counterparty is located (home country). If this is not possible, reporting entities should use their own knowledge and readily available works of reference (e.g. banking almanacs).</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV5404" xlink:label="loc_DV5404"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5404" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Unallocated - Not Public Sector or Private Sector</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5404" xlink:to="lbl_DV5404"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5404" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information cannot be identified or cannot be allocated to either the public sector or the private sector.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV5405" xlink:label="loc_DV5405"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5405" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Private Sector Organisation Other Than A Bank</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5405" xlink:to="lbl_DV5405"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5405" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a private sector organisation, but not a bank as defined according to local rules and not an international non-governmental organisation that operates internationally.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV5406" xlink:label="loc_DV5406"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5406" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">APRA Authorised General Insurer</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5406" xlink:to="lbl_DV5406"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5406" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is  an APRA-authorised General Insurer.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV5407" xlink:label="loc_DV5407"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5407" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Lloyd's Underwriter</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5407" xlink:to="lbl_DV5407"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5407" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Lloyd's underwriter.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV5408" xlink:label="loc_DV5408"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5408" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Unauthorised Foreign Insurer</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5408" xlink:to="lbl_DV5408"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5408" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an unauthorised foreign insurer.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV5409" xlink:label="loc_DV5409"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5409" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Not Bank or Offshore Banking Unit</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV5409" xlink:to="lbl_DV5409"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV5409" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is not any the following:
+
+- a Bank, being an Authorised Deposit-taking Institution in relation to which an authority under subsection 9(3) of the Banking Act 1959 is in force and which holds a consent under section 66 of the Act to use the word 'Bank'; or
+
+- an Offshore Banking Unit declared by the Australian Federal Treasurer to be such in accordance with tax legislation.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV6136" xlink:label="loc_DV6136"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6136" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Grade 1 Other</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV6136" xlink:to="lbl_DV6136"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6136" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is categorised as grade 1 other than Commonwealth or foreign government, in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV6137" xlink:label="loc_DV6137"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6137" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Lenders Mortgage Insurer</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV6137" xlink:to="lbl_DV6137"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6137" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Lenders Mortgage Insurer (LMI). Lenders mortgage insurer means an insurer that has written or reinsured, or proposes to write or reinsure, policies of lenders mortgage insurance.
+
+Lenders mortgage insurance has its ordinary commercial meaning and includes insurance under a policy that protects a lender from losses in the event of borrower default on a loan secured by a mortgage over residential or other property.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV6138" xlink:label="loc_DV6138"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6138" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Grade 1 Government</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV6138" xlink:to="lbl_DV6138"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6138" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is categorised as grade 1 government, in accordance with relevant prudential standards. This category applies to assets guaranteed by the Commonwealth Government and assets guaranteed by foreign governments that have a counterparty grade of 1 and are denominated in the official or national currency of the guarantor.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV6139" xlink:label="loc_DV6139"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6139" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Commercial Non Financial</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV6139" xlink:to="lbl_DV6139"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV6139" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a commercial or non-financial institution, determined in accordance with relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7134" xlink:label="loc_DV7134"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7134" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Hedge Fund</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7134" xlink:to="lbl_DV7134"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7134" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a hedge fund. This represents a collective investment that displays a combination of the following characteristics: (a) borrowing and leverage restrictions, which are typically included in collective-investment-schemes-related regulation, are not applied, may use high levels of leverage; (b) significant performance fees (often in the form of a percentage of profits) are paid to the manager in addition to an annual management fee; (c) investors are typically permitted to redeem their interests periodically (e.g. quarterly, semi-annually or annually); (d) significant 'own' funds are often invested by the managers; (e) derivatives are used, often for speculative purposes, and there is an ability to short sell securities; and (f) more diverse risks or complex underlying products are involved.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7135" xlink:label="loc_DV7135"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7135" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Limited Partnership</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7135" xlink:to="lbl_DV7135"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7135" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an association of persons, other than a company, carrying on business as partners or in receipt of income jointly, where the liability of at least one of those persons is limited, or an association of persons with legal personality to carry on activities that are carried on by a body of that kind.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7319" xlink:label="loc_DV7319"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7319" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Offshore</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7319" xlink:to="lbl_DV7319"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7319" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The reported information relates to transactions with counterparties classified as a non-resident. That is domicile is overseas including related offshore entities.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7323" xlink:label="loc_DV7323"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7323" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Authorised Deposit Taking Institution Not Bank Credit Union Building Society</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7323" xlink:to="lbl_DV7323"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7323" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a balancing item in the list in which it is being used. The counterparty in relation to the information is any authorised deposit-taking institution, other than those which are classified as Banks, Credit Unions or Building Societies (CUBS).</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7325" xlink:label="loc_DV7325"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7325" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Authorised Deposit Taking Institution Bank</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7325" xlink:to="lbl_DV7325"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7325" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The reported information relates to transaction with counterparties classified as an authorised deposit-taking institution within the meaning of Banking Act 1959 and banking institutions in foreign jurisdictions.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7326" xlink:label="loc_DV7326"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7326" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Other Entities</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7326" xlink:to="lbl_DV7326"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7326" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The reported information relates to transactions with counterparties classified as other entity. Other entity is any entity not already specified.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7327" xlink:label="loc_DV7327"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7327" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Domestic</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7327" xlink:to="lbl_DV7327"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7327" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The reported information relates to transactions with counterparties classified as a resident. That is, their domicile is Australia.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7328" xlink:label="loc_DV7328"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7328" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Network Cooperative Bank</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7328" xlink:to="lbl_DV7328"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7328" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The reported information is from member institution with the entity where the entity acts as the central institution for a network of cooperative banks in accordance with the relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7329" xlink:label="loc_DV7329"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7329" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Non Financial Corporates</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7329" xlink:to="lbl_DV7329"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7329" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The reported information relates to transactions with counterparties classified as a non-financial corporate. Non-financial corporates are determined in accordance with the relevant prudential standard.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7330" xlink:label="loc_DV7330"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7330" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Retail Customers</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7330" xlink:to="lbl_DV7330"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7330" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The reported information relates to transactions with counterparties classified as a retail customer. Retail customer is a natural person as determined in accordance with the relevant prudential standard.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7331" xlink:label="loc_DV7331"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7331" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Other Financial Institutions And Other Entities</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7331" xlink:to="lbl_DV7331"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7331" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The reported information relates to transactions with any other financial institutions and other entities. Other financial institutions are any financial institutions not already specified and other entities are any entities not already specified.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7332" xlink:label="loc_DV7332"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7332" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Other Financial Institutions</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7332" xlink:to="lbl_DV7332"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7332" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The reported information relates to transactions with counterparties classified as an other financial institution. Other financial institutions are any financial institutions not already reported.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7333" xlink:label="loc_DV7333"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7333" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Offshore Central Banks</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7333" xlink:to="lbl_DV7333"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7333" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is central banks that are not the RBA (Reserve Bank of Australia).</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7334" xlink:label="loc_DV7334"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7334" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Small Medium Enterprise</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7334" xlink:to="lbl_DV7334"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7334" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The reported information relates to transactions with counterparties classified as a small to medium enterprise. Small to medium enterprise is determined in accordance with the relevant prudential standard.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7335" xlink:label="loc_DV7335"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7335" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Other Sovereigns</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7335" xlink:to="lbl_DV7335"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7335" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information that is any other Sovereigns not Australian Commonwealth Government or State and Territory Governments or Commonwealth Public Sector Trading Enterprises.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7336" xlink:label="loc_DV7336"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7336" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Authorised Deposit Taking Institution Bank Not Mutual Bank</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7336" xlink:to="lbl_DV7336"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7336" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an authorised deposit-taking institution (ADI) bank within the meaning of Banking Act 1959 but is not a mutual bank.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7337" xlink:label="loc_DV7337"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7337" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Sovereign Central Banks Public Sector Entities Multilateral Development Banks</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7337" xlink:to="lbl_DV7337"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7337" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The reported information relates to transactions with counterparties classified as any sovereign, central banks, public sector entities or multilateral development banks excluding sovereign wealth funds.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7338" xlink:label="loc_DV7338"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7338" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Central Banks</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7338" xlink:to="lbl_DV7338"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7338" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is any Central Bank, being a public financial entity that has the responsibility for monetary policy, issuing currency and/or holding a country's reserves both domestic and offshore.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7339" xlink:label="loc_DV7339"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7339" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Mutual Bank</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7339" xlink:to="lbl_DV7339"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7339" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is an authorised deposit-taking institution (ADI) bank within the meaning of Banking Act 1959 and a mutual bank.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7340" xlink:label="loc_DV7340"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7340" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Other Counterparties</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7340" xlink:to="lbl_DV7340"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7340" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a balancing item in the list in which it is being used.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7341" xlink:label="loc_DV7341"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7341" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Domestic Sovereigns Multilateral Development Banks Or Domestic Public Sector Entities</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7341" xlink:to="lbl_DV7341"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7341" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The information reported is where counterparties are either domestic sovereigns, multilateral development banks (MDB) or domestic public sector entities (PSE) excluding the Reserve Bank of Australia (RBA).</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV4936" xlink:label="loc_DV4936"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4936" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Central Bank Plus Supranational Monetary Authorities</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV4936" xlink:to="lbl_DV4936"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV4936" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a Central Bank, being a public financial entity that has the responsibility for monetary policy, issuing currency and/or holding a country's international reserves. This includes supranational monetary authorities such as the Bank for International Settlements (BIS) and the European Central Bank (ECB).</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7342" xlink:label="loc_DV7342"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7342" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Supranationals Foreign Government Issued Securities And Australian And Foreign Sovereign Government Guaranteed Securities</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7342" xlink:to="lbl_DV7342"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7342" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information reported is any supranationals and foreign government issued securities and Australian and foreign sovereign government guaranteed securities.</link:label>
+        <link:loc xlink:type="locator" xlink:href="CntrprtyTyp.02.03.data.xsd#DV7343" xlink:label="loc_DV7343"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7343" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Credit Union Or Building Society</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DV7343" xlink:to="lbl_DV7343"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DV7343" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The counterparty in relation to the information is a credit union or building society (CUBS).</link:label>
+    </link:labelLink>
+</link:linkbase>

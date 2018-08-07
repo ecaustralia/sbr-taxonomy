@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="rvctc3.02.35.data.xsd#rvctc3.02.35_rvctc3Abstract" xlink:label="loc_rvctc3.02.35_rvctc3Abstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_rvctc3Abstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Collection 3</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_rvctc3.02.35_rvctc3Abstract" xlink:to="lbl_rvctc3Abstract"/>
+        <link:loc xlink:type="locator" xlink:href="rvctc3.02.35.data.xsd#DE14687" xlink:label="loc_DE14687"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14687" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Fuel Tax Fuel Type Diesel Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14687" xlink:to="lbl_DE14687"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14687" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the entity uses the fuel type of diesel.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14687" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = the entity uses diesel.
+false = the entity does not use diesel.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc3.02.35.data.xsd#DE14689" xlink:label="loc_DE14689"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14689" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Fuel Tax Fuel Type Other Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14689" xlink:to="lbl_DE14689"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14689" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the entity uses a fuel type that is not classified elsewhere.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14689" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = the entity uses a type of fuel not classified elsewhere.
+false = the entity does not use a type of fuel not classified elsewhere.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc3.02.35.data.xsd#DE14688" xlink:label="loc_DE14688"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14688" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Fuel Tax Fuel Type Petrol Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14688" xlink:to="lbl_DE14688"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14688" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the entity uses the fuel type of petrol.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14688" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = the entity uses petrol.
+false = the entity does not use petrol.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc3.02.35.data.xsd#DE13823" xlink:label="loc_DE13823"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13823" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Goods And Services Tax Turnover Range Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13823" xlink:to="lbl_DE13823"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13823" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This code identifies the expected Goods and Services Tax turnover range for the entity.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13823" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+$0 - $74,999 = $0 - $74,999.
+$75,000 - $149,999 = $75,000 - $149,999.
+$150,000 - $1,999,999 = $150,000 - $1,999,999.
+$2,000,000 - $9,999,999 = $2,000,000 - $9,999,999.
+$10,000,000 - $19,999,999 = $10,000,000 - $19,999,999.
+$20 million and over = $20 million and over.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc3.02.35.data.xsd#DE14693" xlink:label="loc_DE14693"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14693" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Luxury Car Tax Import Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14693" xlink:to="lbl_DE14693"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14693" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the entity has an importing activity in relation to Luxury Car Tax.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14693" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = the entity has a importing activity in relation to Luxury Car Tax.
+false = the entity does not have a importing activity in relation to  Luxury Car Tax.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc3.02.35.data.xsd#DE14690" xlink:label="loc_DE14690"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14690" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Luxury Car Tax Manufacture Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14690" xlink:to="lbl_DE14690"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14690" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the entity has a manufacturing activity in relation to Luxury Car Tax.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14690" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = the entity has a manufacturing activity in relation to Luxury Car Tax.
+false = the entity does not have a manufacturing activity in relation to Luxury Car Tax.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc3.02.35.data.xsd#DE14692" xlink:label="loc_DE14692"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14692" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Luxury Car Tax Retail Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14692" xlink:to="lbl_DE14692"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14692" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the entity has a retailing activity in relation to Luxury Car Tax.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14692" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = the entity has a retailing activity in relation to Luxury Car Tax.
+false = the entity does not have  a retailing activity in relation to Luxury Car Tax.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc3.02.35.data.xsd#DE14691" xlink:label="loc_DE14691"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14691" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Luxury Car Tax Wholesale Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14691" xlink:to="lbl_DE14691"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14691" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the entity has a wholesaling activity in relation to Luxury Car Tax.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14691" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = the entity has a wholesaling activity in relation to Luxury Car Tax.
+false = the entity does not have a wholesaling activity in relation to Luxury Car Tax.</link:label>
+    </link:labelLink>
+</link:linkbase>

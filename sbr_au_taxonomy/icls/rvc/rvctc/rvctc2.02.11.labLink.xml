@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="rvctc2.02.11.data.xsd#DE12803" xlink:label="loc_DE12803"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12803" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Pay As You Go Withholding Employment Termination Payment Type Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12803" xlink:to="lbl_DE12803"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12803" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A code that identifies the reason for the Employment Termination Payment (ETP) being made.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12803" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+R = ETP made because of one of the following: early retirement scheme, genuine redundancy, invalidity, or compensation for personal injury, unfair dismissal, harassment, or discrimination.
+O = Other ETP not described by R (for example: golden handshake, gratuity, payment in lieu of notice, payment for unused sick leave, or payment for unused rostered days off).
+S = ETP code R payment received in the current year and received another ETP (code R or code O), or a transitional termination payment, in an earlier income year for the same termination of employment.
+P = ETP code O payment received in the current year and received another ETP (code R or code O), or a transitional termination payment, in an earlier income year for the same termination of employment.
+D = Death benefit ETP paid to a dependant of the deceased. 
+B = Death benefit ETP paid to a non-dependant of the deceased and a termination payment was made to the non-dependant in a previous income year for the same termination.
+N = Death benefit ETP paid to a non-dependant of the deceased.
+T = Death benefit ETP paid to a trustee of the deceased estate.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc2.02.11.data.xsd#rvctc2.02.11_rvctc2Abstract" xlink:label="loc_rvctc2.02.11_rvctc2Abstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_rvctc2Abstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Collection 2</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_rvctc2.02.11_rvctc2Abstract" xlink:to="lbl_rvctc2Abstract"/>
+    </link:labelLink>
+</link:linkbase>

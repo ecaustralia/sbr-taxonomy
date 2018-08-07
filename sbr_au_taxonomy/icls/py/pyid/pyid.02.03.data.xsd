@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:pyid.02.03="http://sbr.gov.au/icls/py/pyid/pyid.02.03.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dtyp.02.09="http://sbr.gov.au/fdtn/sbr.02.09.dtyp" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:pyid.02.00="http://sbr.gov.au/icls/py/pyid/pyid.02.00.data" targetNamespace="http://sbr.gov.au/icls/py/pyid/pyid.02.03.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.09.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.09.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/py/pyid/pyid.02.00.data" schemaLocation="pyid.02.00.data.xsd"/>
+    <xsd:element name="pyidAbstract" id="pyid.02.03_pyidAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="IdentificationDetails.FormerName.Text" id="DE8666" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="Identifiers.SuperannuationMemberAccount.Identifier" id="DE7461" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="IdentificationDetails" id="DT160" substitutionGroup="xbrli:tuple" nillable="true">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element minOccurs="0" ref="pyid.02.03:IdentificationDetails.FormerName.Text"/>
+                <xsd:element minOccurs="0" ref="pyid.02.00:IdentificationDetails.IdentifierDesignation.Text"/>
+                <xsd:element minOccurs="0" ref="pyid.02.00:IdentificationDetails.IdentifierIssuer.Text"/>
+                <xsd:element minOccurs="0" ref="pyid.02.00:IdentificationDetails.IdentifierName.Text"/>
+                <xsd:element minOccurs="0" ref="pyid.02.00:IdentificationDetails.IdentifierStatus.Code"/>
+                <xsd:element minOccurs="0" ref="pyid.02.00:IdentificationDetails.IdentifierStatusEnd.Date"/>
+                <xsd:element minOccurs="0" ref="pyid.02.00:IdentificationDetails.IdentifierStatusStart.Date"/>
+            </xsd:sequence>
+            <xsd:attribute name="id" use="optional" type="xsd:ID"/>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

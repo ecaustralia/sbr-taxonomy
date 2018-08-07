@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="gfati.02.06.data.xsd#gfati.02.06_gfatiAbstract" xlink:label="loc_gfati.02.06_gfatiAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_gfatiAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Incentives</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_gfati.02.06_gfatiAbstract" xlink:to="lbl_gfatiAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="gfati.02.06.data.xsd#DE13330" xlink:label="loc_DE13330"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13330" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Offset Claim Dependant Spouse Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13330" xlink:to="lbl_DE13330"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13330" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the tax offset claimed for a spouse without dependent children or students, a full time child housekeeper or a housekeeper.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13330" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Spouse for tax purposes means another person (whether of the same sex or opposite sex):
+- With whom the individual was in a relationship that was registered under a prescribed state or territory law
+- Who, although not legally married to the individual, lived with the individual on a genuine domestic basis in a relationship as a couple.
+A child-housekeeper is the individual's child who keeps house full time. Child includes adopted child, stepchild, ex-nuptial child or child of the individual's spouse. However a child who is a full-time student or a full-time employee is not considered to keep house full time.
+A housekeeper is a person who works full time keeping house for the individual and cares for:
+ - a child aged under 21 years, irrespective of the child's adjusted taxable income (ATI)
+ - any other child aged under 21 years who is a dependant and whose ATI is less than a specified limit
+ - an invalid relative who is a dependant and for whom the individual can claim a dependent relative tax offset
+ - a spouse who receives a disability support pension.</link:label>
+        <link:loc xlink:type="locator" xlink:href="gfati.02.06.data.xsd#DE13339" xlink:label="loc_DE13339"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13339" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Offset Claim Dependent Invalid And Carer Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13339" xlink:to="lbl_DE13339"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13339" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the tax offset for maintaining a dependent invalid or carer.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13339" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A dependent relative is someone who depends on or needs aid, support, favour, etc. from the individual.
+The people who can be classified as dependent relatives are:
+ - an invalid spouse
+ - a carer spouse
+ - an invalid relative (child, brother or sister 16 years old or older) or spouse's invalid relative
+ - a parent, or spouse's parent.</link:label>
+        <link:loc xlink:type="locator" xlink:href="gfati.02.06.data.xsd#DE13340" xlink:label="loc_DE13340"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13340" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Offset Claim Mature Aged Worker Eligible Working Income Net Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13340" xlink:to="lbl_DE13340"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13340" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for income from working less all expenses incurred in generating that income.</link:label>
+        <link:loc xlink:type="locator" xlink:href="gfati.02.06.data.xsd#DE13338" xlink:label="loc_DE13338"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13338" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Offset Claim Medical Expenses Disability Aids Attendant Care Or Aged Care Related Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13338" xlink:to="lbl_DE13338"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13338" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates if the medical expenses being claimed as offsets are only related to disability aids, attendant care or aged care.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13338" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = the medical expenses only relate to disability aids, attendant care or aged care.
+false = the medical expenses do not only relate to disability aids, attendant care or aged care.</link:label>
+        <link:loc xlink:type="locator" xlink:href="gfati.02.06.data.xsd#DE13337" xlink:label="loc_DE13337"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13337" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Offset Claim Medical Expenses Net Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13337" xlink:to="lbl_DE13337"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13337" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the tax offset for medical expenses less refunds from Medicare and private health insurers.</link:label>
+        <link:loc xlink:type="locator" xlink:href="gfati.02.06.data.xsd#DE13462" xlink:label="loc_DE13462"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13462" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Offset Claim National Rental Affordability Scheme Entitlement Share Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13462" xlink:to="lbl_DE13462"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13462" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the total share of the national rental affordability scheme tax offset entitlement amount.</link:label>
+        <link:loc xlink:type="locator" xlink:href="gfati.02.06.data.xsd#DE13341" xlink:label="loc_DE13341"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13341" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Offset Claim Non Refundable Other Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13341" xlink:to="lbl_DE13341"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13341" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for non-refundable tax offsets not categorised elsewhere.</link:label>
+        <link:loc xlink:type="locator" xlink:href="gfati.02.06.data.xsd#DE13342" xlink:label="loc_DE13342"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13342" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Offset Claim Non Refundable Other Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13342" xlink:to="lbl_DE13342"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13342" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the code to identify the type of non-refundable tax offset claimed not categorised elsewhere.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13342" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Joint Petroleum Development Area = Joint petroleum development area tax offset.
+Infrastructure Borrowings = Infrastructure borrowings offset.</link:label>
+        <link:loc xlink:type="locator" xlink:href="gfati.02.06.data.xsd#DE13331" xlink:label="loc_DE13331"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13331" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Offset Claim Senior And Pensioner Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13331" xlink:to="lbl_DE13331"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13331" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A code to identify the type of senior and pensioner tax offset.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13331" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Single = At any time during the reporting period, the individual was single, separated or widowed.
+Eligible spouse lived apart = The individual and spouse were both eligible for the senior and pensioner tax offset, and at any time in the reporting period, had to live apart due to illness or lived apart because one of them was in a nursing home.
+Non eligible spouse lived apart = The individual's spouse was not eligible for the senior and pensioner tax offset, and at any time in the financial year, the individual and spouse had to live apart due to illness or lived apart because one of them was in a nursing home.
+Eligible spouse lived together = The individual and spouse lived together, and were both eligible for the senior and pensioner tax offset.
+Non eligible spouse lived together = The individual and spouse lived together, and the individual's spouse was not eligible for the senior and pensioner tax offset.</link:label>
+        <link:loc xlink:type="locator" xlink:href="gfati.02.06.data.xsd#DE13335" xlink:label="loc_DE13335"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13335" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Offset Claim Superannuation Contribution Spouse Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13335" xlink:to="lbl_DE13335"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13335" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for tax offsets claimed for superannuation contributions on behalf of the individual's spouse.</link:label>
+        <link:loc xlink:type="locator" xlink:href="gfati.02.06.data.xsd#DE13333" xlink:label="loc_DE13333"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13333" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Offset Claim Total Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13333" xlink:to="lbl_DE13333"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13333" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the total of all tax offsets being claimed.</link:label>
+        <link:loc xlink:type="locator" xlink:href="gfati.02.06.data.xsd#DE13332" xlink:label="loc_DE13332"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13332" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Offset Claim Veteran Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13332" xlink:to="lbl_DE13332"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13332" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates, during the relevant period, the living arrangements of the person with respect to the Veteran tax offset.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13332" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Veteran War Widow Widower = The individual was a veteran, war widow or war widower.
+Spouse Veteran War Widow Widower = The individual's spouse was a veteran, war widow or war widower.
+Both = Both the individual and the individual's spouse were a veteran, war widow or war widower.</link:label>
+        <link:loc xlink:type="locator" xlink:href="gfati.02.06.data.xsd#DE13336" xlink:label="loc_DE13336"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13336" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Offset Claim Zone Or Overseas Forces Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13336" xlink:to="lbl_DE13336"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13336" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the tax offset where the individual lived or worked in a remote or isolated area of Australia, not including an offshore oil or gas rig, or served overseas as a member of the Australian Defence Force or a United Nations armed force.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13336" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Remote areas are classed as either zone A or zone B. There are also special areas within these zones. 
+
+To qualify for the tax offset, the individual taxpayer must have lived or worked in a remote area (not necessarily continuously) for:
+
+ - 183 days or more during the applicable reporting period, or
+ - 183 days or more during the period one year prior to the applicable reporting period (including at least one day in the current applicable reporting period) and did not claim a zone tax offset in their previous tax return.
+
+The Individual taxpayer is eligible for an overseas forces tax offset if they served in a specified overseas locality as a member of the Australian Defence Force or a United Nations armed force in the applicable reporting period and income relating to that service was not specifically exempt from tax.</link:label>
+    </link:labelLink>
+</link:linkbase>

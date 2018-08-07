@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:cgts.0001.prv.02.00="http://sbr.gov.au/rprt/ato/cgts/cgts.0001.private.02.00.module" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:RprtPyType.02.03="http://sbr.gov.au/dims/RprtPyType.02.03.dims" xmlns:CGTAssetType.02.00="http://sbr.gov.au/dims/CGTAssetType.02.00.dims" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CapLossApplicPrdType.02.00="http://sbr.gov.au/dims/CapLossApplicPrdType.02.00.dims" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:CGTMethod.02.00="http://sbr.gov.au/dims/CGTMethod.02.00.dims" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" targetNamespace="http://sbr.gov.au/rprt/ato/cgts/cgts.0001.private.02.00.module" elementFormDefault="qualified">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:href="cgts.0001.private.02.00.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="cgts.0001.private.02.00.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="cgts.0001.private.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgts/cgts.0001.private.02.00/labRole" id="cgts.0001.02.00.privatelabLinkInfoCls">
+				<link:definition>cgts.0001_private</link:definition>
+				<link:usedOn>link:labelLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgts/cgts.0001.private.02.00/refRole" id="cgts.0001.02.00.privaterefLink">
+				<link:definition>cgts.0001_private</link:definition>
+				<link:usedOn>link:referenceLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgts/cgts.0001.private.02.00/defRole" id="cgts.0001.02.00.privatedefLink">
+				<link:definition>cgts.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgts/cgts.0001.private.02.00/hypercubes/ReportingParty" id="cgts.0001.02.00.privatedefLink.ReportingParty">
+				<link:definition>cgts.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgts/cgts.0001.private.02.00/hypercubes/ReportingParty.CGTAssetType" id="cgts.0001.02.00.privatedefLink.ReportingParty.CGTAssetType">
+				<link:definition>cgts.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgts/cgts.0001.private.02.00/hypercubes/ReportingParty.CGTAssetTypeCGTMethod" id="cgts.0001.02.00.privatedefLink.ReportingParty.CGTAssetType.CGTMethod">
+				<link:definition>cgts.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgts/cgts.0001.private.02.00/hypercubes/ReportingParty.CGTMethodAll" id="cgts.0001.02.00.privatedefLink.ReportingParty.CGTMethodAll">
+				<link:definition>cgts.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgts/cgts.0001.private.02.00/hypercubes/ReportingParty.CGTAssetActive.CGTMethod" id="cgts.0001.02.00.privatedefLink.ReportingParty.CGTAssetActive.CGTMethod">
+				<link:definition>cgts.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgts/cgts.0001.private.02.00/hypercubes/ReportingParty.CGTMethod.CapitalLossApplicabilityPeriod" id="cgts.0001.02.00.privatedefLink.ReportingParty.CGTMethod.CapitalLossApplicabilityPeriod">
+				<link:definition>cgts.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/cgts/cgts.0001.private.02.00/hypercubes/ReportingParty.CGTAssetNonActive.CGTMethodIndexation" id="cgts.0001.02.00.privatedefLink.ReportingParty.CGTAssetNonActive.CGTMethod">
+				<link:definition>cgts.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/CapLossApplicPrdType.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/CapLossApplicPrdType.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/CGTAssetType.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/CGTAssetType.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/CGTMethod.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/CGTMethod.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.03.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.03.data.xsd"/>
+	<xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+	<xsd:element name="ReportingPartyPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1187" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCGTAssetTypeCGTMethodPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1193" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCGTMethodAllPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1194" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCGTAssetActiveCGTMethodPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1195" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCGTAssetNonActiveCGTMethodIndexationPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1198" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCGTMethodPeriodTypePrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1196" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCGTAssetTypePrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1197" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingParty" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" id="HC1187" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCGTAssetType" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" id="HC1197" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCGTAssetTypeCGTMethod" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" id="HC1193" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCGTMethodAll" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" id="HC1194" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCGTAssetActiveCGTMethod" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" id="HC1195" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCGTAssetNonActiveCGTMethodIndexation" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" id="HC1198" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCGTMethodCapitalLossApplicabilityPeriod" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" id="HC1196" xbrli:periodType="instant"/>
+</xsd:schema>

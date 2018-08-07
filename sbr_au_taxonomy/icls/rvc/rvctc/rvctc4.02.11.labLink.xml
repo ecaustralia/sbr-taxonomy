@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="rvctc4.02.11.data.xsd#rvctc4.02.11_rvctc4Abstract" xlink:label="loc_rvctc4.02.11_rvctc4Abstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_rvctc4Abstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Collection 4</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_rvctc4.02.11_rvctc4Abstract" xlink:to="lbl_rvctc4Abstract"/>
+        <link:loc xlink:type="locator" xlink:href="rvctc4.02.11.data.xsd#DE14261" xlink:label="loc_DE14261"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14261" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">International Dealings Transaction Control Tax Haven Countries Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14261" xlink:to="lbl_DE14261"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14261" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the entity has the ability or expectation to control transactions involving funds, property, assets or investments with certain countries specified as being tax jurisdictions of interest.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14261" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = The entity has the ability or expectation to control transactions with certain countries specified as being tax jurisdictions of interest.
+false = The entity does not have the ability or expectation to control transactions with certain countries specified as being tax jurisdictions of interest.</link:label>
+        <link:loc xlink:type="locator" xlink:href="rvctc4.02.11.data.xsd#DE1871" xlink:label="loc_DE1871"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE1871" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">International Dealings Transactions With Tax Haven Countries Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1871" xlink:to="lbl_DE1871"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE1871" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the entity has had transactions involving funds or property with certain countries specified as being tax jurisdictions of interest.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE1871" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = The entity has had transactions involving funds or property with certain countries specified as being tax jurisdictions of interest.
+false = The entity has not had transactions involving funds or property with certain countries specified as being tax jurisdictions of interest.</link:label>
+    </link:labelLink>
+</link:linkbase>

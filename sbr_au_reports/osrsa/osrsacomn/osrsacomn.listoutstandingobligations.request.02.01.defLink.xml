@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:p0="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/osrsa/osrsacomn/osrsacomn.listoutstandingobligations.request.02.01/defRole" xlink:type="simple" xlink:href="osrsacomn.listoutstandingobligations.request.02.01.report.xsd#osrsacomn.listoutstandingobligations.request.02.01.defLink"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/osrsa/osrsacomn/osrsacomn.private.02.01/hypercubes/ReportingParty.SA" xlink:type="simple" xlink:href="osrsacomn.private.02.01.module.xsd#osrsacomn.02.01.privatedefLinkReportingParty.SA"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/osrsa/osrsacomn/osrsacomn.listoutstandingobligations.request.02.01/defRole">
+    <link:loc xlink:type="locator" xlink:href="osrsacomn.private.02.01.module.xsd#RA849" xlink:label="ReportingPartySAPrimaryItemsAbstract" xlink:title="ReportingPartySAPrimaryItemsAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.02.data.xsd#DE833" xlink:label="Report.Type.Code"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ReportingPartySAPrimaryItemsAbstract" xlink:to="Report.Type.Code" xlink:title="definition: ReportingPartySAPrimaryItemsAbstract to Report.Type.Code" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="osrsacomn.private.02.01.module.xsd#HC849" xlink:label="ReportingPartySA" xlink:title="ReportingPartySA"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="ReportingPartySAPrimaryItemsAbstract" xlink:to="ReportingPartySA" xlink:title="definition: ReportingPartySAPrimaryItemsAbstract to ReportingPartySA" order="2.0" p0:targetRole="http://sbr.gov.au/rprt/osrsa/osrsacomn/osrsacomn.private.02.01/hypercubes/ReportingParty.SA" p0:contextElement="segment" p0:closed="true"/>
+  </link:definitionLink>
+</link:linkbase>

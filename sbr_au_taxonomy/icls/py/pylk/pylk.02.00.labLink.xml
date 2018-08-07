@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance" xlink:type="simple"/>
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition" xlink:type="simple"/>
+	<link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+		<link:loc xlink:href="pylk.02.00.data.xsd#pylk.02.00_pylkAbstract" xlink:label="loc_pylkAbstract" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_pylkAbstract" xlink:to="lbl_pylkAbstract" xlink:type="arc"/>
+		<link:label xlink:label="lbl_pylkAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Party Links</link:label>
+		<link:loc xlink:href="pylk.02.00.data.xsd#DE1600" xlink:label="loc_DE1600" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1600" xlink:to="lbl_DE1600" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE1600" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Managed Investment Scheme Arrangement Name Text</link:label>
+		<link:label xlink:label="lbl_DE1600" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">The name of the relevant managed investment scheme. A managed investment scheme is either:
+ (a) a scheme that has the following features:
+ (i) people contribute money or money&apos;s worth as consideration to acquire rights (interests) to benefits produced by the scheme (whether the rights are actual, prospective or contingent and whether they are enforceable or not);
+ (ii) any of the contributions are to be pooled, or used in a common enterprise, to produce financial benefits, or benefits consisting of rights or interests in property, for the people (the members) who hold interests in the scheme (whether as contributors to the scheme or as people who have acquired interests from holders);
+ (iii) the members do not have day to day control over the operation of the scheme (whether or not they have the right to be consulted or to give directions); or
+ (b) a time sharing scheme</link:label>
+		<link:loc xlink:href="pylk.02.00.data.xsd#DE39" xlink:label="loc_DE39" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE39" xlink:to="lbl_DE39" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE39" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Payment Arrangement Payment Basis Code</link:label>
+		<link:label xlink:label="lbl_DE39" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">F = Full time payees; P = Part time payees; C = Casual payees; L = Labour hire payees; S = Pension or Annuity payees</link:label>
+		<link:label xlink:label="lbl_DE39" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">The basis of payment indicates the type of arrangement between the payer and payee.</link:label>
+		<link:loc xlink:href="pylk.02.00.data.xsd#DE97" xlink:label="loc_DE97" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE97" xlink:to="lbl_DE97" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE97" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Payment Arrangement Termination Code</link:label>
+		<link:label xlink:label="lbl_DE97" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">When a payment arrangement relationship between two parties has terminated before the declaration/relationship has been reported to the ATO this field must be set to T. In all other cases it is to be set to blank.</link:label>
+		<link:label xlink:label="lbl_DE97" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">Indication of  the termination of the payer/payee relationship before the declaration/relationship has been reported to the ATO.</link:label>
+	</link:labelLink>
+</link:linkbase>

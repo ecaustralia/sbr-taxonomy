@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt" xlink:href="../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#sbrReportLabel" xlink:type="simple"/>
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:href="../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#Label" xlink:type="simple"/>
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:href="../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#reportGuidance" xlink:type="simple"/>
+	<link:roleRef roleURI="http://sbr.gov.au/rprt/osrvic/osrviccomn/osrviccomn.listhistoricreturns.response.02.01/labRole" xlink:href="osrviccomn.listhistoricreturns.response.02.01.report.xsd#osrviccomn.listhistoricreturns.rsp.02.01.listhistoricreturns.responselabLinkInfoCls" xlink:type="simple"/>
+	<link:labelLink xlink:role="http://sbr.gov.au/rprt/osrvic/osrviccomn/osrviccomn.listhistoricreturns.response.02.01/labRole" xlink:type="extended">
+		<link:loc xlink:href="../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.data.xsd#DE26" xlink:label="loc_DE26" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE26" xlink:to="lbl_DE26" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE26" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Intermediary ABN</link:label>
+		<link:label xlink:label="lbl_DE26" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Intermediary ABN - ABN of the Intermediary lodging the return on behalf of the Employer</link:label>
+		<link:loc xlink:href="../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE55" xlink:label="loc_DE55" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE55" xlink:to="lbl_DE55" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE55" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Legal Name</link:label>
+		<link:label xlink:label="lbl_DE55" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Legal Name - Legal name that is registered for the customers ABN. When a Trust/Trustee relationship exists for payroll tax purposes the Trust will be the registered entity. All correspondence will be in the name of the Trust. The legal name of a partnership may be shown as the legal name of all partners or the partnership name.
+</link:label>
+		<link:loc xlink:href="../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE64" xlink:label="loc_DE64" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE64" xlink:to="lbl_DE64" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE64" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Organisation Name Type Code</link:label>
+		<link:label xlink:label="lbl_DE64" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Organisation Name Type Code - For SBR use</link:label>
+		<link:loc xlink:href="../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc5.02.00.data.xsd#DE131" xlink:label="loc_DE131" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE131" xlink:to="lbl_DE131" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE131" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Total Tax Payable</link:label>
+		<link:label xlink:label="lbl_DE131" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Total Tax Payable - This figure is related to the Employer or Group if the employer is a Designated Grouped Employer reporting on behalf of Scheduled Members (DGESM). It represents the amount of Gross amount of Payroll Tax that is payable, before any Payroll Tax that has previously been paid has been subtracted. This field can either be derived from the Gross Taxable Victorian Wages, or manually entered.</link:label>
+		<link:loc xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE161" xlink:label="loc_DE161" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE161" xlink:to="lbl_DE161" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE161" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Lodgement Date</link:label>
+		<link:label xlink:label="lbl_DE161" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Lodgement Date - The date that the Payroll Tax return is lodged.</link:label>
+		<link:loc xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE162" xlink:label="loc_DE162" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE162" xlink:to="lbl_DE162" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE162" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Return Due Date</link:label>
+		<link:label xlink:label="lbl_DE162" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Return Due Date - The due date is a legislated date. It is the date that the Payroll Tax Lodgement and payment is due. The due date is the 7th of the month following the month in which those wages were paid or payable (other than the month of June), or the next business day if this falls on a weekend of public holiday. The June return is included in the Annual Reconciliation which is due on the 21st of July.                                                     
+.</link:label>
+		<link:loc xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE219" xlink:label="loc_DE219" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE219" xlink:to="lbl_DE219" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE219" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Report Name</link:label>
+		<link:label xlink:label="lbl_DE219" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Report Name - PTAR (Payroll Tax Annual Reconciliation) or PTMR (Payroll Tax Monthly Return)</link:label>
+		<link:loc xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE532" xlink:label="loc_DE532" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE532" xlink:to="lbl_DE532" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE532" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Software Package Reference</link:label>
+		<link:label xlink:label="lbl_DE532" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Software Package Reference - Reference number generated by the Software Package to assist with sequencing requests</link:label>
+		<link:loc xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE543" xlink:label="loc_DE543" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE543" xlink:to="lbl_DE543" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE543" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Lodgement Number</link:label>
+		<link:label xlink:label="lbl_DE543" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Lodgement Number - The lodgement number  is generated by the SRO to confirm receipt of the Payroll Tax lodgement. </link:label>
+		<link:loc xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE712" xlink:label="loc_DE712" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE712" xlink:to="lbl_DE712" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE712" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Receipt Date</link:label>
+		<link:label xlink:label="lbl_DE712" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Receipt Date - Date when payment was received by SRO VIC</link:label>
+		<link:loc xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE815" xlink:label="loc_DE815" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE815" xlink:to="lbl_DE815" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE815" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Return Period Start Date</link:label>
+		<link:label xlink:label="lbl_DE815" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Return Period Start Date - Start date of the Return Period</link:label>
+		<link:loc xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE816" xlink:label="loc_DE816" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE816" xlink:to="lbl_DE816" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE816" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Return Period End Date</link:label>
+		<link:label xlink:label="lbl_DE816" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Return Period End Date - End date of the Return Period</link:label>
+		<link:loc xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE821" xlink:label="loc_DE821" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE821" xlink:to="lbl_DE821" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE821" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Lodgement Time</link:label>
+		<link:label xlink:label="lbl_DE821" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Lodgement Time - The time that the Payroll Tax return is lodged.</link:label>
+		<link:loc xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE827" xlink:label="loc_DE827" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE827" xlink:to="lbl_DE827" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE827" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Payment Amount</link:label>
+		<link:label xlink:label="lbl_DE827" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Payment Amount - Payment Amount received by SRO VIC</link:label>
+		<link:loc xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.01.data.xsd#DE831" xlink:label="loc_DE831" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE831" xlink:to="lbl_DE831" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE831" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Payment Status</link:label>
+		<link:label xlink:label="lbl_DE831" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Payment Status - The status of the payment can be either:
+
+Paid - either an online payment has been processed, or there is a payment allocated to that return period within the SRO&apos;s records.
+
+Failed - A status of &apos;Failed&apos; can replace the initial status of &apos;Paid&apos; for online payments where the validation of the payment (i.e. account number or transfer amount) has failed.
+
+Future Dated - Online payment is set to a future date and it is set to complete the processing of that payment on the date selected. The status will then change to either &apos;Paid&apos; or &apos;Failed&apos;.</link:label>
+		<link:loc xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.02.data.xsd#DE833" xlink:label="loc_DE833" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE833" xlink:to="lbl_DE833" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE833" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Report Type</link:label>
+		<link:label xlink:label="lbl_DE833" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Report Type - PTAR (Payroll Tax Annual Reconciliation) or PTMR (Payroll Tax Monthly Return)</link:label>
+		<link:loc xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE915" xlink:label="loc_DE915" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE915" xlink:to="lbl_DE915" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE915" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Return ID</link:label>
+		<link:label xlink:label="lbl_DE915" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Return ID - An SRO generated identifier which is specific to a customer and lodgement period.</link:label>
+		<link:loc xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.01.data.xsd#DE3148" xlink:label="loc_DE3148" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3148" xlink:to="lbl_DE3148" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE3148" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Lodgement Channel</link:label>
+		<link:label xlink:label="lbl_DE3148" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Lodgement Channel - The channel used for the Payroll Tax lodgement can be either via SBR or PTX express.</link:label>
+		<link:loc xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.02.data.xsd#DE3156" xlink:label="loc_DE3156" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3156" xlink:to="lbl_DE3156" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE3156" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Lodged By Name</link:label>
+		<link:label xlink:label="lbl_DE3156" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Lodged By Name - The lodger name identifies the user that completed the lodgement.</link:label>
+		<link:loc xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.02.data.xsd#DE3158" xlink:label="loc_DE3158" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3158" xlink:to="lbl_DE3158" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE3158" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Return Status  </link:label>
+		<link:label xlink:label="lbl_DE3158" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Return Status   - The status of the return indicates whether it has been lodged or is yet to be started.</link:label>
+		<link:loc xlink:href="osrviccomn.listhistoricreturns.response.02.01.report.xsd#RA750" xlink:label="loc_RA750" xlink:type="locator"/>
+		<link:label xlink:label="lbl_RA750" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">OSRVICCOMN List Historic Returns Response [Abstract]</link:label>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA750" xlink:to="lbl_RA750" xlink:type="arc"/>
+		<link:loc xlink:href="osrviccomn.listhistoricreturns.response.02.01.report.xsd#RT758" xlink:label="loc_RT758" xlink:type="locator"/>
+		<link:label xlink:label="lbl_RT758" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Intermediary Details</link:label>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RT758" xlink:to="lbl_RT758" xlink:type="arc"/>
+		<link:loc xlink:href="osrviccomn.listhistoricreturns.response.02.01.report.xsd#RT755" xlink:label="loc_RT755" xlink:type="locator"/>
+		<link:label xlink:label="lbl_RT755" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Lodgment History</link:label>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RT755" xlink:to="lbl_RT755" xlink:type="arc"/>
+		<link:loc xlink:href="osrviccomn.listhistoricreturns.response.02.01.report.xsd#RT754" xlink:label="loc_RT754" xlink:type="locator"/>
+		<link:label xlink:label="lbl_RT754" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Obligation Detail</link:label>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RT754" xlink:to="lbl_RT754" xlink:type="arc"/>
+		<link:loc xlink:href="osrviccomn.listhistoricreturns.response.02.01.report.xsd#RT759" xlink:label="loc_RT759" xlink:type="locator"/>
+		<link:label xlink:label="lbl_RT759" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Payroll Tax Payment</link:label>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RT759" xlink:to="lbl_RT759" xlink:type="arc"/>
+	</link:labelLink>
+</link:linkbase>

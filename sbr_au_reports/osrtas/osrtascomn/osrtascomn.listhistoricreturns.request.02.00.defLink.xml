@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:p0="http://xbrl.org/2005/xbrldt">
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/osrtas/osrtascomn/osrtascomn.listhistoricreturns.request.02.00/defRole" xlink:type="simple" xlink:href="osrtascomn.listhistoricreturns.request.02.00.report.xsd#osrtascomn.listhistoricreturns.req.02.00.listhistoricreturns.requestdefLink"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/osrtas/osrtascomn/osrtascomn.private.02.00/hypercubes/ReportingParty.TAS" xlink:type="simple" xlink:href="osrtascomn.private.02.00.module.xsd#osrtascomn.02.00.privatedefLink.ReportingParty.TAS"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/osrtas/osrtascomn/osrtascomn.listhistoricreturns.request.02.00/defRole">
+    <link:loc xlink:type="locator" xlink:href="osrtascomn.listhistoricreturns.request.02.00.report.xsd#RA839" xlink:label="OSRTASCOMNListHistoricReturnsRequestAbstract" xlink:title="OSRTASCOMNListHistoricReturnsRequestAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="osrtascomn.private.02.00.module.xsd#RA836" xlink:label="ReportingPartyPrimaryItemsAbstract" xlink:title="ReportingPartyPrimaryItemsAbstract"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="OSRTASCOMNListHistoricReturnsRequestAbstract" xlink:to="ReportingPartyPrimaryItemsAbstract" xlink:title="definition: OSRTASCOMNListHistoricReturnsRequestAbstract to ReportingPartyPrimaryItemsAbstract" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE3155" xlink:label="Report.Submission.Date"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ReportingPartyPrimaryItemsAbstract" xlink:to="Report.Submission.Date" xlink:title="definition: ReportingPartyPrimaryItemsAbstract to Report.Submission.Date" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.02.data.xsd#DE833" xlink:label="Report.Type.Code"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ReportingPartyPrimaryItemsAbstract" xlink:to="Report.Type.Code" xlink:title="definition: ReportingPartyPrimaryItemsAbstract to Report.Type.Code" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE219" xlink:label="Report.Name.Text"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ReportingPartyPrimaryItemsAbstract" xlink:to="Report.Name.Text" xlink:title="definition: ReportingPartyPrimaryItemsAbstract to Report.Name.Text" use="optional" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="osrtascomn.private.02.00.module.xsd#HC836" xlink:label="ReportingPartyTAS" xlink:title="ReportingPartyTAS"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="ReportingPartyPrimaryItemsAbstract" xlink:to="ReportingPartyTAS" xlink:title="definition: ReportingPartyPrimaryItemsAbstract to ReportingPartyTAS" order="4.0" p0:targetRole="http://sbr.gov.au/rprt/osrtas/osrtascomn/osrtascomn.private.02.00/hypercubes/ReportingParty.TAS" p0:contextElement="segment" p0:closed="true"/>
+  </link:definitionLink>
+</link:linkbase>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="pyde.02.15.data.xsd#pyde.02.15_pydeAbstract" xlink:label="loc_pyde.02.15_pydeAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_pydeAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Party Demographics</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_pyde.02.15_pydeAbstract" xlink:to="lbl_pydeAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.15.data.xsd#DE4980" xlink:label="loc_DE4980"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE4980" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Organisation Control Registered Member Count</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE4980" xlink:to="lbl_DE4980"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE4980" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the number, as at the relevant date, of entities (persons or organisations) recorded in the register of members (or other equivalent mechanism) of the reporting entity.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE4980" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">For example:
+Companies limited by shares - the number of registered shareholders;
+Unit trusts - the number of unitholders;
+Partnerships - the number of partners;
+Discretionary trusts - the number of beneficiaries;
+Associations - the number of registered members.</link:label>
+    </link:labelLink>
+</link:linkbase>

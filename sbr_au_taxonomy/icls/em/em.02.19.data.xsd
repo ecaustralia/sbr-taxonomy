@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:em.02.19="http://sbr.gov.au/icls/em/em.02.19.data" xmlns:emsup.02.01="http://sbr.gov.au/icls/em/emsup/emsup.02.01.data" xmlns:emsup.02.09="http://sbr.gov.au/icls/em/emsup/emsup.02.09.data" xmlns:emfsm.02.01="http://sbr.gov.au/icls/em/emfsm/emfsm.02.01.data" xmlns:emsup.02.16="http://sbr.gov.au/icls/em/emsup/emsup.02.16.data" xmlns:emfsm.02.09="http://sbr.gov.au/icls/em/emfsm/emfsm.02.09.data" xmlns:emsup.02.02="http://sbr.gov.au/icls/em/emsup/emsup.02.02.data" xmlns:emfsm.02.02="http://sbr.gov.au/icls/em/emfsm/emfsm.02.02.data" xmlns:emsup.02.17="http://sbr.gov.au/icls/em/emsup/emsup.02.17.data" xmlns:emsup.02.03="http://sbr.gov.au/icls/em/emsup/emsup.02.03.data" xmlns:emsup.02.10="http://sbr.gov.au/icls/em/emsup/emsup.02.10.data" xmlns:emfsm.02.03="http://sbr.gov.au/icls/em/emfsm/emfsm.02.03.data" xmlns:emsup.02.04="http://sbr.gov.au/icls/em/emsup/emsup.02.04.data" xmlns:emsup.02.11="http://sbr.gov.au/icls/em/emsup/emsup.02.11.data" xmlns:emfsm.02.04="http://sbr.gov.au/icls/em/emfsm/emfsm.02.04.data" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:emsup.02.05="http://sbr.gov.au/icls/em/emsup/emsup.02.05.data" xmlns:emsup.02.12="http://sbr.gov.au/icls/em/emsup/emsup.02.12.data" xmlns:emfsm.02.05="http://sbr.gov.au/icls/em/emfsm/emfsm.02.05.data" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:emsup.02.06="http://sbr.gov.au/icls/em/emsup/emsup.02.06.data" xmlns:emsup.02.13="http://sbr.gov.au/icls/em/emsup/emsup.02.13.data" xmlns:emfsm.02.06="http://sbr.gov.au/icls/em/emfsm/emfsm.02.06.data" xmlns:emsup.02.07="http://sbr.gov.au/icls/em/emsup/emsup.02.07.data" xmlns:emsup.02.14="http://sbr.gov.au/icls/em/emsup/emsup.02.14.data" xmlns:emfsm.02.07="http://sbr.gov.au/icls/em/emfsm/emfsm.02.07.data" xmlns:emfsm.02.10="http://sbr.gov.au/icls/em/emfsm/emfsm.02.10.data" xmlns:emsup.02.00="http://sbr.gov.au/icls/em/emsup/emsup.02.00.data" xmlns:emsup.02.08="http://sbr.gov.au/icls/em/emsup/emsup.02.08.data" xmlns:emfsm.02.00="http://sbr.gov.au/icls/em/emfsm/emfsm.02.00.data" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:emsup.02.15="http://sbr.gov.au/icls/em/emsup/emsup.02.15.data" xmlns:emfsm.02.08="http://sbr.gov.au/icls/em/emfsm/emfsm.02.08.data" targetNamespace="http://sbr.gov.au/icls/em/em.02.19.data" elementFormDefault="qualified">
+    <xsd:annotation>
+        <xsd:appinfo>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emfsm/emfsm.02.10.presLink.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.17.presLink.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emfsm/emfsm.02.10.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emfsm/emfsm.02.09.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emfsm/emfsm.02.08.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emfsm/emfsm.02.07.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emfsm/emfsm.02.06.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emfsm/emfsm.02.05.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emfsm/emfsm.02.04.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emfsm/emfsm.02.03.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emfsm/emfsm.02.02.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emfsm/emfsm.02.01.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emfsm/emfsm.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.17.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.16.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.15.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.14.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.13.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.12.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.11.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.10.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.09.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.08.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.07.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.06.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.05.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.04.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.03.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.02.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.01.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emfsm/emfsm.02.10.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emfsm/emfsm.02.09.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emfsm/emfsm.02.08.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emfsm/emfsm.02.07.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emfsm/emfsm.02.06.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emfsm/emfsm.02.05.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emfsm/emfsm.02.04.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emfsm/emfsm.02.03.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emfsm/emfsm.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.17.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.16.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.15.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.14.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.13.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.12.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.11.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.10.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.09.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.08.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.07.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.06.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.05.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.04.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.03.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.02.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.01.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="emsup/emsup.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+        </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emfsm/emfsm.02.10.data" schemaLocation="emfsm/emfsm.02.10.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emfsm/emfsm.02.09.data" schemaLocation="emfsm/emfsm.02.09.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emfsm/emfsm.02.08.data" schemaLocation="emfsm/emfsm.02.08.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emfsm/emfsm.02.07.data" schemaLocation="emfsm/emfsm.02.07.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emfsm/emfsm.02.06.data" schemaLocation="emfsm/emfsm.02.06.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emfsm/emfsm.02.05.data" schemaLocation="emfsm/emfsm.02.05.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emfsm/emfsm.02.04.data" schemaLocation="emfsm/emfsm.02.04.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emfsm/emfsm.02.03.data" schemaLocation="emfsm/emfsm.02.03.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emfsm/emfsm.02.02.data" schemaLocation="emfsm/emfsm.02.02.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emfsm/emfsm.02.01.data" schemaLocation="emfsm/emfsm.02.01.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emfsm/emfsm.02.00.data" schemaLocation="emfsm/emfsm.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emsup/emsup.02.17.data" schemaLocation="emsup/emsup.02.17.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emsup/emsup.02.16.data" schemaLocation="emsup/emsup.02.16.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emsup/emsup.02.15.data" schemaLocation="emsup/emsup.02.15.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emsup/emsup.02.14.data" schemaLocation="emsup/emsup.02.14.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emsup/emsup.02.13.data" schemaLocation="emsup/emsup.02.13.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emsup/emsup.02.12.data" schemaLocation="emsup/emsup.02.12.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emsup/emsup.02.11.data" schemaLocation="emsup/emsup.02.11.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emsup/emsup.02.10.data" schemaLocation="emsup/emsup.02.10.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emsup/emsup.02.09.data" schemaLocation="emsup/emsup.02.09.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emsup/emsup.02.08.data" schemaLocation="emsup/emsup.02.08.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emsup/emsup.02.07.data" schemaLocation="emsup/emsup.02.07.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emsup/emsup.02.06.data" schemaLocation="emsup/emsup.02.06.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emsup/emsup.02.05.data" schemaLocation="emsup/emsup.02.05.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emsup/emsup.02.04.data" schemaLocation="emsup/emsup.02.04.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emsup/emsup.02.03.data" schemaLocation="emsup/emsup.02.03.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emsup/emsup.02.02.data" schemaLocation="emsup/emsup.02.02.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emsup/emsup.02.01.data" schemaLocation="emsup/emsup.02.01.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/em/emsup/emsup.02.00.data" schemaLocation="emsup/emsup.02.00.data.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="emAbstract" id="em.02.19_emAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+</xsd:schema>

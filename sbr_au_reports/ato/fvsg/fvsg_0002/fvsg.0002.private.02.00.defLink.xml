@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Modified External to TIMS-->
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/fvsg/fvsg.0002.private.02.00/hypercubes/ContributionRolloverSprFndUSISuperFund" xlink:type="simple" xlink:href="fvsg.0002.private.02.00.module.xsd#fvsg.0002.02.00.privatedefLinkContributionRolloverSprFndUSISuperFund"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/fvsg/fvsg.0002.private.02.00/hypercubes/RprtPyType" xlink:type="simple" xlink:href="fvsg.0002.private.02.00.module.xsd#fvsg.0002.02.00.privatedefLinkRprtPyType"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/fvsg/fvsg.0002.private.02.00/hypercubes/SprFndUSISuperFund" xlink:type="simple" xlink:href="fvsg.0002.private.02.00.module.xsd#fvsg.0002.02.00.privatedefLinkSprFndUSISuperFund"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/fvsg/fvsg.0002.private.02.00/hypercubes/SuperFund" xlink:type="simple" xlink:href="fvsg.0002.private.02.00.module.xsd#fvsg.0002.02.00.privatedefLinkSuperFund"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/fvsg/fvsg.0002.private.02.00/hypercubes/ContributionRolloverSprFndUSISuperFund">
+    <link:loc xlink:type="locator" xlink:href="fvsg.0002.private.02.00.module.xsd#HC100293" xlink:label="loc_HC100293"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/SuperPaymentDest.02.01.data.xsd#DM737" xlink:label="loc_DM737"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100293" xlink:to="loc_DM737" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/SuperPaymentDest.02.01.data.xsd#DV7475" xlink:label="loc_DV7475"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM737" xlink:to="loc_DV7475" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/SuperPaymentDest.02.01.data.xsd#DV7476" xlink:label="loc_DV7476"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM737" xlink:to="loc_DV7476" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/SprFndUSI.02.00.data.xsd#DM511" xlink:label="loc_DM511"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100293" xlink:to="loc_DM511" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.10.data.xsd#DM5" xlink:label="loc_DM5"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100293" xlink:to="loc_DM5" use="optional" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.10.data.xsd#DV7446" xlink:label="loc_DV7446"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM5" xlink:to="loc_DV7446" use="optional" order="1.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/fvsg/fvsg.0002.private.02.00/hypercubes/RprtPyType">
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.10.data.xsd#DM5" xlink:label="loc_DM5"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.10.data.xsd#DV30" xlink:label="loc_DV30"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM5" xlink:to="loc_DV30" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.10.data.xsd#DV29" xlink:label="loc_DV29"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM5" xlink:to="loc_DV29" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="fvsg.0002.private.02.00.module.xsd#HC100294" xlink:label="loc_HC100294"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100294" xlink:to="loc_DM5" use="optional" order="1.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/fvsg/fvsg.0002.private.02.00/hypercubes/SprFndUSISuperFund">
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.10.data.xsd#DM5" xlink:label="loc_DM5"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.10.data.xsd#DV7446" xlink:label="loc_DV7446"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM5" xlink:to="loc_DV7446" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="fvsg.0002.private.02.00.module.xsd#HC100295" xlink:label="loc_HC100295"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/SprFndUSI.02.00.data.xsd#DM511" xlink:label="loc_DM511"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100295" xlink:to="loc_DM511" use="optional" order="1.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100295" xlink:to="loc_DM5" use="optional" order="2.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/fvsg/fvsg.0002.private.02.00/hypercubes/SuperFund">
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.10.data.xsd#DM5" xlink:label="loc_DM5"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.10.data.xsd#DV7446" xlink:label="loc_DV7446"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_DM5" xlink:to="loc_DV7446" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="fvsg.0002.private.02.00.module.xsd#HC100296" xlink:label="loc_HC100296"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_HC100296" xlink:to="loc_DM5" use="optional" order="1.0"/>
+  </link:definitionLink>
+</link:linkbase>

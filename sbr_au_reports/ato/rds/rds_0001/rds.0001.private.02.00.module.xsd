@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:rds.0001.prv.02.00="http://sbr.gov.au/rprt/ato/rds/rds.0001.private.02.00.module" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:RelPrdDrtn.02.00="http://sbr.gov.au/dims/RelPrdDrtn.02.00.dims" xmlns:ConcessionType.02.00="http://sbr.gov.au/dims/ConcessionType.02.00.dims" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:RprtPyType.02.03="http://sbr.gov.au/dims/RprtPyType.02.03.dims" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" targetNamespace="http://sbr.gov.au/rprt/ato/rds/rds.0001.private.02.00.module" elementFormDefault="qualified">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:href="rds.0001.private.02.00.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="rds.0001.private.02.00.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="rds.0001.private.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.private.02.00/labRole" id="rds.0001.02.00.privatelabLinkInfoCls">
+				<link:definition>rds.0001_private</link:definition>
+				<link:usedOn>link:labelLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.private.02.00/refRole" id="rds.0001.02.00.privaterefLink">
+				<link:definition>rds.0001_private</link:definition>
+				<link:usedOn>link:referenceLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.private.02.00/defRole" id="rds.0001.02.00.privatedefLink">
+				<link:definition>rds.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.private.02.00/hypercubes/ReportingParty" id="rds.0001.02.00.privatedefLink.ReportingParty">
+				<link:definition>rds.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.private.02.00/hypercubes/ReportingParty.ConcessionType.Base.Standard.Concessional.Foreign" id="rds.0001.02.00.privatedefLink.ReportingParty.ConcessionType.Base.Standard.Concessional.Foreign">
+				<link:definition>rds.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.private.02.00/hypercubes/ReportingParty.ConcessionType.Standard.Concessional" id="rds.0001.02.00.privatedefLink.ReportingParty.ConcessionType.Standard.Concessional">
+				<link:definition>rds.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.private.02.00/hypercubes/ReportingParty.ConcessionType.Australian" id="rds.0001.02.00.privatedefLink.ReportingParty.ConcessionType.Australian">
+				<link:definition>rds.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.private.02.00/hypercubes/ReportPartyType.Concession.RelativePeriodDuration.Y0.Y0Minus1.Y0Minus2.Y0Minus3" id="rds.0001.02.00.privatedefLink.ReportPartyType.Concession.RelativePeriodDuration.Y0.Y0Minus1.Y0Minus2.Y0Minus3">
+				<link:definition>rds.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.private.02.00/hypercubes/ReportingParty.Concession.RelativePeriodDuration.Y0.Y0Minus1.Y0Minus2.Y0Minus3" id="rds.0001.02.00.privatedefLink.ReportingParty.Concession.RelativePeriodDuration.Y0.Y0Minus1.Y0Minus2.Y0Minus3">
+				<link:definition>rds.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.private.02.00/hypercubes/ReportPartyType.ConcessionType.Australian.Foreign" id="rds.0001.02.00.privatedefLink.ReportPartyType.ConcessionType.Australian.Foreign">
+				<link:definition>rds.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.private.02.00/hypercubes/ReportingParty.ConcessionType.Australian.Foreign" id="rds.0001.02.00.privatedefLink.ReportingParty.ConcessionType.Australian.Foreign">
+				<link:definition>rds.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.private.02.00/hypercubes/ReportingParty.RelativePeriodDuration.Y0Minus1.Y0Minus2" id="rds.0001.02.00.privatedefLink.ReportingParty.RelativePeriodDuration.Y0Minus1.Y0Minus2">
+				<link:definition>rds.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.private.02.00/hypercubes/ReportingParty.ConcessionType.Standard.Concessiona.lForeign" id="rds.0001.02.00.privatedefLink.ReportingParty.ConcessionType.Standard.Concessiona.lForeign">
+				<link:definition>rds.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.private.02.00/hypercubes/ReportingParty.ConcessionType.Concessional.Foreign" id="rds.0001.02.00.privatedefLink.ReportingParty.ConcessionType.Concessional.Foreign">
+				<link:definition>rds.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.private.02.00/hypercubes/ReportingParty.ConcessionType.Base.Standard" id="rds.0001.02.00.privatedefLink.ReportingParty.ConcessionType.Base.Standard">
+				<link:definition>rds.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.private.02.00/hypercubes/ReportingParty.ConcessionType.Base.Standard.Concessional" id="rds.0001.02.00.privatedefLink.ReportingParty.ConcessionType.Base.Standard.Concessional">
+				<link:definition>rds.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.private.02.00/hypercubes/ReportingParty.ConcessionType.Standard.Concessional.Foreign" id="rds.0001.02.00.privatedefLink.ReportingParty.ConcessionType.Standard.Concessional.Foreign">
+				<link:definition>rds.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.private.02.00/hypercubes/ReportPartyType.ConcessionType.Australian" id="rds.0001.02.00.privatedefLink.ReportPartyType.ConcessionType.Australian">
+				<link:definition>rds.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/ConcessionType.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/ConcessionType.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/RelPrdDrtn.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RelPrdDrtn.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.03.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.03.data.xsd"/>
+	<xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+	<xsd:element name="ResearchAndDevelopmentReportingPartyPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1347" xbrli:periodType="instant"/>
+	<xsd:element name="BaseStandardConcessionalForeignPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1348" xbrli:periodType="instant"/>
+	<xsd:element name="BaseStandardConcessionalPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1349" xbrli:periodType="instant"/>
+	<xsd:element name="BaseStandardPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1350" xbrli:periodType="instant"/>
+	<xsd:element name="ClaimExcludingConcessionPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1397" xbrli:periodType="instant"/>
+	<xsd:element name="ResearchAndDevelopmentTypeRelativePeriodDurationPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1398" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyConcessionTypeCommonPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1399" xbrli:periodType="instant"/>
+	<xsd:element name="ReportPartyTypeConcessionTypePrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1439" xbrli:periodType="instant"/>
+	<xsd:element name="ReportPartyTypeConcessionTypeCommonPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1400" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyRelativePeriodDurationPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1401" xbrli:periodType="instant"/>
+	<xsd:element name="ReportPartyTypeRelativePeriodDurationPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1402" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyConcessionTypePrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1403" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyAustralianOwnedConcessionPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1404" xbrli:periodType="instant"/>
+	<xsd:element name="ClaimIncludingConcessionPrimaryItemsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1406" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingParty" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" id="HC1347" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyConcessionTypeBaseStandardConcessionalForeign" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" id="HC1348" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyConcessionTypeBaseStandardConcessional" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" id="HC1349" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyConcessionTypeBaseStandard" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" id="HC1350" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyConcessionTypeConcessionalForeign" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" id="HC1397" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyConcessionTypeStandardConcessionalForeign" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" id="HC1406" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyRelativePeriodDurationY0Minus1Y0Minus2" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" id="HC1398" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyConcessionTypeAustralianForeign" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" id="HC1399" xbrli:periodType="instant"/>
+	<xsd:element name="ReportPartyTypeConcessionTypeAustralianForeign" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" id="HC1400" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyConcessionTypeAustralian" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" id="HC1403" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyConcessionTypeStandardConcessional" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" id="HC1404" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyConcessionRelativePeriodDurationY0Y0Minus1Y0Minus2Y0Minus3" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" id="HC1401" xbrli:periodType="instant"/>
+	<xsd:element name="ReportPartyTypeConcessionRelativePeriodDurationY0Y0Minus1Y0Minus2Y0Minus3" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" id="HC1402" xbrli:periodType="instant"/>
+	<xsd:element name="ReportPartyTypeConcessionTypeAustralian" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" id="HC1439" xbrli:periodType="instant"/>
+</xsd:schema>

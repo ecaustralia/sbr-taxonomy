@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="pyde.02.23.data.xsd#pyde.02.23_pydeAbstract" xlink:label="loc_pyde.02.23_pydeAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_pydeAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Party Demographics</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_pyde.02.23_pydeAbstract" xlink:to="lbl_pydeAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.23.data.xsd#DE13829" xlink:label="loc_DE13829"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13829" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Organisation Details Main Employment Activity Description</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13829" xlink:to="lbl_DE13829"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13829" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the main employment activity employees of the entity undertake.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.23.data.xsd#DE13820" xlink:label="loc_DE13820"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13820" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Organisation Details Not For Profit Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13820" xlink:to="lbl_DE13820"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13820" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the entity is a not for profit organisation.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13820" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = the entity is a not for profit.
+false = the entity is not a not for profit.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyde.02.23.data.xsd#DE13828" xlink:label="loc_DE13828"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13828" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Organisation Details Organisation Industry Group Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13828" xlink:to="lbl_DE13828"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13828" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This code identifies the main industry group for the entity.</link:label>
+    </link:labelLink>
+</link:linkbase>

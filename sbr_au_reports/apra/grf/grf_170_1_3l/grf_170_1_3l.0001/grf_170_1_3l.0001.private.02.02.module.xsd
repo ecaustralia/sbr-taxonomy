@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:grf_170_1_3l.priv="http://sbr.gov.au/rprt/apra/sbr_au\sbr_au_reports\apra\grf\grf_170_1_3l\grf_170_1_3l.0001\grf_170_1_3l.0001.private.02.02.module" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:report="http://sbr.gov.au/rprt/apra/apra.report.02.01.module" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://sbr.gov.au/rprt/apra/sbr_au\sbr_au_reports\apra\grf\grf_170_1_3l\grf_170_1_3l.0001\grf_170_1_3l.0001.private.02.02.module">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:href="grf_170_1_3l.0001.private.02.02.defLink.xml"/>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_170_1_3l/grf_170_1_3l.private.02.02/defRole" id="grf_170_1_3l.0001.lodge.request.02.02.defLink">
+				<link:definition>grf_170_1_3l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_170_1_3l/grf_170_1_3l.private.02.02/hypercubes/1" id="grf_170_1_3l.0001.lodge.request.02.02.privateDefLink1">
+				<link:definition>grf_170_1_3l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_170_1_3l/grf_170_1_3l.private.02.02/hypercubes/2" id="grf_170_1_3l.0001.lodge.request.02.02.privateDefLink2">
+				<link:definition>grf_170_1_3l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_170_1_3l/grf_170_1_3l.private.02.02/hypercubes/3" id="grf_170_1_3l.0001.lodge.request.02.02.privateDefLink3">
+				<link:definition>grf_170_1_3l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/grf/grf_170_1_3l/grf_170_1_3l.private.02.02/hypercubes/4" id="grf_170_1_3l.0001.lodge.request.02.02.privateDefLink4">
+				<link:definition>grf_170_1_3l.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/rprt/apra/apra.report.02.01.module" schemaLocation="../../../../../sbr_au_reports/apra/apracomn/apra.report.02.01.module.xsd"/>
+	<xsd:element nillable="true" name="HC1" id="HC1" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1" id="RA1" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2" id="HC2" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2" id="RA2" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC3" id="HC3" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract3" id="RA3" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC4" id="HC4" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract4" id="RA4" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="ClassOfBusinessDimensionDomain" id="ClassOfBusinessDimensionDomain" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="LoanOriginatorDimensionDomain" id="LoanOriginatorDimensionDomain" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="BalanceTypeDimensionDomain" id="BalanceTypeDimensionDomain" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="LoanClassificationGPS116DimensionDomain" id="LoanClassificationGPS116DimensionDomain" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="ReportPartyTypeDimensionDomain" id="ReportPartyTypeDimensionDomain" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+</xsd:schema>

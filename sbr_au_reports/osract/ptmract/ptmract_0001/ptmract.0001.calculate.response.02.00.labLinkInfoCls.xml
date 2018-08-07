@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#sbrReportLabel" xlink:type="simple"/>
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#Label" xlink:type="simple"/>
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#reportGuidance" xlink:type="simple"/>
+	<link:roleRef roleURI="http://sbr.gov.au/rprt/osract/ptmract/ptmract.0001.calculate.response.02.00/labRole" xlink:href="ptmract.0001.calculate.response.02.00.report.xsd#ptmract.0001.calculate.rsp.02.00.calculate.responselabLinkInfoCls" xlink:type="simple"/>
+	<link:labelLink xlink:role="http://sbr.gov.au/rprt/osract/ptmract/ptmract.0001.calculate.response.02.00/labRole" xlink:type="extended">
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc5.02.00.data.xsd#DE131" xlink:label="loc_DE131" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE131" xlink:to="lbl_DE131" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE131" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Tax payable</link:label>
+		<link:label xlink:label="lbl_DE131" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Tax payable - Amount of payroll tax payable as returned in the Calculate response. A minus figure indicates that a the employer is entitled to a refund and should contact the ACT Revenue Office outside of the SBR channel.</link:label>
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE219" xlink:label="loc_DE219" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE219" xlink:to="lbl_DE219" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE219" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Report name</link:label>
+		<link:label xlink:label="lbl_DE219" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Report name - ACT Payroll Tax Monthly Return</link:label>
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc5.02.00.data.xsd#DE787" xlink:label="loc_DE787" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE787" xlink:to="lbl_DE787" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE787" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Claiming threshold?</link:label>
+		<link:label xlink:label="lbl_DE787" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Claiming threshold? - Asks the employer if they are claiming the monthly threshold.</link:label>
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE815" xlink:label="loc_DE815" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE815" xlink:to="lbl_DE815" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE815" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Date from</link:label>
+		<link:label xlink:label="lbl_DE815" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Date from - A monthly return start date must be 1st of any month. Start date of 1 June is not valid for a monthly return.</link:label>
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE816" xlink:label="loc_DE816" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE816" xlink:to="lbl_DE816" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE816" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Date to</link:label>
+		<link:label xlink:label="lbl_DE816" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Date to - A monthly return end date must be the last day of any month. End date of 30 June is not valid for a monthly return.</link:label>
+		<link:loc xlink:href="ptmract.0001.calculate.response.02.00.report.xsd#RA930" xlink:label="loc_RA930" xlink:type="locator"/>
+		<link:label xlink:label="lbl_RA930" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">PTMRACT Calculate Response [Abstract]</link:label>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA930" xlink:to="lbl_RA930" xlink:type="arc"/>
+	</link:labelLink>
+</link:linkbase>

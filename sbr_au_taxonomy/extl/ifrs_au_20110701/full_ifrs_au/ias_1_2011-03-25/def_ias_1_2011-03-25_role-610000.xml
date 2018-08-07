@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrldt="http://xbrl.org/2005/xbrldt">
+  <link:roleRef roleURI="http://sbr.gov.au/role/ifrs/ias_1_2011-03-25_role-610000" xlink:type="simple" xlink:href="rol_ias_1_2011-03-25.xsd#ias_1_2011-03-25_role-610000"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/notAll" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#notAll"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/role/ifrs/ias_1_2011-03-25_role-610000">
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_RestatedMember" xlink:label="RestatedMember"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_PreviouslyStatedMember" xlink:label="PreviouslyStatedMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="RestatedMember" xlink:to="PreviouslyStatedMember" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_IncreaseDecreaseDueToChangesInAccountingPolicyAndCorrectionsOfPriorPeriodErrorsMember" xlink:label="IncreaseDecreaseDueToChangesInAccountingPolicyAndCorrectionsOfPriorPeriodErrorsMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="RestatedMember" xlink:to="IncreaseDecreaseDueToChangesInAccountingPolicyAndCorrectionsOfPriorPeriodErrorsMember" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_FinancialEffectOfChangesInAccountingPolicyMember" xlink:label="FinancialEffectOfChangesInAccountingPolicyMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="IncreaseDecreaseDueToChangesInAccountingPolicyAndCorrectionsOfPriorPeriodErrorsMember" xlink:to="FinancialEffectOfChangesInAccountingPolicyMember" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_IncreaseDecreaseDueToChangesInAccountingPolicyRequiredByIFRSsMember" xlink:label="IncreaseDecreaseDueToChangesInAccountingPolicyRequiredByIFRSsMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="FinancialEffectOfChangesInAccountingPolicyMember" xlink:to="IncreaseDecreaseDueToChangesInAccountingPolicyRequiredByIFRSsMember" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_IncreaseDecreaseDueToVoluntaryChangesInAccountingPolicyMember" xlink:label="IncreaseDecreaseDueToVoluntaryChangesInAccountingPolicyMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="FinancialEffectOfChangesInAccountingPolicyMember" xlink:to="IncreaseDecreaseDueToVoluntaryChangesInAccountingPolicyMember" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_FinancialEffectOfCorrectionsOfAccountingErrorsMember" xlink:label="FinancialEffectOfCorrectionsOfAccountingErrorsMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="IncreaseDecreaseDueToChangesInAccountingPolicyAndCorrectionsOfPriorPeriodErrorsMember" xlink:to="FinancialEffectOfCorrectionsOfAccountingErrorsMember" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ConsolidatedAndSeparateFinancialStatementsAxis" xlink:label="ConsolidatedAndSeparateFinancialStatementsAxis"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ConsolidatedMember" xlink:label="ConsolidatedMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ConsolidatedAndSeparateFinancialStatementsAxis" xlink:to="ConsolidatedMember" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_SeparateMember" xlink:label="SeparateMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ConsolidatedMember" xlink:to="SeparateMember" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_StatementOfChangesInEquityAbstract" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_StatementOfChangesInEquityLineItems" xlink:label="loc_14"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc" xlink:to="loc_14" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_Equity" xlink:label="loc_13"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_14" xlink:to="loc_13" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ChangesInEquityAbstract" xlink:label="loc_16"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_14" xlink:to="loc_16" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ChangesInEquity" xlink:label="loc_26"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_16" xlink:to="loc_26" order="100.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesEquity" xlink:label="loc_27"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_16" xlink:to="loc_27" order="60.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_IssueOfEquity" xlink:label="loc_28"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_16" xlink:to="loc_28" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_IncreaseDecreaseThroughOtherDistributionsToOwners" xlink:label="loc_31"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_16" xlink:to="loc_31" order="50.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_DividendsPaid" xlink:label="loc_32"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_16" xlink:to="loc_32" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_IncreaseDecreaseThroughOtherContributionsByOwners" xlink:label="loc_33"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_16" xlink:to="loc_33" order="40.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ComprehensiveIncomeAbstract" xlink:label="loc_17"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_16" xlink:to="loc_17" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ProfitLoss" xlink:label="loc_18"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_17" xlink:to="loc_18" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ComprehensiveIncome" xlink:label="loc_30"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_17" xlink:to="loc_30" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_OtherComprehensiveIncome" xlink:label="loc_29"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_17" xlink:to="loc_29" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_IncreaseDecreaseThroughTreasuryShareTransactions" xlink:label="loc_34"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_16" xlink:to="loc_34" order="70.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl" xlink:label="loc_35"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_16" xlink:to="loc_35" order="80.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_IncreaseDecreaseThroughSharebasedPaymentTransactions" xlink:label="loc_43"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_16" xlink:to="loc_43" order="90.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_StatementOfChangesInEquityTable" xlink:label="StatementOfChangesInEquityTable"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc" xlink:to="StatementOfChangesInEquityTable" order="21.0" xbrldt:contextElement="scenario" xbrldt:closed="true"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ComponentsOfEquityAxis" xlink:label="ComponentsOfEquityAxis"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="StatementOfChangesInEquityTable" xlink:to="ComponentsOfEquityAxis" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_EquityMember" xlink:label="EquityMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ComponentsOfEquityAxis" xlink:to="EquityMember" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_EquityAttributableToOwnersOfParentMember" xlink:label="EquityAttributableToOwnersOfParentMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="EquityMember" xlink:to="EquityAttributableToOwnersOfParentMember" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_IssuedCapitalMember" xlink:label="IssuedCapitalMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="EquityAttributableToOwnersOfParentMember" xlink:to="IssuedCapitalMember" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_SharePremiumMember" xlink:label="SharePremiumMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="EquityAttributableToOwnersOfParentMember" xlink:to="SharePremiumMember" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_TreasurySharesMember" xlink:label="TreasurySharesMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="EquityAttributableToOwnersOfParentMember" xlink:to="TreasurySharesMember" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_OtherEquityInterestMember" xlink:label="OtherEquityInterestMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="EquityAttributableToOwnersOfParentMember" xlink:to="OtherEquityInterestMember" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_RetainedEarningsMember" xlink:label="RetainedEarningsMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="EquityAttributableToOwnersOfParentMember" xlink:to="RetainedEarningsMember" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_OtherReservesMember" xlink:label="OtherReservesMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="EquityAttributableToOwnersOfParentMember" xlink:to="OtherReservesMember" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ReserveOfCashFlowHedgesMember" xlink:label="ReserveOfCashFlowHedgesMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="OtherReservesMember" xlink:to="ReserveOfCashFlowHedgesMember" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ReserveOfExchangeDifferencesOnTranslationMember" xlink:label="ReserveOfExchangeDifferencesOnTranslationMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="OtherReservesMember" xlink:to="ReserveOfExchangeDifferencesOnTranslationMember" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ReserveOfGainsAndLossesFromInvestmentsInEquityInstrumentsMember" xlink:label="ReserveOfGainsAndLossesFromInvestmentsInEquityInstrumentsMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="OtherReservesMember" xlink:to="ReserveOfGainsAndLossesFromInvestmentsInEquityInstrumentsMember" order="8.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ReserveForEqualisationMember" xlink:label="ReserveForEqualisationMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="OtherReservesMember" xlink:to="ReserveForEqualisationMember" order="11.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ReserveForCatastropheMember" xlink:label="ReserveForCatastropheMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="OtherReservesMember" xlink:to="ReserveForCatastropheMember" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ReserveOfDiscretionaryParticipationFeaturesMember" xlink:label="ReserveOfDiscretionaryParticipationFeaturesMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="OtherReservesMember" xlink:to="ReserveOfDiscretionaryParticipationFeaturesMember" order="12.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ReserveOfChangeInFairValueOfFinancialLiabilityAttributableToChangeInCreditRiskOfLiabilityMember" xlink:label="ReserveOfChangeInFairValueOfFinancialLiabilityAttributableToChangeInCreditRiskOfLiabilityMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="OtherReservesMember" xlink:to="ReserveOfChangeInFairValueOfFinancialLiabilityAttributableToChangeInCreditRiskOfLiabilityMember" order="9.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_AmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToNoncurrentAssetsOrDisposalGroupsHeldForSaleMember" xlink:label="AmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToNoncurrentAssetsOrDisposalGroupsHeldForSaleMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="OtherReservesMember" xlink:to="AmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToNoncurrentAssetsOrDisposalGroupsHeldForSaleMember" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ReserveOfSharebasedPaymentsMember" xlink:label="ReserveOfSharebasedPaymentsMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="OtherReservesMember" xlink:to="ReserveOfSharebasedPaymentsMember" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ReserveOfHedgesOfNetInvestmentInForeignOperationsMember" xlink:label="ReserveOfHedgesOfNetInvestmentInForeignOperationsMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="OtherReservesMember" xlink:to="ReserveOfHedgesOfNetInvestmentInForeignOperationsMember" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ReserveOfGainsAndLossesOnRemeasuringAvailableforsaleFinancialAssetsMember" xlink:label="ReserveOfGainsAndLossesOnRemeasuringAvailableforsaleFinancialAssetsMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="OtherReservesMember" xlink:to="ReserveOfGainsAndLossesOnRemeasuringAvailableforsaleFinancialAssetsMember" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_RevaluationSurplusMember" xlink:label="RevaluationSurplusMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="OtherReservesMember" xlink:to="RevaluationSurplusMember" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_NoncontrollingInterestsMember" xlink:label="NoncontrollingInterestsMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="EquityMember" xlink:to="NoncontrollingInterestsMember" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_RetrospectiveApplicationAndRetrospectiveRestatementAxis" xlink:label="RetrospectiveApplicationAndRetrospectiveRestatementAxis"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="StatementOfChangesInEquityTable" xlink:to="RetrospectiveApplicationAndRetrospectiveRestatementAxis" order="2.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="RetrospectiveApplicationAndRetrospectiveRestatementAxis" xlink:to="RestatedMember" order="1.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="StatementOfChangesInEquityTable" xlink:to="ConsolidatedAndSeparateFinancialStatementsAxis" order="3.0"/>
+  </link:definitionLink>
+</link:linkbase>

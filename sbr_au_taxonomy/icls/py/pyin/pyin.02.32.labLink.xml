@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="pyin.02.32.data.xsd#pyin.02.32_pyinAbstract" xlink:label="loc_pyin.02.32_pyinAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_pyinAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Party Interaction</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_pyin.02.32_pyinAbstract" xlink:to="lbl_pyinAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.32.data.xsd#DE14273" xlink:label="loc_DE14273"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14273" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interaction ABN Application Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14273" xlink:to="lbl_DE14273"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14273" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the client is applying for an Australian Business Number (ABN).</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14273" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+
+true = This indicates whether the client is applying for an ABN.
+false = This indicates whether the client is not applying for an ABN.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.32.data.xsd#DE14284" xlink:label="loc_DE14284"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14284" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interaction ABN Application Reason Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14284" xlink:to="lbl_DE14284"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14284" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The code that represents the reason for applying for an Australian Business Number (ABN).</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14284" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+CBS = Change in Business Structure.
+CON = Contractor/Sub-contractor.
+INV = Investment Purposes.
+NEW = New Business in Australia.
+OTH = Other.
+PAY = To receive payment for services.
+PUR = Purchased Existing Business.
+RER = Re-commenced Business (same legal structure).
+RED = Re-commenced Business (different business structure).</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.32.data.xsd#DE14272" xlink:label="loc_DE14272"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14272" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interaction ABN Entitlement Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14272" xlink:to="lbl_DE14272"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14272" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the client is entitled to apply for an Australian Business Number (ABN).</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14272" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+
+true = The client is entitled to an ABN.
+false = The client is not entitled to an ABN.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.32.data.xsd#DE14283" xlink:label="loc_DE14283"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14283" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interaction AUSKey Application Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14283" xlink:to="lbl_DE14283"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14283" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the client is applying for an AUSKey.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14283" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+
+true = The client is applying for an AUSKey.
+false = The client is not applying for an AUSKey.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.32.data.xsd#DE14310" xlink:label="loc_DE14310"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14310" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interaction Option Question Identifier</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14310" xlink:to="lbl_DE14310"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14310" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the option reference number of a question.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.32.data.xsd#DE14311" xlink:label="loc_DE14311"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14311" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interaction Outcome Question Identifier</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14311" xlink:to="lbl_DE14311"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14311" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the reference number of the outcome of a question.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.32.data.xsd#DE14271" xlink:label="loc_DE14271"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14271" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interaction Question Identifier</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14271" xlink:to="lbl_DE14271"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14271" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the reference to a question within a set.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.32.data.xsd#DE14274" xlink:label="loc_DE14274"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14274" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interaction TFN Application Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14274" xlink:to="lbl_DE14274"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14274" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the client is applying for a  Tax File Number (TFN).</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14274" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+
+true = This indicates whether the client is applying for a TFN.
+false = This indicates the client is not applying for a TFN.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.32.data.xsd#DE14298" xlink:label="loc_DE14298"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14298" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Report Application Outcome Description</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14298" xlink:to="lbl_DE14298"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14298" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The description of the outcome of the application.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.32.data.xsd#DE14299" xlink:label="loc_DE14299"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14299" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Report Application Status Text</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14299" xlink:to="lbl_DE14299"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14299" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the status of an application.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.32.data.xsd#DE14297" xlink:label="loc_DE14297"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14297" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Report Australian Business Registration Application Outcome Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14297" xlink:to="lbl_DE14297"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14297" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The code that represents the Australian Business Registration (ABR) outcome of the application.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14297" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+ABN = Australian Business Number
+REFI = Refusal ID
+REFN = Reference Number
+WORK = Work Item Creation (including EOI Retry)
+SUC = ABN Successfully Updated
+SYSU = System Unavailable
+CAN = ABN Successfully Cancelled
+TAN = No Tax Agent Numbers Returned
+AUSA = AUSKey Activation Code</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.32.data.xsd#DE14300" xlink:label="loc_DE14300"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14300" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Report Facility Activation Code Text</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14300" xlink:to="lbl_DE14300"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14300" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the activation code for the requested facility.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.32.data.xsd#DE14305" xlink:label="loc_DE14305"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14305" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Report Status Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14305" xlink:to="lbl_DE14305"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14305" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A code value identifying the status of a request.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14305" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+ACT = Active
+CAN = Cancelled
+NDF = Not Found
+WIO = Application in Progress
+REF = Refusal
+INA = Inactive
+PEN = Pending
+ISS = Issued</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.32.data.xsd#DE14306" xlink:label="loc_DE14306"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14306" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Report Status Date</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14306" xlink:to="lbl_DE14306"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14306" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The date from which this status of a request is made effective.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.32.data.xsd#DE14304" xlink:label="loc_DE14304"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14304" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Software Information Operating System Text</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14304" xlink:to="lbl_DE14304"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14304" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The operating system used for the interaction.</link:label>
+    </link:labelLink>
+</link:linkbase>

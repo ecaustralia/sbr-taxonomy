@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt" xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#sbrReportLabel"/>
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#Label"/>
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#reportGuidance"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/osrqld/ptarqld/ptarqld.0001.private.02.00/labRole" xlink:type="simple" xlink:href="ptarqld.0001.private.02.00.module.xsd#ptarqld.0001.02.00.privatelabLinkInfoCls"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/osrqld/ptarqld/ptarqld.0001.private.02.00/labRole">
+    <link:loc xlink:type="locator" xlink:href="ptarqld.0001.private.02.00.module.xsd#RA789" xlink:label="loc_RA789"/>
+    <link:label xlink:type="resource" xlink:label="lbl_RA789" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">AdministratorPrimaryItems [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA789" xlink:to="lbl_RA789" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="ptarqld.0001.private.02.00.module.xsd#RA790" xlink:label="loc_RA790"/>
+    <link:label xlink:type="resource" xlink:label="lbl_RA790" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">GovernmentAgencyPrimaryItems [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA790" xlink:to="lbl_RA790" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="ptarqld.0001.private.02.00.module.xsd#RA787" xlink:label="loc_RA787"/>
+    <link:label xlink:type="resource" xlink:label="lbl_RA787" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">GroupStructurePrimaryItems [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA787" xlink:to="lbl_RA787" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="ptarqld.0001.private.02.00.module.xsd#RA788" xlink:label="loc_RA788"/>
+    <link:label xlink:type="resource" xlink:label="lbl_RA788" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">ReportingPartyAndAdministratorPrimaryItems [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA788" xlink:to="lbl_RA788" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="ptarqld.0001.private.02.00.module.xsd#RA786" xlink:label="loc_RA786"/>
+    <link:label xlink:type="resource" xlink:label="lbl_RA786" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">ReportingPartyPrimaryItems [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA786" xlink:to="lbl_RA786" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="ptarqld.0001.private.02.00.module.xsd#HC790" xlink:label="GovernmentAgency" xlink:title="GovernmentAgency"/>
+    <link:label xlink:type="resource" xlink:label="label_GovernmentAgency" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:title="label_GovernmentAgency" xml:lang="en" id="label_GovernmentAgency_2">Government Agency</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="GovernmentAgency" xlink:to="label_GovernmentAgency" xlink:title="label: GovernmentAgency to label_GovernmentAgency"/>
+    <link:loc xlink:type="locator" xlink:href="ptarqld.0001.private.02.00.module.xsd#HC786" xlink:label="ReportingPartyQLD" xlink:title="ReportingPartyQLD"/>
+    <link:label xlink:type="resource" xlink:label="label_ReportingPartyQLD" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:title="label_ReportingPartyQLD" xml:lang="en" id="label_ReportingPartyQLD">Reporting Party QLD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ReportingPartyQLD" xlink:to="label_ReportingPartyQLD" xlink:title="label: ReportingPartyQLD to label_ReportingPartyQLD"/>
+    <link:loc xlink:type="locator" xlink:href="ptarqld.0001.private.02.00.module.xsd#HC787" xlink:label="ReportingPartyQLDGroupStructure" xlink:title="ReportingPartyQLDGroupStructure"/>
+    <link:label xlink:type="resource" xlink:label="label_ReportingPartyQLDGroupStructure" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:title="label_ReportingPartyQLDGroupStructure" xml:lang="en" id="label_ReportingPartyQLDGroupStructure">Reporting Party QLD Group Structure</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ReportingPartyQLDGroupStructure" xlink:to="label_ReportingPartyQLDGroupStructure" xlink:title="label: ReportingPartyQLDGroupStructure to label_ReportingPartyQLDGroupStructure"/>
+    <link:loc xlink:type="locator" xlink:href="ptarqld.0001.private.02.00.module.xsd#HC788" xlink:label="ReportingPartyAdministratorQLD" xlink:title="ReportingPartyAdministratorQLD"/>
+    <link:label xlink:type="resource" xlink:label="label_ReportingPartyAdministratorQLD" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:title="label_ReportingPartyAdministratorQLD" xml:lang="en" id="label_ReportingPartyAdministratorQLD">Reporting Party Administrator QLD </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ReportingPartyAdministratorQLD" xlink:to="label_ReportingPartyAdministratorQLD" xlink:title="label: ReportingPartyAdministratorQLD to label_ReportingPartyAdministratorQLD"/>
+    <link:loc xlink:type="locator" xlink:href="ptarqld.0001.private.02.00.module.xsd#HC789" xlink:label="AdministratorQLD" xlink:title="AdministratorQLD"/>
+    <link:label xlink:type="resource" xlink:label="label_AdministratorQLD" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:title="label_AdministratorQLD" xml:lang="en" id="label_AdministratorQLD">Administrator QLD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AdministratorQLD" xlink:to="label_AdministratorQLD" xlink:title="label: AdministratorQLD to label_AdministratorQLD"/>
+  </link:labelLink>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link"/>
+</link:linkbase>

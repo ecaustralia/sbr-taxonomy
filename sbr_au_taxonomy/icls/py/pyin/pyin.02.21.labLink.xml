@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="pyin.02.21.data.xsd#pyin.02.21_pyinAbstract" xlink:label="loc_pyin.02.21_pyinAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_pyinAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Party Interaction</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_pyin.02.21_pyinAbstract" xlink:to="lbl_pyinAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.21.data.xsd#DE13857" xlink:label="loc_DE13857"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13857" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interaction Bank Account Details Remove Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13857" xlink:to="lbl_DE13857"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13857" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates if banking details are to be removed.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13857" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = Banking details not required.
+false = Banking details required.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.21.data.xsd#DE3148" xlink:label="loc_DE3148"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3148" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Lodgment Channel Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3148" xlink:to="lbl_DE3148"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3148" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The code that identifies the lodgement channel used.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3148" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">The valid values are:
+P = Paper 
+E = Electronic 
+MIPS = Magnetic Information Processing Services
+EAS = Electronic Activity Statement 
+ECI = Electronic Client Interface 
+ELS = Electronic Lodgment Service 
+RDCC = Return Data Capture Centre 
+WEB = Web Forms 
+RO = Revenue OnLine 
+SBR = Standard Business Report 
+FDF = Form Definition Facility 
+INP = In Person 
+PH = Phone</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.21.data.xsd#DE13273" xlink:label="loc_DE13273"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13273" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Lodgment Returns Not Necessary Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13273" xlink:to="lbl_DE13273"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13273" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the code to indicate whether the return is not necessary for specified year(s) or from the year specified.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13273" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Further Returns Not Necessary = Further returns not necessary commencing from the year specified.
+Return Not Necessary = Return not necessary for specified year(s).</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.21.data.xsd#DE13675" xlink:label="loc_DE13675"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13675" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Report Action Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13675" xlink:to="lbl_DE13675"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13675" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the code that determines the action related to the report.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13675" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Add = subscribe to report
+Delete = unsubscribe to report</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.21.data.xsd#DE13677" xlink:label="loc_DE13677"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13677" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Report Availability Text</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13677" xlink:to="lbl_DE13677"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13677" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the description, as at the relevant date, when the report output will be available.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.21.data.xsd#DE13686" xlink:label="loc_DE13686"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13686" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Report Process Status Reason Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13686" xlink:to="lbl_DE13686"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13686" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the code for an entity to provide the reason their activity statement is being held, or indicate to the tax agent that they need to contact the Tax Office to rectify the issue.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13686" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">The valid values are:
+HDEF = Contact Tax office
+HEXT = Contact Tax office
+HIAC = Invalid address
+HISV = Contact Tax office
+HITW = Contact Tax office
+HOBG = Contact Tax office
+HREG = Contact Tax office
+HUNT = Invalid address
+HWSH = Contact Tax office</link:label>
+    </link:labelLink>
+</link:linkbase>

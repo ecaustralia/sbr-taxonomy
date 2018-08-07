@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="bafpr1.02.27.data.xsd#bafpr1.02.27_bafpr1Abstract" xlink:label="loc_bafpr1.02.27_bafpr1Abstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_bafpr1Abstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Performance 1</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_bafpr1.02.27_bafpr1Abstract" xlink:to="lbl_bafpr1Abstract"/>
+        <link:loc xlink:type="locator" xlink:href="bafpr1.02.27.data.xsd#DE14190" xlink:label="loc_DE14190"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14190" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Corrected Total Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14190" xlink:to="lbl_DE14190"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14190" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The corrected amount provided if the expenses total is different from automatically totalled amount.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafpr1.02.27.data.xsd#DE14152" xlink:label="loc_DE14152"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14152" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Cross Character Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14152" xlink:to="lbl_DE14152"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14152" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the cross character allocation amounts.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafpr1.02.27.data.xsd#DE2593" xlink:label="loc_DE2593"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE2593" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Deductible Other Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2593" xlink:to="lbl_DE2593"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE2593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A code that best describes the greatest amount for other deductions.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE2593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+C =  Exclusion of personal contributions,
+F =  Foreign exchange losses, 
+B = Contribution that is a fringe benefit, 
+R = Return of contributions by non-complying funds, 
+A = Deductible balancing adjustment, 
+E = Environment protection expenditure, 
+I = Listed investment company capital gain amount, 
+N = Deduction relating to foreign non-assessable non-exempt income,
+S  = Superannuation (Financial Assistance Funding) Levy Act 1993, 
+O = Other deductions not previously listed, and
+T = TOFA losses
+
+Where there are multiple categories of other deductions, the code that represents the category with the largest amount should be used.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafpr1.02.27.data.xsd#DE3481" xlink:label="loc_DE3481"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3481" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Environmental Protection Deduction Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3481" xlink:to="lbl_DE3481"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3481" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the amount of deduction for environmental protection expenses.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafpr1.02.27.data.xsd#DE304" xlink:label="loc_DE304"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE304" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Gambling Taxes Levies Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE304" xlink:to="lbl_DE304"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE304" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Gambling taxes and/or levies paid are expenses incurred by an entity and paid to the government by businesses engaged in gambling activities, including the operation of gaming facilities.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafpr1.02.27.data.xsd#DE12757" xlink:label="loc_DE12757"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12757" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Other Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12757" xlink:to="lbl_DE12757"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12757" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A code that best describes the greatest amount for other expenses.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12757" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+C - Exclusion of personal contributions
+F - Foreign exchange losses
+B - Contribution that is a fringe benefit
+R - Return of contributions by non-complying funds
+A - Deductible balancing adjustment
+E - Environment protection expenditure
+I - Listed investment company capital gain amount
+N - Deduction relating to foreign non-assessable non-exempt income
+S - Superannuation (Financial Assistance Funding) Levy Act 1993
+O - Other expenses not listed elsewhere
+T - TOFA losses
+
+Where there are multiple categories of other deductions, the code that represents the category with the largest amount should be used.
+
+TOFA is the Taxation of Financial Arrangements.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafpr1.02.27.data.xsd#DE14153" xlink:label="loc_DE14153"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14153" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Overstated Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14153" xlink:to="lbl_DE14153"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14153" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the overstated entitlement amount reported by the unit holders who hold units in the relevant entity.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafpr1.02.27.data.xsd#DE2235" xlink:label="loc_DE2235"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE2235" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Royalties Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2235" xlink:to="lbl_DE2235"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE2235" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The expenses paid or payable by a business or organisation for the right to use its long-term assets for gain.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE2235" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Royalties expenses include payments by businesses or organisations for the use of long term assets, including franchise fees, licensing arrangements, patents and copyrights, mineral lease arrangements, resource rents and timber and quarrying leases.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafpr1.02.27.data.xsd#DE14154" xlink:label="loc_DE14154"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14154" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Basic Character Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14154" xlink:to="lbl_DE14154"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14154" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the basic character amount as determined by the total assessable income reduced by direct and indirect deductions.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafpr1.02.27.data.xsd#DE14175" xlink:label="loc_DE14175"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14175" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Largest Item Other Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14175" xlink:to="lbl_DE14175"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14175" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The value of the largest item or items included in Other income. Other income refers to all sources of income that are not collected elsewhere.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafpr1.02.27.data.xsd#DE2577" xlink:label="loc_DE2577"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE2577" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Other Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2577" xlink:to="lbl_DE2577"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE2577" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A code that best describes the greatest amount included in reported "Other income".</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE2577" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+F - Forex gains
+C - LIC capital gain amount
+B - Assessable balancing adjustment amount
+R - Rebate or refund of premium paid to provide death or disability benefits
+W - Gross payments subject to foreign resident withholding
+O - Other income received not listed above
+T - TOFA gains</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafpr1.02.27.data.xsd#DE352" xlink:label="loc_DE352"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE352" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Royalties Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE352" xlink:to="lbl_DE352"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE352" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The income received by a business or organisation for the right to use its long-term assets for gain.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE352" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Royalties income includes charges for the use of long-term assets belonging to a business or organisation, including franchise fees, licensing arrangements, patents and copyrights, timber, quarrying or subleasing of land for mineral leases.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafpr1.02.27.data.xsd#DE14163" xlink:label="loc_DE14163"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14163" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Trust Capital Distributions Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14163" xlink:to="lbl_DE14163"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14163" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, of distributions of capital by the trust.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafpr1.02.27.data.xsd#DE14155" xlink:label="loc_DE14155"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14155" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Trust Deficit Component Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14155" xlink:to="lbl_DE14155"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14155" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the amount of the trust's deficit components.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafpr1.02.27.data.xsd#DE14156" xlink:label="loc_DE14156"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14156" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Trust Determined Component Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14156" xlink:to="lbl_DE14156"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14156" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the total income of the determined trust components.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafpr1.02.27.data.xsd#DE14157" xlink:label="loc_DE14157"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14157" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Trust Interim Distribution Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14157" xlink:to="lbl_DE14157"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14157" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, of interim distributions paid by the trust.</link:label>
+        <link:loc xlink:type="locator" xlink:href="bafpr1.02.27.data.xsd#DE14158" xlink:label="loc_DE14158"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14158" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Understated Entitlement Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14158" xlink:to="lbl_DE14158"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14158" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the understated entitlement amount reported by the unit holders who hold units in the relevant entity.</link:label>
+    </link:labelLink>
+</link:linkbase>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="emsup.02.13.data.xsd#DE13264" xlink:label="loc_DE13264"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13264" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Product Details Name Text</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13264" xlink:to="lbl_DE13264"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13264" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the name of the superannuation fund's product.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.13.data.xsd#emsup.02.13_emsupAbstract" xlink:label="loc_emsup.02.13_emsupAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_emsupAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_emsup.02.13_emsupAbstract" xlink:to="lbl_emsupAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.13.data.xsd#DE13263" xlink:label="loc_DE13263"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13263" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Product Details Employer Contribution Restriction Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13263" xlink:to="lbl_DE13263"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13263" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the superannuation product has restrictions on accepting contributions from employers.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13263" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = Product has restrictions on contributions from some employers
+false = Product has no restrictions on contributions from employers</link:label>
+    </link:labelLink>
+</link:linkbase>

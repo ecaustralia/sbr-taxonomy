@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrldt="http://xbrl.org/2005/xbrldt">
+  <link:roleRef roleURI="http://sbr.gov.au/role/ifrs/ias_1_2011-03-25_role-310000" xlink:type="simple" xlink:href="rol_ias_1_2011-03-25.xsd#ias_1_2011-03-25_role-310000"/>
+  <link:roleRef roleURI="http://sbr.gov.au/role/ifrs/ias_1_2011-03-25_role-310000a" xlink:type="simple" xlink:href="rol_ias_1_2011-03-25.xsd#ias_1_2011-03-25_role-310000a"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/notAll" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#notAll"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/role/ifrs/ias_1_2011-03-25_role-310000a">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_DisclosureOfConsolidatedAndSeparateFinancialStatementsAbstract" xlink:label="DisclosureOfConsolidatedAndSeparateFinancialStatementsAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_DisclosureOfConsolidatedAndSeparateFinancialStatementsLineItems" xlink:label="DisclosureOfConsolidatedAndSeparateFinancialStatementsLineItems"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="DisclosureOfConsolidatedAndSeparateFinancialStatementsAbstract" xlink:to="DisclosureOfConsolidatedAndSeparateFinancialStatementsLineItems" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_IncomeStatementAbstract" xlink:label="IncomeStatementAbstract"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="DisclosureOfConsolidatedAndSeparateFinancialStatementsLineItems" xlink:to="IncomeStatementAbstract" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ProfitLossAbstract" xlink:label="ProfitLossAbstract"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="IncomeStatementAbstract" xlink:to="ProfitLossAbstract" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_Revenue" xlink:label="Revenue"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="Revenue" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_CostOfSales" xlink:label="CostOfSales"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="CostOfSales" priority="0" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_GrossProfit" xlink:label="GrossProfit"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="GrossProfit" priority="0" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_GeneralInsuranceUnderwritingResultAbstract" xlink:label="GeneralInsuranceUnderwritingResultAbstract"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="GeneralInsuranceUnderwritingResultAbstract" priority="0" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_NetPremiumRevenueAbstract" xlink:label="NetPremiumRevenueAbstract"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="GeneralInsuranceUnderwritingResultAbstract" xlink:to="NetPremiumRevenueAbstract" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_DirectPremiumRevenue" xlink:label="DirectPremiumRevenue"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="NetPremiumRevenueAbstract" xlink:to="DirectPremiumRevenue" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_InwardsReinsurancePremiumRevenue" xlink:label="InwardsReinsurancePremiumRevenue"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="NetPremiumRevenueAbstract" xlink:to="InwardsReinsurancePremiumRevenue" priority="0" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_OutwardReinsurancePremiumExpense" xlink:label="OutwardReinsurancePremiumExpense"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="NetPremiumRevenueAbstract" xlink:to="OutwardReinsurancePremiumExpense" priority="0" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_NetPremiumRevenue" xlink:label="NetPremiumRevenue"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="NetPremiumRevenueAbstract" xlink:to="NetPremiumRevenue" priority="0" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_ClaimExpense" xlink:label="ClaimExpense"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="GeneralInsuranceUnderwritingResultAbstract" xlink:to="ClaimExpense" priority="0" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_ReinsuranceAndOtherRecoveriesRevenue" xlink:label="ReinsuranceAndOtherRecoveriesRevenue"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="GeneralInsuranceUnderwritingResultAbstract" xlink:to="ReinsuranceAndOtherRecoveriesRevenue" priority="0" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_NetClaimsIncurred" xlink:label="NetClaimsIncurred"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="GeneralInsuranceUnderwritingResultAbstract" xlink:to="NetClaimsIncurred" priority="0" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_GrossMovementInUnexpiredRiskLiability" xlink:label="GrossMovementInUnexpiredRiskLiability"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="GeneralInsuranceUnderwritingResultAbstract" xlink:to="GrossMovementInUnexpiredRiskLiability" priority="0" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_ReinsuranceRecoveriesOnUnexpiredRiskLiability" xlink:label="ReinsuranceRecoveriesOnUnexpiredRiskLiability"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="GeneralInsuranceUnderwritingResultAbstract" xlink:to="ReinsuranceRecoveriesOnUnexpiredRiskLiability" priority="0" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_NetMovementInUnexpiredRiskLiability" xlink:label="NetMovementInUnexpiredRiskLiability"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="GeneralInsuranceUnderwritingResultAbstract" xlink:to="NetMovementInUnexpiredRiskLiability" priority="0" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_AcquisitionCosts" xlink:label="AcquisitionCosts"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="GeneralInsuranceUnderwritingResultAbstract" xlink:to="AcquisitionCosts" priority="0" order="8.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_UnderwritingExpenses" xlink:label="UnderwritingExpenses"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="GeneralInsuranceUnderwritingResultAbstract" xlink:to="UnderwritingExpenses" priority="0" order="9.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_OtherUnderwritingExpenses" xlink:label="OtherUnderwritingExpenses"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="GeneralInsuranceUnderwritingResultAbstract" xlink:to="OtherUnderwritingExpenses" priority="0" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_UnderwritingResult" xlink:label="UnderwritingResult"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="GeneralInsuranceUnderwritingResultAbstract" xlink:to="UnderwritingResult" priority="0" order="11.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_LifeInsuranceUnderwritingResultAbstract" xlink:label="LifeInsuranceUnderwritingResultAbstract"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="LifeInsuranceUnderwritingResultAbstract" priority="0" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_NetLifeInsurancePremiumRevenueAbstract" xlink:label="NetLifeInsurancePremiumRevenueAbstract"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="LifeInsuranceUnderwritingResultAbstract" xlink:to="NetLifeInsurancePremiumRevenueAbstract" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_LifeInsurancePremiumRevenue" xlink:label="LifeInsurancePremiumRevenue"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="NetLifeInsurancePremiumRevenueAbstract" xlink:to="LifeInsurancePremiumRevenue" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_OutwardReinsuranceExpense" xlink:label="OutwardReinsuranceExpense"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="NetLifeInsurancePremiumRevenueAbstract" xlink:to="OutwardReinsuranceExpense" priority="0" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_NetLifeInsurancePremiumRevenue" xlink:label="NetLifeInsurancePremiumRevenue"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="NetLifeInsurancePremiumRevenueAbstract" xlink:to="NetLifeInsurancePremiumRevenue" priority="0" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_LifeInsuranceClaimExpense" xlink:label="LifeInsuranceClaimExpense"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="LifeInsuranceUnderwritingResultAbstract" xlink:to="LifeInsuranceClaimExpense" priority="0" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_ReinsuranceRecoveriesRevenue" xlink:label="ReinsuranceRecoveriesRevenue"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="LifeInsuranceUnderwritingResultAbstract" xlink:to="ReinsuranceRecoveriesRevenue" priority="0" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_NetLifeInsuranceClaimExpense" xlink:label="NetLifeInsuranceClaimExpense"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="LifeInsuranceUnderwritingResultAbstract" xlink:to="NetLifeInsuranceClaimExpense" priority="0" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_ChangeInLifeInsuranceContractLiabilities" xlink:label="ChangeInLifeInsuranceContractLiabilities"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="LifeInsuranceUnderwritingResultAbstract" xlink:to="ChangeInLifeInsuranceContractLiabilities" priority="0" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_ChangeInLifeInvestmentContractLiabilities" xlink:label="ChangeInLifeInvestmentContractLiabilities"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="LifeInsuranceUnderwritingResultAbstract" xlink:to="ChangeInLifeInvestmentContractLiabilities" priority="0" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_ChangeInUnvestedPolicyholderBenefitsLiabilities" xlink:label="ChangeInUnvestedPolicyholderBenefitsLiabilities"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="LifeInsuranceUnderwritingResultAbstract" xlink:to="ChangeInUnvestedPolicyholderBenefitsLiabilities" priority="0" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_ChangeInReinsurersShareOfLifeInsuranceLiabilities" xlink:label="ChangeInReinsurersShareOfLifeInsuranceLiabilities"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="LifeInsuranceUnderwritingResultAbstract" xlink:to="ChangeInReinsurersShareOfLifeInsuranceLiabilities" priority="0" order="8.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_LifeInsuranceUnderwritingResult" xlink:label="LifeInsuranceUnderwritingResult"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="LifeInsuranceUnderwritingResultAbstract" xlink:to="LifeInsuranceUnderwritingResult" priority="0" order="9.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_OtherIncome" xlink:label="OtherIncome"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="OtherIncome" priority="0" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_DistributionCosts" xlink:label="DistributionCosts"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="DistributionCosts" priority="0" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_AdministrativeExpense" xlink:label="AdministrativeExpense"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="AdministrativeExpense" priority="0" order="8.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_OtherExpenseByFunction" xlink:label="OtherExpenseByFunction"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="OtherExpenseByFunction" priority="0" order="9.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_OtherGainsLosses" xlink:label="OtherGainsLosses"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="OtherGainsLosses" priority="0" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ProfitLossFromOperatingActivities" xlink:label="ProfitLossFromOperatingActivities"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="ProfitLossFromOperatingActivities" priority="0" order="11.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_DifferenceBetweenCarryingAmountOfDividendsPayableAndCarryingAmountOfNoncashAssetsDistributed" xlink:label="DifferenceBetweenCarryingAmountOfDividendsPayableAndCarryingAmountOfNoncashAssetsDistributed"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="DifferenceBetweenCarryingAmountOfDividendsPayableAndCarryingAmountOfNoncashAssetsDistributed" priority="0" order="12.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_GainsLossesOnNetMonetaryPosition" xlink:label="GainsLossesOnNetMonetaryPosition"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="GainsLossesOnNetMonetaryPosition" priority="0" order="13.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_GainLossArisingFromDerecognitionOfFinancialAssetsMeasuredAtAmortisedCost" xlink:label="GainLossArisingFromDerecognitionOfFinancialAssetsMeasuredAtAmortisedCost"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="GainLossArisingFromDerecognitionOfFinancialAssetsMeasuredAtAmortisedCost" priority="0" order="14.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_FinanceIncome" xlink:label="FinanceIncome"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="FinanceIncome" priority="0" order="15.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_FinanceCosts" xlink:label="FinanceCosts"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="FinanceCosts" priority="0" order="16.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod" xlink:label="ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod" priority="0" order="17.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_OtherIncomeExpenseFromSubsidiariesJointlyControlledEntitiesAndAssociates" xlink:label="OtherIncomeExpenseFromSubsidiariesJointlyControlledEntitiesAndAssociates"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="OtherIncomeExpenseFromSubsidiariesJointlyControlledEntitiesAndAssociates" priority="0" order="18.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_GainsLossesArisingFromDifferenceBetweenPreviousCarryingAmountAndFairValueOfFinancialAssetsReclassifiedAsMeasuredAtFairValue" xlink:label="GainsLossesArisingFromDifferenceBetweenPreviousCarryingAmountAndFairValueOfFinancialAssetsReclassifiedAsMeasuredAtFairValue"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="GainsLossesArisingFromDifferenceBetweenPreviousCarryingAmountAndFairValueOfFinancialAssetsReclassifiedAsMeasuredAtFairValue" priority="0" order="19.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ProfitLossBeforeTax" xlink:label="ProfitLossBeforeTax"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="ProfitLossBeforeTax" priority="0" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_IncomeTaxExpenseContinuingOperations" xlink:label="IncomeTaxExpenseContinuingOperations"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="IncomeTaxExpenseContinuingOperations" priority="0" order="21.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ProfitLossFromContinuingOperations" xlink:label="ProfitLossFromContinuingOperations"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="ProfitLossFromContinuingOperations" priority="0" order="22.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ProfitLossFromDiscontinuedOperations" xlink:label="ProfitLossFromDiscontinuedOperations"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="ProfitLossFromDiscontinuedOperations" priority="0" order="23.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ProfitLoss" xlink:label="ProfitLoss"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAbstract" xlink:to="ProfitLoss" priority="0" order="24.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ProfitLossAttributableToAbstract" xlink:label="ProfitLossAttributableToAbstract"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="IncomeStatementAbstract" xlink:to="ProfitLossAttributableToAbstract" priority="0" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ProfitLossAttributableToOwnersOfParent" xlink:label="ProfitLossAttributableToOwnersOfParent"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAttributableToAbstract" xlink:to="ProfitLossAttributableToOwnersOfParent" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ProfitLossAttributableToNoncontrollingInterests" xlink:label="ProfitLossAttributableToNoncontrollingInterests"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProfitLossAttributableToAbstract" xlink:to="ProfitLossAttributableToNoncontrollingInterests" priority="0" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs_au-cor_2011-07-01.xsd#ifrs_au-cor_20110701_DisclosureOfConsolidatedAndSeparateFinancialStatementsTable" xlink:label="DisclosureOfConsolidatedAndSeparateFinancialStatementsTable"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="DisclosureOfConsolidatedAndSeparateFinancialStatementsAbstract" xlink:to="DisclosureOfConsolidatedAndSeparateFinancialStatementsTable" order="2.0" xbrldt:contextElement="scenario" xbrldt:closed="true"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ConsolidatedAndSeparateFinancialStatementsAxis" xlink:label="ConsolidatedAndSeparateFinancialStatementsAxis"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="DisclosureOfConsolidatedAndSeparateFinancialStatementsTable" xlink:to="ConsolidatedAndSeparateFinancialStatementsAxis" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ConsolidatedMember" xlink:label="ConsolidatedMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ConsolidatedAndSeparateFinancialStatementsAxis" xlink:to="ConsolidatedMember" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_SeparateMember" xlink:label="SeparateMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ConsolidatedMember" xlink:to="SeparateMember" order="1.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/role/ifrs/ias_1_2011-03-25_role-310000">
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_BasicEarningsPerShareAbstract" xlink:label="loc_6"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_BasicEarningsLossPerShareFromContinuingOperations" xlink:label="loc_7"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_6" xlink:to="loc_7" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_BasicEarningsLossPerShareFromDiscontinuedOperations" xlink:label="loc_8"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_6" xlink:to="loc_8" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_BasicEarningsLossPerShare" xlink:label="loc_9"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_6" xlink:to="loc_9" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_DilutedEarningsPerShareAbstract" xlink:label="loc_10"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_DilutedEarningsLossPerShareFromContinuingOperations" xlink:label="loc_11"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_10" xlink:to="loc_11" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_DilutedEarningsLossPerShareFromDiscontinuedOperations" xlink:label="loc_12"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_10" xlink:to="loc_12" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_DilutedEarningsLossPerShare" xlink:label="loc_13"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_10" xlink:to="loc_13" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ConsolidatedAndSeparateFinancialStatementsAxis" xlink:label="ConsolidatedAndSeparateFinancialStatementsAxis"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ConsolidatedMember" xlink:label="ConsolidatedMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ConsolidatedAndSeparateFinancialStatementsAxis" xlink:to="ConsolidatedMember" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_SeparateMember" xlink:label="SeparateMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ConsolidatedMember" xlink:to="SeparateMember" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_EarningsPerShareAbstract" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_EarningsPerShareTable" xlink:label="loc_2"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc" xlink:to="loc_2" order="10.0" xbrldt:closed="true" xbrldt:contextElement="scenario"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_ClassesOfOrdinarySharesAxis" xlink:label="loc_3"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_2" xlink:to="loc_3" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_OrdinarySharesMember" xlink:label="loc_4"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_3" xlink:to="loc_4" order="10.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_2" xlink:to="ConsolidatedAndSeparateFinancialStatementsAxis" order="11.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ifrs_20110325/ifrs-cor_2011-03-25.xsd#ifrs_EarningsPerShareLineItems" xlink:label="loc_5"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc" xlink:to="loc_5" order="20.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_5" xlink:to="loc_6" order="10.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_5" xlink:to="loc_10" order="20.0"/>
+  </link:definitionLink>
+</link:linkbase>

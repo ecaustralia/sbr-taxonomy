@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:trtami.0001.prv.02.00="http://sbr.gov.au/rprt/ato/trtami/trtami.0001.private.02.00.module" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:DeclarationType.02.00="http://sbr.gov.au/dims/DeclarationType.02.00.dims" xmlns:SqNumDim.02.01="http://sbr.gov.au/dims/SqNumDim.02.01.dims" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:RprtPyType.02.14="http://sbr.gov.au/dims/RprtPyType.02.14.dims" xmlns:DataCurr.02.00="http://sbr.gov.au/dims/DataCurr.02.00.dims" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:AddUsgDim.02.00="http://sbr.gov.au/dims/AddUsgDim.02.00.dims" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/rprt/ato/trtami/trtami.0001.private.02.00.module" elementFormDefault="qualified">
+    <xsd:annotation>
+        <xsd:appinfo>
+            <link:linkbaseRef xlink:type="simple" xlink:href="trtami.0001.private.02.00.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="trtami.0001.private.02.00.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtami/trtami.0001.private.02.00/defRole" id="trtami.0001.02.00.privatedefLink">
+                <link:definition>trtami.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtami/trtami.0001.private.02.00/labRole" id="trtami.0001.02.00.privatelabLinkInfoCls">
+                <link:definition>trtami.0001_private</link:definition>
+                <link:usedOn>link:labelLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtami/trtami.0001.private.02.00/refRole" id="trtami.0001.02.00.privaterefLink">
+                <link:definition>trtami.0001_private</link:definition>
+                <link:usedOn>link:referenceLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtami/trtami.0001.private.02.00/hypercubes/POSReportingParty" id="trtami.0001.02.00.privatedefLinkPOSReportingParty">
+                <link:definition>trtami.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtami/trtami.0001.private.02.00/hypercubes/PreviousPOSReportingParty" id="trtami.0001.02.00.privatedefLinkPreviousPOSReportingParty">
+                <link:definition>trtami.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtami/trtami.0001.private.02.00/hypercubes/PreviousReportingParty" id="trtami.0001.02.00.privatedefLinkPreviousReportingParty">
+                <link:definition>trtami.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtami/trtami.0001.private.02.00/hypercubes/ReportingParty" id="trtami.0001.02.00.privatedefLinkReportingParty">
+                <link:definition>trtami.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtami/trtami.0001.private.02.00/hypercubes/RESBUSSqNumDimReportingParty" id="trtami.0001.02.00.privatedefLinkRESBUSSqNumDimReportingParty">
+                <link:definition>trtami.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtami/trtami.0001.private.02.00/hypercubes/SqNumDimReportingParty" id="trtami.0001.02.00.privatedefLinkSqNumDimReportingParty">
+                <link:definition>trtami.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtami/trtami.0001.private.02.00/hypercubes/TrueAndCorrectIntermediary" id="trtami.0001.02.00.privatedefLinkTrueAndCorrectIntermediary">
+                <link:definition>trtami.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtami/trtami.0001.private.02.00/hypercubes/TrueAndCorrectIntermediaryReportingParty" id="trtami.0001.02.00.privatedefLinkTrueAndCorrectIntermediaryReportingParty">
+                <link:definition>trtami.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtami/trtami.0001.private.02.00/hypercubes/TrusteeReportingParty" id="trtami.0001.02.00.privatedefLinkTrusteeReportingParty">
+                <link:definition>trtami.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/trtami/trtami.0001.private.02.00/hypercubes/TrusteeStapledEntityReportingParty" id="trtami.0001.02.00.privatedefLinkTrusteeStapledEntityReportingParty">
+                <link:definition>trtami.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+        </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.14.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.14.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/DataCurr.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/DataCurr.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/AddUsgDim.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/AddUsgDim.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/SqNumDim.02.01.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/SqNumDim.02.01.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/DeclarationType.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/DeclarationType.02.00.data.xsd"/>
+    <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="POSReportingPartyPrimaryItemsAbstract" id="RA100242" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="PreviousPOSReportingPartyPrimaryItemsAbstract" id="RA100243" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="PreviousReportingPartyPrimaryItemsAbstract" id="RA100244" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingPartyPrimaryItemsAbstract" id="RA100245" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="RESBUSSqNumDimReportingPartyPrimaryItemsAbstract" id="RA100246" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="SqNumDimReportingPartyPrimaryItemsAbstract" id="RA100247" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="TrueAndCorrectIntermediaryPrimaryItemsAbstract" id="RA100248" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="TrueAndCorrectIntermediaryReportingPartyPrimaryItemsAbstract" id="RA100249" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="TrusteeReportingPartyPrimaryItemsAbstract" id="RA100250" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="TrusteeStapledEntityReportingPartyPrimaryItemsAbstract" id="RA100251" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="POSReportingParty" id="HC100242" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="PreviousPOSReportingParty" id="HC100243" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="PreviousReportingParty" id="HC100244" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingParty" id="HC100245" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="RESBUSSqNumDimReportingParty" id="HC100246" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="SqNumDimReportingParty" id="HC100247" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="TrueAndCorrectIntermediary" id="HC100248" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="TrueAndCorrectIntermediaryReportingParty" id="HC100249" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="TrusteeReportingParty" id="HC100250" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="TrusteeStapledEntityReportingParty" id="HC100251" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+</xsd:schema>

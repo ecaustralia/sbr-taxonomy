@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="bafpo2.02.02.data.xsd#bafpo2.02.02_bafpo2Abstract" xlink:label="loc_bafpo2.02.02_bafpo2Abstract"/>
+    <link:label xlink:type="resource" xlink:label="lbl_bafpo2Abstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Position 2</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_bafpo2.02.02_bafpo2Abstract" xlink:to="lbl_bafpo2Abstract"/>
+    <link:loc xlink:type="locator" xlink:href="bafpo2.02.02.data.xsd#DE3308" xlink:label="loc_DE3308"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3308" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Equity Dividends Franked Paid Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3308" xlink:to="lbl_DE3308"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3308" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount of fully franked dividends paid or credited during the reporting period, including non-share dividends or deemed dividends that are fully franked, and the franked deemed dividend component of any off-market share buy-back under section 159GZZZP of the ITAA 1936.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3308" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">If a partly franked dividend has been paid during the income year, inform the franked portion at the 'Total debt' field and the unfranked portion at the 'Unfranked dividends paid' field.  Do not include dividends paid by one member to another within a consolidated or MEC group.</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpo2.02.02.data.xsd#DE3492" xlink:label="loc_DE3492"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3492" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Equity Dividends Franking Account Balance Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3492" xlink:to="lbl_DE3492"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3492" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The balance of the franking account at the end of the income year, unless it is a deficit balance.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3492" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Inform the relevant field with the amount of franking account balance.
+If there is a deficit balance in the franking account at the end of the income year, the company must lodge a Franking account tax return and pay Franking Deficit Tax(FDT) by the last day of the month following the end of the income year. If the company is a late balancing company that has elected to have its FDT liability determined on 30 June of financial year, it must lodge its franking account tax return on or before 31 July of financial year.
+If the company is a Pooled Development Fund (PDF) and its venture capital sub-account is in deficit at the end of the PDF?s income year or immediately before it ceases to be a PDF, the company is liable to pay venture capital deficit tax. If the PDF has a liability to venture capital deficit tax, a Venture capital deficit tax return must be lodged.
+
+Note:
+- Shareholder loans and other advances made by private companies that are deemed dividends are not frankable unless a section in the ITAA 1936 or ITAA 1997 provides that the dividend can be franked. For example, where the Commissioner exercises a limited power to permit the deemed dividend to be franked, or where the deemed dividend is paid in connection with a relationship breakdown.
+- Deemed dividends may also arise when a shareholder (or associate of such shareholder) of a private company that has (or will have by a certain time) an unpaid present entitlement from a trust estate receives a payment or loan or has a debt forgiven in their favour by the trustee of the trust estate. However, this will not result in a debit to the franking account of the private company with the unpaid present entitlement.
+- A company determines whether its franking account needs adjustment, because the measures may affect imputation benefits available to shareholders, deny franking credits or give rise to additional franking debits. 
+For more detailed information on the simplified imputation system, visit the ATO website.
+
+If the company was a subsidiary member of a consolidated or MEC group at the end of the income year and is completing a tax return because of any non-membership periods, inform in this field its franking account balance as at the end of the latest non-membership period if it is a surplus balance. If there is a deficit balance at the end of any non-membership period, the company must lodge a franking account tax return and pay the FDT.</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpo2.02.02.data.xsd#DE3493" xlink:label="loc_DE3493"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3493" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Equity Dividends Unfranked Non Portfolio Account Balance Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3493" xlink:to="lbl_DE3493"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3493" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount if a claim is made under section 46FA of the ITAA 1936, the claiming entity is required to maintain an unfranked non-portfolio dividend account under section 46FB of the ITAA 1936.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3493" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Inform the relevant field with the balance of unfranked non-portfolio dividend account as at the last day of the income year.</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpo2.02.02.data.xsd#DE3494" xlink:label="loc_DE3494"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3494" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Equity Dividends Unfranked Non Portfolio Account Balance Indicator</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3494" xlink:to="lbl_DE3494"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3494" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The Balance of unfranked non-portfolio dividend account year end action code is used to determine if the amount has contributed to the company's foreign income.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3494" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Inform the relevant field with appropriate code for the balance of unfranked non-portfolio dividend account year end action code.
+If any of the balance includes an amount that has also been counted towards the company?s conduit foreign income for that income year then this field should be informed in the affirmative. Otherwise inform in the negative for any other circumstance.
+Y = Yes, N = Any other circumstance</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpo2.02.02.data.xsd#DE3309" xlink:label="loc_DE3309"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3309" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Equity Dividends Unfranked Paid Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3309" xlink:to="lbl_DE3309"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3309" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A dividend amount  paid by an Australian resident company from profits on which no company tax has been paid.</link:label>
+  </link:labelLink>
+</link:linkbase>

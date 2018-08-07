@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gfa.02.03="http://sbr.gov.au/icls/gfa/gfa.02.03.data" xmlns:gfagg.02.00="http://sbr.gov.au/icls/gfa/gfagg/gfagg.02.00.data" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:gfati.02.01="http://sbr.gov.au/icls/gfa/gfati/gfati.02.01.data" xmlns:gfagc.02.02="http://sbr.gov.au/icls/gfa/gfagc/gfagc.02.02.data" xmlns:gfagg.02.01="http://sbr.gov.au/icls/gfa/gfagg/gfagg.02.01.data" xmlns:gfati.02.02="http://sbr.gov.au/icls/gfa/gfati/gfati.02.02.data" xmlns:gfagc.02.03="http://sbr.gov.au/icls/gfa/gfagc/gfagc.02.03.data" xmlns:gfagc.02.00="http://sbr.gov.au/icls/gfa/gfagc/gfagc.02.00.data" xmlns:gfagg.02.02="http://sbr.gov.au/icls/gfa/gfagg/gfagg.02.02.data" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:gfati.02.03="http://sbr.gov.au/icls/gfa/gfati/gfati.02.03.data" xmlns:gfati.02.00="http://sbr.gov.au/icls/gfa/gfati/gfati.02.00.data" xmlns:gfagc.02.01="http://sbr.gov.au/icls/gfa/gfagc/gfagc.02.01.data" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/gfa/gfa.02.03.data" elementFormDefault="qualified">
+    <xsd:annotation>
+        <xsd:appinfo>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfagc/gfagc.02.03.presLink.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfagg/gfagg.02.02.presLink.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfati/gfati.02.03.presLink.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfagc/gfagc.02.03.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfagc/gfagc.02.02.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfagc/gfagc.02.01.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfagc/gfagc.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfagg/gfagg.02.02.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfagg/gfagg.02.01.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfagg/gfagg.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfati/gfati.02.03.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfati/gfati.02.02.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfati/gfati.02.01.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfati/gfati.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfagc/gfagc.02.03.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfagc/gfagc.02.02.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfagc/gfagc.02.01.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfagc/gfagc.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfagg/gfagg.02.02.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfagg/gfagg.02.01.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfagg/gfagg.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfati/gfati.02.03.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfati/gfati.02.02.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfati/gfati.02.01.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="gfati/gfati.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+        </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:import namespace="http://sbr.gov.au/icls/gfa/gfagc/gfagc.02.03.data" schemaLocation="gfagc/gfagc.02.03.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/gfa/gfagc/gfagc.02.02.data" schemaLocation="gfagc/gfagc.02.02.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/gfa/gfagc/gfagc.02.01.data" schemaLocation="gfagc/gfagc.02.01.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/gfa/gfagc/gfagc.02.00.data" schemaLocation="gfagc/gfagc.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/gfa/gfagg/gfagg.02.02.data" schemaLocation="gfagg/gfagg.02.02.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/gfa/gfagg/gfagg.02.01.data" schemaLocation="gfagg/gfagg.02.01.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/gfa/gfagg/gfagg.02.00.data" schemaLocation="gfagg/gfagg.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/gfa/gfati/gfati.02.03.data" schemaLocation="gfati/gfati.02.03.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/gfa/gfati/gfati.02.02.data" schemaLocation="gfati/gfati.02.02.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/gfa/gfati/gfati.02.01.data" schemaLocation="gfati/gfati.02.01.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/gfa/gfati/gfati.02.00.data" schemaLocation="gfati/gfati.02.00.data.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="gfaAbstract" id="gfa.02.03_gfaAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+</xsd:schema>

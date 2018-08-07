@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ClltrlClssfctnTyp.02.00="http://sbr.gov.au/dims/ClltrlClssfctnTyp.02.00.dims" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/dims/ClltrlClssfctnTyp.02.00.dims" elementFormDefault="qualified">
+    <xsd:annotation>
+        <xsd:appinfo>
+            <link:linkbaseRef xlink:type="simple" xlink:href="ClltrlClssfctnTyp.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+        </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="EquitySecuritiesIncludeConvertibleBonds" id="DV8736" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="SemiGovernmentSecurities" id="DV8737" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="LongTermAssetBackedSecuritiesIssuedByResidentSPV" id="DV8738" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ShortTermDebtSecuritiesIssuedByResidentRegisteredFinancialCorporation" id="DV8739" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EquitySecuritiesIncludeConvertibleBondsIssuedByOtherResident" id="DV8740" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="CommercialPaperAndOtherShortTermDebtIssuedByResidentAuthorisedDepositTakingInstitutions" id="DV8741" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="OtherLongTermSecuritiesIssuedInAustraliaByResidents" id="DV8742" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="OtherDebtSecurities" id="DV8743" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EquitySecuritiesIncludeConvertibleBondsIssuedByResidentPrivateNonFinancialInvestmentFunds" id="DV8744" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AustralianGovernmentSecurities" id="DV8745" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EquitySecuritiesIncludeConvertibleBondsIssuedByResidentMoneyMarketFunds" id="DV8746" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="OtherShortTermSecuritiesIssuedByNonResidents" id="DV8747" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="LongTermAustralianGovernmentSecurities" id="DV8748" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="LongTermDebtSecuritiesOtherThanCoveredBondsIssuedResidentAuthorisedDepositTakingInstitutions" id="DV8749" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EquitySecuritiesIncludeConvertibleBondsIssuedByResidentFinancialInstitutionsOther" id="DV8750" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ShortTermSupraNationalAndForeignAgencyIssuedDebtSecurities" id="DV8751" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ShortTermAustralianGovernmentSecurities" id="DV8752" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="DebtSecuritiesIssuedByResidentPrivateNonFinancialCorporationsOtherThanSPV" id="DV8753" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EquitySecuritiesIncludeConvertibleBondsIssuedByNonResident" id="DV8754" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="NegotiableCertificatesOfDepositResidentAuthorisedDepositTakingInstitutionsIssued" id="DV8755" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="LongTermSupraNationalAndForeignAgencyIssuedDebtSecurities" id="DV8756" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EquitySecuritiesIncludeConvertibleBondsIssuedByResidentAuthorisedDepositTakingInstitution" id="DV8757" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AssetBackedSecuritiesIssuedByResidentSPV" id="DV8758" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="OtherLongTermSecuritiesIssuedOffshoreByNonResidents" id="DV8759" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ShortTermSemiGovernmentSecurities" id="DV8760" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EquitySecuritiesIncludePreferenceShares" id="DV8761" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EquitySecuritiesIncludeConvertibleBondsIssuedByResidentNonMoneyMarketFinancialInvestmentFunds" id="DV8762" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="LongTermDebtSecuritiesIssuedByResidentPrivateNonFinancialCorporationsOtherThanSPV" id="DV8763" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="LongTermDebtSecuritiesIssuedByResidentRegisteredFinancialCorporations" id="DV8764" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="CoveredBondsIssuedByResidentAuthorisedDepositTakingInstitution" id="DV8765" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="OtherLongTermSecuritiesIssuedInAustraliaByNonResidents" id="DV8766" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="DebtSecuritiesIssuedByResidentFinancialInstitutionsOtherThanSPV" id="DV8767" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EquitySecuritiesIncludeConvertibleBondsIssuedByResidentOtherPrivateNonFinancialCorporations" id="DV8768" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="OtherAssets" id="DV8769" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ShortTermDebtSecuritiesIssuedByResidentPrivateNonFinancialCorporationsOtherThanSPV" id="DV8770" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ShortTermAssetBackedSecuritiesIssuedByResidentSPV" id="DV8771" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="LongTermSemiGovernmentSecurities" id="DV8772" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="Cash" id="DV8773" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="OtherShortTermSecuritiesIssuedByResidents" id="DV8774" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="SupraNationalAndForeignAgencyIssuedDebtSecurities" id="DV8775" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EquitySecuritiesIncludeConvertibleBondsIssuedByResidentInsuranceCorporations" id="DV8776" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="CollateralClassificationTypeDimension" id="DM946" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="CategoryTypeOfSecuritySoughtDimension" id="DM951" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" xbrli:periodType="instant"/>
+</xsd:schema>

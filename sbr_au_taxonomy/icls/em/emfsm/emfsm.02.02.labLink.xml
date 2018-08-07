@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance" xlink:type="simple"/>
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition" xlink:type="simple"/>
+	<link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+		<link:loc xlink:href="emfsm.02.02.data.xsd#emfsm.02.02_emfsmAbstract" xlink:label="loc_emfsmAbstract" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_emfsmAbstract" xlink:to="lbl_emfsmAbstract" xlink:type="arc"/>
+		<link:label xlink:label="lbl_emfsmAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Financial System Management</link:label>
+		<link:loc xlink:href="emfsm.02.02.data.xsd#DE2520" xlink:label="loc_DE2520" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2520" xlink:to="lbl_DE2520" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE2520" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditor Appointment Auditor Type Code</link:label>
+		<link:label xlink:label="lbl_DE2520" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">Examples include: 1 - Auditor General, 2 - ASIC registered auditor, 3 - Audit firm</link:label>
+		<link:label xlink:label="lbl_DE2520" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">Indicates the type of Auditor appointed</link:label>
+	</link:labelLink>
+</link:linkbase>

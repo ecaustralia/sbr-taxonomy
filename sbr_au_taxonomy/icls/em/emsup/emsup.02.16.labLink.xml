@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#emsup.02.16_emsupAbstract" xlink:label="loc_emsup.02.16_emsupAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_emsupAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_emsup.02.16_emsupAbstract" xlink:to="lbl_emsupAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13789" xlink:label="loc_DE13789"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13789" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Benefit Defined Benefit Payments Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13789" xlink:to="lbl_DE13789"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13789" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for benefit payments made to the member of a defined benefit Registrable Superannuation Entity or sub-fund.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13788" xlink:label="loc_DE13788"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13788" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Fund Details Defined Benefit Registered Member Account Count</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13788" xlink:to="lbl_DE13788"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13788" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the number of distinct entries recorded in the register of member accounts (or other equivalent mechanism) of the defined benefit Registrable Superannuation Entity or sub-fund.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13748" xlink:label="loc_DE13748"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13748" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Fund Details Lifecycle Identifier</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13748" xlink:to="lbl_DE13748"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13748" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the unique identifier of the lifecycle stage, as determined by the Registrable Superannuation Entity (RSE) licensee.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13727" xlink:label="loc_DE13727"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13727" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Fund Details MySuper Product Identifier</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13727" xlink:to="lbl_DE13727"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13727" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the authorisation number of the MySuper product allocated by the Australian Prudential Regulation Authority.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13750" xlink:label="loc_DE13750"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13750" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Fund Details MySuper Product Lifecycle Stage Change Status Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13750" xlink:to="lbl_DE13750"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13750" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates how the MySuper product or lifecycle stage, or its reported information, has changed since the previous report.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13750" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">The valid enumerated values are: 
+Existing = where any information about an existing MySuper product or lifecycle stage has changed. 
+Unchanged = where all information reported remains unchanged from the previous submission. 
+Ceased = where the existing MySuper product or lifecycle stage is no longer a MySuper product or lifecycle stage. 
+New = where the MySuper product or lifecycle stage was not previously reported. 
+Not applicable = where the MySuper product has a single diversified investment strategy.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13762" xlink:label="loc_DE13762"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13762" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Fund Details Registration End Date</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13762" xlink:to="lbl_DE13762"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13762" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The date that the sub-fund, MySuper product or lifecycle stage ceases to be effective.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13761" xlink:label="loc_DE13761"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13761" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Fund Details Registration Start Date</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13761" xlink:to="lbl_DE13761"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13761" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The date that the sub-fund, MySuper product or lifecycle stage becomes effective.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13747" xlink:label="loc_DE13747"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13747" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Fund Details Sub Fund Change Status Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13747" xlink:to="lbl_DE13747"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13747" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates how the sub-fund, or its reported information, has changed since the previous report.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13747" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">The valid enumerated values are: 
+Existing = where any information about an existing sub-fund has changed. 
+Unchanged = where all information reported remains unchanged from the previous submission. 
+Ceased = where the existing sub-fund is no longer a sub-fund. 
+New = where the sub-fund was not previously reported.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13726" xlink:label="loc_DE13726"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13726" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Fund Details Unique Identifier</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13726" xlink:to="lbl_DE13726"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13726" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is a unique identifier allocated to the sub-fund by the entity.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13749" xlink:label="loc_DE13749"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13749" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Product Details Lifecycle Name Text</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13749" xlink:to="lbl_DE13749"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13749" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the name of the lifecycle stage.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13758" xlink:label="loc_DE13758"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13758" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Actuarial Services Registrable Superannuation Entity Count</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13758" xlink:to="lbl_DE13758"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13758" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the number of Registrable Superannuation Entities (RSEs) within the RSE licensee's business operations to which the RSE actuary is appointed to provide actuarial services.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13759" xlink:label="loc_DE13759"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13759" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Actuarial Services Registrable Superannuation Entity Sub Funds Count</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13759" xlink:to="lbl_DE13759"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13759" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the number of sub-funds within the Registrable Superannuation Entity (RSE) licensee's business operations to which the RSE actuary is appointed to provide actuarial services. If there are no sub-funds within any RSEs within the RSE licensee's business operations, report '0'.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13757" xlink:label="loc_DE13757"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13757" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Audit Registrable Superannuation Entity Count</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13757" xlink:to="lbl_DE13757"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13757" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the number of Registrable Superannuation Entities (RSEs) within an RSE licensee's business operations that the RSE auditor is appointed to audit.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13188" xlink:label="loc_DE13188"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13188" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Benefit Payments Made In Accordance With Actuarial Recommendations Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13188" xlink:to="lbl_DE13188"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13188" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether members benefit payments were made in accordance with actuarial recommendations during the relevant period.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13188" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">The valid enumerated values are:
+Yes = members benefit payments were made in accordance with actuarial recommendations during the relevant period.
+No = members benefit payments were not made in accordance with actuarial recommendations during the relevant period.
+Not applicable = no members benefit payments were made during the relevant period.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13739" xlink:label="loc_DE13739"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13739" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Employed By Registrable Superannuation Entity Licensee Associate Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13739" xlink:to="lbl_DE13739"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13739" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the individual is employed in any capacity by an associate of the Registrable Superannuation Entity licensee.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13739" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values. 
+true = the individual is employed in any capacity by an associate of the Registrable Superannuation Entity licensee. 
+false = the individual is not employed in any capacity by an associate of the Registrable Superannuation Entity licensee.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13740" xlink:label="loc_DE13740"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13740" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Member Account Held In Registrable Superannuation Entity Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13740" xlink:to="lbl_DE13740"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13740" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the individual currently holds a member account in a Registrable Superannuation Entity (RSE) within the RSE licensee's business operations.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13740" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values. 
+true = the individual currently holds a member account in a Registrable Superannuation Entity (RSE) within the RSE licensee's business.
+false = the individual does not currently hold a member account in a Registrable Superannuation Entity (RSE) within the RSE licensee's business.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13737" xlink:label="loc_DE13737"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13737" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Registrable Superannuation Entity Licensee Board Representation Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13737" xlink:to="lbl_DE13737"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13737" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates the representation type of the director, individual trustee or alternate director.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13737" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">The valid enumerated values are: 
+Member representative = where the director is appointed by the RSE licensee to represent the interests of members. 
+Employer representative = where the director is appointed by the RSE licensee to represent the interest of an employer(s). 
+Independent director = where the director is an independent director within the meaning given in the relevant Acts. 
+Executive director = represents a director who is a member of the RSE licensee's management. 
+Non executive director = represents a director who is not a member of the RSE licensee's management. 
+Non affiliated director = represents a director who is non-affiliated within the meaning given in the relevant prudential standards.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13744" xlink:label="loc_DE13744"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13744" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Registrable Superannuation Entity Licensee Board Structure Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13744" xlink:to="lbl_DE13744"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13744" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates, as at the relevant date, the board structure of the Registrable Superannuation Entity (RSE) licensee.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13744" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">The valid enumerated values are: 
+Equal representation required by legislation = where the RSE licensee is required to have an equal-representation board structure in accordance with the relevant Acts. 
+Equal representation required by governing rules = where the RSE licensee chooses to have an equal-representation board structure in accordance with the relevant Acts. 
+Non-equal representation = where the RSE licensee does not maintain any form of equal representation on the Board.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13738" xlink:label="loc_DE13738"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13738" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Registrable Superannuation Entity Licensee Director Type Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13738" xlink:to="lbl_DE13738"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13738" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates the director type of the individual.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13738" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">The valid enumerated values are: 
+Director = represents a director of an RSE licensee, within the meaning given in the relevant Acts. A reference to 'a director' is, in the case of a group of individual trustees, an individual trustee. 
+Individual trustee = represents an individual trustee of an RSE licensee which is a group of individual trustees. 
+Alternate director = represents an alternate director within the meaning given in the relevant Acts. 
+Director (Chair) = represents a director of an RSE licensee, within the meaning given in the relevant Acts, who is serving as chairperson of the Board.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13732" xlink:label="loc_DE13732"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13732" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Registrable Superannuation Entity Licensee Member Complaints Count</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13732" xlink:to="lbl_DE13732"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13732" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the number of expressions of dissatisfaction received by the Registrable Superannuation Entity (RSE) licensee from members, relating to its products or the complaints handling process itself, where a response is explicitly or implicitly expected.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13741" xlink:label="loc_DE13741"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13741" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Registrable Superannuation Entity Licensee Ownership Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13741" xlink:to="lbl_DE13741"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13741" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates, as at the relevant date, the Registrable Superannuation Entity (RSE) licensee ownership type.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13741" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">The valid enumerated values are: 
+Financial services corporation ownership = where the owner of the RSE licensee is a financial services corporation, i.e. the owner is a legal entity created for the purpose of producing financial goods and services for the market, that may be a source of profit or other financial gain to its owner(s) and it is collectively owned by shareholders who have the authority to appoint directors responsible for its general management. Excludes: a financial services corporation that is the principal employer-sponsor of all RSEs within the RSE licensee's business operations. 
+Employer sponsor corporation ownership = where the owner of the RSE licensee is the principal employer-sponsor of an RSE within the RSE licensee's business operations. Include: where the RSE licensee is owned by employees of the employer-sponsor. Exclude: where the employer-sponsor is a public sector organisation. 
+Public sector organisation ownership = where the owner of the RSE licensee is an organisation within the government sector or a resident corporation and quasi-corporation controlled by the general government sector. Include: where the public sector organisation is the principal employer-sponsor of an RSE within the RSE licensee's business operations. 
+Nominating organisation ownership = where the owner of the RSE licensee is an employee association or employer association that represents the membership / employers of the RSEs within the RSE licensee's business operations. Include: where the RSE licensee is owned by directors representing the membership / employers of the RSEs within the RSE licensee's business operations. 
+Public company ownership = where the owner of the RSE licensee is a public company. Excludes: a public company that is a financial services corporation, a public company that is the principal employer-sponsor of an RSE. 
+Other ownership type = where the owner of the RSE licensee is not categorised elsewhere.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13742" xlink:label="loc_DE13742"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13742" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Registrable Superannuation Entity Licensee Ownership Type Text</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13742" xlink:to="lbl_DE13742"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13742" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the description, as at the relevant date, of the ownership type of Registrable Superannuation Entity (RSE) licensee.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13743" xlink:label="loc_DE13743"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13743" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Registrable Superannuation Entity Licensee Profit Status Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13743" xlink:to="lbl_DE13743"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13743" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates, as at the relevant date, the profit status of the Registrable Superannuation Entity (RSE) licensee.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13743" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">The valid enumerated values are: 
+Not for profit status =  where the RSE licensee's business operations are not a source of income, profit or other financial gain to the RSE licensee owners, or associates of the RSE licensee owners, that establish, control or finance the legal entity. 
+For profit status = where an RSE licensee cannot be classified as being not for profit status.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13745" xlink:label="loc_DE13745"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13745" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Registrable Superannuation Entity Membership Base Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13745" xlink:to="lbl_DE13745"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13745" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates, as at the relevant date, the classification of the predominant base of members within the Registrable Superannuation Entity (RSE). Predominant base means more than half of the overall fund membership.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13745" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">The valid enumerated values are: 
+Government base = where members join the fund as a result of working for a government organisation, including quasi-corporations controlled by the general government sector. A government organisation is a legal entity established by political processes that have legislative, judicial or executive authority over other institutional units in a given area; are financed mainly from taxation or government transfers; and are principally involved in the provision of goods and services free of charge or at economically insignificant prices. 
+Corporate base = where members join the RSE as a result of working for a single employer-sponsor, or an associate of the employer-sponsor, of the RSE as determined in accordance with the relevant Acts. 
+Industry base = where members join the RSE as a result of working in a particular industry sector. 
+General base = the predominant base of members of the RSE cannot otherwise be categorised as government base, corporate base or industry base.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13752" xlink:label="loc_DE13752"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13752" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Responsible Person Employer Name Text</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13752" xlink:to="lbl_DE13752"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13752" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the full name by which a responsible person's employer is known.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13752" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">The employer may be the Registrable Superannuation Entity (RSE) licensee or may be another entity.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13746" xlink:label="loc_DE13746"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13746" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Sub Fund Existence Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13746" xlink:to="lbl_DE13746"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13746" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the defined benefit Registrable Superannuation Entity (RSE) has at least one sub-fund.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13746" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values. 
+true = the Registrable Superannuation Entity (RSE) has at least one sub-fund
+false = the RSE has no sub-funds</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.16.data.xsd#DE13751" xlink:label="loc_DE13751"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13751" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Regulatory Information Superannuation Responsible Person Type Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13751" xlink:to="lbl_DE13751"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13751" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates the type of responsible person within the superannuation industry.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13751" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">The valid enumerated values are:  
+Director = represents a director of a Registrable Superannuation Entity (RSE) licensee, within the meaning given in the relevant section of the Superannuation Industry (Supervision) Act 1993 (SIS Act). A reference to 'a director' is, in the case of a group of individual trustees, an individual trustee.  
+Director (Chair) = represents a director of an RSE licensee, within the meaning given in the relevant section of the SIS Act, who is serving as a chairperson of the Board.  
+Executive officer: CEO = represents an executive officer (within the meaning given in the relevant section of the SIS Act) who is appointed to undertake the responsibilities of the Chief Executive Officer of the RSE licensee, howsoever named.  
+Executive officer: CFO = represents an executive officer (within the meaning given in the relevant section of the SIS Act) who is appointed to undertake the responsibilities of the Chief Financial Officer of the RSE licensee, howsoever named.  
+Other executive officer = represents other executive officers of the RSE licensee.  
+Secretary = represents a person acting as a secretary of the RSE licensee.  
+Senior manager = represents a person undertaking the responsibilities of a senior manager within the meaning given in the relevant Prudential Standard.  
+Other responsible person = represents other responsible persons of the RSE licensee who are not a Director, Executive officer, Secretary or Senior manager of the RSE licensee.  Responsible persons who are the RSE auditor or the RSE actuary are not included in 'Other responsible person'.</link:label>
+    </link:labelLink>
+</link:linkbase>

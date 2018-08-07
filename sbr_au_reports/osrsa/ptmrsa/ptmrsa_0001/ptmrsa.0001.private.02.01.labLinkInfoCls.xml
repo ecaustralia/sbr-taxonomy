@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#sbrReportLabel" xlink:type="simple"/>
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#Label" xlink:type="simple"/>
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#reportGuidance" xlink:type="simple"/>
+	<link:roleRef roleURI="http://sbr.gov.au/rprt/osrsa/ptmrsa/ptmrsa.0001.private.02.01/labRole" xlink:href="ptmrsa.0001.private.02.01.module.xsd#ptmrsa.0001.02.01.privatelabLinkInfoCls" xlink:type="simple"/>
+	<link:labelLink xlink:role="http://sbr.gov.au/rprt/osrsa/ptmrsa/ptmrsa.0001.private.02.01/labRole" xlink:type="extended">
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.01.data.xsd#DE626" xlink:label="loc_DE626" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE626" xlink:to="lbl_DE626" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE626" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">EFT Payment Reference Number</link:label>
+		<link:label xlink:label="lbl_DE626" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">EFT Payment Reference Number - This number is a unique reference number that is used to allocate your payment to the correct return period</link:label>
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.03.data.xsd#DE824" xlink:label="loc_DE824" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE824" xlink:to="lbl_DE824" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE824" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Payment Method</link:label>
+		<link:label xlink:label="lbl_DE824" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Payment Method - Indicates whether a reporting party is an EFT Payer or a direct debit payer or requires a Bpay reference.</link:label>
+		<link:loc xlink:href="ptmrsa.0001.private.02.01.module.xsd#RA871" xlink:label="loc_RA871" xlink:type="locator"/>
+		<link:label xlink:label="lbl_RA871" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">GovernmentAgencyPrimaryItems [Abstract]</link:label>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA871" xlink:to="lbl_RA871" xlink:type="arc"/>
+		<link:loc xlink:href="ptmrsa.0001.private.02.01.module.xsd#RA870" xlink:label="loc_RA870" xlink:type="locator"/>
+		<link:label xlink:label="lbl_RA870" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">ReportingPartySAGroupStructurePrimaryItems [Abstract]</link:label>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA870" xlink:to="lbl_RA870" xlink:type="arc"/>
+		<link:loc xlink:href="ptmrsa.0001.private.02.01.module.xsd#RA869" xlink:label="loc_RA869" xlink:type="locator"/>
+		<link:label xlink:label="lbl_RA869" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">ReportingPartySAPrimaryItems [Abstract]</link:label>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA869" xlink:to="lbl_RA869" xlink:type="arc"/>
+		<link:loc xlink:href="ptmrsa.0001.private.02.01.module.xsd#RT1604" xlink:label="loc_RT1604" xlink:type="locator"/>
+		<link:label xlink:label="lbl_RT1604" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">PaymentReference</link:label>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RT1604" xlink:to="lbl_RT1604" xlink:type="arc"/>
+	</link:labelLink>
+</link:linkbase>

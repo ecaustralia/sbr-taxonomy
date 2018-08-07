@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="pyin.02.41.data.xsd#pyin.02.41_pyinAbstract" xlink:label="loc_pyin.02.41_pyinAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_pyinAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Party Interaction</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_pyin.02.41_pyinAbstract" xlink:to="lbl_pyinAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.41.data.xsd#DE14677" xlink:label="loc_DE14677"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14677" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interaction Data Temporal Set Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14677" xlink:to="lbl_DE14677"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14677" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A code which identifies a temporal set of data for a party.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14677" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Current = Current data only.
+All = Current and historical data.
+Historical = Historical data only.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.41.data.xsd#DE882" xlink:label="loc_DE882"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE882" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Lodgment Frequency Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE882" xlink:to="lbl_DE882"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE882" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates how frequently a client is required to lodge.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE882" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Annually = Annually.
+HalfYearly = HalfYearly.
+Monthly = Monthly.
+Quarterly = Quarterly.
+Fortnightly = Fortnightly.</link:label>
+    </link:labelLink>
+</link:linkbase>

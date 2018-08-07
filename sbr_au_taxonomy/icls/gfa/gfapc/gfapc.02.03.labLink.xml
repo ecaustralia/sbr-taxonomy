@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="gfapc.02.03.data.xsd#gfapc.02.03_gfapcAbstract" xlink:label="loc_gfapc.02.03_gfapcAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_gfapcAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payments To Citizens</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_gfapc.02.03_gfapcAbstract" xlink:to="lbl_gfapcAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="gfapc.02.03.data.xsd#DE13988" xlink:label="loc_DE13988"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13988" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payment Government Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13988" xlink:to="lbl_DE13988"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13988" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the government payment amount.</link:label>
+        <link:loc xlink:type="locator" xlink:href="gfapc.02.03.data.xsd#DE13986" xlink:label="loc_DE13986"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13986" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payment Taxable Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13986" xlink:to="lbl_DE13986"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13986" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the taxable payments received from the government.</link:label>
+        <link:loc xlink:type="locator" xlink:href="gfapc.02.03.data.xsd#DE13987" xlink:label="loc_DE13987"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13987" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payment Tax Exempt Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13987" xlink:to="lbl_DE13987"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13987" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the tax exempt payments received from the government.</link:label>
+        <link:loc xlink:type="locator" xlink:href="gfapc.02.03.data.xsd#DE13984" xlink:label="loc_DE13984"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13984" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payment Type Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13984" xlink:to="lbl_DE13984"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13984" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This code identifies the type of government payment.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13984" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Pension = pensions.
+Allowance = allowances.
+Payment = payments.
+Benefit = benefits.</link:label>
+        <link:loc xlink:type="locator" xlink:href="gfapc.02.03.data.xsd#DE13985" xlink:label="loc_DE13985"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13985" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payment Type Description</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13985" xlink:to="lbl_DE13985"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13985" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This describes the type of government payment received.</link:label>
+    </link:labelLink>
+</link:linkbase>

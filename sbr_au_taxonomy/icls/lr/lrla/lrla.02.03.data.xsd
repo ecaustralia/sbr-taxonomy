@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema targetNamespace="http://sbr.gov.au/icls/lr/lrla/lrla.02.03.data" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:lrla.02.03="http://sbr.gov.au/icls/lr/lrla/lrla.02.03.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dtyp.02.03="http://sbr.gov.au/fdtn/sbr.02.03.dtyp" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.03.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.03.xsd"/>
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:element name="lrlaAbstract" id="lrla.02.03_lrlaAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+	<xsd:element name="EmployerConditions.EmployerGroupStatus.Code" id="DE114" type="dtyp.02.03:sbrEmployerGroupStatusItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+	<xsd:element name="Remuneration.SuppliersAndEmployeesPaymentsGSTInclusive.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE482" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+</xsd:schema>

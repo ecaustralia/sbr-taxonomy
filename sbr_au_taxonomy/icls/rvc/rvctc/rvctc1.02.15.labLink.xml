@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.15.data.xsd#rvctc1.02.15_rvctc1Abstract" xlink:label="loc_rvctc1.02.15_rvctc1Abstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_rvctc1Abstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Collection 1</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_rvctc1.02.15_rvctc1Abstract" xlink:to="lbl_rvctc1Abstract"/>
+        <link:loc xlink:type="locator" xlink:href="rvctc1.02.15.data.xsd#DE13690" xlink:label="loc_DE13690"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13690" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Tax Substituted Accounting Period Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13690" xlink:to="lbl_DE13690"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13690" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the code, for an entity to denote the balancing date of the substituted accounting period applicable to the client.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13690" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Early December = 31 December YYYY -1
+January = 31 January YYYY
+February = 28 February YYYY
+March = 31 March YYYY
+April = 30 April YYYY
+May = 31 May YYYY
+July = 31 July YYYY
+August = 31 August YYYY
+September = 30 September YYYY
+October = 31 October YYYY
+November = 30 November YYYY
+Late December = 31 December YYYY
+Special arrangement = Special arrangement.
+No longer subject to SAP = Client is no longer subject to SAP.</link:label>
+    </link:labelLink>
+</link:linkbase>

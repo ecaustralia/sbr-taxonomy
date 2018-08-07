@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ptmrvic.0001.prv.02.02="http://sbr.gov.au/rprt/osrvic/ptmrvic/ptmrvic.0001.private.02.02.module" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:EmpGrpSts.02.04="http://sbr.gov.au/dims/EmpGrpSts.02.04.dims" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:RprtPyType.02.03="http://sbr.gov.au/dims/RprtPyType.02.03.dims" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:AuStsTerrOS.02.03="http://sbr.gov.au/dims/AuStsTerrOS.02.03.dims" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/rprt/osrvic/ptmrvic/ptmrvic.0001.private.02.02.module" elementFormDefault="qualified">
+    <xsd:annotation>
+        <xsd:appinfo>
+            <link:linkbaseRef xlink:type="simple" xlink:href="ptmrvic.0001.private.02.02.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="ptmrvic.0001.private.02.02.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/osrvic/ptmrvic/ptmrvic.0001.private.02.02/defRole" id="ptmrvic.0001.02.02.privatedefLink">
+                <link:definition>ptmrvic.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/osrvic/ptmrvic/ptmrvic.0001.private.02.02/labRole" id="ptmrvic.0001.02.02.privatelabLinkInfoCls">
+                <link:definition>ptmrvic.0001_private</link:definition>
+                <link:usedOn>link:labelLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/osrvic/ptmrvic/ptmrvic.0001.private.02.02/refRole" id="ptmrvic.0001.02.02.privaterefLink">
+                <link:definition>ptmrvic.0001_private</link:definition>
+                <link:usedOn>link:referenceLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/osrvic/ptmrvic/ptmrvic.0001.private.02.02/hypercubes/EmpGrpStsVICReportingParty1" id="ptmrvic.0001.02.02.privatedefLinkEmpGrpStsVICReportingParty1">
+                <link:definition>ptmrvic.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/osrvic/ptmrvic/ptmrvic.0001.private.02.02/hypercubes/EmpGrpStsVICReportingParty2" id="ptmrvic.0001.02.02.privatedefLinkEmpGrpStsVICReportingParty2">
+                <link:definition>ptmrvic.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/osrvic/ptmrvic/ptmrvic.0001.private.02.02/hypercubes/GovernmentAgency" id="ptmrvic.0001.02.02.privatedefLinkGovernmentAgency">
+                <link:definition>ptmrvic.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/osrvic/ptmrvic/ptmrvic.0001.private.02.02/hypercubes/VICReportingParty" id="ptmrvic.0001.02.02.privatedefLinkVICReportingParty">
+                <link:definition>ptmrvic.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+        </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/AuStsTerrOS.02.03.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/AuStsTerrOS.02.03.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.03.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.03.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/EmpGrpSts.02.04.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/EmpGrpSts.02.04.data.xsd"/>
+    <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="EmpGrpStsVICReportingParty1PrimaryItemsAbstract" id="RA100291" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EmpGrpStsVICReportingParty2PrimaryItemsAbstract" id="RA100292" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="GovernmentAgencyPrimaryItemsAbstract" id="RA100293" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="VICReportingPartyPrimaryItemsAbstract" id="RA100294" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EmpGrpStsVICReportingParty1" id="HC100291" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="EmpGrpStsVICReportingParty2" id="HC100292" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="GovernmentAgency" id="HC100293" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="VICReportingParty" id="HC100294" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+</xsd:schema>

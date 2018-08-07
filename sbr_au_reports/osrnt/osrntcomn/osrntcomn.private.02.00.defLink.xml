@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/osrnt/osrntcomn/osrntcomn.private.02.00/defRole" xlink:type="simple" xlink:href="osrntcomn.private.02.00.module.xsd#osrntcomn.02.00.privatedefLink"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/osrnt/osrntcomn/osrntcomn.private.02.00/hypercubes/ReportingPartyNT" xlink:type="simple" xlink:href="osrntcomn.private.02.00.module.xsd#osrntcomn.02.00.privatedefLink.ReportingParty.NT"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/osrnt/osrntcomn/osrntcomn.private.02.00/defRole"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/osrnt/osrntcomn/osrntcomn.private.02.00/hypercubes/ReportingPartyNT">
+    <link:loc xlink:type="locator" xlink:href="osrntcomn.private.02.00.module.xsd#HC742" xlink:label="ReportingPartyNT" xlink:title="ReportingPartyNT"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/dims/RprtPyType.02.01.data.xsd#DM5" xlink:label="ReportPartyTypeDimension" xlink:title="ReportPartyTypeDimension"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyNT" xlink:to="ReportPartyTypeDimension" xlink:title="definition: ReportingPartyNT to ReportPartyTypeDimension" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/dims/RprtPyType.02.01.data.xsd#DV29" xlink:label="ReportingParty" xlink:title="ReportingParty"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="ReportingParty" xlink:title="definition: ReportPartyTypeDimension to ReportingParty" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/dims/AuStsTerrOS.02.01.data.xsd#DM1" xlink:label="AustralianStatesTerritoriesAndOffShoreAreasDimension" xlink:title="AustralianStatesTerritoriesAndOffShoreAreasDimension"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyNT" xlink:to="AustralianStatesTerritoriesAndOffShoreAreasDimension" xlink:title="definition: ReportingPartyNT to AustralianStatesTerritoriesAndOffShoreAreasDimension" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/dims/AuStsTerrOS.02.01.data.xsd#DV4" xlink:label="NT" xlink:title="NT"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="AustralianStatesTerritoriesAndOffShoreAreasDimension" xlink:to="NT" xlink:title="definition: AustralianStatesTerritoriesAndOffShoreAreasDimension to NT" order="1.0"/>
+  </link:definitionLink>
+</link:linkbase>

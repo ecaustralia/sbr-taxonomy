@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:href="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#Label"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:href="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#reportGuidance"/>
+	<link:roleRef xlink:type="simple" roleURI="http://sbr.gov.au/rprt/apra/arf/arf_720_1b/arf_720_1b.0001.lodge.request.02.00/labRole" xlink:href="arf_720_1b.0001.lodge.request.02.00.xsd#arf_720_1b.0001.lodge.request.02.00.labLink"/>
+	<link:labelLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/apra/arf/arf_720_1b/arf_720_1b.0001.lodge.request.02.00/labRole">
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo6.02.19.data.xsd#DE15005" xlink:label="loc_DE15005" xlink:title="Liabilities.Provisions.Individual.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE15005" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Individual provisions</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE15005" xlink:to="lbl_DE15005" xlink:title="label: Liabilities.Provisions.Individual.Amount to label_Liabilities.Provisions.Individual.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE15005_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance">Exclude associated deferred tax assets</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE15005" xlink:to="lbl_DE15005_1" xlink:title="label: Liabilities.Provisions.Individual.Amount to label_Liabilities.Provisions.Individual.Amount"/>
+		<link:loc xlink:type="locator" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafpo/bafpo5.02.15.data.xsd#DE14845" xlink:label="loc_DE14845" xlink:title="Assets.LoansAndReceivables.CreditOutstanding.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE14845" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label">Credit outstanding</link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14845" xlink:to="lbl_DE14845" xlink:title="label: Assets.LoansAndReceivables.CreditOutstanding.Amount to label_Assets.LoansAndReceivables.CreditOutstanding.Amount"/>
+		<link:label xlink:type="resource" xml:lang="en" xlink:label="lbl_DE14845_1" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance"></link:label>
+		<link:labelArc xlink:type="arc" use="optional" priority="0" order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14845" xlink:to="lbl_DE14845_1" xlink:title="label: Assets.LoansAndReceivables.CreditOutstanding.Amount to label_Assets.LoansAndReceivables.CreditOutstanding.Amount"/>
+	</link:labelLink>
+</link:linkbase>

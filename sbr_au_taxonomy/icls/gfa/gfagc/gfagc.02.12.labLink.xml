@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="gfagc.02.12.data.xsd#gfagc.02.12_gfagcAbstract" xlink:label="loc_gfagc.02.12_gfagcAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_gfagcAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Concessions</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_gfagc.02.12_gfagcAbstract" xlink:to="lbl_gfagcAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="gfagc.02.12.data.xsd#DE12807" xlink:label="loc_DE12807"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12807" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax Concession Pension Income Exempt Calculation Method Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE12807" xlink:to="lbl_DE12807"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12807" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A code to specify the method used to calculate exempt pension income.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE12807" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">The method used to calculate exempt current pension income will depend on whether the fund's assets are 'segregated' or 'unsegregated' (the proportionate method) or a combination of both.
+Valid values are:
+segregated = segregated assets method 
+unsegregated  = unsegregated assets method
+both = segregated and unsegregated asset methods</link:label>
+    </link:labelLink>
+</link:linkbase>

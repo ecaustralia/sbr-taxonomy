@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tfnd.0003.lodge.req.02.00="http://sbr.gov.au/rprt/ato/tfnd/tfnd.0003.lodge.request.02.00.report" xmlns:orgname1.02.00="http://sbr.gov.au/comnmdle/comnmdle.organisationname1.02.00.module" xmlns:pyid.02.05="http://sbr.gov.au/icls/py/pyid/pyid.02.05.data" xmlns:tfnd.0003.prv.02.00="http://sbr.gov.au/rprt/ato/tfnd/tfnd.0003.private.02.00.module" xmlns:edte.02.01="http://sbr.gov.au/icls/ed/edte/edte.02.01.data" xmlns:fax1.02.00="http://sbr.gov.au/comnmdle/comnmdle.electroniccontactfacsimile1.02.00.module" xmlns:pylk.02.00="http://sbr.gov.au/icls/py/pylk/pylk.02.00.data" xmlns:pyin.02.03="http://sbr.gov.au/icls/py/pyin/pyin.02.03.data" xmlns:edte.02.02="http://sbr.gov.au/icls/ed/edte/edte.02.02.data" xmlns:edte.02.03="http://sbr.gov.au/icls/ed/edte/edte.02.03.data" xmlns:pyin.02.00="http://sbr.gov.au/icls/py/pyin/pyin.02.00.data" xmlns:email1.02.00="http://sbr.gov.au/comnmdle/comnmdle.electroniccontactelectronicmail1.02.00.module" xmlns:pyid.02.00="http://sbr.gov.au/icls/py/pyid/pyid.02.00.data" xmlns:pyde.02.05="http://sbr.gov.au/icls/py/pyde/pyde.02.05.data" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:declaration1.02.01="http://sbr.gov.au/comnmdle/comnmdle.declaration1.02.01.module" xmlns:address1.02.02="http://sbr.gov.au/comnmdle/comnmdle.addressdetails1.02.02.module" xmlns:phone1.02.00="http://sbr.gov.au/comnmdle/comnmdle.electroniccontacttelephone1.02.00.module" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:pyde.02.00="http://sbr.gov.au/icls/py/pyde/pyde.02.00.data" xmlns:pyde.02.25="http://sbr.gov.au/icls/py/pyde/pyde.02.25.data" xmlns:pyde.02.08="http://sbr.gov.au/icls/py/pyde/pyde.02.08.data" xmlns:prsnunstrcnm1.02.01="http://sbr.gov.au/comnmdle/comnmdle.personunstructuredname1.02.01.module" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:prsnstrcnm2.02.00="http://sbr.gov.au/comnmdle/comnmdle.personstructuredname2.02.00.module" xmlns:pyde.02.01="http://sbr.gov.au/icls/py/pyde/pyde.02.01.data" xmlns:edte.02.00="http://sbr.gov.au/icls/ed/edte/edte.02.00.data" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:gfati.02.00="http://sbr.gov.au/icls/gfa/gfati/gfati.02.00.data" targetNamespace="http://sbr.gov.au/rprt/ato/tfnd/tfnd.0003.lodge.request.02.00.report" elementFormDefault="qualified">
+    <xsd:annotation>
+        <xsd:appinfo>
+            <link:linkbaseRef xlink:type="simple" xlink:href="tfnd.0003.lodge.request.02.00.presLink.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="tfnd.0003.lodge.request.02.00.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/ed/edte/edte.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/ed/edte/edte.02.01.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/ed/edte/edte.02.02.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/ed/edte/edte.02.03.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/gfa/gfati/gfati.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.01.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.25.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.05.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.08.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.05.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.03.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pylk/pylk.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="tfnd.0003.lodge.request.02.00.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/ed/edte/edte.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/ed/edte/edte.02.01.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/ed/edte/edte.02.02.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/ed/edte/edte.02.03.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/gfa/gfati/gfati.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.25.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.05.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.08.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.05.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pylk/pylk.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="tfnd.0003.lodge.request.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/tfnd/tfnd.0003.lodge.request.02.00/defRole1" id="tfnd.0003.lodge.request.02.00.defLink1">
+                <link:definition>tfnd.0003_lodge_request</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/tfnd/tfnd.0003.lodge.request.02.00/labRole" id="tfnd.0003.lodge.request.02.00.labLinkInfoCls">
+                <link:definition>tfnd.0003_lodge_request</link:definition>
+                <link:usedOn>link:labelLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/tfnd/tfnd.0003.lodge.request.02.00/refRole" id="tfnd.0003.lodge.request.02.00.refLink">
+                <link:definition>tfnd.0003_lodge_request</link:definition>
+                <link:usedOn>link:referenceLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/tfnd/tfnd.0003.lodge.request.02.00/presRole" id="tfnd.0003.lodge.request.02.00.presLink">
+                <link:definition>tfnd.0003_lodge_request</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+        </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:import namespace="http://sbr.gov.au/rprt/ato/tfnd/tfnd.0003.private.02.00.module" schemaLocation="tfnd.0003.private.02.00.module.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/ed/edte/edte.02.00.data" schemaLocation="../../../../sbr_au_taxonomy/icls/ed/edte/edte.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/ed/edte/edte.02.01.data" schemaLocation="../../../../sbr_au_taxonomy/icls/ed/edte/edte.02.01.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/ed/edte/edte.02.02.data" schemaLocation="../../../../sbr_au_taxonomy/icls/ed/edte/edte.02.02.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/ed/edte/edte.02.03.data" schemaLocation="../../../../sbr_au_taxonomy/icls/ed/edte/edte.02.03.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/gfa/gfati/gfati.02.00.data" schemaLocation="../../../../sbr_au_taxonomy/icls/gfa/gfati/gfati.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/py/pyde/pyde.02.00.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/py/pyde/pyde.02.01.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.01.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/py/pyde/pyde.02.25.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.25.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/py/pyde/pyde.02.05.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.05.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/py/pyde/pyde.02.08.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.08.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/py/pyid/pyid.02.00.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/py/pyid/pyid.02.05.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.05.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/py/pyin/pyin.02.00.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/py/pyin/pyin.02.03.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.03.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/icls/py/pylk/pylk.02.00.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pylk/pylk.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.addressdetails1.02.02.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.addressdetails1.02.02.module.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.declaration1.02.01.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.declaration1.02.01.module.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.electroniccontactelectronicmail1.02.00.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.electroniccontactelectronicmail1.02.00.module.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.electroniccontactfacsimile1.02.00.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.electroniccontactfacsimile1.02.00.module.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.organisationname1.02.00.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.organisationname1.02.00.module.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.electroniccontacttelephone1.02.00.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.electroniccontacttelephone1.02.00.module.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.personstructuredname2.02.00.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.personstructuredname2.02.00.module.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.personunstructuredname1.02.01.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.personunstructuredname1.02.01.module.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="TFNDLodgeRequestAbstract" id="RA4707" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="INTPrimaryItemsAbstract" id="RA100285" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="RPPrimaryItemsAbstract" id="RA100286" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="Payee" id="RT100284" substitutionGroup="xbrli:tuple" nillable="false">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element minOccurs="0" ref="pyid.02.00:Identifiers.TaxFileNumber.Identifier"/>
+                <xsd:element minOccurs="0" ref="pyid.02.00:IdentificationExemptionDetails.TFNExemptionType.Code"/>
+                <xsd:element minOccurs="0" ref="pyde.02.00:PersonDemographicDetails.Birth.Date"/>
+                <xsd:element minOccurs="0" ref="pyid.02.05:Identifiers.EmploymentPayrollNumber.Identifier"/>
+                <xsd:element minOccurs="0" ref="pylk.02.00:PaymentArrangement.Termination.Code"/>
+                <xsd:element minOccurs="0" ref="pyde.02.25:Residency.TaxPurposesPersonStatus.Indicator"/>
+                <xsd:element minOccurs="0" ref="pylk.02.00:PaymentArrangement.PaymentBasis.Code"/>
+                <xsd:element minOccurs="0" ref="gfati.02.00:TaxOffsetClaim.TaxFreeThreshold.Indicator"/>
+                <xsd:element minOccurs="0" ref="gfati.02.00:TaxOffsetClaim.SeniorAustraliansTaxOffset.Indicator"/>
+                <xsd:element minOccurs="0" ref="gfati.02.00:TaxOffsetClaim.Zone.Indicator"/>
+                <xsd:element minOccurs="0" ref="gfati.02.00:TaxOffsetClaim.OverseasForces.Indicator"/>
+                <xsd:element minOccurs="0" ref="gfati.02.00:TaxOffsetClaim.DependantSpouse.Indicator"/>
+                <xsd:element minOccurs="0" ref="gfati.02.00:TaxOffsetClaim.ParentSpouseOrInvalidRelative.Indicator"/>
+                <xsd:element minOccurs="0" ref="edte.02.00:StudentLoan.HigherEducationLoanProgramme.Indicator"/>
+                <xsd:element minOccurs="0" ref="edte.02.01:StudentLoan.TradeSupport.Indicator"/>
+                <xsd:element minOccurs="0" ref="edte.02.02:StudentLoan.StudentStartupLoan.Indicator"/>
+                <xsd:element minOccurs="0" ref="edte.02.03:StudentLoan.StudentStartupLoanAbstudy.Indicator"/>
+                <xsd:element minOccurs="0" ref="edte.02.00:StudentLoan.StudentFinancialSupplementScheme.Indicator"/>
+                <xsd:element ref="prsnstrcnm2.02.00:PersonNameDetails"/>
+                <xsd:element minOccurs="0" ref="prsnstrcnm2.02.00:PersonNameDetails"/>
+                <xsd:element minOccurs="0" ref="address1.02.02:AddressDetails"/>
+                <xsd:element ref="declaration1.02.01:Declaration"/>
+            </xsd:sequence>
+            <xsd:attribute name="id" use="optional" type="xsd:ID"/>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

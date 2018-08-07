@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:bafot.02.06="http://sbr.gov.au/icls/baf/bafot/bafot.02.06.data" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:pyde.02.00="http://sbr.gov.au/icls/py/pyde/pyde.02.00.data" xmlns:pyde.02.03="http://sbr.gov.au/icls/py/pyde/pyde.02.03.data" xmlns:pyde.02.07="http://sbr.gov.au/icls/py/pyde/pyde.02.07.data" xmlns:pyid.02.00="http://sbr.gov.au/icls/py/pyid/pyid.02.00.data" xmlns:pyid.02.03="http://sbr.gov.au/icls/py/pyid/pyid.02.03.data" xmlns:report="http://sbr.gov.au/rprt/apra/apra.report.02.00.module" xmlns:rf_520_0="http://sbr.gov.au/rprt/apra/rf/rf_520_0/rf_520_0.0001.lodge.request.02.00.report" xmlns:orgname1.02.00="http://sbr.gov.au/comnmdle/comnmdle.organisationname1.02.00.module" xmlns:address1.02.01="http://sbr.gov.au/comnmdle/comnmdle.addressdetails1.02.01.module" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://sbr.gov.au/rprt/apra/rf/rf_520_0/rf_520_0.0001.lodge.request.02.00.report" elementFormDefault="qualified">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:href="../../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.03.labLink.xml"/>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:href="../../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.labLink.xml"/>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:href="../../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.labLink.xml"/>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:href="../../../../../sbr_au_taxonomy/icls/baf/bafot/bafot.02.06.labLink.xml"/>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:href="../../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.07.labLink.xml"/>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:href="../../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.03.labLink.xml"/>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:href="rf_520_0.0001.lodge.request.02.00.labLink.xml"/>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/rf/rf_520_0/rf_520_0.0001.lodge.request.02.00/labRole" id="rf_520_0.0001.lodge.request.02.00.labLink">
+				<link:definition>rf_520_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:labelLink</link:usedOn>
+			</link:roleType>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:href="rf_520_0.0001.lodge.request.02.00.defLink.xml"/>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/rf/rf_520_0/rf_520_0.0001.lodge.request.02.00/defRole" id="rf_520_0.0001.lodge.request.02.00.defLink">
+				<link:definition>rf_520_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:href="rf_520_0.0001.lodge.request.02.00.presLink.xml"/>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/rf/rf_520_0/rf_520_0.0001.lodge.request.02.00/presRole" id="rf_520_0.0001.lodge.request.02.00.presLink">
+				<link:definition>rf_520_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/rf/rf_520_0/rf_520_0.0001.lodge.request.02.00/defRole1" id="rf_520_0.0001.lodge.request.02.00.defLink1">
+				<link:definition>rf_520_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.organisationname1.02.00.module" schemaLocation="../../../../../sbr_au_taxonomy/comnmdle/comnmdle.organisationname1.02.00.module.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.addressdetails1.02.01.module" schemaLocation="../../../../../sbr_au_taxonomy/comnmdle/comnmdle.addressdetails1.02.01.module.xsd"/>
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/rprt/apra/apra.report.02.00.module" schemaLocation="../../../../../sbr_au_reports/apra/apracomn/apra.report.02.00.module.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/rprt/apra/sbr_au/sbr_au_reports/apra/rf/rf_520_0/rf_520_0.0001/rf_520_0.0001.private.02.00.module" schemaLocation="rf_520_0.0001.private.02.00.module.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/py/pyde/pyde.02.03.data" schemaLocation="../../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.03.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/py/pyde/pyde.02.00.data" schemaLocation="../../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/py/pyid/pyid.02.00.data" schemaLocation="../../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/baf/bafot/bafot.02.06.data" schemaLocation="../../../../../sbr_au_taxonomy/icls/baf/bafot/bafot.02.06.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/py/pyde/pyde.02.07.data" schemaLocation="../../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.07.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/py/pyid/pyid.02.03.data" schemaLocation="../../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.03.data.xsd"/>
+	<xsd:element name="ReportHeader" type="report:reportHeaderNilType" substitutionGroup="xbrli:tuple" nillable="false" id="rf_520_0_ReportHeader"/>
+	<xsd:element name="NewAppointedReviewingActuaryDetails" abstract="false" substitutionGroup="xbrli:tuple" nillable="true" id="RTNewAppointedReviewingActuaryDetails">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element ref="pyde.02.03:OrganisationControl.RoleStart.Date" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonDemographicDetails.Birth.Date" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.Position.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonUnstructuredName.FullName.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="orgname1.02.00:OrganisationNameDetails" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.FamilyName.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:ElectronicContact.ElectronicMail.Address.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.Title.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:ElectronicContact.Telephone.Minimal.Number" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyid.02.00:Identifiers.AustralianBusinessNumber.Identifier" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="bafot.02.06:RegulatoryDisclosures.AssessedFitAndProper.Code" minOccurs="0" maxOccurs="1"/>
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="NewResponsiblePersonDetails" abstract="false" substitutionGroup="xbrli:tuple" nillable="true" id="RTNewResponsiblePersonDetails">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element ref="pyde.02.00:PersonNameDetails.Title.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.03:OrganisationControl.RoleStart.Date" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="bafot.02.06:RegulatoryDisclosures.Director.Indicator" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonDemographicDetails.Birth.Date" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.FamilyName.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.07:Party.MainResponsibilities.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:ElectronicContact.ElectronicMail.Address.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyid.02.03:IdentificationDetails.FormerName.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonUnstructuredName.FullName.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="bafot.02.06:RegulatoryDisclosures.AssessedFitAndProper.Code" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.Position.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:ElectronicContact.Telephone.Minimal.Number" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="bafot.02.06:RegulatoryDisclosures.SeniorOfficerOutsideAustralia.Indicator" minOccurs="0" maxOccurs="1"/>
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ExistingReviewingActuaryDetails" abstract="false" substitutionGroup="xbrli:tuple" nillable="true" id="RTExistingReviewingActuaryDetails">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element ref="pyde.02.00:ElectronicContact.Telephone.Minimal.Number" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:ElectronicContact.ElectronicMail.Address.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.Position.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.03:OrganisationControl.RoleCease.Date" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.Title.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="bafot.02.06:RegulatoryDisclosures.NoLongerFitAndProper.Indicator" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonUnstructuredName.FullName.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyid.02.00:Identifiers.AustralianBusinessNumber.Identifier" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.FamilyName.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonDemographicDetails.Birth.Date" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="orgname1.02.00:OrganisationNameDetails" minOccurs="0" maxOccurs="1"/>
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ExistingAuditorDetails" abstract="false" substitutionGroup="xbrli:tuple" nillable="true" id="RTExistingAuditorDetails">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element ref="pyde.02.00:PersonNameDetails.Title.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.03:OrganisationControl.RoleCease.Date" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyid.02.00:Identifiers.AustralianBusinessNumber.Identifier" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="orgname1.02.00:OrganisationNameDetails" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:ElectronicContact.ElectronicMail.Address.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonDemographicDetails.Birth.Date" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:ElectronicContact.Telephone.Minimal.Number" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.Position.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.FamilyName.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="bafot.02.06:RegulatoryDisclosures.NoLongerFitAndProper.Indicator" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonUnstructuredName.FullName.Text" minOccurs="0" maxOccurs="1"/>
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ExistingResponsiblePersonDetails" abstract="false" substitutionGroup="xbrli:tuple" nillable="true" id="RTExistingResponsiblePersonDetails">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element ref="pyde.02.03:OrganisationControl.RoleCease.Date" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="bafot.02.06:RegulatoryDisclosures.SeniorOfficerOutsideAustralia.Indicator" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonUnstructuredName.FullName.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:ElectronicContact.ElectronicMail.Address.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyid.02.03:IdentificationDetails.FormerName.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:ElectronicContact.Telephone.Minimal.Number" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="bafot.02.06:RegulatoryDisclosures.NoLongerFitAndProper.Indicator" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonDemographicDetails.Birth.Date" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.FamilyName.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="bafot.02.06:RegulatoryDisclosures.Director.Indicator" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.Position.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.Title.Text" minOccurs="0" maxOccurs="1"/>
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="BillingContactAddress" abstract="false" substitutionGroup="xbrli:tuple" nillable="true" id="RTBillingContactAddress">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element ref="pyde.02.00:ElectronicContact.ElectronicMail.Address.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:ElectronicContact.Facsimile.Minimal.Number" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonUnstructuredName.FullName.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.Title.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="bafot.02.06:Miscellaneous.PreferredInvoiceFormat.Code" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.FamilyName.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.Position.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:ElectronicContact.Telephone.Minimal.Number" minOccurs="0" maxOccurs="1"/>
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="NewAppointedActuaryDetails" abstract="false" substitutionGroup="xbrli:tuple" nillable="true" id="RTNewAppointedActuaryDetails">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element ref="pyde.02.00:ElectronicContact.Telephone.Minimal.Number" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.Position.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.03:OrganisationControl.RoleStart.Date" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="orgname1.02.00:OrganisationNameDetails" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonDemographicDetails.Birth.Date" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyid.02.00:Identifiers.AustralianBusinessNumber.Identifier" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.Title.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.FamilyName.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:ElectronicContact.ElectronicMail.Address.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="bafot.02.06:RegulatoryDisclosures.AssessedFitAndProper.Code" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonUnstructuredName.FullName.Text" minOccurs="0" maxOccurs="1"/>
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="CrisisManagementPrimaryContactDetails" abstract="false" substitutionGroup="xbrli:tuple" nillable="true" id="RTCrisisManagementPrimaryContactDetails">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element ref="pyde.02.00:PersonUnstructuredName.FullName.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.07:ElectronicContact.Telephone.Mobile.Number" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:ElectronicContact.Telephone.Minimal.Number" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:ElectronicContact.ElectronicMail.Address.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.Title.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.FamilyName.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.Position.Text" minOccurs="0" maxOccurs="1"/>
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="NewAuditorDetails" abstract="false" substitutionGroup="xbrli:tuple" nillable="true" id="RTNewAuditorDetails">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element ref="pyde.02.03:OrganisationControl.RoleStart.Date" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.FamilyName.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyid.02.00:Identifiers.AustralianBusinessNumber.Identifier" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonUnstructuredName.FullName.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonDemographicDetails.Birth.Date" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.Title.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="orgname1.02.00:OrganisationNameDetails" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:ElectronicContact.ElectronicMail.Address.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.Position.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="bafot.02.06:RegulatoryDisclosures.AssessedFitAndProper.Code" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:ElectronicContact.Telephone.Minimal.Number" minOccurs="0" maxOccurs="1"/>
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ExistingApprovedActuaryDetails" abstract="false" substitutionGroup="xbrli:tuple" nillable="true" id="RTExistingApprovedActuaryDetails">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element ref="pyde.02.00:PersonNameDetails.FamilyName.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonUnstructuredName.FullName.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:ElectronicContact.Telephone.Minimal.Number" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.Title.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonDemographicDetails.Birth.Date" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.03:OrganisationControl.RoleCease.Date" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyid.02.00:Identifiers.AustralianBusinessNumber.Identifier" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.Position.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:ElectronicContact.ElectronicMail.Address.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="bafot.02.06:RegulatoryDisclosures.NoLongerFitAndProper.Indicator" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="orgname1.02.00:OrganisationNameDetails" minOccurs="0" maxOccurs="1"/>
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="CrisisManagementSecondaryContactDetails" abstract="false" substitutionGroup="xbrli:tuple" nillable="true" id="RTCrisisManagementSecondaryContactDetails">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element ref="pyde.02.00:PersonUnstructuredName.FullName.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.07:ElectronicContact.Telephone.Mobile.Number" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.Title.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.FamilyName.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:ElectronicContact.ElectronicMail.Address.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:PersonNameDetails.Position.Text" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="pyde.02.00:ElectronicContact.Telephone.Minimal.Number" minOccurs="0" maxOccurs="1"/>
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="RecoverySiteContactNumber" abstract="false" substitutionGroup="xbrli:tuple" nillable="true" id="RTRecoverySiteContactNumber">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element ref="pyde.02.00:ElectronicContact.Telephone.Minimal.Number" minOccurs="0" maxOccurs="1"/>
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ReportContent" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" nillable="false" id="rf_520_0_ReportContent" xbrli:periodType="instant"/>
+</xsd:schema>

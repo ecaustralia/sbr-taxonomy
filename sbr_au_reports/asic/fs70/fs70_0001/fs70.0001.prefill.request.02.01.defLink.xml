@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt">
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/asic/fs70/fs70.0001.prefill.request.02.01/defRole1" xlink:type="simple" xlink:href="fs70.0001.prefill.request.02.01.report.xsd#fs70.0001.prefill.request.02.01.defLink1"/>
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/asic/fs70/fs70.0001.private.02.02/hypercubes/Intermediary" xlink:type="simple" xlink:href="fs70.0001.private.02.02.module.xsd#fs70.0001.02.02.privatedefLinkIntermediary"/>
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/asic/fs70/fs70.0001.private.02.02/hypercubes/ReportingParty" xlink:type="simple" xlink:href="fs70.0001.private.02.02.module.xsd#fs70.0001.02.02.privatedefLinkReportingParty"/>
+    <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+    <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+    <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/asic/fs70/fs70.0001.prefill.request.02.01/defRole1">
+        <link:loc xlink:type="locator" xlink:href="fs70.0001.private.02.02.module.xsd#RA100225" xlink:label="loc_RA100225"/>
+        <link:loc xlink:type="locator" xlink:href="fs70.0001.private.02.02.module.xsd#HC100225" xlink:label="loc_HC100225"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_RA100225" xlink:to="loc_HC100225" use="optional" order="1.0" xbrldt:contextElement="segment" xbrldt:closed="true" xbrldt:targetRole="http://sbr.gov.au/rprt/asic/fs70/fs70.0001.private.02.02/hypercubes/ReportingParty"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.02.data.xsd#DE833" xlink:label="loc_DE833"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100225" xlink:to="loc_DE833" use="optional" order="2.0"/>
+        <link:loc xlink:type="locator" xlink:href="fs70.0001.private.02.02.module.xsd#RA100224" xlink:label="loc_RA100224"/>
+        <link:loc xlink:type="locator" xlink:href="fs70.0001.private.02.02.module.xsd#HC100224" xlink:label="loc_HC100224"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_RA100224" xlink:to="loc_HC100224" use="optional" order="3.0" xbrldt:contextElement="segment" xbrldt:closed="true" xbrldt:targetRole="http://sbr.gov.au/rprt/asic/fs70/fs70.0001.private.02.02/hypercubes/Intermediary"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE3155" xlink:label="loc_DE3155"/>
+        <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RA100224" xlink:to="loc_DE3155" use="optional" order="4.0"/>
+    </link:definitionLink>
+    
+    
+</link:linkbase>

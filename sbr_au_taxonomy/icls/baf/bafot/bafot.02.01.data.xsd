@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dtyp.02.03="http://sbr.gov.au/fdtn/sbr.02.03.dtyp" xmlns:bafot.02.01="http://sbr.gov.au/icls/baf/bafot/bafot.02.01.data" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/baf/bafot/bafot.02.01.data" elementFormDefault="qualified">
+	<xsd:annotation>
+		<xsd:appinfo>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.03.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.03.xsd"/>
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:element name="bafotAbstract" id="bafot.02.01_bafotAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+	<xsd:element name="Corrections.CorrectionOfErrorRevisionOfEstimatesAndVariationFromPreliminaryReport.Text" substitutionGroup="xbrli:item" nillable="true" id="DE551" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="DirectorsDisclosures.CorporateGovernanceStatement.LaySolidFoundationsForManagementAndOversight.Text" substitutionGroup="xbrli:item" nillable="true" id="DE3169" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="DirectorsDisclosures.CorporateGovernanceStatement.MakeTimelyAndBalancedDisclosure.Text" substitutionGroup="xbrli:item" nillable="true" id="DE3173" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="DirectorsDisclosures.CorporateGovernanceStatement.PromoteEthicalAndResponsibleDecisionMaking.Text" substitutionGroup="xbrli:item" nillable="true" id="DE3171" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="DirectorsDisclosures.CorporateGovernanceStatement.RecogniseAndManageRisk.Text" substitutionGroup="xbrli:item" nillable="true" id="DE3175" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="DirectorsDisclosures.CorporateGovernanceStatement.RemunerateFairlyAndResponsibly.Text" substitutionGroup="xbrli:item" nillable="true" id="DE3176" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="DirectorsDisclosures.CorporateGovernanceStatement.RespectTheRightsOfShareholders.Text" substitutionGroup="xbrli:item" nillable="true" id="DE3174" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="DirectorsDisclosures.CorporateGovernanceStatement.SafeguardIntegrityInFinancialReporting.Text" substitutionGroup="xbrli:item" nillable="true" id="DE3172" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="DirectorsDisclosures.CorporateGovernanceStatement.StructureTheBoardToAddValue.Text" substitutionGroup="xbrli:item" nillable="true" id="DE3170" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="DirectorsDisclosures.DirectorsReport.NonAuditServices.Text" substitutionGroup="xbrli:item" nillable="true" id="DE514" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="DirectorsDisclosures.DirectorsReport.PrincipalActivitiesAndSignificantChangesToPrincipalActivities.Text" substitutionGroup="xbrli:item" nillable="true" id="DE492" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="DirectorsDisclosures.DirectorsReport.ReviewAndResultsOfOperations.Text" substitutionGroup="xbrli:item" nillable="true" id="DE494" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="Miscellaneous.FinancialEffectsOfDiscontinuedOperations.Text" substitutionGroup="xbrli:item" nillable="true" id="DE587" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="Miscellaneous.RelationshipToFullFinancials.Text" substitutionGroup="xbrli:item" nillable="true" id="DE402" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="RegulatoryDisclosures.ContingentAssets.Text" substitutionGroup="xbrli:item" nillable="true" id="DE3106" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="RegulatoryDisclosures.ContingentLiabilities.Text" substitutionGroup="xbrli:item" nillable="true" id="DE616" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="RegulatoryDisclosures.ExplorationAndEvaluationMineralResources.Text" substitutionGroup="xbrli:item" nillable="true" id="DE3204" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="RegulatoryDisclosures.NonAdjustingEventsAfterReportingPeriod.Text" substitutionGroup="xbrli:item" nillable="true" id="DE3094" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="RegulatoryDisclosures.PresentationCurrency.Description" substitutionGroup="xbrli:item" nillable="true" id="DE2806" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="RegulatoryDisclosures.ReportableSegments.Text" substitutionGroup="xbrli:item" nillable="true" id="DE3073" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="RegulatoryDisclosures.FinancialStatementAuthorisation.Text" substitutionGroup="xbrli:item" nillable="true" id="DE3205" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+</xsd:schema>

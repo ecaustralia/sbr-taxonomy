@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dtyp.02.00="http://sbr.gov.au/fdtn/sbr.02.00.dtyp" xmlns:bafpr1.02.00="http://sbr.gov.au/icls/baf/bafpr/bafpr1.02.00.data" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/baf/bafpr/bafpr1.02.00.data" elementFormDefault="qualified">
+	<xsd:annotation>
+		<xsd:appinfo>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd" />
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.00.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.00.xsd" />
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:element name="bafpr1Abstract" id="bafpr1.02.00_bafpr1Abstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+	<xsd:element name="Expense.BadAndDoubtfulDebtsAndProvisionForDoubtfulDebts.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE381" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.BadAndDoubtfulDebts.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE254" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.BalancingItems.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1885" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.Capital.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE650" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.ComputerSoftware.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE302" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.DepreciationandAmortisation.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE303" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.FreightAndCartageOther.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE309" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.GamblingTaxesLevies.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE304" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.InsurancePremiumsWithExclusions.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE305" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.Insurance.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2250" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.IntangiblePropertyOther.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2238" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.InterestAndDiscounts.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2248" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.Interest.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE306" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.LandTaxAndLandRates.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE307" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.LandTax.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2228" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.LeviesAndCharges.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2310" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.MaterialItems.Text" substitutionGroup="xbrli:item" nillable="true" id="DE575" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="Expense.NaturalResourceRoyalties.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE308" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.NonCapital.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE657" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.OperatingExpensesLargestItemOther.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE311" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.OtherOperatingExpensesLargestItem.Description" substitutionGroup="xbrli:item" nillable="true" id="DE312" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="Expense.OtherOperating.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE310" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.Other.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2252" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.OutwardFreightandCartage.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE314" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.PlantRecoupedDepreciationOnPropertySale.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2097" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="Expense.RentOtherThanRoyalties.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2236" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.ResearchAndDevelopment.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2244" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.RestructuringCosts.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2852" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.ReversalOfProvisionsForRestructuringCosts.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2853" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Expense.RoyaltiesOther.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE313" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.Royalties.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2235" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.ServicesManagementFinancialAdministrativeMarketingAndTraining.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2240" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.ServicesOther.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2246" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.ServicesTechnicalAndConstruction.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2242" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.TangiblePropertyOther.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2233" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.TangiblePropertyStockInTradeAndRawMaterials.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2231" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.Total.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE315" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.TransactionCosts.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE463" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.Travel.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2111" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Expense.UnionOrProfessionalAssociationFee.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE3154" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="Expense.WorkplaceGiving.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE3153" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="FinancialConcept.ItemOrder.Number" substitutionGroup="xbrli:item" nillable="true" id="DE380" xbrli:periodType="duration" type="dtyp.02.00:sbrFinancialConceptOrderItemType" block="substitution"/>
+	<xsd:element name="FinancialConcept.ItemType.Code" substitutionGroup="xbrli:item" nillable="true" id="DE379" xbrli:periodType="duration" type="dtyp.02.00:sbrFinancialConceptItemType" block="substitution"/>
+	<xsd:element name="FinancialConcept.Item.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE350" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="FinancialConcept.Item.Description" substitutionGroup="xbrli:item" nillable="true" id="DE349" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="Income.ActuarialGainsOrLossesOnDefinedBenefitPlansGross.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2893" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.ActuarialGainsOrLossesOnDefinedBenefitPlansNet.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2906" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.AdjustmentsOnCashFlowHedgesForAmountsTransferredToInitialCarryingAmountGross.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2890" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="Income.AssociatesAndJointVenturesAccountedForUsingEquityMethodGross.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2894" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.AssociatesAndJointVenturesAccountedForUsingEquityMethodNet.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2907" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.AvailableForSaleFinancialAssetsGross.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2887" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.AvailableForSaleFinancialAssetsNet.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2900" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.CapitalGainsNet.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1684" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Income.CapitalGainsOrLossesEventsAndAssetsOther.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2528" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.CapitalGainsOrLossesRealEstate.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2527" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.CapitalGainsOrLossesSharesAndUnits.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2526" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.CashFlowHedgesGross.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2891" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.CashFlowHedgesNet.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2903" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.ComprehensiveIncomeAttributableToNonControllingInterests.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2910" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.ComprehensiveIncomeAttributableToOwnersOfParent.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2909" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.ComprehensiveIncomeBeforeTaxNetInvestmentHedges.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE466" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.ComprehensiveIncomeGrossTotal.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2895" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.ComprehensiveIncomeNetOfTaxNetInvestmentHedgesOther.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE467" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.ComprehensiveIncomeNetTotal.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2908" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.Consolidated.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE527" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.DisclosureGovernmentGrants.Text" substitutionGroup="xbrli:item" nillable="true" id="DE3078" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="Income.DisclosureOther.Text" substitutionGroup="xbrli:item" nillable="true" id="DE612" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="Income.Disclosure.Text" substitutionGroup="xbrli:item" nillable="true" id="DE3074" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="Income.DistributionsFromJointVenture.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE558" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.DistributionsFromUnitTrusts.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE461" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.DividendsFranked.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1708" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.DividendsTotal.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1710" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.DividendsUnfranked.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1711" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.FeesAndCommissionsOther.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2027" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.FeesAndCommissionsOther.Description" substitutionGroup="xbrli:item" nillable="true" id="DE2026" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="Income.ForestryManagedInvestmentSchemeIncome.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1741" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.GainsOrLossesOnCashFlowHedgesGross.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2888" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.GainsOrLossesOnCashFlowHedgesNet.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2901" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="Income.GainsOrLossesOnForeignExchangeBeforeReclassificationAdjustmentsGross.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE3122" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="Income.GainsOrLossesOnForeignExchangeBeforeReclassificationAdjustmentsNet.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2896" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="Income.GainsOrLossesOnForeignExchangeGross.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2883" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.GainsOrLossesOnRemeasuringAvailableForSaleFinancialAssetsGross.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2885" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.GainsOrLossesOnRemeasuringAvailableForSaleFinancialAssetsNet.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2898" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="Income.GainsOrLossesOnRevaluationGross.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2892" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.GainsOrLossesOnRevaluationNet.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2904" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.IndirectDividendsFranked.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2575" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.IndirectDividendsUnfranked.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2576" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.Insurance.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2251" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.IntangiblePropertyOther.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2239" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.InterestAndDiscounts.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2249" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.InternetSales.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE1777" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="Income.NetForeignExchangeGainsOrLosses.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE857" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.NetInvestmentHedgesNet.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2905" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.NonCurrentAssetsSale.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE856" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.NonMembers.Percent" substitutionGroup="xbrli:item" nillable="true" id="DE1804" xbrli:periodType="duration" type="xbrli:pureItemType" block="substitution"/>
+	<xsd:element name="Income.OtherOperatingOrNonInterestIncomeTotal.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE173" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.OtherTotal.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2004" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.Other.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE348" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.Other.Code" substitutionGroup="xbrli:item" nillable="true" id="DE2577" xbrli:periodType="duration" type="dtyp.02.00:sbrIncomeCodeItemType" block="substitution"/>
+	<xsd:element name="Income.Other.Description" substitutionGroup="xbrli:item" nillable="true" id="DE2028" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="Income.ProceedsOnDisposalRealEstate.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2096" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.RealEstateRelatedIncomeOther.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2100" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.ReclassificationAdjustmentsOnAvailableForSaleFinancialAssetsGross.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2886" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="Income.ReclassificationAdjustmentsOnAvailableForSaleFinancialAssetsNet.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2899" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="Income.ReclassificationAdjustmentsOnCashFlowHedgesGross.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2889" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="Income.ReclassificationAdjustmentsOnCashFlowHedgesNet.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2902" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Income.ReclassificationAdjustmentsOnForeignExchangeDifferencesGross.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2884" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="Income.ReclassificationAdjustmentsOnForeignExchangeDifferencesNet.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2897" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution"/>
+	<xsd:element name="Income.RentLeasingHiring.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE351" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.RentOtherThanRoyalties.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2237" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.ResearchAndDevelopment.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2245" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.Royalties.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE352" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.SaleOfGoods.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE3075" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.ServicesConstruction.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2243" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.ServicesManagementFinancialAdministrativeMarketingAndTraining.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2241" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.ServicesOther.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2247" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.Services.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE356" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.TangiblePropertyOther.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2234" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.TangiblePropertyStockInTradeAndRawMaterials.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2232" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.Total.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE357" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.TrustDistributionOther.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2578" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Income.UnrealisedGainsOrLossesFromAssetRevaluations.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE858" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="FinancialConcept" abstract="false" substitutionGroup="xbrli:tuple" nillable="true" id="DT211">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="bafpr1.02.00:FinancialConcept.Item.Description" maxOccurs="unbounded"/>
+				<xsd:element ref="bafpr1.02.00:FinancialConcept.Item.Amount" maxOccurs="unbounded"/>
+				<xsd:element ref="bafpr1.02.00:FinancialConcept.ItemType.Code" maxOccurs="unbounded"/>
+				<xsd:element ref="bafpr1.02.00:FinancialConcept.ItemOrder.Number" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+			<xsd:attribute name="id" type="xsd:ID" use="optional"/>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

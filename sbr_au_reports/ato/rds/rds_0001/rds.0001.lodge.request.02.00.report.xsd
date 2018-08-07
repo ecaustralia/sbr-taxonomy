@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:rds.0001.lodge.req.02.00="http://sbr.gov.au/rprt/ato/rds/rds.0001.lodge.request.02.00.report" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:pyid.02.00="http://sbr.gov.au/icls/py/pyid/pyid.02.00.data" xmlns:bafpr3.02.02="http://sbr.gov.au/icls/baf/bafpr/bafpr3.02.02.data" xmlns:gfagg.02.01="http://sbr.gov.au/icls/gfa/gfagg/gfagg.02.01.data" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:lrla.02.05="http://sbr.gov.au/icls/lr/lrla/lrla.02.05.data" xmlns:gfagc.02.00="http://sbr.gov.au/icls/gfa/gfagc/gfagc.02.00.data" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:gfagc.02.01="http://sbr.gov.au/icls/gfa/gfagc/gfagc.02.01.data" xmlns:pyin.02.00="http://sbr.gov.au/icls/py/pyin/pyin.02.00.data" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:orgname1.02.00="http://sbr.gov.au/comnmdle/comnmdle.organisationname1.02.00.module" xmlns:rds.0001.prv.02.00="http://sbr.gov.au/rprt/ato/rds/rds.0001.private.02.00.module" targetNamespace="http://sbr.gov.au/rprt/ato/rds/rds.0001.lodge.request.02.00.report" elementFormDefault="qualified">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:href="rds.0001.lodge.request.02.00.presLink.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="rds.0001.lodge.request.02.00.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="rds.0001.lodge.request.02.00.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/gfa/gfagc/gfagc.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/gfa/gfagc/gfagc.02.01.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/gfa/gfagg/gfagg.02.01.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr3.02.02.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.05.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="rds.0001.lodge.request.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/gfa/gfagc/gfagc.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/gfa/gfagc/gfagc.02.01.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/gfa/gfagg/gfagg.02.01.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr3.02.02.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.05.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.lodge.request.02.00/presRole" id="rds.0001.lodge.req.02.00.lodge.requestpresLink">
+				<link:definition>rds.0001_lodge_request</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.lodge.request.02.00/labRole" id="rds.0001.lodge.req.02.00.lodge.requestlabLinkInfoCls">
+				<link:definition>rds.0001_lodge_request</link:definition>
+				<link:usedOn>link:labelLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.lodge.request.02.00/refRole" id="rds.0001.lodge.req.02.00.lodge.requestrefLink">
+				<link:definition>rds.0001_lodge_request</link:definition>
+				<link:usedOn>link:referenceLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.lodge.request.02.00/defRole1" id="rds.0001.lodge.req.02.00.lodge.requestdefLink1">
+				<link:definition>rds.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/ato/rds/rds.0001.lodge.request.02.00/defRole2" id="rds.0001.lodge.req.02.00.lodge.requestdefLink2">
+				<link:definition>rds.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/comnmdle/comnmdle.organisationname1.02.00.module" schemaLocation="../../../../sbr_au_taxonomy/comnmdle/comnmdle.organisationname1.02.00.module.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/rprt/ato/rds/rds.0001.private.02.00.module" schemaLocation="rds.0001.private.02.00.module.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/py/pyid/pyid.02.00.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/py/pyin/pyin.02.00.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/gfa/gfagc/gfagc.02.00.data" schemaLocation="../../../../sbr_au_taxonomy/icls/gfa/gfagc/gfagc.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/gfa/gfagc/gfagc.02.01.data" schemaLocation="../../../../sbr_au_taxonomy/icls/gfa/gfagc/gfagc.02.01.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/gfa/gfagg/gfagg.02.01.data" schemaLocation="../../../../sbr_au_taxonomy/icls/gfa/gfagg/gfagg.02.01.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/baf/bafpr/bafpr3.02.02.data" schemaLocation="../../../../sbr_au_taxonomy/icls/baf/bafpr/bafpr3.02.02.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/lr/lrla/lrla.02.05.data" schemaLocation="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.05.data.xsd"/>
+	<xsd:element name="RDSLodgeRequestAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1313" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCTAUSAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1317" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCTFGNAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1318" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCTBSEAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1319" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCTAUSCAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1320" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCTAUSSAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1321" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyY0-1Abstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1322" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyY0-2Abstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1323" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCTAUSY0Abstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1324" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCTFGNY0Abstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1325" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCTAUSY0-1Abstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1326" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCTFGNY0-1Abstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1327" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCTAUSY0-2Abstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1328" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCTFGNY0-2Abstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1329" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCTAUSY0-3Abstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1330" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyCTFGNY0-3Abstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1331" xbrli:periodType="instant"/>
+	<xsd:element name="GroupMemberCTAUSAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1332" xbrli:periodType="instant"/>
+	<xsd:element name="GroupMemberCTAUSY0Abstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1333" xbrli:periodType="instant"/>
+	<xsd:element name="GroupMemberCTFGNY0Abstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1334" xbrli:periodType="instant"/>
+	<xsd:element name="GroupMemberCTAUSY0-1Abstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1335" xbrli:periodType="instant"/>
+	<xsd:element name="GroupMemberCTFGNY0-1Abstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1336" xbrli:periodType="instant"/>
+	<xsd:element name="GroupMemberCTAUSY0-2Abstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1337" xbrli:periodType="instant"/>
+	<xsd:element name="GroupMemberCTFGNY0-2Abstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1338" xbrli:periodType="instant"/>
+	<xsd:element name="GroupMemberCTAUSY0-3Abstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1339" xbrli:periodType="instant"/>
+	<xsd:element name="GroupMemberCTFGNY0-3Abstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1340" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1405" xbrli:periodType="instant"/>
+	<xsd:element name="GroupMemberCTFGNAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" id="RA1429" xbrli:periodType="instant"/>
+</xsd:schema>

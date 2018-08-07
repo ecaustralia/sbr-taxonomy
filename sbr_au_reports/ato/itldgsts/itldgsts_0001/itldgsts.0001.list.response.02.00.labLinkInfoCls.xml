@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#Label"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#reportGuidance"/>
+    <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/itldgsts/itldgsts.0001.list.response.02.00/labRole" xlink:type="simple" xlink:href="itldgsts.0001.list.response.02.00.report.xsd#itldgsts.0001.list.response.02.00.labLinkInfoCls"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/itldgsts/itldgsts.0001.list.response.02.00/labRole">
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE162" xlink:label="loc_DE162"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE162" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Lodgment due date</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE162" xlink:to="lbl_DE162"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE1921" xlink:label="loc_DE1921"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE1921" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">The date and time of the generation of the data in the response message.</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1921" xlink:to="lbl_DE1921"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE1921" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Report Generation Date and Time</link:label>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.data.xsd#DE26" xlink:label="loc_DE26"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE26" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Client Australian business number</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE26" xlink:to="lbl_DE26"/>
+        <link:loc xlink:type="locator" xlink:href="itldgsts.0001.list.response.02.00.report.xsd#RA4567" xlink:label="loc_RA4567"/>
+        <link:label xlink:type="resource" xlink:label="lbl_RA4567" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">ITLDGSTSListResponse [Abstract]</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA4567" xlink:to="lbl_RA4567"/>
+        <link:loc xlink:type="locator" xlink:href="itldgsts.0001.list.response.02.00.report.xsd#RA100237" xlink:label="loc_RA100237"/>
+        <link:label xlink:type="resource" xlink:label="lbl_RA100237" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">RP Primary Items [Abstract]</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA100237" xlink:to="lbl_RA100237"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.19.data.xsd#DE13321" xlink:label="loc_DE13321"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13321" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Last year lodged</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13321" xlink:to="lbl_DE13321"/>
+        <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.19.data.xsd#DE3143" xlink:label="loc_DE3143"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3143" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xml:lang="en">The valid values are:
+NotLodged = The return has not been received or processed.
+NotNecessary = The client does not have a requirement to lodge for one or more years.
+Lodged =  The return has been received but not processed. 
+Assessed = The return has been processed. 
+IssuedTaxable = The original assessment was taxable (&gt; 0) eg the Balance of this assessment + Total PAYG withholding credit + PAYG instalment &gt; 0; Tax payable &gt; 0
+IssuedNonTaxable = The original assessment was non taxable (&lt;= 0) eg the Balance of this assessment + Total PAYG withholding credit + PAYG instalment &lt;= 0; Tax payable = 0
+Division7 = As per Division 7 legislation.
+Demanded = The lodgment has been demanded (overdue return).</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3143" xlink:to="lbl_DE3143"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE3143" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xml:lang="en">Lodgment progress</link:label>
+    </link:labelLink>
+</link:linkbase>

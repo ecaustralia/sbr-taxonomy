@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/as/as.0001.list.request.02.00/defRole" xlink:type="simple" xlink:href="as.0001.list.request.02.00.report.xsd#as.0001.list.requestdefLink"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingParty" xlink:type="simple" xlink:href="as.0001.private.02.00.module.xsd#as.0001.privatedefLinkReportingParty"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/Intermediary" xlink:type="simple" xlink:href="as.0001.private.02.00.module.xsd#as.0001.privatedefLinkIntermediary"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/ato/as/as.0001.list.request.02.00/defRole">
+    <link:loc xlink:type="locator" xlink:href="as.0001.private.02.00.module.xsd#RA598" xlink:label="ReportingPartyPrimaryItemsAbstract" xlink:title="ReportingPartyPrimaryItemsAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="as.0001.private.02.00.module.xsd#HC598" xlink:label="ReportingParty" xlink:title="ReportingParty"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="ReportingPartyPrimaryItemsAbstract" xlink:to="ReportingParty" xlink:title="definition: ReportingPartyPrimaryItemsAbstract to ReportingParty" order="1.0" xbrldt:targetRole="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/ReportingParty" xbrldt:contextElement="segment" xbrldt:closed="true"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd#DE37" xlink:label="OrganisationDetails.OrganisationBranch.Code"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ReportingPartyPrimaryItemsAbstract" xlink:to="OrganisationDetails.OrganisationBranch.Code" xlink:title="definition: ReportingPartyPrimaryItemsAbstract to OrganisationDetails.OrganisationBranch.Code" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE691" xlink:label="Report.Statement.SearchCriteriaGroupStatus.Code"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ReportingPartyPrimaryItemsAbstract" xlink:to="Report.Statement.SearchCriteriaGroupStatus.Code" xlink:title="definition: ReportingPartyPrimaryItemsAbstract to Report.Statement.SearchCriteriaGroupStatus.Code" use="optional" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="as.0001.private.02.00.module.xsd#RA600" xlink:label="IntermediaryPrimaryItemsAbstract" xlink:title="IntermediaryPrimaryItemsAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="as.0001.private.02.00.module.xsd#HC600" xlink:label="Intermediary" xlink:title="Intermediary"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="IntermediaryPrimaryItemsAbstract" xlink:to="Intermediary" xlink:title="definition: IntermediaryPrimaryItemsAbstract to Intermediary" order="1.0" xbrldt:targetRole="http://sbr.gov.au/rprt/ato/as/as.0001.private.02.00/hypercubes/Intermediary" xbrldt:contextElement="segment" xbrldt:closed="true"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyid/pyid.02.00.data.xsd#DE217" xlink:label="Identifiers.TaxAgentNumber.Identifier"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="IntermediaryPrimaryItemsAbstract" xlink:to="Identifiers.TaxAgentNumber.Identifier" xlink:title="definition: IntermediaryPrimaryItemsAbstract to Identifiers.TaxAgentNumber.Identifier" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE3155" xlink:label="Report.Submission.Date" xlink:title="Report.Submission.Date"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="IntermediaryPrimaryItemsAbstract" xlink:to="Report.Submission.Date" xlink:title="definition: IntermediaryPrimaryItemsAbstract to Report.Submission.Date" order="3.0"/>
+  </link:definitionLink>
+</link:linkbase>

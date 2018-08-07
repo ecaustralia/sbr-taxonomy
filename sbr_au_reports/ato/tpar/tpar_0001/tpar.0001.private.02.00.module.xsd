@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tpar.0001.prv.02.00="http://sbr.gov.au/rprt/ato/tpar/tpar.0001.private.02.00.module" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ReportingPartyABN.02.00="http://sbr.gov.au/dims/ReportingPartyABN.02.00.dims" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:ReportingPartyBranchCode.02.00="http://sbr.gov.au/dims/ReportingPartyBranchCode.02.00.dims" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:RprtPyType.02.04="http://sbr.gov.au/dims/RprtPyType.02.04.dims" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/rprt/ato/tpar/tpar.0001.private.02.00.module" elementFormDefault="qualified">
+    <xsd:annotation>
+        <xsd:appinfo>
+            <link:linkbaseRef xlink:type="simple" xlink:href="tpar.0001.private.02.00.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="tpar.0001.private.02.00.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/tpar/tpar.0001.private.02.00/defRole" id="tpar.0001.02.00.privatedefLink">
+                <link:definition>tpar.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/tpar/tpar.0001.private.02.00/labRole" id="tpar.0001.02.00.privatelabLinkInfoCls">
+                <link:definition>tpar.0001_private</link:definition>
+                <link:usedOn>link:labelLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/tpar/tpar.0001.private.02.00/refRole" id="tpar.0001.02.00.privaterefLink">
+                <link:definition>tpar.0001_private</link:definition>
+                <link:usedOn>link:referenceLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/tpar/tpar.0001.private.02.00/hypercubes/Intermediary" id="tpar.0001.02.00.privatedefLinkIntermediary">
+                <link:definition>tpar.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/tpar/tpar.0001.private.02.00/hypercubes/IntermediaryReportingParty" id="tpar.0001.02.00.privatedefLinkIntermediaryReportingParty">
+                <link:definition>tpar.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/tpar/tpar.0001.private.02.00/hypercubes/ReportingParty" id="tpar.0001.02.00.privatedefLinkReportingParty">
+                <link:definition>tpar.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/tpar/tpar.0001.private.02.00/hypercubes/ReportingPartyBranchCodeReportingPartyABNPayee" id="tpar.0001.02.00.privatedefLinkReportingPartyBranchCodeReportingPartyABNPayee">
+                <link:definition>tpar.0001_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+        </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.04.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.04.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/ReportingPartyBranchCode.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/ReportingPartyBranchCode.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/ReportingPartyABN.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/ReportingPartyABN.02.00.data.xsd"/>
+    <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="IntermediaryPrimaryItemsAbstract" id="RA100223" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="IntermediaryReportingPartyPrimaryItemsAbstract" id="RA100224" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingPartyPrimaryItemsAbstract" id="RA100225" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingPartyBranchCodeReportingPartyABNPayeePrimaryItemsAbstract" id="RA100226" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="Intermediary" id="HC100223" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="IntermediaryReportingParty" id="HC100224" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingParty" id="HC100225" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingPartyBranchCodeReportingPartyABNPayee" id="HC100226" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+</xsd:schema>

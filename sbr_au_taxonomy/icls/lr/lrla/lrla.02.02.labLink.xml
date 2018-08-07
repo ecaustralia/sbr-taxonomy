@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance" xlink:type="simple"/>
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition" xlink:type="simple"/>
+	<link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+		<link:loc xlink:href="lrla.02.02.data.xsd#lrla.02.02_lrlaAbstract" xlink:label="loc_lrlaAbstract" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_lrlaAbstract" xlink:to="lbl_lrlaAbstract" xlink:type="arc"/>
+		<link:label xlink:label="lbl_lrlaAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Labour Arrangements</link:label>
+		<link:loc xlink:href="lrla.02.02.data.xsd#DE3140" xlink:label="loc_DE3140" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3140" xlink:to="lbl_DE3140" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE3140" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Remuneration Wages And Salaries Maternity Leave Amount</link:label>
+		<link:label xlink:label="lbl_DE3140" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">Wages paid or payable to employees on maternity leave, adoption leave or paternity leave.</link:label>
+	</link:labelLink>
+</link:linkbase>

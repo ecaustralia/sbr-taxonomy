@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="pyid.02.17.data.xsd#pyid.02.17_pyidAbstract" xlink:label="loc_pyid.02.17_pyidAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_pyidAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Party Identification</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_pyid.02.17_pyidAbstract" xlink:to="lbl_pyidAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="pyid.02.17.data.xsd#DE14674" xlink:label="loc_DE14674"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14674" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Institution Account Third Party Account Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14674" xlink:to="lbl_DE14674"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14674" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the financial institution account belongs to a third party.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14674" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values.
+true = Financial institution account belongs to a third party.
+false = Financial institution account does not belong to a third party.</link:label>
+    </link:labelLink>
+</link:linkbase>

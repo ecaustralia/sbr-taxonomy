@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:f388.0001.prv.02.02="http://sbr.gov.au/rprt/asic/f388/f388.0001.private.02.02.module" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/asic/f388/f388.0001.private.02.02/defRole" xlink:type="simple" xlink:href="f388.0001.private.02.02.module.xsd#f388.0001.privatedefLink"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/asic/f388/f388.0001.private.02.02/hypercubes/ReportingParty" xlink:type="simple" xlink:href="f388.0001.private.02.02.module.xsd#f388.0001.privatedefLink.ReportingParty"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/asic/f388/f388.0001.private.02.02/hypercubes/Intermediary" xlink:type="simple" xlink:href="f388.0001.private.02.02.module.xsd#f388.0001.privatedefLink.Intermediary"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/asic/f388/f388.0001.private.02.02/hypercubes/Auditor" xlink:type="simple" xlink:href="f388.0001.private.02.02.module.xsd#f388.0001.privatedefLink.Auditor"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/asic/f388/f388.0001.private.02.02/hypercubes/ReportingParty.Intermediary" xlink:type="simple" xlink:href="f388.0001.private.02.02.module.xsd#f388.0001.privatedefLink.ReportingParty.Intermediary"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/asic/f388/f388.0001.private.02.02/hypercubes/ReportingParty">
+    <link:loc xlink:type="locator" xlink:href="f388.0001.private.02.02.module.xsd#HC636" xlink:label="ReportingParty" xlink:title="ReportingParty"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.01.data.xsd#DM5" xlink:label="ReportPartyTypeDimension" xlink:title="ReportPartyTypeDimension"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingParty" xlink:to="ReportPartyTypeDimension" xlink:title="definition: ReportingParty to ReportPartyTypeDimension" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.01.data.xsd#DV29" xlink:label="ReportingParty_2" xlink:title="ReportingParty"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="ReportingParty_2" xlink:title="definition: ReportPartyTypeDimension to ReportingParty" order="1.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/asic/f388/f388.0001.private.02.02/hypercubes/Intermediary">
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.01.data.xsd#DM5" xlink:label="ReportPartyTypeDimension" xlink:title="ReportPartyTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.01.data.xsd#DV30" xlink:label="Intermediary_2" xlink:title="Intermediary"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="Intermediary_2" xlink:title="definition: ReportPartyTypeDimension to Intermediary" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="f388.0001.private.02.02.module.xsd#HC441" xlink:label="Intermediary" xlink:title="Intermediary"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="Intermediary" xlink:to="ReportPartyTypeDimension" xlink:title="definition: Intermediary to ReportPartyTypeDimension" order="1.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/asic/f388/f388.0001.private.02.02/hypercubes/Auditor">
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.01.data.xsd#DM5" xlink:label="ReportPartyTypeDimension" xlink:title="ReportPartyTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.01.data.xsd#DV37" xlink:label="Auditor_2" xlink:title="Auditor"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="Auditor_2" xlink:title="definition: ReportPartyTypeDimension to Auditor" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="f388.0001.private.02.02.module.xsd#HC735" xlink:label="Auditor" xlink:title="Auditor"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="Auditor" xlink:to="ReportPartyTypeDimension" xlink:title="definition: Auditor to ReportPartyTypeDimension" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/AuStsTerrOS.02.01.data.xsd#DM1" xlink:label="AustralianStatesTerritoriesAndOffShoreAreasDimension" xlink:title="AustralianStatesTerritoriesAndOffShoreAreasDimension"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="Auditor" xlink:to="AustralianStatesTerritoriesAndOffShoreAreasDimension" xlink:title="definition: Auditor to AustralianStatesTerritoriesAndOffShoreAreasDimension" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/AuStsTerrOS.02.01.data.xsd#DV2" xlink:label="ACT" xlink:title="ACT"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="AustralianStatesTerritoriesAndOffShoreAreasDimension" xlink:to="ACT" xlink:title="definition: AustralianStatesTerritoriesAndOffShoreAreasDimension to ACT" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/AuStsTerrOS.02.01.data.xsd#DV3" xlink:label="NSW" xlink:title="NSW"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="AustralianStatesTerritoriesAndOffShoreAreasDimension" xlink:to="NSW" xlink:title="definition: AustralianStatesTerritoriesAndOffShoreAreasDimension to NSW" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/AuStsTerrOS.02.01.data.xsd#DV4" xlink:label="NT" xlink:title="NT"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="AustralianStatesTerritoriesAndOffShoreAreasDimension" xlink:to="NT" xlink:title="definition: AustralianStatesTerritoriesAndOffShoreAreasDimension to NT" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/AuStsTerrOS.02.01.data.xsd#DV5" xlink:label="QLD" xlink:title="QLD"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="AustralianStatesTerritoriesAndOffShoreAreasDimension" xlink:to="QLD" xlink:title="definition: AustralianStatesTerritoriesAndOffShoreAreasDimension to QLD" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/AuStsTerrOS.02.01.data.xsd#DV6" xlink:label="SA" xlink:title="SA"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="AustralianStatesTerritoriesAndOffShoreAreasDimension" xlink:to="SA" xlink:title="definition: AustralianStatesTerritoriesAndOffShoreAreasDimension to SA" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/AuStsTerrOS.02.01.data.xsd#DV7" xlink:label="TAS" xlink:title="TAS"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="AustralianStatesTerritoriesAndOffShoreAreasDimension" xlink:to="TAS" xlink:title="definition: AustralianStatesTerritoriesAndOffShoreAreasDimension to TAS" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/AuStsTerrOS.02.01.data.xsd#DV8" xlink:label="VIC" xlink:title="VIC"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="AustralianStatesTerritoriesAndOffShoreAreasDimension" xlink:to="VIC" xlink:title="definition: AustralianStatesTerritoriesAndOffShoreAreasDimension to VIC" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/AuStsTerrOS.02.01.data.xsd#DV9" xlink:label="WA" xlink:title="WA"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="AustralianStatesTerritoriesAndOffShoreAreasDimension" xlink:to="WA" xlink:title="definition: AustralianStatesTerritoriesAndOffShoreAreasDimension to WA" order="8.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/AuStsTerrOS.02.01.data.xsd#DV14" xlink:label="AU" xlink:title="AU"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="AustralianStatesTerritoriesAndOffShoreAreasDimension" xlink:to="AU" xlink:title="definition: AustralianStatesTerritoriesAndOffShoreAreasDimension to AU" order="9.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/asic/f388/f388.0001.private.02.02/defRole"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/asic/f388/f388.0001.private.02.02/hypercubes/ReportingParty.Intermediary">
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.01.data.xsd#DM5" xlink:label="ReportPartyTypeDimension" xlink:title="ReportPartyTypeDimension"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.01.data.xsd#DV29" xlink:label="ReportingParty" xlink:title="ReportingParty"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="ReportingParty" xlink:title="definition: ReportPartyTypeDimension to ReportingParty" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../sbr_au_taxonomy/dims/RprtPyType.02.01.data.xsd#DV30" xlink:label="Intermediary" xlink:title="Intermediary"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ReportPartyTypeDimension" xlink:to="Intermediary" xlink:title="definition: ReportPartyTypeDimension to Intermediary" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="f388.0001.private.02.02.module.xsd#HC739" xlink:label="ReportingPartyAndIntermediary" xlink:title="ReportingPartyAndIntermediary"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportingPartyAndIntermediary" xlink:to="ReportPartyTypeDimension" xlink:title="definition: ReportingPartyAndIntermediary to ReportPartyTypeDimension" order="1.0"/>
+  </link:definitionLink>
+</link:linkbase>

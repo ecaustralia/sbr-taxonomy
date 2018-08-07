@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dtyp.02.00="http://sbr.gov.au/fdtn/sbr.02.00.dtyp" xmlns:emfsm.02.00="http://sbr.gov.au/icls/em/emfsm/emfsm.02.00.data" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/em/emfsm/emfsm.02.00.data" elementFormDefault="qualified">
+	<xsd:annotation>
+		<xsd:appinfo>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd" />
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.00.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.00.xsd" />
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:element name="emfsmAbstract" id="emfsm.02.00_emfsmAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+	<xsd:element name="AuditorAppointment.AuditorAction.Code" substitutionGroup="xbrli:item" nillable="true" id="DE2518" xbrli:periodType="duration" type="dtyp.02.00:sbrAuditorActionCodeItemType" block="substitution"/>
+	<xsd:element name="AuditorAppointment.AuditorContinuation.Text" substitutionGroup="xbrli:item" nillable="true" id="DE488" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="AuditorAppointment.AuditorJurisdiction.Code" substitutionGroup="xbrli:item" nillable="true" id="DE2522" xbrli:periodType="duration" type="dtyp.02.00:sbrAuditorJurisdictionItemType" block="substitution"/>
+	<xsd:element name="AuditorAppointment.AuditorType.Code" substitutionGroup="xbrli:item" nillable="true" id="DE2520" xbrli:periodType="duration" type="dtyp.02.00:sbrAuditorTypeCodeItemType" block="substitution"/>
+	<xsd:element name="AuditorAppointment.Ceased.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE625" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="AuditorAppointment.FirstAppointment.Date" substitutionGroup="xbrli:item" nillable="true" id="DE224" xbrli:periodType="duration" type="xbrli:dateItemType" block="substitution"/>
+	<xsd:element name="AuditorAppointment.JointAppointment.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE225" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="AuditorAppointment.Vacancy.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE2519" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="AuditorDisclosures.IndependenceDeclaration.Date" substitutionGroup="xbrli:item" nillable="true" id="DE584" xbrli:periodType="duration" type="xbrli:dateItemType" block="substitution"/>
+	<xsd:element name="AuditorDisclosures.RemunerationOnExternalAuditServices.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2490" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="AuditorDisclosures.RemunerationOnInternalAuditServices.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2562" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="AuditorDisclosures.RemunerationOther.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2491" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="AuditorDisclosures.RemunerationTotal.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2013" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="AuditorDisclosures.Remuneration.Text" substitutionGroup="xbrli:item" nillable="true" id="DE513" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.AuditorIndependenceDeclaration.Text" substitutionGroup="xbrli:item" nillable="true" id="DE489" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.AuditorNotSatisfiedStatementOfReasonsProvided.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE227" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.AustralianFinancialServicesLicenseeReceivedLoanFromClient.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE1608" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.AustralianFinancialServicesLicenseeReceivedMoneyFromClient.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE1606" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.AustralianFinancialServicesLicenseeReceivedPropertyFromClient.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE1607" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.EngagementType.Description" substitutionGroup="xbrli:item" nillable="true" id="DE516" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.ExistingClassOrderExemption.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE250" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.ExternalAuditors.Text" substitutionGroup="xbrli:item" nillable="true" id="DE520" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.FinancialStatementsAudited.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE226" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.FullText.Text" substitutionGroup="xbrli:item" nillable="true" id="DE519" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.Modification.Text" substitutionGroup="xbrli:item" nillable="true" id="DE518" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.NonAuditServices.Text" substitutionGroup="xbrli:item" nillable="true" id="DE514" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.Opinion.Text" substitutionGroup="xbrli:item" nillable="true" id="DE517" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.ReportModified.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE1611" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.Signature.Date" substitutionGroup="xbrli:item" nillable="true" id="DE515" xbrli:periodType="duration" type="xbrli:dateItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.StatementOfDeficiencyDetailsProvided.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE228" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.Modification.AuditorOpinionQualification.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE1609" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.Modification.ClientMoneyAccounts.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE1615" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.Modification.ContraventionsBreachesAndMisconduct.Text" substitutionGroup="xbrli:item" nillable="true" id="DE1622" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.Modification.EmphasisOfMatter.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE1610" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.Modification.LicenceConditions.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE1613" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.Modification.LicenseeControls.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE1614" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.Modification.RecordsAndExplanations.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE1616" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.Modification.StatementExceptions.Text" substitutionGroup="xbrli:item" nillable="true" id="DE1621" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="AuditorReport.Modification.TrueAndFairViewAndCompliance.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE1612" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="ExternalAdministratorAppointment.AppointmentEnd.Date" substitutionGroup="xbrli:item" nillable="true" id="DE120" xbrli:periodType="instant" type="xbrli:dateItemType" block="substitution"/>
+	<xsd:element name="ExternalAdministratorAppointment.AppointmentEnd.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE119" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+	<xsd:element name="ExternalAdministratorAppointment.AppointmentStart.Date" substitutionGroup="xbrli:item" nillable="true" id="DE118" xbrli:periodType="instant" type="xbrli:dateItemType" block="substitution"/>
+	<xsd:element name="ExternalAdministratorAppointment.AppointmentStart.Indicator" substitutionGroup="xbrli:item" nillable="true" id="DE117" xbrli:periodType="duration" type="xbrli:booleanItemType" block="substitution"/>
+</xsd:schema>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="pyin.02.37.data.xsd#pyin.02.37_pyinAbstract" xlink:label="loc_pyin.02.37_pyinAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_pyinAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Party Interaction</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_pyin.02.37_pyinAbstract" xlink:to="lbl_pyinAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.37.data.xsd#DE14653" xlink:label="loc_DE14653"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14653" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interaction Client Relationship Update Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14653" xlink:to="lbl_DE14653"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14653" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A code that represents the request to update a relationship between an agent and a client for a specific obligation.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14653" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Add = Allows an agent to add a client agent relationship. 
+Remove = Allows an agent to remove a client agent relationship.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.37.data.xsd#DE14621" xlink:label="loc_DE14621"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14621" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interaction Option Text</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14621" xlink:to="lbl_DE14621"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14621" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the text of the option selected.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.37.data.xsd#DE14622" xlink:label="loc_DE14622"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14622" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interaction Outcome Text</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14622" xlink:to="lbl_DE14622"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14622" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the text of the question outcome.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.37.data.xsd#DE14620" xlink:label="loc_DE14620"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14620" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interaction Question Text</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14620" xlink:to="lbl_DE14620"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14620" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The text of the question.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.37.data.xsd#DE14297" xlink:label="loc_DE14297"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14297" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Report Australian Business Registration Application Outcome Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14297" xlink:to="lbl_DE14297"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14297" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The code that represents the Australian Business Registration (ABR) outcome of the application.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14297" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+ABN = Australian Business Number
+REFI = Refusal ID
+REFN = Reference Number
+WORK = Work Item Creation (including EOI Retry)
+SUC = ABN Successfully Updated
+SYSU = System Unavailable
+CAN = ABN Successfully Cancelled
+TAN = No Tax Agent Numbers Returned
+AUSA = AUSKey Activation Code
+LGL = Entity Legal Name</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.37.data.xsd#DE377" xlink:label="loc_DE377"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE377" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Report Target Financial Year</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE377" xlink:to="lbl_DE377"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE377" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The calendar year in which a financial year ends.</link:label>
+    </link:labelLink>
+</link:linkbase>

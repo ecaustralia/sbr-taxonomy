@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="emsup.02.19.data.xsd#emsup.02.19_emsupAbstract" xlink:label="loc_emsup.02.19_emsupAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_emsupAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_emsup.02.19_emsupAbstract" xlink:to="lbl_emsupAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.19.data.xsd#DE13415" xlink:label="loc_DE13415"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13415" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Contribution Employer Reportable Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13415" xlink:to="lbl_DE13415"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13415" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for employer superannuation contributions that are additional to the compulsory contributions where the employee influenced the rate or amount of contribution.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13415" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Contributions made by the employer for an employee in respect of an income year where ALL of the following apply:
+- The employee influenced the rate or amount of super the employer contributed for them
+- The contributions are additional to the compulsory contributions employer must make under any of the following
+        1 - The superannuation guarantee law.
+        2 - An industrial agreement.
+        3 - The trust deed or governing rules of a super fund.
+        4 - a federal, state or territory law.</link:label>
+        <link:loc xlink:type="locator" xlink:href="emsup.02.19.data.xsd#DE13432" xlink:label="loc_DE13432"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13432" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Superannuation Payment Benefit Lump Sum Zero Tax Rate Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE13432" xlink:to="lbl_DE13432"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE13432" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the taxed element of a superannuation lump sum for which the tax rate is zero.</link:label>
+    </link:labelLink>
+</link:linkbase>

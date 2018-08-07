@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ptr.0002.prv.02.00="http://sbr.gov.au/rprt/ato/ptr/ptr.0002.private.02.00.module" xmlns:IndustryProductionType.02.00="http://sbr.gov.au/dims/IndustryProductionType.02.00.dims" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:FinclArrngmtType.02.00="http://sbr.gov.au/dims/FinclArrngmtType.02.00.dims" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:CountryResCFCClass.02.00="http://sbr.gov.au/dims/CountryResCFCClass.02.00.dims" xmlns:OpenCloseBalance.02.00="http://sbr.gov.au/dims/OpenCloseBalance.02.00.dims" xmlns:IntlJurisdiction.02.00="http://sbr.gov.au/dims/IntlJurisdiction.02.00.dims" xmlns:RprtPyType.02.03="http://sbr.gov.au/dims/RprtPyType.02.03.dims" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/rprt/ato/ptr/ptr.0002.private.02.00.module" elementFormDefault="qualified">
+    <xsd:annotation>
+        <xsd:appinfo>
+            <link:linkbaseRef xlink:type="simple" xlink:href="ptr.0002.private.02.00.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:linkbaseRef xlink:type="simple" xlink:href="ptr.0002.private.02.00.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ptr/ptr.0002.private.02.00/defRole" id="ptr.0002.02.00.privatedefLink">
+                <link:definition>ptr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ptr/ptr.0002.private.02.00/labRole" id="ptr.0002.02.00.privatelabLinkInfoCls">
+                <link:definition>ptr.0002_private</link:definition>
+                <link:usedOn>link:labelLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ptr/ptr.0002.private.02.00/refRole" id="ptr.0002.02.00.privaterefLink">
+                <link:definition>ptr.0002_private</link:definition>
+                <link:usedOn>link:referenceLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ptr/ptr.0002.private.02.00/hypercubes/AustralianForeignReportingParty" id="ptr.0002.02.00.privatedefLinkAustralianForeignReportingParty">
+                <link:definition>ptr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ptr/ptr.0002.private.02.00/hypercubes/AustralianReportingParty" id="ptr.0002.02.00.privatedefLinkAustralianReportingParty">
+                <link:definition>ptr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ptr/ptr.0002.private.02.00/hypercubes/ClosingOpeningReportingParty" id="ptr.0002.02.00.privatedefLinkClosingOpeningReportingParty">
+                <link:definition>ptr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ptr/ptr.0002.private.02.00/hypercubes/ClosingReportingParty" id="ptr.0002.02.00.privatedefLinkClosingReportingParty">
+                <link:definition>ptr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ptr/ptr.0002.private.02.00/hypercubes/CountryResCFCClassForeignReportingParty" id="ptr.0002.02.00.privatedefLinkCountryResCFCClassForeignReportingParty">
+                <link:definition>ptr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ptr/ptr.0002.private.02.00/hypercubes/ForeignReportingParty" id="ptr.0002.02.00.privatedefLinkForeignReportingParty">
+                <link:definition>ptr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ptr/ptr.0002.private.02.00/hypercubes/Intermediary" id="ptr.0002.02.00.privatedefLinkIntermediary">
+                <link:definition>ptr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ptr/ptr.0002.private.02.00/hypercubes/NonPrimaryProductionAustralianReportingParty" id="ptr.0002.02.00.privatedefLinkNonPrimaryProductionAustralianReportingParty">
+                <link:definition>ptr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ptr/ptr.0002.private.02.00/hypercubes/PrimaryProductionAustralianReportingParty" id="ptr.0002.02.00.privatedefLinkPrimaryProductionAustralianReportingParty">
+                <link:definition>ptr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ptr/ptr.0002.private.02.00/hypercubes/PrimaryProductionNonPrimaryProductionAustralianReportingParty" id="ptr.0002.02.00.privatedefLinkPrimaryProductionNonPrimaryProductionAustralianReportingParty">
+                <link:definition>ptr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ptr/ptr.0002.private.02.00/hypercubes/PrimaryProductionNonPrimaryProductionReportingParty" id="ptr.0002.02.00.privatedefLinkPrimaryProductionNonPrimaryProductionReportingParty">
+                <link:definition>ptr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ptr/ptr.0002.private.02.00/hypercubes/ReportingParty" id="ptr.0002.02.00.privatedefLinkReportingParty">
+                <link:definition>ptr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType roleURI="http://sbr.gov.au/rprt/ato/ptr/ptr.0002.private.02.00/hypercubes/TOFAReportingParty" id="ptr.0002.02.00.privatedefLinkTOFAReportingParty">
+                <link:definition>ptr.0002_private</link:definition>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+        </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.03.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.03.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/OpenCloseBalance.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/OpenCloseBalance.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/IntlJurisdiction.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/IntlJurisdiction.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/IndustryProductionType.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/IndustryProductionType.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/CountryResCFCClass.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/CountryResCFCClass.02.00.data.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/dims/FinclArrngmtType.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/FinclArrngmtType.02.00.data.xsd"/>
+    <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="AustralianForeignReportingPartyPrimaryItemsAbstract" id="RA100336" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AustralianReportingPartyPrimaryItemsAbstract" id="RA100337" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ClosingOpeningReportingPartyPrimaryItemsAbstract" id="RA100338" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ClosingReportingPartyPrimaryItemsAbstract" id="RA100339" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="CountryResCFCClassForeignReportingPartyPrimaryItemsAbstract" id="RA100340" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ForeignReportingPartyPrimaryItemsAbstract" id="RA100341" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="IntermediaryPrimaryItemsAbstract" id="RA100342" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="NonPrimaryProductionAustralianReportingPartyPrimaryItemsAbstract" id="RA100343" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="PrimaryProductionAustralianReportingPartyPrimaryItemsAbstract" id="RA100344" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="PrimaryProductionNonPrimaryProductionAustralianReportingPartyPrimaryItemsAbstract" id="RA100345" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="PrimaryProductionNonPrimaryProductionReportingPartyPrimaryItemsAbstract" id="RA100346" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingPartyPrimaryItemsAbstract" id="RA100347" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="TOFAReportingPartyPrimaryItemsAbstract" id="RA100348" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AustralianForeignReportingParty" id="HC100336" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="AustralianReportingParty" id="HC100337" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ClosingOpeningReportingParty" id="HC100338" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ClosingReportingParty" id="HC100339" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="CountryResCFCClassForeignReportingParty" id="HC100340" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ForeignReportingParty" id="HC100341" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="Intermediary" id="HC100342" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="NonPrimaryProductionAustralianReportingParty" id="HC100343" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="PrimaryProductionAustralianReportingParty" id="HC100344" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="PrimaryProductionNonPrimaryProductionAustralianReportingParty" id="HC100345" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="PrimaryProductionNonPrimaryProductionReportingParty" id="HC100346" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="ReportingParty" id="HC100347" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="TOFAReportingParty" id="HC100348" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant"/>
+</xsd:schema>

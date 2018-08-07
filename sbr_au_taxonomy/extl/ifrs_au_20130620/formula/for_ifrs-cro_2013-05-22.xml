@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/ -->
+<!--
+        Taxonomy: 2013-05-22 (Formula release)
+        ********************** 
+        Copyright © 2013 International Financial Reporting Standards (IFRS) Foundation
+        All rights reserved.  No part of this publication may be translated, reprinted or reproduced 
+        or utilised in any form either in whole or in part without prior permission in writing from the IFRS Foundation.
+        For more information on the IFRS Foundation's copyright, please refer to http://www.ifrs.org/XBRL/Legal/
+        **********************
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://xbrl.org/2008/formula http://www.xbrl.org/2008/formula.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/reference http://www.xbrl.org/2008/generic-reference.xsd http://xbrl.org/2008/filter/concept http://www.xbrl.org/2008/concept-filter.xsd http://xbrl.org/2008/filter/dimension http://www.xbrl.org/2008/dimension-filter.xsd http://xbrl.org/2008/filter/entity http://www.xbrl.org/2008/entity-filter.xsd http://xbrl.org/2008/filter/general http://www.xbrl.org/2008/general-filter.xsd http://xbrl.org/2008/filter/match http://www.xbrl.org/2008/match-filter.xsd http://xbrl.org/2008/filter/period http://www.xbrl.org/2008/period-filter.xsd http://xbrl.org/2008/filter/relative http://www.xbrl.org/2008/relative-filter.xsd http://xbrl.org/2008/filter/segment-scenario http://www.xbrl.org/2008/segment-scenario-filter.xsd http://xbrl.org/2008/filter/tuple http://www.xbrl.org/2008/tuple-filter.xsd http://xbrl.org/2008/filter/unit http://www.xbrl.org/2008/unit-filter.xsd http://xbrl.org/2008/filter/value http://www.xbrl.org/2008/value-filter.xsd http://xbrl.org/2008/assertion/consistency http://www.xbrl.org/2008/consistency-assertion.xsd http://xbrl.org/2008/assertion/existence http://www.xbrl.org/2008/existence-assertion.xsd http://xbrl.org/2008/assertion/value http://www.xbrl.org/2008/value-assertion.xsd http://xbrl.org/2010/filter/concept-relation http://www.xbrl.org/2010/concept-relation-filter.xsd http://xbrl.org/2010/message http://www.xbrl.org/2010/generic-message.xsd http://xbrl.org/2010/message/validation http://www.xbrl.org/2010/validation-message.xsd" xmlns:ca="http://xbrl.org/2008/assertion/consistency" xmlns:gen="http://xbrl.org/2008/generic" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:sf="http://xbrl.org/2008/filter/segment-scenario" xmlns:variable="http://xbrl.org/2008/variable" xmlns:xfi="http://www.xbrl.org/2008/function/instance" xmlns:cf="http://xbrl.org/2008/filter/concept" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:valm="http://xbrl.org/2010/message/validation" xmlns:ifrs="http://xbrl.ifrs.org/taxonomy/2013-03-28/ifrs" xmlns:mf="http://xbrl.org/2008/filter/match" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ea="http://xbrl.org/2008/assertion/existence" xmlns:df="http://xbrl.org/2008/filter/dimension" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:rf="http://xbrl.org/2008/filter/relative" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uf="http://xbrl.org/2008/filter/unit" xmlns:validation="http://xbrl.org/2008/validation" xmlns:pf="http://xbrl.org/2008/filter/period" xmlns:tf="http://xbrl.org/2008/filter/tuple" xmlns:formula="http://xbrl.org/2008/formula" xmlns:msg="http://xbrl.org/2010/message" xmlns:vf="http://xbrl.org/2008/filter/value" xmlns:va="http://xbrl.org/2008/assertion/value" xmlns:label="http://xbrl.org/2008/label" xmlns:gf="http://xbrl.org/2008/filter/general" xmlns:crf="http://xbrl.org/2010/filter/concept-relation" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:roleRef roleURI="http://www.xbrl.org/2010/role/message" xlink:type="simple" xlink:href="http://www.xbrl.org/2010/generic-message.xsd#standard-message"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2008/role/link" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-filter"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-set" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-set"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:type="simple" xlink:href="http://www.xbrl.org/2010/validation-message.xsd#assertion-unsatisfied-message"/>
+  <gen:link xlink:type="extended" xlink:role="http://www.xbrl.org/2008/role/link">
+    <va:valueAssertion xlink:type="resource" xlink:label="res_2" id="crossPeriod_CashAndCashEquivalents" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <msg:message xlink:type="resource" xlink:label="res_1" xlink:role="http://www.xbrl.org/2010/role/message" xml:lang="en" id="res_msg">Reported value at end of period is not equal to sum of reported value at beginning of period and changes in that value during period</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_2" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_3" id="factVariable_0" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_2" xlink:to="res_3" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_4" id="loc_auto_2">
+      <cf:concept>
+        <cf:qname>ifrs:CashAndCashEquivalents</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_3" xlink:to="res_4" priority="0" order="1.0" complement="false" cover="true"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="res_7" id="loc_auto_5" boundary="start" variable="change1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_3" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_6" id="factVariable_1" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_2" xlink:to="res_6" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_5" id="loc_auto_3">
+      <cf:concept>
+        <cf:qname>ifrs:IncreaseDecreaseInCashAndCashEquivalents</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_6" xlink:to="res_5" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_8" id="factVariable_2" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_2" xlink:to="res_8" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_8" xlink:to="res_4" priority="0" order="1.0" complement="false" cover="true"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="res_9" id="loc_auto_7" boundary="end" variable="change1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_8" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_10" id="crossPeriod_CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_10" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_11" id="factVariable_3" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_10" xlink:to="res_11" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_12" id="loc_auto_10">
+      <cf:concept>
+        <cf:qname>ifrs:CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_11" xlink:to="res_12" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_11" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_13" id="factVariable_4" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_10" xlink:to="res_13" order="3.0" name="change1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_13" xlink:to="res_5" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_14" id="factVariable_5" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_10" xlink:to="res_14" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_14" xlink:to="res_12" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_14" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_15" id="crossPeriod_Equity" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_15" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_16" id="factVariable_6" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_15" xlink:to="res_16" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_17" id="loc_auto_15">
+      <cf:concept>
+        <cf:qname>ifrs:Equity</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_16" xlink:to="res_17" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_16" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_19" id="factVariable_7" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_15" xlink:to="res_19" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_18" id="loc_auto_16">
+      <cf:concept>
+        <cf:qname>ifrs:ChangesInEquity</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_19" xlink:to="res_18" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_20" id="factVariable_8" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_15" xlink:to="res_20" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_20" xlink:to="res_17" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_20" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_21" id="crossPeriod_AssetsLiabilitiesOfBenefitPlan" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_21" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_22" id="factVariable_9" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_21" xlink:to="res_22" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_23" id="loc_auto_21">
+      <cf:concept>
+        <cf:qname>ifrs:AssetsLiabilitiesOfBenefitPlan</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_22" xlink:to="res_23" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_22" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_25" id="factVariable_10" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_21" xlink:to="res_25" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_24" id="loc_auto_22">
+      <cf:concept>
+        <cf:qname>ifrs:IncreaseDecreaseInNetAssetsAvailableForBenefits</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_25" xlink:to="res_24" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_26" id="factVariable_11" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_21" xlink:to="res_26" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_26" xlink:to="res_23" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_26" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_27" id="crossPeriod_Goodwill" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_27" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_28" id="factVariable_12" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_27" xlink:to="res_28" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_29" id="loc_auto_27">
+      <cf:concept>
+        <cf:qname>ifrs:Goodwill</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_28" xlink:to="res_29" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_28" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_31" id="factVariable_13" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_27" xlink:to="res_31" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_30" id="loc_auto_28">
+      <cf:concept>
+        <cf:qname>ifrs:ChangesInGoodwill</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_31" xlink:to="res_30" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_32" id="factVariable_14" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_27" xlink:to="res_32" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_32" xlink:to="res_29" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_32" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_33" id="crossPeriod_ContingentLiabilitiesRecognisedInBusinessCombination" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_33" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_34" id="factVariable_15" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_33" xlink:to="res_34" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_35" id="loc_auto_33">
+      <cf:concept>
+        <cf:qname>ifrs:ContingentLiabilitiesRecognisedInBusinessCombination</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_34" xlink:to="res_35" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_34" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_37" id="factVariable_16" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_33" xlink:to="res_37" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_36" id="loc_auto_34">
+      <cf:concept>
+        <cf:qname>ifrs:IncreaseDecreaseInContingentLiabilitiesRecognisedInBusinessCombination</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_37" xlink:to="res_36" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_38" id="factVariable_17" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_33" xlink:to="res_38" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_38" xlink:to="res_35" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_38" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_39" id="crossPeriod_PropertyPlantAndEquipment" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_39" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_40" id="factVariable_18" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_39" xlink:to="res_40" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_41" id="loc_auto_39">
+      <cf:concept>
+        <cf:qname>ifrs:PropertyPlantAndEquipment</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_40" xlink:to="res_41" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_40" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_43" id="factVariable_19" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_39" xlink:to="res_43" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_42" id="loc_auto_40">
+      <cf:concept>
+        <cf:qname>ifrs:ChangesInPropertyPlantAndEquipment</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_43" xlink:to="res_42" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_44" id="factVariable_20" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_39" xlink:to="res_44" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_44" xlink:to="res_41" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_44" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_45" id="crossPeriod_AggregateDifferenceBetweenFairValueAtInitialRecognitionAndAmountDeterminedUsingValuationTechniqueYetToBeRecognised" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_45" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_46" id="factVariable_21" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_45" xlink:to="res_46" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_47" id="loc_auto_45">
+      <cf:concept>
+        <cf:qname>ifrs:AggregateDifferenceBetweenFairValueAtInitialRecognitionAndAmountDeterminedUsingValuationTechniqueYetToBeRecognised</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_46" xlink:to="res_47" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_46" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_49" id="factVariable_22" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_45" xlink:to="res_49" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_48" id="loc_auto_46">
+      <cf:concept>
+        <cf:qname>ifrs:IncreaseDecreaseInAggregateDifferenceBetweenFairValueAtInitialRecognitionAndAmountDeterminedUsingValuationTechniqueYetToBeRecognised</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_49" xlink:to="res_48" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_50" id="factVariable_23" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_45" xlink:to="res_50" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_50" xlink:to="res_47" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_50" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_51" id="crossPeriod_AllowanceAccountForCreditLossesOfFinancialAssets" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_51" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_52" id="factVariable_24" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_51" xlink:to="res_52" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_53" id="loc_auto_51">
+      <cf:concept>
+        <cf:qname>ifrs:AllowanceAccountForCreditLossesOfFinancialAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_52" xlink:to="res_53" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_52" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_55" id="factVariable_25" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_51" xlink:to="res_55" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_54" id="loc_auto_52">
+      <cf:concept>
+        <cf:qname>ifrs:IncreaseDecreaseInAllowanceAccountForCreditLossesOfFinancialAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_55" xlink:to="res_54" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_56" id="factVariable_26" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_51" xlink:to="res_56" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_56" xlink:to="res_53" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_56" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_57" id="crossPeriod_IntangibleAssetsOtherThanGoodwill" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_57" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_58" id="factVariable_27" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_57" xlink:to="res_58" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_59" id="loc_auto_57">
+      <cf:concept>
+        <cf:qname>ifrs:IntangibleAssetsOtherThanGoodwill</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_58" xlink:to="res_59" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_58" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_61" id="factVariable_28" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_57" xlink:to="res_61" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_60" id="loc_auto_58">
+      <cf:concept>
+        <cf:qname>ifrs:ChangesInIntangibleAssetsOtherThanGoodwill</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_61" xlink:to="res_60" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_62" id="factVariable_29" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_57" xlink:to="res_62" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_62" xlink:to="res_59" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_62" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_63" id="crossPeriod_BiologicalAssets" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_63" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_64" id="factVariable_30" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_63" xlink:to="res_64" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_65" id="loc_auto_63">
+      <cf:concept>
+        <cf:qname>ifrs:BiologicalAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_64" xlink:to="res_65" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_64" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_67" id="factVariable_31" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_63" xlink:to="res_67" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_66" id="loc_auto_64">
+      <cf:concept>
+        <cf:qname>ifrs:ChangesInBiologicalAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_67" xlink:to="res_66" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_68" id="factVariable_32" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_63" xlink:to="res_68" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_68" xlink:to="res_65" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_68" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_69" id="crossPeriod_InvestmentProperty" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_69" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_70" id="factVariable_33" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_69" xlink:to="res_70" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_71" id="loc_auto_69">
+      <cf:concept>
+        <cf:qname>ifrs:InvestmentProperty</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_70" xlink:to="res_71" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_70" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_73" id="factVariable_34" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_69" xlink:to="res_73" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_72" id="loc_auto_70">
+      <cf:concept>
+        <cf:qname>ifrs:ChangesInInvestmentProperty</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_73" xlink:to="res_72" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_74" id="factVariable_35" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_69" xlink:to="res_74" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_74" xlink:to="res_71" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_74" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_75" id="crossPeriod_OtherProvisions" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_75" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_76" id="factVariable_36" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_75" xlink:to="res_76" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_77" id="loc_auto_75">
+      <cf:concept>
+        <cf:qname>ifrs:OtherProvisions</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_76" xlink:to="res_77" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_76" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_79" id="factVariable_37" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_75" xlink:to="res_79" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_78" id="loc_auto_76">
+      <cf:concept>
+        <cf:qname>ifrs:ChangesInOtherProvisions</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_79" xlink:to="res_78" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_80" id="factVariable_38" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_75" xlink:to="res_80" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_80" xlink:to="res_77" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_80" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_81" id="crossPeriod_ReimbursementRightsAtFairValue" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_81" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_82" id="factVariable_39" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_81" xlink:to="res_82" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_83" id="loc_auto_81">
+      <cf:concept>
+        <cf:qname>ifrs:ReimbursementRightsAtFairValue</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_82" xlink:to="res_83" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_82" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_85" id="factVariable_40" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_81" xlink:to="res_85" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_84" id="loc_auto_82">
+      <cf:concept>
+        <cf:qname>ifrs:ChangesInReimbursementRightsAtFairValue</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_85" xlink:to="res_84" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_86" id="factVariable_41" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_81" xlink:to="res_86" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_86" xlink:to="res_83" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_86" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_87" id="crossPeriod_LiabilitiesArisingFromInsuranceContracts" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_87" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_88" id="factVariable_42" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_87" xlink:to="res_88" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_89" id="loc_auto_87">
+      <cf:concept>
+        <cf:qname>ifrs:LiabilitiesArisingFromInsuranceContracts</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_88" xlink:to="res_89" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_88" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_91" id="factVariable_43" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_87" xlink:to="res_91" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_90" id="loc_auto_88">
+      <cf:concept>
+        <cf:qname>ifrs:IncreaseDecreaseInLiabilitiesUnderInsuranceContractsAndReinsuranceContractsIssued</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_91" xlink:to="res_90" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_92" id="factVariable_44" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_87" xlink:to="res_92" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_92" xlink:to="res_89" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_92" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_93" id="crossPeriod_DeferredAcquisitionCostsArisingFromInsuranceContracts" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_93" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_94" id="factVariable_45" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_93" xlink:to="res_94" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_95" id="loc_auto_93">
+      <cf:concept>
+        <cf:qname>ifrs:DeferredAcquisitionCostsArisingFromInsuranceContracts</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_94" xlink:to="res_95" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_94" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_97" id="factVariable_46" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_93" xlink:to="res_97" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_96" id="loc_auto_94">
+      <cf:concept>
+        <cf:qname>ifrs:IncreaseDecreaseInDeferredAcquisitionCostsArisingFromInsuranceContracts</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_97" xlink:to="res_96" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_98" id="factVariable_47" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_93" xlink:to="res_98" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_98" xlink:to="res_95" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_98" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_99" id="crossPeriod_ReinsuranceAssets" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_99" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_100" id="factVariable_48" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_99" xlink:to="res_100" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_101" id="loc_auto_99">
+      <cf:concept>
+        <cf:qname>ifrs:ReinsuranceAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_100" xlink:to="res_101" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_100" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_103" id="factVariable_49" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_99" xlink:to="res_103" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_102" id="loc_auto_100">
+      <cf:concept>
+        <cf:qname>ifrs:IncreaseDecreaseInReinsuranceAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_103" xlink:to="res_102" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_104" id="factVariable_50" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_99" xlink:to="res_104" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_104" xlink:to="res_101" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_104" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_105" id="crossPeriod_NumberOfSharesOutstanding" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_105" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_106" id="factVariable_51" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_105" xlink:to="res_106" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_107" id="loc_auto_105">
+      <cf:concept>
+        <cf:qname>ifrs:NumberOfSharesOutstanding</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_106" xlink:to="res_107" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_106" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_109" id="factVariable_52" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_105" xlink:to="res_109" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_108" id="loc_auto_106">
+      <cf:concept>
+        <cf:qname>ifrs:IncreaseDecreaseInNumberOfSharesOutstanding</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_109" xlink:to="res_108" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_110" id="factVariable_53" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_105" xlink:to="res_110" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_110" xlink:to="res_107" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_110" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_111" id="crossPeriod_LiabilityAssetOfDefinedBenefitPlans" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_111" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_112" id="factVariable_54" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_111" xlink:to="res_112" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_113" id="loc_auto_111">
+      <cf:concept>
+        <cf:qname>ifrs:LiabilityAssetOfDefinedBenefitPlans</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_112" xlink:to="res_113" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_112" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_115" id="factVariable_55" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_111" xlink:to="res_115" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_114" id="loc_auto_112">
+      <cf:concept>
+        <cf:qname>ifrs:IncreaseDecreaseInNetDefinedBenefitLiabilityAsset</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_115" xlink:to="res_114" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_116" id="factVariable_56" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_111" xlink:to="res_116" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_116" xlink:to="res_113" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_116" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_117" id="crossPeriod_IntangibleAssetsAndGoodwill" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_117" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_118" id="factVariable_57" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_117" xlink:to="res_118" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_119" id="loc_auto_117">
+      <cf:concept>
+        <cf:qname>ifrs:IntangibleAssetsAndGoodwill</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_118" xlink:to="res_119" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_118" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_121" id="factVariable_58" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_117" xlink:to="res_121" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_120" id="loc_auto_118">
+      <cf:concept>
+        <cf:qname>ifrs:IncreaseDecreaseInIntangibleAssetsAndGoodwill</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_121" xlink:to="res_120" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_122" id="factVariable_59" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_117" xlink:to="res_122" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_122" xlink:to="res_119" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_122" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_123" id="crossPeriod_DeferredTaxLiabilityAsset" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_123" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_124" id="factVariable_60" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_123" xlink:to="res_124" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_125" id="loc_auto_123">
+      <cf:concept>
+        <cf:qname>ifrs:DeferredTaxLiabilityAsset</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_124" xlink:to="res_125" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_124" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_127" id="factVariable_61" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_123" xlink:to="res_127" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_126" id="loc_auto_124">
+      <cf:concept>
+        <cf:qname>ifrs:IncreaseDecreaseInDeferredTaxLiabilityAsset</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_127" xlink:to="res_126" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_128" id="factVariable_62" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_123" xlink:to="res_128" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_128" xlink:to="res_125" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_128" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_129" id="crossPeriod_Liabilities" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_129" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_130" id="factVariable_63" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_129" xlink:to="res_130" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_131" id="loc_auto_129">
+      <cf:concept>
+        <cf:qname>ifrs:Liabilities</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_130" xlink:to="res_131" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_130" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_133" id="factVariable_64" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_129" xlink:to="res_133" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_132" id="loc_auto_130">
+      <cf:concept>
+        <cf:qname>ifrs:IncreaseDecreaseInFairValueMeasurementLiabilities</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_133" xlink:to="res_132" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_134" id="factVariable_65" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_129" xlink:to="res_134" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_134" xlink:to="res_131" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_134" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_135" id="crossPeriod_Equity_2" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_135" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_136" id="factVariable_66" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_135" xlink:to="res_136" order="2.0" name="beginningBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_136" xlink:to="res_17" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_136" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_138" id="factVariable_67" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_135" xlink:to="res_138" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_137" id="loc_auto_135">
+      <cf:concept>
+        <cf:qname>ifrs:IncreaseDecreaseInFairValueMeasurementEntitysOwnEquityInstruments</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_138" xlink:to="res_137" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_139" id="factVariable_68" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_135" xlink:to="res_139" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_139" xlink:to="res_17" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_139" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="res_140" id="crossPeriod_Assets" aspectModel="dimensional" implicitFiltering="true" test="$beginningBalance + $change1 eq $endingBalance"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="res_140" xlink:to="res_1" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_141" id="factVariable_69" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_140" xlink:to="res_141" order="2.0" name="beginningBalance"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_142" id="loc_auto_140">
+      <cf:concept>
+        <cf:qname>ifrs:Assets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_141" xlink:to="res_142" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_141" xlink:to="res_7" priority="0" order="2.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_144" id="factVariable_70" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_140" xlink:to="res_144" order="3.0" name="change1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="res_143" id="loc_auto_141">
+      <cf:concept>
+        <cf:qname>ifrs:IncreaseDecreaseInFairValueMeasurementAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_144" xlink:to="res_143" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="res_145" id="factVariable_71" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="res_140" xlink:to="res_145" order="4.0" name="endingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_145" xlink:to="res_142" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="res_145" xlink:to="res_9" priority="0" order="2.0" complement="false" cover="true"/>
+  </gen:link>
+</link:linkbase>

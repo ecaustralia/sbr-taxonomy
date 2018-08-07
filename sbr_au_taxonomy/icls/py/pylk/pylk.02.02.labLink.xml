@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="pylk.02.02.data.xsd#pylk.02.02_pylkAbstract" xlink:label="loc_pylk.02.02_pylkAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_pylkAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Party Links</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_pylk.02.02_pylkAbstract" xlink:to="lbl_pylkAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="pylk.02.02.data.xsd#DE14028" xlink:label="loc_DE14028"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14028" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payment Arrangement End Date</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14028" xlink:to="lbl_DE14028"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14028" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The end date of the payment arrangement.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pylk.02.02.data.xsd#DE14031" xlink:label="loc_DE14031"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14031" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payment Arrangement Payment Frequency Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14031" xlink:to="lbl_DE14031"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14031" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The code that represents the frequency on which the payment arrangement will be settled.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14031" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Monthly = Monthly
+Fortnightly = Fortnightly
+Quarterly = Quarterly
+Weekly = Weekly
+LumpSum = Lump Sum</link:label>
+        <link:loc xlink:type="locator" xlink:href="pylk.02.02.data.xsd#DE14025" xlink:label="loc_DE14025"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14025" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payment Arrangement Sequence Number</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14025" xlink:to="lbl_DE14025"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14025" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The value that identifies the sequence in which a payment arrangement has been submitted.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pylk.02.02.data.xsd#DE14027" xlink:label="loc_DE14027"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14027" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payment Arrangement Start Date</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14027" xlink:to="lbl_DE14027"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14027" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The start date of the payment arrangement.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pylk.02.02.data.xsd#DE14023" xlink:label="loc_DE14023"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14023" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payment Arrangement Status Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14023" xlink:to="lbl_DE14023"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14023" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The code that represents the status of the payment arrangement.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pylk.02.02.data.xsd#DE14024" xlink:label="loc_DE14024"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14024" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payment Arrangement Total Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14024" xlink:to="lbl_DE14024"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14024" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the total amount of the payment arrangement.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pylk.02.02.data.xsd#DE14026" xlink:label="loc_DE14026"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14026" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payment Arrangement Type Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14026" xlink:to="lbl_DE14026"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14026" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The code that represents the type of payment arrangement.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pylk.02.02.data.xsd#DE14014" xlink:label="loc_DE14014"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14014" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payment Arrangement Unique Identifier</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14014" xlink:to="lbl_DE14014"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14014" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The unique identifier of the payment arrangement between the payer and payee.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pylk.02.02.data.xsd#DE14029" xlink:label="loc_DE14029"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14029" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payment Arrangement Upfront Payment Amount</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14029" xlink:to="lbl_DE14029"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14029" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the value, during the relevant period, for the upfront payment related to the payment arrangement.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pylk.02.02.data.xsd#DE14030" xlink:label="loc_DE14030"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14030" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payment Arrangement Upfront Payment Date</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14030" xlink:to="lbl_DE14030"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14030" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The date of the upfront instalment related to the payment arrangement.</link:label>
+    </link:labelLink>
+</link:linkbase>

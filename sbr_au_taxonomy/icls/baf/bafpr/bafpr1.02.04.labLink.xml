@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+  <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.03.tech/dataElementStatus" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.03.xsd#dataElementStatus"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#bafpr1.02.04_bafpr1Abstract" xlink:label="loc_bafpr1.02.04_bafpr1Abstract"/>
+    <link:label xlink:type="resource" xlink:label="lbl_bafpr1Abstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial Performance 1</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_bafpr1.02.04_bafpr1Abstract" xlink:to="lbl_bafpr1Abstract"/>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE1661" xlink:label="loc_DE1661"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1661" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The expenses incurred in earning interest and dividends from Australian investments.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1661" xlink:to="lbl_DE1661"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1661" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Australian Investment Allowable Deduction Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE1885" xlink:label="loc_DE1885"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1885" xlink:role="http://sbr.gov.au/fdtn/sbr.01.03.tech/dataElementStatus" xml:lang="en">This element has been retired and should no longer be used.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1885" xlink:to="lbl_DE1885"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1885" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This element is the balancing item in a list of Expense items. It is the difference between "Expense.Total.Amount" and the separately disclosed items in the list.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1885" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Balancing Items Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2589" xlink:label="loc_DE2589"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2589" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The increased amount of superannuation lump sum death benefits.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2589" xlink:to="lbl_DE2589"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2589" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Death Benefit Lump Sum Increase Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE3484" xlink:label="loc_DE3484"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3484" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The deductions that do not fall into any other category.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3484" xlink:to="lbl_DE3484"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3484" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Deductible Other Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2593" xlink:label="loc_DE2593"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The code that best describes the greatest amount for other deductions.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2593" xlink:to="lbl_DE2593"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2593" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Legal values are:
+C =  Exclusion of personal contributions,
+F =  Foreign exchange losses, 
+B = Contribution that is a fringe benefit, 
+R = Return of contributions by non-complying funds, 
+A = Deductible balancing adjustment, 
+E = Environment protection expenditure, 
+I = Listed investment company capital gain amount, 
+N = Deduction relating to foreign non-assessable non-exempt income,
+S  = Superannuation (Financial Assistance Funding) Levy Act 1993, 
+O = Other deductions not previously listed, and
+T = TOFA losses or deductible TOFA balancing adjustment
+
+Where there are multiple categories of other deductions, the code that represents the category with the largest amount should be used.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2593" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Deductible Other Code</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE3990" xlink:label="loc_DE3990"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3990" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A description for any other deductible items not already claimed.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3990" xlink:to="lbl_DE3990"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3990" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Deductible Other Text</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE3989" xlink:label="loc_DE3989"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3989" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The total of all deductible expenses that have not been included elsewhere.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3989" xlink:to="lbl_DE3989"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3989" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Deductible Other Total Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE303" xlink:label="loc_DE303"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE303" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE303" xlink:to="lbl_DE303"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE303" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Depreciation and Amortisation Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE3991" xlink:label="loc_DE3991"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3991" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">An expense relating to the cost of managing distributions from other business entities.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3991" xlink:to="lbl_DE3991"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3991" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Distribution Deductions Other Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2591" xlink:label="loc_DE2591"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2591" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount of investment expenses incurred in deriving investment income.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2591" xlink:to="lbl_DE2591"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2591" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Investment Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE3992" xlink:label="loc_DE3992"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3992" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The expenses incurred on a landcare operation including an amount for the decline in value of water facilities.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3992" xlink:to="lbl_DE3992"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3992" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Landcare Operations And Water Facility Decline in Value Deduction Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE3993" xlink:label="loc_DE3993"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3993" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The total expense as a result of losses.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3993" xlink:to="lbl_DE3993"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3993" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Losses Total Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2592" xlink:label="loc_DE2592"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2592" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The expenses incurred in managing and administering.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2592" xlink:to="lbl_DE2592"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2592" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Management And Administration Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE4002" xlink:label="loc_DE4002"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4002" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount of exempt current pension income.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE4002" xlink:to="lbl_DE4002"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4002" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Pension Income Exempt Deduction Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2590" xlink:label="loc_DE2590"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2590" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount of insurance premiums expense to cover death or disability of a member.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2590" xlink:to="lbl_DE2590"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2590" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Premiums Death Or Disability Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE1721" xlink:label="loc_DE1721"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1721" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Adjustments used to reconcile the business operating profit or loss with the business taxable income.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1721" xlink:to="lbl_DE1721"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1721" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Reconciliation Adjustments Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE4003" xlink:label="loc_DE4003"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4003" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Total adjustment used to reconcile the business operating profit or loss with the business taxable income.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE4003" xlink:to="lbl_DE4003"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4003" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Reconciliation Adjustment Total Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2244" xlink:label="loc_DE2244"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2244" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2244" xlink:to="lbl_DE2244"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2244" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Research And Development Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2859" xlink:label="loc_DE2859"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2859" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2859" xlink:to="lbl_DE2859"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2859" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Reversals Of Provisions Other Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2235" xlink:label="loc_DE2235"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2235" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount of royalty expenses paid.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2235" xlink:to="lbl_DE2235"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2235" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expense Royalties Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2890" xlink:label="loc_DE2890"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2890" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2890" xlink:to="lbl_DE2890"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2890" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Adjustments On Cash Flow Hedges For Amounts Transferred To Initial Carrying Amount Gross Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2580" xlink:label="loc_DE2580"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2580" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount of assessable income following the change of tax status.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2580" xlink:to="lbl_DE2580"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2580" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Assessable Income Due To Fund Tax Status Change Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE3535" xlink:label="loc_DE3535"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3535" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The difference between amounts depending on an event resulting in income.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3535" xlink:to="lbl_DE3535"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE3535" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Balancing Adjustment Total Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE4006" xlink:label="loc_DE4006"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4006" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A beneficiary's share of income.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE4006" xlink:to="lbl_DE4006"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4006" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Beneficiary Share Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2528" xlink:label="loc_DE2528"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2528" xlink:role="http://sbr.gov.au/fdtn/sbr.01.03.tech/dataElementStatus" xml:lang="en">This element has been retired and should no longer be used.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2528" xlink:to="lbl_DE2528"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2528" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount of capital gains on assets from other Capital Gains Tax (CGT) assets and any other CGT events.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2528" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Capital Gains Or Losses Events And Assets Other Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2527" xlink:label="loc_DE2527"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2527" xlink:role="http://sbr.gov.au/fdtn/sbr.01.03.tech/dataElementStatus" xml:lang="en">This element has been retired and should no longer be used.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2527" xlink:to="lbl_DE2527"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2527" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount of Capital gains on assets from real estate.  Real estate includes vacant blocks of land, business premises, rental properties, holiday houses and hobby farms.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2527" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Capital Gains Or Losses Real Estate Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2526" xlink:label="loc_DE2526"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2526" xlink:role="http://sbr.gov.au/fdtn/sbr.01.03.tech/dataElementStatus" xml:lang="en">This element has been retired and should no longer be used.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2526" xlink:to="lbl_DE2526"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2526" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount of capital gains on  assets from shares and units (in unit trusts).</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2526" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Capital Gains Or Losses Shares And Units Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE4061" xlink:label="loc_DE4061"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4061" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE4061" xlink:to="lbl_DE4061"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4061" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Comprehensive Income Recognised In Relation To Non Current Assets Or Disposal Group Classifed As Held For Sales Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE4007" xlink:label="loc_DE4007"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4007" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The code for the trust from which the distribution is made or the code that indicates a loss has occurred</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE4007" xlink:to="lbl_DE4007"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4007" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Non primary production trust or loss code. If the amount is a loss, enter L. Otherwise enter the code from table that best describes the type of trust from which the distribution is made. If this amount is from more than one type of trust, enter the code that represents the trust with the greatest amount of distribution.                
+
+Codes that can be entered are:
+ L - Loss/negative 
+and Trusts as identified below 
+D - Deceased estate
+F -  Fixed trust - other than a fixed unit trust or public unit trust described in U, P or Q
+H - Hybrid trust
+S - Discretionary trust - where the main source of income of the trust is from service and/or management activities
+T - Discretionary trust - where the main source of income of the trust is from trading activities
+I - Discretionary trust - where the main source of income of the trust is from investment activities
+M - Cash management unit trust
+U - Fixed unit trust - other than a public unit trust described in P or Q
+P - Public unit trust (listed) - other than a cash management unit trust
+Q - Public unit trust (unlisted) - other than a cash management unit trust</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4007" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Distribution Trust Type Or Loss Code</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE1711" xlink:label="loc_DE1711"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1711" xlink:role="http://sbr.gov.au/fdtn/sbr.01.03.tech/dataElementStatus" xml:lang="en">This element has been retired and should no longer be used.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1711" xlink:to="lbl_DE1711"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1711" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">A dividend amount  paid by an Australian resident company from profits on which no company tax has been paid.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1711" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Dividends Unfranked Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE4008" xlink:label="loc_DE4008"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4008" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Excepted net income is the total of all excepted income, less any allowable deduction relevant to the earning of the excepted income.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE4008" xlink:to="lbl_DE4008"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4008" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Excepted Trust Net Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE4062" xlink:label="loc_DE4062"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4062" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE4062" xlink:to="lbl_DE4062"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4062" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Financial Income Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE1741" xlink:label="loc_DE1741"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1741" xlink:role="http://sbr.gov.au/fdtn/sbr.01.03.tech/dataElementStatus" xml:lang="en">This element has been retired and should no longer be used.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1741" xlink:to="lbl_DE1741"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1741" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Total amount of the income from each Forestry Managed Investment Scheme (FMIS) activities in which the entity holds a forestry interest.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1741" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Forestry Managed Investment Scheme Income Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2883" xlink:label="loc_DE2883"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2883" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2883" xlink:to="lbl_DE2883"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2883" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Gains Or Losses On Foreign Exchange Gross Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE4009" xlink:label="loc_DE4009"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4009" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The total of gains made.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE4009" xlink:to="lbl_DE4009"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4009" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Gains Total Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE4010" xlink:label="loc_DE4010"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4010" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Gross income is the sum of all income.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE4010" xlink:to="lbl_DE4010"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4010" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Gross Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE857" xlink:label="loc_DE857"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE857" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE857" xlink:to="lbl_DE857"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE857" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Net Foreign Exchange Gains Or Losses Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2905" xlink:label="loc_DE2905"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2905" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2905" xlink:to="lbl_DE2905"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2905" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Net Investment Hedges Net Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2581" xlink:label="loc_DE2581"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2581" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount of net other non-arms length income.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2581" xlink:to="lbl_DE2581"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2581" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Non Arms Length Other Net Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2583" xlink:label="loc_DE2583"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2583" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount of net non-arms length dividends paid by a private company.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2583" xlink:to="lbl_DE2583"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2583" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Non Arms Length Private Company Dividends Net Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2584" xlink:label="loc_DE2584"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2584" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The amount of net non-arms length trust distributions.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2584" xlink:to="lbl_DE2584"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2584" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Non Arms Length Trust Distributions Net Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE348" xlink:label="loc_DE348"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE348" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE348" xlink:to="lbl_DE348"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE348" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Other Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2577" xlink:label="loc_DE2577"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2577" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Enter the Code that best describes the greatest amount included in reported "Other income".</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2577" xlink:to="lbl_DE2577"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2577" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">F - Forex gains
+C - LIC capital gain amount
+B - Assessable balancing adjustment amount
+R - Rebate or refund of premium paid to provide death or disability benefits
+W - Gross payments subject to foreign resident withholding
+O - Other income received not listed above</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2577" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Other Code</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2004" xlink:label="loc_DE2004"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2004" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2004" xlink:to="lbl_DE2004"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2004" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Other Total Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE4012" xlink:label="loc_DE4012"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4012" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">An amount of income or loss distribution from partnerships less foreign income.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE4012" xlink:to="lbl_DE4012"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4012" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Partnership Distribution Less Foreign Income Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2886" xlink:label="loc_DE2886"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2886" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2886" xlink:to="lbl_DE2886"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2886" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Reclassification Adjustments On Available For Sale Financial Assets Gross Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2889" xlink:label="loc_DE2889"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2889" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2889" xlink:to="lbl_DE2889"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2889" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Reclassification Adjustments On Cash Flow Hedges Gross Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2884" xlink:label="loc_DE2884"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2884" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2884" xlink:to="lbl_DE2884"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2884" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Reclassification Adjustments On Foreign Exchange Differences Gross Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE1764" xlink:label="loc_DE1764"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1764" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The total adjustment used to reconcile the business operating profit or loss with the business taxable income.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1764" xlink:to="lbl_DE1764"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1764" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Reconciliation Adjustment Total Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE4013" xlink:label="loc_DE4013"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4013" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The net rental real estate property income or loss amount.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE4013" xlink:to="lbl_DE4013"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4013" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Rental Income Or Loss Net Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE351" xlink:label="loc_DE351"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE351" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE351" xlink:to="lbl_DE351"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE351" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Rent Leasing Hiring Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2245" xlink:label="loc_DE2245"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2245" xlink:role="http://sbr.gov.au/fdtn/sbr.01.03.tech/dataElementStatus" xml:lang="en">This element has been retired and should no longer be used.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2245" xlink:to="lbl_DE2245"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2245" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">Gross sales or revenue relating to research and development services.</link:label>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2245" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Research And Development Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE356" xlink:label="loc_DE356"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE356" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE356" xlink:to="lbl_DE356"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE356" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Services Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE2243" xlink:label="loc_DE2243"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2243" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE2243" xlink:to="lbl_DE2243"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE2243" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Services Construction Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE4014" xlink:label="loc_DE4014"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4014" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The total annual business turnover of the small business entity plus its affiliates and any entities it is connected with.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE4014" xlink:to="lbl_DE4014"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4014" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Small Business Entity Aggregated Group Turnover Total Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE4015" xlink:label="loc_DE4015"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4015" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The net income of a small business entity earned from business activities.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE4015" xlink:to="lbl_DE4015"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4015" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Small Business Entity Net Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE357" xlink:label="loc_DE357"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE357" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">For interpretation/definition of this item refer to the Australian Accounting Standards, as an example, see provided reference</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE357" xlink:to="lbl_DE357"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE357" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Total Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE4028" xlink:label="loc_DE4028"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4028" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The trust distribution of a dividend amount paid to a shareholder on which tax has already been paid.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE4028" xlink:to="lbl_DE4028"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4028" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Trust Distribution Franked Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE1880" xlink:label="loc_DE1880"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1880" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">An amount of income distributed from other trusts less net capital gains and foreign income.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1880" xlink:to="lbl_DE1880"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE1880" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Trust Distribution Less Net Capital Gain And Foreign Income Amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="bafpr1.02.04.data.xsd#DE4029" xlink:label="loc_DE4029"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4029" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The trust distribution of a dividend amount on which no tax has been paid.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE4029" xlink:to="lbl_DE4029"/>
+    <link:label xlink:type="resource" xlink:label="lbl_DE4029" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income Trust Distribution Unfranked Amount</link:label>
+  </link:labelLink>
+</link:linkbase>

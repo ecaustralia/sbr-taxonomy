@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance" xlink:type="simple"/>
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition" xlink:type="simple"/>
+	<link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+		<link:loc xlink:href="crigi.02.00.data.xsd#crigi.02.00_crigiAbstract" xlink:label="loc_crigiAbstract" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_crigiAbstract" xlink:to="lbl_crigiAbstract" xlink:type="arc"/>
+		<link:label xlink:label="lbl_crigiAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">General Insurance</link:label>
+		<link:loc xlink:href="crigi.02.00.data.xsd#DE716" xlink:label="loc_DE716" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE716" xlink:to="lbl_DE716" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE716" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Insurance Benefits Beneficiary Type Code</link:label>
+		<link:label xlink:label="lbl_DE716" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">This field must be set to one of the enumerated values. T = a payment made to trustee of the estate of the deceased; O = a payment made directly to a non-dependant of the deceased; D = a payment made directly to a dependant of the deceased</link:label>
+		<link:label xlink:label="lbl_DE716" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">The Death Benefit payee type can be the trustee of the estate of the deceased; a non-dependant of the deceased, or a dependant of the deceased.</link:label>
+		<link:loc xlink:href="crigi.02.00.data.xsd#DE715" xlink:label="loc_DE715" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE715" xlink:to="lbl_DE715" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE715" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Insurance Benefits Death Benefit Indicator</link:label>
+		<link:label xlink:label="lbl_DE715" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="resource" xml:lang="en">This field must be set to one of the enumerated values.</link:label>
+		<link:label xlink:label="lbl_DE715" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="resource" xml:lang="en">For employment termination payment, an employment termination payment received after another person&apos;s death, in consequence of the termination of that person&apos;s employment. For superannuation lump sum, a payment from a fund, after another person&apos;s death , because that other person was a fund member.</link:label>
+	</link:labelLink>
+</link:linkbase>

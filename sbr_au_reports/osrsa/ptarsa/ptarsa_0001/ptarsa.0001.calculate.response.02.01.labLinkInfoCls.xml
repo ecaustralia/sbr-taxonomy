@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#sbrReportLabel" xlink:type="simple"/>
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#Label" xlink:type="simple"/>
+	<link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:href="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd#reportGuidance" xlink:type="simple"/>
+	<link:roleRef roleURI="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.calculate.response.02.01/labRole" xlink:href="ptarsa.0001.calculate.response.02.01.report.xsd#ptarsa.0001.calculate.response.02.01.labLinkInfoCls" xlink:type="simple"/>
+	<link:labelLink xlink:role="http://sbr.gov.au/rprt/osrsa/ptarsa/ptarsa.0001.calculate.response.02.01/labRole" xlink:type="extended">
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc5.02.00.data.xsd#DE131" xlink:label="loc_DE131" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE131" xlink:to="lbl_DE131" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE131" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Calculated Tax Payable</link:label>
+		<link:label xlink:label="lbl_DE131" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Calculated Tax Payable - The calculated payroll tax amount is the calculated taxable amount multiplied by the applicable tax rate. The Calculated Payroll Tax is an estimate based on the information provided, a Commissioner&apos;s Assessment may be issued once data is reviewed by RevenueSA. This is not the figure that the entity is liable to pay as the existence of interest and penalty previously applied or assessed will affect the final assessment amount payable.</link:label>
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd#DE145" xlink:label="loc_DE145" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE145" xlink:to="lbl_DE145" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE145" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">SA Wage Components Total</link:label>
+		<link:label xlink:label="lbl_DE145" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">SA Taxable wages</link:label>
+		<link:label xlink:label="lbl_DE145" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">SA Taxable Wages Total</link:label>
+		<link:label xlink:label="lbl_DE145" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Group Member Total SA Wages</link:label>
+		<link:label xlink:label="lbl_DE145" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Expected Employer SA Wages</link:label>
+		<link:label xlink:label="lbl_DE145" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Single Lodger Member Status Period Total SA Wages</link:label>
+		<link:label xlink:label="lbl_DE145" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">SA Wage Components Total - The total taxable South Australian wages declared by the reporting party for the liable period.  This is the total of each wage component less exempt eligible trainee/apprentice wages.  SA wage components refers to the types of remunerations that are liable to payroll tax including:
+
+   Salaries and wages
+   Fringe benefits
+   Employer superannuation contributions
+   Director&apos;s fees
+   Payments to contractors under relevant contracts
+   Allowances
+   Share scheme contributions
+   Bonuses and Allowances
+   Commissions
+   Employment termination payments</link:label>
+		<link:label xlink:label="lbl_DE145" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">SA Taxable wages - SA Wages paid in South Australia in the given Group Status period.</link:label>
+		<link:label xlink:label="lbl_DE145" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">SA Taxable Wages Total - Total of SA Wages paid in South Australia for all Group Status Periods for the entire liable period.</link:label>
+		<link:label xlink:label="lbl_DE145" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Group Member Total SA Wages - SA Wages paid in South Australia by the group member while a member of the DGE group</link:label>
+		<link:label xlink:label="lbl_DE145" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Expected Employer SA Wages - Estimated South Australian Taxable wages for the reporting party for the next financial year.
+
+</link:label>
+		<link:label xlink:label="lbl_DE145" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Single Lodger Member Status Period Total SA Wages - SA Wages paid in South Australia by the single lodger group member in the group status period</link:label>
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd#DE150" xlink:label="loc_DE150" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE150" xlink:to="lbl_DE150" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE150" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Group SA Wages</link:label>
+		<link:label xlink:label="lbl_DE150" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Group SA Wages - As the Designated Group Employer for the selected Group Status period, you are required to declare all members of the group that paid wages in Australia during this period, and record their respective wages.  If group member details are not declared the Designated Group Employer cannot claim the deduction entitlement.</link:label>
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/lr/lrla/lrla.02.00.data.xsd#DE151" xlink:label="loc_DE151" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE151" xlink:to="lbl_DE151" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE151" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Group Interstate wages</link:label>
+		<link:label xlink:label="lbl_DE151" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Group Interstate wages - As the Designated Group Employer for the group, you are required to declare all members of the group that paid wages in Australia during this period, and record their respective interstate wages.</link:label>
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc5.02.00.data.xsd#DE395" xlink:label="loc_DE395" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE395" xlink:to="lbl_DE395" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE395" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Deduction Entitlement</link:label>
+		<link:label xlink:label="lbl_DE395" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Expected Annual Deduction</link:label>
+		<link:label xlink:label="lbl_DE395" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Deduction Entitlement - For South Australian payroll tax purposes the maximum deduction entitlement is determined by two factors.
+1. The number of days that the organisation/group employed Australia wide during the financial year.
+2. The portion of taxable wages (or group&apos;s taxable wages if applicable) that were paid in South Australia compared to their total Australia wide wages (or group&apos;s taxable Australia wide wages if applicable).</link:label>
+		<link:label xlink:label="lbl_DE395" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Expected Annual Deduction - Estimated annual deduction based on Expected Group Status Code, and expected South Australian and Interstate wages of the reporting party and Group Members</link:label>
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc5.02.00.data.xsd#DE502" xlink:label="loc_DE502" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE502" xlink:to="lbl_DE502" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE502" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Taxable Amount</link:label>
+		<link:label xlink:label="lbl_DE502" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Taxable Amount - The taxable amount is the value on which payroll tax is calculated. To obtain this value, the Payroll Tax Deduction total amount is subtracted from the taxable wages for reporting party. </link:label>
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc5.02.00.data.xsd#DE800" xlink:label="loc_DE800" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE800" xlink:to="lbl_DE800" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE800" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Interest Previously Applied</link:label>
+		<link:label xlink:label="lbl_DE800" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Interest Previously Applied - Total amount of interest applied to monthly defaults during the liable period and not remitted.</link:label>
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc5.02.00.data.xsd#DE801" xlink:label="loc_DE801" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE801" xlink:to="lbl_DE801" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE801" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Penalty Previously Applied</link:label>
+		<link:label xlink:label="lbl_DE801" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Penalty Previously Applied - Total amount of penalty applied to monthly defaults during the liable period and not remitted.</link:label>
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc5.02.00.data.xsd#DE804" xlink:label="loc_DE804" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE804" xlink:to="lbl_DE804" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE804" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Interest Applied to this Assessment</link:label>
+		<link:label xlink:label="lbl_DE804" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Interest Applied to this Assessment - Total amount of interest applied to this assessment.  Applied in accordance with the Taxation Administration Act 1996</link:label>
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc5.02.00.data.xsd#DE811" xlink:label="loc_DE811" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE811" xlink:to="lbl_DE811" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE811" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Penalty Applied to this Assessment</link:label>
+		<link:label xlink:label="lbl_DE811" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Penalty Applied to this Assessment - Total amount of penalty applied to this assessment. Applied in accordance with the Taxation Administration Act 1996</link:label>
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.03.data.xsd#DE824" xlink:label="loc_DE824" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE824" xlink:to="lbl_DE824" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE824" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Payment Method</link:label>
+		<link:label xlink:label="lbl_DE824" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Payment Method - Indicates whether a reporting party is an EFT Payer or a direct debit payer or requires a Bpay reference.</link:label>
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc3.02.00.data.xsd#DE868" xlink:label="loc_DE868" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE868" xlink:to="lbl_DE868" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE868" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Payroll Tax Rate Percentage</link:label>
+		<link:label xlink:label="lbl_DE868" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Payroll Tax Rate Percentage - Legislated rate in South Australia for the liable period. Generally this is the same for the financial year but Parliament could potentially set a rate that changes during the year. If this happens then a split calculation requiring different wages for each period is required.</link:label>
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc3.02.00.data.xsd#DE869" xlink:label="loc_DE869" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE869" xlink:to="lbl_DE869" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE869" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Tax Rate Type Code</link:label>
+		<link:label xlink:label="lbl_DE869" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Tax Rate Type Code - The Tax Rate Type Code defines the type of rate that is being applied.</link:label>
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE915" xlink:label="loc_DE915" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE915" xlink:to="lbl_DE915" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE915" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Return Identifier</link:label>
+		<link:label xlink:label="lbl_DE915" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Return Identifier - A unique number generated by the agency to identify each return for a reporting party and period.  This is required for pre-fill of forms.</link:label>
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/rvc/rvctc/rvctc5.02.00.data.xsd#DE1659" xlink:label="loc_DE1659" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE1659" xlink:to="lbl_DE1659" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE1659" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Amount Now Due</link:label>
+		<link:label xlink:label="lbl_DE1659" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Refund Due</link:label>
+		<link:label xlink:label="lbl_DE1659" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Amount Now Due - Amount Now Due is based on information entered relating to Calculated Tax Payable + Interest Previously Applied+ Penalty Previously Applied + Penalty Applied on Current Assessment  + Interest Applied on the Current Assessment less Tax Paid. </link:label>
+		<link:label xlink:label="lbl_DE1659" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Refund Due - Amount of Refund Due based on information entered relating entered relating to Calculated Tax Payable + Interest Previously Applied+ Penalty Previously Applied + Penalty Applied on Current Assessment  + Interest Applied on the Current Assessment less Tax Paid</link:label>
+		<link:loc xlink:href="../../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.02.data.xsd#DE3157" xlink:label="loc_DE3157" xlink:type="locator"/>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE3157" xlink:to="lbl_DE3157" xlink:type="arc"/>
+		<link:label xlink:label="lbl_DE3157" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">Payment Instructions</link:label>
+		<link:label xlink:label="lbl_DE3157" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/reportGuidance" xlink:type="resource" xml:lang="en">Payment Instructions - Instructions for making the payment</link:label>
+		<link:loc xlink:href="ptarsa.0001.calculate.response.02.01.report.xsd#RA1595" xlink:label="loc_RA1595" xlink:type="locator"/>
+		<link:label xlink:label="lbl_RA1595" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">GovernmentAgency [Abstract]</link:label>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA1595" xlink:to="lbl_RA1595" xlink:type="arc"/>
+		<link:loc xlink:href="ptarsa.0001.calculate.response.02.01.report.xsd#RA1556" xlink:label="loc_RA1556" xlink:type="locator"/>
+		<link:label xlink:label="lbl_RA1556" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">GroupStatusCurrent [Abstract]</link:label>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA1556" xlink:to="lbl_RA1556" xlink:type="arc"/>
+		<link:loc xlink:href="ptarsa.0001.calculate.response.02.01.report.xsd#RA1558" xlink:label="loc_RA1558" xlink:type="locator"/>
+		<link:label xlink:label="lbl_RA1558" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">GroupStatusNext [Abstract]</link:label>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA1558" xlink:to="lbl_RA1558" xlink:type="arc"/>
+		<link:loc xlink:href="ptarsa.0001.calculate.response.02.01.report.xsd#RA1557" xlink:label="loc_RA1557" xlink:type="locator"/>
+		<link:label xlink:label="lbl_RA1557" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">GroupStatusNONNSL [Abstract]</link:label>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA1557" xlink:to="lbl_RA1557" xlink:type="arc"/>
+		<link:loc xlink:href="ptarsa.0001.calculate.response.02.01.report.xsd#RA1554" xlink:label="loc_RA1554" xlink:type="locator"/>
+		<link:label xlink:label="lbl_RA1554" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">PTARSA Calculate Response [Abstract]</link:label>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA1554" xlink:to="lbl_RA1554" xlink:type="arc"/>
+		<link:loc xlink:href="ptarsa.0001.calculate.response.02.01.report.xsd#RA1555" xlink:label="loc_RA1555" xlink:type="locator"/>
+		<link:label xlink:label="lbl_RA1555" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/rprt/Label" xlink:type="resource" xml:lang="en">ReportingParty [Abstract]</link:label>
+		<link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RA1555" xlink:to="lbl_RA1555" xlink:type="arc"/>
+	</link:labelLink>
+</link:linkbase>

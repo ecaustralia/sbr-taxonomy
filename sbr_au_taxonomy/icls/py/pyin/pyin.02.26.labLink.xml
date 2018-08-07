@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#businessDefinition"/>
+    <link:roleRef roleURI="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xlink:type="simple" xlink:href="../../../fdtn/tech.sbr.01.02.xsd#dataElementGuidance"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:type="locator" xlink:href="pyin.02.26.data.xsd#pyin.02.26_pyinAbstract" xlink:label="loc_pyin.02.26_pyinAbstract"/>
+        <link:label xlink:type="resource" xlink:label="lbl_pyinAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Party Interaction</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_pyin.02.26_pyinAbstract" xlink:to="lbl_pyinAbstract"/>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.26.data.xsd#DE14036" xlink:label="loc_DE14036"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14036" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interaction Record Count</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14036" xlink:to="lbl_DE14036"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14036" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the number of records that are available to be returned in a list of values.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.26.data.xsd#DE14035" xlink:label="loc_DE14035"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14035" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interaction Record Limit Count</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14035" xlink:to="lbl_DE14035"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14035" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the maximum number of records to be returned in a list of values.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.26.data.xsd#DE14033" xlink:label="loc_DE14033"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14033" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payment Record Direct Debit Status Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14033" xlink:to="lbl_DE14033"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14033" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The code that represents the status of the direct debit of the payment.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14033" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Scheduled = Scheduled
+Processed = Processed
+Cancelled = Cancelled
+NotApplicable = Not Applicable
+Pending = Pending
+Failed = Failed</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.26.data.xsd#DE14034" xlink:label="loc_DE14034"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14034" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payment Record Locked Indicator</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14034" xlink:to="lbl_DE14034"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14034" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This indicates whether the payment record cannot be changed.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14034" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">A choice of TRUE/FALSE values:
+true = the payment record cannot be changed.
+false = the payment record can be changed.</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.26.data.xsd#DE831" xlink:label="loc_DE831"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE831" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payment Record Payment Status Code</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE831" xlink:to="lbl_DE831"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE831" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">This is the status associated with a payment made by an entity.</link:label>
+        <link:label xlink:type="resource" xlink:label="lbl_DE831" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/dataElementGuidance" xml:lang="en">Valid values are:
+Cancelled = Cancelled
+Failed = Failed
+Paid = Paid
+Pending = Pending
+Scheduled = Scheduled
+Default = Default</link:label>
+        <link:loc xlink:type="locator" xlink:href="pyin.02.26.data.xsd#DE14032" xlink:label="loc_DE14032"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14032" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payment Record Sequence Number</link:label>
+        <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DE14032" xlink:to="lbl_DE14032"/>
+        <link:label xlink:type="resource" xlink:label="lbl_DE14032" xlink:role="http://sbr.gov.au/fdtn/sbr.01.02.tech/businessDefinition" xml:lang="en">The value that identifies a specific payment within a sequence of payments.</link:label>
+    </link:labelLink>
+</link:linkbase>

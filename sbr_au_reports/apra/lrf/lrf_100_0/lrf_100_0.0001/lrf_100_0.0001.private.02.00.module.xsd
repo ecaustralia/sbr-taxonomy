@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:lrf_100_0.priv="http://sbr.gov.au/rprt/apra/sbr_au/sbr_au_reports/apra/lrf/lrf_100_0/lrf_100_0.0001/lrf_100_0.0001.private.02.00.module" xmlns:report="http://sbr.gov.au/rprt/apra/apra.report.02.00.module" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://sbr.gov.au/rprt/apra/sbr_au/sbr_au_reports/apra/lrf/lrf_100_0/lrf_100_0.0001/lrf_100_0.0001.private.02.00.module">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:href="lrf_100_0.0001.private.02.00.defLink.xml"/>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/defRole" id="lrf_100_0.0001.lodge.request.02.00.defLink">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_1" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_1">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_2" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_2">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_3" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_3">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_4" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_4">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_5" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_5">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_6" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_6">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_7" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_7">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_8" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_8">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_9" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_9">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_10" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_10">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_11" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_11">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_12" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_12">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_13" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_13">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_14" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_14">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_15" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_15">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_16" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_16">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_17" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_17">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_18" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_18">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_19" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_19">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_20" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_20">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_21" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_21">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_22" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_22">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_23" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_23">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_24" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_24">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_25" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_25">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_26" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_26">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_27" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_27">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_28" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_28">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_29" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_29">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_30" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_30">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_31" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_31">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_32" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_32">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_33" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_33">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_34" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_34">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_35" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_35">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_36" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_36">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_37" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_37">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_38" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_38">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_39" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_39">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_40" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_40">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_41" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_41">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_42" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_42">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_43" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_43">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_44" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_44">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_45" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_45">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_46" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_46">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_47" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_47">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_48" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_48">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_49" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_49">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/1_50" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink1_50">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_1" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_1">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_2" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_2">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_3" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_3">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_4" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_4">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_5" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_5">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_6" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_6">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_7" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_7">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_8" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_8">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_9" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_9">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_10" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_10">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_11" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_11">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_12" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_12">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_13" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_13">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_14" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_14">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_15" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_15">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_16" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_16">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_17" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_17">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_18" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_18">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_19" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_19">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_20" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_20">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_21" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_21">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_22" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_22">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_23" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_23">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_24" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_24">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_25" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_25">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_26" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_26">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_27" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_27">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_28" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_28">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_29" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_29">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_30" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_30">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_31" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_31">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_32" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_32">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_33" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_33">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_34" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_34">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_35" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_35">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_36" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_36">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_37" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_37">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_38" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_38">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_39" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_39">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_40" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_40">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_41" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_41">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_42" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_42">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_43" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_43">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_44" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_44">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_45" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_45">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_46" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_46">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_47" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_47">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_48" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_48">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_49" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_49">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/apra/lrf/lrf_100_0/lrf_100_0.private.02.00/hypercubes/2_50" id="lrf_100_0.0001.lodge.request.02.00.privateDefLink2_50">
+				<link:definition>lrf_100_0.0001_lodge_request</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/rprt/apra/apra.report.02.00.module" schemaLocation="../../../../../sbr_au_reports/apra/apracomn/apra.report.02.00.module.xsd"/>
+	<xsd:element nillable="true" name="HC1_1" id="HC1_1" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_1" id="RA1_1" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_2" id="HC1_2" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_2" id="RA1_2" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_3" id="HC1_3" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_3" id="RA1_3" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_4" id="HC1_4" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_4" id="RA1_4" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_5" id="HC1_5" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_5" id="RA1_5" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_6" id="HC1_6" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_6" id="RA1_6" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_7" id="HC1_7" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_7" id="RA1_7" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_8" id="HC1_8" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_8" id="RA1_8" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_9" id="HC1_9" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_9" id="RA1_9" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_10" id="HC1_10" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_10" id="RA1_10" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_11" id="HC1_11" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_11" id="RA1_11" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_12" id="HC1_12" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_12" id="RA1_12" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_13" id="HC1_13" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_13" id="RA1_13" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_14" id="HC1_14" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_14" id="RA1_14" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_15" id="HC1_15" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_15" id="RA1_15" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_16" id="HC1_16" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_16" id="RA1_16" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_17" id="HC1_17" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_17" id="RA1_17" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_18" id="HC1_18" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_18" id="RA1_18" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_19" id="HC1_19" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_19" id="RA1_19" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_20" id="HC1_20" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_20" id="RA1_20" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_21" id="HC1_21" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_21" id="RA1_21" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_22" id="HC1_22" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_22" id="RA1_22" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_23" id="HC1_23" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_23" id="RA1_23" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_24" id="HC1_24" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_24" id="RA1_24" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_25" id="HC1_25" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_25" id="RA1_25" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_26" id="HC1_26" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_26" id="RA1_26" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_27" id="HC1_27" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_27" id="RA1_27" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_28" id="HC1_28" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_28" id="RA1_28" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_29" id="HC1_29" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_29" id="RA1_29" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_30" id="HC1_30" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_30" id="RA1_30" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_31" id="HC1_31" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_31" id="RA1_31" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_32" id="HC1_32" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_32" id="RA1_32" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_33" id="HC1_33" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_33" id="RA1_33" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_34" id="HC1_34" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_34" id="RA1_34" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_35" id="HC1_35" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_35" id="RA1_35" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_36" id="HC1_36" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_36" id="RA1_36" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_37" id="HC1_37" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_37" id="RA1_37" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_38" id="HC1_38" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_38" id="RA1_38" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_39" id="HC1_39" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_39" id="RA1_39" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_40" id="HC1_40" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_40" id="RA1_40" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_41" id="HC1_41" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_41" id="RA1_41" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_42" id="HC1_42" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_42" id="RA1_42" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_43" id="HC1_43" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_43" id="RA1_43" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_44" id="HC1_44" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_44" id="RA1_44" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_45" id="HC1_45" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_45" id="RA1_45" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_46" id="HC1_46" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_46" id="RA1_46" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_47" id="HC1_47" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_47" id="RA1_47" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_48" id="HC1_48" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_48" id="RA1_48" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_49" id="HC1_49" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_49" id="RA1_49" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC1_50" id="HC1_50" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract1_50" id="RA1_50" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_1" id="HC2_1" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_1" id="RA2_1" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_2" id="HC2_2" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_2" id="RA2_2" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_3" id="HC2_3" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_3" id="RA2_3" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_4" id="HC2_4" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_4" id="RA2_4" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_5" id="HC2_5" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_5" id="RA2_5" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_6" id="HC2_6" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_6" id="RA2_6" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_7" id="HC2_7" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_7" id="RA2_7" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_8" id="HC2_8" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_8" id="RA2_8" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_9" id="HC2_9" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_9" id="RA2_9" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_10" id="HC2_10" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_10" id="RA2_10" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_11" id="HC2_11" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_11" id="RA2_11" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_12" id="HC2_12" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_12" id="RA2_12" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_13" id="HC2_13" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_13" id="RA2_13" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_14" id="HC2_14" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_14" id="RA2_14" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_15" id="HC2_15" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_15" id="RA2_15" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_16" id="HC2_16" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_16" id="RA2_16" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_17" id="HC2_17" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_17" id="RA2_17" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_18" id="HC2_18" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_18" id="RA2_18" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_19" id="HC2_19" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_19" id="RA2_19" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_20" id="HC2_20" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_20" id="RA2_20" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_21" id="HC2_21" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_21" id="RA2_21" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_22" id="HC2_22" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_22" id="RA2_22" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_23" id="HC2_23" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_23" id="RA2_23" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_24" id="HC2_24" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_24" id="RA2_24" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_25" id="HC2_25" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_25" id="RA2_25" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_26" id="HC2_26" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_26" id="RA2_26" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_27" id="HC2_27" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_27" id="RA2_27" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_28" id="HC2_28" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_28" id="RA2_28" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_29" id="HC2_29" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_29" id="RA2_29" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_30" id="HC2_30" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_30" id="RA2_30" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_31" id="HC2_31" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_31" id="RA2_31" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_32" id="HC2_32" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_32" id="RA2_32" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_33" id="HC2_33" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_33" id="RA2_33" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_34" id="HC2_34" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_34" id="RA2_34" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_35" id="HC2_35" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_35" id="RA2_35" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_36" id="HC2_36" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_36" id="RA2_36" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_37" id="HC2_37" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_37" id="RA2_37" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_38" id="HC2_38" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_38" id="RA2_38" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_39" id="HC2_39" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_39" id="RA2_39" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_40" id="HC2_40" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_40" id="RA2_40" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_41" id="HC2_41" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_41" id="RA2_41" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_42" id="HC2_42" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_42" id="RA2_42" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_43" id="HC2_43" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_43" id="RA2_43" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_44" id="HC2_44" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_44" id="RA2_44" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_45" id="HC2_45" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_45" id="RA2_45" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_46" id="HC2_46" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_46" id="RA2_46" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_47" id="HC2_47" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_47" id="RA2_47" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_48" id="HC2_48" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_48" id="RA2_48" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_49" id="HC2_49" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_49" id="RA2_49" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="HC2_50" id="HC2_50" substitutionGroup="xbrldt:hypercubeItem" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="Abstract2_50" id="RA2_50" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="LifeFundSegmentsDimensionDomain" id="LifeFundSegmentsDimensionDomain" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+	<xsd:element nillable="true" name="ReportPartyTypeDimensionDomain" id="ReportPartyTypeDimensionDomain" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant" type="xbrli:stringItemType"/>
+</xsd:schema>

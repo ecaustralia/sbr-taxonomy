@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dtyp.02.00="http://sbr.gov.au/fdtn/sbr.02.00.dtyp" xmlns:bafpo2.02.00="http://sbr.gov.au/icls/baf/bafpo/bafpo2.02.00.data" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/baf/bafpo/bafpo2.02.00.data" elementFormDefault="qualified">
+	<xsd:annotation>
+		<xsd:appinfo>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd" />
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.00.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.00.xsd" />
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:element name="bafpo2Abstract" id="bafpo2.02.00_bafpo2Abstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+	<xsd:element name="Equity.ContributedEquity.AuthorisedShares.Count" substitutionGroup="xbrli:item" nillable="true" id="DE3113" xbrli:periodType="instant" type="xbrli:nonNegativeIntegerItemType" block="substitution"/>
+	<xsd:element name="Equity.ContributedEquity.Disclosure.Text" substitutionGroup="xbrli:item" nillable="true" id="DE609" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="Equity.ContributedEquity.IssuedSharesFullyPaid.Count" substitutionGroup="xbrli:item" nillable="true" id="DE3114" xbrli:periodType="instant" type="xbrli:nonNegativeIntegerItemType" block="substitution"/>
+	<xsd:element name="Equity.ContributedEquity.IssuedSharesPartlyPaid.Count" substitutionGroup="xbrli:item" nillable="true" id="DE3115" xbrli:periodType="instant" type="xbrli:nonNegativeIntegerItemType" block="substitution"/>
+	<xsd:element name="Equity.ContributedEquity.NonAustralianShareholding.Percent" substitutionGroup="xbrli:item" nillable="true" id="DE1801" xbrli:periodType="duration" type="xbrli:pureItemType" block="substitution"/>
+	<xsd:element name="Equity.ContributedEquity.OrdinaryShares.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1528" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.ContributedEquity.OtherShares.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1530" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.ContributedEquity.ParValuePerShare.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE3116" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.ContributedEquity.PreferenceShares.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1529" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.ContributedEquity.ReservedShares.Count" substitutionGroup="xbrli:item" nillable="true" id="DE3118" xbrli:periodType="instant" type="xbrli:nonNegativeIntegerItemType" block="substitution"/>
+	<xsd:element name="Equity.ContributedEquity.RightsPreferencesRestrictionsOnClassOfShares.Text" substitutionGroup="xbrli:item" nillable="true" id="DE3117" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="Equity.ContributedEquity.ShareCapitalTotal.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1527" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.ContributedEquity.ShareClassName.Text" substitutionGroup="xbrli:item" nillable="true" id="DE3120" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="Equity.ContributedEquity.SharesHeldBySubsidiariesOrAssociates.Count" substitutionGroup="xbrli:item" nillable="true" id="DE3119" xbrli:periodType="instant" type="xbrli:nonNegativeIntegerItemType" block="substitution"/>
+	<xsd:element name="Equity.ContributedEquity.Total.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE580" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.Dividends.Disclosure.Text" substitutionGroup="xbrli:item" nillable="true" id="DE3109" xbrli:periodType="duration" type="xbrli:stringItemType" block="substitution"/>
+	<xsd:element name="Equity.Dividends.DistributionToUnitholders.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE464" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.Dividends.PaidFranked.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1809" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Equity.Dividends.PaidUnfranked.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1810" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Equity.Dividends.Paid.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE864" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="debit"/>
+	<xsd:element name="Equity.Reserves.AssetRevaluationReserveIntangiblesRevaluationSurplus.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1537" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.Reserves.AssetRevaluationReserveInvestmentInSubsidiaries.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1538" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.Reserves.AssetRevaluationReserveInvestmentsInAssociatesOrShareOfAssociates.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1539" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.Reserves.AssetRevaluationReserveOther.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1541" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.Reserves.AssetRevaluationReserveOwnerOccupiedProperty.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1535" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.Reserves.AssetRevaluationReservePlantAndEquipmentExcludingOwnerOccupiedProperty.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2794" xbrli:periodType="duration" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.Reserves.AssetRevaluationReservePlantAndEquipment.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1536" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.Reserves.AssetRevaluationReserveRelatingToNonCurrentAssetsOrDisposalGroupsHeldForSale.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1540" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.Reserves.AssetRevaluationReserveTotal.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1534" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.Reserves.AvailableForSaleReservesOther.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1544" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.Reserves.AvailableForSaleReservesTotal.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1655" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.Reserves.CapitalProfitsReserve.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1533" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.Reserves.CashFlowHedgeReserve.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1545" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.Reserves.ForeignCurrencyTranslationReserve.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1542" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.Reserves.GeneralReserves.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1532" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.Reserves.MarketableSecuritiesAvailableForSaleReserve.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1543" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.Reserves.Other.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1547" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.Reserves.ShareBasedPaymentsReserve.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1546" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.Reserves.SharePremium.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE2844" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+	<xsd:element name="Equity.Reserves.Total.Amount" substitutionGroup="xbrli:item" nillable="true" id="DE1531" xbrli:periodType="instant" type="xbrli:monetaryItemType" block="substitution" xbrli:balance="credit"/>
+</xsd:schema>

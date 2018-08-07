@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<xsd:schema targetNamespace="http://sbr.gov.au/rprt/osrnsw/ptarnsw/ptarnsw.0001.private.02.01.module" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ptarnsw.0001.prv.02.01="http://sbr.gov.au/rprt/osrnsw/ptarnsw/ptarnsw.0001.private.02.01.module" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:EmpGrpSts.02.04="http://sbr.gov.au/dims/EmpGrpSts.02.04.dims" xmlns:h01.02.01="http://sbr.gov.au/dims/AuStsTerrOS.02.01.dims" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:RprtPyType.02.03="http://sbr.gov.au/dims/RprtPyType.02.03.dims" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:h06.02.00="http://sbr.gov.au/dims/PrdType.02.00.dims" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:pyde.02.00="http://sbr.gov.au/icls/py/pyde/pyde.02.00.data" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:href="ptarnsw.0001.private.02.01.defLink.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="ptarnsw.0001.private.02.01.labLinkInfoCls.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.labLink.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="ptarnsw.0001.private.02.01.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.refLink.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/osrnsw/ptarnsw/ptarnsw.0001.private.02.01/labRole" id="ptarnsw.0001.02.00.privatelabLinkInfoCls">
+				<link:definition>ptarnsw.0001_private</link:definition>
+				<link:usedOn>link:labelLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/osrnsw/ptarnsw/ptarnsw.0001.private.02.01/refRole" id="ptarnsw.0001.02.00.privaterefLink">
+				<link:definition>ptarnsw.0001_private</link:definition>
+				<link:usedOn>link:referenceLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/osrnsw/ptarnsw/ptarnsw.0001.private.02.01/defRole" id="ptarnsw.0001.02.00.privatedefLink">
+				<link:definition>ptarnsw.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/osrnsw/ptarnsw/ptarnsw.0001.private.02.01/hypercubes/ReportingParty.NSW" id="ptarnsw.0001.02.00.privatedefLink.ReportingPartyNSW">
+				<link:definition>ptarnsw.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/osrnsw/ptarnsw/ptarnsw.0001.private.02.01/hypercubes/ReportingParty.NSW.GroupStructure.Period" id="ptarnsw.0001.02.00.privatedefLink.ReportingPartyNSWGroupStructurePeriod">
+				<link:definition>ptarnsw.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/osrnsw/ptarnsw/ptarnsw.0001.private.02.01/hypercubes/GroupMember.NSW.GroupStructure.GE.SLM.Period" id="ptarnsw.0001.02.00.privatedefLink.GroupMemberNSWGroupStructureGESLMPeriod">
+				<link:definition>ptarnsw.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://sbr.gov.au/rprt/osrnsw/ptarnsw/ptarnsw.0001.private.02.01/hypercubes/GroupMember.NSW.GroupStructure.DGE.Period" id="ptarnsw.0001.02.00.privatedefLink.GroupMemberNSWGroupStructureDGEPeriod">
+				<link:definition>ptarnsw.0001_private</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../../sbr_au_taxonomy/fdtn/tech.sbr.01.02.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/AuStsTerrOS.02.01.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/AuStsTerrOS.02.01.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/EmpGrpSts.02.04.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/EmpGrpSts.02.04.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/PrdType.02.00.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/PrdType.02.00.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/dims/RprtPyType.02.03.dims" schemaLocation="../../../../sbr_au_taxonomy/dims/RprtPyType.02.03.data.xsd"/>
+	<xsd:import namespace="http://sbr.gov.au/icls/py/pyde/pyde.02.00.data" schemaLocation="../../../../sbr_au_taxonomy/icls/py/pyde/pyde.02.00.data.xsd"/>
+	<xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+	<xsd:element name="ReportingPartyPrimaryItemsAbstract" id="RA1056" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyNSWGroupStructurePeriodPrimaryItemsAbstract" id="RA1057" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+	<xsd:element name="GroupMemberNSWGroupStructureGESLMPeriodPrimaryItemsAbstract" id="RA1602" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true"  xbrli:periodType="instant"/>
+	<xsd:element name="GroupMemberNSWGroupStructureDGEPeriodPrimaryItemsAbstract" id="RA1603" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true"  xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyNSW" id="HC1056" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true"  xbrli:periodType="instant"/>
+	<xsd:element name="ReportingPartyNSWGroupStructurePeriod" id="HC1057" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true"  xbrli:periodType="instant"/>
+	<xsd:element name="GroupMemberNSWGroupStructureGESLMPeriod" id="HC1602" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true"  xbrli:periodType="instant"/>
+	<xsd:element name="GroupMemberNSWGroupStructureDGEPeriod" id="HC1603" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true"  xbrli:periodType="instant"/>
+	<xsd:element name="StatesOrTerritoriesEmployedIn" id="RT1068" substitutionGroup="xbrli:tuple" nillable="true">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="pyde.02.00:AddressDetails.StateOrTerritory.Code"/>
+			</xsd:sequence>
+			<xsd:attribute name="id" use="optional" type="xsd:ID"/>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

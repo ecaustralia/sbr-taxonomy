@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/content/taxonomy_introduction_3_0.htm#Disclaimer -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/asic/asiccomn/asiccomn.listlodgmentstatus.request.02.00/defRole" xlink:type="simple" xlink:href="asiccomn.listlodgmentstatus.request.02.00.report.xsd#asiccomn.listlodgmentstatus.requestdefLink"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/asic/asiccomn/asiccomn.private.02.00/hypercubes/ReportingParty" xlink:type="simple" xlink:href="asiccomn.private.02.00.module.xsd#asiccomn.privatedefLink.ReportingParty"/>
+  <link:roleRef roleURI="http://sbr.gov.au/rprt/asic/asiccomn/asiccomn.private.02.00/hypercubes/ReportingPartyIntermediary" xlink:type="simple" xlink:href="asiccomn.private.02.00.module.xsd#asiccomn.privatedefLink.ReportingPartyIntermediary"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://sbr.gov.au/rprt/asic/asiccomn/asiccomn.listlodgmentstatus.request.02.00/defRole">
+    <link:loc xlink:type="locator" xlink:href="asiccomn.private.02.00.module.xsd#RA638" xlink:label="ReportingPartyFactsAbstract" xlink:title="ReportingPartyFactsAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE3121" xlink:label="Report.CriterionType.Code"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ReportingPartyFactsAbstract" xlink:to="Report.CriterionType.Code" xlink:title="definition: ReportingPartyFactsAbstract to Report.CriterionType.Code" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="asiccomn.private.02.00.module.xsd#HC638" xlink:label="asiccomn.ReportingParty" xlink:title="asiccomn.ReportingParty"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="ReportingPartyFactsAbstract" xlink:to="asiccomn.ReportingParty" xlink:title="definition: ReportingPartyPrimaryItemsAbstract to asiccomn.ReportingParty" use="optional" order="5.0" xbrldt:targetRole="http://sbr.gov.au/rprt/asic/asiccomn/asiccomn.private.02.00/hypercubes/ReportingParty" xbrldt:contextElement="segment" xbrldt:closed="false"/>
+    <link:loc xlink:type="locator" xlink:href="asiccomn.private.02.00.module.xsd#RA639" xlink:label="ReportingPartyIntermediaryPrimaryItemsAbstract" xlink:title="ReportingPartyIntermediaryPrimaryItemsAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="../../../sbr_au_taxonomy/icls/py/pyin/pyin.02.00.data.xsd#DE3155" xlink:label="Report.Submission.Date"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ReportingPartyIntermediaryPrimaryItemsAbstract" xlink:to="Report.Submission.Date" xlink:title="definition: ReportingPartyIntermediaryPrimaryItemsAbstract to Report.Submission.Date" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="asiccomn.private.02.00.module.xsd#HC639" xlink:label="asiccomn.ReportingPartyIntermediary" xlink:title="asiccomn.ReportingPartyIntermediary"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="ReportingPartyIntermediaryPrimaryItemsAbstract" xlink:to="asiccomn.ReportingPartyIntermediary" xlink:title="definition: ReportingPartyIntermediaryPrimaryItemsAbstract to asiccomn.ReportingPartyIntermediary" order="2.0" xbrldt:targetRole="http://sbr.gov.au/rprt/asic/asiccomn/asiccomn.private.02.00/hypercubes/ReportingPartyIntermediary" xbrldt:contextElement="segment" xbrldt:closed="false"/>
+  </link:definitionLink>
+</link:linkbase>

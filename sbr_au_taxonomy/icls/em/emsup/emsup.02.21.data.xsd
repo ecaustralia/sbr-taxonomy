@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Disclaimer: http://www.sbr.gov.au/software-developers/developer-tools/sbr-disclaimer-and-conditions-of-use -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:emsup.02.21="http://sbr.gov.au/icls/em/emsup/emsup.02.21.data" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:dtyp.02.30="http://sbr.gov.au/fdtn/sbr.02.30.dtyp" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://sbr.gov.au/icls/em/emsup/emsup.02.21.data" elementFormDefault="qualified">
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.02.30.dtyp" schemaLocation="../../../fdtn/dtyp.sbr.02.30.xsd"/>
+    <xsd:import namespace="http://sbr.gov.au/fdtn/sbr.01.02.tech" schemaLocation="../../../fdtn/tech.sbr.01.02.xsd"/>
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:element name="emsupAbstract" id="emsup.02.21_emsupAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="instant"/>
+    <xsd:element name="SuperannuationBenefit.DefinedBenefitPayments.Amount" id="DE13789" type="xbrli:monetaryItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationContribution.Transaction.Count" id="DE13325" type="xbrli:nonNegativeIntegerItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationFundDetails.MySuperProductLifecycleStageChangeStatus.Code" id="DE13750" type="dtyp.02.30:sbrMySuperProductLifecycleStageStatusCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationFundDetails.RegistrationEnd.Date" id="DE13762" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationFundDetails.RegistrationStart.Date" id="DE13761" type="xbrli:dateItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationFundDetails.SelectInvestmentOption.Identifier" id="DE14002" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationFundDetails.SelectInvestmentOptionName.Text" id="DE14001" type="xbrli:stringItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationFundDetails.SelectInvestmentOptionStatus.Code" id="DE14003" type="dtyp.02.30:sbrSelectInvestmentOptionStatusCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationFundDetails.SubFundChangeStatus.Code" id="DE13747" type="dtyp.02.30:sbrSubFundStatusCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+    <xsd:element name="SuperannuationRegulatoryInformation.MembershipProfileGender.Code" id="DE13216" type="dtyp.02.30:sbrMembershipProfileGenderXCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="SuperannuationRegulatoryInformation.RegistrableSuperannuationEntityLicenseeOwnership.Code" id="DE13741" type="dtyp.02.30:sbrRSELicenseeCodeItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+    <xsd:element name="SuperannuationRegulatoryInformation.SubFundExistence.Indicator" id="DE13746" type="xbrli:booleanItemType" block="substitution" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+</xsd:schema>
